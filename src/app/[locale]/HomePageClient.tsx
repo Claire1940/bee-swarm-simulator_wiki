@@ -50,7 +50,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
-import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
+import type { ModuleLinkMap, ArticleLink } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -70,12 +70,22 @@ function ModuleHeader({
   eyebrow,
   title,
   intro,
+  linkData,
+  locale,
 }: {
   icon: LucideIcon;
   eyebrow: string;
   title: string;
   intro: string;
+  linkData?: ArticleLink | null;
+  locale: string;
 }) {
+  // h2 命中对应文章时渲染为内页链接（en 无前缀，非 en 加 /locale 前缀）
+  const titleHref = linkData
+    ? locale === "en"
+      ? linkData.url
+      : `/${locale}${linkData.url}`
+    : null;
   return (
     <div className="mb-10 md:mb-14 scroll-reveal text-center">
       <div className="inline-flex items-center gap-2 rounded-full px-3 py-1.5 md:px-4 md:py-2 mb-4 md:mb-5 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
@@ -85,7 +95,13 @@ function ModuleHeader({
         </span>
       </div>
       <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4 leading-tight">
-        {title}
+        {titleHref ? (
+          <Link href={titleHref} className="hover:underline underline-offset-4">
+            {title}
+          </Link>
+        ) : (
+          title
+        )}
       </h2>
       <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
         {intro}
@@ -106,6 +122,7 @@ const cardIconWrap =
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -418,6 +435,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[0].title}
             title={codes.title}
             intro={codes.intro}
+            linkData={moduleLinkMap["codesAndRewards"]}
+            locale={locale}
           />
           {/* Active codes */}
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4 mb-8">
@@ -511,6 +530,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[1].title}
             title={beginner.title}
             intro={beginner.intro}
+            linkData={moduleLinkMap["bssBeginnerGuide"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-3 md:space-y-4 mb-8 md:mb-10">
             {beginner.steps.map((step: any, index: number) => (
@@ -566,6 +587,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[2].title}
             title={progression.title}
             intro={progression.intro}
+            linkData={moduleLinkMap["progressionAndGearOrder"]}
+            locale={locale}
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {progression.stages.map((stage: any, index: number) => {
@@ -623,6 +646,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[3].title}
             title={tierList.title}
             intro={tierList.intro}
+            linkData={moduleLinkMap["beeTierList"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-8">
             {tierList.groups.map((group: any, gi: number) => (
@@ -686,6 +711,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[4].title}
             title={hives.title}
             intro={hives.intro}
+            linkData={moduleLinkMap["hiveBuildsAndColors"]}
+            locale={locale}
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
             {hives.builds.map((build: any, index: number) => {
@@ -762,6 +789,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[5].title}
             title={quests.title}
             intro={quests.intro}
+            linkData={moduleLinkMap["questsAndBearsGuide"]}
+            locale={locale}
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {quests.bears.map((bear: any, index: number) => {
@@ -823,6 +852,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[6].title}
             title={store.title}
             intro={store.intro}
+            linkData={moduleLinkMap["gamepassesAndStoreGuide"]}
+            locale={locale}
           />
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {store.items.map((item: any, index: number) => {
@@ -883,6 +914,8 @@ export default function HomePageClient({
             eyebrow={t.tools.cards[7].title}
             title={events.title}
             intro={events.intro}
+            linkData={moduleLinkMap["beesmasEventsAndTrading"]}
+            locale={locale}
           />
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
             {events.events.map((event: any, index: number) => (
