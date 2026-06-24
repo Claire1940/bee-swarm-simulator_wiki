@@ -1,1 +1,706 @@
-{}
+{
+  "en": {
+    "bees": [
+      {
+        "slug": "bee-swarm-simulator-bee-tier-list",
+        "file": "bee-swarm-simulator-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-bees",
+        "file": "bee-swarm-simulator-bees"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-bee",
+        "file": "bee-swarm-simulator-best-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-favorite-treats",
+        "file": "bee-swarm-simulator-favorite-treats"
+      },
+      {
+        "slug": "bee-swarm-simulator-gifted-bee-tier-list",
+        "file": "bee-swarm-simulator-gifted-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-mythic-bee-chance",
+        "file": "bee-swarm-simulator-mythic-bee-chance"
+      },
+      {
+        "slug": "bee-swarm-simulator-vicious-bee",
+        "file": "bee-swarm-simulator-vicious-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-windy-bee",
+        "file": "bee-swarm-simulator-windy-bee"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "bee-swarm-simulator-codes",
+        "file": "bee-swarm-simulator-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "bee-swarm-simulator-beginner-guide",
+        "file": "bee-swarm-simulator-beginner-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-game-guide",
+        "file": "bee-swarm-simulator-early-game-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-guide",
+        "file": "bee-swarm-simulator-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-noob-to-pro",
+        "file": "bee-swarm-simulator-noob-to-pro"
+      },
+      {
+        "slug": "bee-swarm-simulator-progression-guide",
+        "file": "bee-swarm-simulator-progression-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-tips",
+        "file": "bee-swarm-simulator-tips"
+      },
+      {
+        "slug": "bee-swarm-simulator-upgrade-path",
+        "file": "bee-swarm-simulator-upgrade-path"
+      }
+    ],
+    "hives": [
+      {
+        "slug": "bee-swarm-simulator-blue-hive",
+        "file": "bee-swarm-simulator-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-blue-hive",
+        "file": "bee-swarm-simulator-early-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-builder",
+        "file": "bee-swarm-simulator-hive-builder"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-slots",
+        "file": "bee-swarm-simulator-hive-slots"
+      },
+      {
+        "slug": "bee-swarm-simulator-mixed-hive",
+        "file": "bee-swarm-simulator-mixed-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-red-hive",
+        "file": "bee-swarm-simulator-red-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-white-hive",
+        "file": "bee-swarm-simulator-white-hive"
+      }
+    ],
+    "items": [
+      {
+        "slug": "bee-swarm-simulator-amulets",
+        "file": "bee-swarm-simulator-amulets"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-gear",
+        "file": "bee-swarm-simulator-best-gear"
+      },
+      {
+        "slug": "bee-swarm-simulator-eggs",
+        "file": "bee-swarm-simulator-eggs"
+      },
+      {
+        "slug": "bee-swarm-simulator-equipment-guide",
+        "file": "bee-swarm-simulator-equipment-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-item-tier-list",
+        "file": "bee-swarm-simulator-item-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-planters",
+        "file": "bee-swarm-simulator-planters"
+      },
+      {
+        "slug": "bee-swarm-simulator-royal-jelly",
+        "file": "bee-swarm-simulator-royal-jelly"
+      },
+      {
+        "slug": "bee-swarm-simulator-tools",
+        "file": "bee-swarm-simulator-tools"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "bee-swarm-simulator-quests",
+        "file": "bee-swarm-simulator-quests"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "bee-swarm-simulator-bond",
+        "file": "bee-swarm-simulator-bond"
+      },
+      {
+        "slug": "bee-swarm-simulator-enzymes",
+        "file": "bee-swarm-simulator-enzymes"
+      },
+      {
+        "slug": "bee-swarm-simulator-glue",
+        "file": "bee-swarm-simulator-glue"
+      },
+      {
+        "slug": "bee-swarm-simulator-gumdrops",
+        "file": "bee-swarm-simulator-gumdrops"
+      },
+      {
+        "slug": "bee-swarm-simulator-nectar-guide",
+        "file": "bee-swarm-simulator-nectar-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-soft-wax",
+        "file": "bee-swarm-simulator-soft-wax"
+      },
+      {
+        "slug": "bee-swarm-simulator-stingers",
+        "file": "bee-swarm-simulator-stingers"
+      },
+      {
+        "slug": "bee-swarm-simulator-tickets",
+        "file": "bee-swarm-simulator-tickets"
+      }
+    ]
+  },
+  "es": {
+    "bees": [
+      {
+        "slug": "bee-swarm-simulator-bee-tier-list",
+        "file": "bee-swarm-simulator-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-bees",
+        "file": "bee-swarm-simulator-bees"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-bee",
+        "file": "bee-swarm-simulator-best-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-favorite-treats",
+        "file": "bee-swarm-simulator-favorite-treats"
+      },
+      {
+        "slug": "bee-swarm-simulator-gifted-bee-tier-list",
+        "file": "bee-swarm-simulator-gifted-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-mythic-bee-chance",
+        "file": "bee-swarm-simulator-mythic-bee-chance"
+      },
+      {
+        "slug": "bee-swarm-simulator-vicious-bee",
+        "file": "bee-swarm-simulator-vicious-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-windy-bee",
+        "file": "bee-swarm-simulator-windy-bee"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "bee-swarm-simulator-codes",
+        "file": "bee-swarm-simulator-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "bee-swarm-simulator-beginner-guide",
+        "file": "bee-swarm-simulator-beginner-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-game-guide",
+        "file": "bee-swarm-simulator-early-game-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-guide",
+        "file": "bee-swarm-simulator-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-noob-to-pro",
+        "file": "bee-swarm-simulator-noob-to-pro"
+      },
+      {
+        "slug": "bee-swarm-simulator-progression-guide",
+        "file": "bee-swarm-simulator-progression-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-tips",
+        "file": "bee-swarm-simulator-tips"
+      },
+      {
+        "slug": "bee-swarm-simulator-upgrade-path",
+        "file": "bee-swarm-simulator-upgrade-path"
+      }
+    ],
+    "hives": [
+      {
+        "slug": "bee-swarm-simulator-blue-hive",
+        "file": "bee-swarm-simulator-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-blue-hive",
+        "file": "bee-swarm-simulator-early-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-builder",
+        "file": "bee-swarm-simulator-hive-builder"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-slots",
+        "file": "bee-swarm-simulator-hive-slots"
+      },
+      {
+        "slug": "bee-swarm-simulator-mixed-hive",
+        "file": "bee-swarm-simulator-mixed-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-red-hive",
+        "file": "bee-swarm-simulator-red-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-white-hive",
+        "file": "bee-swarm-simulator-white-hive"
+      }
+    ],
+    "items": [
+      {
+        "slug": "bee-swarm-simulator-amulets",
+        "file": "bee-swarm-simulator-amulets"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-gear",
+        "file": "bee-swarm-simulator-best-gear"
+      },
+      {
+        "slug": "bee-swarm-simulator-eggs",
+        "file": "bee-swarm-simulator-eggs"
+      },
+      {
+        "slug": "bee-swarm-simulator-equipment-guide",
+        "file": "bee-swarm-simulator-equipment-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-item-tier-list",
+        "file": "bee-swarm-simulator-item-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-planters",
+        "file": "bee-swarm-simulator-planters"
+      },
+      {
+        "slug": "bee-swarm-simulator-royal-jelly",
+        "file": "bee-swarm-simulator-royal-jelly"
+      },
+      {
+        "slug": "bee-swarm-simulator-tools",
+        "file": "bee-swarm-simulator-tools"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "bee-swarm-simulator-quests",
+        "file": "bee-swarm-simulator-quests"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "bee-swarm-simulator-bond",
+        "file": "bee-swarm-simulator-bond"
+      },
+      {
+        "slug": "bee-swarm-simulator-enzymes",
+        "file": "bee-swarm-simulator-enzymes"
+      },
+      {
+        "slug": "bee-swarm-simulator-glue",
+        "file": "bee-swarm-simulator-glue"
+      },
+      {
+        "slug": "bee-swarm-simulator-gumdrops",
+        "file": "bee-swarm-simulator-gumdrops"
+      },
+      {
+        "slug": "bee-swarm-simulator-nectar-guide",
+        "file": "bee-swarm-simulator-nectar-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-soft-wax",
+        "file": "bee-swarm-simulator-soft-wax"
+      },
+      {
+        "slug": "bee-swarm-simulator-stingers",
+        "file": "bee-swarm-simulator-stingers"
+      },
+      {
+        "slug": "bee-swarm-simulator-tickets",
+        "file": "bee-swarm-simulator-tickets"
+      }
+    ]
+  },
+  "pt": {
+    "bees": [
+      {
+        "slug": "bee-swarm-simulator-bee-tier-list",
+        "file": "bee-swarm-simulator-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-bees",
+        "file": "bee-swarm-simulator-bees"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-bee",
+        "file": "bee-swarm-simulator-best-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-favorite-treats",
+        "file": "bee-swarm-simulator-favorite-treats"
+      },
+      {
+        "slug": "bee-swarm-simulator-gifted-bee-tier-list",
+        "file": "bee-swarm-simulator-gifted-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-mythic-bee-chance",
+        "file": "bee-swarm-simulator-mythic-bee-chance"
+      },
+      {
+        "slug": "bee-swarm-simulator-vicious-bee",
+        "file": "bee-swarm-simulator-vicious-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-windy-bee",
+        "file": "bee-swarm-simulator-windy-bee"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "bee-swarm-simulator-codes",
+        "file": "bee-swarm-simulator-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "bee-swarm-simulator-beginner-guide",
+        "file": "bee-swarm-simulator-beginner-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-game-guide",
+        "file": "bee-swarm-simulator-early-game-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-guide",
+        "file": "bee-swarm-simulator-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-noob-to-pro",
+        "file": "bee-swarm-simulator-noob-to-pro"
+      },
+      {
+        "slug": "bee-swarm-simulator-progression-guide",
+        "file": "bee-swarm-simulator-progression-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-tips",
+        "file": "bee-swarm-simulator-tips"
+      },
+      {
+        "slug": "bee-swarm-simulator-upgrade-path",
+        "file": "bee-swarm-simulator-upgrade-path"
+      }
+    ],
+    "hives": [
+      {
+        "slug": "bee-swarm-simulator-blue-hive",
+        "file": "bee-swarm-simulator-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-blue-hive",
+        "file": "bee-swarm-simulator-early-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-builder",
+        "file": "bee-swarm-simulator-hive-builder"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-slots",
+        "file": "bee-swarm-simulator-hive-slots"
+      },
+      {
+        "slug": "bee-swarm-simulator-mixed-hive",
+        "file": "bee-swarm-simulator-mixed-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-red-hive",
+        "file": "bee-swarm-simulator-red-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-white-hive",
+        "file": "bee-swarm-simulator-white-hive"
+      }
+    ],
+    "items": [
+      {
+        "slug": "bee-swarm-simulator-amulets",
+        "file": "bee-swarm-simulator-amulets"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-gear",
+        "file": "bee-swarm-simulator-best-gear"
+      },
+      {
+        "slug": "bee-swarm-simulator-eggs",
+        "file": "bee-swarm-simulator-eggs"
+      },
+      {
+        "slug": "bee-swarm-simulator-equipment-guide",
+        "file": "bee-swarm-simulator-equipment-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-item-tier-list",
+        "file": "bee-swarm-simulator-item-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-planters",
+        "file": "bee-swarm-simulator-planters"
+      },
+      {
+        "slug": "bee-swarm-simulator-royal-jelly",
+        "file": "bee-swarm-simulator-royal-jelly"
+      },
+      {
+        "slug": "bee-swarm-simulator-tools",
+        "file": "bee-swarm-simulator-tools"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "bee-swarm-simulator-quests",
+        "file": "bee-swarm-simulator-quests"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "bee-swarm-simulator-bond",
+        "file": "bee-swarm-simulator-bond"
+      },
+      {
+        "slug": "bee-swarm-simulator-enzymes",
+        "file": "bee-swarm-simulator-enzymes"
+      },
+      {
+        "slug": "bee-swarm-simulator-glue",
+        "file": "bee-swarm-simulator-glue"
+      },
+      {
+        "slug": "bee-swarm-simulator-gumdrops",
+        "file": "bee-swarm-simulator-gumdrops"
+      },
+      {
+        "slug": "bee-swarm-simulator-nectar-guide",
+        "file": "bee-swarm-simulator-nectar-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-soft-wax",
+        "file": "bee-swarm-simulator-soft-wax"
+      },
+      {
+        "slug": "bee-swarm-simulator-stingers",
+        "file": "bee-swarm-simulator-stingers"
+      },
+      {
+        "slug": "bee-swarm-simulator-tickets",
+        "file": "bee-swarm-simulator-tickets"
+      }
+    ]
+  },
+  "vi": {
+    "bees": [
+      {
+        "slug": "bee-swarm-simulator-bee-tier-list",
+        "file": "bee-swarm-simulator-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-bees",
+        "file": "bee-swarm-simulator-bees"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-bee",
+        "file": "bee-swarm-simulator-best-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-favorite-treats",
+        "file": "bee-swarm-simulator-favorite-treats"
+      },
+      {
+        "slug": "bee-swarm-simulator-gifted-bee-tier-list",
+        "file": "bee-swarm-simulator-gifted-bee-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-mythic-bee-chance",
+        "file": "bee-swarm-simulator-mythic-bee-chance"
+      },
+      {
+        "slug": "bee-swarm-simulator-vicious-bee",
+        "file": "bee-swarm-simulator-vicious-bee"
+      },
+      {
+        "slug": "bee-swarm-simulator-windy-bee",
+        "file": "bee-swarm-simulator-windy-bee"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "bee-swarm-simulator-codes",
+        "file": "bee-swarm-simulator-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "bee-swarm-simulator-beginner-guide",
+        "file": "bee-swarm-simulator-beginner-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-game-guide",
+        "file": "bee-swarm-simulator-early-game-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-guide",
+        "file": "bee-swarm-simulator-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-noob-to-pro",
+        "file": "bee-swarm-simulator-noob-to-pro"
+      },
+      {
+        "slug": "bee-swarm-simulator-progression-guide",
+        "file": "bee-swarm-simulator-progression-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-tips",
+        "file": "bee-swarm-simulator-tips"
+      },
+      {
+        "slug": "bee-swarm-simulator-upgrade-path",
+        "file": "bee-swarm-simulator-upgrade-path"
+      }
+    ],
+    "hives": [
+      {
+        "slug": "bee-swarm-simulator-blue-hive",
+        "file": "bee-swarm-simulator-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-early-blue-hive",
+        "file": "bee-swarm-simulator-early-blue-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-builder",
+        "file": "bee-swarm-simulator-hive-builder"
+      },
+      {
+        "slug": "bee-swarm-simulator-hive-slots",
+        "file": "bee-swarm-simulator-hive-slots"
+      },
+      {
+        "slug": "bee-swarm-simulator-mixed-hive",
+        "file": "bee-swarm-simulator-mixed-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-red-hive",
+        "file": "bee-swarm-simulator-red-hive"
+      },
+      {
+        "slug": "bee-swarm-simulator-white-hive",
+        "file": "bee-swarm-simulator-white-hive"
+      }
+    ],
+    "items": [
+      {
+        "slug": "bee-swarm-simulator-amulets",
+        "file": "bee-swarm-simulator-amulets"
+      },
+      {
+        "slug": "bee-swarm-simulator-best-gear",
+        "file": "bee-swarm-simulator-best-gear"
+      },
+      {
+        "slug": "bee-swarm-simulator-eggs",
+        "file": "bee-swarm-simulator-eggs"
+      },
+      {
+        "slug": "bee-swarm-simulator-equipment-guide",
+        "file": "bee-swarm-simulator-equipment-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-item-tier-list",
+        "file": "bee-swarm-simulator-item-tier-list"
+      },
+      {
+        "slug": "bee-swarm-simulator-planters",
+        "file": "bee-swarm-simulator-planters"
+      },
+      {
+        "slug": "bee-swarm-simulator-royal-jelly",
+        "file": "bee-swarm-simulator-royal-jelly"
+      },
+      {
+        "slug": "bee-swarm-simulator-tools",
+        "file": "bee-swarm-simulator-tools"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "bee-swarm-simulator-quests",
+        "file": "bee-swarm-simulator-quests"
+      }
+    ],
+    "resources": [
+      {
+        "slug": "bee-swarm-simulator-bond",
+        "file": "bee-swarm-simulator-bond"
+      },
+      {
+        "slug": "bee-swarm-simulator-enzymes",
+        "file": "bee-swarm-simulator-enzymes"
+      },
+      {
+        "slug": "bee-swarm-simulator-glue",
+        "file": "bee-swarm-simulator-glue"
+      },
+      {
+        "slug": "bee-swarm-simulator-gumdrops",
+        "file": "bee-swarm-simulator-gumdrops"
+      },
+      {
+        "slug": "bee-swarm-simulator-nectar-guide",
+        "file": "bee-swarm-simulator-nectar-guide"
+      },
+      {
+        "slug": "bee-swarm-simulator-soft-wax",
+        "file": "bee-swarm-simulator-soft-wax"
+      },
+      {
+        "slug": "bee-swarm-simulator-stingers",
+        "file": "bee-swarm-simulator-stingers"
+      },
+      {
+        "slug": "bee-swarm-simulator-tickets",
+        "file": "bee-swarm-simulator-tickets"
+      }
+    ]
+  }
+}

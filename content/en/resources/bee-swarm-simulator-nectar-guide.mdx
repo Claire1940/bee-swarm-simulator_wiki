@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Nectar Guide: Best Buffs & Farming Routes",
+  description: "Master the bee swarm simulator nectar guide. Learn planter placement, nectar buffs, decay rates, and advanced farming routes to maximize your honey gains.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f6c518/111?text=Nectar+Guide",
+  date: "2026-06-24",
+  author: "bee swarm simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Nectars are powerful, long-lasting buffs obtained by harvesting planters placed in specific fields.
+- **Nectar Types**: There are five unique types of Nectars, each offering specialized boosts for different hive colors and farming styles.
+- **Decay System**: Nectar buffs decay over time, requiring players to strategically rotate planters to maintain high uptime.
+- **Storage Strategy**: Utilize the Nectar Condenser to store excess nectar and customize active buff configurations.
+- **Optimal Choice**: Match your planter type to the field's native nectar preference to multiply your nectar generation rate.
+</Callout>
+
+<Section icon={Sparkles} title="Nectar System Mechanics & Buff Overview">
+
+The nectar system is one of the most critical progression mechanics for mid-to-late game players looking to optimize their pollen collection and honey generation. Unlike temporary field boosts, nectars provide passive, long-term stat multipliers that can stack up to 24 hours in duration. Understanding how these buffs interact with your hive build is essential for scaling your honey production.
+
+There are five distinct types of nectars: Refreshing, Invigorating, Comforting, Satisfying, and Motivating. Each type boosts specific stats, ranging from color-targeted pollen multipliers to capacity increases and conversion efficiency. To acquire these buffs, you must place planters in various fields across the map, allow them to grow, and harvest them once they accumulate nectar.
+
+| Nectar Type | Primary Buffs | Secondary Buffs | Decay Rate (Per Min) |
+|---|---|---|---|
+| **Refreshing** | +1.25x Blue Pollen, +1.15x Capacity | +10% Haste, +5% Bee Ability Rate | 0.069% |
+| **Invigorating** | +1.25x Red Pollen, +10% Bee Attack | +5% Critical Chance, +15% Player Speed | 0.069% |
+| **Comforting** | +1.25x Blue Pollen, +1.15x Honey Per Pollen | +10% Defense, +5% Puppy Bee Love | 0.069% |
+| **Satisfying** | +1.25x White Pollen, +1.15x Honey From Tokens | +10% Bond From Treats, +5% Loot Luck | 0.069% |
+| **Motivating** | +1.2x Pollen, +1.15x Honey From Quests | +10% Move Speed, +5% Player Attack | 0.069% |
+
+<Callout type="tip" title="Decay Management">
+Nectar buffs decay at a flat rate of approximately 4.16% per hour when you are actively playing. To maintain a 24-hour stack, you must consistently harvest planters or utilize stored nectar vials to replenish your active meters.
+</Callout>
+
+Each nectar type can be stacked up to a maximum duration of 24 hours. As the stack size increases, the potency of the active buffs scales linearly. For example, having 1 hour of Refreshing Nectar provides a minor boost, whereas maintaining a full 24-hour stack yields the maximum multipliers listed in the table above. Managing these stacks simultaneously is the key to executing high-yield active boosts.
+
+</Section>
+
+<Section icon={Map} title="Planter Matching & Field Selection">
+
+To farm nectar efficiently, you must match the right planter with the right field. Every field on the mountain has a native nectar preference, meaning it naturally yields higher concentrations of a specific nectar type. Additionally, different planters have unique multipliers that speed up growth or increase the purity of the harvested nectar.
+
+Placing a planter in a field that matches its preferred nectar type results in faster growth cycles and significantly higher nectar yields upon harvest. Conversely, placing a planter in an incompatible field will dilute the output, giving you a mix of secondary nectars instead of the concentrated buff you need.
+
+| Field Name | Native Nectar Type | Growth Rate Multiplier | Recommended Planter |
+|---|---|---|---|
+| **Pine Tree Forest** | Comforting | 1.5x | Hydroponic Planter / Clay Planter |
+| **Pepper Patch** | Invigorating | 1.5x | Heat-Treated Planter / Clay Planter |
+| **Coconut Field** | Satisfying | 1.25x | Pesticide Planter / Plastic Planter |
+| **Strawberry Field** | Refreshing | 1.25x | Candy Planter / Red Clay Planter |
+| **Dandelion Field** | Motivating | 1.25x | Tacky Planter / Ticket Planter |
+| **Blue Flower Field** | Comforting | 1.25x | Blue Clay Planter / Paper Planter |
+
+<CardGrid cols={4}>
+  <Card title="Pesticide Planter">
+    - **Best For**: Satisfying Nectar
+    - Highly effective in Coconut and Pumpkin fields
+    - Drops toxic waste that boosts local flower growth
+  </Card>
+  <Card title="Hydroponic Planter">
+    - **Best For**: Comforting Nectar
+    - Ideal for Pine Tree Forest farming
+    - Significantly accelerates blue nectar accumulation
+  </Card>
+  <Card title="Heat-Treated Planter">
+    - **Best For**: Invigorating Nectar
+    - Perfect for Pepper Patch and Rose Field
+    - Generates red clay bonuses and active flame buffs
+  </Card>
+  <Card title="Petal Planter">
+    - **Best For**: Multi-Nectar Stacking
+    - Universal growth bonus in all mountain fields
+    - Periodically spawns rare shroom and star jelly rewards
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Over-Harvesting Penalties">
+Harvesting the same field repeatedly with planters within a short period reduces the nectar yield. Always rotate your planters across different fields of the same nectar type to avoid the soil depletion penalty, which can slash your nectar gains by up to 50%.
+</Callout>
+
+Planters do not grow based on real-world time alone; they require you to actively collect pollen in the field where they are placed, or in adjacent fields depending on the planter's tier. To speed up growth, stand in the field with your planter and farm pollen actively. Your bees will automatically deposit a portion of their gathered pollen directly into the planter, accelerating its harvest timer.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Bee Swarm Simulator Nectar Guide">
+
+Maximizing your nectar stacks requires a structured daily routine. If you randomly drop planters around the mountain, you will end up with fragmented buffs that decay faster than you can replenish them. Follow these steps to build a self-sustaining nectar rotation.
+
+<Steps>
+  <Step num="1" title="Analyze Your Hive Goals">
+    Determine which nectar buffs align with your current hive color. Blue hives should prioritize Comforting and Refreshing, Red hives require Invigorating and Satisfying, while White hives must focus on Satisfying and Motivating. Do not waste planter slots on irrelevant nectar types.
+  </Step>
+  <Step num="2" title="Deploy Your Planter Rotation">
+    Place your highest-tier planters in the primary fields associated with your target nectars. For example, if you are a blue hive, place your Hydroponic Planter in the Pine Tree Forest and your Blue Clay Planter in the Bamboo Field. Ensure you do not place multiple planters in the same field simultaneously.
+  </Step>
+  <Step num="3" title="Accelerate Growth via Active Farming">
+    Spend 10 to 15 minutes farming in the fields where your planters are deployed. If you have multiple planters active, rotate between the fields to distribute the growth acceleration evenly. Collect all ability tokens dropped by your bees, as these provide localized growth boosts to active planters.
+  </Step>
+  <Step num="4" title="Harvest at Optimal Thresholds">
+    Only harvest your planters when they reach 100% growth to secure the maximum possible nectar duration. Harvesting early yields a disproportionately low amount of buff time and wastes the planter's cooldown cycle. Always check your planter status via the system menu before harvesting.
+  </Step>
+  <Step num="5" title="Utilize the Nectar Condenser">
+    Deposit any excess nectar harvested from your planters into the Nectar Condenser located near the 30-Bee Zone. The condenser allows you to store up to 24 hours of each nectar type in vial form, which can be consumed instantly before starting a major farming boost session.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stacking Efficiency">
+Following this rotation daily will allow you to maintain a baseline of 12 to 18 hours of your primary nectar buffs with less than 30 minutes of active setup time per day.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hive-Specific Nectar Farming Routes">
+
+Different hive builds require completely different nectar setups to perform optimally. A red hive farming in the Pepper Patch will get almost no value from Comforting Nectar, while a blue hive will see its honey rates skyrocket with it. To help you plan your layout, we have mapped out the precise nectar priorities and field rotations for the three main endgame hive colors.
+
+| Hive Color | Priority Nectars | Primary Fields | Secondary Fields | Target Buff Combination |
+|---|---|---|---|---|
+| **Blue Hive** | Comforting, Refreshing | Pine Tree Forest, Bamboo | Stump Field, Clover | +1.25x Blue Pollen, +1.15x Capacity, +1.15x Honey Per Pollen |
+| **Red Hive** | Invigorating, Satisfying | Pepper Patch, Rose Field | Strawberry, Mushroom | +1.25x Red Pollen, +10% Bee Attack, +1.15x Honey From Tokens |
+| **White Hive** | Satisfying, Motivating | Coconut Field, Spider Field | Pineapple, Pumpkin | +1.25x White Pollen, +1.2x Pollen, +1.15x Honey From Tokens |
+
+<Checklist
+  id="daily-nectar-checklist"
+  title="Daily Nectar Maintenance Tasks:"
+  items={[
+    "Check active nectar durations before starting your first farm session",
+    "Deploy at least three planters in fields matching your hive's primary nectar types",
+    "Farm in planter fields to trigger the 1.5x active growth speed multiplier",
+    "Harvest completed planters and store excess nectar in the Condenser",
+    "Rotate planter fields daily to prevent soil depletion and maintain maximum yield percentages"
+  ]}
+/>
+
+<Callout type="tip" title="Endgame Optimization">
+If you have unlocked the Supreme Star Amulet, coordinate your active nectar stacks with your passive triggers. For instance, Pop Star passives benefit immensely from the combined capacity boosts of Refreshing Nectar and the conversion rates of Comforting Nectar.
+</Callout>
+
+When planning an active boost session using Glitter, Field Dice, and Purple Potions, always ensure your target nectars are stacked to at least 15 hours. The multiplicative nature of nectar buffs means they scale dramatically when combined with high-tier consumables, turning a standard farming run into a multi-billion honey harvest.
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+To wrap up our guide, we have compiled answers to the most common questions players ask when trying to master the planter and nectar systems.
+
+<FAQ items={[
+  {
+    question: "Do planters grow when I am offline or in another Roblox game?",
+    answer: "Planters continue to grow while you are offline, but at a significantly reduced rate. To maximize growth speed, it is highly recommended to remain active in the game, preferably farming in the same field where the planter is placed."
+  },
+  {
+    question: "Can I stack all five nectar buffs at the same time?",
+    answer: "Yes, you can have all five nectar buffs active simultaneously. However, maintaining high stack durations for all five is extremely difficult and time-consuming. It is much more efficient to focus on the 2 or 3 nectars that directly benefit your specific hive color."
+  },
+  {
+    question: "What is the fastest way to replenish decayed nectar in this bee swarm simulator nectar guide?",
+    answer: "The fastest way to replenish decayed nectar is by consuming Nectar Vials, which can be crafted or obtained from high-tier planters. Additionally, harvesting a 100% grown planter in a preferred field will instantly restore several hours of the corresponding buff."
+  },
+  {
+    question: "Does the size of my hive affect how fast planters grow?",
+    answer: "Yes. Because planters grow faster when bees deposit pollen into them, having a larger swarm with higher gather speed and better ability rate stats will naturally accelerate the growth cycles of any planter you deploy."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The nectar system reward ratios are subject to balance updates by Onett. Always monitor official community channels and patch notes to stay informed of any adjustments to planter yields or decay mechanics.
+</Callout>
+
+</Section>

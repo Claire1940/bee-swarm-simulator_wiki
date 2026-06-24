@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn Bee Swarm Simulator: Tiến trình & Cách xây dựng tổ ong",
+  description: "Làm chủ Roblox Bee Swarm Simulator với hướng dẫn chuyên sâu từ chuyên gia của chúng tôi. Tìm hiểu lộ trình nâng cấp trang bị tốt nhất, mã đổi thưởng hoạt động, danh sách xếp hạng ong và các cách xây dựng tổ ong chuyên biệt.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Bee+Swarm+Simulator+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Từ khóa chính**: Làm theo **hướng dẫn bee swarm simulator** toàn diện này để tối ưu hóa việc thu thập phấn hoa, ấp những chú ong cấp cao và mở rộng quy mô sản xuất mật ong của bạn.
+- **Chiến lược tiến trình**: Luôn ưu tiên nâng cấp balo và dụng cụ thu thập trước khi mua các vật phẩm trang trí đắt tiền hoặc trứng ngẫu nhiên.
+- **Tối ưu hóa tổ ong**: Duy trì một tổ ong hỗn hợp, cân bằng trong giai đoạn đầu và giữa game để hoàn thành các nhiệm vụ gấu khác nhau một cách hiệu quả.
+- **Quản lý mã (code)**: Đổi các mã khuyến mãi đang hoạt động một cách có chiến thuật, vì các bùa tăng cường thực địa sẽ kích hoạt ngay lập tức và không nên lãng phí.
+- **Chuyển đổi cuối game**: Tránh chuyên môn hóa vào một màu tổ ong duy nhất (Đỏ, Xanh hoặc Trắng) cho đến khi bạn mở khóa được Bùa Ngôi Sao Tối Cao.
+</Callout>
+
+<Section icon={Trophy} title="Mã Code Đang Hoạt Động và Phần Thưởng Miễn Phí">
+
+Sử dụng các mã khuyến mãi đang hoạt động là cách nhanh nhất để tăng tốc tiến trình của bạn trong giai đoạn đầu và giữa game. Những mã này cung cấp các tài nguyên thiết yếu, bao gồm mật ong, vé, kẹo dẻo và các bùa tăng cường thực địa tức thì. Để tối đa hóa giá trị của bùa tăng cường thực địa, chỉ nên đổi chúng khi bạn đã chuẩn bị sẵn sàng để farm ở những cánh đồng cụ thể đó.
+
+| Mã Code | Tóm tắt phần thưởng | Vật phẩm chính bao gồm |
+| :--- | :--- | :--- |
+| **fourtunate** | 1 Ong dẻo Marshmallow, 4 Xúc xắc cánh đồng, 4 Máy vi chuyển đổi, Trái cây, Ngòi ong | Ong dẻo Marshmallow, Ngòi ong |
+| **15MMembers** | 15 Kẹo dẻo, 1 Ong dẻo Marshmallow, 15 Quả đắng, Trái cây, 1 Bong bóng đỏ | Bong bóng đỏ, Quả đắng |
+| **BeesBuzz123** | 10 Kẹo dẻo, 5 Quả đắng, 1 Lọ mây | Lọ mây, Kẹo dẻo |
+| **ClubBean** | 1 Đậu thần, 2 Tăng cường Cánh đồng Dứa | Đậu thần, Bùa tăng cường thực địa |
+| **Wax** | 5.000 Mật ong, 5 Vé | Vé, Mật ong |
+| **Nectar** | 5.000 Mật ong | Mật ong |
+| **38217** | 5 Vé | Vé |
+| **BopMaster** | 5 Vé | Vé |
+| **Connoisseur** | 5 Vé | Vé |
+| **Crawlers** | 5 Vé | Vé |
+| **Roof** | 5 Vé | Vé |
+
+<Callout type="warning" title="Quy tắc đổi thưởng">
+Trước khi cố gắng đổi các mã độc quyền của câu lạc bộ như **ClubBean**, bạn phải tham gia [Bee Swarm Simulator Club](https://www.roblox.com/communities/3982592/Bee-Swarm-Simulator-Club) chính thức trên Roblox. Nếu bạn không phải là thành viên của câu lạc bộ, các mã này sẽ báo lỗi trong game.
+</Callout>
+
+### Cách nhập Code trong Bee Swarm Simulator
+
+Để nhận phần thưởng của bạn, hãy khởi chạy trải nghiệm chính thức trên Roblox và tìm biểu tượng bánh răng ở góc trên cùng bên trái màn hình. Nhấp vào biểu tượng này để mở menu cài đặt, nơi có một hộp văn bản nhãn "Codes".
+
+Nhập hoặc dán mã của bạn chính xác như được viết, sau đó nhấn nút đổi thưởng (redeem). Phần thưởng của bạn sẽ được cộng vào kho đồ ngay lập tức. Hãy nhớ tiết kiệm các mã chứa máy vi chuyển đổi và bùa tăng cường thực địa cho các phiên farm tích cực thay vì đổi chúng một cách lãng phí.
+
+</Section>
+
+<Section icon={Map} title="Lộ trình cho người mới bắt đầu và Vòng lặp lối chơi cốt lõi">
+
+Vòng lặp lối chơi cốt lõi tập trung vào việc thu thập phấn hoa, quay trở lại tổ của bạn để chuyển đổi nó thành mật ong và sử dụng số mật ong đó để mở rộng bầy đàn và nâng cấp công cụ của bạn. Điều hướng chu kỳ này một cách hiệu quả sẽ ngăn ngừa tình trạng nghẽn cổ chai ở giai đoạn đầu và đảm bảo nguồn cung cấp tài nguyên ổn định.
+
+<Callout type="tip" title="Hiệu suất farm">
+Luôn thu thập các mã thông báo kỹ năng (ability token) do ong của bạn rơi ra khi farm trên các cánh đồng. Những mã thông báo này kích hoạt các bùa lợi quan trọng, chẳng hạn như tập trung (focus), vội vã (haste) và sức mạnh chí mạng (critical power), giúp tăng đáng kể tỷ lệ thu thập phấn hoa của bạn.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Nhận tổ ong của bạn và tham gia trải nghiệm">
+    Khởi chạy trò chơi trên Roblox và nhận một vị trí tổ ong trống. Hãy chắc chắn rằng bạn đã tham gia Roblox Club chính thức trước đó để mở khóa máy phân phát mật ong hàng ngày và đủ điều kiện nhận mã code độc quyền của câu lạc bộ.
+  </Step>
+  <Step num="2" title="Thu hoạch phấn hoa ở các cánh đồng khởi đầu">
+    Trang bị dụng cụ xúc cơ bản của bạn và đi đến các cánh đồng cấp thấp gần khu vực xuất phát, chẳng hạn như Cánh đồng Hướng dương hoặc Cánh đồng Bồ công anh. Hãy lưu ý đến kích thước balo của bạn và thu thập phấn hoa cùng với những chú ong khởi đầu.
+  </Step>
+  <Step num="3" title="Chuyển đổi phấn hoa thành mật ong tại tổ">
+    Khi balo của bạn đã đầy, hãy quay lại tổ ong và đứng trên bục của bạn. Ong của bạn sẽ bắt đầu chuyển đổi phấn hoa thu thập được thành mật ong, đây là tiền tệ chính cho mọi tiến trình nâng cấp.
+  </Step>
+  <Step num="4" title="Mua trứng và mở rộng bầy ong">
+    Dùng mật ong mới chuyển đổi của bạn để mua những quả trứng cơ bản từ cửa hàng trứng. Đặt những quả trứng này vào các ô tổ trống để ấp những chú ong mới, giúp tăng tốc độ thu thập tổng thể và sức mạnh chiến đấu của bạn.
+  </Step>
+  <Step num="5" title="Ưu tiên các nhiệm vụ gấu ban đầu">
+    Tương tác với Gấu Đen và Gấu Mẹ gần khu vực xuất phát. Các nhiệm vụ của họ đóng vai trò như một bài hướng dẫn có cấu trúc, dẫn dắt bạn qua các cánh đồng khác nhau và thưởng cho bạn vàng, vé và bánh thưởng.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Các giai đoạn tiến trình và Thứ tự nâng cấp trang bị">
+
+Nâng cấp trang bị của bạn theo đúng thứ tự là điều cực kỳ quan trọng. Mua các vật phẩm đắt tiền không đúng thứ tự có thể làm đình trệ tiến trình của bạn và lãng phí các nguyên liệu chế tạo quý giá. Hãy làm theo lộ trình có cấu trúc này để tối ưu hóa việc chi tiêu mật ong và sử dụng nguyên liệu.
+
+| Giai đoạn | Số lượng ong | Mục tiêu chính | Ưu tiên nâng cấp trang bị |
+| :--- | :--- | :--- | :--- |
+| **Tổ ong khởi đầu** | 1-10 Ong | Thiết lập vòng lặp lối chơi cơ bản | Trứng cơ bản, Dụng cụ xúc khởi đầu, Balo khởi đầu |
+| **Núi giai đoạn đầu** | 10-25 Ong | Mở khóa các cổng cấp trung | Nam châm, Máy hút, Cào vàng, Balo Port-O-Hive |
+| **Đỉnh núi** | 25-35 Ong | Sở hữu trang bị farm hiệu suất cao | Gáo sứ, Balo sứ Porcelain, Túi thắt lưng |
+| **Chế tạo giữa game** | 35-45 Ong | Kiếm mặt nạ và bảo hộ chuyên dụng | Mặt nạ mật ong, Bảo hộ đỏ, Bảo hộ xanh, Gậy cánh hoa |
+| **Cuối game** | 45-50 Ong | Chuyên môn hóa màu tổ ong và tối ưu hóa | Hộp dừa, Guốc dừa, Bùa Ngôi Sao Tối Cao |
+
+<Callout type="info" title="Bảo tồn nguyên liệu">
+Không bao giờ chi tiêu các nguyên liệu chế tạo hiếm như Kim tuyến, Enzyme, Keo hoặc Dầu cho các vật phẩm tạm thời ở giữa game. Hãy tiết kiệm những tài nguyên này nghiêm ngặt cho các trang bị cấp cao như Mặt nạ mật ong, Hộp dừa và Gậy cánh hoa.
+</Callout>
+
+### Giải thích các mốc trang bị quan trọng
+
+Khi bạn mở rộng quy mô hoạt động của mình, một số giao dịch mua trang bị nhất định sẽ xác định lại tốc độ farm của bạn:
+
+- **Gáo sứ (Porcelain Dipper)**: Đây là công cụ giữa game quan trọng nhất của bạn. Nó thu thập một lượng lớn phấn hoa và chuyển đổi một phần phấn hoa đó ngay lập tức, giúp giảm đáng kể số lần bạn phải quay lại tổ.
+- **Mặt nạ mật ong (Honey Mask)**: Được chế tạo tại Cửa hàng đỉnh núi, mặt nạ này cung cấp khả năng bị động "Mưa xu", giúp chuyển đổi phấn hoa thành mật ong trực tiếp ngay trên cánh đồng.
+- **Gậy cánh hoa (Petal Wand)**: Có được bằng cách đổi Cánh hoa tâm linh tại Đền thờ gió, công cụ này tự động chuyển đổi phấn hoa và bắn ra một tia đạn thu hoạch hoa theo đường thẳng.
+
+</Section>
+
+<Section icon={Sparkles} title="Cách xây dựng tổ ong và Chuyên môn hóa màu sắc">
+
+Chọn một cách xây dựng tổ ong sẽ quyết định phong cách chơi, các bùa lợi hoạt động và lựa chọn trang bị cuối game của bạn. Trong khi những người mới bắt đầu phải sử dụng tổ ong hỗn hợp để hoàn thành các nhiệm vụ đa dạng, thì những người chơi nâng cao cuối cùng phải chuyển sang xây dựng màu chuyên biệt để tối đa hóa sản lượng mật ong của họ.
+
+<Callout type="success" title="Quy tắc vàng khi chuyển đổi màu sắc">
+Không chuyển sang xây dựng tổ ong chuyên biệt Đỏ, Xanh hoặc Trắng cho đến khi bạn đã mở khóa Bùa Ngôi Sao Tối Cao (SSA) và hoàn thành tất cả các chuỗi nhiệm vụ chính từ Gấu Tâm Linh. Làm điều này sớm hơn sẽ khiến việc hoàn thành các nhiệm vụ chung trở nên vô cùng khó khăn.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Xây dựng tổ ong Xanh (Blue)">
+    - **Phong cách chơi**: Rất thụ động, thân thiện với macro và tập trung vào việc mở rộng sức chứa.
+    - **Ong cốt lõi**: Ong nòng nọc (Tadpole Bee), Ong phao (Buoyant Bee) và các ong đột biến tập trung vào bong bóng.
+    - **Trang bị chính**: Mặt nạ kim cương (Diamond Mask), Gậy bắn sóng (Tide Popper) và Bùa sao bong bóng (Pop Star Amulet).
+    - **Tốt nhất cho**: Những người chơi thích các phiên farm dài, ổn định trong Rừng thông.
+  </Card>
+  <Card title="Xây dựng tổ ong Đỏ (Red)">
+    - **Phong cách chơi**: Rất năng động, farm sát thương bùng nổ và khả năng chiến đấu mạnh mẽ.
+    - **Ong cốt lõi**: Ong chính xác (Precise Bee), Ong cay (Spicy Bee) và các ong đột biến tập trung vào lửa.
+    - **Trang bị chính**: Mặt nạ ác quỷ (Demon Mask), Lưỡi hái bóng tối (Dark Scythe) và Bùa sao thiêu rụi (Scorching Star Amulet).
+    - **Tốt nhất cho**: Những người chơi năng động, thích tăng cường tương tác cao trong Cánh đồng ớt.
+  </Card>
+  <Card title="Xây dựng tổ ong Trắng (White)">
+    - **Phong cách chơi**: Cực kỳ đắt đỏ, tốn nhiều nguyên liệu và tập trung vào các hệ số nhân chất nhầy khổng lồ.
+    - **Ong cốt lõi**: Ong vector (Vector Bee), Ong xù xì (Fuzzy Bee) và Ong kẹo dẻo đột biến.
+    - **Trang bị chính**: Mặt nạ kẹo dẻo (Gummy Mask), Gậy bắn kẹo dẻo (Gummyballer) và Bùa sao kẹo dẻo (Gummy Star Amulet).
+    - **Tốt nhất cho**: Những người chơi cuối game có nguồn tài nguyên khổng lồ và bùa hộ mệnh được tối ưu hóa.
+  </Card>
+</CardGrid>
+
+### So sánh màu sắc tổ ong và Yêu cầu
+
+| Loại xây dựng | Chi phí thiết lập | Phong cách farm | Sức mạnh chiến đấu | Cánh đồng tốt nhất |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tổ ong hỗn hợp** | Thấp (Khởi đầu) | Tập trung vào nhiệm vụ, cân bằng | Trung bình | Tất cả cánh đồng |
+| **Tổ ong Xanh** | Trung bình | Thụ động, dựa trên bong bóng | Thấp | Rừng thông |
+| **Tổ ong Đỏ** | Cao | Năng động, dựa trên lửa | Cao | Cánh đồng ớt / Hoa hồng |
+| **Tổ ong Trắng** | Cực kỳ cao | Dựa trên chất nhầy và đánh dấu | Trung bình | Cánh đồng dừa |
+
+</Section>
+
+<Section icon={Target} title="Nhiệm vụ gấu và Các mốc tiến trình quan trọng">
+
+Các NPC Gấu đóng vai trò là động lực chính cho tiến trình câu chuyện và khám phá bản đồ. Mỗi con gấu cung cấp các chuỗi nhiệm vụ độc đáo để thưởng cho người chơi những vật phẩm tiến trình quan trọng, chẳng hạn như máy phiên dịch, thạch sao và cánh hoa tâm linh.
+
+| Người giao nhiệm vụ | Ưu tiên tiến trình | Trọng tâm chính | Phần thưởng đáng chú ý |
+| :--- | :--- | :--- | :--- |
+| **Gấu Đen** | Cao (Đầu game) | Thu thập phấn hoa chung | Trứng thần thoại, Trứng vàng |
+| **Gấu Mẹ** | Cao (Đầu game) | Lên cấp cho ong và bánh thưởng | Thạch sao, Trứng đột biến |
+| **Gấu Khoa Học** | Rất cao (Giữa game) | Nhiệm vụ khoa học và dịch thuật | Máy phiên dịch, Bùa tăng tấn công của ong |
+| **Gấu Trúc** | Trung bình | Huấn luyện chiến đấu và săn bọ | Thạch sao, Trứng |
+| **Gấu Tâm Linh** | Cao (Cuối game) | Cày cuốc quy mô lớn trên nhiều cánh đồng | Cánh hoa tâm linh |
+| **Gấu Robo** | Cao (Cuối game tột đỉnh) | Thử thách chiến đấu và thu thập tính giờ | Bánh răng, Ổ đĩa |
+
+<Callout type="tip" title="Máy phiên dịch của Gấu Khoa Học">
+Gấu Khoa Học sẽ thưởng cho bạn ba Máy phiên dịch trong suốt chuỗi nhiệm vụ của mình. Hãy sử dụng chúng để giao tiếp với Ong Bucko đột biến, Ong Riley đột biến và Bọ gậy để mở khóa các chuỗi nhiệm vụ chuyên biệt và các trận đấu boss.
+</Callout>
+
+<Checklist
+  id="progression-milestones"
+  title="Các mốc tiến trình thiết yếu:"
+  items={[
+    "Đạt 25 con ong để mở khóa khu vực Cửa hàng đỉnh núi.",
+    "Sở hữu Gáo sứ và Balo sứ Porcelain.",
+    "Nhận Máy phiên dịch đầu tiên của bạn từ Gấu Khoa Học.",
+    "Kiếm Cánh hoa tâm linh đầu tiên của bạn từ Gấu Tâm Linh (sử dụng nó cho Gậy cánh hoa).",
+    "Mở khóa Bùa Ngôi Sao Tối Cao bằng cách khám phá 40 loại Ong đột biến độc nhất."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+Để khép lại **hướng dẫn bee swarm simulator** này, chúng tôi đã tổng hợp câu trả lời cho những câu hỏi phổ biến nhất mà người chơi thường gặp trong hành trình leo núi của mình.
+
+<Callout type="info" title="Nền tảng cộng đồng chính thức">
+Để cập nhật thời gian thực về các sự kiện theo mùa như Beesmas, các mã khuyến mãi đang hoạt động và các bản vá cân bằng, hãy tham gia [Bee Swarm Simulator Discord](https://discord.com/invite/bee) chính thức hoặc theo dõi các cập nhật phát triển chính thức của Onett.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Con ong sự kiện tốt nhất nên mua đầu tiên bằng vé là gì?",
+    answer: "Ong mướp (Tabby Bee) được coi là con ong sự kiện tốt nhất để mua đầu tiên. Khả năng Tình yêu loài mướp (Tabby Love) của nó tăng vĩnh viễn lên tới 1.000 cộng dồn, giúp tăng đáng kể tỷ lệ thu thập, tỷ lệ chuyển đổi và sức mạnh chí mạng của nó trong suốt quá trình chơi của bạn."
+  },
+  {
+    question: "Tôi nên sử dụng Cánh hoa tâm linh đầu tiên của mình cho Gậy cánh hoa hay Thắt lưng cánh hoa?",
+    answer: "Bạn nên sử dụng Cánh hoa tâm linh đầu tiên của mình cho Gậy cánh hoa (Petal Wand). Nó cung cấp một bản nâng cấp lớn, tức thì cho việc thu thập và chuyển đổi phấn hoa hoạt động của bạn, trong khi Thắt lưng cánh hoa (Petal Belt) cực kỳ đắt để chế tạo và phù hợp hơn cho cánh hoa thứ hai hoặc thứ ba của bạn."
+  },
+  {
+    question: "Làm thế nào để có được Ong đột biến nhanh chóng?",
+    answer: "Cách đáng tin cậy nhất để có được Ong đột biến (Gifted Bee) là cho ong ăn những món ăn yêu thích của chúng (chẳng hạn như Dứa cho ong Xanh hoặc Dâu tây cho ong Đỏ). Bạn cũng có thể sử dụng Sữa ong chúa (Royal Jelly) được đặt thành tự động quay cho các loại đột biến, hoặc cho ong sự kiện ăn Thức ăn ngôi sao (Star Treat) để nâng cấp đột biến được đảm bảo 100%."
+  },
+  {
+    question: "Khi nào tôi nên bắt đầu chọn màu tổ ong?",
+    answer: "Đừng chọn màu tổ ong cho đến khi bạn đã mở khóa Bùa Ngôi Sao Tối Cao (yêu cầu khám phá 40 loại Ong đột biến độc nhất) và hoàn thành tất cả 30 nhiệm vụ của Gấu Tâm Linh. Việc chuyển đổi sớm sẽ cản trở nghiêm trọng khả năng hoàn thành các nhiệm vụ yêu cầu các màu phấn hoa khác nhau của bạn."
+  }
+]} />
+
+</Section>

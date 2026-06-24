@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Mixed Hive: Hướng dẫn Sắp xếp & Tiến trình Tốt nhất 2026",
+  description: "Làm chủ meta mixed hive trong Bee Swarm Simulator. Tìm hiểu cách sắp xếp ong tốt nhất, ưu tiên trang bị và chiến lược nhiệm vụ cho giai đoạn đầu đến giữa game.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Mixed+Hive+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, mixed hive, hướng dẫn, tiến trình, 2026, chiến thuật"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mixed Hive trong Bee Swarm Simulator** là chiến lược bắt buộc cho tất cả người chơi từ đầu game cho đến khi mở khóa Bùa sao tối thượng (Supreme Star Amulet - SSA).
+- **Thu thập phấn hoa cân bằng** cho phép bạn hoàn thành các nhiệm vụ của gấu Đỏ, Xanh và Trắng mà không bị kẹt ở các yêu cầu cánh đồng cụ thể.
+- **Các loại ong sự kiện (Event Bees)** như Tabby, Photon và Gummy là những trụ cột cốt lõi của một đội hình mixed thành công.
+- **Tránh chuyên hóa màu sắc** quá sớm, vì điều này sẽ làm chậm đáng kể tiến độ nhận huy hiệu và tốc độ hoàn thành nhiệm vụ của bạn.
+</Callout>
+
+<Section icon={Map} title="Các nguyên tắc cơ bản của chiến lược Mixed Hive">
+
+Xây dựng một **mixed hive trong Bee Swarm Simulator** là cách hiệu quả nhất để thăng tiến qua hệ thống nhiệm vụ phức tạp của trò chơi. Không giống như các tổ ong chuyên biệt màu Đỏ hoặc Xanh, mixed hive duy trì tỷ lệ ong cân bằng để có thể thu thập phấn hoa hiệu quả từ bất kỳ cánh đồng nào. Tính linh hoạt này rất quan trọng vì các NPC như Gấu Đen (Black Bear), Gấu Khoa học (Science Bear) và Gấu Tinh linh (Spirit Bear) thường giao các nhiệm vụ yêu cầu lượng phấn hoa khổng lồ từ nhiều địa điểm khác nhau trên núi.
+
+Vào năm 2026, meta cho mixed hive tập trung vào việc tối đa hóa các phần thưởng "Gifted" và duy trì thời gian hoạt động của token cao. Bằng cách không tự trói buộc mình vào một màu sắc duy nhất, bạn đảm bảo rằng mọi buff cánh đồng nhận được—cho dù từ Xúc xắc cánh đồng (Field Dice) hay bộ tăng tốc chuyên dụng—đều mang lại tiến bộ rõ rệt cho các mục tiêu hiện tại của bạn.
+
+**Điểm nhấn video:**
+- Hiểu vòng lặp cốt lõi: Thu thập, Chuyển hóa và Nâng cấp.
+- Tại sao mixed hive vượt trội hơn các tổ ong màu trong giai đoạn đầu và giữa game.
+- Các mẹo thiết yếu để quản lý 25-35 con ong đầu tiên của bạn.
+- Cách xử lý các yêu cầu nhiệm vụ đa dạng từ các NPC Gấu khác nhau.
+
+<YouTubeEmbed videoId="TZ14iO23Bpk" title="Bee Swarm Simulator Developer Spotlight & Gameplay" />
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Hãy giữ trạng thái mixed cho đến khi bạn có ít nhất 40-45 con ong và đã tạo ra đủ mật ong để quay lấy nội tại Bùa sao tối thượng (SSA) cụ thể. Chuyển sang một màu quá sớm là lý do số 1 khiến người chơi gặp phải "bức tường tiến độ".
+</Callout>
+
+| Giai đoạn tổ ong | Số lượng ong | Mục tiêu chính | Trọng tâm chính |
+| :--- | :--- | :--- | :--- |
+| **Đầu game** | 1-25 Ong | Mở khóa Mountain Top Shop | Làm nhiệm vụ cơ bản và mở rộng túi |
+| **Giữa game** | 25-40 Ong | Mở cổng 35 ong & Petal Wand | Đa dạng ong Gifted và nhiệm vụ Spirit Bear |
+| **Tiền cuối game** | 40-50 Ong | Mở khóa Bùa sao tối thượng | Tích trữ nguyên liệu và quay SSA |
+
+</Section>
+
+<Section icon={Sparkles} title="Những con ong thiết yếu cho đội hình Mixed của bạn">
+
+Sức mạnh của một **mixed hive trong Bee Swarm Simulator** nằm ở sự đa dạng của nó. Bạn không chỉ tìm kiếm những con ong có độ hiếm cao; bạn đang tìm kiếm các kỹ năng cụ thể bổ trợ cho nhau. Ví dụ, token "Focus" tăng sức mạnh chí mạng của bạn, có lợi cho tất cả các loại phấn hoa, trong khi token "Melody" từ ong Music tăng tỷ lệ chí mạng.
+
+Năm 2026, ưu tiên cho mixed hive vẫn tập trung vào các ong Sự kiện (Event Bees) và các ong Gifted có tính hữu dụng cao. Ong sự kiện rất độc đáo vì chúng không thiên vị màu sắc làm ảnh hưởng đến hiệu suất tổng thể của bạn.
+
+<CardGrid cols={2}>
+  <Card title="Bộ ba Sự kiện Quan trọng">
+    - **Tabby Bee**: Ông vua thăng tiến; buff vĩnh viễn "Tabby Love" khiến nó trở thành con ong tốt nhất game.
+    - **Photon Bee**: Cung cấp "Beamstorm" để thu thập phấn hoa tức thì, bỏ qua các vấn đề về sức chứa của túi.
+    - **Gummy Bee**: Thiết yếu cho các nhiệm vụ "Goo" và cung cấp khả năng chuyển hóa mật ong trên mỗi phấn hoa cực lớn.
+  </Card>
+  <Card title="Ong Mythic Hữu dụng cao">
+    - **Fuzzy Bee**: Thụ phấn cho hoa, nâng cấp chúng lên cấp cao hơn để thu hoạch tốt hơn.
+    - **Vector Bee**: Tạo ra các "Mark" giúp nhân số lượng phấn hoa thu được trong một khu vực cụ thể.
+    - **Buoyant Bee**: Thêm "Surprise Balloons" để tăng sức chứa tạm thời cho tổ ong.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ong Basic Gifted">
+Đừng bao giờ đánh giá thấp **Ong Basic Gifted**. Buff tổ ong của nó cung cấp hệ số nhân **x1.2 Phấn hoa** cho toàn bộ tổ ong của bạn. Đây là một trong những buff mạnh nhất game cho người chơi mixed.
+</Callout>
+
+| Loại ong | Trọng tâm kỹ năng | Giá trị Mixed Hive | Đề xuất |
+| :--- | :--- | :--- | :--- |
+| **Music Bee** | Token Melody/Focus | ★★★★★ | Giữ ít nhất 2-3 con để có buff chí mạng liên tục |
+| **Carpenter Bee** | Honey/Pollen Marks | ★★★★☆ | Tuyệt vời để farm đứng yên ở cánh đồng lớn |
+| **Baby Bee** | Baby Love (x2 Phấn hoa) | ★★★★★ | Thiết yếu để nhân đôi may mắn và thu nhập |
+| **Commander Bee** | Buff Focus/Chí mạng | ★★★★☆ | Kết hợp hoàn hảo với Music Bees |
+
+</Section>
+
+<Section icon={Trophy} title="Lộ trình tiến triển và Thứ tự ưu tiên trang bị">
+
+Tiến trình của bạn trong một **mixed hive Bee Swarm Simulator** được đo lường bằng trang bị cũng như số lượng ong của bạn. Vì bạn đang farm ở tất cả các cánh đồng, bạn cần trang bị "trung tính" không quá thiên về một màu duy nhất. Mountain Top Shop là điểm đến chính của bạn cho các nâng cấp giữa game.
+
+<Steps>
+  <Step num="1" title="Kỷ nguyên Đồ sứ (Porcelain)">
+    Tập trung hoàn toàn vào việc sở hữu **Porcelain Dipper** và **Porcelain Port-O-Hive**. Đây là tiêu chuẩn vàng cho người chơi mixed. Tránh các máy thu thập Đỏ/Xanh ở khu vực 10 ong và 15 ong trừ khi bạn đang gặp khó khăn với một nhiệm vụ cụ thể.
+  </Step>
+  <Step num="2" title="Lựa chọn Mặt nạ">
+    Mặc dù **Honey Mask** là lựa chọn truyền thống cho mixed hive nhờ "Coin Scatter", nhưng vào năm 2026, nhiều người chơi cũng sử dụng tạm thời **mặt nạ Fire hoặc Bubble** để hoàn thành các nhiệm vụ yêu cầu màu sắc khó từ Gấu Khoa học.
+  </Step>
+  <Step num="3" title="Hành trình Cánh hoa Tinh linh (Spirit Petal)">
+    Khi bạn đạt đến khu vực 35 ong, cuộc sống của bạn sẽ xoay quanh Gấu Tinh linh. Cánh hoa tinh linh đầu tiên của bạn hầu như luôn nên dành cho **Petal Wand**. Khả năng chuyển hóa phấn hoa thành mật ong khi bạn vung trượng là một yếu tố thay đổi cuộc chơi cho các buổi farm dài.
+  </Step>
+  <Step num="4" title="Cày cuốc Bùa chú (Amulet)">
+    Liên tục đánh bại King Beetle, Tunnel Bear và Stump Snail. Bạn cần nâng cấp **Star Amulet** thường xuyên nhất có thể để tăng sức chứa và hệ số nhân phấn hoa.
+  </Step>
+</Steps>
+
+| Trang bị | Chi phí | Yêu cầu | Lợi ích cho Mixed Hive |
+| :--- | :--- | :--- | :--- |
+| **Porcelain Dipper** | 150M Mật ong | Mountain Top Shop | Công cụ thu thập toàn diện tốt nhất |
+| **Honey Mask** | 100M Mật ong + Nguyên liệu | Ace Shop | Coin Scatter chuyển hóa phấn hoa tức thì |
+| **Honeycomb Belt** | 150M Mật ong + Nguyên liệu | Ace Shop | Sức chứa lớn và may mắn nhận vật phẩm |
+| **Petal Wand** | 1.5B Mật ong + 1 Cánh hoa | Spirit Bear | Tự động chuyển hóa và tầm với xa |
+
+<Callout type="warning" title="Quản lý nguyên liệu">
+Đừng tiêu xài **Glitter, Tropical Drinks, hoặc Enzymes** một cách tùy tiện. Những thứ này cực kỳ khó chế tạo ở giai đoạn cuối game và là yêu cầu bắt buộc cho các "Mặt nạ cuối game" (Demon, Diamond, Gummy). Hãy tiết kiệm chúng khi bạn còn là một mixed hive!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tối đa hóa hiệu suất nhiệm vụ">
+
+Lý do chính để vận hành một **mixed hive trong Bee Swarm Simulator** là để hoàn thành nhanh các nhiệm vụ. Tuy nhiên, ngay cả với một tổ ong cân bằng, một số gấu vẫn quan trọng hơn những con khác. Bạn nên ưu tiên các chuỗi nhiệm vụ NPC mở khóa các cơ chế trò chơi vĩnh viễn.
+
+<Checklist
+  id="quest-priority"
+  title="Danh sách ưu tiên nhiệm vụ 2026:"
+  items={[
+    "Mother Bear: Hoàn thành để lấy Star Treat đầu tiên (dùng cho Tabby Bee!)",
+    "Science Bear: Mở khóa cả 3 Translator để nói chuyện với Riley, Bucko và Stick Bug",
+    "Black Bear: Hoàn thành chuỗi nhiệm vụ Trứng Mythic để tăng mạnh sức mạnh tổ ong",
+    "Panda Bear: Nâng cấp Ant Amulet để có sát thương chí mạng tốt hơn",
+    "Spirit Bear: Mục tiêu tối thượng cho trang bị Petal và Windy Bee"
+  ]}
+/>
+
+Khi bạn nhận được nhiệm vụ cho một cánh đồng mà bạn không thích (như Cánh đồng Dâu tây cho một tổ ong không thiên đỏ), hãy sử dụng **Field Dice** hoặc các vật phẩm tăng cường **Blueberry/Strawberry** để tăng tốc. Là một mixed hive, bạn có sự linh hoạt để chuyển đổi trọng tâm sau mỗi 15 phút dựa trên những buff nào đang hoạt động.
+
+<Callout type="info" title="Mẹo từ Gấu Khoa học">
+Các nhiệm vụ của Gấu Khoa học ban tặng "Science Enhancement", giúp tăng vĩnh viễn **tỷ lệ chuyển hóa** của bạn. Đây là chỉ số quan trọng nhất đối với một mixed hive, vì nó quyết định bạn có thể ở lại cánh đồng bao lâu trước khi phải quay về tổ.
+</Callout>
+
+| NPC Gấu | Phần thưởng chính | Độ khó | Tại sao nó quan trọng |
+| :--- | :--- | :--- | :--- |
+| **Mother Bear** | Star Treat | Dễ | Làm cho một con ong trở thành "Gifted" vĩnh viễn |
+| **Science Bear** | Translators | Trung bình | Mở khóa các nguồn token giai đoạn cuối game |
+| **Spirit Bear** | Spirit Petals | Khó | Cần thiết cho các công cụ tốt nhất trong game |
+| **Brown Bear** | Vé/Trứng | Lặp lại | Tốt để thu thập tài nguyên thụ động |
+
+</Section>
+
+<Section icon={Shield} title="Khi nào nên chuyển đổi khỏi Mixed Hive">
+
+Mặc dù **mixed hive Bee Swarm Simulator** rất tuyệt vời để thăng tiến, nhưng sẽ đến một thời điểm mà việc chuyên môn hóa sẽ mang lại nhiều lợi nhuận hơn. Sự chuyển đổi này thường xảy ra khi bạn đã hoàn thành tất cả các nhiệm vụ chính không lặp lại và chỉ tập trung vào "Mật ong mỗi giờ" (HPH).
+
+<CardGrid cols={3}>
+  <Card title="Chuyển sang Xanh">
+    - **Ưu điểm**: Chi phí bắt đầu rẻ hơn, sức chứa rất cao.
+    - **Yêu cầu**: Diamond Mask và Pop Star SSA.
+    - **Tốt nhất cho**: Người chơi muốn thu nhập ổn định, thân thiện với việc treo máy (macro).
+  </Card>
+  <Card title="Chuyển sang Đỏ">
+    - **Ưu điểm**: Sát thương bùng nổ và lượng phấn hoa khổng lồ.
+    - **Yêu cầu**: Demon Mask và Scorching Star SSA.
+    - **Tốt nhất cho**: Người chơi tích cực, thích các đợt buff rủi ro cao, phần thưởng lớn.
+  </Card>
+  <Card title="Chuyển sang Trắng">
+    - **Ưu điểm**: Tiềm năng HPH cao nhất trong trò chơi.
+    - **Yêu cầu**: Gummy Mask/Boots và Gummy Star SSA.
+    - **Tốt nhất cho**: Người chơi giai đoạn siêu cuối với nguồn tài nguyên vô hạn.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Quy tắc vàng">
+**ĐỪNG BAO GIỜ** chuyển đổi màu tổ ong cho đến khi bạn tiết kiệm được ít nhất 100-200 tỷ Mật ong. Bạn sẽ cần số tiền này để quay lấy Bùa sao tối thượng (SSA) phù hợp và mua hàng ngàn Royal Jelly để có được những con ong Mythic đúng loại cho màu mới của bạn.
+</Callout>
+
+| Yêu cầu | Mixed (Hiện tại) | Chuyên hóa (Tương lai) |
+| :--- | :--- | :--- |
+| **Nội tại SSA** | Bất kỳ / Không có | Cụ thể (ví dụ: Pop Star) |
+| **Số lượng Mythic** | 3-5 (Hỗn hợp) | 15-20 (Màu cụ thể) |
+| **Loại Gifted** | 40 loại duy nhất | Ong hỗ trợ theo màu cụ thể |
+| **Mục tiêu Mật ong** | Hoàn thành nhiệm vụ | Hàng nghìn tỷ Mật ong |
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Mixed hive có tốt hơn blue hive cho người mới bắt đầu không?",
+    answer: "Có, chắc chắn rồi. Một tổ ong xanh yêu cầu các con ong mythic cụ thể và Diamond Mask để đạt hiệu quả. Mixed hive cho phép bạn hoàn thành tất cả các loại nhiệm vụ, điều cần thiết để mở khóa các trang bị giúp các tổ ong chuyên biệt trở nên khả thi sau này."
+  },
+  {
+    question: "Tôi nên trao Star Treat đầu tiên cho con ong nào trong mixed hive?",
+    answer: "Tabby Bee là lựa chọn đầu tiên không cần bàn cãi. Buff Gifted của nó tăng Sức mạnh Chí mạng lên 50%, đây là một sự gia tăng khổng lồ cho mọi con ong trong tổ của bạn bất kể màu sắc."
+  },
+  {
+    question: "Tôi cần bao nhiêu Music Bee cho một mixed hive?",
+    answer: "Lý tưởng nhất là bạn cần 3 con Music Bee. Chúng cung cấp các token Melody (cho sức mạnh chí mạng) và token Focus (cho tỷ lệ chí mạng). Giữ các buff này hoạt động ở mức 10 cộng dồn là chìa khóa để thu thập phấn hoa cao vào năm 2026."
+  },
+  {
+    question: "Khi nào tôi nên ngừng làm mixed hive?",
+    answer: "Bạn chỉ nên ngừng làm mixed hive khi đã mở khóa được Bùa sao tối thượng (bằng cách có 40 loại ong gifted duy nhất) và có đủ mật ong để chi trả cho chi phí chuyển đổi, thường là vào khoảng thời gian bạn hoàn thành nhiệm vụ thứ 30 của Spirit Bear."
+  }
+]} />
+
+</Section>

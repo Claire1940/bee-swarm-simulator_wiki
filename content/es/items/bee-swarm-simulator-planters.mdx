@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Macetas de Bee Swarm Simulator: Rutas de Farmeo y Guía de Configuración",
+  description: "Domina las macetas de Bee Swarm Simulator para optimizar el rendimiento de néctar, obtener materiales raros y ejecutar las mejores rutas de farmeo diario en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000000?text=Planters+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, macetas, néctar, farmeo, guía, materiales raros"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánicas de las macetas**: Despliega macetas de Bee Swarm Simulator en campos específicos para cosechar potentes potenciadores de néctar e ingredientes de artesanía raros.
+- **Gestión del néctar**: Mantén alto tu almacenamiento de néctar para conservar multiplicadores constantes para la recolección de polen y la conversión en la colmena.
+- **Colocación óptima**: Empareja siempre las macetas con sus campos preferidos para desbloquear recompensas secretas y acelerar el crecimiento.
+- **Rotación diaria**: Establece una ruta de farmeo constante para rotar las macetas continuamente y maximizar la generación pasiva de recursos.
+- **Progresión de juego avanzado**: Prioriza el desbloqueo de macetas de alto nivel como la Maceta de Pétalos (Petal Planter) para aumentar drásticamente tu eficiencia en la producción de miel.
+</Callout>
+
+<Section icon={Map} title="Descripción General de las Macetas y Mecánicas de Néctar">
+
+En Bee Swarm Simulator, las macetas son objetos desplegables que crecen con el tiempo cuando se colocan en varios campos. A medida que recolectas polen en el mismo campo, la tasa de crecimiento de tu maceta activa aumenta significativamente. Una vez que una maceta alcanza su madurez completa, cosecharla otorga una combinación de miel, ingredientes de artesanía y néctares esenciales.
+
+Los néctares son potenciadores temporales y acumulables que proporcionan multiplicadores masivos a tu colmena. Hay cinco tipos distintos de néctares, cada uno asociado con campos específicos y mejoras de juego. Gestionar estos néctares es fundamental para la progresión en el juego medio y avanzado, ya que impactan directamente en cuánta miel puedes generar durante las sesiones de potenciación activa.
+
+| Tipo de Néctar | Multiplicadores Principales | Campos de Origen Primarios |
+|-|-|-|
+| **Refrescante (Refreshing)** | Polen Azul, Capacidad, Celeridad | Fresa, Flor Azul, Piña, Trébol |
+| **Satisfactorio (Satisfying)** | Polen Blanco, Miel en Colmena, Tasa de Conversión | Girasol, Calabaza, Piña, Coco |
+| **Reconfortante (Comforting)** | Defensa, Capacidad, Tasa de Conversión | Diente de León, Bambú, Pino |
+| **Motivador (Motivating)** | Velocidad del Jugador, Poder Crítico | Champiñón, Araña, Rosa, Tocón |
+| **Vigorizante (Invigorating)** | Polen Rojo, Ataque de Abeja, Probabilidad Crítica | Trébol, Cactus, Parche de Pimienta, Cima de la Montaña |
+
+Cada potenciador de néctar puede acumularse hasta 24 horas de duración. Para mantener estos potenciadores, debes almacenar tus néctares cosechados en el Condensador de Néctar ubicado cerca de la Zona de 30 Abejas. El condensador te permite combinar y preservar tus potenciadores, asegurando que no pierdas el progreso al transicionar entre sesiones de farmeo.
+
+<Callout type="info" title="Advertencia de Decaimiento de Néctar">
+Los néctares decaen pasivamente con el tiempo, incluso cuando estás desconectado. Para evitar que tus multiplicadores ganados con tanto esfuerzo desaparezcan, acostúmbrate a cosechar tus macetas justo antes de cerrar sesión y guarda los néctares en el condensador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Niveles de Macetas y Ruta de Progresión">
+
+Las macetas se dividen en distintos niveles basados en su costo, velocidad de crecimiento y recompensas. A medida que progresas de una colmena inicial a una configuración de juego avanzado, tu prioridad de compra debe desplazarse hacia macetas que ofrezcan mayores multiplicadores pasivos y mejores tasas de obtención de materiales.
+
+<CardGrid cols={3}>
+  <Card title="Macetas Iniciales">
+    - **Bajo costo de recursos**
+    - Alta velocidad de crecimiento
+    - Obtención de materiales básicos
+    - Perfectas para misiones tempranas
+  </Card>
+  <Card title="Macetas de Juego Medio">
+    - **Costo de artesanía moderado**
+    - Rendimiento de néctar equilibrado
+    - Sueltan pegamento, enzimas y purpurina
+    - Esenciales para las misiones de Spirit Bear
+  </Card>
+  <Card title="Macetas de Juego Avanzado">
+    - **Requisitos de materiales extremos**
+    - Enorme capacidad de néctar
+    - Obtención garantizada de materiales raros
+    - Diseñadas para colores de colmena específicos
+  </Card>
+</CardGrid>
+
+Para ayudarte a planificar tus mejoras, la siguiente tabla detalla las estadísticas, costos y propósitos principales de cada maceta disponible en el juego.
+
+| Nombre de la Maceta | Modificador de Crecimiento | Costo de Creación / Compra Clave | Utilidad Principal |
+|-|-|-|-|
+| **Papel (Paper)** | 1.25x | 1,000 Miel | Barata, crecimiento rápido, néctar básico |
+| **Ticket** | 1.00x | 10 Tickets | Genera tickets al cosechar |
+| **Plástico (Plastic)** | 1.00x | 150,000 Miel | Recompensas diarias básicas, ideal para principiantes |
+| **Caramelo (Candy)** | 1.15x | 25,000,000 Miel, 15 Gomitas | Alto rendimiento de golosinas, excelente para pegamento |
+| **Globo Rojo (Red Balloon)** | 1.10x | 500,000,000 Miel, 50 Fresas | Enfoque en polen rojo, mejora capacidad de globos |
+| **Arcilla Azul (Blue Clay)** | 1.10x | 500,000,000 Miel, 50 Arándanos | Enfoque en polen azul, alto néctar reconfortante |
+| **Tacky** | 1.05x | 2,500,000,000 Miel, 100 Semillas de Girasol | Alto néctar satisfactorio, suelta cera blanda |
+| **Pesticida (Pesticide)** | 0.95x | 15,000,000,000 Miel, 15 Enzimas | Alto néctar reconfortante, suelta bayas neón |
+| **Pétalo (Petal)** | 0.90x | 1 Pétalo Espiritual, 100 Purpurina | Recompensas generales extremadamente altas |
+| **Hidropónica (Hydroponic)** | 0.85x | 500 Extracto Azul, 5 Super Wyrm | Crecimiento infinito de néctar azul |
+| **Tratada Térmicamente (Heat-Treated)** | 0.85x | 500 Extracto Rojo, 5 Cera Dura | Crecimiento infinito de néctar rojo |
+| **Abundancia de Macetas (Plenty o' Planters)** | 0.75x | 1,000,000,000,000 Miel, 500 Extracto Púrpura | La maceta definitiva, rendimientos inigualables |
+
+<Callout type="tip" title="Valor de la Maceta de Caramelo">
+La Maceta de Caramelo es ampliamente considerada la mejor maceta en relación calidad-precio en el juego medio. Colocarla en el Campo de Fresa o en el Parche de Calabaza regularmente otorga materiales de artesanía de alto valor como pegamento y enzimas, necesarios para mejoras de equipo importantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Colocación Óptima en Campos y Rutas de Farmeo">
+
+Para aprovechar al máximo tus macetas de Bee Swarm Simulator, debes emparejarlas con sus campos preferidos. Colocar una maceta en un campo preferido otorga un multiplicador a su velocidad de crecimiento, aumenta el néctar cosechado y desbloquea botines de bonificación únicos.
+
+| Maceta | Mejores Campos | Botín de Bonificación Garantizado |
+|-|-|-|
+| **Caramelo** | Fresa, Calabaza, Piña | Pegamento, Enzimas, Fresas |
+| **Arcilla Azul** | Bosque de Pinos, Campo de Bambú | Arándanos, Jalea Real, Extracto Azul |
+| **Globo Rojo** | Parche de Pimienta, Campo de Rosas, Fresa | Fresas, Extracto Rojo, Cera Blanda |
+| **Tacky** | Campo de Girasoles, Campo de Dientes de León | Semillas de Girasol, Cera Blanda, Bayas Amargas |
+| **Pesticida** | Campo de Arañas, Campo de Bambú | Enzimas, Purpurina, Bayas Neón |
+| **Pétalo** | Campo de Cocos, Campo de Tréboles | Purpurina, Jalea Estelar, Enzimas |
+
+Usando estos datos de colocación, puedes establecer rutas de farmeo altamente eficientes dependiendo de la especialización actual de tu colmena.
+
+### Ruta de Farmeo para Colmena Mixta
+Si manejas una colmena mixta, tu objetivo es mantener una distribución equilibrada de los cinco néctares para apoyar las misiones generales.
+1. Coloca la **Maceta de Caramelo** en el **Campo de Fresa** para obtener Néctar Refrescante y Pegamento.
+2. Coloca la **Maceta Tacky** en el **Campo de Girasoles** para obtener Néctar Satisfactorio y Cera Blanda.
+3. Coloca la **Maceta de Pesticida** en el **Campo de Arañas** para obtener Néctar Motivador y Bayas Neón.
+
+### Ruta de Farmeo para Colmena Azul
+Las colmenas azules requieren el máximo de Néctares Refrescantes y Reconfortantes para escalar la capacidad de polen azul y la generación de burbujas.
+1. Coloca la **Maceta de Arcilla Azul** en el **Bosque de Pinos** para obtener Néctar Reconfortante.
+2. Coloca la **Maceta Hidropónica** en el **Campo de Bambú** para mantener una acumulación permanente de Néctar Refrescante.
+3. Coloca la **Maceta de Plástico** en el **Campo de Flor Azul** para ciclos rápidos de materiales azules básicos.
+
+### Ruta de Farmeo para Colmena Roja
+Las colmenas rojas dependen en gran medida de los Néctares Vigorizantes y Motivadores para maximizar las ráfagas de polen rojo y el poder de ataque de las abejas.
+1. Coloca la **Maceta de Globo Rojo** en el **Parche de Pimienta** para obtener Néctar Vigorizante.
+2. Coloca la **Maceta Tratada Térmicamente** en el **Campo de Rosas** para asegurar altos rendimientos de extractos rojos y néctar.
+3. Coloca la **Maceta de Caramelo** en el **Campo de Champiñones** para farmear rápidamente Néctar Motivador.
+
+<Callout type="warning" title="Sobre-farmeo de Campos">
+Evita colocar la misma maceta en el mismo campo repetidamente dentro de un período de 24 horas. Hacerlo activa una penalización de rendimientos decrecientes, reduciendo drásticamente la calidad y cantidad de los botines de bonificación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Proceso de Farmeo con Macetas Paso a Paso">
+
+Maximizar la eficiencia de tus macetas requiere un enfoque estructurado de plantación, cosecha activa y almacenamiento de néctar. Sigue estos pasos para establecer una rutina diaria altamente productiva.
+
+<Steps>
+  <Step num="1" title="Equipar y Desplegar">
+    Selecciona la maceta adecuada de tu inventario y sitúate en su campo preferido. Haz clic en el icono de la maceta para desplegarla. Asegúrate de emparejar el tipo de maceta con el tipo de néctar preferido del campo.
+  </Step>
+  <Step num="2" title="Potenciar las Tasas de Crecimiento">
+    Pasa al menos de 5 a 10 minutos recolectando polen activamente en el campo donde está desplegada tu maceta. Tus abejas recolectando polen en ese campo acelerarán significativamente el temporizador de crecimiento de la maceta.
+  </Step>
+  <Step num="3" title="Monitorear la Madurez">
+    Verifica periódicamente el porcentaje de crecimiento de tu maceta. Las macetas de alto nivel tardan más en madurar, pero pueden dejarse de forma pasiva mientras trabajas en misiones o farmeas otras áreas de la montaña.
+  </Step>
+  <Step num="4" title="Cosechar y Reclamar">
+    Una vez que la maceta alcance el 100% de madurez, sitúate directamente sobre ella y haz clic para cosechar. Recoge todos los tokens soltados inmediatamente, prestando especial atención a cualquier ingrediente de artesanía raro como pegamento, cera o purpurina.
+  </Step>
+  <Step num="5" title="Condensar y Almacenar">
+    Dirígete al Condensador de Néctar en la Zona de 30 Abejas. Deposita tus néctares recién cosechados para extender la duración de tus potenciadores activos, asegurando que tus multiplicadores permanezcan activos para tu próxima gran sesión de potenciación.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono de Farmeo Activo">
+Farmear con potenciadores de campo activos (como los obtenidos de los potenciadores de campo o la purpurina) mientras una maceta está creciendo en ese campo multiplicará aún más la velocidad de crecimiento. Usa esta táctica para rotar rápidamente macetas de bajo nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación Diaria de Gestión de Macetas">
+
+Para mantener tus potenciadores de néctar al máximo y tus reservas de materiales de artesanía creciendo, integra esta lista de verificación en tus sesiones de juego diarias.
+
+<Checklist
+  id="daily-planter-goals"
+  title="Rutina Diaria de Macetas:"
+  items={[
+    "Despliega al menos tres macetas en sus campos preferidos al inicio de tu sesión",
+    "Recolecta polen en los campos de tus macetas activas durante 10 minutos para activar el impulso de crecimiento",
+    "Cosecha todas las macetas maduras antes de que tu inventario se llene con botines normales del campo",
+    "Almacena todos los néctares cosechados en el Condensador de Néctar para asegurar tus multiplicadores activos",
+    "Rota las ubicaciones de las macetas diariamente para evitar la penalización por colocación repetitiva en el campo"
+  ]}
+/>
+
+<Callout type="info" title="Obtención de Pegatinas (Stickers)">
+Ciertas macetas tienen una pequeña probabilidad de soltar pegatinas extremadamente raras cuando se cosechan en campos específicos. Mantente atento al registro del chat durante las cosechas para ver si has obtenido un objeto de intercambio de alto valor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Crecen las macetas cuando estoy desconectado?",
+    answer: "Sí, las macetas continúan creciendo pasivamente mientras estás desconectado, pero a una tasa significativamente reducida en comparación con cuando estás farmeando activamente en el campo. Para acelerar el crecimiento, siempre se recomienda recolectar polen en el campo de la maceta mientras estás en línea."
+  },
+  {
+    question: "¿Cuál es la mejor maceta para farmear Pegamento (Glue)?",
+    answer: "La Maceta de Caramelo es la mejor opción absoluta para farmear Pegamento. Cuando se coloca en el Campo de Fresa o en el Parche de Calabaza, tiene una tasa de obtención muy constante tanto de Pegamento como de Enzimas, lo que la hace esencial para la artesanía del juego medio."
+  },
+  {
+    question: "¿Pueden otros jugadores cosechar mis macetas?",
+    answer: "No, tus macetas son completamente privadas. Otros jugadores no pueden ver, interactuar ni cosechar tus macetas desplegadas, por lo que no tienes que preocuparte de que nadie robe tus néctares o materiales raros."
+  },
+  {
+    question: "¿Cómo evito que mis potenciadores de néctar decaigan?",
+    answer: "Los néctares decaen con el tiempo, pero puedes ralentizar este proceso y extender la duración de tus potenciadores visitando el Condensador de Néctar en la Zona de 30 Abejas. Depositar tus cosechas frescas regularmente es la única forma de mantener una acumulación de 24 horas."
+  }
+]} />
+
+</Section>

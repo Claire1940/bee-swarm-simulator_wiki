@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Golosinas Favoritas de Bee Swarm Simulator: Guía de Alimentación",
+  description: "Optimiza tu colmena con nuestra guía completa de golosinas favoritas de Bee Swarm Simulator. Aprende las probabilidades de abejas dotadas, estrategias de alimentación y ubicaciones para farmear golosinas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000?text=Favorite+Treats+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Alimentar a una abeja con sus **golosinas favoritas de bee swarm simulator** duplica el vínculo obtenido por objeto de 5 a 10 puntos.
+- **Transformación a Dotada**: Cada golosina favorita consumida tiene una pequeña probabilidad de convertir a una abeja en Dotada, variando entre 1 en 8,000 y 1 en 24,000.
+- **Alimentación dirigida**: Combina siempre los colores de las golosinas con los de las abejas (Fresas para Rojas, Arándanos para Azules) para maximizar la eficiencia.
+- **Estrategia de farmeo**: Farmea en campos clave como Pepper Patch, Pine Tree Forest y Pumpkin Patch para acumular golosinas rápidamente.
+</Callout>
+
+<Section icon={Map} title="Compatibilidad de Golosinas y Sistema de Vínculo">
+
+Comprender cómo interactúan las golosinas con tu colmena es la piedra angular del progreso. En Bee Swarm Simulator, alimentar a tus abejas es el método principal para subirlas de nivel, lo que aumenta su cantidad de recolección, poder de ataque y velocidad de conversión. Mientras que las Golosinas básicas (Treats) compradas en el dispensador otorgan un vínculo plano de 10 puntos, las golosinas especializadas como Fresas, Arándanos, Piñas y Semillas de Girasol se comportan de manera diferente según la abeja que las consuma.
+
+Cuando se alimenta a una abeja con su golosina favorita designada, la recompensa de vínculo se duplica. Si le das una golosina a una abeja que no la prefiere, el vínculo se reduce a la mitad, a unos escasos 5 puntos, y pierdes por completo cualquier oportunidad de activar una transformación a dotada. Por lo tanto, la alimentación aleatoria es altamente ineficiente y desperdicia valiosos recursos de creación.
+
+### Métricas de Eficiencia de Golosinas
+
+La siguiente tabla detalla las diferencias principales en el rendimiento de vínculo y las capacidades de transformación entre las golosinas básicas y las especializadas.
+
+| Tipo de Golosina | Vínculo Base | Vínculo de Abeja Favorita | Probabilidad de Transformación a Dotada |
+| :--- | :--- | :--- | :--- |
+| **Semilla de Girasol** | 5 | 10 | 1 en 8,000 (No Mítica) |
+| **Fresa** | 5 | 10 | 1 en 8,000 (No Mítica) |
+| **Arándano** | 5 | 10 | 1 en 8,000 (No Mítica) |
+| **Piña** | 5 | 10 | 1 en 8,000 (No Mítica) |
+| **Golosina (Básica)** | 10 | N/A | No puede activar transformación |
+
+### Asignación de Golosinas Favoritas
+
+Para asegurarte de no desperdiciar tus recursos obtenidos con tanto esfuerzo, utiliza esta lista de compatibilidad para emparejar la golosina correcta con tus abejas específicas.
+
+| Color / Tipo de Abeja | Golosina Favorita | Ejemplos de Abejas |
+| :--- | :--- | :--- |
+| **Abejas Rojas** | Fresa | Rad, Riley, Fire, Shy, Rage, Spicy, Precise |
+| **Abejas Azules** | Arándano | Cool, Bucko, Frosty, Diamond, Ninja, Tadpole, Buoyant |
+| **Blancas / Incoloras** | Piña | Stubborn, Exhausted, Carpenter, Vector |
+| **Incoloras / Soporte** | Semilla de Girasol | Basic, Bomber, Looker, Commander, Music, Baby, Photon |
+
+<CardGrid cols={2}>
+  <Card title="Optimización de Colmena Roja">
+    Concentra tus reservas de **Fresas** completamente en las Abejas Rojas. Esto es crucial para subir de nivel a atacantes de alto rango como las abejas Spicy y Precise mientras buscas sus variantes dotadas.
+  </Card>
+  <Card title="Optimización de Colmena Azul">
+    Mantén tus **Arándanos** dedicados a las Abejas Azules. Las colmenas azules dependen en gran medida de abejas Tadpole y Buoyant de alto nivel para mantener la capacidad de burbujas y globos.
+  </Card>
+  <Card title="Optimización de Colmena Blanca">
+    Usa **Piñas** para alimentar a las abejas Carpenter y Vector. Las colmenas blancas requieren cantidades masivas de enzimas, así que equilibra la alimentación con tus necesidades de creación.
+  </Card>
+  <Card title="Soporte Incoloro y de Evento">
+    Las **Semillas de Girasol** se aprovechan mejor en abejas de soporte como Music y Baby, o en abejas de evento como Photon Bee para aumentar de forma constante sus niveles de vínculo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro: Límites de Alimentación de Abejas de Evento">
+Aunque las Abejas de Evento como Photon Bee, Tabby Bee y Gummy Bee pueden comer Semillas de Girasol u otras golosinas para ganar vínculo, **no** pueden convertirse en Dotadas a través de sus golosinas favoritas. Guarda tus golosinas para abejas normales o Míticas, y usa únicamente Star Treats u ositos de jengibre (Gingerbread Bears) de temporada en las Abejas de Evento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Probabilidades y Costos de Transformación a Dotada">
+
+Convertir tus abejas en **Abejas Dotadas** es esencial para desbloquear poderosas bonificaciones pasivas para toda la colmena. Aunque las Star Treats ofrecen una transformación garantizada, usar las **golosinas favoritas de bee swarm simulator** es el método más común para las abejas que no son de evento. Sin embargo, este proceso depende en gran medida de la generación de números aleatorios (RNG).
+
+La probabilidad de que una abeja se vuelva dotada con una sola golosina favorita depende completamente de su rareza. Debido a que las probabilidades son bastante bajas, debes prepararte para alimentar miles de golosinas en una sola sesión para asegurar una transformación.
+
+### Probabilidades de Transformación a Dotada
+
+Los siguientes datos representan los requisitos estadísticos promedio para transformar abejas usando sus golosinas favoritas.
+
+| Rareza de la Abeja | Probabilidad Base de Dotada | Promedio de Golosinas Requeridas | Costo Estimado en Miel (Equivalente) |
+| :--- | :--- | :--- | :--- |
+| **Abejas Raras** | 1 en 8,000 | 8,000 golosinas | 40,000,000 de Miel |
+| **Abejas Épicas** | 1 en 8,000 | 8,000 golosinas | 40,000,000 de Miel |
+| **Abejas Legendarias** | 1 en 8,000 | 8,000 golosinas | 40,000,000 de Miel |
+| **Abejas Míticas** | 1 en 24,000 | 24,000 golosinas | 120,000,000 de Miel |
+| **Abejas de Evento** | N/A | Imposible mediante golosinas | Requiere Star Treat |
+
+Debido a que estos números son promedios estadísticos, podrías tener suerte y transformar una abeja en menos de 1,000 golosinas, o podrías quedarte con las manos vacías después de gastar 20,000. Para las abejas Míticas, las probabilidades de 1 en 24,000 hacen que la transformación basada en golosinas sea un esfuerzo para el juego tardío.
+
+<Callout type="warning" title="Advertencia: El Dilema entre Creación y Alimentación">
+Antes de gastar miles de Fresas, Arándanos o Piñas en tu colmena, recuerda que estos objetos son ingredientes clave para fabricar equipos de alto nivel. Por ejemplo, los Extractos Azules requieren Arándanos, y las Enzimas requieren Piñas. No te quedes sin la posibilidad de fabricar tu próxima gran mejora de equipo por perseguir una probabilidad de dotada demasiado pronto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Alimentación Óptima Paso a Paso">
+
+Para minimizar el desperdicio de recursos y maximizar tus posibilidades de éxito, debes seguir un protocolo de alimentación estructurado. Hacer clic a ciegas en el botón de alimentar puede resultar en subir demasiado de nivel a abejas que planeas reemplazar o desperdiciar golosinas raras en los objetivos equivocados.
+
+<Steps>
+  <Step num="1" title="Identifica tu Abeja Objetivo">
+    Analiza tu colmena y selecciona una sola abeja que necesite una bonificación de dotada o una mejora de nivel. Prioriza las abejas que ofrecen bonificaciones de colmena universalmente beneficiosas, como Commander Bee (+5% de probabilidad de golpe crítico) o Music Bee (+10% de poder crítico).
+  </Step>
+  <Step num="2" title="Acumula un Margen Seguro de Golosinas">
+    No intentes una transformación a dotada con solo 1,000 golosinas. Para abejas regulares, espera hasta tener al menos 10,000 de su golosina favorita. Para abejas Míticas, no comiences hasta haber acumulado al menos de 25,000 a 30,000 golosinas para combatir la mala racha del RNG.
+  </Step>
+  <Step num="3" title="Configura tus Ajustes de Alimentación">
+    Abre el menú de tu colmena, haz clic en la abeja objetivo y selecciona la golosina adecuada. Usa el control deslizante de lote o selecciona la opción "Hasta que sea Dotada" (Until Gifted) si tienes una gran reserva. Esto evita los clics manuales y detiene la alimentación inmediatamente una vez que la abeja se transforma.
+  </Step>
+  <Step num="4" title="Reevalúa la Sinergia de la Colmena">
+    Una vez que una abeja se vuelve dotada, su bonificación de colmena se activa. Debido a que las bonificaciones de dotadas idénticas no se acumulan, identifica de inmediato cualquier abeja dotada duplicada en tu colmena y prepárate para reemplazarla con otros tipos únicos para diversificar tus bonificaciones.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito: Activación de Bonificación de Colmena Dotada">
+Una vez que una abeja se transforma, su bonificación única de colmena se aplica a tu personaje de manera instantánea. Prioriza siempre mantener una de cada abeja dotada Rara, Épica y Legendaria en tu colmena antes de buscar la especialización de color pura.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rutas de Farmeo y Recolección de Golosinas">
+
+Para mantener un ciclo de alimentación saludable, debes saber dónde y cómo farmear golosinas de manera eficiente. Aunque comprar golosinas en el dispensador cerca de la zona de Mother Bear es una opción, resulta increíblemente costoso para los jugadores en el juego temprano y medio. Farmear en los campos y derrotar criaturas (mobs) es la forma más rentable de construir tu inventario.
+
+Diferentes campos tienen distintas tasas de aparición de golosinas específicas. Alinear tus sesiones de farmeo con tus necesidades actuales de golosinas acelerará significativamente tu progresión.
+
+### Ubicaciones de Farmeo de Golosinas de Alto Rendimiento
+
+Farmea en estos campos específicos para maximizar tu adquisición pasiva de golosinas mientras recolectas polen.
+
+| Nombre del Campo | Drop de Golosina Principal | Drop Secundario / Material de Creación | Configuración Recomendada de Aspersores |
+| :--- | :--- | :--- | :--- |
+| **Sunflower Field** | Semilla de Girasol | Golosina Básica | Aspersor de Plata o superior |
+| **Strawberry Field** | Fresa | Amuleto Lunar | Aspersor de Oro o superior |
+| **Bamboo Forest** | Arándano | Extracto Azul | Aspersor de Diamante o superior |
+| **Pineapple Patch** | Piña | Enzima | Aspersor Supremo |
+| **Pepper Patch** | Fresa | Extracto Rojo | Aspersor Supremo |
+| **Pine Tree Forest** | Arándano | Pegamento | Aspersor Supremo |
+
+Además de farmear en los campos, utilizar los dispensadores diarios y derrotar criaturas locales o de temporada proporciona un flujo constante de recursos sin consumir tu tiempo de juego activo.
+
+<Checklist
+  id="daily-treat-checklist"
+  title="Rutina Diaria de Recolección de Golosinas:"
+  items={[
+    "Reclama recompensas gratuitas de los dispensadores de Fresa, Arándano y Piña cada 4 horas.",
+    "Derrota a los jefes King Beetle y Tunnel Bear diariamente para obtener paquetes de golosinas raras garantizados.",
+    "Completa las misiones de Mother Bear y Polar Bear para ganar recompensas directas de golosinas y mejoras permanentes de alimentación.",
+    "Derrota a las criaturas Spider y Werewolf cuando termine su tiempo de recarga para recolectar Fresas y Arándanos adicionales.",
+    "Participa en los minijuegos de Memory Match para asegurar paquetes de golosinas de gran valor."
+  ]}
+/>
+
+<Callout type="info" title="Nota: Mejora de Alimentación de Polar Bear">
+Completar las misiones de Polar Bear te recompensa con Polar Power. Esta mejora permanente aumenta la capacidad de energía de tus abejas, reduciendo la frecuencia con la que deben descansar en la colmena, lo que impulsa indirectamente tus tasas generales de conversión de polen a miel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Para ayudar a aclarar los malentendidos comunes sobre el sistema de alimentación, hemos recopilado las preguntas más frecuentes de la comunidad.
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar golosinas favoritas en Abejas de Evento para hacerlas dotadas?",
+    answer: "No. Las Abejas de Evento (como Tabby, Photon, Festive, Crimson, Cobalt y Gummy) no tienen golosinas favoritas. Alimentarlas con golosinas estándar solo les otorgará vínculo. Para hacer que una Abeja de Evento sea dotada, debes alimentarla con una Star Treat o usar artículos de temporada como los Gingerbread Bears."
+  },
+  {
+    question: "¿Vale la pena comprar golosinas con Miel en el dispensador?",
+    answer: "Solo en el juego tardío. Comprar golosinas básicas cuesta 10,000 de Miel cada una, lo que se acumula increíblemente rápido. Hasta que puedas producir fácilmente miles de millones de miel por sesión de farmeo, confía en el farmeo activo en los campos, los dispensadores y los drops de jefes para recolectar tus golosinas."
+  },
+  {
+    question: "¿Se acumulan las bonificaciones de colmena de dotadas idénticas si tengo varias abejas iguales?",
+    answer: "No, las bonificaciones de colmena de dotadas idénticas no se acumulan. Si tienes dos Commander Bees dotadas, solo recibirás una única bonificación de +5% de probabilidad de golpe crítico. Siempre es mejor mantener una colmena diversa con tipos dotados únicos."
+  },
+  {
+    question: "¿Cuál es la diferencia entre las Golosinas normales y las Golosinas Favoritas?",
+    answer: "Las Golosinas básicas otorgan un vínculo plano de 10 a cualquier abeja, pero tienen un 0% de probabilidad de activar una transformación a dotada. Las Golosinas Favoritas (como las Fresas para las Abejas Rojas) otorgan 10 de vínculo a sus abejas compatibles, 5 de vínculo a las abejas incompatibles, y conllevan la probabilidad única de convertir en dotadas a las abejas compatibles."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación Final">
+Prioriza siempre subir de nivel a tus recolectoras y atacantes principales primero. Una colmena de mayor nivel te permite derrotar jefes más rápido, lo que a su vez aumenta drásticamente tus rendimientos diarios de golosinas.
+</Callout>
+
+</Section>

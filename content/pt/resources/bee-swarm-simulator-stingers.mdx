@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ferrões no Bee Swarm Simulator: Melhores Rotas de Farm e Dicas de Criação",
+  description: "Domine os ferrões no Bee Swarm Simulator! Aprenda a encontrar Abelhas Viciosas Selvagens, usar distribuidores de ferrões, completar missões e criar equipamentos de endgame em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Stinger+Farming+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, ferrões, abelha viciosa, farm de ferrões, crafting, guia"
+}
+
+<Callout type="info" title="Guia Rápido de Ferrões">
+- **Recurso primário**: Junte **ferrões do Bee Swarm Simulator** para desbloquear a Abelha Viciosa (Vicious Bee) e criar equipamentos de alto nível para o endgame.
+- **Método de farm**: Cace Abelhas Viciosas Selvagens em campos importantes durante o ciclo noturno para obter os maiores rendimentos de ferrões.
+- **Prioridade de criação**: Guarde seus primeiros 250 ferrões para o ovo da Abelha Viciosa antes de gastá-los em máscaras ou guardas.
+- **Utilidade como consumível**: Use ferrões individuais para aumentar temporariamente o poder de ataque de todo o seu enxame em 50% por 30 segundos.
+- **Fontes alternativas**: Utilize o distribuidor do Campo de Cacto (Cactus Field), complete o Desafio da Formiga (Ant Challenge) ou resgate códigos promocionais ativos.
+</Callout>
+
+<Section icon={Sparkles} title="O que são Ferrões e por que você precisa deles?">
+
+No Bee Swarm Simulator, o progresso é medido pela força da sua colmeia e pela qualidade dos seus equipamentos. Entre os vários materiais de criação que você encontrará, os **ferrões do Bee Swarm Simulator** se destacam como um dos recursos mais valiosos. Esses itens afiados de cor azul-neon servem a um duplo propósito: funcionam como um poderoso consumível de combate temporário e agem como a principal moeda para algumas das melhorias mais influentes do jogo. 
+
+Quando consumido diretamente do seu inventário, um único ferrão aumenta o poder de ataque de todo o seu enxame de abelhas em 50% por 30 segundos. Embora isso seja incrivelmente útil para derrotar chefes difíceis como o Caranguejo de Coco (Coconut Crab) ou o Pintinho Comando (Commando Chick), acumulá-los para criação (crafting) é quase sempre a melhor estratégia a longo prazo. 
+
+<Callout type="warning" title="Aviso de Gerenciamento de Recursos">
+Evite consumir ferrões casualmente durante o farm no início do jogo. Guardar ferrões para marcos importantes, como o Ovo da Abelha Viciosa e a Máscara Demoníaca (Demon Mask), acelerará sua progressão geral muito mais do que os impulsos temporários de combate.
+</Callout>
+
+### Prioridades de Criação e Valores dos Itens
+
+Para ajudar você a planejar sua rota de progressão, a tabela abaixo resume os principais usos dos ferrões, seus respectivos custos e quando você deve priorizar o desbloqueio de cada um.
+
+| Item / Uso | Custo em Ferrões | Prioridade | Melhor Fase | Benefício Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ovo da Abelha Viciosa** | 250 | **Crítica** (5/5) | Mid Game | Gera espinhos, reduz o tempo de ressurgimento de monstros |
+| **Máscara Demoníaca** | 500 | **Alta** (4/5) | Late Game | Aumento massivo de pólen vermelho, buffs passivos de chama |
+| **Guarda Carmesim** | 100 | **Alta** (4/5) | Mid-Late Game | Pólen vermelho, conversão instantânea, atributos de defesa |
+| **Guarda Cobalto** | 100 | **Alta** (4/5) | Mid-Late Game | Pólen azul, conversão instantânea, atributos de defesa |
+| **Ataque Consumível** | 1 | **Baixa** (2/5) | Qualquer Fase | Aumenta temporariamente o ataque das abelhas em 50% |
+
+A escolha de qual item construir depende muito da sua fase atual de progressão e da direção escolhida para a sua colmeia. 
+
+<CardGrid cols={3}>
+  <Card title="Ovo da Abelha Viciosa">
+    - **Custo**: 250 Ferrões
+    - **Fase**: Mid Game
+    - **Impacto**: Desbloqueia uma poderosa abelha de evento que se destaca em combate e reduz o tempo de recarga dos monstros.
+  </Card>
+  <Card title="Guardas Carmesim e Cobalto">
+    - **Custo**: 100 Ferrões cada
+    - **Fase**: Mid-Late Game
+    - **Impacto**: Fornece atributos equilibrados, conversão instantânea e aumentos essenciais de pólen específicos por cor.
+  </Card>
+  <Card title="Máscara Demoníaca">
+    - **Custo**: 500 Ferrões
+    - **Fase**: Late Game
+    - **Impacto**: A máscara ofensiva definitiva para colmeias vermelhas, oferecendo imenso dano explosivo e geração de chamas.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Como Farmar Ferrões no Bee Swarm Simulator">
+
+Farmar **ferrões do Bee Swarm Simulator** de forma eficiente requer uma compreensão profunda dos ciclos de dia e noite do jogo. A principal fonte de ferrões é a Abelha Viciosa Selvagem (Wild Vicious Bee), uma criatura agressiva que só aparece durante a noite. Um ciclo padrão de dia e noite no Bee Swarm Simulator dura 20 minutos: 16 minutos de luz do dia seguidos por 4 minutos de escuridão.
+
+Quando a noite cai, uma Abelha Viciosa Selvagem tem a chance de aparecer em um dos vários campos designados. Você pode identificar sua presença procurando por um espinho metálico azul-prateado distinto projetando-se do trevo ou das flores do campo. Caminhar diretamente em direção a este espinho fará com que a Abelha Viciosa surja, iniciando um combate.
+
+<Callout type="tip" title="Avistando o Espinho">
+Reduza um pouco as configurações gráficas se estiver tendo dificuldades para enxergar através de campos de flores densos. Isso reduz a poluição visual da grama, fazendo com que o espinho metálico azul da Abelha Viciosa se destaque claramente.
+</Callout>
+
+### Melhores Campos para o Surgimento da Abelha Viciosa Selvagem
+
+O nível da Abelha Viciosa Selvagem, bem como a quantidade de ferrões que ela deixa cair ao ser derrotada, escala de acordo com o campo em que ela surge. Campos de nível mais alto geram abelhas mais difíceis, mas recompensam você com significativamente mais ferrões.
+
+| Nome do Campo | Nível de Surgimento | Faixa de Nível | Chance de Surgimento | Nota de Estratégia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Campo do Topo da Montanha** | Alto | 8 - 12 | Moderada | Procure perto da parede traseira e ao redor das bordas |
+| **Campo de Rosas** | Alto | 6 - 10 | Moderada | A cobertura de flores vermelhas torna o espinho difícil de ver |
+| **Campo de Cactos** | Médio | 5 - 8 | Alta | Campo mais fácil para avistar o espinho rapidamente |
+| **Campo da Aranha** | Médio | 4 - 7 | Moderada | Cuidado com a aranha que surge ao mesmo tempo |
+| **Campo de Trevos** | Baixo | 2 - 5 | Baixa | Ótimo para jogadores de nível mais baixo no início da noite |
+
+### Rotina de Farm Noturna Passo a Passo
+
+Siga esta rota otimizada no início de cada ciclo noturno para maximizar suas chances de encontrar uma Abelha Viciosa Selvagem.
+
+<Steps>
+  <Step num="1" title="Monitore o Céu">
+    Observe a iluminação do jogo. Assim que o céu escurecer e a lua nascer, prepare-se para deixar seu campo atual e iniciar sua rota de busca.
+  </Step>
+  <Step num="2" title="Verifique os Campos Inferiores Primeiro">
+    Comece escaneando o Campo de Trevos e o Campo da Aranha. Eles ficam próximos um do outro e podem ser verificados em segundos. Procure pelo espinho prateado afiado.
+  </Step>
+  <Step num="3" title="Suba para a Zona de 15 Abelhas">
+    Use o canhão vermelho ou suba a pé para verificar o Campo de Cactos e o Campo de Rosas. O Campo de Cactos é particularmente aberto, tornando-o incrivelmente fácil de escanear à distância.
+  </Step>
+  <Step num="4" title="Verifique o Topo da Montanha">
+    Pegue o canhão azul ou o teletransportador vermelho para o Campo do Topo da Montanha. Se uma Abelha Viciosa surgir aqui, ela deixará cair a maior quantidade de ferrões devido ao seu alto nível.
+  </Step>
+  <Step num="5" title="Enfrente e Derrote">
+    Assim que encontrá-la, fique perto de suas abelhas para que elas possam atacar. Colete fichas de Foco (Focus) e Fúria (Rage) para maximizar seu dano antes que a noite termine.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Fontes Alternativas de Ferrões e Distribuidores">
+
+Embora caçar Abelhas Viciosas Selvagens seja o método de farm ativo mais confiável, depender apenas dos ciclos noturnos pode ser lento. Felizmente, existem vários métodos alternativos para complementar sua renda de ferrões, incluindo recompensas diárias, desafios e distribuidores especializados.
+
+A fonte estática mais notável é o Distribuidor de Ferrões (Stinger Dispenser) localizado próximo ao Campo de Cactos. Esta máquina exige que você tenha desbloqueado pelo menos 25 abelhas para acessá-la. Embora conveniente, ela vem com uma troca cara que os jogadores devem considerar antes de usá-la regularmente.
+
+<Callout type="warning" title="Custo-Benefício do Distribuidor">
+O Distribuidor de Ferrões cobra 10 Tickets por uso e tem um tempo de recarga de 1 hora. Isso geralmente é considerado um mau negócio para jogadores no início e meio do jogo, pois os Tickets são mais bem gastos em Ovos de Abelhas de Evento (como a Abelha Malhada [Tabby] ou Abelha Fóton [Photon]). Use o distribuidor apenas se estiver precisando de poucos ferrões para uma melhoria importante.
+</Callout>
+
+### Comparação de Fontes de Ferrões Fora de Combate
+
+Avaliar onde gastar seu tempo e recursos é fundamental para manter uma curva de progressão eficiente. Use a tabela abaixo para comparar a viabilidade de fontes alternativas de ferrões.
+
+| Tipo de Fonte | Localização / Requisito | Tempo de Recarga / Custo | Rendimento Médio | Eficiência |
+| :--- | :--- | :--- | :--- | :--- |
+| **Distribuidor de Ferrões** | Campo de Cactos (25 Abelhas) | 1 hora / 10 Tickets | 1 - 3 Ferrões | Baixa (Caro) |
+| **Desafio da Formiga** | Passe de Formiga / 20 Abelhas | Instantâneo por passe | 1 - 5 Ferrões | Alta (Baseado em habilidade) |
+| **Pintinho Comando** | Portão de 15 Abelhas | Varia conforme o número de derrotas | 1 - 10 Ferrões | Média (Demorado) |
+| **Códigos Diários** | Configurações do Jogo | Uso único | Varia | Instantâneo |
+
+### Checklist Diário de Ferrões
+
+Incorpore estas tarefas ao seu tempo de jogo diário para manter uma entrada constante de materiais de criação sem gastar seus preciosos Tickets.
+
+<Checklist
+  id="daily-stinger-goals"
+  title="Tarefas Diárias de Ferrões:"
+  items={[
+    "Verifique o servidor para ciclos noturnos ativos e complete pelo menos três caçadas de Abelha Viciosa Selvagem.",
+    "Use seus Passes de Formiga diários gratuitos para fazer o Desafio da Formiga, focando em pontuações altas para obter ferrões extras.",
+    "Derrote o Pintinho Comando na área de 15 abelhas para avançar suas recompensas de captura.",
+    "Verifique e resgate códigos promocionais ativos como 'fourtunate' para resgatar ferrões bônus instantâneos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Receitas Avançadas de Criação e Gerenciamento de Recursos">
+
+À medida que você avança para o late game, sua demanda por **ferrões do Bee Swarm Simulator** vai disparar. A criação de equipamentos de endgame exige centenas de ferrões juntamente com outros materiais raros como Purpurina (Glitter), Cola (Glue) e Extratos Vermelhos/Azuis (Red/Blue Extracts). Como essas receitas exigem muitos recursos, um planejamento adequado é necessário para evitar gargalos.
+
+Se você planeja seguir uma build de Colmeia Vermelha (Red Hive), a Máscara Demoníaca é seu objetivo final. Ela oferece capacidades ofensivas incomparáveis, mas exige um investimento massivo de 500 ferrões. Por outro lado, colmeias Azuis e Brancas requerem menos ferrões para suas respectivas máscaras (Diamante [Diamond] e Pegajosa [Gummy]), permitindo que os jogadores dessas cores direcionem seus ferrões para outras melhorias, como os Guardas Carmesim e Cobalto.
+
+<Callout type="success" title="Dica de Criação para Endgame">
+Sempre crie seus Guardas Carmesim e Cobalto antes de se comprometer com uma máscara cara. Os guardas fornecem defesa essencial e porcentagens de conversão instantânea que beneficiam todas as cores de colmeia, tornando-os marcos altamente versáteis para o mid-to-late game.
+</Callout>
+
+### Receitas de Criação de Endgame que Exigem Ferrões
+
+Planeje sua coleta de recursos acompanhando os requisitos exatos de materiais para os equipamentos de alto nível.
+
+| Equipamento Criado | Custo em Ferrões | Estação de Criação | Outros Materiais Principais | Buff de Atributo Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Máscara Demoníaca** | 500 | Liquidificador / Loja Vermelha | 250 Extrato Vermelho, 150 Cola | +1.5x Pólen Vermelho, Passiva de Chama |
+| **Guarda Carmesim** | 100 | QG Vermelho | 100 Extrato Vermelho, 50 Purpurina | +10% Pólen Vermelho, +5% Conversão Instantânea |
+| **Guarda Cobalto** | 100 | QG Azul | 100 Extrato Azul, 50 Purpurina | +10% Pólen Azul, +5% Conversão Instantânea |
+| **Máscara de Chama** | 50 | QG Vermelho | 100 Extrato Vermelho, 15 Cola | +20% Pólen Vermelho, +10% Pólen de Fogo |
+
+Ao planejar a progressão do seu equipamento desde cedo, você evita desperdiçar materiais em itens intermediários que não se alinham com a cor final da sua colmeia. Mantenha seus ferrões guardados em segurança no seu inventário, foque em suas rotas diárias e assista sua colmeia crescer até se tornar uma força imparável de coleta de pólen.
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Gerenciar seus recursos com eficiência é a chave para dominar a montanha. Abaixo estão as respostas para as perguntas mais comuns sobre a aquisição e o uso de ferrões.
+
+<Callout type="info" title="Resumo Rápido">
+Prioritize a Abelha Viciosa primeiro, utilize os ciclos noturnos para obter ferrões gratuitos e evite comprá-los com Tickets, a menos que seja absolutamente necessário.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de conseguir 250 ferrões para a Abelha Viciosa?",
+    answer: "O método gratuito mais rápido é caçar ativamente Abelhas Viciosas Selvagens durante os ciclos noturnos. Recomenda-se fortemente a troca de servidores (server hopping): entre em um servidor público, verifique se é noite, procure nos campos, derrote a abelha se ela estiver presente e depois mude para outro servidor para repetir o processo."
+  },
+  {
+    question: "Abelhas Viciosas Selvagens Gifted deixam cair mais ferrões do que as normais?",
+    answer: "Sim, Abelhas Viciosas Selvagens Gifted têm um nível mais alto e deixam cair significativamente mais ferrões ao serem derrotadas em comparação com suas contrapartes não-gifted. Elas são mais raras de encontrar, mas são alvos altamente lucrativos."
+  },
+  {
+    question: "Devo gastar meus Tickets no Distribuidor de Ferrões?",
+    answer: "Geralmente não. Gastar 10 Tickets por no máximo 3 ferrões é uma troca ineficiente. É muito melhor guardar os Tickets para comprar Ovos de Evento ou Biscoitos Estrela (Star Treats). Use o distribuidor apenas se estiver extremamente perto de terminar uma criação importante e quiser economizar tempo."
+  },
+  {
+    question: "Posso conseguir ferrões por meio de trocas ou adesivos (stickers)?",
+    answer: "Os ferrões em si não podem ser trocados diretamente entre jogadores. No entanto, você pode trocar por adesivos (stickers) que podem ser doados ao Santuário do Vento (Wind Shrine) ou usados na Impressora de Adesivos (Sticker Printer), que ocasionalmente recompensam você com ferrões e outros materiais de criação."
+  }
+]} />
+
+</Section>

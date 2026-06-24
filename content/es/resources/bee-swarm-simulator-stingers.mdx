@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Aguijones de Bee Swarm Simulator: Las mejores rutas de farmeo y consejos de elaboración",
+  description: "¡Domina los aguijones de Bee Swarm Simulator! Aprende a encontrar Abejas Viciosas Salvajes, usar dispensadores de aguijones, completar misiones y fabricar equipo de juego tardío en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000?text=Stinger+Farming+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guía rápida de aguijones">
+- **Recurso principal**: Reúne **aguijones de Bee Swarm Simulator** para desbloquear a la Abeja Viciosa (Vicious Bee) y fabricar equipo de juego tardío de alto nivel.
+- **Método de farmeo**: Caza Abejas Viciosas Salvajes en campos clave durante el ciclo nocturno para obtener el mayor rendimiento de aguijones.
+- **Prioridad de elaboración**: Guarda tus primeros 250 aguijones para el huevo de Abeja Viciosa antes de gastarlos en máscaras o protectores (guards).
+- **Utilidad de consumible**: Usa aguijones individuales para aumentar temporalmente el poder de ataque de todo tu enjambre en un 50% durante 30 segundos.
+- **Fuentes alternativas**: Utiliza el dispensador del Campo de Cactus (Cactus Field), completa el Desafío de las Hormigas (Ant Challenge) o canjea códigos promocionales activos.
+</Callout>
+
+<Section icon={Sparkles} title="¿Qué son los aguijones y por qué los necesitas?">
+
+En Bee Swarm Simulator, el progreso se mide por la fuerza de tu colmena y la calidad de tu equipo. Entre los diversos materiales de elaboración que encontrarás, los **aguijones de Bee Swarm Simulator** destacan como uno de los recursos más valiosos. Estos objetos afilados de color azul neón tienen un doble propósito: funcionan como un poderoso consumible de combate temporal y actúan como la moneda principal para algunas de las mejoras más influyentes del juego. 
+
+Cuando se consume directamente desde tu inventario, un solo aguijón aumenta el poder de ataque de todo tu enjambre de abejas en un 50% durante 30 segundos. Aunque esto es increíblemente útil para derrotar a jefes difíciles como el Cangrejo de Coco (Coconut Crab) o el Pollito Comando (Commando Chick), acumularlos para la elaboración es casi siempre la mejor estrategia a largo plazo. 
+
+<Callout type="warning" title="Advertencia de gestión de recursos">
+Evita consumir aguijones de forma casual durante el farmeo al inicio del juego. Guardar los aguijones para hitos importantes como el Huevo de Abeja Viciosa y la Máscara de Demonio (Demon Mask) acelerará tu progresión general mucho más que los potenciadores de combate temporales.
+</Callout>
+
+### Prioridades de elaboración y valores de objetos
+
+Para ayudarte a planificar tu ruta de progresión, la siguiente tabla detalla los usos principales de los aguijones, sus respectivos costes y cuándo deberías priorizar su desbloqueo.
+
+| Objeto / Uso | Coste de aguijones | Prioridad | Mejor etapa | Beneficio clave |
+| :--- | :--- | :--- | :--- | :--- |
+| **Huevo de Abeja Viciosa** | 250 | **Crítica** (5/5) | Juego medio | Invoca pinchos, reduce el tiempo de reaparición de monstruos |
+| **Máscara de Demonio** | 500 | **Alta** (4/5) | Juego tardío | Aumento masivo de polen rojo, mejoras pasivas de llamas |
+| **Protector Carmesí** | 100 | **Alta** (4/5) | Juego medio-tardío | Polen rojo, conversión instantánea, estadísticas de defensa |
+| **Protector Cobalto** | 100 | **Alta** (4/5) | Juego medio-tardío | Polen azul, conversión instantánea, estadísticas de defensa |
+| **Ataque consumible** | 1 | **Baja** (2/5) | Cualquier etapa | Aumenta temporalmente el ataque de las abejas en un 50% |
+
+Elegir qué objeto fabricar depende en gran medida de tu etapa actual de progresión y de la dirección elegida para tu colmena. 
+
+<CardGrid cols={3}>
+  <Card title="Huevo de Abeja Viciosa">
+    - **Coste**: 250 aguijones
+    - **Etapa**: Juego medio
+    - **Impacto**: Desbloquea una poderosa abeja de evento que destaca en el combate y reduce los tiempos de reutilización de los monstruos.
+  </Card>
+  <Card title="Protectores Carmesí y Cobalto">
+    - **Coste**: 100 aguijones cada uno
+    - **Etapa**: Juego medio-tardío
+    - **Impacto**: Proporciona estadísticas equilibradas, conversión instantánea y aumentos esenciales de polen específicos de color.
+  </Card>
+  <Card title="Máscara de Demonio">
+    - **Coste**: 500 aguijones
+    - **Etapa**: Juego tardío
+    - **Impacto**: La máscara ofensiva definitiva para colmenas rojas, que ofrece un inmenso daño de ráfaga y generación de llamas.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Cómo farmear aguijones en Bee Swarm Simulator">
+
+Farmear **aguijones de Bee Swarm Simulator** de manera eficiente requiere una comprensión profunda de los ciclos de día y noche del juego. La fuente principal de aguijones es la Abeja Viciosa Salvaje, un monstruo rebelde agresivo que solo aparece durante la noche. Un ciclo estándar de día-noche en Bee Swarm Simulator dura 20 minutos: 16 minutos de luz diurna seguidos de 4 minutos de oscuridad.
+
+Cuando cae la noche, una Abeja Viciosa Salvaje tiene la posibilidad de aparecer en uno de los varios campos designados. Puedes identificar su presencia buscando una púa metálica distintiva de color azul plateado que sobresale del trébol o las flores del campo. Caminar directamente hacia esta púa hará que emerja la Abeja Viciosa, iniciando un encuentro de combate.
+
+<Callout type="tip" title="Detectar la púa">
+Reduce un poco los ajustes gráficos si tienes problemas para ver a través de los campos de flores densos. Esto reduce el desorden visual de la hierba, haciendo que la púa azul metálica de la Abeja Viciosa destaque claramente.
+</Callout>
+
+### Los mejores campos para la aparición de la Abeja Viciosa Salvaje
+
+El nivel de la Abeja Viciosa Salvaje, así como la cantidad de aguijones que suelta al ser derrotada, escala con el campo en el que aparece. Los campos de mayor nivel generan abejas más difíciles pero te recompensan con significativamente más aguijones.
+
+| Nombre del campo | Nivel de aparición | Rango de nivel | Probabilidad de aparición | Nota de estrategia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Campo de la Cima de la Montaña** | Alto | 8 - 12 | Moderada | Busca cerca de la pared trasera y alrededor de los bordes |
+| **Campo de Rosas** | Alto | 6 - 10 | Moderada | La cubierta de flores rojas dificulta ver la púa |
+| **Campo de Cactus** | Medio | 5 - 8 | Alta | El campo más fácil para detectar la púa rápidamente |
+| **Campo de la Araña** | Medio | 4 - 7 | Moderada | Cuidado con la araña que aparece simultáneamente |
+| **Campo de Tréboles** | Bajo | 2 - 5 | Baja | Ideal para jugadores de nivel bajo durante el inicio de la noche |
+
+### Rutina de farmeo nocturno paso a paso
+
+Sigue esta rotación optimizada al comienzo de cada ciclo nocturno para maximizar tus posibilidades de encontrar una Abeja Viciosa Salvaje.
+
+<Steps>
+  <Step num="1" title="Vigila el cielo">
+    Observa la iluminación del juego. Tan pronto como el cielo se oscurezca y salga la luna, prepárate para salir de tu campo actual y comenzar tu rotación de búsqueda.
+  </Step>
+  <Step num="2" title="Revisa primero los campos inferiores">
+    Comienza escaneando el Campo de Tréboles y el Campo de la Araña. Están muy juntos y se pueden revisar en segundos. Busca la púa plateada y afilada.
+  </Step>
+  <Step num="3" title="Asciende a la zona de 15 abejas">
+    Usa el cañón rojo o sube a pie para revisar el Campo de Cactus y el Campo de Rosas. El campo de cactus es particularmente abierto, lo que facilita enormemente escanearlo desde la distancia.
+  </Step>
+  <Step num="4" title="Revisa la cima de la montaña">
+    Toma el cañón azul o el teletransportador rojo hacia el Campo de la Cima de la Montaña. Si una Abeja Viciosa aparece aquí, soltará la mayor cantidad de aguijones debido a su alto nivel.
+  </Step>
+  <Step num="5" title="Ataca y derrota">
+    Una vez encontrada, párate cerca de tus abejas para que puedan atacar. Recoge fichas de Foco (Focus) y Rabia (Rage) para maximizar tu daño antes de que termine la noche.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Fuentes alternativas de aguijones y dispensadores">
+
+Aunque cazar Abejas Viciosas Salvajes es el método de farmeo activo más confiable, depender únicamente de los ciclos nocturnos puede ser lento. Afortunadamente, existen varios métodos alternativos para complementar tus ingresos de aguijones, incluyendo recompensas diarias, desafíos y dispensadores especializados.
+
+La fuente estática más notable es el Dispensador de Aguijones ubicado cerca del Campo de Cactus. Esta máquina requiere que hayas desbloqueado al menos 25 abejas para acceder. Aunque es conveniente, conlleva un alto coste que los jugadores deben considerar antes de usarlo regularmente.
+
+<Callout type="warning" title="Eficiencia de coste del dispensador">
+El Dispensador de Aguijones cobra 10 tickets por uso y tiene un tiempo de reutilización de 1 hora. Esto generalmente se considera un mal trato para los jugadores en el juego temprano y medio, ya que es mejor gastar los tickets en huevos de abejas de evento (como la Abeja Gato o la Abeja Fotón). Solo usa el dispensador si te faltan unos pocos aguijones para una mejora importante.
+</Callout>
+
+### Comparación de fuentes de aguijones fuera de combate
+
+Evaluar dónde gastar tu tiempo y recursos es clave para mantener una curva de progresión eficiente. Usa la siguiente tabla para comparar la viabilidad de las fuentes alternativas de aguijones.
+
+| Tipo de fuente | Ubicación / Requisito | Tiempo de reutilización / Coste | Rendimiento promedio | Eficiencia |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dispensador de aguijones** | Campo de Cactus (25 abejas) | 1 hora / 10 tickets | 1 - 3 aguijones | Baja (Caro) |
+| **Desafío de las Hormigas** | Pase de hormiga / 20 abejas | Al instante por pase | 1 - 5 aguijones | Alta (Basado en habilidad) |
+| **Pollito Comando** | Puerta de 15 abejas | Varía según derrotas | 1 - 10 aguijones | Media (Requiere tiempo) |
+| **Códigos diarios** | Ajustes del juego | Un solo uso | Varía | Instantánea |
+
+### Tareas diarias de aguijones:
+
+<Checklist
+  id="daily-stinger-goals"
+  title="Tareas diarias de aguijones:"
+  items={[
+    "Revisa el servidor para ver si hay ciclos nocturnos activos y completa al menos tres cacerías de Abeja Viciosa Salvaje.",
+    "Usa tus pases de hormiga diarios gratuitos para realizar el Desafío de las Hormigas, enfocándote en obtener puntuaciones altas para conseguir aguijones adicionales.",
+    "Derrota al Pollito Comando en el área de 15 abejas para avanzar en tus recompensas de captura.",
+    "Verifica y canjea códigos promocionales activos como 'fourtunate' para reclamar aguijones de bonificación instantáneos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Recetas avanzadas de elaboración y gestión de recursos">
+
+A medida que hagas la transición al juego tardío, tu demanda de **aguijones de Bee Swarm Simulator** se disparará. Elaborar equipo de juego tardío requiere cientos de aguijones junto con otros materiales raros como Purpurina (Glitter), Pegamento (Glue) y Extractos Rojos/Azules (Red/Blue Extracts). Debido a que estas recetas requieren tantos recursos, es necesaria una planificación adecuada para evitar quedarse estancado.
+
+Si planeas usar una colmena roja, la Máscara de Demonio es tu objetivo final. Ofrece capacidades ofensivas incomparables pero exige una inversión masiva de 500 aguijones. Por el contrario, las colmenas azules y blancas requieren menos aguijones para sus respectivas máscaras (Diamante y Gominola), lo que permite a los jugadores de esos colores redirigir sus aguijones hacia otras mejoras como los protectores Carmesí y Cobalto.
+
+<Callout type="success" title="Consejo de elaboración para el juego tardío">
+Fabrica siempre tus protectores Carmesí y Cobalto antes de comprometerte con una máscara costosa. Los protectores proporcionan defensa esencial y porcentajes de conversión instantánea que benefician a todos los colores de colmena, convirtiéndolos en hitos muy versátiles para el juego medio y tardío.
+</Callout>
+
+### Recetas de elaboración del juego tardío que requieren aguijones
+
+Planifica tu recolección de recursos haciendo un seguimiento de los requisitos exactos de materiales para el equipo de primer nivel.
+
+| Equipo fabricado | Coste de aguijones | Estación de elaboración | Otros materiales clave | Mejora de estadística principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Máscara de Demonio** | 500 | Licuadora / Tienda Roja | 250 extractos rojos, 150 pegamentos | +1.5x de polen rojo, pasiva de llamas |
+| **Protector Carmesí** | 100 | CG Rojo (Red HQ) | 100 extractos rojos, 50 purpurinas | +10% de polen rojo, +5% de conversión instantánea |
+| **Protector Cobalto** | 100 | CG Azul (Blue HQ) | 100 extractos azules, 50 purpurinas | +10% de polen azul, +5% de conversión instantánea |
+| **Máscara de Fuego** | 50 | CG Rojo (Red HQ) | 100 extractos rojos, 15 pegamentos | +20% de polen rojo, +10% de polen de fuego |
+
+Al planificar la progresión de tu equipo desde el principio, puedes evitar desperdiciar materiales en objetos intermedios que no se alinean con el color final de tu colmena. Mantén tus aguijones guardados de forma segura en tu inventario, concéntrate en tus rutas diarias y observa cómo tu colmena se convierte en una fuerza imparable de recolección de polen.
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Gestionar tus recursos de manera eficiente es la clave para dominar la montaña. A continuación se presentan las respuestas a las preguntas más comunes sobre la obtención y el uso de aguijones.
+
+<Callout type="info" title="Resumen rápido">
+Prioritiza primero la Abeja Viciosa, utiliza los ciclos nocturnos para conseguir aguijones gratis y evita comprarlos con tickets a menos que sea absolutamente necesario.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de conseguir 250 aguijones para la Abeja Viciosa?",
+    answer: "El método gratuito más rápido es cazar activamente Abejas Viciosas Salvajes durante los ciclos nocturnos. Se recomienda encarecidamente cambiar de servidor (server hopping): únete a un servidor público, comprueba si es de noche, busca en los campos, derrota a la abeja si está presente y luego cambia a otro servidor para repetir el proceso."
+  },
+  {
+    question: "¿Las Abejas Viciosas Salvajes Dotadas (Gifted) sueltan más aguijones que las normales?",
+    answer: "Sí, las Abejas Viciosas Salvajes Dotadas tienen un nivel más alto y sueltan significativamente más aguijones al ser derrotadas en comparación con sus contrapartes no dotadas. Son más raras de encontrar, pero son objetivos muy lucrativos."
+  },
+  {
+    question: "¿Debería gastar mis tickets en el Dispensador de Aguijones?",
+    answer: "Generalmente, no. Gastar 10 tickets para obtener un máximo de 3 aguijones es un intercambio ineficiente. Es mucho mejor ahorrar los tickets para comprar huevos de evento o convites estrella (Star Treats). Solo usa el dispensador si estás extremadamente cerca de terminar una elaboración importante y quieres ahorrar tiempo."
+  },
+  {
+    question: "¿Puedo conseguir aguijones mediante intercambios o pegatinas (stickers)?",
+    answer: "Los aguijones en sí no se pueden intercambiar directamente entre jugadores. Sin embargo, puedes intercambiar pegatinas que se pueden donar al Santuario del Viento (Wind Shrine) o usar en la Impresora de Pegatinas (Sticker Printer), lo que ocasionalmente te recompensará con aguijones y otros materiales de elaboración."
+  }
+]} />
+
+</Section>

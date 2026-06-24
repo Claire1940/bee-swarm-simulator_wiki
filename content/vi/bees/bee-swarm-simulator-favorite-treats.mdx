@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Thức ăn yêu thích trong Bee Swarm Simulator: Hướng dẫn cho ăn",
+  description: "Tối ưu hóa tổ ong của bạn với hướng dẫn chi tiết về thức ăn yêu thích trong Bee Swarm Simulator. Tìm hiểu tỷ lệ Gifted, chiến lược cho ăn và địa điểm farm thức ăn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Favorite+Treats+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, thức ăn yêu thích, hướng dẫn cho ăn, tỷ lệ gifted, farm thức ăn"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Cơ chế chính**: Cho ong ăn **thức ăn yêu thích trong Bee Swarm Simulator** sẽ nhân đôi điểm thân mật nhận được từ 5 lên 10 điểm mỗi vật phẩm.
+- **Biến đổi Gifted**: Mỗi loại thức ăn yêu thích khi cho ăn đều có một tỉ lệ nhỏ biến ong thành Gifted, dao động từ 1/8.000 đến 1/24.000.
+- **Cho ăn đúng mục tiêu**: Luôn khớp màu thức ăn với màu của ong (Dâu tây cho hệ Đỏ, Việt quất cho hệ Xanh) để tối đa hóa hiệu quả.
+- **Chiến lược farm**: Cày cuốc ở các cánh đồng quan trọng như Pepper Patch, Pine Tree Forest và Pumpkin Patch để tích trữ thức ăn nhanh chóng.
+</Callout>
+
+<Section icon={Map} title="Hệ thống Thân mật & Độ tương thích thức ăn">
+
+Hiểu cách thức ăn tương tác với tổ ong là nền tảng của sự tiến triển trong game. Trong Bee Swarm Simulator, cho ong ăn là phương pháp chính để tăng cấp cho chúng, giúp tăng lượng thu thập, sức tấn công và tốc độ chuyển hóa. Trong khi Thức ăn (Treat) cơ bản mua từ máy bán hàng cung cấp 10 điểm thân mật cố định, các loại thức ăn chuyên dụng như Dâu tây, Việt quất, Dứa và Hạt hướng dương lại hoạt động khác nhau tùy thuộc vào loại ong tiêu thụ chúng.
+
+Khi một con ong được cho ăn loại thức ăn yêu thích được chỉ định, phần thưởng thân mật sẽ được nhân đôi. Nếu bạn cho ong ăn loại thức ăn mà nó không thích, điểm thân mật sẽ bị giảm một nửa xuống còn 5 điểm ít ỏi, và bạn hoàn toàn mất cơ hội kích hoạt biến đổi Gifted. Do đó, việc cho ăn ngẫu nhiên là cực kỳ kém hiệu quả và gây lãng phí tài nguyên chế tạo quý giá.
+
+### Chỉ số hiệu quả của thức ăn
+
+Bảng dưới đây phác thảo những khác biệt cốt lõi về sản lượng thân mật và khả năng biến đổi giữa thức ăn cơ bản và thức ăn chuyên dụng.
+
+| Loại thức ăn | Thân mật cơ bản | Thân mật ong yêu thích | Tỉ lệ biến đổi Gifted |
+| :--- | :--- | :--- | :--- |
+| **Hạt hướng dương** | 5 | 10 | 1 trên 8.000 (Non-Mythic) |
+| **Dâu tây** | 5 | 10 | 1 trên 8.000 (Non-Mythic) |
+| **Việt quất** | 5 | 10 | 1 trên 8.000 (Non-Mythic) |
+| **Dứa** | 5 | 10 | 1 trên 8.000 (Non-Mythic) |
+| **Thức ăn (Cơ bản)** | 10 | N/A | Không thể kích hoạt biến đổi |
+
+### Phân loại thức ăn yêu thích
+
+Để đảm bảo bạn không bao giờ lãng phí tài nguyên vất vả kiếm được, hãy sử dụng danh sách tương thích này để khớp đúng thức ăn với từng loại ong cụ thể của bạn.
+
+| Màu sắc / Loại ong | Thức ăn yêu thích | Ví dụ về ong |
+| :--- | :--- | :--- |
+| **Ong Đỏ** | Dâu tây | Rad, Riley, Fire, Shy, Rage, Spicy, Precise |
+| **Ong Xanh** | Việt quất | Cool, Bucko, Frosty, Diamond, Ninja, Tadpole, Buoyant |
+| **Trắng / Không màu** | Dứa | Stubborn, Exhausted, Carpenter, Vector |
+| **Không màu / Hỗ trợ** | Hạt hướng dương | Basic, Bomber, Looker, Commander, Music, Baby, Photon |
+
+<CardGrid cols={2}>
+  <Card title="Tối ưu hóa tổ ong Đỏ">
+    Tập trung toàn bộ lượng **Dâu tây** dự trữ cho Ong Đỏ. Điều này rất quan trọng để tăng cấp cho các tay tấn công cấp cao như Spicy và Precise Bee trong khi săn lùng các biến thể Gifted của chúng.
+  </Card>
+  <Card title="Tối ưu hóa tổ ong Xanh">
+    Dành riêng **Việt quất** cho Ong Xanh. Các tổ ong xanh dựa dẫm rất nhiều vào Tadpole và Buoyant Bee cấp cao để duy trì khả năng tạo bong bóng và bóng bay.
+  </Card>
+  <Card title="Tối ưu hóa tổ ong Trắng">
+    Sử dụng **Dứa** để cho Carpenter và Vector Bee ăn. Tổ ong trắng yêu cầu một lượng lớn Enzyme, vì vậy hãy cân bằng giữa việc cho ăn và nhu cầu chế tạo.
+  </Card>
+  <Card title="Hỗ trợ Không màu & Sự kiện">
+    **Hạt hướng dương** tốt nhất nên dùng cho các ong hỗ trợ như Music và Baby Bee, hoặc các ong sự kiện như Photon Bee để tăng dần mức độ thân mật của chúng.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo chuyên nghiệp: Giới hạn cho ăn của Ong Sự kiện">
+Mặc dù các Ong Sự kiện như Photon Bee, Tabby Bee và Gummy Bee có thể ăn Hạt hướng dương hoặc các loại thức ăn khác để tăng thân mật, chúng **không thể** trở thành Gifted thông qua thức ăn yêu thích. Hãy tiết kiệm thức ăn của bạn cho ong thường hoặc ong Mythic, và chỉ sử dụng Star Treat hoặc Gingerbread Bear (theo mùa) cho Ong Sự kiện.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tỷ lệ & Chi phí biến đổi Gifted">
+
+Biến ong của bạn thành **Ong Gifted** là điều cần thiết để mở khóa các phần thưởng bị động (hive bonus) mạnh mẽ cho toàn bộ tổ ong. Trong khi Star Treat đảm bảo 100% khả năng biến đổi, việc sử dụng **thức ăn yêu thích** là phương pháp phổ biến nhất cho các loại ong không phải sự kiện. Tuy nhiên, quá trình này phụ thuộc nặng nề vào may rủi (RNG).
+
+Cơ hội một con ong trở thành Gifted từ một viên thức ăn yêu thích duy nhất phụ thuộc hoàn toàn vào độ hiếm của nó. Vì tỉ lệ khá thấp, bạn phải chuẩn bị sẵn sàng để cho ăn hàng ngàn viên thức ăn trong một lần để đảm bảo có được biến đổi.
+
+### Xác suất biến đổi Gifted
+
+Dữ liệu sau đây thể hiện các yêu cầu thống kê trung bình để biến đổi ong bằng thức ăn yêu thích của chúng.
+
+| Độ hiếm của ong | Tỉ lệ Gifted cơ bản | Thức ăn trung bình cần thiết | Chi phí Mật ong ước tính (Tương đương) |
+| :--- | :--- | :--- | :--- |
+| **Ong Rare** | 1 trên 8.000 | 8.000 thức ăn | 40.000.000 Mật ong |
+| **Ong Epic** | 1 trên 8.000 | 8.000 thức ăn | 40.000.000 Mật ong |
+| **Ong Legendary** | 1 trên 8.000 | 8.000 thức ăn | 40.000.000 Mật ong |
+| **Ong Mythic** | 1 trên 24.000 | 24.000 thức ăn | 120.000.000 Mật ong |
+| **Ong Sự kiện** | N/A | Không thể qua thức ăn | Yêu cầu Star Treat |
+
+Vì những con số này là mức trung bình thống kê, bạn có thể may mắn biến đổi một con ong chỉ với dưới 1.000 viên thức ăn, hoặc có thể trắng tay sau khi chi 20.000 viên. Đối với ong Mythic, tỉ lệ 1/24.000 khiến việc biến đổi bằng thức ăn trở thành một nỗ lực ở giai đoạn cuối game (late-game).
+
+<Callout type="warning" title="Cảnh báo: Nan đề Chế tạo vs. Cho ăn">
+Trước khi đổ hàng ngàn Dâu tây, Việt quất hoặc Dứa vào tổ ong, hãy nhớ rằng những vật phẩm này là nguyên liệu chính để chế tạo trang bị cấp cao. Ví dụ, Blue Extract cần Việt quất, và Enzyme cần Dứa. Đừng để bản thân không thể chế tạo bản nâng cấp trang bị lớn tiếp theo chỉ vì mải mê săn đuổi tỉ lệ Gifted quá sớm.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Các bước cho ăn tối ưu">
+
+Để giảm thiểu lãng phí tài nguyên và tối đa hóa cơ hội thành công, bạn nên tuân theo một quy trình cho ăn có cấu trúc. Việc nhấp nút cho ăn một cách mù quáng có thể dẫn đến việc tăng cấp quá mức cho những con ong bạn dự định thay thế hoặc lãng phí thức ăn hiếm vào sai mục tiêu.
+
+<Steps>
+  <Step num="1" title="Xác định Ong mục tiêu">
+    Phân tích tổ ong của bạn và chọn một con ong duy nhất cần phần thưởng Gifted hoặc nâng cấp cấp độ. Ưu tiên các con ong cung cấp phần thưởng tổ ong có lợi cho tất cả, chẳng hạn như Commander Bee (+5% Tỉ lệ Chí mạng) hoặc Music Bee (+10% Sức mạnh Chí mạng).
+  </Step>
+  <Step num="2" title="Tích trữ lượng thức ăn an toàn">
+    Đừng cố gắng biến đổi Gifted chỉ với 1.000 viên thức ăn. Đối với ong thường, hãy đợi cho đến khi bạn có ít nhất 10.000 viên thức ăn yêu thích của chúng. Đối với ong Mythic, đừng bắt đầu cho đến khi bạn tích lũy được ít nhất 25.000 đến 30.000 viên để chống lại vận đen RNG.
+  </Step>
+  <Step num="3" title="Cấu hình cài đặt cho ăn">
+    Mở menu tổ ong, nhấp vào con ong mục tiêu và chọn loại thức ăn phù hợp. Sử dụng thanh trượt số lượng hoặc chọn tùy chọn "Until Gifted" (Cho đến khi thành Gifted) nếu bạn có một kho dự trữ khổng lồ. Điều này ngăn việc nhấp chuột thủ công và dừng cho ăn ngay lập tức khi ong biến đổi.
+  </Step>
+  <Step num="4" title="Đánh giá lại sự phối hợp của tổ ong">
+    Khi một con ong trở thành Gifted, phần thưởng tổ ong của nó sẽ được kích hoạt. Vì các phần thưởng Gifted giống hệt nhau không cộng dồn, hãy xác định ngay bất kỳ con ong Gifted trùng lặp nào trong tổ và chuẩn bị thay thế chúng bằng các loại độc nhất khác để đa dạng hóa phần thưởng của bạn.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thành công: Kích hoạt phần thưởng tổ ong Gifted">
+Khi một con ong biến đổi, phần thưởng tổ ong độc nhất của nó sẽ áp dụng cho toàn bộ nhân vật của bạn ngay lập tức. Luôn ưu tiên giữ mỗi loại ong Rare, Epic và Legendary Gifted một con trong tổ trước khi hướng tới việc chuyên môn hóa hoàn toàn theo màu sắc.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tuyến đường Farm & Thu thập thức ăn">
+
+Để duy trì một chu kỳ cho ăn ổn định, bạn phải biết nơi và cách farm thức ăn hiệu quả. Mặc dù mua thức ăn từ máy bán hàng gần khu vực Mother Bear là một lựa chọn, nhưng nó cực kỳ đắt đỏ đối với những người chơi ở giai đoạn đầu và giữa game. Farm ở các cánh đồng và đánh quái là cách tiết kiệm chi phí nhất để xây dựng kho đồ của bạn.
+
+Các cánh đồng khác nhau có tỉ lệ rơi các loại thức ăn cụ thể khác nhau. Việc căn chỉnh các phiên farm phù hợp với nhu cầu thức ăn hiện tại sẽ giúp bạn tiến bộ nhanh hơn đáng kể.
+
+### Các địa điểm farm thức ăn sản lượng cao
+
+Hãy cày cuốc ở những cánh đồng cụ thể này để tối đa hóa việc thu thập thức ăn thụ động trong khi thu thập phấn hoa.
+
+| Tên cánh đồng | Thức ăn rơi chính | Vật phẩm rơi phụ / Nguyên liệu chế tạo | Thiết lập Sprinkler khuyên dùng |
+| :--- | :--- | :--- | :--- |
+| **Sunflower Field** | Hạt hướng dương | Thức ăn cơ bản | Silver Sprinkler trở lên |
+| **Strawberry Field** | Dâu tây | Moon Charm | Gold Sprinkler trở lên |
+| **Bamboo Forest** | Việt quất | Blue Extract | Diamond Sprinkler trở lên |
+| **Pineapple Patch** | Dứa | Enzyme | Supreme Sprinkler |
+| **Pepper Patch** | Dâu tây | Red Extract | Supreme Sprinkler |
+| **Pine Tree Forest** | Việt quất | Glue | Supreme Sprinkler |
+
+Ngoài việc farm ở cánh đồng, việc sử dụng các máy cấp phát hàng ngày và đánh quái theo mùa hoặc quái địa phương sẽ cung cấp một nguồn tài nguyên ổn định mà không làm tiêu tốn quá nhiều thời gian chơi chủ động của bạn.
+
+<Checklist
+  id="daily-treat-checklist"
+  title="Quy trình thu thập thức ăn hàng ngày:"
+  items={[
+    "Nhận phần thưởng miễn phí từ máy cấp phát Dâu tây, Việt quất và Dứa mỗi 4 giờ.",
+    "Đánh bại boss King Beetle và Tunnel Bear hàng ngày để nhận các gói thức ăn hiếm đảm bảo.",
+    "Hoàn thành các nhiệm vụ của Mother Bear và Polar Bear để nhận phần thưởng thức ăn trực tiếp và buff cho ăn vĩnh viễn.",
+    "Đánh bại quái Spider và Werewolf khi hết thời gian hồi chiêu để thu thập thêm Dâu tây và Việt quất.",
+    "Tham gia các trò chơi nhỏ Memory Match để nhận các gói thức ăn có giá trị cao."
+  ]}
+/>
+
+<Callout type="info" title="Lưu ý: Buff cho ăn của Polar Bear">
+Hoàn thành các nhiệm vụ của Polar Bear sẽ thưởng cho bạn Polar Power. Buff vĩnh viễn này giúp tăng khả năng năng lượng của ong, giảm tần suất chúng phải nghỉ ngơi tại tổ, gián tiếp thúc đẩy tỉ lệ chuyển hóa phấn hoa thành mật ong tổng thể của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+Để giúp làm rõ những hiểu lầm phổ biến về hệ thống cho ăn, chúng tôi đã tổng hợp những câu hỏi thường gặp nhất từ cộng đồng.
+
+<FAQ items={[
+  {
+    question: "Tôi có thể sử dụng thức ăn yêu thích cho Ong Sự kiện để biến chúng thành Gifted không?",
+    answer: "Không. Ong Sự kiện (như Tabby, Photon, Festive, Crimson, Cobalt và Gummy) không có thức ăn yêu thích. Cho chúng ăn thức ăn tiêu chuẩn sẽ chỉ tăng thân mật. Để biến Ong Sự kiện thành Gifted, bạn phải cho nó ăn Star Treat hoặc sử dụng các vật phẩm theo mùa như Gingerbread Bear."
+  },
+  {
+    question: "Có nên mua thức ăn bằng Mật ong từ máy bán hàng không?",
+    answer: "Chỉ ở giai đoạn cuối game. Mua thức ăn cơ bản tốn 10.000 Mật ong mỗi viên, con số này sẽ tăng lên rất nhanh. Cho đến khi bạn có thể dễ dàng kiếm được hàng tỷ mật ong mỗi phiên farm, hãy dựa vào việc farm cánh đồng, máy cấp phát và đánh boss để thu thập thức ăn."
+  },
+  {
+    question: "Các phần thưởng tổ ong Gifted giống hệt nhau có cộng dồn nếu tôi có nhiều con ong cùng loại không?",
+    answer: "Không, các phần thưởng tổ ong Gifted giống hệt nhau không cộng dồn. Nếu bạn có hai con Commander Bee Gifted, bạn vẫn chỉ nhận được một lần duy nhất phần thưởng +5% Tỉ lệ Chí mạng. Tốt nhất là luôn duy trì một tổ ong đa dạng với các loại Gifted độc nhất."
+  },
+  {
+    question: "Sự khác biệt giữa Thức ăn thường và Thức ăn yêu thích là gì?",
+    answer: "Thức ăn cơ bản (Treat) cung cấp 10 điểm thân mật cố định cho bất kỳ con ong nào nhưng có 0% cơ hội kích hoạt biến đổi Gifted. Thức ăn yêu thích (như Dâu tây cho Ong Đỏ) cung cấp 10 điểm thân mật cho ong tương thích, 5 điểm cho ong không tương thích và mang lại cơ hội độc nhất để biến ong tương thích thành Gifted."
+  }
+]} />
+
+<Callout type="tip" title="Khuyến nghị cuối cùng">
+Luôn ưu tiên tăng cấp cho các ong thu thập và tấn công chính của bạn trước. Một tổ ong cấp cao hơn cho phép bạn đánh bại boss nhanh hơn, từ đó làm tăng đáng kể sản lượng thức ăn hàng ngày của bạn.
+</Callout>
+
+</Section>

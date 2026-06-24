@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ô tổ ong trong Bee Swarm Simulator: Hướng dẫn tiến trình & chi phí năm 2026",
+  description: "Làm chủ các ô tổ ong trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu chi phí mật ong, yêu cầu cổng và thứ tự tốt nhất để mở khóa tất cả 50 ô cho đàn ong của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Hive+Slots+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Mở khóa **ô tổ ong trong Bee Swarm Simulator** là cách duy nhất để tăng số lượng ong của bạn và tiếp cận các khu vực núi cao hơn.
+- **Yêu cầu về cổng**: Bạn cần số lượng ô cụ thể (10, 25, 30, 35) để đi qua các cổng cấp độ khác nhau trên bản đồ.
+- **Quản lý mật ong**: Chi phí tăng theo cấp số nhân; việc cân bằng giữa mua ô tổ ong và nâng cấp trang bị như Gậy Sứ (Porcelain Dipper) là vô cùng quan trọng.
+- **Mục tiêu cuối game**: Hướng tới 50 ô để tối đa hóa lượng mật ong mỗi giây (HPS) và chuẩn bị cho các màu tổ ong chuyên biệt.
+- **Mẹo chuyên nghiệp**: Sử dụng tăng tốc cánh đồng (field boosts) và mã code để tài trợ cho các ô tổ ong ngày càng đắt đỏ ở giai đoạn giữa đến cuối game.
+</Callout>
+
+<Section icon={Map} title="Vai trò của các ô tổ ong trong Bee Swarm Simulator">
+
+Trong thế giới kiệt tác của Onett, tổ ong là căn cứ hoạt động của bạn. Số lượng **ô tổ ong trong Bee Swarm Simulator** mà bạn sở hữu trực tiếp quyết định quy mô đàn ong của bạn, từ đó quyết định tốc độ thu thập phấn hoa, khả năng chiến đấu và quyền truy cập bản đồ của bạn. Mỗi con ong mới được thêm vào một ô sẽ cung cấp các mã thông báo (tokens) độc đáo, tiền thưởng đột biến (gifted bonuses) và sự kết hợp kỹ năng (ability synergies) cần thiết để tiến triển qua các chuỗi nhiệm vụ phức tạp của trò chơi.
+
+Bản đồ được thiết kế với các "cổng" ngăn người chơi tiến vào các cánh đồng cấp cao cho đến khi họ chứng minh được sức mạnh tổ ong của mình. Nếu không đầu tư vào các ô tổ ong, bạn sẽ thấy mình bị mắc kẹt ở các cánh đồng khởi đầu, không thể hoàn thành nhiệm vụ từ các NPC nâng cao như Gấu Tâm Linh (Spirit Bear) hoặc Gấu Khoa Học (Science Bear).
+
+| Cổng bản đồ | Số ô yêu cầu | Các cánh đồng chính được mở khóa | Tiếp cận NPC |
+| :--- | :--- | :--- | :--- |
+| **Cổng 10 Ong** | 10 Ô | Cánh đồng Nhện, Rừng Tre | Gấu Trúc (Panda Bear), Gấu Mẹ (Mother Bear) |
+| **Cổng 25 Ong** | 25 Ô | Rừng Thông, Cánh đồng Hoa hồng | Gấu Khoa Học (Nhiệm vụ Máy dịch) |
+| **Cổng 30 Ong** | 30 Ô | Vườn Dứa, Cánh đồng Gốc cây | Gấu Nâu (Nhiệm vụ lặp lại) |
+| **Cổng 35 Ong** | 35 Ô | Vườn Ớt, Cánh đồng Dừa | Gấu Tâm Linh, Tiếp cận Gậy Cánh Hoa (Petal Wand) |
+
+<Callout type="tip" title="Lưu ý chiến thuật">
+Đừng vội vã vượt qua cổng 35 ong nếu ong của bạn chưa đủ cấp độ. Mặc dù việc có đủ số ô là cần thiết, nhưng ong của bạn phải đủ mạnh để đánh bại Cua Dừa (Coconut Crab) và các quái vật cấp cao khác trong các khu vực đó.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chi phí ô tổ ong và các cột mốc mật ong">
+
+Chi phí cho các **ô tổ ong trong Bee Swarm Simulator** tăng lên đáng kể sau mỗi lần mua. Các ô đầu tiên khá rẻ, chỉ tốn vài nghìn mật ong, nhưng các ô cuối cùng (45-50) có giá hàng nghìn tỷ. Hiểu được các cột mốc này giúp bạn lên kế hoạch khi nào nên tiết kiệm mật ong cho một ô và khi nào nên chi tiêu cho Sữa Ong Chúa (Royal Jelly) hoặc trang bị.
+
+Người chơi ở giai đoạn đầu game nên tập trung đạt 25 ô càng nhanh càng tốt để mở khóa Cửa hàng Đỉnh núi (Mountain Top Shop). Người chơi ở giai đoạn giữa game thường gặp phải một "bức tường mật ong" xung quanh ô thứ 35, nơi chi phí bắt đầu cạnh tranh với các nâng cấp trang bị lớn như Mặt nạ Mật ong (Honey Mask) hoặc Giáp Đỏ và Xanh Lam (Crimson & Cobalt guards).
+
+| Phạm vi ô | Tổng chi phí ước tính | Độ khó | Trang bị khuyên dùng |
+| :--- | :--- | :--- | :--- |
+| **1 - 10** | < 100.000 Mật ong | Rất dễ | Balo khởi đầu, Lưỡi hái/Kéo cắt |
+| **11 - 25** | ~5.000.000 Mật ong | Dễ | Balo Đỏ/Xanh (Port-O-Hive) |
+| **26 - 35** | ~1.500.000.000 Mật ong | Trung bình | Gậy Sứ (Porcelain Dipper), Mặt nạ Mật ong |
+| **36 - 45** | ~500.000.000.000 Mật ong | Khó | Mặt nạ Kẹo dẻo (Gummy Mask), Hộp Dừa |
+| **46 - 50** | 10+ Nghìn tỷ Mật ong | Cực kỳ khó | Máy thu thập cuối game (Tide Popper) |
+
+<Callout type="warning" title="Cảnh báo chi phí">
+Sự nhảy vọt từ ô 40 lên 45 là cực kỳ lớn. Nhiều người chơi chọn dừng lại ở 40-42 ô trong khi họ tập trung vào việc lấy Cánh hoa Tâm linh (Spirit Petal) đầu tiên và nâng cấp Bùa Tổ Ong (Hive Amulets), vì lợi ích gia tăng từ một con ong có thể ít hơn một kỹ năng bị động mới.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lộ trình tiến trình mở khóa ô tổ ong từng bước">
+
+Hành trình từ một con ong duy nhất đến một tổ ong 50 ô hoàn chỉnh đòi hỏi một cách tiếp cận cân bằng. Đi theo lộ trình này sẽ đảm bảo bạn không rơi vào tình trạng "giàu tổ nghèo đồ", một sai lầm phổ biến khi người chơi có nhiều **ô tổ ong trong Bee Swarm Simulator** nhưng lại thiếu công cụ để làm đầy balo của mình một cách hiệu quả.
+
+<Steps>
+  <Step num="1" title="Vòng lặp khởi đầu">
+    Tập trung vào 10 ô đầu tiên. Sử dụng mật ong cơ bản bạn thu thập được từ cánh đồng Hoa hướng dương và Hoa bồ công anh. Đừng lo lắng về độ hiếm của ong; chỉ cần lấp đầy các ô bằng bất kỳ quả trứng nào bạn tìm thấy hoặc mua được.
+  </Step>
+  <Step num="2" title="Đạt cổng 25 Ong">
+    Đây là cột mốc quan trọng đầu tiên của bạn. Khi đạt 25 ô, bạn sẽ được lên Đỉnh núi. Hãy ưu tiên mua Gậy Sứ (Porcelain Dipper) trước khi cố gắng đạt ô 30, vì Gậy Sứ sẽ giúp tăng đáng kể tốc độ kiếm mật ong của bạn.
+  </Step>
+  <Step num="3" title="Cày cuốc giữa game (35 Ô)">
+    Tại 35 ô, bạn sẽ mở khóa Gấu Tâm Linh. Các nhiệm vụ của cô ấy tuy dài nhưng sẽ thưởng Cánh hoa Tâm linh (Spirit Petal). Ở giai đoạn này, bạn nên bắt đầu thay thế các con ong "lấp chỗ trống" bằng các loại ong Đột biến (Gifted) để kích hoạt Điểm thưởng Tổ ong (Hive Bonuses).
+  </Step>
+  <Step num="4" title="Tối ưu hóa cuối game (40-45 Ô)">
+    Bây giờ bạn phải quyết định chọn màu tổ ong (Đỏ, Xanh lam hoặc Trắng). Việc mua ô của bạn sẽ chậm lại ở đây. Hãy tập trung nâng cấp ong lên cấp 12+ và lấy bùa Ốc sên hoặc Dừa.
+  </Step>
+  <Step num="5" title="Nỗ lực cuối cùng đạt 50 Ô">
+    5 ô cuối cùng hoàn toàn dành cho người chơi cuối game. Những ô này thường được lấp đầy bằng ong Thần thoại (Mythic) (như ong Buoyant hoặc Precise) để tối đa hóa hiệu quả của các cách xây dựng tổ ong chuyên biệt.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mẹo chuyên nghiệp">
+Hãy luôn tham gia [Câu lạc bộ Bee Swarm Simulator chính thức](https://www.roblox.com/communities/3982592/Bee-Swarm-Simulator-Club) để sử dụng Máy phân phát mật ong (Honey Dispenser), nơi cung cấp mật ong miễn phí mỗi giờ giúp bạn có thêm kinh phí cho các ô đầu tiên.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cân bằng giữa Ô tổ ong, Trang bị và Ong">
+
+Nên mua một ô mới hay nâng cấp balo của bạn? Đây là câu hỏi muôn thuở trong Bee Swarm Simulator. Nếu balo của bạn đầy trong chưa đầy 60 giây, trang bị chính là nút thắt cổ chai. Nếu bạn thấy mình có nhiều không gian balo nhưng "Mật ong mỗi giây" lại thấp, bạn cần thêm **ô tổ ong trong Bee Swarm Simulator** để chứa nhiều ong hơn.
+
+<CardGrid cols={3}>
+  <Card title="Ưu tiên Ô tổ ong">
+    - **Tăng HPS phấn hoa**
+    - Mở khóa Cổng bản đồ
+    - Thêm Điểm thưởng Đột biến
+    - Tốt nhất cho: Hoàn thành nhiệm vụ
+  </Card>
+  <Card title="Ưu tiên Trang bị">
+    - **Tăng sức chứa Balo**
+    - Chuyển đổi nhanh hơn
+    - Chỉ số chiến đấu tốt hơn
+    - Tốt nhất cho: Cày cuốc lâu dài
+  </Card>
+  <Card title="Ưu tiên Cấp độ">
+    - **Tỷ lệ đánh trúng tốt hơn**
+    - Nhiều năng lượng ong hơn
+    - Hồi chiêu kỹ năng nhanh hơn
+    - Tốt nhất cho: Đấu Boss
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mẹo hiệu quả">
+Một "Tổ ong hỗn hợp" (Mixed Hive) là tốt nhất cho 35-40 ô đầu tiên. Việc giữ nhiều loại ong khác nhau cho phép bạn hoàn thành bất kỳ nhiệm vụ nào mà các Gấu đưa ra mà không cần phải tốn hàng triệu mật ong vào Sữa Ong Chúa (Royal Jellies) để đổi màu tổ ong.
+</Callout>
+
+| Loại đầu tư | Tác động đến tiến trình | Khi nào nên ưu tiên |
+| :--- | :--- | :--- |
+| **Ô mới** | Cao (Mở khóa khu vực) | Khi bị kẹt sau Cổng Ong |
+| **Nâng cấp công cụ** | Trung bình (Thu thập nhanh hơn) | Khi cảm thấy thu thập phấn hoa chậm |
+| **Nâng cấp balo** | Cao (Ít di chuyển) | Khi balo đầy quá nhanh |
+| **Cấp độ Ong** | Cao (Chiến đấu/Năng lượng) | Trước khi chiến đấu với Cua Dừa |
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật cày cuốc cho các ô tổ ong đắt đỏ">
+
+Khi bạn tiến gần đến ô thứ 40, chi phí sẽ trở nên thiên văn. Bạn không còn có thể dựa vào việc cày cuốc trên các cánh đồng thông thường. Bạn phải tận dụng các cơ chế nâng cao của trò chơi để tạo ra hàng nghìn tỷ mật ong cần thiết cho các **ô tổ ong trong Bee Swarm Simulator** cuối cùng.
+
+<Checklist
+  id="farming-checklist"
+  title="Các nhiệm vụ tạo mật ong tối đa:"
+  items={[
+    "Cộng dồn 3x Tăng tốc cánh đồng với Chiết xuất Đỏ/Xanh (Red/Blue Extract)",
+    "Sử dụng Kim tuyến (Glitter) trên cánh đồng cấp cao nhất của bạn (ví dụ: Vườn Ớt)",
+    "Trang bị đúng Mặt nạ (Kim cương cho Xanh, Ác quỷ cho Đỏ)",
+    "Duy trì bùa lợi 10x Mật hoa (Nectar) từ Chậu cây (Planters)",
+    "Căn thời gian tăng tốc trùng với sự kiện Honeyday để nhận x2 phần thưởng"
+  ]}
+/>
+
+<Callout type="tip" title="Chiến thuật nâng cao">
+Đừng quên sử dụng [Mã code chính thức](/en/codes) trong các phiên cày cuốc lớn của bạn. Nhiều mã code cung cấp tăng tốc trong 48 giờ hoặc gió cánh đồng tức thì có thể biến một phiên cày cuốc bình thường thành một khoản thu hoạch hàng tỷ mật ong.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Có tổng cộng bao nhiêu ô tổ ong trong Bee Swarm Simulator?",
+    answer: "Tính đến năm 2026, có tổng cộng 50 ô tổ ong có thể mua bằng mật ong. Hiện tại không có cách nào để mở khóa hơn 50 con ong trong một tổ."
+  },
+  {
+    question: "Giai đoạn đầu game nên ưu tiên mua ô tổ ong hay Sữa Ong Chúa?",
+    answer: "Luôn ưu tiên mua ô tổ ong cho đến khi bạn có ít nhất 25 con ong. Việc có nhiều ong nhìn chung tốt hơn là có một vài con ong 'hiếm' ở giai đoạn đầu game vì nhiều ong hơn sẽ tạo ra nhiều mã thông báo kỹ năng hơn."
+  },
+  {
+    question: "Khi nào tôi nên ngừng mua ô tổ ong và tập trung vào màu tổ ong của mình?",
+    answer: "Hầu hết người chơi đều đợi cho đến khi họ có 40-45 ô và đã mở khóa Bùa Sao Tối Cao (Supreme Star Amulet - SSA) trước khi cam kết chọn một màu tổ ong duy nhất như Đỏ, Xanh lam hoặc Trắng."
+  },
+  {
+    question: "Chi phí của các ô tổ ong có bao giờ được reset không?",
+    answer: "Không, chi phí ô tổ ong là vĩnh viễn và tích lũy. Chúng không được reset trong các sự kiện như Beesmas, mặc dù các sự kiện thường cung cấp nhiều cách hơn để kiếm được số mật ong cần thiết để mua chúng."
+  }
+]} />
+
+</Section>

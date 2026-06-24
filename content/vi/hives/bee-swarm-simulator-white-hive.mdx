@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bee Swarm Simulator White Hive: Cẩm Nang Thiết Lập & Build 2026",
+  description: "Tối ưu hóa tổ ong trắng (white hive) trong Bee Swarm Simulator của bạn với đội hình ong tốt nhất, bùa hộ mệnh bắt buộc, trang bị endgame và chiến lược farm keo (goo) hiệu suất cao.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=White+Hive+Setup+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Build Chính**: Chuyển sang **tổ ong trắng (white hive) trong bee swarm simulator** yêu cầu sự chuẩn bị tài nguyên khổng lồ và các vật phẩm endgame cụ thể.
+- **Cơ Chế Then Chốt**: Tổ ong trắng phụ thuộc rất nhiều vào **khả năng tạo Keo (Goo)**, các Ký hiệu (Marks) và liên kết kỹ năng Tam giác (Triangulate) để thu thập lượng phấn hoa khổng lồ.
+- **Chiến Lược Tốt Nhất**: Đừng chuyển sang tổ ong trắng cho đến khi bạn đã mở khóa **Bùa Sao Tối Cao (Supreme Star Amulet - SSA)** với nội tại Gummy Star.
+- **Mẹo Quan Trọng**: Lối chơi tổ ong trắng đòi hỏi sự chủ động cao và quản lý vật phẩm liên tục, đặc biệt là **Kẹo Dẻo (Gumdrops)** và **Keo (Glue)**.
+- **Lựa Chọn Hàng Đầu**: Vũ khí tối thượng cho build này là **Gummyballer**, giúp tối đa hóa khả năng thu thập phấn hoa trắng của bạn lên giới hạn tuyệt đối.
+</Callout>
+
+<Section icon={Map} title="Yêu Cầu Chuyển Đổi Tổ Ong Trắng Trong Bee Swarm Simulator">
+
+Chuyển đổi sang một **tổ ong trắng (white hive) trong bee swarm simulator** chuyên biệt là một trong những cột mốc quan trọng nhất trong giai đoạn cuối game (endgame) của Roblox Bee Swarm Simulator. Khác với tổ ong hỗn hợp tập trung vào hoàn thành nhiệm vụ chung, hay tổ ong xanh (blue hive) mang lại lối chơi nhàn nhã, thân thiện với macro, tổ ong trắng đại diện cho một lối chơi cực kỳ chủ động và đòi hỏi đầu tư lớn. Nếu bạn cố gắng chuyển đổi quá sớm, bạn có nguy cơ làm chậm tiến trình của mình một cách nghiêm trọng, biến các phiên farm mật ong thành những chuỗi ngày cày cuốc tẻ nhạt và hiệu suất thấp.
+
+Trước khi cam kết hàng nghìn tỷ mật ong để xoay ong thần thoại (mythic bees) và mua các trang bị phấn hoa trắng đắt đỏ, bạn phải đáp ứng một số cột mốc tiến trình nghiêm ngặt. Nút thắt cổ chai quan trọng nhất là Bùa Sao Tối Cao (SSA). Nếu không có các kỹ năng nội tại phù hợp trên bùa hộ mệnh của bạn, các lối build màu chuyên biệt đơn giản là sẽ không hoạt động.
+
+<Callout type="warning" title="Đừng Chuyển Đổi Quá Sớm">
+Chuyển sang tổ ong trắng trước khi sở hữu Bùa Sao Tối Cao phù hợp và một kho dự trữ nguyên liệu chế tạo ổn định là một sai lầm phổ biến. Nếu bạn thiếu tài nguyên cần thiết để duy trì các đợt boost chủ động, lượng mật ong tạo ra của bạn sẽ giảm đáng kể so với thiết lập hỗn hợp hoặc xanh tiêu chuẩn.
+</Callout>
+
+Để đảm bảo quá trình chuyển đổi suôn sẻ, hãy cố gắng đạt được các cột mốc được phác thảo dưới đây. Các mục tiêu này đảm bảo tổ ong của bạn có khả năng tạo nội tại, sức chứa và sức mạnh công cụ cần thiết để hỗ trợ farm chủ động trên các cánh đồng trắng.
+
+| Loại Yêu Cầu | Cột Mốc Tối Thiểu | Mục Tiêu Hướng Tới | Tại Sao Nó Quan Trọng |
+| :--- | :--- | :--- | :--- |
+| **Bùa Sao Tối Cao (SSA)** | Nội tại **Gummy Star** | **Gummy Star + Star Shower/Saw** | Kích hoạt chuyển hóa keo khổng lồ và tăng sức chứa trong quá trình chơi chủ động. |
+| **Tổng Mật Ong Tiết Kiệm** | **5 đến 10 Nghìn Tỷ (Trillion)** | **20+ Nghìn Tỷ (Trillion)** | Cần thiết để xoay ong thần thoại (Vector/Fuzzy) và tặng quà (gift) cho các ong hỗ trợ chính. |
+| **Kho Dự Trữ Nguyên Liệu** | **500 Glue, 250 Enzymes** | **1,500+ Glue, 500 Enzymes** | Thiết yếu để chế tạo Gummy Mask, Gummy Boots và tiến trình chế tạo Gummyballer sau này. |
+| **Cấp Độ Ong** | **Trung bình Cấp 13** | **Trung bình Cấp 15+** | Cấp độ ong cao hơn giúp tăng tốc độ thu thập, tỷ lệ chuyển hóa và hiệu quả chiến đấu. |
+| **Ô Tổ Ong Đã Mở Khóa** | **45 Ô Tổ Ong** | **48 đến 50 Ô Tổ Ong** | Tối đa hóa số lượng Ong Vector (Vector Bee) bạn có thể chạy để kích hoạt các liên kết Tam giác (Triangulate). |
+
+</Section>
+
+<Section icon={Sparkles} title="Đội Hình Ong Tối Ưu Cho Tổ Ong Trắng">
+
+Sức mạnh cốt lõi của **tổ ong trắng trong bee swarm simulator** nằm ở khả năng tạo ra các tam giác phấn hoa khổng lồ bằng kỹ năng Tam giác (Triangulate) của Ong Vector (Vector Bee). Khi nhiều Ong Vector tạo ra các ký hiệu (marks) trên cánh đồng, chúng kết nối với nhau để tạo thành các tam giác thu thập tất cả phấn hoa và keo trong phạm vi của chúng. Do đó, đội hình ong của bạn phải được tối ưu hóa cao độ để tối đa hóa thời gian duy trì ký hiệu, thu thập token và tạo keo.
+
+Mặc dù ong thần thoại tạo nên xương sống của lối build này, bạn không thể bỏ qua các ong hỗ trợ quan trọng cung cấp các hệ số nhân chỉ số thiết yếu, token tập trung (focus) và tốc độ (haste). Sự cân bằng là chìa khóa để đảm bảo tổ ong của bạn chuyển hóa phấn hoa hiệu quả mà không làm đầy balo của bạn ngay lập tức.
+
+<CardGrid cols={3}>
+  <Card title="Vector Bee">
+    - **Sát Thương & Phấn Hoa Chính**: Tạo ra các token Ký hiệu (Mark) và kích hoạt Tam giác (Triangulate).
+    - **Hiệp Lực**: Liên kết với các ký hiệu khác để thu thập lượng phấn hoa trắng khổng lồ.
+    - **Thưởng Gifted**: **+15% Tỷ lệ Kỹ năng Gifted** để tạo token nhanh hơn.
+  </Card>
+  <Card title="Gummy Bee">
+    - **Tạo Keo**: Tự động thả các bãi keo khắp cánh đồng.
+    - **Hiệp Lực**: Cần thiết để kích hoạt Gummy Star trên SSA của bạn.
+    - **Thưởng Gifted**: **+5% Mật ong từ Keo** trên toàn bộ tổ ong của bạn.
+  </Card>
+  <Card title="Fuzzy Bee">
+    - **Thụ Phấn Cánh Đồng**: Nâng cấp hoa lên các cấp cao hơn để thu thập tốt hơn.
+    - **Hiệp Lực**: Tăng sản lượng phấn hoa thô của các cánh đồng Nhện (Spider), Dừa (Coconut) và Dứa (Pineapple).
+    - **Thưởng Gifted**: **+10% Phấn hoa từ Ong** để tăng cường thu thập thụ động.
+  </Card>
+</CardGrid>
+
+Để xây dựng một tổ ong trắng hiệu suất cao, bạn nên hướng tới một tỷ lệ phân bổ cụ thể giữa ong thần thoại, ong sự kiện (event bees) và ong hỗ trợ đã tặng quà (gifted). Hãy sử dụng mẫu build sau đây làm bản thiết kế khi xoay Royal Jelly và sử dụng Star Treat.
+
+| Loại Ong | Số Lượng Khuyến Nghị | Ưu Tiên Gifted | Vai Trò Cốt Lõi Trong Tổ Ong |
+| :--- | :--- | :--- | :--- |
+| **Vector Bee** | **14 đến 18** | **Cao** | Tạo Ký hiệu, kích hoạt Tam giác và dẫn dắt việc thu thập phấn hoa chính. |
+| **Fuzzy Bee** | **3 đến 4** | **Trung bình** | Thụ phấn cho hoa để tăng cấp độ cánh đồng và tăng sản lượng phấn hoa tổng thể. |
+| **Gummy Bee** | **1** | **Rất Cao** | Tạo các bãi keo liên tục và tăng hệ số nhân mật ong từ keo. |
+| **Tabby Bee** | **1** | **Rất Cao** | Cung cấp chỉ số chuyển hóa vô song và các phần thưởng thu thập chí mạng. |
+| **Photon Bee** | **1** | **Cao** | Cung cấp khả năng chuyển hóa phấn hoa tức thì, ngăn balo bị đầy trong các đợt boost. |
+| **Music Bee** | **3 đến 4** | **Thấp** | Duy trì cộng dồn tối đa các token Giai điệu (Melody) và Tập trung (Focus) cho sức mạnh chí mạng. |
+| **Carpenter Bee** | **2 đến 3** | **Trung bình** | Tạo thêm các Ký hiệu Mật ong và Ký hiệu Phấn hoa để liên kết với Ong Vector. |
+| **Gifted Basic Bee** | **1** | **Rất Cao** | Cung cấp hệ số nhân **x1.2 Phấn hoa** cho tất cả tài nguyên thu thập được. |
+
+<Callout type="tip" title="Lời Khuyên Về Ưu Tiên Gifted">
+Luôn tặng quà (gift) cho Ong Sự Kiện của bạn (như Gummy và Tabby) trước bằng Star Treat, vì chúng không thể được gifted thông qua Royal Jelly hoặc thức ăn yêu thích. Khi các ong sự kiện đã được gifted, hãy tập trung vào việc gift Ong Vector để mở khóa tỷ lệ kỹ năng gifted cực kỳ hiệu quả của chúng.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trang Bị Endgame và Ưu Tiên Chỉ Số Bùa Hộ Mệnh">
+
+Trang bị và bùa hộ mệnh của bạn hoạt động như những hệ số nhân chỉ số khổng lồ quyết định giới hạn tiềm năng farm của bạn. Đối với tổ ong trắng, các lựa chọn trang bị của bạn rất rõ ràng nhưng đòi hỏi một lượng nguyên liệu chế tạo khổng lồ. Mặt Nạ Kẹo Dẻo (Gummy Mask) là cột mốc lớn đầu tiên của bạn, tiếp theo là Ủng Kẹo Dẻo (Gummy Boots), và cuối cùng là công cụ thu thập endgame tối thượng: Gummyballer.
+
+Mỗi món trang bị đều thêm các nội tại cụ thể giúp thưởng cho lối chơi chủ động. Ví dụ, Gummy Mask kích hoạt "Gummy Morph", tạm thời biến nhân vật của bạn thành một chú gấu kẹo dẻo, nhân số lượng phấn hoa trắng thu thập được và lượng keo tạo ra.
+
+| Món Trang Bị | Chi Phí Chế Tạo Chính | Nội Tại Kích Hoạt Chính | Chỉ Số Tập Trung Chính |
+| :--- | :--- | :--- | :--- |
+| **Gummy Mask** | **250 Glue, 100 Enzymes, 100 Glitter** | **Gummy Morph** | +25% Phấn hoa trắng, +50% Keo, +25% Sức chứa |
+| **Gummy Boots** | **500 Glue, 250 Glitter, 250 Red/Blue Extracts** | **Gloop** | +30% Phấn hoa trắng, +20% Tốc độ di chuyển, +10% Mật ong mỗi Phấn hoa |
+| **Coconut Canister** | **150 Tropical Drinks, 50 Purple Potions** | **Coconut Shield** | +20% Phấn hoa Đỏ/Xanh/Trắng, tự động chuyển hóa nhỏ (micro-conversion) |
+| **Gummyballer** | **1,500 Glue, 100 Super Smoothies, 500 Caustics** | **Gummy Trail & Gumdrops** | Thu thập phấn hoa trắng vô song, tự động tạo kẹo dẻo |
+
+Bên cạnh trang bị, Bùa Sao Tối Cao (SSA) của bạn phải được xoay cẩn thận để hỗ trợ lối chơi hệ trắng. Mặc dù bùa Gummy Star một nội tại là có thể chấp nhận được để bắt đầu, mục tiêu cuối cùng của bạn là một bùa hộ mệnh hai nội tại kết hợp Gummy Star với Star Shower hoặc Star Saw.
+
+<Callout type="info" title="Hiệp Lực Nội Tại Bùa Hộ Mệnh">
+- **Gummy Star + Star Shower**: Lý tưởng cho sức chứa thuần túy và thu thập thụ động. Star Shower thả các ngôi sao thu thập phấn hoa và mở rộng sức chứa của bạn, cho phép các phiên farm kéo dài hơn.
+- **Gummy Star + Star Saw**: Tốt nhất cho chuyển hóa chủ động và quản lý kho đồ. Star Saw chuyển hóa phấn hoa tức thì dựa trên tốc độ thu thập vật lý của bạn, giúp bạn không cần phải liên tục chạy về tổ ong.
+</Callout>
+
+Khi xoay Bùa Sao Tối Cao của bạn, hãy ưu tiên các chỉ số sau theo thứ tự quan trọng:
+1. **White Pollen** (Hệ số nhân thiết yếu)
+2. **Double Passive** (Gummy Star + Star Shower/Saw)
+3. **Critical Chance / Critical Power** (Quan trọng để tối đa hóa thu thập từ Tam giác)
+4. **Pollen from Tools** (Tăng hiệu quả công cụ thu thập chính của bạn)
+5. **Bee Ability Rate** (Tăng tần suất Ong Vector và Ong Fuzzy thả token)
+
+</Section>
+
+<Section icon={Target} title="Hướng Dẫn Từng Bước Để Boost Cho Tổ Ong Trắng">
+
+Để đạt được tiến bộ đáng kể với tư cách là một tổ ong trắng, bạn không thể dựa vào việc treo máy (AFK) thụ động. Thay vào đó, bạn phải thực hiện các đợt "boost" có sự phối hợp. Một đợt boost bao gồm việc cộng dồn nhiều hệ số nhân tạm thời—chẳng hạn như boost cánh đồng, gió (winds), mật hoa (nectars) và vật phẩm tiêu hao—để tạo ra hàng trăm tỷ, hoặc thậm chí hàng nghìn tỷ mật ong trong một khung thời gian duy nhất từ 15 đến 30 phút.
+
+Vì tổ ong trắng phụ thuộc rất nhiều vào các vật phẩm chủ động như Kẹo Dẻo (Gumdrops) và Xúc Xắc Cánh Đồng (Field Dice), việc chuẩn bị là chìa khóa. Hãy làm theo quy trình từng bước này để thực hiện một đợt boost tổ ong trắng mang lại lợi nhuận cao.
+
+<Steps>
+  <Step num="1" title="Chuẩn Bị Mật Hoa và Buff Của Bạn">
+    Trước khi bắt đầu, hãy đảm bảo **Satisfying Nectar** và **Motivating Nectar** của bạn được cộng dồn đến thời gian tối đa. Những mật hoa này cung cấp các mức tăng khổng lồ cho phấn hoa trắng, chuyển hóa xu và tỷ lệ kỹ năng của ong. Kích hoạt **Wealth Clock** của bạn để đảm bảo hệ số nhân mật ong trên mỗi phấn hoa cao.
+  </Step>
+  <Step num="2" title="Quyên Góp Cho Đền Gió (Wind Shrine)">
+    Quyên góp một vật phẩm có giá trị (chẳng hạn như **Gold Egg**, **Silver Egg** hoặc **Field Dice**) cho Đền Gió để đảm bảo có được **Gió Cánh Đồng Trắng (White Field Winds)** cấp cao. Nhắm mục tiêu vào gió trên **Cánh đồng Nhện (Spider Field)**, **Cánh đồng Dừa (Coconut Field)** hoặc **Vườn Dứa (Pineapple Patch)**, vì đây là những cánh đồng trắng hàng đầu trên núi.
+  </Step>
+  <Step num="3" title="Xoay Boost Cánh Đồng">
+    Sử dụng các máy **Red/Blue/White Field Booster** hoặc chi tiêu **Glitter** trực tiếp trên cánh đồng mục tiêu của bạn để đảm bảo nhận được **3x Field Boost**. Nếu bạn không nhận được cánh đồng trắng mong muốn, hãy sử dụng Field Dice hoặc Smoothies để xoay lại cho đến khi bạn đạt được hệ số nhân cao trên Spider, Coconut hoặc Pineapple.
+  </Step>
+  <Step num="4" title="Kích Hoạt Vật Phẩm Tiêu Cao Chủ Động">
+    Bước vào cánh đồng đã được boost của bạn và kích hoạt một **Super Smoothie** hoặc sự kết hợp của **Purple Potions** và **Glitter**. Thiết lập **Gumdrops** của bạn ở chế độ tự động sử dụng (hoặc sử dụng macro/phím nóng) để đảm bảo cánh đồng liên tục được bao phủ trong keo, giúp kích hoạt nội tại **Gummy Star** của bạn.
+  </Step>
+  <Step num="5" title="Thực Hiện Các Mẫu Tam Giác (Triangulate)">
+    Khi Ong Vector của bạn tạo ra các token Ký hiệu, hãy di chuyển để định vị bản thân sao cho bạn liên kết các ký hiệu này lại với nhau. Đứng bên trong các **tam giác Tam giác (Triangulate)** được tạo ra để thu thập lượng phấn hoa khổng lồ. Sử dụng **Bộ Chuyển Đổi Nhỏ (Micro-Converters)** ngay lập tức khi balo của bạn đầy để tiếp tục farm mà không cần rời cánh đồng.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tối Ưu Hóa Vị Trí Của Bạn Trên Cánh Đồng">
+Trong suốt đợt boost, hãy luôn để ý kích hoạt Gummy Morph. Khi hoạt động, hãy ưu tiên đứng ở trung tâm dày đặc của cánh đồng nơi Ong Fuzzy của bạn đã nâng cấp hoa. Điều này giúp tối đa hóa lượng phấn hoa thô đầu vào mà Ong Vector của bạn chuyển hóa thành mật ong.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cột Mốc Tổ Ong Trắng và Trình Theo Dõi Tiến Trình">
+
+Để giữ cho tiến trình của bạn có cấu trúc, hãy sử dụng danh sách kiểm tra này để theo dõi hành trình hướng tới một tổ ong trắng endgame hoàn hảo. Đừng vội vàng ở các giai đoạn cuối; hãy tập trung hoàn thành từng cột mốc một để duy trì thu nhập mật ong ổn định.
+
+<Checklist
+  id="white-hive-progression"
+  title="Các Cột Mốc Tổ Ong Trắng Endgame:"
+  items={[
+    "Sở hữu một Bùa Sao Tối Cao (SSA) với ít nhất là Gummy Star và chỉ số Phấn Hoa Trắng cao.",
+    "Nhận được Gummy Mask và Gummy Boots từ các cửa hàng chế tạo chuyên dụng.",
+    "Sở hữu ít nhất 15 Ong Vector và 3 Ong Fuzzy Gifted trong tổ của bạn.",
+    "Gift các Ong Sự Kiện cốt lõi của bạn (Gummy, Tabby, Photon và Bear Bee nếu có sở hữu).",
+    "Tối đa hóa Satisfying Nectar và Motivating Nectar của bạn trước khi thực hiện các đợt boost lớn.",
+    "Chế tạo Gummyballer để mở khóa cấp độ tạo phấn hoa trắng cao nhất tuyệt đối."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Các Câu Hỏi Thường Gặp">
+
+Để giúp bạn khắc phục sự cố cho build của mình và tối đa hóa hiệu quả kiếm mật ong, dưới đây là câu trả lời cho các câu hỏi phổ biến nhất liên quan đến meta **tổ ong trắng trong bee swarm simulator**.
+
+<FAQ items={[
+  {
+    question: "Tổ ong trắng có tốt hơn tổ ong xanh hay đỏ không?",
+    answer: "Tổ ong trắng mang lại một số tiềm năng kiếm mật ong đỉnh cao nhất trong các đợt boost chủ động, nhưng chúng cực kỳ đắt đỏ để thiết lập và vận hành. Tổ ong xanh rẻ hơn nhiều và tốt hơn cho việc treo macro thụ động, trong khi tổ ong đỏ vượt trội trong việc boost chủ động tập trung mạnh vào chiến đấu. Trắng được coi là một chuyên hóa thực sự ở giai đoạn cuối game."
+  },
+  {
+    question: "Tôi thực sự cần bao nhiêu Ong Vector để bắt đầu?",
+    answer: "Bạn nên có ít nhất 12 đến 14 Ong Vector trước khi chuyển đổi. Nếu bạn chạy ít hơn mức này, bạn sẽ gặp khó khăn trong việc tạo ra các token Ký hiệu cần thiết để kích hoạt liên kết Tam giác, điều này sẽ khiến khả năng thu thập phấn hoa của bạn bị giảm sút nghiêm trọng."
+  },
+  {
+    question: "Tôi có thể vận hành tổ ong trắng mà không có Gummyballer không?",
+    answer: "Có, bạn có thể farm cực kỳ hiệu quả bằng cách sử dụng Gậy Cánh Hoa (Petal Wand) hoặc Guốc Dừa (Coconut Clogs) cùng với Mặt Nạ Kẹo Dẻo (Gummy Mask). Tuy nhiên, Gummyballer là mục tiêu cuối cùng, vì nội tại Gummy Trail và khả năng tự động tạo Kẹo Dẻo của nó giúp giảm đáng kể lượng tiêu thụ vật phẩm chủ động của bạn trong các đợt boost."
+  },
+  {
+    question: "Cánh đồng nào là tốt nhất tuyệt đối cho một đợt boost tổ ong trắng?",
+    answer: "Cánh đồng Dừa (Coconut Field) thường được coi là cánh đồng tốt nhất nói chung do cấp độ hoa cao và kích thước của nó, giúp dễ dàng tạo ra các tam giác Tam giác lớn. Tuy nhiên, Cánh đồng Nhện (Spider Field) và Vườn Dứa (Pineapple Patch) cũng là những lựa chọn thay thế tuyệt vời nếu bạn nhận được hệ số nhân Đền Gió cao trên chúng."
+  }
+]} />
+
+</Section>

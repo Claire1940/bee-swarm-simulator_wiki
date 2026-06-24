@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sữa Ong Chúa trong Bee Swarm Simulator: Hướng dẫn Cày cuốc & Chế tạo 2026",
+  description: "Làm chủ Sữa Ong Chúa trong Bee Swarm Simulator năm 2026. Tìm hiểu các lộ trình cày cuốc tốt nhất, công thức chế tạo và máy phân phối Sữa Ong Chúa để nâng cấp tổ ong của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/1a1a2e?text=Royal+Jelly+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Bee Swarm Simulator Wiki",
+  keywords: "bee swarm simulator, sữa ong chúa, royal jelly, hướng dẫn, chế tạo, cày cuốc"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Tài nguyên chính**: Sử dụng sữa ong chúa trong Bee Swarm Simulator để biến đổi các loại ong cơ bản thành các cấp bậc Hiếm (Rare), Sử thi (Epic) hoặc Huyền thoại (Legendary).
+- **Phương pháp cày cuốc tốt nhất**: Mua từ Máy phân phối Sữa Ong Chúa hoặc chế tạo trong Máy xay (Blender) bằng cách sử dụng các loại hạt (seeds).
+- **Ưu tiên chế tạo**: Tiết kiệm Sữa Ong Chúa để chế tạo Sữa Ong Chúa Sao (Star Jelly), Enzyme và Kim tuyến (Glitter) cho các trang bị giai đoạn giữa game.
+- **Chiến thuật tự động quay (Auto-roll)**: Sử dụng các cài đặt tự động quay một cách cẩn thận để nhắm mục tiêu vào các loại ong Tặng phẩm (Gifted) hoặc Thần thoại (Mythic) cụ thể mà không lãng phí vật phẩm.
+</Callout>
+
+<Section icon={Sparkles} title="Sữa Ong Chúa trong Bee Swarm Simulator là gì?">
+
+Trong Bee Swarm Simulator, Sữa Ong Chúa (Royal Jelly) là một trong những tài nguyên quan trọng nhất để tiến triển. Khi sử dụng cho bất kỳ con ong nào trong tổ, nó sẽ biến đổi con ong đó thành một con ong ngẫu nhiên có độ hiếm ít nhất là **Hiếm (Rare)**. Cơ chế này là cách chính để người chơi nâng cấp tổ ong khởi đầu, khám phá các loại ong mới và cuối cùng là xây dựng các tổ ong chuyên biệt theo màu sắc (Đỏ, Xanh hoặc Trắng).
+
+Hiểu được tỷ lệ toán học của việc quay Sữa Ong Chúa là điều cần thiết để tránh lãng phí tài nguyên quý giá này. Bảng dưới đây phác thảo các xác suất chính xác khi quay thủ công hoặc tự động quay một viên Sữa Ong Chúa.
+
+| Độ hiếm của Ong | Xác suất quay | Chi phí trung bình (số lượng Jelly) |
+| :--- | :--- | :--- |
+| **Hiếm (Rare)** | **70.00%** | 1.4 |
+| **Sử thi (Epic)** | **27.00%** | 3.7 |
+| **Huyền thoại (Legendary)** | **3.00%** | 33.3 |
+| **Thần thoại (Mythic)** | **0.004%** | 25,000 |
+| **Tặng phẩm (Bất kỳ)** | **0.40%** | 250 |
+
+<Callout type="warning" title="Cảnh báo Tự động quay">
+Luôn cấu hình cài đặt tự động quay (auto-roll) trước khi sử dụng hàng loạt Sữa Ong Chúa lên một ô ong. Việc vô tình quay mất một con ong Thần thoại hoặc Tặng phẩm hiếm do nhấp chuột thủ công là một sai lầm phổ biến có thể khiến tiến trình của bạn bị lùi lại nhiều tuần.
+</Callout>
+
+Để giúp bạn hiểu các biến thể jelly khác nhau có trong trò chơi, hãy so sánh các loại vật phẩm biến đổi cốt lõi dưới đây:
+
+<CardGrid cols={3}>
+  <Card title="Sữa Ong Chúa (Royal Jelly)">
+    - Biến đổi một con ong thành một con ong ngẫu nhiên cấp **Hiếm, Sử thi hoặc Huyền thoại**.
+    - Tỷ lệ cực nhỏ để quay ra **Thần thoại** (1 trên 25,000).
+    - Có thể quay ra ong **Tặng phẩm** (1 trên 250).
+  </Card>
+  <Card title="Sữa Ong Chúa Sao (Star Jelly)">
+    - Đảm bảo nhận được một con ong **Tặng phẩm** thuộc cấp Hiếm, Sử thi hoặc Huyền thoại.
+    - Yêu cầu **100 Sữa Ong Chúa** và **3 Kim tuyến** để chế tạo trong Máy xay.
+    - Cần thiết để mở khóa các Bùa hộ mệnh Sao (Star Amulets).
+  </Card>
+  <Card title="Tự động quay (Auto-Roll)">
+    - Cài đặt hệ thống tự động tiêu thụ jelly cho đến khi đạt được điều kiện nhất định.
+    - Đặt bộ lọc cho **Tặng phẩm**, **Huyền thoại** hoặc **Thần thoại**.
+    - Tiết kiệm thời gian nhấp chuột vật lý trong các lần quay ở giai đoạn cuối game.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Cách cày Sữa Ong Chúa nhanh nhất">
+
+Việc kiếm **Sữa Ong Chúa trong Bee Swarm Simulator** với số lượng lớn sẽ thay đổi khi bạn tiến triển từ đầu game đến cuối game. Trong khi người mới bắt đầu phải dựa vào các nhiệm vụ và khám phá cánh đồng, những người chơi nâng cao sẽ mua chúng hàng chục nghìn viên bằng mật ong.
+
+Bảng dưới đây nêu bật các nguồn cung cấp Sữa Ong Chúa chính, vị trí của chúng và hiệu quả tổng thể cho người chơi tích cực.
+
+| Loại nguồn | Vị trí / Yêu cầu | Chi phí / Thời gian hồi | Đánh giá hiệu quả |
+| :--- | :--- | :--- | :--- |
+| **Máy phân phối Sữa Ong Chúa** | Khu vực 10 ong (gần Slime) | 6 Vé (Tickets) mỗi viên | Thấp (Đắt đỏ ở đầu game) |
+| **Máy phân phối số lượng lớn** | Cửa hàng trên Đỉnh núi | Mật ong (Giá tăng theo số lượng mua) | Cao (Tốt nhất cho cuối game) |
+| **Chế tạo trong Máy xay** | Khu vực 15 ong | 10,000 Mật ong, 10 loại hạt mỗi loại | Trung bình (Phụ thuộc vào tài nguyên) |
+| **Boss King Beetle** | Hang động Cánh đồng Hoa Xanh | 30 giờ hồi chiêu | Cao (Nguồn rơi thụ động hàng ngày tuyệt vời) |
+| **Trận chiến Trí nhớ Cực hạn** | Khu vực 30 ong | 250,000 Mật ong / 4 giờ hồi chiêu | Trung bình (Phần thưởng dựa trên kỹ năng) |
+
+<Callout type="tip" title="Mẹo bảo tồn Vé">
+Tránh tiêu tốn những chiếc Vé khó kiếm được vào Máy phân phối Sữa Ong Chúa trong giai đoạn đầu game. Vé có giá trị hơn nhiều khi được tiết kiệm cho các loại Ong Sự kiện như Tabby Bee, Photon Bee, và Crimson/Cobalt Bees.
+</Callout>
+
+Để cày cuốc tích cực, hãy tập trung vào việc tiêu diệt các quái vật ngay khi chúng hồi sinh. Các quái vật như Người sói (Werewolf - trong hang động Cánh đồng Bí ngô) và Nhện (Spider - gần Cánh đồng Dâu tây) có tỷ lệ rơi Sữa Ong Chúa và vật liệu chế tạo cao.
+
+</Section>
+
+<Section icon={Target} title="Công thức chế tạo và Hiệu quả Máy xay">
+
+Sữa Ong Chúa không chỉ dùng để quay ong mới; nó còn là một nguyên liệu chế tạo cơ bản trong Máy xay (Blender) ở Khu vực 15 ong. Để mở khóa các trang bị giai đoạn giữa và cuối game, bạn sẽ cần chế tạo nhiều loại nguyên liệu yêu cầu nguồn cung cấp Sữa Ong Chúa ổn định.
+
+Bảng dưới đây liệt kê các công thức chế tạo thiết yếu sử dụng Sữa Ong Chúa, cùng với các vật phẩm đầu ra và cách sử dụng khuyến nghị.
+
+| Vật phẩm chế tạo | Nguyên liệu yêu cầu | Thời gian chế tạo | Yêu cầu trang bị chính |
+| :--- | :--- | :--- | :--- |
+| **Sữa Ong Chúa Sao** | 100 Sữa Ong Chúa, 3 Kim tuyến | 30 Phút | Gậy Cánh hoa, Bùa hộ mệnh Sao |
+| **Enzyme** | 10 Sữa Ong Chúa, 50 Quả dứa | 10 Phút | Mặt nạ Mật ong, Giáp Cobalt |
+| **Dầu (Oil)** | 10 Sữa Ong Chúa, 50 Hạt hướng dương | 10 Phút | Thắt lưng Tổ ong, Giáp Crimson |
+| **Siêu Sinh tố (Super Smoothie)** | 3 Sữa Ong Chúa Sao, 3 Neonberries, 3 Thuốc Tím | 1 Giờ | Máy thu thập cuối game |
+
+<Callout type="info" title="Ưu tiên chế tạo">
+Ưu tiên chế tạo **Dầu** và **Enzyme** thay vì Sữa Ong Chúa Sao trong quá trình chuyển tiếp sang giai đoạn giữa game. Mặt nạ Mật ong (Honey Mask) là bản nâng cấp trang bị quan trọng nhất ở giữa game, và việc lãng phí Sữa Ong Chúa vào Sữa Ong Chúa Sao quá sớm sẽ trì hoãn cột mốc quan trọng này.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật tiến triển Sữa Ong Chúa từng bước">
+
+Sử dụng Sữa Ong Chúa hiệu quả sẽ quyết định tốc độ bạn tiến triển qua các giai đoạn khác nhau của Bee Swarm Simulator. Hãy làm theo lộ trình tiến triển có cấu trúc này để tối đa hóa tài nguyên của bạn.
+
+<Steps>
+  <Step num="1" title="Tích trữ đầu game (1 đến 25 con ong)">
+    Trong giai đoạn này, đừng tiêu tốn Sữa Ong Chúa để quay các loại ong cụ thể. Hãy giữ một tổ ong đa dạng gồm các loại ong cơ bản, hiếm và sử thi. Tiết kiệm mọi viên Sữa Ong Chúa bạn tìm thấy từ nhiệm vụ, mã thông báo ẩn và rơi từ quái vật. Mục tiêu của bạn là tích lũy ít nhất **200 viên Sữa Ong Chúa** trước khi bắt đầu bất kỳ dự án chế tạo lớn nào.
+  </Step>
+  <Step num="2" title="Săn ong Tặng phẩm giữa game (25 đến 40 con ong)">
+    Khi bạn mở khóa Khu vực 30 ong và bắt đầu hướng tới **Bùa hộ mệnh Sao Vàng (Gold Star Amulet)**, bạn cần các loại ong Tặng phẩm duy nhất. Sử dụng tính năng tự động quay được thiết lập thành **Yêu cầu Tặng phẩm (Require Gifted)**. Quay các ô chứa ong bình thường bị trùng cho đến khi bạn nhận được một loại Tặng phẩm duy nhất mới. Đừng quay đè lên các phần thưởng Tặng phẩm duy nhất hiện có.
+  </Step>
+  <Step num="3" title="Chế tạo Gậy Cánh hoa và Giáp (35+ con ong)">
+    Ở giai đoạn này, hãy chuyển toàn bộ kho Sữa Ong Chúa của bạn vào Máy xay. Bạn sẽ cần hàng trăm viên jelly để chế tạo **Enzyme** và **Dầu** cần thiết cho Giáp Crimson, Giáp Cobalt và Gậy Cánh hoa (Petal Wand). Tạm dừng việc quay ong và tập trung hoàn toàn vào việc nâng cấp trang bị.
+  </Step>
+  <Step num="4" title="Chuyển đổi sang Thần thoại cuối game (45+ con ong)">
+    Khi bạn đã sẵn sàng chuyển sang một tổ ong chuyên biệt màu Đỏ, Xanh hoặc Trắng, bạn sẽ cần mua Sữa Ong Chúa với số lượng cực lớn từ máy phân phối trên Đỉnh núi bằng mật ong. Hãy chuẩn bị tâm lý chi tiêu **hàng tỷ mật ong** để đảm bảo có được các con ong Thần thoại cần thiết (như Buoyant Bees cho tổ Xanh hoặc Spicy Bees cho tổ Đỏ) bằng cài đặt tự động quay **Cho đến khi ra Thần thoại (Until Mythic)**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Cột mốc quay Thần thoại">
+Trung bình, để quay được một con ong Thần thoại cần 25,000 viên Sữa Ong Chúa, tương đương **25 tỷ mật ong**. Đừng cố gắng quay ong Thần thoại cho đến khi sản lượng mật ong hàng ngày của bạn có thể dễ dàng hỗ trợ mức chi tiêu này.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cột mốc & Danh sách kiểm tra Sữa Ong Chúa">
+
+Để đảm bảo bạn đang quản lý tài nguyên của mình một cách chính xác, hãy sử dụng danh sách kiểm tra này để theo dõi các cột mốc Sữa Ong Chúa của bạn. Hoàn thành các cột mốc này đảm bảo quá trình chuyển đổi suôn sẻ từ một tổ ong mới bắt đầu thành một thế lực ở cuối game.
+
+<Checklist
+  id="royal-jelly-milestones"
+  title="Các cột mốc Sữa Ong Chúa thiết yếu:"
+  items={[
+    "Tích lũy 100 viên Sữa Ong Chúa thuần túy từ các mã thông báo miễn phí trên bản đồ và nhiệm vụ.",
+    "Chế tạo Sữa Ong Chúa Sao đầu tiên của bạn trong Máy xay ở Khu vực 15 ong.",
+    "Mở khóa Mặt nạ Mật ong bằng cách sử dụng Enzyme và Dầu đã chế tạo.",
+    "Khám phá 25 loại ong Tặng phẩm duy nhất bằng cách sử dụng cài đặt tự động quay Tặng phẩm.",
+    "Tích trữ một lượng dự phòng 10,000 viên Sữa Ong Chúa cho các trường hợp chế tạo khẩn cấp ở cuối game."
+  ]}
+/>
+
+<Callout type="tip" title="Mã thông báo bản đồ ẩn">
+Hãy kiểm tra phía sau hang động của Gấu Đen (Black Bear), bên trong Mê cung phía sau Cổng 20 ong, và trên đỉnh Máy phân phối Quả dứa để nhận các mã thông báo Sữa Ong Chúa ẩn miễn phí chỉ nhận được một lần.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Bạn có thể nhận được Ong Thần thoại từ Sữa Ong Chúa bình thường không?",
+    answer: "Có, nhưng tỷ lệ cực kỳ thấp ở mức 0.004% (hoặc khoảng 1 trên 25,000 viên). Chúng tôi thực sự khuyên bạn chỉ nên tìm kiếm ong Thần thoại bằng cài đặt tự động quay khi bạn có thể mua jelly với số lượng cực lớn bằng mật ong."
+  },
+  {
+    question: "Tôi có nên sử dụng Sữa Ong Chúa lên các con Ong Sự kiện không?",
+    answer: "Không. Việc sử dụng Sữa Ong Chúa lên một con Ong Sự kiện (như Tabby, Photon hoặc Gummy) sẽ biến nó thành một con ong bình thường. Mặc dù bạn có thể lấy lại trứng Ong Sự kiện từ kho đồ miễn phí, bạn sẽ mất tất cả các cấp độ và đột biến mà con ong đó đã tích lũy được."
+  },
+  {
+    question: "Cách nhanh nhất để nhận Sữa Ong Chúa mà không tốn mật ong là gì?",
+    answer: "Phương pháp miễn phí nhanh nhất là đánh bại các boss khi chúng hồi chiêu (King Beetle, Tunnel Bear và Werewolf) và hoàn thành các nhiệm vụ lặp lại từ Gấu Nâu (Brown Bear) và Gấu Bắc Cực (Polar Bear). Ngoài ra, tham gia các sự kiện theo mùa như Beesmas cũng cung cấp các gói jelly khổng lồ."
+  },
+  {
+    question: "Có đáng để mua Sữa Ong Chúa bằng Robux không?",
+    answer: "Không. Mua Sữa Ong Chúa bằng Robux cực kỳ không hiệu quả. Mật ong rất dễ cày ở giai đoạn giữa và cuối game, cho phép bạn mua hàng triệu viên Sữa Ong Chúa miễn phí. Hãy tiết kiệm Robux của bạn cho các gói gamepass như Bear Bee hoặc tốc độ chuyển đổi gấp đôi."
+  }
+]} />
+
+<Callout type="warning" title="Lời nhắc cuối cùng">
+Đừng bao giờ vội vàng chuyên biệt hóa tổ ong của bạn. Hãy giữ một tổ ong hỗn hợp, cân bằng bằng cách sử dụng Sữa Ong Chúa cho đến khi bạn mở khóa được Bùa hộ mệnh Sao Tối thượng (Supreme Star Amulet) và hoàn thành phần lớn các chuỗi nhiệm vụ của Gấu Tâm linh (Spirit Bear).
+</Callout>
+
+</Section>

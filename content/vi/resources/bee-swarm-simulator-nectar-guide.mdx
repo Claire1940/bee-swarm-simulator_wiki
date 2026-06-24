@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn Nectar Bee Swarm Simulator: Buff tốt nhất & Lộ trình Farm",
+  description: "Làm chủ hướng dẫn nectar trong Bee Swarm Simulator. Tìm hiểu cách đặt chậu cây, buff nectar, tỷ lệ suy giảm và lộ trình farm nâng cao để tối đa hóa lượng mật ong thu được.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/111?text=Nectar+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Cơ chế chính**: Nectar là các buff mạnh mẽ, kéo dài thu được bằng cách thu hoạch các chậu cây được đặt trong các cánh đồng cụ thể.
+- **Các loại Nectar**: Có năm loại Nectar độc đáo, mỗi loại cung cấp các chỉ số tăng cường chuyên biệt cho các màu tổ ong và phong cách farm khác nhau.
+- **Hệ thống suy giảm**: Buff Nectar sẽ giảm dần theo thời gian, yêu cầu người chơi phải xoay vòng chậu cây một cách chiến thuật để duy trì thời gian hoạt động cao.
+- **Chiến lược lưu trữ**: Sử dụng Máy ngưng tụ Nectar để lưu trữ nectar dư thừa và tùy chỉnh cấu hình buff đang hoạt động.
+- **Lựa chọn tối ưu**: Kết hợp loại chậu cây của bạn với nectar tự nhiên ưa thích của cánh đồng để nhân lên tốc độ tạo nectar.
+</Callout>
+
+<Section icon={Sparkles} title="Cơ chế hệ thống Nectar & Tổng quan về Buff">
+
+Hệ thống nectar là một trong những cơ chế tiến trình quan trọng nhất đối với người chơi ở giai đoạn giữa và cuối game muốn tối ưu hóa việc thu thập phấn hoa và tạo mật ong. Khác với các buff cánh đồng tạm thời, nectar cung cấp các hệ số nhân chỉ số thụ động, lâu dài có thể cộng dồn lên đến 24 giờ. Hiểu được cách các buff này tương tác với kiểu xây dựng tổ ong của bạn là điều cần thiết để mở rộng quy mô sản xuất mật ong.
+
+Có năm loại nectar khác nhau: Refreshing (Tươi mới), Invigorating (Tràn đầy sinh lực), Comforting (Dễ chịu), Satisfying (Thỏa mãn) và Motivating (Động lực). Mỗi loại tăng cường các chỉ số cụ thể, từ hệ số nhân phấn hoa theo màu sắc cho đến tăng sức chứa và hiệu suất chuyển đổi. Để có được các buff này, bạn phải đặt chậu cây ở các cánh đồng khác nhau trên bản đồ, để chúng phát triển và thu hoạch khi chúng tích lũy đủ nectar.
+
+| Loại Nectar | Buff Chính | Buff Phụ | Tỷ lệ Suy giảm (Mỗi Phút) |
+|---|---|---|---|
+| **Refreshing** | +1.25x Phấn hoa xanh, +1.15x Sức chứa | +10% Tốc độ, +5% Tỷ lệ kỹ năng ong | 0.069% |
+| **Invigorating** | +1.25x Phấn hoa đỏ, +10% Ong tấn công | +5% Tỷ lệ chí mạng, +15% Tốc độ người chơi | 0.069% |
+| **Comforting** | +1.25x Phấn hoa xanh, +1.15x Mật ong trên mỗi phấn hoa | +10% Phòng thủ, +5% Tình yêu của Ong Cún | 0.069% |
+| **Satisfying** | +1.25x Phấn hoa trắng, +1.15x Mật ong từ token | +10% Thân thiết từ thức ăn, +5% May mắn nhặt đồ | 0.069% |
+| **Motivating** | +1.2x Phấn hoa, +1.15x Mật ong từ nhiệm vụ | +10% Tốc độ di chuyển, +5% Người chơi tấn công | 0.069% |
+
+<Callout type="tip" title="Quản lý suy giảm">
+Buff nectar suy giảm với tỷ lệ cố định khoảng 4.16% mỗi giờ khi bạn đang chơi tích cực. Để duy trì cộng dồn 24 giờ, bạn phải liên tục thu hoạch chậu cây hoặc sử dụng các lọ nectar đã lưu trữ để bổ sung vào thanh kích hoạt của mình.
+</Callout>
+
+Mỗi loại nectar có thể được cộng dồn lên đến thời gian tối đa là 24 giờ. Khi lượng cộng dồn tăng lên, hiệu lực của các buff đang hoạt động sẽ tăng theo tỷ lệ tuyến tính. Ví dụ, sở hữu 1 giờ Refreshing Nectar chỉ mang lại một lượng tăng nhỏ, trong khi duy trì đủ 24 giờ cộng dồn sẽ mang lại các hệ số nhân tối đa được liệt kê trong bảng trên. Quản lý các cộng dồn này đồng thời là chìa khóa để thực hiện các đợt boost hoạt động hiệu quả cao.
+
+</Section>
+
+<Section icon={Map} title="Ghép cặp chậu cây & Lựa chọn cánh đồng">
+
+Để farm nectar hiệu quả, bạn phải kết hợp đúng chậu cây với đúng cánh đồng. Mỗi cánh đồng trên núi đều có sở thích nectar tự nhiên, nghĩa là nó tự nhiên tạo ra nồng độ cao hơn của một loại nectar cụ thể. Ngoài ra, các chậu cây khác nhau có các hệ số nhân độc đáo giúp tăng tốc độ phát triển hoặc tăng độ tinh khiết của nectar thu hoạch được.
+
+Đặt một chậu cây ở cánh đồng phù hợp với loại nectar ưa thích của nó sẽ giúp chu kỳ phát triển nhanh hơn và sản lượng nectar cao hơn đáng kể khi thu hoạch. Ngược lại, đặt chậu cây ở một cánh đồng không tương thích sẽ làm loãng sản lượng, mang lại cho bạn sự pha trộn của các nectar phụ thay vì buff tập trung mà bạn cần.
+
+| Tên Cánh đồng | Loại Nectar Tự nhiên | Hệ số nhân Tốc độ Tăng trưởng | Chậu cây Khuyên dùng |
+|---|---|---|---|
+| **Rừng thông** | Comforting | 1.5x | Chậu cây thủy canh / Chậu đất sét |
+| **Vườn ớt** | Invigorating | 1.5x | Chậu xử lý nhiệt / Chậu đất sét |
+| **Cánh đồng dừa** | Satisfying | 1.25x | Chậu thuốc trừ sâu / Chậu nhựa |
+| **Cánh đồng dâu tây** | Refreshing | 1.25x | Chậu kẹo / Chậu đất sét đỏ |
+| **Cánh đồng bồ công anh** | Motivating | 1.25x | Chậu dính / Chậu vé |
+| **Cánh đồng hoa xanh** | Comforting | 1.25x | Chậu đất sét xanh / Chậu giấy |
+
+<CardGrid cols={4}>
+  <Card title="Pesticide Planter (Chậu thuốc trừ sâu)">
+    - **Tốt nhất cho**: Satisfying Nectar
+    - Rất hiệu quả trong cánh đồng Dừa và Bí ngô
+    - Thả chất thải độc hại giúp thúc đẩy sự phát triển của hoa xung quanh
+  </Card>
+  <Card title="Hydroponic Planter (Chậu thủy canh)">
+    - **Tốt nhất cho**: Comforting Nectar
+    - Lý tưởng để farm ở Rừng thông
+    - Tăng tốc đáng kể việc tích lũy nectar xanh
+  </Card>
+  <Card title="Heat-Treated Planter (Chậu xử lý nhiệt)">
+    - **Tốt nhất cho**: Invigorating Nectar
+    - Hoàn hảo cho Vườn ớt và Cánh đồng hoa hồng
+    - Tạo phần thưởng đất sét đỏ và các buff ngọn lửa hoạt động
+  </Card>
+  <Card title="Petal Planter (Chậu cánh hoa)">
+    - **Tốt nhất cho**: Cộng dồn nhiều Nectar
+    - Buff tăng trưởng phổ quát trong tất cả các cánh đồng trên núi
+    - Định kỳ sinh ra phần thưởng nấm hiếm và thạch sao
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Hình phạt thu hoạch quá mức">
+Thu hoạch liên tục trên cùng một cánh đồng bằng các chậu cây trong một khoảng thời gian ngắn sẽ làm giảm sản lượng nectar. Luôn xoay vòng các chậu cây của bạn qua các cánh đồng khác nhau có cùng loại nectar để tránh hình phạt cạn kiệt đất, điều này có thể làm giảm tới 50% lượng nectar thu được của bạn.
+</Callout>
+
+Chậu cây không chỉ phát triển dựa trên thời gian thực tế; chúng yêu cầu bạn phải tích cực thu thập phấn hoa trong cánh đồng nơi chúng được đặt, hoặc ở các cánh đồng lân cận tùy thuộc vào cấp độ của chậu cây. Để tăng tốc độ phát triển, hãy đứng trong cánh đồng cùng với chậu cây của bạn và tích cực farm phấn hoa. Ong của bạn sẽ tự động gửi một phần phấn hoa thu thập được trực tiếp vào chậu cây, giúp đẩy nhanh thời gian thu hoạch của nó.
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn từng bước về Nectar trong Bee Swarm Simulator">
+
+Tối đa hóa các cộng dồn nectar đòi hỏi một thói quen hàng ngày có cấu trúc. Nếu bạn đặt chậu cây ngẫu nhiên xung quanh núi, bạn sẽ nhận được các buff manh mún và suy giảm nhanh hơn mức bạn có thể bổ sung. Hãy làm theo các bước sau để xây dựng một vòng xoay nectar tự duy trì.
+
+<Steps>
+  <Step num="1" title="Phân tích mục tiêu tổ ong của bạn">
+    Xác định buff nectar nào phù hợp với màu tổ ong hiện tại của bạn. Tổ ong Xanh nên ưu tiên Comforting và Refreshing, tổ ong Đỏ cần Invigorating và Satisfying, trong khi tổ ong Trắng phải tập trung vào Satisfying và Motivating. Không lãng phí các ô chậu cây cho các loại nectar không liên quan.
+  </Step>
+  <Step num="2" title="Triển khai vòng xoay chậu cây">
+    Đặt các chậu cây cấp cao nhất của bạn vào các cánh đồng chính liên quan đến nectar mục tiêu của bạn. Ví dụ, nếu bạn là tổ ong xanh, hãy đặt Chậu cây thủy canh trong Rừng thông và Chậu đất sét xanh trong Cánh đồng tre. Đảm bảo bạn không đặt nhiều chậu cây trong cùng một cánh đồng cùng một lúc.
+  </Step>
+  <Step num="3" title="Tăng tốc tăng trưởng thông qua farm tích cực">
+    Dành 10 đến 15 phút để farm trong các cánh đồng nơi đặt chậu cây của bạn. Nếu bạn có nhiều chậu cây đang hoạt động, hãy xoay vòng giữa các cánh đồng để phân bổ đều tốc độ tăng trưởng. Thu thập tất cả các token kỹ năng do ong của bạn rơi ra, vì chúng cung cấp các buff tăng trưởng cục bộ cho các chậu cây đang hoạt động.
+  </Step>
+  <Step num="4" title="Thu hoạch ở ngưỡng tối ưu">
+    Chỉ thu hoạch chậu cây khi chúng đạt mức tăng trưởng 100% để đảm bảo thời gian buff nectar tối đa có thể. Thu hoạch sớm sẽ mang lại thời gian buff thấp không tương xứng và lãng phí chu kỳ hồi chiêu của chậu cây. Luôn kiểm tra trạng thái chậu cây của bạn thông qua menu hệ thống trước khi thu hoạch.
+  </Step>
+  <Step num="5" title="Sử dụng Máy ngưng tụ Nectar">
+    Gửi bất kỳ lượng nectar dư thừa nào thu hoạch được từ chậu cây của bạn vào Máy ngưng tụ Nectar nằm gần Khu vực 30 Ong. Máy ngưng tụ cho phép bạn lưu trữ tối đa 24 giờ cho mỗi loại nectar dưới dạng lọ, có thể sử dụng ngay lập tức trước khi bắt đầu một phiên boost farm lớn.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hiệu quả cộng dồn">
+Thực hiện vòng xoay này hàng ngày sẽ cho phép bạn duy trì mức cơ bản từ 12 đến 18 giờ cho các buff nectar chính của mình với chưa đầy 30 phút thiết lập hoạt động mỗi ngày.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lộ trình farm Nectar theo từng loại tổ ong">
+
+Các kiểu xây dựng tổ ong khác nhau yêu cầu các thiết lập nectar hoàn toàn khác nhau để hoạt động tối ưu. Một tổ ong đỏ farm trong Vườn ớt sẽ hầu như không nhận được giá trị nào từ Comforting Nectar, trong khi một tổ ong xanh sẽ thấy tốc độ kiếm mật ong của nó tăng vọt nhờ nó. Để giúp bạn lập kế hoạch bố trí, chúng tôi đã vạch ra các mức ưu tiên nectar và vòng xoay cánh đồng chính xác cho ba màu tổ ong chính ở giai đoạn cuối game.
+
+| Màu Tổ ong | Nectar Ưu tiên | Cánh đồng Chính | Cánh đồng Phụ | Tổ hợp Buff Mục tiêu |
+|---|---|---|---|---|
+| **Tổ ong Xanh** | Comforting, Refreshing | Rừng thông, Cánh đồng tre | Cánh đồng gốc cây, Cỏ ba lá | +1.25x Phấn hoa xanh, +1.15x Sức chứa, +1.15x Mật ong trên mỗi phấn hoa |
+| **Tổ ong Đỏ** | Invigorating, Satisfying | Vườn ớt, Cánh đồng hoa hồng | Cánh đồng dâu tây, Nấm | +1.25x Phấn hoa đỏ, +10% Ong tấn công, +1.15x Mật ong từ token |
+| **Tổ ong Trắng** | Satisfying, Motivating | Cánh đồng dừa, Cánh đồng nhện | Dứa, Bí ngô | +1.25x Phấn hoa trắng, +1.2x Phấn hoa, +1.15x Mật ong từ token |
+
+<Checklist
+  id="daily-nectar-checklist"
+  title="Nhiệm vụ bảo trì Nectar hàng ngày:"
+  items={[
+    "Kiểm tra thời gian hoạt động của nectar trước khi bắt đầu phiên farm đầu tiên của bạn",
+    "Đặt ít nhất ba chậu cây trong các cánh đồng phù hợp với loại nectar chính của tổ ong của bạn",
+    "Farm trong các cánh đồng có chậu cây để kích hoạt hệ số nhân tốc độ tăng trưởng hoạt động 1.5x",
+    "Thu hoạch các chậu cây đã hoàn thành và lưu trữ nectar dư thừa trong Máy ngưng tụ",
+    "Xoay vòng các cánh đồng đặt chậu cây hàng ngày để ngăn ngừa tình trạng cạn kiệt đất và duy trì tỷ lệ sản lượng tối đa"
+  ]}
+/>
+
+<Callout type="tip" title="Tối ưu hóa giai đoạn cuối game">
+Nếu bạn đã mở khóa Bùa sao tối thượng (Supreme Star Amulet), hãy phối hợp các cộng dồn nectar đang hoạt động với các kích hoạt thụ động của bạn. Ví dụ, các nội tại của Sao Pop (Pop Star) được hưởng lợi rất nhiều từ việc tăng sức chứa kết hợp của Refreshing Nectar và tỷ lệ chuyển đổi của Comforting Nectar.
+</Callout>
+
+Khi lên kế hoạch cho một phiên boost hoạt động bằng cách sử dụng Kim tuyến (Glitter), Xúc xắc cánh đồng (Field Dice) và Thuốc tím (Purple Potions), luôn đảm bảo các nectar mục tiêu của bạn được cộng dồn ít nhất 15 giờ. Bản chất nhân lên của các buff nectar có nghĩa là chúng tăng quy mô đáng kể khi kết hợp với các vật phẩm tiêu hao cấp cao, biến một lượt farm tiêu chuẩn thành một đợt thu hoạch hàng tỷ mật ong.
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+Để khép lại hướng dẫn của chúng tôi, chúng tôi đã tổng hợp câu trả lời cho những câu hỏi thường gặp nhất mà người chơi đặt ra khi cố gắng làm chủ hệ thống chậu cây và nectar.
+
+<FAQ items={[
+  {
+    question: "Chậu cây có phát triển khi tôi ngoại tuyến hoặc đang ở trong một trò chơi Roblox khác không?",
+    answer: "Chậu cây vẫn tiếp tục phát triển khi bạn ngoại tuyến, nhưng với tốc độ giảm đi đáng kể. Để tối đa hóa tốc độ tăng trưởng, bạn nên duy trì hoạt động trong trò chơi, tốt nhất là farm trong cùng cánh đồng nơi đặt chậu cây."
+  },
+  {
+    question: "Tôi có thể cộng dồn cả năm buff nectar cùng một lúc không?",
+    answer: "Có, bạn có thể kích hoạt đồng thời cả năm buff nectar. Tuy nhiên, việc duy trì thời gian cộng dồn cao cho cả năm loại là vô cùng khó khăn và tốn thời gian. Hiệu quả hơn nhiều nếu bạn tập trung vào 2 hoặc 3 loại nectar mang lại lợi ích trực tiếp cho màu tổ ong cụ thể của bạn."
+  },
+  {
+    question: "Cách nhanh nhất để bổ sung nectar bị suy giảm trong hướng dẫn nectar bee swarm simulator này là gì?",
+    answer: "Cách nhanh nhất để bổ sung nectar bị suy giảm là sử dụng Lọ Nectar (Nectar Vials), có thể được chế tạo hoặc thu được từ các chậu cây cấp cao. Ngoài ra, thu hoạch một chậu cây đã phát triển 100% trong cánh đồng ưa thích sẽ ngay lập tức khôi phục vài giờ của buff tương ứng."
+  },
+  {
+    question: "Kích thước tổ ong của tôi có ảnh hưởng đến tốc độ phát triển của chậu cây không?",
+    answer: "Có. Vì chậu cây phát triển nhanh hơn khi ong gửi phấn hoa vào chúng, việc sở hữu một bầy ong lớn hơn với tốc độ thu thập cao hơn và chỉ số tỷ lệ kỹ năng tốt hơn sẽ tự nhiên đẩy nhanh chu kỳ phát triển của bất kỳ chậu cây nào bạn đặt."
+  }
+]} />
+
+<Callout type="info" title="Lưu ý cuối cùng">
+Tỷ lệ phần thưởng của hệ thống nectar có thể thay đổi theo các bản cập nhật cân bằng của Onett. Luôn theo dõi các kênh cộng đồng chính thức và ghi chú bản vá để cập nhật thông tin về bất kỳ điều chỉnh nào đối với sản lượng chậu cây hoặc cơ chế suy giảm.
+</Callout>
+
+</Section>

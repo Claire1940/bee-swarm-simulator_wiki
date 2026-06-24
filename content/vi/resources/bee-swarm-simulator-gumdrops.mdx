@@ -1,0 +1,183 @@
+import { Droplets, Gift, Construction, Target, Trophy, Swords, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Kẹo Dẻo Bee Swarm Simulator: Hướng Dẫn Cày Quốc & Chế Tạo Tốt Nhất",
+  description: "Làm chủ cách cày kẹo dẻo (gumdrops) trong Bee Swarm Simulator. Tìm hiểu cách kiếm kẹo dẻo nhanh chóng qua mã code, máy phân phối và chế tạo để mở khóa Ong Kẹo Dẻo (Gummy Bee) và Mặt Nạ Kẹo Dẻo (Gummy Mask).",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/333?text=Gumdrops+Farming+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Kẹo dẻo trong Bee Swarm Simulator** là vật phẩm tiêu hao thiết yếu được sử dụng để tạo Chất Nhầy (Goo), chế tạo Keo (Glue) và mở khóa Ong Kẹo Dẻo (Gummy Bee) huyền thoại.
+- **Nguồn thu thập chính**: Nhận chúng thông qua các mã code trong trò chơi, rơi ra từ quái vật (Người Sói/Nhện), Máy phân phối Kẹo dẻo (Gumdrop Dispenser) và chế tạo bằng Máy xay (Blender).
+- **Chiến thuật hàng đầu**: Tiết kiệm 2.500 kẹo dẻo để nhận Ong Kẹo Dẻo từ hang của Gấu Kẹo Dẻo (Gummy Bear) trước khi sử dụng chúng để tăng cường (boost) cánh đồng.
+- **Yếu tố chế tạo quan trọng**: Kẹo dẻo là nguyên liệu cốt lõi để chế tạo Keo, thứ cần thiết cho các trang bị cuối game như Mặt Nạ Kẹo Dẻo (Gummy Mask) và Giày Kẹo Dẻo (Gummy Boots).
+- **Thói quen hàng ngày**: Luôn ghé thăm Máy phân phối Keo (Glue Dispenser) và Máy phân phối Kẹo dẻo bất cứ khi nào thời gian hồi chiêu kết thúc để duy trì nguồn cung ổn định.
+</Callout>
+
+<Section icon={Droplets} title="Tìm Hiểu Về Kẹo Dẻo Trong Bee Swarm Simulator">
+
+**Kẹo dẻo trong Bee Swarm Simulator** đóng vai trò là một tài nguyên đa chức năng, chuyển đổi từ một công cụ tăng cường cánh đồng đơn giản ở giai đoạn đầu game thành một thành phần chế tạo quan trọng ở giai đoạn cuối game. Khi sử dụng, chúng sẽ bao phủ các bông hoa xung quanh bằng "Chất Nhầy" (Goo), giúp tăng thêm mật ong dựa trên chỉ số thu thập của ong và các bùa lợi (buff) chủ đề Gummy cụ thể. Tuy nhiên, giá trị thực sự của chúng nằm ở chỗ chúng là điều kiện bắt buộc cho các cột mốc thăng tiến cấp cao.
+
+Đối với người chơi mới, mong muốn sử dụng kẹo dẻo liên tục để kiếm thêm phấn hoa là rất cao, nhưng những người chơi lâu năm khuyên nên có một cách tiếp cận kỷ luật hơn. Mỗi viên kẹo dẻo chi tiêu vào một cánh đồng ngẫu nhiên là một bước lùi xa hơn khỏi Ong Kẹo Dẻo (Gummy Bee). Vì loài ong này là một trong những đơn vị tiện ích mạnh mẽ nhất trong trò chơi, việc quản lý kho kẹo dẻo của bạn sẽ quyết định sự khác biệt giữa một tổ ong hiệu quả và một tiến trình bị đình trệ.
+
+<CardGrid cols={3}>
+  <Card title="Tạo Chất Nhầy (Goo)">
+    Tạo Chất Nhầy màu xanh dương, đỏ hoặc trắng trên hoa để tăng lượng mật ong thu được trên mỗi phấn hoa thu thập.
+  </Card>
+  <Card title="Mở Khóa Ong Kẹo Dẻo">
+    Yêu cầu tích lũy một lượng lớn 2.500 kẹo dẻo để hiến tế tại hang của Gấu Kẹo Dẻo (Gummy Bear).
+  </Card>
+  <Card title="Nguyên Liệu Chế Tạo">
+    Nguyên liệu chính để chế tạo Keo (Glue), được sử dụng cho Mặt Nạ Kẹo Dẻo (Gummy Mask), Giày (Boots) và Gummyballer.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Chiến thuật chuyên nghiệp">
+Tránh sử dụng kẹo dẻo thủ công cho đến khi bạn mở khóa thành công Ong Kẹo Dẻo. Khi bạn đã có chú ong này, nó sẽ tự động tạo Chất Nhầy miễn phí, cho phép bạn tiết kiệm kẹo dẻo vật lý để chế tạo Keo trong Máy xay.
+</Callout>
+
+| Loại Nguồn | Tần Suất | Sản Lượng Trung Bình | Mức Độ Nỗ Lực |
+| :--- | :--- | :--- | :--- |
+| **Rơi từ Quái vật** | Thường xuyên | 1 - 5 mỗi lần | Trung bình (Chiến đấu) |
+| **Máy Phân Phối** | Mỗi 22 giờ | 3 - 10 | Thấp (Chỉ cần đi tới) |
+| **Máy Xay (Blender)** | Liên tục | 1 mỗi lần chế tạo | Cao (Tốn tài nguyên) |
+| **Nhiệm Vụ** | Một lần/Lặp lại | 5 - 50 | Cao (Cày cuốc) |
+| **Mã Code** | Một lần | 10 - 25 | Rất thấp (Tức thì) |
+
+</Section>
+
+<Section icon={Gift} title="Mã Code Còn Hoạt Động Để Nhận Kẹo Dẻo Miễn Phí (2026)">
+
+Đổi mã code là cách nhanh nhất để khởi động bộ sưu tập **kẹo dẻo Bee Swarm Simulator** của bạn. Những phần thưởng này thường đi kèm với các vật liệu hiếm khác như Ngòi Ong (Stingers), Thạch Sao (Star Jelly) hoặc Xúc Xắc Cánh Đồng (Field Dice). Dưới đây là danh sách các mã code còn hoạt động đã được xác minh cung cấp kẹo dẻo tính đến tháng 6 năm 2026.
+
+| Mã Code | Phần Thưởng Kẹo Dẻo | Các Vật Phẩm Đi Kèm |
+| :--- | :--- | :--- |
+| **fourtunate** | 4 Kẹo Dẻo | 1 Ong Kẹo Bông (Marshmallow Bee), 4 Xúc Xắc Cánh Đồng, 4 Ngòi Ong |
+| **15MMembers** | 15 Kẹo Dẻo | 1 Ong Kẹo Bông, 15 Trái Cây, 1 Bong Bóng Đỏ |
+| **BeesBuzz123** | 10 Kẹo Dẻo | 5 Quả Đắng (Bitterberries), 1 Lọ Mây (Cloud Vial) |
+| **GumdropsForScience** | 15 Kẹo Dẻo | Các vật phẩm tăng cường riêng của Gấu Khoa Học (Science Bear) |
+
+<Callout type="warning" title="Mẹo đổi thưởng">
+Trước khi sử dụng các mã code này, hãy đảm bảo bạn đã tham gia Câu lạc bộ Bee Swarm Simulator chính thức trên Roblox. Nhiều mã code là "Chỉ dành cho thành viên Câu lạc bộ" và sẽ không hoạt động trừ khi tài khoản của bạn là thành viên đã được xác minh của nhóm.
+</Callout>
+
+### Cách Đổi Mã Code
+1. Khởi chạy Bee Swarm Simulator trên Roblox.
+2. Nhấp vào **Biểu tượng Bánh răng** (Cài đặt) ở phía trên bên trái màn hình.
+3. Tìm hộp văn bản "Codes".
+4. Nhập mã chính xác như hiển thị (có phân biệt chữ hoa chữ thường).
+5. Nhấn **Redeem** để nhận kẹo dẻo ngay lập tức.
+
+</Section>
+
+<Section icon={Construction} title="Cách Cày Kẹo Dẻo Nhanh Nhất">
+
+Để đạt được các trang bị cuối game, bạn sẽ cần hàng ngàn **kẹo dẻo Bee Swarm Simulator**. Chỉ dựa vào mã code là điều không thể để phát triển lâu dài. Bạn phải thiết lập một thói quen cày quốc tận dụng mọi cơ chế có sẵn trên núi.
+
+<Steps>
+  <Step num="1" title="Tận Dụng Máy Phân Phối Kẹo Dẻo">
+    Nằm ở Khu vực 20 Ong, máy phân phối này cung cấp kẹo dẻo miễn phí mỗi 22 giờ. Nếu bạn là thành viên của Câu lạc bộ Bee Swarm Simulator, bạn sẽ nhận được nhiều hơn. Đây là cách "thụ động" nhất quán nhất để xây dựng kho tích trữ của bạn.
+  </Step>
+  <Step num="2" title="Thành Thạo Cày Quái Vật">
+    Một số quái vật nhất định có xác suất rơi kẹo dẻo cao hơn. Hãy tập trung tiêu diệt **Người Sói** (Khu vực 15 Ong) và **Nhện** (Khu vực 5 Ong) ngay khi chúng xuất hiện trở lại. Mặc dù lượng rơi ra nhỏ (thường là 1-3 viên), chúng sẽ tích lũy lại đáng kể sau một tuần chơi tích cực.
+  </Step>
+  <Step num="3" title="Phương Pháp Chế Tạo Bằng Máy Xay">
+    Khi bạn mở khóa Khu vực 15 Ong, Máy xay (Blender) sẽ trở thành người bạn tốt nhất của bạn. Bạn có thể chế tạo 1 Kẹo Dẻo bằng cách sử dụng 3 Quả Dâu Tây, 3 Quả Việt Quất và 3 Quả Dứa. Mặc dù điều này tiêu tốn trái cây của bạn, nhưng đây là cách duy nhất để "ép" ra một lượng lớn kẹo dẻo trong thời gian ngắn.
+  </Step>
+  <Step num="4" title="Hoàn Thành Nhiệm Vụ Của Gấu Nâu">
+    Gấu Nâu (Brown Bear) cung cấp các nhiệm vụ lặp lại thường xuyên thưởng kẹo dẻo và vé (tickets). Vé cũng có thể được sử dụng tại Máy phân phối Kẹo dẻo để mua kẹo dẻo (1 vé = 3 kẹo dẻo), mặc dù điều này thường được coi là đắt đỏ đối với người chơi đầu game.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Hiệu quả của máy phân phối">
+Nếu bạn đang kích hoạt bùa lợi "Đồng Hồ Thịnh Vượng" (Wealth Clock), hãy cố gắng căn thời gian ghé thăm máy phân phối cùng lúc. Mặc dù đồng hồ không trực tiếp tăng sản lượng kẹo dẻo, nhưng việc duy trì trong game để canh thời gian hồi chiêu của máy phân phối giúp bạn tối đa hóa thu nhập vé, thứ có thể quy đổi lại thành kẹo dẻo nếu cần.
+</Callout>
+
+| Tên Quái Vật | Thời Gian Xuất Hiện Lại | Tỷ Lệ Rơi Kẹo Dẻo | Cấp Độ Ong Khuyến Nghị |
+| :--- | :--- | :--- | :--- |
+| **Bọ Cánh Cam (Ladybug)** | 5 Phút | Thấp | Cấp 1+ |
+| **Nhện (Spider)** | 30 Phút | Trung bình | Cấp 5+ |
+| **Người Sói (Werewolf)** | 30 Phút | Cao | Cấp 8+ |
+| **Bọ Ngựa (Mantises)** | 20 Phút | Trung bình | Cấp 7+ |
+
+</Section>
+
+<Section icon={Target} title="Tiến Trình Mở Khóa Ong Kẹo Dẻo Và Mặt Nạ Kẹo Dẻo">
+
+Lý do chính khiến người chơi tích trữ **kẹo dẻo Bee Swarm Simulator** là để thăng tiến qua các phần thưởng của Gấu Kẹo Dẻo. Con đường này thường được gọi là nền tảng "Tổ Ong Trắng" (White Hive), tập trung vào Chất Nhầy và khả năng chuyển đổi mật ong khổng lồ.
+
+### Mở Khóa Ong Kẹo Dẻo
+Để có được Ong Kẹo Dẻo (Gummy Bee), bạn phải tìm thấy Hang của Gấu Kẹo Dẻo (Gummy Bear's Lair) ẩn giấu. Lối vào nằm bằng cách nhảy lên đỉnh Máy phân phối Kẹo dẻo và sử dụng một viên kẹo dẻo trong khi đứng trên hình ảnh Gấu Kẹo Dẻo. Khi đã vào bên trong, bạn cần tương tác với Ong Kẹo Dẻo khổng lồ.
+- **Chi phí**: 2.500 Kẹo Dẻo.
+- **Lợi ích**: Ong Kẹo Dẻo tự động thả các token kẹo dẻo trong quá trình chiến đấu và thu thập, giúp bạn có lượng Chất Nhầy vô hạn mà không cần tiêu tốn kho đồ của mình.
+
+### Chế Tạo Mặt Nạ Kẹo Dẻo
+Mặt Nạ Kẹo Dẻo (Gummy Mask) được coi là một trong những chiếc mặt nạ tốt nhất từ giữa đến cuối game nhờ khả năng "Hóa Hình Kẹo Dẻo" (Gummy Morph). Tuy nhiên, chi phí kẹo dẻo của nó rất đáng kinh ngạc do yêu cầu về Keo (Glue).
+
+| Vật Phẩm Yêu Cầu | Số Lượng | Lượng Kẹo Dẻo Tương Đương |
+| :--- | :--- | :--- |
+| **Keo (Glue)** | 250 | 12.500 (nếu chế tạo) |
+| **Enzyme (Enzymes)** | 100 | N/A |
+| **Dầu (Oil)** | 100 | N/A |
+| **Kim Tuyến (Glitter)** | 100 | N/A |
+
+<Callout type="success" title="Cột mốc tiến trình">
+Mở khóa Mặt Nạ Kẹo Dẻo sẽ thay đổi hoàn toàn tiềm năng cày quốc của bạn. Khả năng "Hóa Hình Kẹo Dẻo" tạm thời biến mọi chú ong thành Ong Kẹo Dẻo, phủ kín cánh đồng bằng Chất Nhầy và nhân 1.5 lần lượng mật ong thu được trong suốt thời gian hiệu lực.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh Sách Kiểm Tra Quản Lý Kẹo Dẻo">
+
+Để đảm bảo bạn không lãng phí **kẹo dẻo Bee Swarm Simulator** của mình, hãy làm theo danh sách ưu tiên này. Quản lý tài nguyên trong Bee Swarm Simulator đòi hỏi sự kiên nhẫn và biết khi nào nên chi tiêu so với khi nào nên tiết kiệm.
+
+<Checklist
+  id="gumdrop-goals"
+  title="Danh sách ưu tiên Kẹo Dẻo:"
+  items={[
+    "Tham gia Câu lạc bộ Roblox để tăng phần thưởng từ máy phân phối",
+    "Tiết kiệm 2.500 Kẹo Dẻo để lấy Trứng Ong Kẹo Dẻo (Gummy Bee Egg)",
+    "Đạt đến Khu vực 20 Ong để tiếp cận máy phân phối hàng ngày",
+    "Chỉ chế tạo Keo sau khi đã sở hữu Ong Kẹo Dẻo",
+    "Trang bị Mặt Nạ Mật Ong (Honey Mask) trước khi hướng tới Mặt Nạ Kẹo Dẻo",
+    "Sử dụng trái cây dư thừa trong Máy xay để bổ sung cho kho tích trữ của bạn"
+  ]}
+/>
+
+<Callout type="warning" title="Sai lầm thường gặp">
+Không mua kẹo dẻo bằng Robux. Tỷ lệ quy đổi cực kỳ tệ. Thay vào đó, hãy sử dụng Robux của bạn cho các nâng cấp vĩnh viễn như **Ong Gấu** (Bear Bee) hoặc **Thu thập Ong x2** (x2 Bee Gather), và cày kẹo dẻo bằng các phương pháp được liệt kê ở trên.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu Hỏi Thường Gặp">
+
+<FAQ items={[
+  {
+    question: "Cách nhanh nhất để có 2.500 kẹo dẻo cho Ong Kẹo Dẻo là gì?",
+    answer: "Cách nhanh nhất là sự kết hợp giữa việc đổi tất cả các mã code còn hoạt động, nhận kẹo dẻo từ Máy phân phối mỗi 22 giờ và sử dụng Máy xay để chế tạo kẹo dẻo từ Dâu Tây, Việt Quất và Dứa. Nếu bạn có vé dư thừa, bạn cũng có thể mua chúng tại máy phân phối (3 kẹo dẻo đổi 1 vé)."
+  },
+  {
+    question: "Tôi có thể nhận được kẹo dẻo từ mầm cây (sprouts) không?",
+    answer: "Có, Mầm Kẹo Dẻo (Gummy Sprouts) là một biến thể hiếm có thể xuất hiện ở bất kỳ cánh đồng nào. Khi vỡ ra, chúng sẽ rải kẹo dẻo và các vật phẩm liên quan đến Chất Nhầy khắp khu vực. Sử dụng một viên Kẹo dẻo trong khi mầm cây đang phát triển có một tỷ lệ nhỏ biến nó thành Mầm Kẹo Dẻo."
+  },
+  {
+    question: "Có đáng để sử dụng kẹo dẻo cho các nhiệm vụ của Gấu Linh Hồn (Spirit Bear) không?",
+    answer: "Chỉ khi nhiệm vụ đó yêu cầu cụ thể việc thu thập Chất Nhầy. Các nhiệm vụ của Gấu Linh Hồn thường yêu cầu hàng tỷ phấn hoa trắng; sử dụng kẹo dẻo Bee Swarm Simulator trong quá trình tăng cường (boost) có thể giúp bạn hoàn thành các yêu cầu này nhanh hơn nhiều, nhưng chỉ nên làm điều này sau khi bạn đã có Ong Kẹo Dẻo."
+  },
+  {
+    question: "Mặt Nạ Kẹo Dẻo có yêu cầu trực tiếp kẹo dẻo không?",
+    answer: "Không, Mặt Nạ Kẹo Dẻo yêu cầu 250 Keo (Glue). Tuy nhiên, vì mỗi Keo tốn 50 kẹo dẻo để chế tạo trong Máy xay, về mặt hiệu quả, bạn cần 12.500 kẹo dẻo để đáp ứng yêu cầu về Keo nếu bạn không nhận đủ từ Máy phân phối Keo hàng ngày."
+  }
+]} />
+
+</Section>

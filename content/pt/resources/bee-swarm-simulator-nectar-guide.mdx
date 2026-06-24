@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Néctar do Simulador de enxame de abelhas: Melhores Buffs e Rotas de Farm",
+  description: "Domine o guia de néctar do Simulador de enxame de abelhas. Aprenda sobre posicionamento de plantadores, buffs de néctar, taxas de decaimento e rotas avançadas de farm para maximizar seus ganhos de mel.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/111?text=Nectar+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Simulador de enxame de abelhas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Os néctares são buffs poderosos e de longa duração obtidos ao colher plantadores colocados em campos específicos.
+- **Tipos de Néctar**: Existem cinco tipos únicos de néctar, cada um oferecendo melhorias especializadas para diferentes cores de colmeia e estilos de farm.
+- **Sistema de Decaimento**: Os buffs de néctar decaem com o tempo, exigindo que os jogadores rotacionem seus plantadores estrategicamente para manter uma alta atividade.
+- **Estratégia de Armazenamento**: Utilize o Condensador de Néctar para armazenar o excesso de néctar e personalizar as configurações de buffs ativos.
+- **Escolha Ideal**: Combine o tipo do seu plantador com a preferência nativa de néctar do campo para multiplicar sua taxa de geração de néctar.
+</Callout>
+
+<Section icon={Sparkles} title="Mecânicas do Sistema de Néctar e Visão Geral dos Buffs">
+
+O sistema de néctar é uma das mecânicas de progressão mais críticas para jogadores do mid ao late game que buscam otimizar sua coleta de pólen e geração de mel. Ao contrário dos buffs temporários de campo, os néctares fornecem multiplicadores de atributos passivos e de longo prazo que podem acumular até 24 horas de duração. Entender como esses buffs interagem com a build da sua colmeia é essencial para escalar sua produção de mel.
+
+Existem cinco tipos distintos de néctares: Refrescante (Refreshing), Revigorante (Invigorating), Confortante (Comforting), Satisfatório (Satisfying) e Motivador (Motivating). Cada tipo melhora atributos específicos, variando de multiplicadores de pólen direcionados por cor a aumentos de capacidade e eficiência de conversão. Para adquirir esses buffs, você deve colocar plantadores em vários campos pelo mapa, deixá-los crescer e colhê-los assim que acumularem néctar.
+
+| Tipo de Néctar | Buffs Principais | Buffs Secundários | Taxa de Decaimento (Por Min) |
+|---|---|---|---|
+| **Refreshing** | +1.25x Pólen Azul, +1.15x Capacidade | +10% Aceleração, +5% Taxa de Habilidade de Abelha | 0.069% |
+| **Invigorating** | +1.25x Pólen Vermelho, +10% Ataque de Abelha | +5% Chance Crítica, +15% Velocidade do Jogador | 0.069% |
+| **Comforting** | +1.25x Pólen Azul, +1.15x Mel por Pólen | +10% Defesa, +5% Amor da Puppy Bee | 0.069% |
+| **Satisfying** | +1.25x Pólen Branco, +1.15x Mel de Tokens | +10% Vínculo de Petiscos, +5% Sorte de Saque | 0.069% |
+| **Motivating** | +1.2x Pólen, +1.15x Mel de Missões | +10% Velocidade de Movimento, +5% Ataque do Jogador | 0.069% |
+
+<Callout type="tip" title="Gerenciamento de Decaimento">
+Os buffs de néctar decaem a uma taxa fixa de aproximadamente 4,16% por hora quando você está jogando ativamente. Para manter um acúmulo de 24 horas, você deve colher plantadores consistentemente ou utilizar frascos de néctar armazenados para reabastecer seus medidores ativos.
+</Callout>
+
+Cada tipo de néctar pode ser acumulado até uma duração máxima de 24 horas. À medida que o tamanho do acúmulo aumenta, a potência dos buffs ativos escala linearmente. For exemplo, ter 1 hora de Néctar Refrescante fornece um pequeno aumento, enquanto manter um acúmulo completo de 24 horas gera os multiplicadores máximos listados na tabela acima. Gerenciar esses acúmulos simultaneamente é a chave para realizar grandes impulsos (boosts) de alto rendimento.
+
+</Section>
+
+<Section icon={Map} title="Combinação de Plantadores e Seleção de Campos">
+
+Para farmar néctar de forma eficiente, você deve combinar o plantador certo com o campo certo. Cada campo na montanha tem uma preferência nativa de néctar, o que significa que ele gera naturalmente concentrações mais altas de um tipo específico de néctar. Além disso, diferentes plantadores têm multiplicadores exclusivos que aceleram o crescimento ou aumentam a pureza do néctar colhido.
+
+Colocar um plantador em um campo que corresponda ao seu tipo de néctar preferido resulta em ciclos de crescimento mais rápidos e rendimentos de néctar significativamente maiores após a colheita. Por outro lado, colocar um plantador em um campo incompatível diluirá a produção, fornecendo uma mistura de néctares secundários em vez do buff concentrado de que você precisa.
+
+| Nome do Campo | Tipo de Néctar Nativo | Multiplicador de Taxa de Crescimento | Plantador Recomendado |
+|---|---|---|---|
+| **Floresta de Pinheiros (Pine Tree Forest)** | Comforting | 1.5x | Hydroponic Planter / Clay Planter |
+| **Plantação de Pimenta (Pepper Patch)** | Invigorating | 1.5x | Heat-Treated Planter / Clay Planter |
+| **Campo de Coco (Coconut Field)** | Satisfying | 1.25x | Pesticide Planter / Plastic Planter |
+| **Campo de Morango (Strawberry Field)** | Refreshing | 1.25x | Candy Planter / Red Clay Planter |
+| **Campo de Dente-de-Leão (Dandelion Field)** | Motivating | 1.25x | Tacky Planter / Ticket Planter |
+| **Campo de Flores Azuis (Blue Flower Field)** | Comforting | 1.25x | Blue Clay Planter / Paper Planter |
+
+<CardGrid cols={4}>
+  <Card title="Pesticide Planter">
+    - **Melhor Para**: Néctar Satisfatório (Satisfying)
+    - Altamente eficaz nos campos de Coco e Abóbora
+    - Solta resíduos tóxicos que estimulam o crescimento das flores locais
+  </Card>
+  <Card title="Hydroponic Planter">
+    - **Melhor Para**: Néctar Confortante (Comforting)
+    - Ideal para farmar na Floresta de Pinheiros
+    - Acelera significativamente o acúmulo de néctar azul
+  </Card>
+  <Card title="Heat-Treated Planter">
+    - **Melhor Para**: Néctar Revigorante (Invigorating)
+    - Perfeito para a Plantação de Pimenta e Campo de Rosas
+    - Gera bônus de argila vermelha e buffs de chamas ativos
+  </Card>
+  <Card title="Petal Planter">
+    - **Melhor Para**: Acúmulo de Múltiplos Néctares
+    - Bônus de crescimento universal em todos os campos da montanha
+    - Gera periodicamente recompensas raras de cogumelo e geleia estelar
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Penalidades de Supercolheita">
+Colher no mesmo campo repetidamente com plantadores em um curto período reduz o rendimento de néctar. Sempre rotacione seus plantadores por diferentes campos do mesmo tipo de néctar para evitar a penalidade de esgotamento do solo, que pode cortar seus ganhos de néctar em até 50%.
+</Callout>
+
+Os plantadores não crescem apenas com base no tempo do mundo real; eles exigem que você colete pólen ativamente no campo onde estão colocados, ou em campos adjacentes, dependendo do nível do plantador. Para acelerar o crescimento, fique no campo com o seu plantador e colete pólen ativamente. Suas abelhas depositarão automaticamente uma parte do pólen coletado diretamente no plantador, acelerando o cronômetro de colheita.
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo de Néctar do Simulador de enxame de abelhas">
+
+Maximizar seus acúmulos de néctar exige uma rotina diária estruturada. Se você colocar plantadores aleatoriamente pela montanha, acabará com buffs fragmentados que decaem mais rápido do que você consegue reabastecê-los. Siga estes passos para construir uma rotação de néctar autossustentável.
+
+<Steps>
+  <Step num="1" title="Analise os Objetivos da sua Colmeia">
+    Determine quais buffs de néctar se alinham com a cor atual da sua colmeia. Colmeias azuis devem priorizar Confortante (Comforting) e Refrescante (Refreshing), colmeias vermelhas exigem Revigorante (Invigorating) e Satisfatório (Satisfying), enquanto colmeias brancas devem focar em Satisfatório (Satisfying) e Motivador (Motivating). Não desperdice espaços de plantadores em tipos de néctar irrelevantes.
+  </Step>
+  <Step num="2" title="Implante sua Rotação de Plantadores">
+    Coloque seus plantadores de nível mais alto nos campos principais associados aos seus néctares alvo. Por exemplo, se você for uma colmeia azul, coloque seu Plantador Hidropônico (Hydroponic Planter) na Floresta de Pinheiros e seu Plantador de Argila Azul (Blue Clay Planter) no Campo de Bambu. Certifique-se de não colocar vários plantadores no mesmo campo simultaneamente.
+  </Step>
+  <Step num="3" title="Acelere o Crescimento via Farm Ativo">
+    Passe de 10 a 15 minutos farmando nos campos onde seus plantadores estão implantados. Se você tiver vários plantadores ativos, rotacione entre os campos para distribuir a aceleração do crescimento uniformemente. Colete todos os tokens de habilidade deixados por suas abelhas, pois eles fornecem impulsos de crescimento localizados para os plantadores ativos.
+  </Step>
+  <Step num="4" title="Colha nos Limites Ideais">
+    Colha seus plantadores apenas quando eles atingirem 100% de crescimento para garantir a duração máxima possível de néctar. Colher antes do tempo gera uma quantidade desproporcionalmente baixa de tempo de buff e desperdiça o ciclo de recarga do plantador. Sempre verifique o status do seu plantador através do menu do sistema antes de colher.
+  </Step>
+  <Step num="5" title="Utilize o Condensador de Néctar">
+    Deposite qualquer excesso de néctar colhido de seus plantadores no Condensador de Néctar localizado próximo à Zona de 30 Abelhas. O condensador permite armazenar até 24 horas de cada tipo de néctar em forma de frasco, que pode ser consumido instantaneamente antes de iniciar uma grande sessão de boost de farm.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiência de Acúmulo">
+Seguir essa rotação diariamente permitirá que você mantenha uma base de 12 a 18 horas de seus buffs de néctar principais com menos de 30 minutos de tempo de configuração ativa por dia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rotas de Farm de Néctar Específicas para Colmeias">
+
+Diferentes builds de colmeia exigem configurações de néctar completamente diferentes para funcionar de maneira ideal. Uma colmeia vermelha farmando na Plantação de Pimenta quase não obterá valor do Néctar Confortante, enquanto uma colmeia azul verá suas taxas de mel dispararem com ele. Para ajudar você a planejar seu layout, mapeamos as prioridades precisas de néctar e rotações de campos para as três principais cores de colmeia de endgame.
+
+| Cor da Colmeia | Néctares Prioritários | Campos Principais | Campos Secundários | Combinação de Buffs Alvo |
+|---|---|---|---|---|
+| **Colmeia Azul** | Comforting, Refreshing | Floresta de Pinheiros, Bambu | Campo do Toco (Stump Field), Trevo | +1.25x Pólen Azul, +1.15x Capacidade, +1.15x Mel por Pólen |
+| **Colmeia Vermelha** | Invigorating, Satisfying | Plantação de Pimenta, Campo de Rosas | Morango, Cogumelo | +1.25x Pólen Vermelho, +10% Ataque de Abelha, +1.15x Mel de Tokens |
+| **Colmeia Branca** | Satisfying, Motivating | Campo de Coco, Campo da Aranha (Spider Field) | Abacaxi, Abóbora | +1.25x Pólen Branco, +1.2x Pólen, +1.15x Mel de Tokens |
+
+<Checklist
+  id="daily-nectar-checklist"
+  title="Tarefas Diárias de Manutenção de Néctar:"
+  items={[
+    "Verifique as durações dos néctares ativos antes de iniciar sua primeira sessão de farm",
+    "Implante pelo menos três plantadores em campos que correspondam aos tipos de néctar primários da sua colmeia",
+    "Farme nos campos dos plantadores para ativar o multiplicador de velocidade de crescimento ativo de 1.5x",
+    "Colha os plantadores concluídos e armazene o excesso de néctar no Condensador",
+    "Rotacione os campos dos plantadores diariamente para evitar o esgotamento do solo e manter as porcentagens máximas de rendimento"
+  ]}
+/>
+
+<Callout type="tip" title="Otimização de Endgame">
+Se você desbloqueou o Amuleto de Estrela Suprema (Supreme Star Amulet), coordene seus acúmulos de néctar ativos com seus gatilhos passivos. Por exemplo, as passivas da Estrela Pop (Pop Star) se beneficiam imensamente dos aumentos de capacidade combinados do Néctar Refrescante e das taxas de conversão do Néctar Confortante.
+</Callout>
+
+Ao planejar uma sessão de boost ativo usando Purpurina (Glitter), Dados de Campo (Field Dice) e Poções Roxas (Purple Potions), sempre certifique-se de que seus néctares alvo estejam acumulados em pelo menos 15 horas. A natureza multiplicativa dos buffs de néctar significa que eles escalam dramaticamente quando combinados com consumíveis de alto nível, transformando uma corrida de farm padrão em uma colheita de mel de vários bilhões.
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Para encerrar nosso guia, compilamos respostas para as perguntas mais comuns que os jogadores fazem ao tentar dominar os sistemas de plantadores e néctar.
+
+<FAQ items={[
+  {
+    question: "Os plantadores crescem quando estou offline ou em outro jogo do Roblox?",
+    answer: "Os plantadores continuam crescendo enquanto você está offline, mas a uma taxa significativamente reduzida. Para maximizar a velocidade de crescimento, é altamente recomendável permanecer ativo no jogo, de preferência farmando no mesmo campo onde o plantador está colocado."
+  },
+  {
+    question: "Posso acumular todos os cinco buffs de néctar ao mesmo tempo?",
+    answer: "Sim, você pode ter todos os cinco buffs de néctar ativos simultaneamente. No entanto, manter longas durações de acúmulo para todos os cinco é extremamente difícil e demorado. É muito mais eficiente focar nos 2 ou 3 néctares que beneficiam diretamente a cor específica da sua colmeia."
+  },
+  {
+    question: "Qual é a maneira mais rápida de reabastecer o néctar decaído neste guia de néctar do Simulador de enxame de abelhas?",
+    answer: "A maneira mais rápida de reabastecer o néctar decaído é consumindo Frascos de Néctar (Nectar Vials), que podem ser fabricados ou obtidos de plantadores de nível superior. Além disso, colher um plantador 100% crescido em um campo preferido restaurará instantaneamente várias horas do buff correspondente."
+  },
+  {
+    question: "O tamanho da minha colmeia afeta a velocidade com que os plantadores crescem?",
+    answer: "Sim. Como os plantadores crescem mais rápido quando as abelhas depositam pólen neles, ter um enxame maior com maior velocidade de coleta e melhores atributos de taxa de habilidade acelerará naturalmente os ciclos de crescimento de qualquer plantador que você implantar."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+As proporções de recompensa do sistema de néctar estão sujeitas a atualizações de balanceamento por Onett. Sempre acompanhe os canais oficiais da comunidade e as notas de atualização para se manter informado sobre quaisquer ajustes nos rendimentos dos plantadores ou nas mecânicas de decaimento.
+</Callout>
+
+</Section>

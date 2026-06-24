@@ -10,7 +10,15 @@
       "twitterDescription": "Complete Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, stickers, and beginner guides for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "bees": "Bees",
+    "hives": "Hives",
+    "items": "Items",
+    "resources": "Resources",
+    "quests": "Quests"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -707,165 +715,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "codesAndRewards": {
+    "codes": {
       "title": "Bee Swarm Simulator Codes",
-      "description": "Active codes, redemption steps, expired code archive, and DLC code status for Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Codes - Active & Redeem Codes",
-      "metaDescription": "Get working Bee Swarm Simulator codes, redemption steps, and the expired code archive. Join the official club and redeem codes from the in-game settings menu.",
-      "categoryLabel": "CODES & REWARDS",
+      "description": "Active codes, redemption steps, and rewards for Bee Swarm Simulator. Updated daily with verified working codes.",
+      "metaTitle": "Bee Swarm Simulator Codes - Active Codes & Rewards",
+      "metaDescription": "Redeem active Bee Swarm Simulator codes for free honey, tickets, gumdrops, and field boosts. Updated daily with verified working codes.",
+      "categoryLabel": "CODES",
       "whatIs": "What are Bee Swarm Simulator codes?",
-      "whatIsDescription": "Codes grant honey, tickets, gumdrops, berries, field boosts, micro-converters, and event-style buffs. Redeem them from the in-game settings menu after joining the official Roblox club.",
+      "whatIsDescription": "Codes grant honey, tickets, gumdrops, berries, field boosts, micro-converters, and event-style buffs. Redeem them from the in-game settings menu after joining the official Roblox Club.",
       "why": "Why redeem codes?",
       "whySteps": {
         "step1Title": "Free Resources",
-        "step1Description": "Claim honey, tickets, and boost materials without spending Robux",
+        "step1Description": "Claim honey, tickets, and boost materials without spending Robux.",
         "step2Title": "Faster Progress",
-        "step2Description": "Field boosts and gumdrops speed up pollen collection and conversion",
+        "step2Description": "Field boosts and gumdrops speed up pollen collection and honey conversion.",
         "step3Title": "Stay Current",
-        "step3Description": "Track active codes and avoid expired or fake code claims"
+        "step3Description": "Track active codes and skip expired or fake code claims."
       },
       "featured": "Featured Codes",
       "all": "All Codes"
     },
-    "bssBeginnerGuide": {
-      "title": "Bee Swarm Simulator Beginner Guide",
-      "description": "The first-session path from collecting pollen to building your first hive in Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Beginner Guide - First Steps",
-      "metaDescription": "Learn the Bee Swarm Simulator beginner loop: collect pollen, convert honey, hatch bees, and follow bear quests to climb the mountain.",
-      "categoryLabel": "BEGINNER GUIDE",
-      "whatIs": "What is the Bee Swarm Simulator beginner path?",
-      "whatIsDescription": "The beginner path covers the core collect-convert-upgrade loop, your first bees, early bags and tools, and the bear quests that guide early progression.",
-      "why": "Why follow a beginner guide?",
+    "guide": {
+      "title": "Bee Swarm Simulator Guide",
+      "description": "Beginner to pro progression guides covering early, mid, and late game for Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Guide - Beginner to Pro Progression",
+      "metaDescription": "Master Bee Swarm Simulator with progression guides, beginner tips, upgrade paths, and strategies for every stage of the game.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Bee Swarm Simulator guide?",
+      "whatIsDescription": "Step-by-step progression paths from your first bee to endgame hives, covering goals, upgrade order, and what to prioritize at each stage of the game.",
+      "why": "Why follow the guide?",
       "whySteps": {
-        "step1Title": "Avoid Wasted Resources",
-        "step1Description": "Spend early honey on practical upgrades instead of random purchases",
-        "step2Title": "Build Good Habits",
-        "step2Description": "Learn the pollen-to-honey loop that powers the whole game",
-        "step3Title": "Unlock Areas Faster",
-        "step3Description": "Use quests to choose fields and gates in the right order"
+        "step1Title": "Clear Goals",
+        "step1Description": "Know exactly what to do at each stage instead of guessing.",
+        "step2Title": "Smart Upgrade Order",
+        "step2Description": "Spend honey on the right tools, bags, and bees first.",
+        "step3Title": "Avoid Wasted Effort",
+        "step3Description": "Skip common mistakes that slow down your progress."
       },
-      "featured": "Featured Beginner Guides",
-      "all": "All Beginner Guides"
+      "featured": "Featured Guides",
+      "all": "All Guides"
     },
-    "progressionAndGearOrder": {
-      "title": "Bee Swarm Simulator Progression",
-      "description": "Gear order and upgrade stages from starter hive to endgame in Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Progression & Gear Order",
-      "metaDescription": "Follow the Bee Swarm Simulator progression path from starter tools and bags to endgame masks, amulets, and collectors.",
-      "categoryLabel": "PROGRESSION PATH",
-      "whatIs": "What is Bee Swarm Simulator progression?",
-      "whatIsDescription": "Progression keeps hive count, collector strength, container size, quests, badges, materials, and amulets moving together across early, mid, and late game.",
-      "why": "Why plan your gear order?",
+    "bees": {
+      "title": "Bee Swarm Simulator Bees",
+      "description": "Bee tier lists, rarities, abilities, favorite treats, and how to get every bee in Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Bees - Tier List & Abilities",
+      "metaDescription": "Explore Bee Swarm Simulator bees with tier lists, rarities, abilities, gifted bees, mythic bees, and how to unlock every bee.",
+      "categoryLabel": "BEES",
+      "whatIs": "What are Bee Swarm Simulator bees?",
+      "whatIsDescription": "Each bee has a rarity, ability, and favorite treat. Build your swarm by collecting common, rare, epic, legendary, and mythic bees, plus event bees like Windy Bee and Vicious Bee.",
+      "why": "Why study bees?",
       "whySteps": {
-        "step1Title": "Buy In The Right Order",
-        "step1Description": "Know what to upgrade next instead of buying randomly",
-        "step2Title": "Match Your Stage",
-        "step2Description": "Each stage has its own hive count and gear targets",
-        "step3Title": "Reach Endgame",
-        "step3Description": "Plan masks, guards, amulets, and endgame collectors"
+        "step1Title": "Tier List Power",
+        "step1Description": "Learn which bees are strongest for pollen collection and combat.",
+        "step2Title": "Gifted Bonuses",
+        "step2Description": "Unlock permanent gifted bonuses by collecting one of each bee.",
+        "step3Title": "Event Bee Priority",
+        "step3Description": "Know which event bees to chase and in what order."
       },
-      "featured": "Featured Progression Guides",
-      "all": "All Progression Guides"
+      "featured": "Featured Bees",
+      "all": "All Bees"
     },
-    "beeTierList": {
-      "title": "Bee Swarm Simulator Bee Tier List",
-      "description": "Stage-based bee rankings for early, mid, and late game in Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Bee Tier List - Best Bees",
-      "metaDescription": "Rank Bee Swarm Simulator bees by account stage and hive role, including event bee priority and late-game color cores.",
-      "categoryLabel": "BEE RANKINGS",
-      "whatIs": "What is the Bee Swarm Simulator bee tier list?",
-      "whatIsDescription": "The tier list ranks bees by account stage, role, and long-term value instead of forcing one universal ranking onto every hive.",
-      "why": "Why use a bee tier list?",
+    "hives": {
+      "title": "Bee Swarm Simulator Hives",
+      "description": "Red, blue, white, and mixed hive builds with SSA, mutations, and amulets for Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Hives - Red, Blue & White Builds",
+      "metaDescription": "Build the best Bee Swarm Simulator hive with red, blue, white, and mixed hive guides, SSA passives, mutations, and amulet requirements.",
+      "categoryLabel": "HIVES",
+      "whatIs": "What are Bee Swarm Simulator hives?",
+      "whatIsDescription": "Your hive is the core of your swarm. Choose a color build (red, blue, or white) and assemble bees, Super Slicers, and amulets that work together to maximize pollen collection and honey conversion.",
+      "why": "Why build your hive?",
       "whySteps": {
-        "step1Title": "Pick The Right Bees",
-        "step1Description": "Choose bees that fit your current account stage",
-        "step2Title": "Plan Event Bees",
-        "step2Description": "Spend tickets on the highest-value event bees first",
-        "step3Title": "Match Your Hive Color",
-        "step3Description": "Build toward blue, red, or white cores for endgame"
+        "step1Title": "Proven Templates",
+        "step1Description": "Copy tested hive builds instead of trial and error.",
+        "step2Title": "Color Conversion",
+        "step2Description": "Learn when and how to switch between hive colors.",
+        "step3Title": "Amulet Optimization",
+        "step3Description": "Pick the right SSA and amulets for your build."
       },
-      "featured": "Featured Tier Guides",
-      "all": "All Tier Guides"
+      "featured": "Featured Hives",
+      "all": "All Hives"
     },
-    "hiveBuildsAndColors": {
-      "title": "Bee Swarm Simulator Hive Builds",
-      "description": "Mixed, red, blue, and white hive paths compared for Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Hive Builds & Colors",
-      "metaDescription": "Compare Bee Swarm Simulator hive builds: mixed, blue, red, and white paths, their core bees, gear, and best use cases.",
-      "categoryLabel": "HIVE BUILDS",
-      "whatIs": "What are Bee Swarm Simulator hive builds?",
-      "whatIsDescription": "Hive builds define your farming style through bee composition, gear, and amulets. Mixed hives stay flexible early; color-specialized hives dominate late game.",
-      "why": "Why compare hive colors?",
+    "items": {
+      "title": "Bee Swarm Simulator Items",
+      "description": "Tools, masks, bags, planters, amulets, and gear upgrade paths for Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Items - Tools, Masks & Gear",
+      "metaDescription": "Upgrade your Bee Swarm Simulator gear with guides on tools, masks, bags, amulets, planters, and the best equipment at every stage.",
+      "categoryLabel": "ITEMS",
+      "whatIs": "What are Bee Swarm Simulator items?",
+      "whatIsDescription": "Items include pollen-collecting tools, masks, backpacks, belts, guards, and boots. Each upgrade increases pollen capacity, collection rate, or conversion speed to keep your swarm growing.",
+      "why": "Why upgrade items?",
       "whySteps": {
-        "step1Title": "Stay Flexible Early",
-        "step1Description": "Keep a mixed hive while finishing quests and badges",
-        "step2Title": "Choose A Color Late",
-        "step2Description": "Switch to blue, red, or white once gear and amulets support it",
-        "step3Title": "Match Your Playstyle",
-        "step3Description": "Pick the color that fits your farming and boosting habits"
+        "step1Title": "Gear Priority",
+        "step1Description": "Know which tool or mask to buy next.",
+        "step2Title": "Material Costs",
+        "step2Description": "Plan your honey and resources for each upgrade.",
+        "step3Title": "Stage Routes",
+        "step3Description": "Follow recommended gear for your current progress."
       },
-      "featured": "Featured Hive Guides",
-      "all": "All Hive Guides"
+      "featured": "Featured Items",
+      "all": "All Items"
     },
-    "questsAndBearsGuide": {
+    "resources": {
+      "title": "Bee Swarm Simulator Resources",
+      "description": "Glue, enzymes, soft wax, gumdrops, stingers, tickets, bond, and nectar for Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Resources - Glue, Enzymes & Stingers",
+      "metaDescription": "Master Bee Swarm Simulator resources including glue, enzymes, soft wax, gumdrops, stingers, tickets, bond, and nectar guides.",
+      "categoryLabel": "RESOURCES",
+      "whatIs": "What are Bee Swarm Simulator resources?",
+      "whatIsDescription": "Resources are crafting materials and consumables like glue, enzymes, soft wax, gumdrops, stingers, tickets, and bond. They fuel crafting, bee treats, boosts, and event progression.",
+      "why": "Why manage resources?",
+      "whySteps": {
+        "step1Title": "Material Uses",
+        "step1Description": "Know what each resource crafts and unlocks.",
+        "step2Title": "Boost Stacking",
+        "step2Description": "Combine gumdrops, enzymes, and field dice for maximum output.",
+        "step3Title": "Smart Stockpile",
+        "step3Description": "Save the right materials for big upgrades and events."
+      },
+      "featured": "Featured Resources",
+      "all": "All Resources"
+    },
+    "quests": {
       "title": "Bee Swarm Simulator Quests",
-      "description": "Bear quest routes, priorities, and reward types for Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Quests & Bears Guide",
-      "metaDescription": "Track Bee Swarm Simulator bear quests: Black, Brown, Mother, Panda, Science, Spirit, Robo Bear, and seasonal event routes with rewards.",
-      "categoryLabel": "QUEST PROGRESSION",
+      "description": "Bear NPC quest lines, requirements, rewards, and completion routes for Bee Swarm Simulator.",
+      "metaTitle": "Bee Swarm Simulator Quests - Bear Quests & Rewards",
+      "metaDescription": "Complete every Bee Swarm Simulator quest with guides for Black Bear, Mother Bear, Panda Bear, and Spirit Bear quest lines and rewards.",
+      "categoryLabel": "QUESTS",
       "whatIs": "What are Bee Swarm Simulator quests?",
-      "whatIsDescription": "Bear quests are the backbone of progression, connecting pollen farming, combat, crafting, zone unlocks, and late-game materials.",
-      "why": "Why follow bear quests?",
+      "whatIsDescription": "Bear NPCs like Black Bear, Mother Bear, and Spirit Bear assign quest lines that reward honey, tickets, royal jelly, and unlock new zones, fields, and tools.",
+      "why": "Why complete quests?",
       "whySteps": {
-        "step1Title": "Guide Your Progress",
-        "step1Description": "Quests point you to fields, mechanics, and rewards in order",
-        "step2Title": "Unlock Systems",
-        "step2Description": "Science Bear unlocks translators and crafting systems",
-        "step3Title": "Earn Key Materials",
-        "step3Description": "Spirit Bear grants Spirit Petals for major upgrades"
+        "step1Title": "Valuable Rewards",
+        "step1Description": "Earn honey, tickets, and royal jelly to speed up progress.",
+        "step2Title": "Unlock Content",
+        "step2Description": "Open new zones, fields, and bees through quest lines.",
+        "step3Title": "Clear Routes",
+        "step3Description": "Follow efficient quest completion paths."
       },
-      "featured": "Featured Quest Guides",
-      "all": "All Quest Guides"
-    },
-    "gamepassesAndStoreGuide": {
-      "title": "Bee Swarm Simulator Store Guide",
-      "description": "Gamepasses, DLC status, toys, and merch value for Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Gamepasses & Store Guide",
-      "metaDescription": "Compare Bee Swarm Simulator gamepasses, DLC code status, official toys, and merch so you know what helps progression versus convenience.",
-      "categoryLabel": "STORE GUIDE",
-      "whatIs": "What is in the Bee Swarm Simulator store?",
-      "whatIsDescription": "The store includes Roblox gamepasses, in-game consumable packs, a DLC code page, official toys, and branded merch.",
-      "why": "Why check the store guide?",
-      "whySteps": {
-        "step1Title": "Spend Robux Wisely",
-        "step1Description": "Know which purchases help progression versus convenience",
-        "step2Title": "Verify DLC Codes",
-        "step2Description": "Use the official DLC page before trusting random sellers",
-        "step3Title": "Tell Store From Codes",
-        "step3Description": "Keep store items, promo codes, and marketplace claims separate"
-      },
-      "featured": "Featured Store Guides",
-      "all": "All Store Guides"
-    },
-    "beesmasEventsAndTrading": {
-      "title": "Bee Swarm Simulator Events",
-      "description": "Beesmas quests, x2 boosts, stickers, and trading for Bee Swarm Simulator.",
-      "metaTitle": "Bee Swarm Simulator Beesmas Events & Trading",
-      "metaDescription": "Track Bee Swarm Simulator events: Beesmas quests, Honeyday buffs, x2 boosts, stickers, Cub Buddy skins, and trading goals.",
-      "categoryLabel": "EVENTS & TRADING",
-      "whatIs": "What are Bee Swarm Simulator events?",
-      "whatIsDescription": "Events add temporary quests, map decorations, presents, ornaments, Beequips, stickers, trading goals, and limited-time boosts.",
-      "why": "Why follow events?",
-      "whySteps": {
-        "step1Title": "Claim Seasonal Rewards",
-        "step1Description": "Grab presents, ornaments, and Gingerbread Bears while live",
-        "step2Title": "Use x2 Windows",
-        "step2Description": "Farm hard during x2 pollen and convert rate events",
-        "step3Title": "Trade Safely",
-        "step3Description": "Confirm item names and avoid off-platform sellers"
-      },
-      "featured": "Featured Event Guides",
-      "all": "All Event Guides"
+      "featured": "Featured Quests",
+      "all": "All Quests"
     }
   }
 }

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn tìm và đánh bại Ong Vicious trong Bee Swarm Simulator",
+  description: "Làm chủ Ong Vicious trong Trình mô phỏng bầy ong với các vị trí xuất hiện, lộ trình cày cuốc chu kỳ đêm, chiến thuật chiến đấu và hướng dẫn chi phí ngòi độc cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/f6c518?text=Vicious+Bee+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Theo dõi gai của Ong Vicious trong các cánh đồng vào chu kỳ đêm.
+- **Các cánh đồng xuất hiện chính**: Tìm kiếm ở các cánh đồng Cỏ ba lá (Clover), Nhện (Spider), Xương rồng (Cactus), Hoa hồng (Rose) và Đỉnh núi (Mountain Top).
+- **Phần thưởng chiến đấu**: Đánh bại ong hoang dã để nhận Ngòi độc (Stinger) để mở khóa trứng.
+- **Chi phí mở khóa**: Tiết kiệm 250 Ngòi độc để mua trứng tại tiền đồn bóng tối ở Cánh đồng Hoa hồng.
+- **Ưu tiên đột biến (Gifted)**: Cho ong này đột biến sớm để giảm 15% thời gian xuất hiện lại của quái vật.
+</Callout>
+
+<Section icon={Sparkles} title="Chỉ số cơ bản và Cơ chế của Ong Vicious">
+
+Để tối đa hóa hiệu quả chiến đấu của bạn, việc hiểu rõ cơ chế của **Ong Vicious trong Trình mô phỏng bầy ong** là điều cần thiết cho quá trình tiến trình giữa game. Khác với các loài ong thu hoạch truyền thống tập trung hoàn toàn vào việc thu thập phấn hoa, Ong Vicious là một Ong Sự kiện (Event Bee) hệ xanh lam được thiết kế đặc biệt cho chiến đấu. Nó thống trị chiến trường bằng cách gây sát thương gai đơn mục tiêu khổng lồ, khiến nó trở thành lựa chọn hàng đầu để tiêu diệt trùm cánh đồng, bọ hung dữ và quái vật cấp cao.
+
+Khả năng cốt lõi của loài ong này xoay quanh kỹ năng đặc trưng của nó: Đâm (Impale). Khi kích hoạt, Ong Vicious triệu hồi những chiếc gai khổng lồ từ dưới lòng đất, đâm xuyên kẻ địch để gây sát thương tỷ lệ trực tiếp với cấp độ và sức tấn công của ong. Khả năng này khiến nó trở nên không thể thiếu trong các khu vực chiến đấu đầy thử thách như Thử thách Kiến (Ant Challenge), Thử thách Gấu Robo (Robo Bear Challenge) và các đấu trường trùm.
+
+| Chỉ số | Giá trị cơ bản | Giá trị đột biến (Gifted) | Tác động chiến đấu |
+| :--- | :--- | :--- | :--- |
+| **Tấn công** | 4 | 5 | Sát thương gai đơn mục tiêu cao |
+| **Tốc độ** | 14.4 | 16.8 | Thu thập token và di chuyển nhanh |
+| **Thu hoạch** | 10 phấn hoa | 15 phấn hoa | Ít tập trung vào thu hoạch |
+| **Năng lượng** | 100 | 150 | Thể lực vượt trội trong các trận chiến với trùm |
+
+Để giúp bạn quyết định vị trí của loài ong này trong lộ trình tiến trình của mình, hãy so sánh nó với các Ong Sự kiện ưu tiên cao khác có sẵn trong trò chơi:
+
+<CardGrid cols={3}>
+  <Card title="Ong Vicious">
+    - **Vai trò**: Chiến đấu và sát thương gai
+    - **Cánh đồng tốt nhất**: Hoa hồng, Xương rồng, Đỉnh núi
+    - **Lợi ích chính**: Giảm thời gian xuất hiện lại của quái vật
+  </Card>
+  <Card title="Ong Tabby">
+    - **Vai trò**: Chuyển đổi và thu hoạch
+    - **Cánh đồng tốt nhất**: Cỏ ba lá, Bí ngô, Cây thông
+    - **Lợi ích chính**: Tỷ lệ sức mạnh chí mạng khổng lồ
+  </Card>
+  <Card title="Ong Photon">
+    - **Vai trò**: Thu thập phấn hoa tức thời
+    - **Cánh đồng tốt nhất**: Hướng dương, Dứa, Dừa
+    - **Lợi ích chính**: Năng lượng vô hạn và bão tia sáng
+  </Card>
+</CardGrid>
+
+Mặc dù Ong Vicious không xuất sắc trong việc trực tiếp thu thập phấn hoa, nhưng khả năng dọn sạch quái vật hung dữ trên các cánh đồng một cách nhanh chóng của nó cho phép các loài ong khác của bạn thu hoạch phấn hoa mà không bị gián đoạn. Sự phối hợp này là cực kỳ quan trọng để duy trì các phiên cày cuốc đạt hiệu suất cao.
+
+<Callout type="info" title="Phân tích vai trò chiến đấu">
+Ong Vicious nên được đặt gần phía dưới lưới tổ ong của bạn. Vị trí này giảm thiểu khoảng cách di chuyển vật lý của các token chiến đấu của nó, cho phép bạn thu thập chúng ngay lập tức trong các trận chiến căng thẳng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vị trí xuất hiện của Ong Vicious trong Bee Swarm Simulator">
+
+Tìm kiếm Ong Vicious hoang dã đòi hỏi bạn phải hiểu rõ về chu kỳ ngày và đêm của trò chơi. Các phiên bản hoang dã của loài ong này không đi lang thang tự do; thay vào đó, chúng xuất hiện dưới dạng các gai bóng tối cố định ẩn trong các cánh đồng cụ thể, duy nhất trong giai đoạn ban đêm. Giai đoạn ban ngày trong trò chơi kéo dài 14 phút, tiếp theo là giai đoạn ban đêm kéo dài 6 phút.
+
+Ngay khi màn đêm buông xuống, có một tỷ lệ cố định để một gai ngòi độc nhô lên khỏi mặt đất. Để bắt đầu trận chiến với trùm, bạn phải điều khiển nhân vật của mình đi thẳng vào chiếc ngòi độc đang nhô ra đó. Chiếc gai này có thể xuất hiện ở một trong năm cánh đồng được chỉ định, tùy thuộc vào tiến trình và các khu vực đã mở khóa của bạn.
+
+| Tên cánh đồng | Yêu cầu cổng | Xác suất xuất hiện | Độ khó địa hình |
+| :--- | :--- | :--- | :--- |
+| **Cánh đồng Cỏ ba lá** | 0 Ong | Thấp | Bằng phẳng, dễ di chuyển |
+| **Cánh đồng Nhện** | 5 Ong | Trung bình | Nhện xuất hiện gần đó |
+| **Cánh đồng Xương rồng** | 15 Ong | Trung bình | Chướng ngại vật ở độ cao lớn |
+| **Cánh đồng Hoa hồng** | 15 Ong | Cao | Hoa cánh đồng màu đỏ |
+| **Đỉnh núi** | 25 Ong | Rất cao | Nguy hiểm môi trường đáng ngại |
+
+Để cày Ngòi độc hiệu quả, bạn nên thiết lập một lộ trình do thám đáng tin cậy. Ngay khi chu kỳ đêm bắt đầu, hãy sử dụng pháo đỏ hoặc bệ phóng vàng để lấy độ cao, sau đó quét qua các cánh đồng Cỏ ba lá, Nhện, Xương rồng, Hoa hồng và Đỉnh núi từ trên cao. Tìm kiếm một chiếc gai tối màu, phát sáng nhô ra khỏi mặt đất.
+
+<Callout type="tip" title="Mẹo xuất hiện trong chu kỳ đêm">
+Hãy lắng nghe kỹ khi đêm xuống. Một tiếng chuông trầm, đặc trưng sẽ vang lên trên toàn bản đồ nếu gai Ong Vicious hoang dã xuất hiện ở một trong các cánh đồng đang hoạt động. Nếu bạn nghe thấy âm thanh này, hãy bỏ lại tất cả và bắt đầu do thám.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật chiến đấu: Cách đánh bại Ong Vicious hoang dã">
+
+Đánh bại Ong Vicious hoang dã đòi hỏi sự di chuyển cẩn thận và chuẩn bị kỹ lưỡng. Cấp độ của ong hoang dã được quyết định bởi ong có cấp độ cao nhất trong tổ hiện tại của bạn. Ví dụ: nếu con ong mạnh nhất của bạn cấp 8, Ong Vicious hoang dã sẽ xuất hiện ở cấp 8. Cơ chế tỷ lệ này đảm bảo trận chiến luôn đầy thử thách trong suốt quá trình chơi của bạn.
+
+Trong trận chiến, ong hoang dã sẽ bay lơ lửng trên cánh đồng và định kỳ triệu hồi các gai đất, được đánh dấu bằng các bóng tròn tối màu. Đứng bên trong những chiếc bóng này khi gai nhô lên sẽ gây sát thương lớn cho nhân vật của bạn và có thể dễ dàng dẫn đến thất bại tức thì.
+
+| Cấp độ Ong hoang dã | HP ước tính | Ngòi độc chắc chắn nhận | Vật phẩm thưởng |
+| :--- | :--- | :--- | :--- |
+| **Cấp 1-3** | 500 - 1500 | 1 đến 2 | Mật ong, Bánh thưởng (Treats) |
+| **Cấp 4-6** | 2000 - 4500 | 2 to 4 | Sữa ong chúa (Royal Jelly), Việt quất |
+| **Cấp 7-9** | 6000 - 10000 | 4 to 6 | Xúc xắc cánh đồng, Quả đắng (Bitterberries) |
+| **Cấp 10-12** | 12000 - 20000 | 5 to 10 | Sữa ong chúa sao (Star Jelly), Máy chuyển đổi vi mô (Micro-Converter) |
+
+Để đảm bảo bạn sống sót sau cuộc chạm trán và nhận phần thưởng, hãy sử dụng danh sách chuẩn bị sau trước khi đối đầu với trùm:
+
+<Checklist
+  id="vicious-prep"
+  title="Danh sách chuẩn bị đối đầu với Ong Vicious:"
+  items={[
+    "Trang bị các thiết bị phòng thủ tốt nhất của bạn, chẳng hạn như Crimson Guard hoặc Cobalt Guard.",
+    "Tích lũy các token Tập trung (Focus) và Cuồng nộ (Rage) từ các con ong khác trước khi bước vào cánh đồng.",
+    "Đảm bảo ong của bạn đã được cho ăn đầy đủ bánh thưởng để duy trì thể lực chiến đấu tối đa.",
+    "Kích hoạt tăng cường cánh đồng xanh hoặc đỏ để đẩy nhanh việc thu thập token trong trận chiến.",
+    "Giữ sẵn Máy chuyển đổi vi mô (Micro-Converter) để làm trống túi đồ của bạn mà không cần phải rời khỏi khu vực chiến đấu."
+  ]}
+/>
+
+Trong trận chiến, hãy tập trung hoàn toàn vào việc né tránh bóng gai trong khi vẫn giữ nhân vật của bạn đủ gần ong để thu thập các token chiến đấu và cuồng nộ của chúng. Đừng chạy quá xa khỏi cánh đồng, nếu không ong hoang dã sẽ biến mất, buộc bạn phải đợi chu kỳ đêm tiếp theo.
+
+<Callout type="warning" title="Cảnh báo né tránh gai">
+Các gai đất do ong hoang dã triệu hồi sẽ tạm thời làm choáng nhân vật của bạn và tước đi các hiệu ứng tăng tốc độ di chuyển. Luôn ưu tiên né tránh các bóng tròn hơn là thu thập các token phấn hoa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hướng dẫn sở hữu: Sử dụng Ngòi độc và Phần thưởng Đột biến">
+
+Bạn không thể ấp Ong Vicious từ trứng tiêu chuẩn hoặc nhận được nó thông qua việc quay Sữa ong chúa. Thay vào đó, bạn phải mua trứng của nó từ Tiền đồn Bóng tối (Shadow Outpost) bằng Ngòi độc. Việc này đòi hỏi một quá trình cày cuốc đáng kể, biến việc quản lý Ngòi độc thành ưu tiên hàng đầu trong giai đoạn chuyển giao từ đầu đến giữa game.
+
+Làm theo các bước sau để thu thập thành công các tài nguyên cần thiết và sở hữu Ong Vicious của riêng bạn:
+
+<Steps>
+  <Step num="1" title="Thu thập 250 Ngòi độc">
+    Đánh bại Ong Vicious hoang dã trong chu kỳ đêm, hoàn thành các khoản đóng góp Đền Gió (Wind Shrine) hàng ngày và nhận Ngòi độc miễn phí hàng ngày từ máy phân phát ở Cánh đồng Xương rồng đằng sau cổng 15 ong.
+  </Step>
+  <Step num="2" title="Xác định vị trí Tiền đồn Bóng tối">
+    Leo lên đoạn dốc gần Cánh đồng Hoa hồng và đi ra phía sau khu vực cổng 20 ong để tìm bệ Ngòi độc màu đen ẩn.
+  </Step>
+  <Step num="3" title="Mua Trứng Ong Vicious">
+    Tương tác với bệ bóng tối để đổi 250 Ngòi độc đã tích lũy lấy Trứng Ong Vicious.
+  </Step>
+  <Step num="4" title="Ấp và Đặt vị trí cho Ong">
+    Đặt trứng vào một ô trống trong tổ của bạn. Đặt nó ở các hàng dưới cùng để đảm bảo các token chiến đấu của nó rơi gần nhân vật của bạn.
+  </Step>
+</Steps>
+
+Sau khi bạn đã ấp ong, mục tiêu lớn tiếp theo của bạn là biến nó thành một Ong Đột biến (Gifted Bee). Ong Vicious Đột biến cung cấp một trong những phần thưởng thụ động mạnh mẽ nhất trong toàn bộ trò chơi: giảm vĩnh viễn 15% thời gian xuất hiện lại của quái vật. Phần thưởng này đẩy nhanh đáng kể các lộ trình cày nguyên liệu của bạn bằng cách cho phép bạn đánh bại các quái vật như Ma sói (Werewolf), Nhện và Bọ rùa (Ladybugs) thường xuyên hơn nhiều.
+
+| Trạng thái nâng cấp | Thời gian hồi chiêu Đâm (Impale) | Hệ số xuất hiện lại của quái vật | Sức mạnh tấn công |
+| :--- | :--- | :--- | :--- |
+| **Ong Vicious thường** | 30 Giây | 0% | 4 Tấn công cơ bản |
+| **Ong Vicious Đột biến** | 25 Giây | -15% Thời gian xuất hiện lại | 5 Tấn công cơ bản |
+
+Để nâng cấp ong của bạn, hãy cho nó ăn một Bánh thưởng Sao (Star Treat). Đây là phương pháp đáng tin cậy nhất, vì Ong Sự kiện không có món ăn yêu thích và không thể đột biến thông qua các loại thức ăn thông thường.
+
+<Callout type="success" title="Khuyến nghị ưu tiên đột biến">
+Sử dụng Bánh thưởng Sao đầu tiên của bạn cho Ong Vicious là một khuyến nghị cao. Bộ đếm thời gian xuất hiện lại của quái vật được giảm bớt sẽ tăng tốc độ tích lũy nguyên liệu chế tạo của bạn, cho phép bạn chế tạo các trang bị giữa game nhanh hơn nhiều vào năm 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Câu hỏi thường gặp">
+
+Để giúp bạn hoàn thiện thiết lập cày cuốc và tối ưu hóa hiệu suất chiến đấu của mình, hãy xem qua câu trả lời cho các câu hỏi phổ biến nhất của cộng đồng về Ong Vicious.
+
+<FAQ items={[
+  {
+    question: "Nơi nào tốt nhất để cày Ngòi độc cho Ong Vicious trong Bee Swarm Simulator?",
+    answer: "Cách hiệu quả nhất để cày ngòi độc là săn Ong Vicious hoang dã trong chu kỳ đêm tại các cánh đồng Cỏ ba lá, Nhện, Xương rồng, Hoa hồng và Đỉnh núi. Bạn cũng có thể nhận một ngòi độc miễn phí hàng ngày từ máy phân phát ở Cánh đồng Xương rồng sau khi mở khóa cổng 15 ong."
+  },
+  {
+    question: "Cấp độ của Ong Vicious hoang dã có ảnh hưởng đến phần thưởng không?",
+    answer: "Có. Các Ong Vicious hoang dã cấp cao hơn (Cấp 10 đến 12) rơi ra nhiều ngòi độc hơn đáng kể (lên đến 10 ngòi cho mỗi lần đánh bại) và có cơ hội cao hơn để rơi ra các vật phẩm hiếm như Sữa ong chúa sao và Máy chuyển đổi vi mô."
+  },
+  {
+    question: "Ong Vicious có tốt cho Tổ xanh (Blue Hive) hay Tổ đỏ (Red Hive) không?",
+    answer: "Ong Vicious là một Ong Sự kiện hệ xanh lam, khiến nó rất phù hợp cho Tổ xanh. Tuy nhiên, nhờ vào tiện ích chiến đấu và kỹ năng gai đáng kinh ngạc của nó, nó được khuyến nghị cao cho tất cả các tổ hỗn hợp, tổ đỏ và tổ trắng trong giai đoạn đầu và giữa game."
+  },
+  {
+    question: "Cách nhanh nhất để làm cho Ong Vicious đột biến là gì?",
+    answer: "Cho ăn Bánh thưởng Sao (Star Treat) là cách duy nhất đảm bảo 100% làm cho Ong Vicious của bạn đột biến. Không khuyến khích lãng phí Gấu gừng (Gingerbread Bear) hoặc Quả đắng trên các con ong sự kiện trừ khi bạn có lượng dư thừa lớn."
+  }
+]} />
+
+<Callout type="info" title="Kiểm tra tiến trình cuối cùng">
+Hãy nhớ cân bằng các nâng cấp chiến đấu của bạn với trang bị thu thập phấn hoa. Mặc dù Ong Vicious rất xuất sắc trong chiến đấu, nhưng việc tạo ra mật ong vẫn là động lực phát triển chính của bạn. Hãy liên tục nâng cấp ba lô và công cụ thu thập của bạn cùng với cấp độ tổ ong.
+</Callout>
+
+</Section>

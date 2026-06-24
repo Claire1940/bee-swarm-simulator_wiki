@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ShoppingBag, Hammer } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Công cụ Bee Swarm Simulator: Thứ tự tiến triển & Hướng dẫn trang bị tốt nhất",
+  description: "Khám phá lộ trình tiến triển tối ưu cho các công cụ trong Bee Swarm Simulator năm 2026. Tìm hiểu những máy thu thập, túi và trang bị cuối game cần ưu tiên để tối đa hóa lượng mật ong.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/333?text=Bee+Swarm+Simulator+Tools",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, công cụ, trang bị, tiến triển, hướng dẫn"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Công cụ Bee Swarm Simulator** là cách chính để người chơi tương tác với các cánh đồng để thu thập phấn hoa và tạo ra mật ong.
+- **Ưu tiên tiến triển**: Luôn ưu tiên các công cụ giúp tăng **tốc độ thu thập phấn hoa** và các loại túi giúp mở rộng **sức chứa**.
+- **Vua của giai đoạn giữa game**: **Porcelain Dipper** là công cụ quan trọng nhất mà bạn nên nhắm tới sau khi rời Pro Shop.
+- **Chuyên môn hóa cuối game**: Chỉ chuyển sang các công cụ dành riêng cho màu sắc như **Tide Popper** (Xanh) hoặc **Dark Scythe** (Đỏ) sau khi đã sở hữu Supreme Star Amulet.
+- **Quản lý tài nguyên**: Hãy tiết kiệm **Glitter**, **Enzymes**, và **Extracts** cho việc chế tạo ở giai đoạn cuối game thay vì lãng phí chúng vào các đợt tăng cường tạm thời.
+</Callout>
+
+<Section icon={Map} title="Công cụ khởi đầu và những thứ thiết yếu đầu game">
+
+Khi bạn lần đầu xuất hiện trên núi, mục tiêu chính của bạn là thiết lập một vòng lặp thu thập cơ bản. Các **công cụ Bee Swarm Simulator** ban đầu bạn gặp được thiết kế để dạy bạn nhịp điệu của việc vung máy thu thập, làm đầy túi và quay trở lại tổ. Nhiều người chơi mới mắc sai lầm khi đi vào các cánh đồng cấp cao như Pine Tree Forest hoặc Pepper Patch mà không có thiết bị phù hợp, dẫn đến việc canh tác không hiệu quả và kiếm mật ong chậm.
+
+Trong giai đoạn đầu game, trọng tâm của bạn nên là Noob Shop và Pro Shop. Những địa điểm này cung cấp các trang bị nền tảng cần thiết để đạt được cổng 10 con ong và 25 con ong. Mỗi công cụ đều có chỉ số "phấn hoa mỗi lần vung" cụ thể và "diện tích tác động" xác định số lượng hoa mà nó chạm tới cùng một lúc.
+
+| Tên công cụ | Vị trí cửa hàng | Chi phí (Mật ong) | Lợi ích chính |
+| :--- | :--- | :--- | :--- |
+| **Scooper** | Noob Shop | 400 | Nhanh hơn túi khởi đầu |
+| **Pollen Collector** | Noob Shop | 1.800 | Diện tích lớn cho các cánh đồng đầu tiên |
+| **Vacuum** | Noob Shop | 14.000 | Tốc độ thu thập cao cho từng bông hoa đơn lẻ |
+| **Magnet** | Pro Shop | 55.000 | Thu thập phấn hoa từ xa |
+| **Clipper** | Pro Shop | 125.000 | Cân bằng giữa tốc độ và diện tích |
+
+<Callout type="info" title="Chiến lược đầu game">
+Đừng ở lại quá lâu với các công cụ ở Noob Shop. Ngay khi bạn có đủ khả năng mua **Vacuum**, hãy bỏ qua các máy thu thập nhỏ hơn và tiến thẳng tới Magnet ở Pro Shop. Điều này giúp bạn tiết kiệm hàng ngàn mật ong để đầu tư tốt hơn vào các Ô tổ ong (Hive Slots).
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="The Vacuum">
+    - **Tốc độ cao**: Tuyệt vời để dọn dẹp các bông hoa đơn lẻ nhanh chóng.
+    - **Mục tiêu đơn**: Tốt nhất khi sử dụng ở các cánh đồng có hoa giá trị cao như Sunflower field.
+    - **Chi phí thấp**: Một bước đệm thiết yếu để tiến tới Pro Shop.
+  </Card>
+  <Card title="The Magnet">
+    - **Thu thập từ xa**: Hút phấn hoa từ những bông hoa mà bạn không đứng trực tiếp lên.
+    - **Hiệu quả**: Giảm lượng di chuyển cần thiết để làm đầy túi của bạn.
+    - **Lối vào Pro Shop**: Trải nghiệm thực sự đầu tiên của bạn về trang bị "chuyên nghiệp".
+  </Card>
+  <Card title="The Pulsar">
+    - **Thu thập Token**: Xuất sắc trong việc nhặt các token kỹ năng khi đang canh tác.
+    - **Chỉ số tầm trung**: Một lựa chọn vững chắc nếu bạn thấy mình thường xuyên bỏ lỡ các token của ong.
+    - **Công cụ chuyển tiếp**: Hữu ích cho đến khi bạn đạt tới Mountain Top Shop.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={ShoppingBag} title="Mountain Top Shop và nâng cấp giai đoạn giữa game">
+
+Mountain Top Shop đại diện cho bước nhảy vọt đáng kể nhất về sức mạnh cho bất kỳ người chơi nào. Sau khi vượt qua cổng 25 con ong, bạn sẽ có quyền truy cập vào **Porcelain Dipper**, một trong những **công cụ Bee Swarm Simulator** tốt nhất cho một phần lớn thời gian chơi game. Ở giai đoạn này, bạn không còn chỉ là nhấp vào hoa nữa; bạn đang quản lý tỷ lệ chuyển đổi và thời gian duy trì token kỹ năng.
+
+Giai đoạn giữa game được đặc trưng bởi chiến lược "Tổ ong hỗn hợp" (Mixed Hive). Bạn cần các công cụ hoạt động tốt ở các cánh đồng Đỏ, Xanh và Trắng vì các nhiệm vụ từ Black Bear và Science Bear sẽ đưa bạn đi khắp bản đồ. Mua trang bị Porcelain là một cột mốc đánh dấu sự chuyển đổi của bạn từ một người mới bắt đầu thành một người chơi nghiêm túc.
+
+| Trang bị | Chi phí | Nguyên liệu yêu cầu | Tại sao nó quan trọng |
+| :--- | :--- | :--- | :--- |
+| **Porcelain Dipper** | 150 triệu Mật ong | Không | Thu thập toàn diện nhất cho tổ ong hỗn hợp |
+| **Porcelain Port-O-Hive** | 250 triệu Mật ong | Không | Tăng mạnh sức chứa cho các phiên canh tác dài hơn |
+| **Spark Staff** | 60 triệu Mật ong | Không | Thu thập phấn hoa từ 3 bông hoa ngẫu nhiên gần đó |
+| **Glider** | 2,5 triệu Mật ong | Không | Thiết yếu để di chuyển nhanh quanh núi |
+
+<Callout type="warning" title="Bẫy Spark Staff">
+Nhiều người chơi mua **Spark Staff** vì nghĩ rằng nó là bản nâng cấp của Porcelain Dipper do nằm ở cửa hàng cao hơn. **Đừng làm vậy.** Spark Staff thường kém hiệu quả hơn trong việc canh tác tập trung. Hầu hết những người chơi kỳ cựu khuyên bạn nên bỏ qua hoàn toàn Spark Staff và tiết kiệm mật ong cho Porcelain Dipper.
+</Callout>
+
+Sức mạnh của Porcelain Dipper nằm ở khả năng tạo ra các "sóng phấn hoa" thu thập từ một bán kính rộng. Sự phối hợp này với các kỹ năng của ong cho phép bạn ở lại cánh đồng lâu hơn và hoàn thành các nhiệm vụ 100 triệu phấn hoa mệt mỏi nhanh hơn nhiều.
+
+</Section>
+
+<Section icon={Hammer} title="Thứ tự tiến triển tốt nhất cho các công cụ">
+
+Việc tìm hướng nâng cấp cho các **công cụ Bee Swarm Simulator** có thể gây nhầm lẫn do sự đa dạng của các cửa hàng và yêu cầu chế tạo. Tuân theo một thứ tự tiến triển nghiêm ngặt đảm bảo bạn không lãng phí tài nguyên vào những trang bị sẽ sớm bị thay thế.
+
+<Steps>
+  <Step num="1" title="Vòng lặp khởi đầu">
+    Bắt đầu với Scooper và chuyển sang Vacuum. Tập trung hoàn toàn vào việc mua **Hive Slots** cho đến khi bạn có 10 con ong. Điều này cho phép bạn vào khu vực Pro Shop.
+  </Step>
+  <Step num="2" title="Làm chủ Pro Shop">
+    Mua Magnet và Slingshot. Khi bạn cảm thấy sức chứa quá nhỏ, hãy mua Red hoặc Blue Port-O-Hives. Đừng ở lại đây quá lâu; mục tiêu của bạn là cổng 25 con ong.
+  </Step>
+  <Step num="3" title="Cơn sốt đồ sứ">
+    Ngay khi bạn đạt tới Mountain Top, hãy tiết kiệm từng giọt mật ong cho **Porcelain Dipper**. Sau đó, hãy lấy Porcelain Port-O-Hive. Bộ đôi này sẽ gánh vác bạn suốt giai đoạn giữa game.
+  </Step>
+  <Step num="4" title="Hành trình Cánh hoa Linh hồn">
+    Hoàn thành 10 nhiệm vụ đầu tiên của Spirit Bear để nhận **Spirit Petal**. Sử dụng nó để chế tạo **Petal Wand**. Công cụ này giới thiệu tính năng tự động thu thập và là một nâng cấp lớn về chất lượng trải nghiệm.
+  </Step>
+  <Step num="5" title="Chuyên môn hóa cuối game">
+    Sau khi sở hữu Supreme Star Amulet và chọn màu tổ ong, hãy tiết kiệm cho Tide Popper (Xanh), Dark Scythe (Đỏ), hoặc Gummyballer (Trắng). Những thứ này tiêu tốn hàng nghìn tỷ mật ong và hàng trăm nguyên liệu hiếm.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo hiệu quả">
+Trong khi tuân theo thứ tự này, luôn để mắt đến các **Amulets**. Một công cụ chỉ tốt khi có các hệ số hỗ trợ nó. Đảm bảo King Beetle và Star Amulets của bạn có các chỉ số "Pollen" (Phấn hoa) hoặc "Critical Chance" (Tỷ lệ chí mạng) để tối đa hóa hiệu quả của công cụ.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Các công cụ chế tạo giai đoạn cuối và trang bị Endgame">
+
+Các **công cụ Bee Swarm Simulator** cuối game không chỉ mua bằng mật ong; chúng đòi hỏi quá trình chế tạo cường độ cao. Việc chuyển đổi từ Petal Wand sang "Bộ ba khổng lồ" (Tide Popper, Dark Scythe, Gummyballer) là quá trình cày cuốc lâu nhất trong game. Những công cụ này được thiết kế để phối hợp với các màu tổ ong cụ thể và yêu cầu một "Supreme Star Amulet" (SSA) với các nội tại phù hợp như Pop Star hoặc Scorching Star.
+
+| Công cụ cuối game | Màu tổ ong | Nguyên liệu chính | Khả năng độc đáo |
+| :--- | :--- | :--- | :--- |
+| **Tide Popper** | Xanh | 75 Super Smoothies, 1500 Blue Extracts | Tạo ra sóng thần làm vỡ các bong bóng |
+| **Dark Scythe** | Đỏ | 75 Super Smoothies, 1500 Red Extracts | Tạo ra ngọn lửa đen gây sát thương bùng nổ lớn |
+| **Gummyballer** | Trắng | 1000 Gumdrops, 1000 Glue, 500 Glitter | Bắn ra các quả cầu kẹo dẻo bao phủ cánh đồng trong Goo |
+
+<Callout type="tip" title="Ưu tiên chế tạo">
+Trước khi hướng tới các máy thu thập này, bạn **bắt buộc** phải có **Coconut Canister**. Nó được coi là chiếc ba lô tốt nhất trong game và cung cấp nội tại "Coconut Shield", điều thiết yếu để sống sót trong các trận chiến cuối game và canh tác.
+</Callout>
+
+**Petal Wand** xứng đáng được nhắc đến đặc biệt ở đây. Mặc dù là một công cụ giai đoạn giữa đến cuối game, khả năng chuyển đổi phấn hoa thành mật ong ngay lập tức khi bạn đang ở trên cánh đồng khiến nó trở nên không thể thiếu đối với những người chơi chưa chuyên môn hóa tổ ong. Nó cho phép các phiên canh tác "vô tận" mà bạn không bao giờ phải quay lại tổ để làm trống túi.
+
+</Section>
+
+<Section icon={Shield} title="Các cột mốc trang bị và phụ kiện thiết yếu">
+
+Công cụ không hoạt động độc lập; chúng được hỗ trợ bởi "trang bị" của bạn—mũ, bảo vệ tay, thắt lưng và giày. Những vật phẩm này cung cấp các chỉ số tăng cường (như % Phấn hoa đỏ hoặc +Sức chứa) giúp các **công cụ Bee Swarm Simulator** thực sự hiệu quả. Nếu bạn có một máy thu thập trị giá hàng nghìn tỷ mật ong nhưng lại đội một chiếc mũ từ Noob Shop, bạn đang bỏ lỡ 90% tiềm năng kiếm mật ong của mình.
+
+<Checklist
+  id="essential-gear-milestones"
+  title="Danh sách trang bị phải có:"
+  items={[
+    "Honey Mask (Mặt nạ tốt nhất giai đoạn giữa game để rải xu)",
+    "Crimson và Cobalt Guards (Thiết yếu cho các mức tăng cụ thể theo màu sắc)",
+    "Honeycomb Belt (Sức chứa tuyệt vời và phần thưởng tấn công của ong)",
+    "Coconut Clogs (Phối hợp tốt với Coconut Canister)",
+    "Gummy Boots (Giày cuối cùng cho việc canh tác Goo)"
+  ]}
+/>
+
+<Callout type="info" title="Xu hướng mặt nạ">
+Mặc dù Honey Mask là vua của giai đoạn giữa game, đừng bỏ qua **Fire Mask** và **Bubble Mask**. Năm 2026, Bubble Mask đặc biệt mạnh đối với những người chơi sử dụng macro sớm, muốn ở lại Pine Tree Forest trong thời gian dài.
+</Callout>
+
+| Phụ kiện | Tốt nhất cho | Chỉ số chính | Lưu ý khi mua |
+| :--- | :--- | :--- | :--- |
+| **Honey Mask** | Tổ ong hỗn hợp | Coin Scatter | Mua cái này làm mặt nạ lớn đầu tiên của bạn |
+| **Diamond Mask** | Tổ ong xanh | x3 Sức chứa xanh | Cần 5 Diamond Eggs (Hãy tiết kiệm chúng!) |
+| **Demon Mask** | Tổ ong đỏ | x1.5 Phấn hoa lửa | Tốt nhất cho chiến đấu và tăng cường đỏ |
+| **Gummy Mask** | Tổ ong trắng | Gummy Morph | Thu thập Goo và chuyển đổi cao |
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Công cụ Bee Swarm Simulator nào tốt nhất cho người mới bắt đầu?",
+    answer: "Người mới bắt đầu nên tập trung vào Vacuum và Magnet. Những công cụ này cung cấp tỷ lệ phấn hoa trên chi phí tốt nhất và cho phép bạn đạt tới Mountain Top Shop nhanh chóng mà không lãng phí mật ong vào các trang bị trung gian."
+  },
+  {
+    question: "Petal Wand có tốt hơn Porcelain Dipper không?",
+    answer: "Có, đáng kể. Petal Wand có các chỉ số cơ bản cao hơn và một nội tại độc đáo bắn ra một cánh hoa sau mỗi ba lần vung, giúp thu thập phấn hoa và chuyển đổi một phần thành mật ong ngay lập tức."
+  },
+  {
+    question: "Tôi có nên bỏ qua Spark Staff không?",
+    answer: "Hầu hết những người chơi có kinh nghiệm đều khuyên nên bỏ qua Spark Staff. Nó đắt đỏ và mô hình thu thập của nó khá thất thường, khiến Porcelain Dipper trở thành lựa chọn đáng tin cậy và hiệu quả hơn cho tiến trình giai đoạn giữa game."
+  },
+  {
+    question: "Làm thế nào để mở khóa các máy thu thập cuối game như Tide Popper?",
+    answer: "Các máy thu thập cuối game được tìm thấy trong các cửa hàng chuyên dụng (Blue HQ, Red HQ, v.v.). Chúng yêu cầu 2,5 nghìn tỷ mật ong và một lượng lớn các nguyên liệu chế tạo như Super Smoothies và Extracts."
+  }
+]} />
+
+<Callout type="tip" title="Lời khuyên cuối cùng">
+Hãy nhớ rằng **Bee Swarm Simulator** là một cuộc chạy marathon, không phải chạy nước rút. Công cụ là khoản đầu tư quan trọng nhất của bạn. Luôn nhìn về phía trước cửa hàng tiếp theo và bắt đầu tiết kiệm nguyên liệu sớm. Chúc các bạn nuôi ong vui vẻ!
+</Callout>
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Néctar de Bee Swarm Simulator: Mejores Buffs y Rutas de Farmeo",
+  description: "Domina la guía de néctar de Bee Swarm Simulator. Aprende la colocación de macetas, buffs de néctar, tasas de decaimiento y rutas de farmeo avanzadas para maximizar tus ganancias de miel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/111?text=Nectar+Guide",
+  date: "2026-06-24",
+  author: "Equipo de Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Los néctares son buffs potentes y duraderos que se obtienen al cosechar macetas (planters) colocadas en campos específicos.
+- **Tipos de Néctar**: Hay cinco tipos únicos de néctar, cada uno de los cuales ofrece mejoras especializadas para diferentes colores de colmena y estilos de farmeo.
+- **Sistema de Decaimiento**: Los buffs de néctar decaen con el tiempo, lo que requiere que los jugadores roten estratégicamente las macetas para mantener un alto tiempo de actividad.
+- **Estrategia de Almacenamiento**: Utiliza el Condensador de Néctar para almacenar el exceso de néctar y personalizar las configuraciones de buffs activos.
+- **Opción Óptima**: Haz coincidir tu tipo de maceta con la preferencia de néctar nativa del campo para multiplicar tu tasa de generación de néctar.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas del Sistema de Néctar y Resumen de Buffs">
+
+El sistema de néctar es una de las mecánicas de progresión más críticas para los jugadores de juego medio y tardío que buscan optimizar su recolección de polen y generación de miel. A diferencia de los potenciadores de campo temporales, los néctares proporcionan multiplicadores de estadísticas pasivos y a largo plazo que pueden acumularse hasta 24 horas de duración. Comprender cómo interactúan estos buffs con tu tipo de colmena es esencial para escalar tu producción de miel.
+
+Existen cinco tipos distintos de néctares: Refrescante (Refreshing), Vigorizante (Invigorating), Reconfortante (Comforting), Satisfactorio (Satisfying) y Motivador (Motivating). Cada tipo potencia estadísticas específicas, que van desde multiplicadores de polen dirigidos a colores específicos hasta aumentos de capacidad y eficiencia de conversión. Para adquirir estos buffs, debes colocar macetas en varios campos del mapa, permitir que crezcan y cosecharlas una vez que acumulen néctar.
+
+| Tipo de Néctar | Buffs Principales | Buffs Secundarios | Tasa de Decaimiento (Por Min) |
+|---|---|---|---|
+| **Refrescante (Refreshing)** | +1.25x polen azul, +1.15x capacidad | +10% de prisa, +5% de tasa de habilidad de abeja | 0.069% |
+| **Vigorizante (Invigorating)** | +1.25x polen rojo, +10% de ataque de abeja | +5% de probabilidad crítica, +15% de velocidad de jugador | 0.069% |
+| **Reconfortante (Comforting)** | +1.25x polen azul, +1.15x miel por polen | +10% de defensa, +5% de amor de abeja cachorro | 0.069% |
+| **Satisfactorio (Satisfying)** | +1.25x polen blanco, +1.15x miel de fichas | +10% de vínculo por golosinas, +5% de suerte de botín | 0.069% |
+| **Motivador (Motivating)** | +1.2x polen, +1.15x miel de misiones | +10% de velocidad de movimiento, +5% de ataque de jugador | 0.069% |
+
+<Callout type="tip" title="Gestión del Decaimiento">
+Los buffs de néctar decaen a una tasa fija de aproximadamente 4.16% por hora cuando estás jugando activamente. Para mantener una acumulación de 24 horas, debes cosechar macetas constantemente o utilizar viales de néctar almacenados para reponer tus medidores activos.
+</Callout>
+
+Cada tipo de néctar se puede acumular hasta una duración máxima de 24 horas. A medida que aumenta el tamaño de la acumulación, la potencia de los buffs activos escala de forma lineal. Por ejemplo, tener 1 hora de Néctar Refrescante proporciona una mejora menor, mientras que mantener una acumulación completa de 24 horas otorga los multiplicadores máximos enumerados en la tabla anterior. Administrar estas acumulaciones simultáneamente es la clave para ejecutar potenciadores activos de alto rendimiento.
+
+</Section>
+
+<Section icon={Map} title="Coincidencia de Macetas y Selección de Campos">
+
+Para farmear néctar de manera eficiente, debes hacer coincidir la maceta adecuada con el campo correcto. Cada campo en la montaña tiene una preferencia de néctar nativa, lo que significa que naturalmente produce mayores concentraciones de un tipo de néctar específico. Además, las diferentes macetas tienen multiplicadores únicos que aceleran el crecimiento o aumentan la pureza del néctar cosechado.
+
+Colocar una maceta en un campo que coincida con su tipo de néctar preferido resulta en ciclos de crecimiento más rápidos y rendimientos de néctar significativamente mayores al cosechar. Por el contrario, colocar una maceta en un campo incompatible diluirá la producción, dándote una mezcla de néctares secundarios en lugar del buff concentrado que necesitas.
+
+| Nombre del Campo | Tipo de Néctar Nativo | Multiplicador de Tasa de Crecimiento | Maceta Recomendada |
+|---|---|---|---|
+| **Pine Tree Forest** | Reconfortante (Comforting) | 1.5x | Hydroponic Planter / Clay Planter |
+| **Pepper Patch** | Vigorizante (Invigorating) | 1.5x | Heat-Treated Planter / Clay Planter |
+| **Coconut Field** | Satisfactorio (Satisfying) | 1.25x | Pesticide Planter / Plastic Planter |
+| **Strawberry Field** | Refrescante (Refreshing) | 1.25x | Candy Planter / Red Clay Planter |
+| **Dandelion Field** | Motivador (Motivating) | 1.25x | Tacky Planter / Ticket Planter |
+| **Blue Flower Field** | Reconfortante (Comforting) | 1.25x | Blue Clay Planter / Paper Planter |
+
+<CardGrid cols={4}>
+  <Card title="Pesticide Planter">
+    - **Ideal para**: Néctar Satisfactorio
+    - Altamente efectiva en los campos Coconut y Pumpkin
+    - Suelta desechos tóxicos que potencian el crecimiento de las flores locales
+  </Card>
+  <Card title="Hydroponic Planter">
+    - **Ideal para**: Néctar Reconfortante
+    - Ideal para farmear en Pine Tree Forest
+    - Acelera significativamente la acumulación de néctar azul
+  </Card>
+  <Card title="Heat-Treated Planter">
+    - **Ideal para**: Néctar Vigorizante
+    - Perfecta para Pepper Patch y Rose Field
+    - Genera bonificaciones de arcilla roja y buffs de llamas activos
+  </Card>
+  <Card title="Petal Planter">
+    - **Ideal para**: Acumulación de múltiples néctares
+    - Bonificación de crecimiento universal en todos los campos de la montaña
+    - Genera periódicamente recompensas raras de hongos y jalea estelar (star jelly)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Penalizaciones por Sobre-Cosecha">
+Cosechar el mismo campo repetidamente con macetas en un corto período reduce el rendimiento de néctar. Rota siempre tus macetas por diferentes campos del mismo tipo de néctar para evitar la penalización por agotamiento del suelo, que puede reducir tus ganancias de néctar hasta en un 50%.
+</Callout>
+
+Las macetas no crecen únicamente en función del tiempo del mundo real; requieren que recolectes polen activamente en el campo donde están colocadas, o en campos adyacentes según el nivel de la maceta. Para acelerar el crecimiento, quédate en el campo con tu maceta y farmea polen activamente. Tus abejas depositarán automáticamente una parte del polen recolectado directamente en la maceta, acelerando su temporizador de cosecha.
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso del Néctar en Bee Swarm Simulator">
+
+Maximizar tus acumulaciones de néctar requiere una rutina diaria estructurada. Si colocas macetas al azar por la montaña, terminarás con buffs fragmentados que decaerán más rápido de lo que puedes reponerlos. Sigue estos pasos para construir una rotación de néctar autosuficiente.
+
+<Steps>
+  <Step num="1" title="Analiza los Objetivos de tu Colmena">
+    Determina qué buffs de néctar se alínean con el color actual de tu colmena. Las colmenas azules deben priorizar Reconfortante y Refrescante, las colmenas rojas requieren Vigorizante y Satisfactorio, mientras que las colmenas blancas deben enfocarse en Satisfactorio y Motivador. No desperdicies ranuras de macetas en tipos de néctar irrelevantes.
+  </Step>
+  <Step num="2" title="Despliega tu Rotación de Macetas">
+    Coloca tus macetas de mayor nivel en los campos principales asociados con tus néctares objetivo. Por ejemplo, si tienes una colmena azul, coloca tu Hydroponic Planter en el Pine Tree Forest y tu Blue Clay Planter en el Bamboo Field. Asegúrate de no colocar varias macetas en el mismo campo simultáneamente.
+  </Step>
+  <Step num="3" title="Acelera el Crecimiento mediante Farmeo Activo">
+    Pasa de 10 a 15 minutos farmeando en los campos donde están desplegadas tus macetas. Si tienes varias macetas activas, rota entre los campos para distribuir la aceleración del crecimiento de manera uniforme. Recoge todas las fichas de habilidad que suelten tus abejas, ya que estas proporcionan potenciadores de crecimiento localizados para las macetas activas.
+  </Step>
+  <Step num="4" title="Cosecha en los Umbrales Óptimos">
+    Cosecha tus macetas solo cuando alcancen el 100% de crecimiento para asegurar la máxima duración de néctar posible. Cosechar antes de tiempo produce una cantidad desproporcionadamente baja de tiempo de buff y desperdicia el ciclo de enfriamiento de la maceta. Verifica siempre el estado de tu maceta a través del menú del sistema antes de cosechar.
+  </Step>
+  <Step num="5" title="Utiliza el Condensador de Néctar">
+    Deposita cualquier exceso de néctar cosechado de tus macetas en el Condensador de Néctar ubicado cerca de la Zona de 30 Abejas. El condensador te permite almacenar hasta 24 horas de cada tipo de néctar en forma de vial, que se puede consumir instantáneamente antes de comenzar una sesión importante de potenciación de farmeo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia de Acumulación">
+Seguir esta rotación diariamente te permitirá mantener una base de 12 a 18 horas de tus buffs de néctar principales con menos de 30 minutos de tiempo de preparación activo al día.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rutas de Farmeo de Néctar Específicas para Colmenas">
+
+Las diferentes configuraciones de colmenas requieren configuraciones de néctar completamente distintas para funcionar de manera óptima. Una colmena roja que farmea en el Pepper Patch no obtendrá casi ningún valor del Néctar Reconfortante, mientras que una colmena azul verá cómo sus tasas de miel se disparan con él. Para ayudarte a planificar tu distribución, hemos trazado las prioridades de néctar precisas y las rotaciones de campos para los tres colores principales de colmena en el juego tardío.
+
+| Color de Colmena | Néctares Prioritarios | Campos Principales | Campos Secundarios | Combinación de Buffs Objetivo |
+|---|---|---|---|---|
+| **Colmena Azul** | Reconfortante, Refrescante | Pine Tree Forest, Bamboo | Stump Field, Clover | +1.25x polen azul, +1.15x capacidad, +1.15x miel por polen |
+| **Colmena Roja** | Vigorizante, Satisfactorio | Pepper Patch, Rose Field | Strawberry, Mushroom | +1.25x polen rojo, +10% de ataque de abeja, +1.15x miel de fichas |
+| **Colmena Blanca** | Satisfactorio, Motivador | Coconut Field, Spider Field | Pineapple, Pumpkin | +1.25x polen blanco, +1.2x polen, +1.15x miel de fichas |
+
+<Checklist
+  id="daily-nectar-checklist"
+  title="Tareas Diarias de Mantenimiento de Néctar:"
+  items={[
+    "Verifica la duración de los néctares activos antes de comenzar tu primera sesión de farmeo",
+    "Despliega al menos tres macetas en campos que coincidan con los tipos de néctar principales de tu colmena",
+    "Farmea en los campos con macetas para activar el multiplicador de velocidad de crecimiento activo de 1.5x",
+    "Cosecha las macetas completadas y almacena el exceso de néctar en el Condensador",
+    "Rota los campos de las macetas diariamente para evitar el agotamiento del suelo y mantener los porcentajes máximos de rendimiento"
+  ]}
+/>
+
+<Callout type="tip" title="Optimización para el Juego Tardío">
+Si has desbloqueado el Supreme Star Amulet, coordina tus acumulaciones de néctar activo con tus activadores pasivos. Por ejemplo, las pasivas de Pop Star se benefician enormemente de los aumentos de capacidad combinados del Néctar Refrescante y las tasas de conversión del Néctar Reconfortante.
+</Callout>
+
+Al planificar una sesión de potenciación activa utilizando Glitter, Field Dice y Purple Potions, asegúrate siempre de que tus néctares objetivo estén acumulados al menos a 15 horas. La naturaleza multiplicativa de los buffs de néctar significa que escalan de manera espectacular cuando se combinan con consumibles de alto nivel, convirtiendo una sesión de farmeo estándar en una cosecha de miel de miles de millones.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Para concluir nuestra guía, hemos recopilado respuestas a las preguntas más comunes que hacen los jugadores al intentar dominar los sistemas de macetas y néctar.
+
+<FAQ items={[
+  {
+    question: "¿Las macetas crecen cuando estoy desconectado o en otro juego de Roblox?",
+    answer: "Las macetas continúan creciendo mientras estás desconectado, pero a un ritmo significativamente reducido. Para maximizar la velocidad de crecimiento, se recomienda encarecidamente permanecer activo en el juego, preferiblemente farmeando en el mismo campo donde está colocada la maceta."
+  },
+  {
+    question: "¿Puedo acumular los cinco buffs de néctar al mismo tiempo?",
+    answer: "Sí, puedes tener los cinco buffs de néctar activos simultáneamente. Sin embargo, mantener duraciones de acumulación altas para los cinco es extremadamente difícil y consume mucho tiempo. Es mucho más eficiente concentrarse en los 2 o 3 néctares que benefician directamente al color específico de tu colmena."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de reponer el néctar decaído en esta guía de néctar de Bee Swarm Simulator?",
+    answer: "La forma más rápida de reponer el néctar decaído es consumiendo Nectar Vials (Viales de Néctar), que se pueden fabricar u obtener de macetas de alto nivel. Además, cosechar una maceta crecida al 100% en un campo preferido restaurará instantáneamente varias horas del buff correspondiente."
+  },
+  {
+    question: "¿Afecta el tamaño de mi colmena a la velocidad con la que crecen las macetas?",
+    answer: "Sí. Debido a que las macetas crecen más rápido cuando las abejas depositan polen en ellas, tener un enjambre más grande con mayor velocidad de recolección y mejores estadísticas de tasa de habilidad acelerará naturalmente los ciclos de crecimiento de cualquier maceta que despliegues."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Las proporciones de recompensa del sistema de néctar están sujetas a actualizaciones de equilibrio por parte de Onett. Monitorea siempre los canales comunitarios oficiales y las notas del parche para mantenerte informado sobre cualquier ajuste en los rendimientos de las macetas o las mecánicas de decaimiento.
+</Callout>
+
+</Section>

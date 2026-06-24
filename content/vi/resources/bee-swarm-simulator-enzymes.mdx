@@ -1,0 +1,183 @@
+import { Sparkles, Target, Map, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Enzyme trong Bee Swarm Simulator: Hướng dẫn Cày cuốc & Chế tạo",
+  description: "Nắm vững các lộ trình cày cuốc tốt nhất, công thức Máy xay và thứ tự ưu tiên nâng cấp trang bị cho Enzyme trong Bee Swarm Simulator để phát triển tổ ong của bạn vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Enzymes+Farming+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong",
+  keywords: "bee swarm simulator, enzyme, hướng dẫn cày cuốc, chế tạo, máy xay, cánh đồng dứa"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Nguyên liệu chính**: Chế tạo **enzyme trong Bee Swarm Simulator** bằng cách sử dụng 50 quả Dứa và 10 Sữa ong chúa trong Máy xay.
+- **Ưu tiên hàng đầu**: Tiết kiệm 50 Enzyme đầu tiên để chế tạo **Mặt nạ Mật ong (Honey Mask)** cho giai đoạn tiến triển giữa game.
+- **Cánh đồng tốt nhất**: Cày cuốc tích cực tại **Cánh đồng Dứa (Pineapple Patch)** với các bùa hộ mệnh tăng cường hoa quả để tối đa hóa sản lượng Dứa.
+- **Rơi thụ động**: Đánh bại **Ma sói (Werewolf)**, **Nhện (Spider)** và **Gấu Đường hầm (Tunnel Bear)** thường xuyên để nhận Enzyme trực tiếp.
+- **Chiến thuật Chậu cây**: Trồng **Chậu Thảo mộc (Herb Planter)** hoặc **Chậu Nhựa (Plastic Planter)** tại Cánh đồng Dứa để đảm bảo nguồn tài nguyên hoa quả.
+</Callout>
+
+<Section icon={Sparkles} title="Enzyme là gì và tại sao bạn cần chúng?">
+
+Trong chu kỳ tiến triển của Bee Swarm Simulator, các nguyên liệu chế tạo tinh chế đóng vai trò là "người gác cổng" chính cho các trang bị, mặt nạ và công cụ cấp cao. Trong số các vật liệu này, **enzyme trong Bee Swarm Simulator** được cho là một trong những thứ quan trọng nhất. Được biểu thị bằng một chai màu vàng kim chứa chất xúc tác hoạt động, Enzyme được sử dụng rất nhiều để giúp người chơi chuyển đổi từ giai đoạn đầu-giữa game sang chuyên môn hóa vào cuối game.
+
+Nhiều người chơi mắc sai lầm nghiêm trọng khi cho ong ăn trực tiếp những quả Dứa vất vả kiếm được để tăng mức độ thân thiết. Điều này cực kỳ kém hiệu quả. Vì Dứa là nguyên liệu chính cần thiết để chế tạo Enzyme, việc cho ăn tùy tiện sẽ làm chậm đáng kể quá trình nâng cấp trang bị của bạn. Thay vào đó, bạn nên dựa vào các loại bánh (treats) tiêu chuẩn để lên cấp cho ong và dành từng quả trái cây cho Máy xay (Blender).
+
+Nếu không có nguồn cung cấp Enzyme ổn định, bạn sẽ thấy mình bị kẹt lại ở các cột mốc quan trọng giữa game như Mặt nạ Mật ong và các nâng cấp khả năng di chuyển chính ở cuối game. Bảng dưới đây phác thảo các món trang bị chính yêu cầu Enzyme, tổng chi phí nguyên liệu và xếp hạng ưu tiên cho một người chơi trung bình.
+
+| Trang bị | Enzyme cần thiết | Nguyên liệu chính khác | Đánh giá ưu tiên |
+|---|---|---|---|
+| Honey Mask | 50 | 5 Trứng Vàng, 50 Dầu, 250 Bánh | Xuất sắc |
+| Petal Wand | 75 | 1 Cánh hoa Tâm linh, 10 Sữa sao, 25 Kim tuyến | Xuất sắc |
+| Gummy Mask | 100 | 250 Keo, 100 Kim tuyến, 100 Dầu | Rất tốt |
+| Cobalt Guard | 50 | 100 Chiết xuất Xanh, 5 Ngòi chích, 150 Kim tuyến | Tốt |
+| Crimson Guard | 50 | 100 Chiết xuất Đỏ, 5 Ngòi chích, 150 Kim tuyến | Tốt |
+| Gummy Boots | 500 | 500 Keo, 250 Kim tuyến, 250 Chiết xuất Đỏ | Tùy tình huống |
+
+<Callout type="info" title="Cảnh báo quản lý tài nguyên">
+Luôn ưu tiên Mặt nạ Mật ong (Honey Mask) hơn các loại bảo vệ tay màu riêng lẻ. Mặt nạ Mật ong có khả năng nội tại Rải Đồng xu (Coin Scatter), giúp tăng đáng kể lượng mật ong thô tạo ra, cho phép bạn mua thêm Sữa ong chúa để chế tạo Enzyme trong tương lai.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách nhận Enzyme trong Bee Swarm Simulator">
+
+Phương pháp đáng tin cậy và nhất quán nhất để có được **enzyme trong Bee Swarm Simulator** là thông qua Máy xay (Blender) nằm ở Khu vực 15 con Ong. Mặc dù việc chờ đợi các vật phẩm được chế tạo có thể gây cảm giác tẻ nhạt, nhưng nó giúp bỏ qua tính ngẫu nhiên của việc rơi từ quái vật hoặc phần thưởng cánh đồng.
+
+Để sử dụng Máy xay hiệu quả, bạn phải chuẩn bị trước các nguyên liệu thô. Chế tạo một Enzyme duy nhất đòi hỏi một lượng không gian kho đồ đáng kể và sự kiên nhẫn. Nếu bạn chọn tăng tốc quá trình chế tạo bằng Vé (Tickets), hãy làm điều đó một cách tiết kiệm, vì Vé tốt nhất nên dành cho Trứng Ong Sự kiện hoặc Bánh Sao (Star Treats).
+
+Các bước dưới đây phác thảo quy trình tối ưu để thu thập nguyên liệu và sử dụng Máy xay để đảm bảo có được Enzyme của bạn.
+
+<Steps>
+  <Step num="1" title="Tích lũy nguyên liệu thô">
+    Thu thập 50 quả Dứa và 10 Sữa ong chúa cho mỗi Enzyme bạn dự định chế tạo. Dứa tốt nhất nên được cày tại Cánh đồng Dứa, trong khi Sữa ong chúa có thể mua bằng mật ong hoặc thu thập từ các máy phân phối miễn phí hàng ngày.
+  </Step>
+  <Step num="2" title="Truy cập Máy xay ở Khu vực 15 con Ong">
+    Đi qua cổng 15 con ong và tìm cấu trúc Máy xay màu vàng nằm gần Trụ sở Đỏ (Red HQ). Đứng trên bục màu vàng để mở giao diện chế tạo.
+  </Step>
+  <Step num="3" title="Xếp hàng chờ chế tạo">
+    Chọn công thức Enzyme từ thực đơn. Nếu bạn có một kho dự trữ tài nguyên lớn, hãy xếp hàng chế tạo nhiều Enzyme cùng một lúc. Một Enzyme mất đúng 10 phút để chế tạo tự nhiên.
+  </Step>
+  <Step num="4" title="Tận dụng thời gian chờ một cách hiệu quả">
+    Tránh đứng yên cạnh Máy xay trong khi nó đang xử lý vật phẩm. Thay vào đó, hãy quay lại các cánh đồng để cày thêm Dứa hoặc hoàn thành các nhiệm vụ đang hoạt động, để bộ đếm giờ chế tạo chạy ngầm.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo hiệu quả cho Máy xay">
+Nên chế tạo với số lượng lớn. Nếu bạn xếp hàng 10 Enzyme, quá trình sẽ mất 1 giờ 40 phút. Đây là nhiệm vụ hoàn hảo để bắt đầu ngay trước khi bạn đăng xuất trong ngày hoặc nghỉ ngơi, đảm bảo tài nguyên của bạn sẽ sẵn sàng khi bạn quay lại.
+</Callout>
+
+Bảng dưới đây phân tích chi phí chế tạo số lượng lớn cho Enzyme, giúp bạn lập kế hoạch cho các phiên cày cuốc theo giới hạn kho đồ hiện tại của mình.
+
+| Số lượng chế tạo | Dứa yêu cầu | Sữa ong chúa yêu cầu | Tổng thời gian chế tạo | Chi phí Vé tức thì |
+|---|---|---|---|---|
+| 1x Enzyme | 50 | 10 | 10 Phút | 3 Vé |
+| 10x Enzyme | 500 | 100 | 1 Giờ 40 Phút | 30 Vé |
+| 50x Enzyme | 2,500 | 500 | 8 Giờ 20 Phút | 150 Vé |
+| 100x Enzyme | 5,000 | 1,000 | 16 Giờ 40 Phút | 300 Vé |
+
+</Section>
+
+<Section icon={Map} title="Các lộ trình cày cuốc tốt nhất cho Enzyme và Dứa">
+
+Nếu bạn muốn tránh dành toàn bộ thời gian cho Máy xay, bạn có thể săn tìm Enzyme rơi trực tiếp và Dứa thô trên khắp bản đồ. Địa điểm tuyệt vời nhất để thu thập tích cực là **Cánh đồng Dứa (Pineapple Patch)**. Cánh đồng này có tỷ lệ rơi Dứa rất cao và thỉnh thoảng mang lại Enzyme thô trong các phiên cày cuốc tích cực, đặc biệt là khi sử dụng các vật phẩm tăng cường cánh đồng (field boosts).
+
+Một lựa chọn khả thi khác là **Rừng Thông (Pine Tree Forest)**. Mặc dù đây chủ yếu là cánh đồng xanh, nhưng nó vẫn là một khu vực tuyệt vời cho các vật phẩm rơi thụ động. Việc sử dụng chậu cây (planters) trong các cánh đồng cụ thể này sẽ đẩy nhanh đáng kể quá trình thu thập tài nguyên của bạn.
+
+Đối với những người chơi muốn tối đa hóa các phiên chơi tích cực, việc duy trì một vòng quay tiêu diệt boss và quái vật nghiêm ngặt là điều rất nên làm. Một số quái vật trên núi có cơ hội rơi Dứa và Enzyme thô được đảm bảo hoặc rất cao sau khi bị đánh bại.
+
+| Kẻ thù | Vị trí | Vật phẩm rơi chính | Tỷ lệ rơi Enzyme | Cấp độ tổ ong khuyến nghị |
+|---|---|---|---|---|
+| Nhện (Spider) | Cánh đồng Nhện | Dứa, Trứng Nhện | Thấp | Cấp 5+ |
+| Ma sói (Werewolf) | Hang Ma sói | Dứa, Việt quất | Trung bình | Cấp 7+ |
+| King Beetle | Hang King Beetle | Sữa ong chúa, Vé | Trung bình | Cấp 8+ |
+| Tunnel Bear | Hang Tunnel Bear | Trứng Vàng, Sữa sao | Cao | Cấp 9+ |
+| Cua Dừa (Coconut Crab) | Hang Dừa | Mảnh Dừa, Đồ uống Nhiệt đới | Rất cao | Cấp 11+ |
+
+<Callout type="warning" title="Nhắc nhở hồi sinh quái vật">
+Luôn ghi nhớ thời gian hồi chiêu của Ma sói (3 giờ) và Nhện (30 phút). Đánh bại những quái vật này ngay khi chúng xuất hiện là một trong những cách dễ nhất để tích lũy Dứa thụ động mà không cần tích cực cày cuốc trên cánh đồng.
+</Callout>
+
+Ngoài phần thưởng tiêu diệt quái vật, việc đặt chậu cây đóng vai trò rất lớn trong việc thu thập thụ động. Đặt một **Chậu Nhựa (Plastic Planter)** hoặc **Chậu Đất Sét (Clay Planter)** tại Cánh đồng Dứa sẽ mang lại một lượng lớn Dứa khi thu hoạch. Đối với người chơi giai đoạn cuối, **Chậu Thảo mộc (Herb Planter)** hoặc **Chậu Thuốc trừ sâu (Pesticide Planter)** được trồng tại Cánh đồng Dứa có xác suất cao thưởng trực tiếp Enzyme đã chế tạo hoàn chỉnh, giúp bạn tiết kiệm hàng giờ sử dụng Máy xay.
+
+</Section>
+
+<Section icon={Trophy} title="Ưu tiên chiến lược: Nên chế tạo thứ gì trước?">
+
+Khi bạn đã thu thập được một bộ sưu tập **enzyme trong Bee Swarm Simulator** đáng kể, bạn phải quyết định đầu tư chúng vào đâu. Việc chi tiêu ngẫu nhiên vào các nâng cấp nhỏ sẽ làm đình trệ sự tiến bộ của bạn. Trò chơi có các giai đoạn yêu cầu trang bị riêng biệt và con đường chế tạo của bạn nên phản ánh cấp độ tổ ong hiện tại.
+
+Để giúp bạn đưa ra quyết định tốt nhất, chúng tôi đã so sánh ba lựa chọn trang bị nặng về Enzyme quan trọng nhất trong giai đoạn từ giữa đến cuối game.
+
+<CardGrid cols={3}>
+  <Card title="Honey Mask">
+    - **Giai đoạn**: Đầu đến giữa game
+    - **Chi phí Enzyme**: 50
+    - **Lợi ích chính**: Mở khóa khả năng Rải Đồng xu, chuyển đổi phấn hoa thành mật ong ngay lập tức trên cánh đồng.
+    - **Nhận định**: Bản nâng cấp lớn đầu tiên mà mọi người chơi phải nhắm tới.
+  </Card>
+  <Card title="Petal Wand">
+    - **Giai đoạn**: Giữa đến cuối game
+    - **Chi phí Enzyme**: 75
+    - **Lợi ích chính**: Tự động chuyển đổi phấn hoa và bắn ra một tia năng lượng thu thập tài nguyên.
+    - **Nhận định**: Cần thiết cho các phiên cày cuốc tích cực kéo dài; hãy chế tạo ngay sau khi có được Cánh hoa Tâm linh đầu tiên.
+  </Card>
+  <Card title="Gummy Mask">
+    - **Giai đoạn**: Cuối game
+    - **Chi phí Enzyme**: 100
+    - **Lợi ích chính**: Tăng sức chứa khổng lồ và sự phối hợp đặc biệt với các loại ong tạo chất nhầy (goo).
+    - **Nhận định**: Mặt nạ hàng đầu cho người chơi chuyển sang các đội hình chuyên về màu trắng hoặc hỗn hợp ở cuối game.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Cảnh báo chế tạo cuối game">
+Đừng cố gắng chế tạo Giày Gummy (Gummy Boots) (yêu cầu tới 500 Enzyme) cho đến khi bạn đã tối ưu hóa hoàn toàn Bùa hộ mệnh Sao Tối cao (Supreme Star Amulet) và xác định được màu tổ ong chuyên dụng. Cố gắng cày cuốc điều này quá sớm sẽ dẫn đến việc cạn kiệt tài nguyên và đình trệ tiến độ.
+</Callout>
+
+Trước khi cam kết các vật liệu quý giá của bạn cho bất kỳ nâng cấp lớn nào, hãy kiểm tra danh sách nhanh này để đảm bảo tài khoản của bạn thực sự sẵn sàng cho quá trình chuyển đổi.
+
+<Checklist
+  id="enzyme-crafting-milestones"
+  title="Danh sách chuẩn bị cho các nâng cấp lớn:"
+  items={[
+    "Tích lũy thêm ít nhất 1,000 quả Dứa dự phòng để làm đệm an toàn.",
+    "Mở khóa cổng 30 con Ong để truy cập Cửa hàng Đỉnh núi và các máy phân phối huy hiệu tương ứng.",
+    "Đảm bảo có được Cánh hoa Tâm linh bằng cách hoàn thành chuỗi nhiệm vụ thứ mười của Spirit Bear.",
+    "Đảm bảo các con ong cốt lõi của bạn đạt ít nhất Cấp 8 để dễ dàng tiêu diệt các boss cần thiết."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+<Callout type="info" title="Lời khuyên từ chuyên gia">
+Trước khi đi sâu vào các câu hỏi từ cộng đồng, hãy nhớ rằng sự kiên nhẫn là chìa khóa. Chế tạo được thiết kế để trở thành một quá trình chậm chạp. Đừng để sự thiếu kiên nhẫn đánh lừa bạn thực hiện các giao dịch tồi hoặc lãng phí Vé quý giá vào việc hoàn thành tức thì.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Tôi có thể nhận enzyme thô từ các cánh đồng mà không cần dùng Máy xay không?",
+    answer: "Có, enzyme thô thỉnh thoảng có thể rơi ra như phần thưởng hiếm trực tiếp từ Cánh đồng Dứa, Rừng Thông và Cánh đồng Nhện. Ngoài ra, thu hoạch các chậu cây cấp cao như Chậu Thảo mộc tại Cánh đồng Dứa có cơ hội đáng tin cậy để nhận được enzyme đã chế tạo hoàn chỉnh."
+  },
+  {
+    question: "Có đáng để dùng Vé mua trực tiếp enzyme không?",
+    answer: "Nhìn chung là không. Vé là một loại tiền tệ cực kỳ giá trị nên được tiết kiệm để mua Trứng Sự kiện (như Tabby Bee hoặc Photon Bee) hoặc Bánh Sao. Chế tạo enzyme bằng Dứa và Sữa ong chúa trong Máy xay hiệu quả hơn nhiều về mặt tài nguyên."
+  },
+  {
+    question: "Tôi cần tổng cộng bao nhiêu enzyme cho giai đoạn cuối game?",
+    answer: "Để mở khóa hoàn toàn tất cả các trang bị chính từ giữa đến cuối game, bao gồm Honey Mask, Petal Wand, Cobalt/Crimson Guards, Gummy Mask và Gummy Boots, bạn sẽ cần tổng cộng 825 enzyme. Đây là lý do tại sao việc tiết kiệm Dứa ngay từ đầu lại quan trọng đến vậy."
+  },
+  {
+    question: "Các mã code trong game có cung cấp enzyme làm phần thưởng không?",
+    answer: "Có, nhiều mã code theo mùa và khuyến mãi cung cấp các vật liệu chế tạo tinh chế. Các mã đang hoạt động như 'fourtunate' và '15MMembers' cung cấp phần thưởng trái cây trực tiếp, bao gồm Dứa và Bitterberries, có thể đưa ngay vào hàng chờ Máy xay của bạn."
+  }
+]} />
+
+</Section>

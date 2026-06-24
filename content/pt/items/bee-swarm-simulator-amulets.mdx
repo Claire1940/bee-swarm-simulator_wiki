@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Amuletos do Bee Swarm Simulator: Guia de Progressão e Rolagem de Atributos",
+  description: "Otimize seus amuletos do Bee Swarm Simulator. Aprenda os requisitos de abelhas talentosas, passivas do Amuleto de Estrela Suprema e estratégias de desafio neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Amulets+Progression+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Adquira todos os **amuletos do bee swarm simulator** para garantir multiplicadores permanentes para coleta de pólen, capacidade da colmeia e poder de batalha.
+- **Prioridade do Amuleto de Estrela**: Choque abelhas talentosas únicas para desbloquear níveis mais altos do Amuleto de Estrela, culminando no Amuleto de Estrela Suprema (SSA).
+- **Desafios**: Otimize os níveis das suas abelhas de combate para pontuar mais alto no Desafio da Formiga e no Desafio do Bicho-Pau para obter rolagens superiores.
+- **Estratégia de Rolagem**: Evite gastar mel no início do jogo com rolagens de atributos; economize seus recursos para a combinação de passivas do SSA no final do jogo.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando Todos os Amuletos do Bee Swarm Simulator">
+
+Adquiring e otimizar os **amuletos do bee swarm simulator** é um dos marcos de progressão mais críticos para maximizar sua eficiência na produção de mel. Esses itens equipáveis permanentes oferecem bônus massivos para a sua coleta de pólen, taxa de conversão, capacidade da colmeia e poder de batalha. Ao contrário dos equipamentos temporários, os amuletos ficam com você para sempre, fornecendo bônus passivos que aumentam à medida que sua colmeia cresce. 
+
+Para construir uma colmeia de alto nível, você precisa entender onde encontrar cada amuleto e quais requisitos deve cumprir para resgatá-los. A tabela abaixo descreve os principais amuletos disponíveis no jogo, suas localizações e como desbloqueá-los.
+
+| Amuleto | Localização | Como Desbloquear | Bônus Principais |
+| :--- | :--- | :--- | :--- |
+| Amuleto da Lua | Santuário da Lua | Gastar Amuletos da Lua | Capacidade, Vínculo por Petiscos |
+| Amuleto de Estrela | Salão da Estrela | Chocar abelhas Talentosas únicas | Capacidade, Pólen, Passivas |
+| Amuleto de Formiga | Arena de Formiga | Derrotar Formigas no Desafio da Formiga | Velocidade de Movimento do Jogador, Chance Crítica |
+| Amuleto de Concha | Campo do Toco | Derrotar o Besouro de Concha | Defesa, Gosma, Pólen |
+| Amuleto do Rei Besouro | Covil do Rei Besouro | Derrotar o Rei Besouro | Pólen de Morango/Mirtilo |
+| Amuleto do Bicho-Pau | Desafio do Bicho-Pau | Derrotar o Bicho-Pau | Sorte Compartilhada, Pólen Vermelho/Azul |
+| Amuleto de Engrenagem | Desafio do Urso Robô | Concluir rodadas do Urso Robô | Atributos do Desafio Robô, capacidade |
+
+<Callout type="info" title="Foco no Início do Jogo">
+Não ignore os amuletos do início do jogo, como o Amuleto do Rei Besouro e o Amuleto da Lua. Eles são altamente acessíveis e fornecem os aumentos de capacidade bruta necessários para fazer a transição e sair do grind inicial.
+</Callout>
+
+Para ajudar você a priorizar seus esforços de farm, vamos detalhar os três amuletos mais acessíveis do início ao meio do jogo que todo jogador deve garantir o quanto antes.
+
+<CardGrid cols={3}>
+  <Card title="Amuleto da Lua">
+    - **Capacidade Bruta**: Aumenta a capacidade máxima da sua mochila em até 250.000.
+    - **Vínculo por Petisco**: Concede até +10% de Vínculo por Petiscos, economizando bilhões de mel no nivelamento de abelhas.
+    - **Mel por Pólen**: Oferece multiplicadores de conversão cruciais durante o farm ativo.
+  </Card>
+  <Card title="Amuleto de Formiga">
+    - **Utilidade de Combate**: Aumenta a velocidade de movimento do jogador e o ataque direto das abelhas.
+    - **Acertos Críticos**: Aumenta a Chance Crítica e o Poder Crítico para explosões massivas de pólen.
+    - **Sorte de Saque**: Melhora suas chances de obter drops raros de insetos derrotados.
+  </Card>
+  <Card title="Amuleto do Rei Besouro">
+    - **Pólen Colorido**: Fornece até +100% de pólen de Mirtilos, Morangos ou Abacaxis.
+    - **Conversão da Colmeia**: Aumenta sua taxa de conversão direta da colmeia em até x1,05.
+    - **Recompensa de Combate**: Totalmente gratuito para rolar uma vez a cada 30 horas após derrotar o Rei Besouro.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia do Amuleto de Estrela: Desbloqueando as Passivas do Amuleto de Estrela Suprema">
+
+O Amuleto de Estrela é a barreira de progressão mais poderosa do jogo. Localizado no Salão da Estrela acima do Portão de Sem Abelhas, este amuleto escala diretamente com o número de tipos únicos de abelhas talentosas descobertas em sua colmeia. Ao contrário das abelhas normais, as abelhas talentosas fornecem um bônus permanente para toda a colmeia que não se acumula com abelhas talentosas duplicadas do mesmo tipo.
+
+Para atualizar seu Amuleto de Estrela, você deve descobrir tipos talentosos únicos e pagar um custo de mel designado. A tabela abaixo detalha os requisitos para cada nível.
+
+| Nível | Abelhas Talentosas Necessárias | Custo em Mel | Principais Atributos Garantidos |
+| :--- | :--- | :--- | :--- |
+| Amuleto de Estrela de Bronze | 5 Talentosas Únicas | 250.000 | +10% de Capacidade, x1,1 de Pólen |
+| Amuleto de Estrela de Prata | 10 Talentosas Únicas | 10.000.000 | +25% de Capacidade, x1,2 de Pólen |
+| Amuleto de Estrela de Ouro | 20 Talentosas Únicas | 100.000.000 | +50% de Capacidade, x1,3 de Pólen, 1 Passiva |
+| Amuleto de Estrela de Diamante | 30 Talentosas Únicas | 1.000.000.000 | +100% de Capacidade, x1,4 de Pólen, 1 Passiva |
+| Amuleto de Estrela Suprema (SSA) | 40 Talentosas Únicas | 10.000.000.000 | +150% de Capacidade, x1,5 de Pólen, 1-2 Passivas |
+
+<Callout type="tip" title="Rastreamento de Descoberta de Talentosas">
+Você não precisa manter todas as 40 abelhas talentosas únicas em sua colmeia ativa simultaneamente para desbloquear o Amuleto de Estrela Suprema. O jogo rastreia seus tipos talentosos "descobertos" no menu de insígnias. Assim que um tipo talentoso for descoberto, você pode usar geleia real sobre ele com segurança se ele não se encaixar na sua build final de colmeia.
+</Callout>
+
+Depois de desbloquear o Amuleto de Estrela Suprema (SSA), você ganha acesso a habilidades passivas poderosas. Essas passivas são a base da especialização de colmeia no final do jogo. Conseguir a passiva correta determina se sua colmeia deve se concentrar em pólen Vermelho, Azul ou Branco.
+
+| Nome da Passiva | Resumo do Efeito | Melhor Cor de Colmeia |
+| :--- | :--- | :--- |
+| Pop Star | Gera bolhas que coletam pólen azul e multiplicam a capacidade | Colmeia Azul |
+| Scorching Star | Gera vaga-lumes que aumentam o pólen vermelho e criam campos de fogo | Colmeia Vermelha |
+| Gummy Star | Gera balas de goma e ativa bônus massivos de coleta de gosma | Colmeia Branca |
+| Guiding Star | Cria um farol no seu campo menos farmado para multiplicadores massivos | Colmeia Mista |
+| Star Shower | Derruba estrelas que coletam pólen e restauram a energia do jogador | Colmeia Mista / Azul |
+| Star Saw | Invoca uma serra que converte pólen e limpa teias de aranha | Colmeia Vermelha / Branca |
+
+</Section>
+
+<Section icon={Target} title="Otimização de Atributos do Amuleto: Estratégias de Rolagem">
+
+Rolar novamente seus amuletos é um passo necessário para a transição do meio para o final do jogo. No entanto, fazer isso de forma ineficiente pode esgotar seus recursos. O Santuário da Lua, localizado atrás do Campo de Bambu, é o lugar perfeito para praticar a otimização de amuletos antes de enfrentar as rolagens de alto custo do Amuleto de Estrela.
+
+Siga estes passos para atualizar e otimizar com segurança os atributos do seu Amuleto da Lua sem desperdiçar seus preciosos Amuletos da Lua.
+
+<Steps>
+  <Step num="1" title="Colete Amuletos da Lua">
+    Reúna Amuletos da Lua derrotando Vaga-lumes à noite, completando lutas contra o Rei Besouro, jogando o Jogo da Memória da Lua ou entregando missões para o Urso Espiritual. Você precisará de pelo menos 100 Amuletos da Lua para sua primeira rolagem.
+  </Step>
+  <Step num="2" title="Visite o Santuário da Lua">
+    Viaje até o Santuário da Lua localizado ao lado do portão de 10 abelhas. Fique no círculo do gerador para abrir a interface de criação de amuletos.
+  </Step>
+  <Step num="3" title="Gere e Compare Atributos">
+    Gaste seus Amuletos da Lua para gerar um novo Amuleto da Lua. O jogo exibirá os atributos do seu amuleto atual ao lado dos novos atributos gerados. Verifique modificadores de alta prioridade como Capacidade, Vínculo por Petiscos e Mel por Pólen.
+  </Step>
+  <Step num="4" title="Decide manter ou Descartar">
+    Se a nova rolagem for superior, aceite a substituição. Se for pior, descarte-a. Suas próximas rolagens custarão menos Amuletos da Lua, limitando-se a um mínimo de 50 amuletos por rolagem depois que você tiver gerado seu quinto amuleto.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Perigo de Rolar Novamente o Amuleto de Estrela Suprema">
+Rolar novamente um Amuleto de Estrela Suprema custa um valor fixo de 10 bilhões de mel por tentativa. Buscar uma rolagem perfeita de "passiva dupla" (como Pop Star + Star Shower) pode facilmente falir sua colmeia. Garanta primeiro uma passiva única forte com atributos de cores correspondentes antes de tentar rolagens de passiva dupla.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia de Amuletos de Desafio: Táticas da Arena de Formiga e do Bicho-Pau">
+
+Ao contrário dos amuletos de Estrela e da Lua, que são comprados com recursos estáticos, o Amuleto de Formiga e o Amuleto do Bicho-Pau são obtidos através de desafios de combate ativo. Sua pontuação nesses desafios dita diretamente o nível do amuleto que você recebe.
+
+O Desafio da Formiga requer um Passe de Formiga para entrar. Você deve derrotar ondas de formigas dentro de um limite de tempo estrito. A tabela abaixo mostra os limites de pontuação necessários para garantir Amuletos de Formiga de nível mais alto.
+
+| Nível | Pontuação Necessária | Atributos Principais |
+| :--- | :--- | :--- |
+| Amuleto de Formiga de Bronze | 1 - 49 Pontos | +Velocidade de Movimento do Jogador, +Pólen |
+| Amuleto de Formiga de Prata | 50 - 99 Pontos | +Chance Crítica, +Pólen Azul/Vermelho |
+| Amuleto de Formiga de Ouro | 100 - 149 Pontos | +Poder Crítico, +Pólen Branco |
+| Amuleto de Formiga de Diamante | 150 - 249 Pontos | +Taxa de Conversão, +Ataque, +Sorte de Saque |
+| Amuleto de Formiga Suprema | 250+ Pontos | Rolagens de atributos máximas, +Ataque de Abelha Extra |
+
+O Desafio do Bicho-Pau é uma batalha ainda mais exigente. Ativado ao interagir com o NPC Bicho-Pau ou usando um Totem do Bicho-Pau, este evento escala em dificuldade com base no nível da sua colmeia. 
+
+| Nível | Pontuação Necessária | Atributos Principais |
+| :--- | :--- | :--- |
+| Amuleto do Bicho-Pau de Bronze | 1.000.000 - 4.999.999 | +Sorte Compartilhada, +Pólen Vermelho/Azul |
+| Amuleto do Bicho-Pau de Prata | 5.000.000 - 14.999.999 | +Ataque de Abelha, +Pólen de Ferramentas |
+| Amuleto do Bicho-Pau de Ouro | 15.000.000 - 49.999.999 | +Chance Crítica, +Capacidade |
+| Amuleto do Bicho-Pau de Diamante | 50.000.000 - 99.999.999 | +Pólen Vermelho/Azul Extra, +Sorte de Saque |
+| Amuleto do Bicho-Pau Supremo | 100.000.000+ | Atributos máximos, +Sorte Compartilhada Massiva |
+
+Para preparar sua colmeia para esses desafios de combate de alta intensidade, use a lista de verificação abaixo para garantir que você não desperdice seus passes de entrada.
+
+<Checklist
+  id="challenge-prep"
+  title="Preparação para o Desafio:"
+  items={[
+    "Suba o nível das suas principais abelhas de combate (Viciosa, Fúria e Picante) para pelo menos o nível 12.",
+    "Acumule o máximo de Extratos Azul e Vermelho para aumentar sua velocidade de movimento e o poder de ataque das abelhas.",
+    "Ative impulsos de campo nos campos ao redor para maximizar a coleta passiva de fichas durante a corrida.",
+    "Equipe equipamentos focados em combate, como a Máscara Demoníaca ou os Protetores Carmesim e Cobalto."
+  ]}
+/>
+
+<Callout type="success" title="Vantagem de Jogar em Grupo">
+O Desafio do Bicho-Pau permite que vários jogadores participem simultaneamente. Encare este desafio com amigos de alto nível ou membros da comunidade para superar facilmente o limite de 50 milhões de pontos para obter um Amuleto do Bicho-Pau de Diamante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes Sobre Amuletos">
+
+<FAQ items={[
+  {
+    question: "Posso equipar vários amuletos do bee swarm simulator do mesmo tipo?",
+    answer: "Não. Você só pode equipar um amuleto por slot (ex: um Amuleto da Lua, um Amuleto de Estrela, um Amuleto de Formiga). Se você gerar um novo amuleto do mesmo tipo, deverá escolher entre substituir o amuleto existente ou descartar a nova rolagem."
+  },
+  {
+    question: "Como faço para desbloquear o Amuleto de Estrela Suprema no Bee Swarm Simulator?",
+    answer: "Para desbloquear o Amuleto de Estrela Suprema, você deve descobrir 40 tipos únicos de Abelhas Talentosas no seu índice de colmeia e comprar o amuleto no Salão da Estrela por 10 Bilhões de Mel."
+  },
+  {
+    question: "O Amuleto de Concha expira ou desaparece com o tempo?",
+    answer: "Não. Uma vez que você obtém o Amuleto de Concha ao derrotar o Besouro de Concha no Campo do Toco, ele se torna uma adição permanente aos seus atributos. Derrotar o Besouro de Concha novamente apenas permite que você role por atributos melhores."
+  },
+  {
+    question: "Qual é a melhor passiva para um SSA de Colmeia Azul?",
+    answer: "A passiva Pop Star é a melhor escolha absoluta para Colmeias Azuis, pois escala sua capacidade e coleta de pólen azul através da geração de bolhas."
+  }
+]} />
+
+<Callout type="info" title="Mais Guias da Wiki">
+Para mais guias de progressão, códigos ativos e estratégias de build de colmeia, não deixe de conferir nossas outras seções da wiki.
+</Callout>
+
+</Section>

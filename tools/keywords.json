@@ -1,46 +1,78 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "Codes",
       "keywords": [
-        "lucid blocks guide"
+        "bee swarm simulator codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "Guide",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "bee swarm simulator guide",
+        "bee swarm simulator beginner guide",
+        "bee swarm simulator progression guide",
+        "bee swarm simulator noob to pro",
+        "bee swarm simulator early game guide",
+        "bee swarm simulator tips",
+        "bee swarm simulator upgrade path"
+      ]
+    },
+    {
+      "category": "Bees",
+      "keywords": [
+        "bee swarm simulator bees",
+        "bee swarm simulator best bee",
+        "bee swarm simulator bee tier list",
+        "bee swarm simulator gifted bee tier list",
+        "bee swarm simulator mythic bee chance",
+        "bee swarm simulator favorite treats",
+        "bee swarm simulator windy bee",
+        "bee swarm simulator vicious bee"
+      ]
+    },
+    {
+      "category": "Hives",
+      "keywords": [
+        "bee swarm simulator red hive",
+        "bee swarm simulator blue hive",
+        "bee swarm simulator white hive",
+        "bee swarm simulator mixed hive",
+        "bee swarm simulator hive builder",
+        "bee swarm simulator hive slots",
+        "bee swarm simulator early blue hive"
       ]
     },
     {
       "category": "Items",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "bee swarm simulator tools",
+        "bee swarm simulator equipment guide",
+        "bee swarm simulator item tier list",
+        "bee swarm simulator best gear",
+        "bee swarm simulator planters",
+        "bee swarm simulator amulets",
+        "bee swarm simulator eggs",
+        "bee swarm simulator royal jelly"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "Resources",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "bee swarm simulator glue",
+        "bee swarm simulator enzymes",
+        "bee swarm simulator soft wax",
+        "bee swarm simulator gumdrops",
+        "bee swarm simulator stingers",
+        "bee swarm simulator tickets",
+        "bee swarm simulator bond",
+        "bee swarm simulator nectar guide"
       ]
     },
     {
-      "category": "Building",
+      "category": "Quests",
       "keywords": [
-        "lucid blocks qualia"
-      ]
-    },
-    {
-      "category": "Support",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "bee swarm simulator quests"
       ]
     }
   ]

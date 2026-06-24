@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bond de Bee Swarm Simulator: Mejores Estrategias de Nivelación y Alimentación",
+  description: "Domina las mecánicas de bond de Bee Swarm Simulator para subir de nivel tu colmena rápido. Aprende sobre golosinas, bonificaciones de frutas, multiplicadores de Puppy Bee y misiones de Mother Bear.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000?text=Bee+Bond+and+Leveling+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bond, bee swarm simulator, nivelación, golosinas, puppy bee, mother bear"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bond de Bee Swarm Simulator** es el sistema de experiencia utilizado para subir de nivel a tus abejas, aumentando su tasa de recolección y efectividad en combate.
+- **Golosinas y Frutas** son los métodos principales para aumentar el Bond, con frutas específicas que otorgan bonificaciones masivas a los tipos de abejas correspondientes.
+- **Las misiones de Mother Bear** sirven como la hoja de ruta esencial para la nivelación en el juego temprano y proporcionan grandes cantidades de golosinas gratis.
+- **Puppy Bee** es una inversión crítica para el juego tardío, ofreciendo hasta un 50% de descuento en los costos de Bond cuando es dotada (gifted).
+- **Niveles de abeja más altos** son obligatorios para derrotar a jefes de alto nivel como el Coconut Crab y el Stump Snail en 2026.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las Mecánicas de Bond en Bee Swarm Simulator">
+
+En el mundo de Bee Swarm Simulator, la fuerza de tu colmena no solo está determinada por la rareza de tus abejas, sino por su nivel. El **bond de Bee Swarm Simulator** representa el total de puntos de experiencia que una abeja ha acumulado. A medida que una abeja gana Bond, sube de nivel, lo que escala directamente su rendimiento en cada campo. Si ignoras el sistema de Bond, tus abejas tendrán dificultades para golpear a monstruos de alto nivel, y tu recolección de polen permanecerá estancada incluso con equipo costoso.
+
+Subir de nivel a las abejas es una progresión lineal de poder. Por cada nivel ganado, una abeja aumenta su energía, daño de ataque y estadísticas de recolección de polen. Además, ciertas puertas y desafíos, como la zona de 35 abejas o pruebas específicas de NPCs, se vuelven significativamente más fáciles cuando el nivel promedio de tu colmena es 10 o superior.
+
+| Nivel de Abeja | Bond Aproximado Requerido | Beneficios de Estadísticas Principales |
+| :--- | :--- | :--- |
+| Nivel 1-5 | 100 - 1,500 | Escalamiento básico de energía y ataque |
+| Nivel 6-8 | 4,000 - 15,000 | Precisión mejorada contra bichos de campo |
+| Nivel 9-11 | 40,000 - 250,000 | Obligatorio para el combate contra Coconut Crab |
+| Nivel 12-15 | 1M - 15M | Eficiencia de farmeo en el juego final |
+| Nivel 16+ | 40M+ | Optimización de colmena especializada |
+
+<Callout type="info" title="Por qué es importante subir de nivel">
+Las abejas tienen una probabilidad de "Fallo" (Miss) al atacar enemigos de un nivel superior. Si tu abeja es nivel 8 y el monstruo es nivel 10, tus abejas fallarán sus ataques con frecuencia, haciendo que las peleas contra jefes sean casi imposibles. Aumentar tu **bond de Bee Swarm Simulator** es la única forma de solucionar esto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Las Mejores Golosinas y Frutas para Nivelar">
+
+Alimentar a tus abejas es la forma más rápida de aumentar su **bond de Bee Swarm Simulator**. Aunque las abejas ganan una pequeña cantidad de Bond de forma natural mientras recolectan polen (1 de Bond por ciclo de recolección), esto es demasiado lento para un progreso significativo. En su lugar, debes utilizar Golosinas (Treats), Frutas y objetos especializados.
+
+El juego cuenta con varios tipos de comida, cada uno con un valor de Bond base. Sin embargo, el verdadero secreto de la eficiencia reside en los alimentos "preferidos". Por ejemplo, alimentar con una Fresa a una Abeja Roja proporciona significativamente más Bond que dársela a una Abeja Azul.
+
+<CardGrid cols={3}>
+  <Card title="Golosinas Básicas">
+    - **Bond Base**: 10 por golosina
+    - **Costo**: 10,000 Miel cada una
+    - **Ideal para**: Nivelación masiva de cualquier tipo de abeja
+  </Card>
+  <Card title="Frutas Especializadas">
+    - **Bond Base**: 25 a 50
+    - **Bonificación**: 2x Bond si a la abeja le gusta la fruta
+    - **Tipos**: Fresas, Arándanos, Piñas
+  </Card>
+  <Card title="Delicias Raras">
+    - **Moon Charms**: 100 Bond
+    - **Bitterberries**: 100 Bond + Probabilidad de mutación
+    - **Neonberries**: 200 Bond + Estado radiactivo
+  </Card>
+</CardGrid>
+
+| Nombre del Objeto | Bond Base | Tipo de Abeja Preferido | Bond de Bonificación |
+| :--- | :--- | :--- | :--- |
+| **Fresa (Strawberry)** | 25 | Abejas Rojas | 50 |
+| **Arándano (Blueberry)** | 25 | Abejas Azules | 50 |
+| **Piña (Pineapple)** | 25 | Abejas Blancas | 50 |
+| **Semilla de Girasol** | 20 | Abejas Básicas/León | 40 |
+| **Golosina (Treat)** | 10 | Todas las Abejas | 10 |
+
+<Callout type="tip" title="Gestión de Recursos">
+Nunca vendas tus frutas por miel. Las frutas son mucho más valiosas como potenciadores de Bond o ingredientes de artesanía para equipo de alto nivel como la Gummy Mask o la Crimson Guard.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hoja de Ruta de Nivelación de Mother Bear">
+
+Mother Bear es el NPC principal responsable de enseñar a los jugadores sobre el **bond de Bee Swarm Simulator**. Su línea de misiones está diseñada para guiarte a través del proceso de eclosión, alimentación y nivelación de tus primeras 25 abejas. Completar sus tareas es la forma más eficiente de ganar cantidades masivas de golosinas sin gastar tu miel duramente ganada.
+
+Sigue estos pasos para maximizar tu progreso a través del entrenamiento de Mother Bear:
+
+<Steps>
+  <Step num="1" title="Alimentación Inicial">
+    Comienza alimentando a tus abejas con las golosinas básicas obtenidas de las primeras misiones de Black Bear. Enfócate en llevar a toda tu colmena al nivel 4.
+  </Step>
+  <Step num="2" title="Misiones de Tipos Específicos">
+    Mother Bear te pedirá que alimentes con frutas específicas. Guarda tus fresas para abejas como la Rad Bee o Riley Bee para completar estas tareas rápidamente.
+  </Step>
+  <Step num="3" title="Hitos de Bond">
+    Trabaja para alcanzar el hito de "Colmena Nivel 8". Esta misión otorga una Star Jelly, que es crucial para obtener tu primera abeja dotada (Gifted).
+  </Step>
+  <Step num="4" title="Uso de la Tienda de Golosinas">
+    Una vez que llegues a la zona de 10 abejas, usa el Dispensador de Golosinas. Generalmente es más rentable comprar golosinas al por mayor que farmearlas individualmente en los campos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensas de Misión">
+Las misiones finales de Mother Bear te recompensan con un **Mother Bear Star Treat**. Este es uno de los objetos más raros del juego y solo debe usarse en abejas de evento como Tabby Bee o Photon Bee.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizando los Multiplicadores de Bond y Puppy Bee">
+
+A medida que avanzas hacia el juego medio y tardío, la cantidad de Bond requerida para un solo nivel se vuelve astronómica. Para seguir progresando, debes utilizar multiplicadores de Bond. El multiplicador más significativo en Bee Swarm Simulator proviene de la **Puppy Bee**.
+
+Aunque la Puppy Bee a menudo se considera "débil" en términos de recolección de polen, su bonificación de colmena es posiblemente la más poderosa para el crecimiento de la cuenta a largo plazo. Cuando Puppy Bee es dotada (Gifted), proporciona una bonificación de **20% de Bond por Golosinas**. Combinado con el Moon Amulet y Beequips específicos, puedes reducir el costo total de miel para nivelar tu colmena en millones.
+
+| Fuente del Multiplicador | Tipo de Bonificación | Requisito |
+| :--- | :--- | :--- |
+| **Puppy Bee (Normal)** | +10% de Bond por Golosinas | Tener a Puppy Bee |
+| **Gifted Puppy Bee** | +20% de Bond por Golosinas | Usar Star Treat en Puppy Bee |
+| **Moon Amulet** | Hasta +15% de Bond por Golosinas | Tirar Moon Charms en la Estatua Lunar |
+| **Beequips** | % Variable | Equipar objetos específicos a las abejas |
+
+<Callout type="warning" title="Trampa de Nivelación">
+No gastes miles de millones de miel en golosinas hasta que tengas una Gifted Puppy Bee y un Moon Amulet con una tirada alta. Sin estos multiplicadores, estarás desperdiciando efectivamente el 20-30% de tu miel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Diaria para Nivelar la Colmena">
+
+Para mantener un aumento constante en tu **bond de Bee Swarm Simulator**, debes incorporar estas actividades en tu rutina diaria. La consistencia es clave para alcanzar una colmena de nivel 15+.
+
+<Checklist
+  id="daily-bond-tasks"
+  title="Tareas Diarias de Bond:"
+  items={[
+    "Derrota al Hombre Lobo (Werewolf) y a la Araña para obtener caídas de golosinas garantizadas.",
+    "Recoge las golosinas gratuitas del dispensador en la zona de 10 abejas.",
+    "Usa los dispensadores de frutas cada 4 horas para acumular comida especializada.",
+    "Participa en Bug Runs para recolectar tokens de Bond soltados por las abejas.",
+    "Busca códigos activos que proporcionen Marshmallow Bees o golosinas gratis."
+  ]}
+/>
+
+<Callout type="tip" title="Nivelación AFK">
+Si tienes una mochila de alta capacidad, puedes estar semi-AFK en campos como el Pine Tree Forest. Tus abejas ganarán Bond pasivo mientras recolectas polen, aunque esto es significativamente más lento que la alimentación directa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Bond de Bee Swarm Simulator">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento el bond de Bee Swarm Simulator sin gastar miel?",
+    answer: "La mejor manera de aumentar el Bond gratis es completando las misiones de Mother Bear y Brown Bear, derrotando mobs como el Hombre Lobo y recolectando tokens de Bond en los campos mientras tus abejas recogen polen."
+  },
+  {
+    question: "¿Debo alimentar a mis abejas con frutas o guardarlas para artesanía?",
+    answer: "En el juego temprano, usa frutas para subir a tus abejas al nivel 8. En el juego medio y tardío, guarda la mayoría de las frutas para artesanía (como Glitter o Extractos) y usa golosinas básicas para nivelar, ya que la miel se vuelve más fácil de farmear."
+  },
+  {
+    question: "¿El nivel de mi abeja afecta su capacidad para recolectar polen?",
+    answer: "Sí. Las abejas de mayor nivel tienen más energía, lo que les permite permanecer en el campo por más tiempo, y recolectan significativamente más polen por ciclo de recolección en comparación con las abejas de menor nivel."
+  },
+  {
+    question: "¿Vale la pena gastar tickets en la Puppy Bee?",
+    answer: "La Puppy Bee solo vale la pena si planeas jugar a largo plazo. Sus estadísticas de recolección son pobres, pero su bonificación de dotada (Gifted) te ahorra billones de miel en el proceso de nivelación del juego final."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Asegúrate siempre de que tu colmena esté equilibrada. Es mejor tener cuarenta abejas de nivel 10 que una abeja de nivel 15 y treinta y nueve abejas de nivel 8. Una colmena equilibrada garantiza un rendimiento constante en todos los campos y misiones.
+</Callout>
+
+</Section>

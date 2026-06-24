@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Trình xây dựng tổ ong trong Trình mô phỏng bầy ong: Hướng dẫn xây dựng & thiết lập tốt nhất",
+  description: "Lên kế hoạch thiết lập tối thượng của bạn với hướng dẫn xây dựng tổ ong trong Trình mô phỏng bầy ong. So sánh các cách xây dựng tổ ong hỗn hợp, xanh dương, đỏ và trắng để khai thác mật ong tối đa.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Hive+Builder+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Chiến lược cốt lõi**: Một kế hoạch **xây dựng tổ ong trong Trình mô phỏng bầy ong** có cấu trúc là điều cần thiết để chuyển đổi từ giai đoạn đầu game sang giai đoạn khai thác mật ong cuối game.
+- **Giai đoạn đầu**: Luôn duy trì một tổ ong hỗn hợp, cân bằng để hoàn thành các nhiệm vụ gấu khác nhau và mở khóa các khu vực cao hơn một cách hiệu quả.
+- **Cột mốc giữa game**: Không chuyên môn hóa vào một màu tổ ong duy nhất cho đến khi bạn mở khóa Bùa Sao Tối Cao (Supreme Star Amulet - SSA).
+- **Lựa chọn màu sắc**: Chọn màu xanh dương để cày cuốc tích cực với chi phí thấp, màu đỏ để tăng sức mạnh sát thương cao, hoặc màu trắng cho các thiết lập keo (goo) đắt đỏ, sản lượng cao.
+- **Ưu tiên sự kiện**: Ưu tiên ấp Tabby Bee và Photon Bee để xây dựng các phần thưởng tổ ong vĩnh viễn, tăng tiến theo thời gian.
+</Callout>
+
+<Section icon={Map} title="Tại sao bạn cần một chiến lược xây dựng tổ ong trong Trình mô phỏng bầy ong">
+
+Xây dựng một tổ ong tối ưu trong Trình mô phỏng bầy ong (Bee Swarm Simulator) trên Roblox không phải là việc đặt ngẫu nhiên các loài côn trùng huyền thoại. Để tối đa hóa việc thu thập phấn hoa và chuyển hóa mật ong, người chơi phải tuân theo một lộ trình tiến trình nghiêm ngặt. Một chiến lược **xây dựng tổ ong trong Trình mô phỏng bầy ong** chuyên dụng giúp bạn hiểu khi nào nên giữ thiết lập cân bằng và khi nào nên chuyển sang các cách xây dựng chuyên biệt theo màu sắc.
+
+Trong giai đoạn đầu và giữa game, việc duy trì tổ ong hỗn hợp (mixed) được khuyến khích mạnh mẽ. Cố gắng ép buộc một màu duy nhất quá sớm sẽ làm chậm tiến độ hoàn thành nhiệm vụ, hạn chế việc thu thập tài nguyên của bạn trên các cánh đồng khác nhau và làm cạn kiệt lượng mật ong khó khăn lắm mới kiếm được. Các thiết lập chuyên biệt yêu cầu trang bị cuối game cụ thể, bùa bị động và đội hình ong thần thoại (mythic bee) phù hợp để hoạt động hiệu quả.
+
+| Loại tổ ong | Giai đoạn tiến trình | Độ khó hoạt động | Trọng tâm chính |
+|--- |--- |--- |--- |
+| **Tổ ong hỗn hợp (Mixed)** | Đầu đến giữa game | Thấp | Hoàn thành nhiệm vụ, cày huy hiệu, cày cuốc chung |
+| **Tổ ong xanh dương (Blue)** | Cuối game | Trung bình | Sức chứa cao, lưu trữ bong bóng, thu hoạch solo ổn định |
+| **Tổ ong đỏ (Red)** | Cuối game | Cao | Tăng tốc bùng nổ mạnh mẽ, độ chính xác của lửa, chiến đấu |
+| **Tổ ong trắng (White)** | Cuối game đắt đỏ | Rất cao | Đầu tư khổng lồ, cánh đồng nhiều keo (goo), cộng hưởng đánh dấu (mark) |
+
+<Callout type="warning" title="Cảnh báo tiến trình">
+Chuyển đổi màu tổ ong trước khi sở hữu Bùa Sao Tối Cao (Supreme Star Amulet - SSA) là một sai lầm phổ biến. Không có các khả năng bị động phù hợp, các thiết lập màu chuyên biệt hoạt động kém hơn đáng kể so với tổ ong hỗn hợp tiêu chuẩn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="So sánh các cách xây dựng tổ ong chuyên biệt">
+
+Khi bạn đạt đến giai đoạn cuối game với 45 con ong trở lên và một bộ sưu tập bùa hộ mệnh vững chắc, bạn có thể bắt đầu lên kế hoạch cho chuyên môn hóa màu sắc cuối cùng của mình. Mỗi con đường màu sắc mang lại một phong cách chơi hoàn toàn khác nhau, yêu cầu trang bị độc đáo và đội hình ong thần thoại cụ thể.
+
+<CardGrid cols={3}>
+  <Card title="Con đường tổ ong xanh dương">
+    - **Phong cách chơi**: Rất thư giãn, các phiên cày cuốc dài và khả năng mở rộng sức chứa tuyệt vời.
+    - **Cơ chế chính**: Sử dụng Bong bóng nổi (Buoyant Balloons) và Ếch nòng nọc (Tadpole Frogs) để thu thập lượng phấn hoa khổng lồ.
+    - **Cánh đồng tốt nhất**: Rừng thông (Pine Tree Forest), Cánh đồng tre (Bamboo Field) và Cánh đồng gốc cây (Stump Field).
+  </Card>
+  <Card title="Con đường tổ ong đỏ">
+    - **Phong cách chơi**: Lối chơi năng động cao, phụ thuộc vào việc thu thập token chính xác và tấn công nhanh.
+    - **Cơ chế chính**: Tận dụng các mục tiêu Chính xác (Precise targets) và ngọn lửa Cay nồng (Spicy flames) để tạo ra các đợt tăng cường bùng nổ.
+    - **Cánh đồng tốt nhất**: Vườn tiêu (Pepper Patch), Cánh đồng hoa hồng (Rose Field) và Cánh đồng dâu tây (Strawberry Field).
+  </Card>
+  <Card title="Con đường tổ ong trắng">
+    - **Phong cách chơi**: Thiết lập cực kỳ đắt đỏ được xây dựng xung quanh các hệ số nhân keo (goo) khổng lồ và các ký hiệu (marks).
+    - **Cơ chế chính**: Kết hợp các ký hiệu Vector (Vector marks) và nội tại Sao dẻo (Gummy Star) để bao phủ cánh đồng rộng lớn.
+    - **Cánh đồng tốt nhất**: Cánh đồng dừa (Coconut Field), Cánh đồng nhện (Spider Field) và Vườn dứa (Pineapple Patch).
+  </Card>
+</CardGrid>
+
+Việc lựa chọn con đường của bạn phụ thuộc nhiều vào phong cách chơi tích cực của bạn và sự sẵn lòng cày cuốc nguyên liệu. Màu xanh dương thường được coi là thiết lập khởi đầu thân thiện với ngân sách nhất cho người chơi cuối game, trong khi màu trắng vẫn là lựa chọn tốn kém tài nguyên nhất.
+
+| Màu thiết lập | Ong thần thoại cốt lõi | Mặt nạ yêu cầu | Bùa bị động thiết yếu |
+|--- |--- |--- |--- |
+| **Xanh dương** | Buoyant Bee, Tadpole Bee | Mặt nạ Kim cương (Diamond Mask) | Pop Star |
+| **Đỏ** | Precise Bee, Spicy Bee | Mặt nạ Ác quỷ (Demon Mask) | Scorching Star / Star Shower |
+| **Trắng** | Vector Bee, Fuzzy Bee | Mặt nạ Dẻo (Gummy Mask) | Gummy Star / Guide Star |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Nếu bạn thích phong cách cày cuốc solo, bán chủ động, hãy bắt đầu với tổ ong xanh dương. Nó yêu cầu ít tài nguyên hơn để trở nên hiệu quả và cung cấp nguồn thu nhập mật ong ổn định để tài trợ cho các quá trình chuyển đổi trong tương lai của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn tiến trình tổ ong từng bước">
+
+Chuyển đổi bố cục tổ ong của bạn phải được thực hiện theo từng giai đoạn. Vội vã thực hiện quá trình này sẽ hủy hoại hiệu quả cày cuốc của bạn. Hãy làm theo lộ trình có cấu trúc này để xây dựng thiết lập lý tưởng của bạn mà không lãng phí các tài nguyên quý giá.
+
+<Steps>
+  <Step num="1" title="Duy trì tổ ong hỗn hợp">
+    Tập trung vào việc ấp một nhóm ong đa dạng để hoàn thành các nhiệm vụ của Gấu Đen (Black Bear), Gấu Mẹ (Mother Bear) và Gấu Khoa Học (Science Bear). Giữ một sự kết hợp cân bằng giữa các loài ong thu thập phấn hoa đỏ, xanh dương và trắng. Đừng lãng phí Sữa Ong Chúa (Royal Jelly) để cố gắng quay ra các con thần thoại cụ thể vào lúc này.
+  </Step>
+  <Step num="2" title="Sở hữu trang bị Đỉnh Núi">
+    Mua Gáo Sứ (Porcelain Dipper) và Balo Sứ (Porcelain Port-O-Hive) từ Cửa hàng Đỉnh Núi (Mountain Top Shop). Thiết lập trang bị này là động cơ cày cuốc chính của bạn trong suốt toàn bộ giai đoạn giữa game.
+  </Step>
+  <Step num="3" title="Mở khóa mặt nạ chế tạo giữa game">
+    Chế tạo Mặt nạ Mật ong (Honey Mask), Mặt nạ Bong bóng (Bubble Mask) hoặc Mặt nạ Lửa (Fire Mask) tùy thuộc vào tiến trình trước mắt của bạn. Mặt nạ Mật ong được khuyến khích mạnh mẽ vì khả năng phân tán xu của nó, giúp tăng đáng kể tỷ lệ chuyển hóa solo.
+  </Step>
+  <Step num="4" title="Mở khóa Bùa Sao Tối Cao">
+    Cày các loại ong đột biến (gifted bee) cho đến khi bạn khám phá ra 40 loại ong đột biến duy nhất. Điều này mở khóa khả năng mua Bùa Sao Tối Cao (Supreme Star Amulet), đây là nền tảng tuyệt đối của bất kỳ kế hoạch xây dựng tổ ong chuyên biệt nào.
+  </Step>
+  <Step num="5" title="Quay các nội tại chuyên biệt">
+    Dành mật ong của bạn để quay khả năng bị động cụ thể phù hợp với màu sắc bạn đã chọn (chẳng hạn như Pop Star cho màu xanh dương). Sau khi đã bảo đảm được, hãy dần dần thay thế các con ong đệm bằng các con ong thần thoại và ong hỗ trợ tương ứng.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Bảo tồn nguyên liệu">
+Không bao giờ sử dụng các nguyên liệu chế tạo hiếm như Kim tuyến (Glitter), Super Vyce hoặc Thuốc tím (Purple Potions) một cách ngẫu hứng. Hãy tiết kiệm chúng nghiêm ngặt để chế tạo các trang bị cuối game như Bình chứa Dừa (Coconut Canister), Ủng Dẻo (Gummy Boots) hoặc các dụng cụ thu thập cụ thể theo màu của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Xếp hạng ong thiết yếu cho người xây dựng tổ ong">
+
+Không phải tất cả các loài ong đều được tạo ra như nhau. Một số cung cấp các phần thưởng quan trọng cho toàn bộ tổ ong cần phải được duy trì bất kể lựa chọn màu sắc cuối cùng của bạn là gì, khi mà những loài khác lại có tính chuyên môn hóa cao.
+
+### Ưu tiên mua Ong Sự Kiện (Event Bee)
+
+Ong sự kiện được mua bằng vé (tickets) hoặc mở khóa thông qua các chuỗi nhiệm vụ cụ thể. Chúng không yêu cầu trạng thái đột biến (gifted) để trở nên hữu ích, nhưng việc biến chúng thành đột biến phải là ưu tiên hàng đầu của bạn.
+
+| Ong sự kiện | Mức độ ưu tiên | Công dụng chính | Phần thưởng tổ ong đột biến |
+|--- |--- |--- |--- |
+| **Tabby Bee** | Ưu tiên hàng đầu | Thu thập phấn hoa tăng tiến, sát thương chí mạng | +50% Sức mạnh chí mạng |
+| **Photon Bee** | Ưu tiên cao | Thu thập phấn hoa tức thời, bão tia sáng | +5% Chuyển hóa tức thời |
+| **Vicious Bee** | Ưu tiên cao | Sát thương chiến đấu lớn, giảm thời gian hồi sinh quái vật | -15% Thời gian hồi sinh quái vật |
+| **Gummy Bee** | Ưu tiên cao | Tạo keo (goo), hỗ trợ ký hiệu mật ong | +5% Mật ong trên mỗi phấn hoa |
+| **Puppy Bee** | Ưu tiên thấp | Giảm giá bánh thưởng, hỗ trợ đồ chơi nhặt đồ | +20% Liên kết từ bánh thưởng |
+
+### Chuyên môn hóa Ong Thần Thoại (Mythic Bee)
+
+Ong thần thoại là xương sống của các thiết lập cuối game. Bạn sẽ cần xếp chồng nhiều bản sao của những con ong này để tối ưu hóa tỷ lệ thu thập của mình.
+
+| Ong thần thoại | Định hướng tổ ong chính | Khả năng cốt lõi |
+|--- |--- |--- |
+| **Tadpole Bee** | Xanh dương | Triệu hồi ếch, tạo bong bóng, cấp nước cho hoa |
+| **Buoyant Bee** | Xanh dương / Hỗn hợp | Tạo bong bóng vàng, tăng sức chứa, chuyển hóa phấn hoa |
+| **Spicy Bee** | Đỏ | Triệu hồi ong lửa, tạo token cuồng nộ, tạo ngọn lửa |
+| **Precise Bee** | Đỏ | Bắn mục tiêu để chuyển hóa tức thời, tăng tỷ lệ siêu chí mạng |
+| **Vector Bee** | Trắng | Tạo các ký hiệu tam giác, thu thập phấn hoa khổng lồ theo đường thẳng |
+| **Fuzzy Bee** | Hỗ trợ (Tất cả các màu) | Thụ phấn cho hoa, nâng cấp cấp độ hoa để có sản lượng tốt hơn |
+
+<Callout type="success" title="Ưu tiên đột biến">
+Luôn sử dụng Bánh thưởng Sao (Star Treats) của bạn cho Ong Sự Kiện trước, bắt đầu với Tabby Bee. Không giống như ong thường, Ong Sự Kiện không thể trở thành đột biến bằng cách sử dụng các món ăn yêu thích, khiến Bánh thưởng Sao trở thành phương pháp đáng tin cậy duy nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra xây dựng tổ ong cuối game">
+
+Trước khi bạn chính thức tuyên bố tổ ong của mình đã hoàn thành, bạn phải đạt được một số cột mốc. Sử dụng danh sách kiểm tra này để theo dõi tiến trình của bạn hướng tới một thiết lập cuối game được tối ưu hóa.
+
+<Checklist
+  id="endgame-milestones"
+  title="Các cột mốc tổ ong cuối game:"
+  items={[
+    "Mở khóa ít nhất 45 ô tổ ong để hỗ trợ một đội hình đầy đủ",
+    "Sở hữu Bùa Sao Tối Cao với một nội tại đơn hoặc kép phù hợp",
+    "Chế tạo mặt nạ cụ thể cho màu của bạn (Kim cương, Ác quỷ hoặc Dẻo)",
+    "Biến toàn bộ đội hình ong hỗ trợ của bạn thành đột biến để có phần thưởng bị động tối đa cho toàn bộ tổ ong",
+    "Sở hữu Bình chứa Dừa (Coconut Canister) và Ủng Dẻo (Gummy Boots) để di chuyển nâng cao và tăng sức chứa",
+    "Sở hữu công cụ thu thập tối thượng của bạn (Tide Popper, Dark Scythe hoặc Gummyballer)"
+  ]}
+/>
+
+<Callout type="info" title="Bộ sưu tập nhãn dán">
+Đừng quên sử dụng Chồng nhãn dán (Sticker Stack) và Máy in nhãn dán (Sticker Printer). Giao dịch các nhãn dán hữu ích và xếp chồng chúng tại bảng hướng dẫn xếp chồng sẽ cung cấp các chỉ số tăng cường bị động, vĩnh viễn bổ sung cho thiết lập tổ ong hoạt động của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để sử dụng kế hoạch xây dựng tổ ong trong Trình mô phỏng bầy ong để chuyển đổi màu sắc?",
+    answer: "Để chuyển đổi màu sắc thành công, trước tiên bạn phải tiết kiệm được ít nhất 100 tỷ đến 1 nghìn tỷ mật ong. Sử dụng nguồn ngân sách này để quay Bùa Sao Tối Cao với nội tại chính xác (như Pop Star cho màu xanh dương). Khi bạn đã có bùa hộ mệnh, hãy sử dụng Sữa Ong Chúa để quay các con ong thần thoại cốt lõi của màu sắc đã chọn, thay thế dần thiết lập cũ của bạn."
+  },
+  {
+    question: "Tôi có thể vận hành một tổ ong có màu mà không có mặt nạ cuối game tương ứng không?",
+    answer: "Điều này cực kỳ không được khuyến khích. Các mặt nạ cuối game (Kim cương cho màu xanh dương, Ác quỷ cho màu đỏ, Dẻo cho màu trắng) cung cấp các hệ số nhân bị động khổng lồ và các khả năng độc đáo định hình phong cách chơi. Ví dụ, vận hành một tổ ong đỏ mà không có Mặt nạ Ác quỷ sẽ dẫn đến tỷ lệ thu thập phấn hoa và chuyển hóa cực kỳ tệ."
+  },
+  {
+    question: "Tại sao Tabby Bee luôn được xếp hạng là ưu tiên hàng đầu?",
+    answer: "Tabby Bee có một chỉ số độc đáo gọi là Tình yêu của Tabby (Tabby Love), giúp tăng vĩnh viễn lượng thu thập, tỷ lệ chuyển hóa và sức mạnh thu thập của nó lên 1% cho mỗi token, cộng dồn lên đến 1000 lần. Điều này khiến nó trở thành người thu thập mạnh nhất trong trò chơi sau khi được cộng dồn tối đa, bất kể màu tổ ong của bạn là gì."
+  },
+  {
+    question: "Tôi có nên giữ các con ong đột biến trùng lặp trong tổ ong của mình không?",
+    answer: "Không. Các phần thưởng tổ ong đột biến không cộng dồn. Việc có hai con Commander Bee đột biến sẽ chỉ cấp phần thưởng +5% Tỷ lệ chí mạng một lần. Chỉ giữ một con cho mỗi loại ong đột biến để lấy phần thưởng của chúng, và sử dụng các ô trùng lặp cho các con thần thoại cốt lõi hoặc ong hỗ trợ chuyên biệt của bạn."
+  }
+]} />
+
+</Section>

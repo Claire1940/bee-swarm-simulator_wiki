@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Keo trong Bee Swarm Simulator: Tuyến đường cày cuốc & Công thức chế tạo",
+  description: "Tìm hiểu cách cày keo trong Bee Swarm Simulator một cách hiệu quả. Khám phá các vị trí máy phân phát, công thức chế tạo bằng máy xay và tỷ lệ rơi từ quái để chế tạo trang bị Gummy.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000000?text=Glue+Farming+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Tài nguyên cốt lõi**: Làm chủ các tuyến đường cày **keo (glue) trong Bee Swarm Simulator** để mở khóa trang bị Gummy cuối game.
+- **Máy phân phát hàng ngày**: Nhận keo miễn phí hàng ngày từ máy phân phát trong Hang Gấu Gummy (Gummy Bear Lair) để giảm bớt thời gian cày cuốc chủ động.
+- **Công thức chế tạo**: Sử dụng Máy xay (Blender) ở khu vực 15 con ong để chuyển đổi kẹo dẻo (gumdrops) và sữa ong chúa (royal jellies) thành số lượng keo khổng lồ.
+- **Săn quái**: Tiêu diệt Ma sói (Werewolves), Nhện (Spiders) và Cua dừa (Coconut Crabs) theo lịch hồi chiêu nghiêm ngặt để nhận thêm vật phẩm rơi.
+- **Huy hiệu Goo**: Nâng cấp Huy hiệu Goo của bạn để tự động tăng phần thưởng từ máy phân phát hàng ngày.
+</Callout>
+
+<Section icon={Sparkles} title="Giới thiệu & Cách sử dụng Keo tốt nhất">
+
+Việc kiếm được nguồn cung cấp **keo trong Bee Swarm Simulator** ổn định là một trong những cột mốc quan trọng nhất đối với người chơi ở giai đoạn giữa và cuối game. Keo đóng vai trò là nguyên liệu chế tạo nền tảng cho bộ trang bị Gummy cực kỳ được thèm muốn. Nếu không có một tuyến đường cày cuốc được tối ưu hóa tốt, người chơi thường sẽ bị nghẽn cổ chai trong nhiều tuần để cố gắng thu thập hàng trăm lọ keo cần thiết cho tiến trình cuối game.
+
+Mặt nạ Gummy (Gummy Mask) được coi là chiếc mặt nạ quan trọng nhất ở giai đoạn giữa đến cuối game nhờ vào nội tại Gummy của nó, giúp tích tụ chất nhầy (goo) trên các cánh đồng để tăng đáng kể tỷ lệ chuyển đổi mật ong của bạn. Việc tiết kiệm keo dành riêng cho các cột mốc lớn này sẽ giúp bạn tránh lãng phí các tài nguyên quý hiếm vào các nâng cấp vật phẩm tạm thời.
+
+| Vật phẩm | Chi phí Keo | Nguyên liệu cốt lõi khác | Đánh giá giá trị |
+| :--- | :--- | :--- | :--- |
+| Mặt nạ Gummy (Gummy Mask) | 250 | 250 Kim tuyến, 250 Enzyme, 100 Dầu | ★★★★★ (Thiết yếu) |
+| Ủng Gummy (Gummy Boots) | 500 | 500 Kim tuyến, 250 Chiết xuất đỏ, 250 Chiết xuất xanh | ★★★★★ (Cuối game) |
+| Gummyballer | 1.500 | 1.500 Kẹo dẻo, 100 Sinh tố siêu cấp, 50 Sáp cuộn | ★★★★★ (Trang bị tối thượng) |
+| Bùa Gummy (Gummy Amulet) | N/A | Tốn Kẹo dẻo để quay, cung cấp bùa lợi nội tại | ★★★★☆ (Bùa lợi) |
+
+<Callout type="success" title="Ưu tiên Mặt nạ Gummy">
+Luôn ưu tiên Mặt nạ Gummy trước Ủng Gummy. Mặt nạ Gummy mang lại hiệu quả tăng vọt cho lượng mật ong tạo ra hàng ngày của bạn, giúp việc cày cuốc nguyên liệu cho Ủng Gummy nhanh hơn nhiều về lâu dài.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tuyến đường & Phương pháp cày Keo hàng ngày">
+
+Để xây dựng một kho dự trữ keo ổn định, bạn phải tích hợp việc nhận từ máy phân phát hàng ngày và các đợt cày ruộng cụ thể vào thói quen chơi game của mình. Nguồn keo thụ động đáng tin cậy nhất là Máy phân phát Keo (Glue Dispenser) nằm bên trong Hang Gấu Gummy. Để vào khu vực bí mật này, bạn phải đứng trên biểu tượng kẹo dẻo bên cạnh Cổng 20 Ong và sử dụng một viên Kẹo dẻo, viên kẹo này sẽ tạm thời đưa bạn đến hang ổ.
+
+Khi đã vào bên trong, bạn có thể nhận keo miễn phí từ máy phân phát lớn cứ sau mỗi 22 giờ. Số lượng keo chính xác bạn nhận được sẽ tăng tỷ lệ thuận với cấp Huy hiệu Goo của bạn, giúp việc chủ động cày chất nhầy mang lại lợi ích lớn cho sản lượng thụ động hàng ngày của bạn.
+
+<CardGrid cols={3}>
+  <Card title="Máy phân phát Hang Gummy">
+    - **Yêu cầu Ong Gummy** hoặc quyền truy cập Kẹo dẻo tạm thời
+    - Nhận từ 1 đến 5+ keo hàng ngày
+    - **Tăng theo Huy hiệu Goo**
+  </Card>
+  <Card title="Chế tạo bằng Máy xay">
+    - Nằm ở **Khu vực 15 Ong**
+    - Chế tạo hàng ngày không giới hạn
+    - Yêu cầu lượng dự trữ trái cây và sữa ong chúa lớn
+  </Card>
+  <Card title="Tiêu diệt Quái vật">
+    - Tập trung vào **Nhện và Ma sói**
+    - Ong cấp cao giúp tiêu diệt nhanh hơn
+    - Tỷ lệ rơi thụ động khi đang làm nhiệm vụ
+  </Card>
+</CardGrid>
+
+| Nguồn | Vị trí | Yêu cầu | Thời gian hồi |
+| :--- | :--- | :--- | :--- |
+| Máy phân phát Keo | Hang Gấu Gummy | Ong Gummy hoặc Kẹo dẻo | 22 Giờ |
+| Quái Ma sói | Cánh đồng cỏ ba lá | Khuyến nghị Ong cấp 6+ | 3 Giờ |
+| Quái Nhện | Cánh đồng nhện | Khuyến nghị Ong cấp 5+ | 30 Phút |
+| Cua dừa | Cánh đồng dừa | Khuyến nghị Ong cấp 10+ | 36 Giờ |
+
+<Callout type="tip" title="Tỷ lệ tăng của Máy phân phát">
+Đừng bỏ qua các Huy hiệu Goo của bạn. Đạt được Huy hiệu Goo Bậc thầy (Grandmaster Goo Badge) sẽ tăng đáng kể sản lượng Máy phân phát Keo hàng ngày của bạn, mang lại sự thúc đẩy khổng lồ cho việc cày cuốc thụ động trong vài tuần.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chế tạo Keo trong Bee Swarm Simulator">
+
+Chế tạo chủ động trong Máy xay là cách nhanh nhất để có được keo nếu bạn đã nhận phần thưởng từ máy phân phát hàng ngày. Máy xay nằm bên trong Khu vực 15 Ong cạnh Trụ sở Đỏ. Công thức cho một lọ keo yêu cầu 50 Kẹo dẻo và 1 Sữa ong chúa.
+
+Vì việc chế tạo 250 lọ keo cho Mặt nạ Gummy yêu cầu một lượng Kẹo dẻo khổng lồ lên tới 12.500 viên, bạn phải tối ưu hóa việc thu thập nguyên liệu của mình. Bạn có thể chế tạo Kẹo dẻo trong Máy xay bằng cách sử dụng các loại trái cây thông thường trên cánh đồng (Dâu tây, Việt quất và Dứa) hoặc nhập các mã khuyến mãi (promo code) còn hoạt động để tăng ngay lập tức kho nguyên liệu của bạn.
+
+<Steps>
+  <Step num="1" title="Thu thập Trái cây thô">
+    Cày Dứa ở Vườn dứa, Dâu tây ở Cánh đồng dâu tây, và Việt quất ở Rừng tre.
+  </Step>
+  <Step num="2" title="Chế tạo Kẹo dẻo trong Máy xay">
+    Chuyển đổi 3 quả cùng loại thành 1 Kẹo dẻo. Sử dụng tùy chọn chế tạo hàng loạt của Máy xay để tiết kiệm thời gian chơi chủ động.
+  </Step>
+  <Step num="3" title="Nhập Mã khuyến mãi còn hoạt động">
+    Nhập các mã còn hoạt động như `fourtunate` (4 kẹo dẻo), `15MMembers` (15 kẹo dẻo), và `BeesBuzz123` (10 kẹo dẻo) để nhanh chóng lấp đầy kho đồ của bạn.
+  </Step>
+  <Step num="4" title="Thực hiện Công thức chế tạo Keo">
+    Kết hợp 50 Kẹo dẻo và 1 Sữa ong chúa trong Máy xay. Mỗi chu kỳ chế tạo mất 30 giây để hoàn thành.
+  </Step>
+</Steps>
+
+| Keo mục tiêu | Số Kẹo dẻo cần thiết | Số Sữa ong chúa cần thiết | Thời gian chế tạo |
+| :--- | :--- | :--- | :--- |
+| 1 Keo | 50 | 1 | 30 Giây |
+| 10 Keo | 500 | 10 | 5 Phút |
+| 50 Keo | 2.500 | 50 | 25 Phút |
+| 100 Keo | 5.000 | 100 | 50 Phút |
+
+<Callout type="info" title="Dùng Vé mua Kẹo dẻo">
+Mặc dù bạn có thể mua trực tiếp Kẹo dẻo bằng Vé tại Máy phân phát Kẹo dẻo, nhưng chúng tôi thực sự khuyên bạn nên tiết kiệm Vé để mua Trứng Ong Sự kiện (như Ong Tabby và Ong Photon) trong giai đoạn đầu và giữa game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rơi từ Quái & Các nguồn Sự kiện">
+
+Tiêu diệt các quái vật hung hãn là một nguồn bổ sung thụ động tuyệt vời cho thói quen chế tạo hàng ngày của bạn. Mặc dù tỷ lệ rơi từ quái vật là ngẫu nhiên, nhưng việc duy trì lịch trình tiêu diệt nghiêm ngặt sẽ đảm bảo lượng keo và nguyên liệu chế tạo bổ sung đều đặn theo thời gian.
+
+Ốc sên gốc cây và Cua dừa mang lại lượng keo cao nhất khi bị tiêu diệt, mặc dù chúng yêu cầu ong cấp cao và sự đầu tư thời gian đáng kể. Đối với người chơi cấp thấp hơn, Ma sói ở Cánh đồng cỏ ba lá và Nhện ở Cánh đồng nhện là những quái vật dễ tiếp cận nhất với cơ hội rơi keo thực tế.
+
+| Quái vật | Tỷ lệ rơi | Keo trung bình | Lời khuyên chiến đấu |
+| :--- | :--- | :--- | :--- |
+| Nhện | Tỷ lệ thấp | 1 Keo | Tiêu diệt nhanh chóng bằng Ong Rage hoặc Ong Vicious |
+| Ma sói | Tỷ lệ trung bình | 1-2 Keo | Dẫn dụ vào góc Cánh đồng cỏ ba lá để dễ gây sát thương |
+| Cua dừa | Tỷ lệ cao | 1-5 Keo | Né dừa rơi, sử dụng ong cấp 10+ |
+| Ốc sên gốc cây | Chắc chắn rơi | 5-15 Keo | Treo máy cho ong tự đánh qua đêm trên Cánh đồng gốc cây |
+
+<Callout type="warning" title="Cày Ốc sên gốc cây">
+Ốc sên gốc cây có 30 triệu HP. Đừng cố gắng chủ động chiến đấu với nó trừ khi tổ ong của bạn đạt ít nhất cấp 8 đến 10. Thay vào đó, hãy để ong của bạn tấn công nó một cách thụ động khi bạn rời khỏi bàn phím (treo máy AFK) để tránh lãng phí thời gian chơi chủ động.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra để cày Keo cuối game">
+
+Để đảm bảo bạn đang tận dụng mọi nguồn keo có thể trong thói quen hàng ngày của mình, hãy làm theo danh sách kiểm tra tiến trình này. Việc hoàn thành đều đặn các nhiệm vụ này sẽ giảm đáng kể thời gian mở khóa Mặt nạ Gummy hoặc Ủng Gummy của bạn.
+
+<Checklist
+  id="glue-farming-routine"
+  title="Cột mốc Keo hàng ngày:"
+  items={[
+    "Nhận phần thưởng Máy phân phát Keo miễn phí trong Hang Gummy cứ sau 22 giờ.",
+    "Tiêu diệt Ma sói và Nhện mỗi khi chúng hồi sinh.",
+    "Thiết lập chế tạo Kẹo dẻo hàng loạt trong Máy xay trước khi thoát game.",
+    "Tham gia Cơn bão Keo (Glue Storms) bất cứ khi nào được kích hoạt bởi những người chơi cấp cao.",
+    "Hoàn thành các nhiệm vụ lặp lại của Gấu Nâu (Brown Bear) để nhận thêm nguyên liệu chế tạo."
+  ]}
+/>
+
+<Callout type="tip" title="Kích hoạt Cơn bão Keo">
+Hãy để ý kênh chat của máy chủ. Người chơi cấp cao thường kích hoạt Cơn bão Keo trong Hang Gummy, tạo ra cơn mưa kẹo dẻo và keo miễn phí trên toàn bản đồ trong một thời gian giới hạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách nhanh nhất để kiếm keo trong Bee Swarm Simulator là gì?",
+    answer: "Phương pháp chủ động nhanh nhất là chế tạo keo trong Máy xay bằng cách sử dụng 50 Kẹo dẻo và 1 Sữa ong chúa. Phương pháp thụ động nhanh nhất là nhận phần thưởng hàng ngày từ Máy phân phát Keo trong Hang Gấu Gummy."
+  },
+  {
+    question: "Phần thưởng từ Máy phân phát Keo hàng ngày có tăng lên không?",
+    answer: "Có. Số lượng keo bạn nhận được từ máy phân phát sẽ tăng theo cấp Huy hiệu Goo của bạn. Nâng cấp huy hiệu của bạn từ Đồng lên Bậc thầy sẽ tăng sản lượng hàng ngày của bạn."
+  },
+  {
+    question: "Tôi có nên dùng Vé để mua Kẹo dẻo nhằm chế tạo Keo không?",
+    answer: "Không, đặc biệt là ở giai đoạn đầu đến giữa game. Vé nên được sử dụng tốt hơn nhiều để mua Trứng Sự kiện như Ong Tabby. Chỉ nên chi Vé cho Kẹo dẻo nếu bạn là người chơi cuối game đang cần gấp nâng cấp cuối cùng."
+  },
+  {
+    question: "Những quái vật nào có tỷ lệ rơi keo tốt nhất?",
+    answer: "Ốc sên gốc cây chắc chắn sẽ rơi keo khi bị tiêu diệt, trong khi Cua dừa có tỷ lệ rơi rất cao. Đối với người chơi cấp thấp hơn, Ma sói có sự cân bằng tốt nhất giữa độ khó và cơ hội rơi."
+  }
+]} />
+
+<Callout type="info" title="Kết luận cuối cùng">
+Sự kiên trì là chìa khóa khi cày **keo trong Bee Swarm Simulator**. Bằng cách kết hợp nhận máy phân phát hàng ngày, các tuyến đường săn quái hiệu quả và chế tạo máy xay thông minh, bạn sẽ mở khóa trang bị Gummy cuối game của mình trong thời gian kỷ lục.
+</Callout>
+
+</Section>

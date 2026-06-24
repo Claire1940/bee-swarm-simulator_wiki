@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ovos do Simulador de Enxame de Abelhas: Taxas de Eclosão de 2026 e Guia de Configuração",
+  description: "Descubra como obter e usar ovos no Simulador de Enxame de Abelhas. Aprenda as taxas de eclosão, receitas de fabricação e por que guardar Ovos de Diamante é crucial para sua progressão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Bee+Swarm+Simulator+Eggs+Guide",
+  date: "2026-06-24",
+  author: "Equipe do Wiki do Simulador de Enxame de Abelhas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Recurso Primário**: Gerenciar seus **ovos do Simulador de Enxame de Abelhas** corretamente é a base para construir uma colmeia de alto rendimento.
+- **Prioridade de Fabricação**: Nunca choque Ovos de Diamante antes da hora; eles são requisitos obrigatórios para a Máscara de Diamante (Diamond Mask) no fim do jogo.
+- **Mecânicas de Eclosão**: Ovos básicos têm pools fixos, enquanto ovos de Prata, Ouro e Diamante oferecem chances progressivas para abelhas Lendárias e Míticas.
+- **Estratégia de Aquisição**: Foque em completar as missões dos ursos e derrotar chefes semanais para estocar ovos raros sem gastar Bilhetes.
+- **Utilidade do Santuário do Vento**: Jogadores avançados devem doar ovos de nível intermediário ao Santuário do Vento (Wind Shrine) para ativar multiplicadores massivos para sessões de farm ativas.
+</Callout>
+
+<Section icon={Map} title="Entendendo os Ovos do Simulador de Enxame de Abelhas: Tipos e Raridades">
+
+No mundo do sucesso de Onett no Roblox, os **ovos do Simulador de Enxame de Abelhas** servem como a principal porta de entrada para expandir sua colmeia e desbloquear habilidades de farm especializadas. Cada tipo de ovo possui um nível de raridade distinto, variando do humilde Ovo Básico ao incrivelmente raro Ovo Mítico. Entender as probabilidades exatas de eclosão desses itens permite que você tome decisões informadas sobre chocá-los ou guardá-los para receitas de fabricação no final do jogo.
+
+Embora seja tentador chocar imediatamente cada ovo raro que você obtém, fazer isso costuma ser um grande erro de progressão. Ovos de nível superior oferecem um atalho para abelhas raras, épicas, lendárias e míticas, mas seus usos alternativos na fabricação e doações no santuário geralmente rendem um valor muito maior a longo prazo.
+
+| Tipo de Ovo | Abelha Comum | Abelha Rara | Abelha Épica | Abelha Lendária | Abelha Mítica |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Ovo Básico** | 87.0% | 10.0% | 2.5% | 0.5% | 0.0% |
+| **Ovo de Prata** | 0.0% | 75.0% | 19.0% | 5.5% | 0.5% |
+| **Ovo de Ouro** | 0.0% | 0.0% | 79.0% | 20.0% | 1.0% |
+| **Ovo de Diamante** | 0.0% | 0.0% | 0.0% | 95.0% | 5.0% |
+| **Ovo Mítico** | 0.0% | 0.0% | 0.0% | 0.0% | 100.0% |
+
+<Callout type="info" title="Nota sobre a Escala de Raridade">
+Variantes Gifted desses ovos também existem no jogo. Ovos de Prata, Ouro, Diamante e Mítico Gifted garantem uma abelha Gifted da respectiva raridade mínima, ignorando completamente o processo padrão de transformação com Geleia Real (Royal Jelly).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Obter Ovos no Simulador de Enxame de Abelhas: Métodos Gratuitos e Pagos">
+
+Adquirir ovos no Simulador de Enxame de Abelhas exige uma mistura de farm ativo, derrotar chefes, completar missões e compras estratégicas na loja. Embora a loja de Robux do Roblox ofereça atalhos imediatos, os jogadores gratuitos (free-to-play) têm vários caminhos confiáveis para garantir até os ovos mais raros por meio de jogabilidade dedicada.
+
+Derrotar os principais chefes do mapa é uma das maneiras mais confiáveis de garantir ovos de nível médio a alto. O Lobisomem (Werewolf, localizado na Zona de 15 Abelhas) e a Aranha (Spider, localizada na Zona de 10 Abelhas) têm chances raras de dropar Ovos de Prata e Ouro. Para jogadores avançados, derrotar o Caracol do Tronco (Stump Snail) ou o Caranguejo de Coco (Coconut Crab) oferece recompensas garantidas de alto nível, incluindo Ovos de Diamante e, ocasionalmente, Ovos Míticos.
+
+| Tipo de Ovo | Fontes de Missões Gratuitas | Drops de Chefes e Criaturas | Custo na Tenda de Bilhetes | Custo em Robux |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ovo Básico** | Missões Iniciais do Urso Negro | Drop raro de insetos de nível baixo | 10.000 Mel (Loja do Estilingue) | N/A |
+| **Ovo de Prata** | Ursa Mãe, Urso Negro | Lobisomem, Aranha, Rei Besouro | 50 Bilhetes | 50 Robux |
+| **Ovo de Ouro** | Urso Negro, Urso Marrom | Rei Besouro, Urso do Túnel, Caracol | 50 Bilhetes | 100 Robux |
+| **Ovo de Diamante** | Urso Negro, Urso Panda, Urso Espiritual | Urso do Túnel, Caranguejo de Coco, Caracol | 400 Bilhetes | 400 Robux |
+| **Ovo Mítico** | Urso Negro (Recife Mítico), Galinha Comando | Galinha Comando (50ª captura), Caracol | N/A | 800 Robux |
+
+<Callout type="success" title="Dica de Farm">
+Sempre priorize completar as linhas de missões principais do Urso Negro. Ele concede um Ovo de Ouro garantido, um Ovo de Diamante e, eventualmente, um Ovo Mítico após a conclusão de suas tarefas finais de coleta de pólen de alto volume.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia Passo a Passo para Gerenciar Seus Ovos">
+
+Para maximizar a eficiência da sua colmeia e evitar o desperdício de recursos raros, siga este fluxo estruturado de gerenciamento sempre que obtiver novos ovos.
+
+<Steps>
+  <Step num="1" title="Reivindique um Espaço Vazio na Colmeia">
+    Antes de usar qualquer ovo, certifique-se de ter comprado um espaço vazio na colmeia usando Mel na Loja do Topo da Montanha (Mountain Top Shop) ou na área inicial. Chocar um ovo em um espaço ocupado substituirá permanentemente a abelha existente.
+  </Step>
+  <Step num="2" title="Verifique Seus Objetivos de Equipamento Atuais">
+    Antes de arrastar um ovo para sua colmeia, verifique seu progresso em direção às máscaras de meio e fim de jogo. Se você planeja construir uma Colmeia Azul (Blue Hive), deve verificar seu inventário de Ovos de Diamante imediatamente.
+  </Step>
+  <Step num="3" title="Decide: Chocar, Fabricar ou Doar">
+    Aplique a regra de ouro do gerenciamento de ovos: Ovos Básicos e de Prata são seguros para chocar ou doar. Ovos de Ouro devem ser guardados para a Máscara de Mel (Honey Mask) ou boosts de fim de jogo. Ovos de Diamante devem ser acumulados para a Máscara de Diamante.
+  </Step>
+  <Step num="4" title="Execute com Alternativas de Geleia Real">
+    Se o seu objetivo é apenas obter uma abelha Lendária, não desperdice um Ovo de Diamante. Em vez disso, compre Geleias Reais em massa e use a configuração "Auto-Jelly até Lendária" em um espaço de Abelha Básica. Isso preserva seus ovos raros para fabricação.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Crítico">
+Nunca choque seus primeiros cinco Ovos de Diamante. A Máscara de Diamante requer exatamente 5 Ovos de Diamante para ser fabricada. Se você os chocar, será forçado a farmar 2.000 Bilhetes ou depender de taxas de drop incrivelmente baixas de chefes mais tarde em sua progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chocar vs. Fabricar: O Dilema da Máscara de Diamante">
+
+A escolha entre chocar um ovo para um upgrade imediato da colmeia e guardá-lo para um equipamento poderoso é um dilema comum para jogadores no meio do jogo. Vamos comparar os três caminhos principais para utilizar seus ovos raros.
+
+<CardGrid cols={3}>
+  <Card title="Chocar para Crescimento da Colmeia">
+    - **Prós**: Aumento imediato na coleta de pólen e poder de combate.
+    - **Contras**: Alto risco de obter uma abelha duplicada; desperdiça um recurso raro de fabricação.
+    - **Ideal Para**: Jogadores no início do jogo que possuem ovos Básicos ou de Prata.
+  </Card>
+  <Card title="Guardar para Equipamentos Fabricados">
+    - **Prós**: Garante aumentos de atributos permanentes e massivos com as máscaras de fim de jogo.
+    - **Contras**: Adia a gratificação de curto prazo da colmeia; acumula espaço no inventário.
+    - **Ideal Para**: Jogadores no meio do jogo que buscam as Máscaras de Mel, Demônio (Demon Mask) ou Diamante.
+  </Card>
+  <Card title="Doar para o Santuário do Vento">
+    - **Prós**: Ativa multiplicadores de campo massivos (Ventos) para grandes boosts.
+    - **Contras**: Recompensas de alta variação; consome completamente o ovo.
+    - **Ideal Para**: Jogadores avançados que realizam sessões de farm ativas e coordenadas.
+  </Card>
+</CardGrid>
+
+As receitas de fabricação no Simulador de Enxame de Abelhas consomem muitos recursos. Usar seus ovos como ingredientes de fabricação fornece um upgrade permanente para a conta, enquanto chocá-los oferece apenas uma abelha temporária que pode eventualmente ser substituída por uma variante Mítica ou Gifted.
+
+| Equipamento Alvo | Requisito de Ovo | Outros Materiais Chave | Benefício Principal |
+| :--- | :--- | :--- | :--- |
+| **Máscara de Mel** | 5 Ovos de Ouro | 50 Enzimas, 250 Petiscos, 20.000 Mel | Habilidade Coin Scatter, +20% de Mel de Tokens |
+| **Máscara de Diamante** | 5 Ovos de Diamante | 250 Extrato Azul, 150 Glitter, 5 Super Wyrm | Passiva: Diamond Drain, +3X Pólen Azul |
+| **Máscara de Demônio** | Nenhum | 250 Extrato Vermelho, 150 Cola, 100 Ferrões | Focado em Pólen Vermelho, Flame Heat e Ataque |
+| **Boost do Santuário do Vento** | 1 Ovo de Ouro/Diamante | N/A (Doação Única) | Ativa até x10 Ventos de Campo e drops de itens |
+
+<Callout type="tip" title="Dica de Fabricação Pro">
+Se você chocou seus Ovos de Diamante por acidente, não pânico. Você can comprá-los por 400 Bilhetes cada na Tenda de Bilhetes perto do Campo de Trevo (Clover Field). Comece a economizar seus Bilhetes imediatamente e evite comprar rerolls do Amuleto de Estrela de Ouro (Gold Star Amulet) até ter garantido sua máscara.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos Essenciais de Progressão de Ovos">
+
+Para manter sua progressão nos trilhos, use esta lista de verificação para monitorar seus marcos de aquisição e preservação de ovos. Gerenciar esses marcos com eficiência evita gargalos ao fazer a transição de uma colmeia mista para uma colmeia de cor especializada.
+
+<Checklist
+  id="egg-progression"
+  title="Marcos de Gerenciamento de Ovos:"
+  items={[
+    "Obtenha e choque seu primeiro Ovo de Prata da linha de missões iniciais da Ursa Mãe.",
+    "Compre a Máscara de Mel na Loja do Topo da Montanha usando 5 Ovos de Ouro guardados.",
+    "Garanta e guarde exatamente 5 Ovos de Diamante em seu inventário para a Máscara de Diamante.",
+    "Derrote a Galinha Comando 50 vezes para resgatar seu Ovo Mítico gratuito garantido.",
+    "Doe um Ovo de Ouro extra ao Santuário do Vento para garantir Ventos de alto nível para um boost no Campo de Pimenta (Pepper Patch)."
+  ]}
+/>
+
+<Callout type="success" title="Recompensa de Marco">
+Completar a 50ª captura da Galinha Comando é um marco importante. É altamente recomendável fazer isso com a ajuda de amigos de nível alto se suas próprias abelhas não tiverem o nível de combate necessário para derrotar a galinha dentro do limite de tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Vale a pena comprar Ovos Básicos com Mel?",
+    answer: "Sim. No final do jogo, comprar Ovos Básicos em massa por 10.000 Mel cada é a maneira mais eficiente de obter uma Abelha Básica Gifted. Você os choca repetidamente em um único espaço até que uma Abelha Básica Gifted apareça, o que concede um bônus crucial de +1.2x de Pólen para a colmeia."
+  },
+  {
+    question: "Posso obter Abelhas Míticas a partir de Ovos de Ouro ou de Diamante?",
+    answer: "Sim, mas as chances são muito baixas. Ovos de Ouro têm 1,0% de chance de chocar uma Abelha Mítica, enquanto Ovos de Diamante têm 5,0% de chance. Geralmente é mais seguro guardar esses ovos para fabricação e depender de Ovos Míticos ou Geleias Reais para obter suas abelhas Míticas."
+  },
+  {
+    question: "O que devo fazer se conseguir uma abelha Lendária duplicada de um ovo?",
+    answer: "Mantenha-a temporariamente se sua colmeia for pequena. Abelhas Lendárias duplicadas como a Abelha Música (Music Bee) ou Abelha Carpinteira (Carpenter Bee) oferecem excelente suporte de tokens (Foco, Melodia e Marcas). Assim que sua colmeia crescer, você poderá substituir as duplicadas usando Geleia Real."
+  },
+  {
+    question: "Os Ovos Gifted são consumidos quando usados em receitas de fabricação?",
+    answer: "As receitas de fabricação não aceitam Ovos Gifted como substitutos para ovos padrão. Ovos de Prata, Ouro e Diamante Gifted devem sempre ser chocados diretamente na sua colmeia, pois garantem uma abelha Gifted, que desbloqueia bônus passivos poderosos para a colmeia."
+  }
+]} />
+
+<Callout type="info" title="Conselho Final da Comunidade">
+Sempre permaneça ativo no Clube oficial do Bee Swarm Simulator no Roblox. Onett ocasionalmente lança códigos promocionais durante eventos sazonais (como o Beesmas) que concedem Ovos de Ouro, Diamante ou até mesmo Gifted diretamente na sua caixa de entrada.
+</Callout>
+
+</Section>

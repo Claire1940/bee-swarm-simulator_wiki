@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nhiệm vụ Bee Swarm Simulator: Hướng dẫn tiến trình Gấu & Phần thưởng 2026",
+  description: "Làm chủ tất cả nhiệm vụ trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu mức độ ưu tiên của Gấu, lộ trình Cánh hoa Tâm linh và các mốc phần thưởng để phát triển tổ ong nhanh hơn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Quest+Progression+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Nhiệm vụ Bee Swarm Simulator** đóng vai trò là lộ trình chính để phát triển tổ ong, mở khóa các khu vườn mới và trang bị thiết yếu.
+- **Thứ tự ưu tiên**: Tập trung vào Gấu Đen (Black Bear) để kiếm mật ong ban đầu và Gấu Mẹ (Mother Bear) để lấy thức ăn nâng cấp ong quan trọng.
+- **Phần thưởng cột mốc**: Hoàn thành các nhiệm vụ của Gấu Khoa Học (Science Bear) để nhận Máy dịch (Translators), vật phẩm cần thiết để trò chuyện với các NPC đặc biệt.
+- **Mục tiêu cuối game**: Các nhiệm vụ của Gấu Tâm Linh (Spirit Bear) cung cấp Cánh hoa Tâm linh (Spirit Petals), nguyên liệu chế tạo giá trị nhất cho các công cụ cuối game.
+- **Mẹo hiệu quả**: Luôn kết hợp việc cày cuốc ở các khu vườn với các nhiệm vụ đang hoạt động để tối đa hóa tỷ lệ chuyển đổi phấn hoa thành mật ong.
+</Callout>
+
+<Section icon={Map} title="Đầu game: Chuỗi nhiệm vụ của các Gấu khởi đầu">
+
+Các nhiệm vụ trong Bee Swarm Simulator là xương sống trong hành trình của bạn từ một người nuôi ong tập sự trở thành chủ tổ ong. Trong các giai đoạn đầu, mục tiêu chính của bạn là thiết lập một vòng lặp liên tục gồm thu thập phấn hoa và chuyển đổi nó thành mật ong. Những chú gấu khởi đầu—Gấu Đen và Gấu Mẹ—được thiết kế để dạy bạn các cơ chế này đồng thời cung cấp tài nguyên cần thiết để ấp từ mười đến hai mươi chú ong đầu tiên của bạn.
+
+**Điểm nhấn Video:**
+- Tổng quan về vòng lặp nhiệm vụ đầu game và điều hướng khu vườn.
+- Cách hoàn thành hiệu quả các nhiệm vụ thu thập phấn hoa của Gấu Đen.
+- Mẹo quản lý ba lô đầu tiên và nâng cấp công cụ.
+- Tầm quan trọng của việc nhận tổ ong và ở gần các khu vườn khởi đầu.
+
+<YouTubeEmbed videoId="TZ14iO23Bpk" title="Tổng quan về Phát triển và Lối chơi Bee Swarm Simulator" />
+
+Gấu Đen cung cấp một lộ trình tiến trình tuyến tính giúp thưởng cho bạn Trứng Bạc, Vàng và cuối cùng là Trứng Kim Cương hoặc Thần Thoại. Các nhiệm vụ của ông thường yêu cầu thu thập một lượng phấn hoa cụ thể từ các khu vườn như Vườn Hoa Hướng Dương (Sunflower Patch), Vườn Nấm (Mushroom Field) và Vườn Hoa Xanh (Blue Flower Field). Mặt khác, Gấu Mẹ tập trung vào "Liên kết Ong" (Bee Bond). Các nhiệm vụ của bà yêu cầu bạn cho ong ăn thức ăn (treats), giúp tăng cấp độ và hiệu quả chiến đấu của chúng.
+
+| NPC Gấu | Yêu cầu mở khóa | Loại phần thưởng chính | Tầm quan trọng chiến lược |
+|---|---|---|---|
+| Gấu Đen (Black Bear) | Khởi đầu | Mật ong, Vé, Trứng | Tiến trình cốt lõi và tích lũy tài sản ban đầu |
+| Gấu Mẹ (Mother Bear) | Khởi đầu | Thức ăn, Thức ăn Sao | Cần thiết để nâng cấp và biến ong thành Ong Tặng (Gifted) |
+| Gấu Nâu (Brown Bear) | Khởi đầu | Vé, Vật phẩm tiêu hao | Nhiệm vụ lặp lại cho lợi ích lâu dài |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Đừng bỏ qua các nhiệm vụ ban đầu của Gấu Mẹ. Việc nâng cấp ong của bạn dù chỉ một hoặc hai cấp cũng làm tăng đáng kể tốc độ thu thập và sức mạnh tấn công của chúng, giúp các nhiệm vụ chiến đấu sau này dễ dàng xử lý hơn nhiều.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Giữa game: Chuyên môn hóa và Mở khóa hệ thống">
+
+Khi bạn đạt đến mốc 10 ong và 20 ong, **các nhiệm vụ Bee Swarm Simulator** trở nên phức tạp hơn, yêu cầu bạn tương tác với các hệ thống trò chơi sâu hơn. Gấu Khoa Học là NPC quan trọng nhất trong giai đoạn này. Nhiệm vụ của ông không chỉ cung cấp mật ong; chúng còn mở khóa "Máy dịch" (Translators), cho phép bạn giao tiếp với Ong Riley (Riley Bee), Ong Bucko (Bucko Bee) và Bọ Gậy (Stick Bug).
+
+<Steps>
+  <Step num="1" title="Máy dịch của Gấu Khoa Học">
+    Hoàn thành các "Nhiệm vụ Khoa học" của Gấu Khoa Học để nhận tối đa ba Máy dịch. Sử dụng chiếc đầu tiên cho Ong Riley (Đỏ) hoặc Ong Bucko (Xanh) tùy thuộc vào hướng đi tổ ong mà bạn ưu tiên.
+  </Step>
+  <Step num="2" title="Huấn luyện chiến đấu của Gấu Trúc">
+    Tham gia vào các nhiệm vụ của Gấu Trúc (Panda Bear) để cải thiện kỹ năng chiến đấu của bạn. Bạn sẽ cần đánh bại Bọ rùa (Ladybugs), Tê giác (Rhinos) và Nhện (Spiders). Các nhiệm vụ này cuối cùng sẽ thưởng cho bạn các Thạch Sao (Star Jellies) mạnh mẽ.
+  </Step>
+  <Step num="3" title="Thu thập Huy hiệu">
+    Nhiều nhiệm vụ giữa game yêu cầu các huy hiệu cụ thể (ví dụ: Bậc thầy - Master hoặc Đại sư - Grandmaster). Hãy tập trung cày cuốc ở một khu vườn nhất định để đạt được các cột mốc này trong khi hoàn thành các nhiệm vụ đang hoạt động.
+  </Step>
+</Steps>
+
+| Hệ thống mở khóa | Gấu yêu cầu | Điều kiện tiên quyết chính | Lợi ích phần thưởng |
+|---|---|---|---|
+| Trò chuyện với NPC Đỏ/Xanh | Gấu Khoa Học | 10+ Nhiệm vụ Khoa học | Mở khóa các nhiệm vụ Đỏ/Xanh chuyên biệt |
+| Thử thách Kiến | Gấu Trúc | Nhiệm vụ chiến đấu | Tiếp cận Bùa Kiến để tăng chỉ số |
+| Thử thách Bọ Gậy | Gấu Khoa Học | Vật phẩm Máy dịch | Phần thưởng cấp cao và huy hiệu chuyên biệt |
+
+<Callout type="info" title="Chiến lược sử dụng Máy dịch">
+Hầu hết người chơi khuyên nên sử dụng Máy dịch đầu tiên của Gấu Khoa Học cho Ong Riley hoặc Ong Bucko để bắt đầu kiếm chiết xuất Đỏ hoặc Xanh sớm. Hãy tiết kiệm Máy dịch cuối cùng cho Bọ Gậy khi tổ ong của bạn đủ mạnh cho các thử thách nhóm.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cuối game: Lộ trình Gấu Tâm Linh">
+
+Đối với những người chơi nâng cao có từ 35 con ong trở lên, sự tập trung sẽ chuyển sang Gấu Tâm Linh (Spirit Bear). Các nhiệm vụ của bà nổi tiếng là dài và khó, thường yêu cầu hàng tỷ phấn hoa từ nhiều khu vườn khác nhau trên bản đồ. Tuy nhiên, phần thưởng—Cánh hoa Tâm linh (Spirit Petals)—là bắt buộc để chế tạo Gậy Cánh Hoa (Petal Wand), Đai Cánh Hoa (Petal Belt) và triệu hồi Ong Gió (Windy Bee) tại Đền Gió (Wind Shrine).
+
+<CardGrid cols={3}>
+  <Card title="Gậy Cánh Hoa (Petal Wand)">
+    - **Ưu tiên Cánh hoa đầu tiên**
+    - Tự động hóa việc thu thập phấn hoa
+    - Tốt nhất cho việc chuyển giao từ giữa sang cuối game
+  </Card>
+  <Card title="Ong Gió (Windy Bee)">
+    - **Ưu tiên Cánh hoa thứ hai**
+    - Yêu cầu độ thân thiện với Đền Gió
+    - Cực kỳ hiệu quả khi cày cuốc bằng mây
+  </Card>
+  <Card title="Đai Cánh Hoa (Petal Belt)">
+    - **Ưu tiên Cánh hoa thứ ba**
+    - Tăng sức chứa cấp cao
+    - Cần thiết cho các lối xây dựng tổ ong cuối game
+  </Card>
+</CardGrid>
+
+Các nhiệm vụ của Gấu Tâm Linh thường liên quan đến việc thu thập "Chất nhầy" (Goo) và yêu cầu "Mảnh khả năng" (Ability Token). Điều này có nghĩa là bạn phải có một tổ ong đa dạng với những chú ong tạo ra các mảnh Gummy, Link và Haste.
+
+<Checklist
+  id="spirit-bear-prep"
+  title="Danh sách chuẩn bị cho Gấu Tâm Linh:"
+  items={[
+    "Mở khóa khu vực 35 con ong phía sau ngọn núi",
+    "Sở hữu Mặt nạ Kẹo dẻo (Gummy Mask) hoặc Mặt nạ Mật ong (Honey Mask) cho các nhiệm vụ Chất nhầy",
+    "Tích trữ 101+ Kẹo dẻo (Gumdrops) cho các giai đoạn nhiệm vụ đang hoạt động",
+    "Đảm bảo bạn có ít nhất 5 loại Ong Tặng (Gifted Bee) để nhận tiền thưởng",
+    "Tham gia Câu lạc bộ Bee Swarm Simulator chính thức để nhận bùa lợi khu vườn"
+  ]}
+/>
+
+<Callout type="success" title="Thành công cuối game">
+Khi thực hiện các nhiệm vụ của Gấu Tâm Linh, hãy cố gắng cộng dồn "Bùa lợi khu vườn" (Field Boosts) và "Gió" (Winds) từ Đền Gió. Vì yêu cầu phấn hoa của bà là rất khổng lồ, việc cày cuốc mà không có hệ số nhân sẽ mất nhiều thời gian hơn đáng kể.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nhiệm vụ lặp lại và Chế độ thử thách">
+
+Bên cạnh các chú gấu theo cốt truyện chính, **các nhiệm vụ Bee Swarm Simulator** còn bao gồm các chu kỳ lặp lại cung cấp thu nhập ổn định và các nguyên liệu độc đáo. Gấu Nâu và Gấu Robot (Robo Bear) cung cấp các thử thách tăng dần độ khó khi bạn hoàn thành nhiều vòng hơn.
+
+| Loại thử thách | NPC tổ chức | Mục tiêu chính | Phần thưởng tăng dần |
+|---|---|---|---|
+| Chu kỳ hàng ngày | Gấu Nâu | Phấn hoa ở khu vườn cụ thể | Vé và thỉnh thoảng có Trứng Bạc/Vàng |
+| Thử thách Robot | Gấu Robot | Phòng thủ đợt quái theo thời gian | Bánh răng (Cogs), Ổ đĩa (Drives) và tiến trình Ong Kỹ Thuật Số (Digital Bee) |
+| Thử thách Kiến | Gấu Trúc | Đánh bại các đợt kiến | Bùa Kiến giúp tăng sát thương chí mạng/phấn hoa |
+
+Gấu Robot đặc biệt quan trọng đối với những người chơi cuối game muốn tối ưu hóa tổ ong của mình với Ong Kỹ Thuật Số (Digital Bee). Chuỗi nhiệm vụ này bao gồm các thử thách tính giờ, nơi bạn phải thu thập các mảnh cụ thể hoặc phấn hoa trong khi chiến đấu với kẻ thù máy móc như Mechsquitos và Cogmowers.
+
+<Callout type="warning" title="Cảnh báo thử thách">
+Thử thách Gấu Robot cực kỳ tốn tài nguyên. Đừng thử các vòng cấp cao trừ khi bạn có dư thừa Bánh răng (Cogs) và ong cấp cao (Cấp 12+), vì độ khó sẽ tăng vọt sau vòng 5.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chuỗi nhiệm vụ sự kiện và theo mùa">
+
+Các sự kiện theo mùa, đáng chú ý nhất là "Beesmas", giới thiệu các **nhiệm vụ Bee Swarm Simulator** có giới hạn thời gian mang lại một số phần thưởng tốt nhất trong trò chơi. Gấu Ong (Bee Bear) thường xuất hiện vào mùa đông để cung cấp một loạt các nhiệm vụ lễ hội. Những nhiệm vụ này thưởng cho người chơi Gấu Gừng (Gingerbread Bears), Bông Tuyết (Snowflakes) và Beequips—những vật phẩm có thể trang bị cho từng chú ong để tăng chỉ số của chúng.
+
+| Vật phẩm sự kiện | Nguồn | Cách sử dụng | Vĩnh viễn? |
+|---|---|---|---|
+| Gấu Gừng | Nhiệm vụ Gấu Ong | Chi tiêu trong Danh mục Sự kiện | Không (Hết hạn) |
+| Beequips | Phần thưởng sự kiện | Tăng chỉ số cho các chú ong cụ thể | Có (Giữ lại) |
+| Vật phẩm trang trí | Nhiệm vụ sự kiện NPC | Bùa lợi vĩnh viễn trên toàn bản đồ | Có (Giữ lại) |
+
+Trong các sự kiện này, người chơi nên ưu tiên "Quà tặng" (Presents). Bạn có thể trao quà cho các NPC khác nhau sau khi hoàn thành nhiệm vụ sự kiện cụ thể của họ, điều này mang lại lượng mật ong khổng lồ và các vật phẩm quý hiếm như Trứng Thần Thoại hoặc Thạch Sao.
+
+<Callout type="info" title="Thời gian diễn ra sự kiện">
+Luôn kiểm tra Twitter chính thức của Onett hoặc Discord của Bee Swarm để biết ngày kết thúc sự kiện. Phần thưởng sự kiện không phải là những thứ vĩnh viễn; một khi sự kiện kết thúc, danh mục sẽ đóng lại và tiền tệ sự kiện chưa sử dụng có thể biến mất.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp về quản lý nhiệm vụ">
+
+<FAQ items={[
+  {
+    question: "Tôi nên ưu tiên nhiệm vụ của chú gấu nào trước?",
+    answer: "Luôn ưu tiên Gấu Đen và Gấu Mẹ trong giai đoạn đầu game. Gấu Đen cung cấp mật ong và trứng cần thiết để mở rộng, trong khi Gấu Mẹ đảm bảo ong của bạn được nâng cấp đủ để đối phó với chiến đấu và các khu vườn cấp cao hơn."
+  },
+  {
+    question: "Làm thế nào để tôi có được Máy dịch của Gấu Khoa Học?",
+    answer: "Bạn kiếm được Máy dịch bằng cách hoàn thành chuỗi nhiệm vụ của Gấu Khoa Học. Ông ấy cho tổng cộng ba chiếc. Rất khuyến khích sử dụng hai chiếc đầu tiên cho Ong Riley và Bucko để mở khóa các nhiệm vụ lặp lại của họ để lấy chiết xuất Đỏ và Xanh."
+  },
+  {
+    question: "Các nhiệm vụ của Gấu Tâm Linh có xứng đáng với công sức bỏ ra không?",
+    answer: "Chắc chắn rồi. Cánh hoa Tâm linh là bắt buộc đối với Gậy Cánh Hoa, được cho là công cụ quan trọng nhất từ giữa đến cuối game. Nếu không hoàn thành các nhiệm vụ này, bạn không thể tiếp cận trang bị cuối game hoặc Ong Gió."
+  },
+  {
+    question: "Tôi có thể thực hiện nhiều nhiệm vụ Bee Swarm Simulator cùng một lúc không?",
+    answer: "Có, và bạn nên làm vậy! Hãy cố gắng nhận nhiệm vụ từ Gấu Đen, Gấu Khoa Học và Gấu Nâu cùng một lúc. Nếu tất cả chúng đều yêu cầu phấn hoa từ cùng một khu vườn, bạn có thể hoàn thành nhiều mục tiêu cùng một lúc."
+  }
+]} />
+
+</Section>

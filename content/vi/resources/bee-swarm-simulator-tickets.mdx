@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vé Bee Swarm Simulator: Các Tuyến Cày Vé Tốt Nhất & Phương Pháp Nhanh",
+  description: "Làm chủ việc cày vé trong Bee Swarm Simulator. Tìm hiểu các tuyến đường nhanh nhất, mã code còn hoạt động, rơi đồ từ quái và thứ tự ưu tiên chi tiêu tối ưu cho Ong Sự Kiện vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Tickets+Farming+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, vé, cày vé, ong sự kiện, mã code bee swarm"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Tiền tệ chính**: Vé là loại tiền tệ miễn phí có giá trị nhất trong Bee Swarm Simulator, được sử dụng để mua các loại Ong Sự Kiện mạnh mẽ và Star Treats.
+- **Ưu tiên chi tiêu hàng đầu**: Luôn ưu tiên mua **Tabby Bee** và **Photon Bee** trước khi đầu tư vào các vật phẩm khác trong cửa hàng vé.
+- **Chiến lược cày cuốc**: Kết hợp Đồng hồ Thịnh vượng (Wealth Clock), săn quái hàng ngày và thăng cấp huy hiệu để tối đa hóa tốc độ kiếm vé của bạn.
+- **Mã code hoạt động**: Nhập các mã code đang hoạt động như `38217`, `BopMaster` và `Connoisseur` để nhận vé miễn phí ngay lập tức.
+</Callout>
+
+<Section icon={Trophy} title="Kinh tế Vé & Thứ tự Ưu tiên Mua Ong Sự Kiện">
+
+Trong Bee Swarm Simulator, vé đóng vai trò là cánh cửa dẫn đến sự tiến triển ở giai đoạn cuối game. Không giống như mật ong, vốn được dùng để nâng cấp trang bị nhanh chóng và mở rộng tổ ong cơ bản, vé được dành riêng để sở hữu các tài sản vĩnh viễn, thay đổi hoàn toàn cục diện trò chơi. Quản lý loại tiền tệ này một cách hiệu quả sẽ giúp ngăn chặn những nút thắt lớn trong giai đoạn giữa game.
+
+Ưu tiên tuyệt đối của bạn khi tiêu vé phải là Lều Vé (Ticket Tent) nằm ở khu vực Đỉnh Núi (Mountain Top). Cửa hàng này bán Ong Sự Kiện, loại ong không cần ô tổ để nở và sở hữu những khả năng độc đáo, mạnh mẽ tăng tiến sức mạnh về cuối game.
+
+<Callout type="tip" title="Mẹo chuyên nghiệp: Tiết kiệm cho Tabby trước">
+Đừng bao giờ tiêu vé ở giai đoạn đầu game vào Trứng Vàng (Gold Eggs) hoặc Sữa Ong Chúa (Royal Jellies) trong Lều Vé. Tiết kiệm **500 vé** cho Tabby Bee là khoản đầu tư tốt nhất mà bạn có thể thực hiện, vì khả năng Tabby Love của nó cần một thời gian dài để tích lũy đến mức tối đa.
+</Callout>
+
+| Ong Sự Kiện | Giá Vé | Ưu tiên Mua | Khả năng Cốt lõi |
+| :--- | :--- | :--- | :--- |
+| **Tabby Bee** | 500 Vé | **Ưu tiên 1** | Tabby Love: Tích lũy lên đến 1000 lần, tăng vĩnh viễn khả năng thu hoạch, chuyển đổi và sức mạnh chí mạng. |
+| **Photon Bee** | 500 Vé | **Ưu tiên 2** | Beam Storm: Chuyển đổi ngay lập tức phấn hoa từ cánh đồng, bỏ qua giới hạn dung lượng ba lô. |
+| **Crimson Bee** | 250 Vé | **Ưu tiên 3** | Red Pulse: Thu thập phấn hoa đỏ và phối hợp với Cobalt Bee để chuyển đổi tức thì. |
+| **Cobalt Bee** | 250 Vé | **Ưu tiên 3** | Blue Pulse: Thu thập phấn hoa xanh và phối hợp với Crimson Bee để chuyển đổi tức thì. |
+| **Festive Bee** | 500 Vé | **Ưu tiên 4** | Festive Gift: Rơi quà trên cánh đồng chứa mật ong, bánh kẹo, bong bóng đỏ hoặc vé cho cả máy chủ. |
+| **Puppy Bee** | 500 Vé | **Ưu tiên 5** | Toy Play: Rơi một quả bóng đồ chơi giúp tăng liên kết với ong khi chơi cùng. |
+
+Để hiểu cách phân bổ vé ngoài Ong Sự Kiện, hãy so sánh các vật phẩm giá trị cao sau đây có sẵn trong Lều Vé và các cửa hàng cuối game:
+
+<CardGrid cols={3}>
+  <Card title="Star Treat (1,000 Vé)">
+    - **Biến bất kỳ con ong nào thành Gifted**
+    - Mở khóa các chỉ số thưởng tổ ong mạnh mẽ
+    - Cần thiết để tạo Supreme Star Amulets
+  </Card>
+  <Card title="Cub Buddy (2,000 Vé)">
+    - **Tự động thu thập token**
+    - Rơi quà miễn phí định kỳ
+    - Nâng cấp chất lượng trải nghiệm cho người cày cuốc tích cực
+  </Card>
+  <Card title="Trứng Vàng (50 Vé)">
+    - **Dùng để chế tạo Mặt nạ Mật ong (Honey Mask)**
+    - Không nên ấp trực tiếp những quả trứng này
+    - Chỉ dùng vé mua khi cần chế tạo
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Mã Code Hoạt động Nhận Vé Miễn Phí">
+
+Cách nhanh nhất để người mới và người chơi cũ tăng số dư vé là nhập các mã khuyến mãi (promo codes) đang hoạt động. Các mã này được phát hành chính thức trong các bản cập nhật, cột mốc cộng đồng và các sự kiện theo mùa.
+
+Trước khi cố gắng nhập bất kỳ mã nào, bạn phải đảm bảo mình đã tham gia nhóm Roblox chính thức của trò chơi, vì một số mã yêu cầu tư cách thành viên nhóm để kích hoạt thành công.
+
+<Callout type="success" title="Yêu cầu Tham gia Nhóm">
+Để nhận phần thưởng chỉ dành cho nhóm, hãy tham gia [Bee Swarm Simulator Club](https://www.roblox.com/communities/3982592/Bee-Swarm-Simulator-Club) trên Roblox. Sau khi tham gia, hãy khởi động trò chơi để mở khóa các máy phân phối độc quyền và nhập mã.
+</Callout>
+
+| Mã Code | Phần thưởng Vé | Phần thưởng Bổ sung | Yêu cầu |
+| :--- | :--- | :--- | :--- |
+| **38217** | **5 Vé** | Không | Không |
+| **BopMaster** | **5 Vé** | Không | Không |
+| **Connoisseur** | **5 Vé** | Không | Không |
+| **Crawlers** | **5 Vé** | Không | Không |
+| **Roof** | **5 Vé** | Không | Không |
+| **Wax** | **5 Vé** | 5,000 Mật ong | Không |
+| **fourtunate** | **10 Ngòi độc** | 1 Marshmallow Bee, Field Dice, Micro-Converters | Không |
+
+</Section>
+
+<Section icon={Map} title="Lộ trình Cày Vé Hàng Ngày Tối Ưu">
+
+Để duy trì dòng vé ổn định mà không chỉ dựa vào nhiệm vụ hoặc mã code, bạn phải thiết lập một lộ trình cày cuốc hàng ngày hiệu quả. Lộ trình này kết hợp các cơ chế giới hạn thời gian, chiến đấu với quái và khám phá bản đồ.
+
+Bằng cách cấu trúc các phiên chơi quanh những hoạt động này, bạn có thể dễ dàng kiếm được 50 đến 100 vé mỗi ngày thông qua lối chơi tích cực.
+
+<Callout type="info" title="Cơ chế Đồng hồ Thịnh vượng">
+Đồng hồ Thịnh vượng (Wealth Clock) nằm gần Cổng 5 Ong. Bạn có thể nhận nó mỗi giờ một lần. Mỗi lần nhận liên tiếp sẽ tăng phần thưởng vé thêm 1, tối đa là **5 vé mỗi lần nhận**. Duy trì chuỗi này là nguồn vé thụ động ổn định nhất trong trò chơi.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Nhận Đồng hồ Thịnh vượng">
+    Bắt đầu phiên chơi của bạn bằng cách chạy đến Cổng 5 Ong và nhận vé từ Đồng hồ Thịnh vượng. Đặt hẹn giờ để quay lại điểm này mỗi giờ nhằm giữ hệ số nhân vé ở mức tối đa là 5 vé.
+  </Step>
+  <Step num="2" title="Thực hiện Vòng Săn Quái Cấp Thấp">
+    Dọn dẹp các cánh đồng khởi đầu. Đánh bại Bọ cánh cứng (Beetle) ở Clover Field, Bọ rùa (Ladybugs) ở Mushroom và Strawberry Fields, và Nhện (Spider) ở Spider Field. Những con quái này có thời gian hồi ngắn và khả năng rơi vé lẻ cao.
+  </Step>
+  <Step num="3" title="Đánh bại Boss Tinh Anh">
+    Lên núi để thách thức Người sói (Werewolf) ở Cactus Field, Vua Bọ cánh cứng (King Beetle) trong hang của nó, và Gấu Đường hầm (Tunnel Bear). Những con boss này đảm bảo rơi nhiều vé khi bị đánh bại, cùng với các nguyên liệu chế tạo quý hiếm.
+  </Step>
+  <Step num="4" title="Sử dụng Máy Bán Vé Khôn ngoan">
+    Nếu bạn dư mật ong, hãy ghé thăm Máy Bán Vé ở Mountain Top Shop. Hãy cẩn thận: chi phí mật ong cho mỗi vé sẽ tăng lên sau mỗi lần mua, khiến nó trở nên kém hiệu quả đối với người chơi mới.
+  </Step>
+</Steps>
+
+Tham khảo bảng săn quái này để lập lộ trình chiến đấu dựa trên thời gian hồi và tiềm năng rơi vé:
+
+| Tên Quái | Vị trí | Thời gian Hồi | Tiềm năng Rơi Vé |
+| :--- | :--- | :--- | :--- |
+| **Bọ rùa** | Clover / Strawberry / Mushroom | 5 Phút | Thấp (Rơi ngẫu nhiên) |
+| **Nhện** | Spider Field | 10 Phút | Trung bình (Thường 1-2 Vé) |
+| **Người sói** | Cactus Field | 30 Phút | Cao (Thường 2-5 Vé) |
+| **Vua Bọ cánh cứng** | Hang King Beetle (Cổng 10 Ong) | 24 Giờ | Rất Cao (Đảm bảo 5-10 Vé) |
+| **Gấu Đường hầm** | Hang Tunnel (Cổng 10 Ong) | 48 Giờ | Cực Cao (Đảm bảo 10-20 Vé) |
+| **Ốc sên gốc cây** | Stump Field | 4 Ngày | Khổng lồ (50+ Vé khi đánh bại) |
+
+</Section>
+
+<Section icon={Target} title="Tiến trình Huy hiệu và Nhiệm vụ Gấu">
+
+Ở giai đoạn đầu đến giữa game, nguồn vé số lượng lớn chính của bạn sẽ là hoàn thành nhiệm vụ từ các NPC Gấu (Bear) khác nhau rải rác trên bản đồ, cùng với việc mở khóa các huy hiệu trò chơi.
+
+Huy hiệu đóng vai trò là những thành tựu vĩnh viễn thưởng cho bạn một lượng vé lớn mỗi khi bạn đạt đến một cấp độ mới (Đồng, Bạc, Vàng, Kim cương và Đại sư).
+
+<Callout type="warning" title="Tránh Bẫy Máy Bán Vé">
+Đừng tiêu mật ong khó khăn lắm mới kiếm được vào Máy Bán Vé để đạt được 500 vé đầu tiên. Thay vào đó, hãy tập trung hoàn toàn vào việc nâng cấp huy hiệu của bạn. Phần thưởng vé từ việc đạt được huy hiệu Vàng và Kim cương là quá đủ để mua Ong Mèo và Ong Photon.
+</Callout>
+
+| Danh mục Huy hiệu | Thưởng Đồng | Thưởng Bạc | Thưởng Vàng | Thưởng Kim cương | Thưởng Đại sư |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Huy hiệu Cánh đồng** | **5 Vé** | **10 Vé** | **15 Vé** | **25 Vé** | **50 Vé** |
+| **Huy hiệu Nhiệm vụ** | **10 Vé** | **20 Vé** | **30 Vé** | **50 Vé** | **100 Vé** |
+| **Huy hiệu Thời gian chơi** | **15 Vé** | **30 Vé** | **50 Vé** | **100 Vé** | **250 Vé** |
+| **Huy hiệu Mật ong** | **10 Vé** | **25 Vé** | **50 Vé** | **100 Vé** | **200 Vé** |
+
+Để đảm bảo bạn đang đi đúng hướng nhanh nhất để mở khóa những phần thưởng này, hãy làm theo danh sách kiểm tra tiến trình sau:
+
+<Checklist
+  id="ticket-progression"
+  title="Các Cột mốc Vé Quan trọng:"
+  items={[
+    "Nhập tất cả các mã code vé đang hoạt động để nhận ngay 30+ vé đầu tiên.",
+    "Đạt cấp Vàng ở ít nhất năm huy hiệu cánh đồng khởi đầu để có 75 vé nhanh chóng.",
+    "Hoàn thành các chuỗi nhiệm vụ sớm của Gấu Đen để tích lũy hơn 150 vé.",
+    "Duy trì chuỗi nhận Đồng hồ Thịnh vượng liên tiếp trong các phiên chơi dài cuối tuần.",
+    "Đánh bại Vua Bọ cánh cứng hàng ngày để đảm bảo dòng vật phẩm cao cấp và vé ổn định."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi Thường gặp">
+
+Để giúp bạn tối ưu hóa việc quản lý tài nguyên, chúng tôi đã tổng hợp các câu trả lời cho những câu hỏi phổ biến nhất về vé và tiến trình bậc sự kiện.
+
+<FAQ items={[
+  {
+    question: "Tôi nên mua Star Treats hay Cub Buddy trước bằng vé của mình?",
+    answer: "Bạn nên luôn luôn mua Star Treats trước. Tặng Star Treat cho Tabby Bee hoặc Photon Bee sẽ mở khóa các chỉ số thưởng tổ ong Gifted cực kỳ mạnh mẽ (như +50% Sức mạnh Chí mạng hoặc +5% Chuyển đổi Tức thì), vượt xa hiệu quả thu thập token thụ động của Cub Buddy."
+  },
+  {
+    question: "Có đáng để mua vé bằng mật ong tại Máy Bán Vé không?",
+    answer: "Chỉ ở giai đoạn cuối game. Giá vé tại máy tăng vĩnh viễn sau mỗi lần mua. Nếu bạn mua quá nhiều lúc đầu, bạn sẽ làm hỏng tỷ lệ chuyển đổi mật ong sang vé khi bạn thực sự có hàng tỷ mật ong dư thừa ở cuối game."
+  },
+  {
+    question: "Tôi có thể nhận vé từ Máy in Sticker không?",
+    answer: "Có, việc quyên góp các sticker giá trị cao cụ thể cho Máy in Sticker hoặc hoàn thành các cột mốc thu thập sticker có thể thưởng cho bạn vé, cùng với các buff cánh đồng và vật phẩm hiếm."
+  },
+  {
+    question: "Các sự kiện theo mùa như Beesmas có tặng thêm vé không?",
+    answer: "Có. Các chuỗi nhiệm vụ sự kiện theo mùa từ các NPC như Bee Bear thưởng cho người chơi hàng trăm vé, vật phẩm lễ hội và các đồ trang trí giới hạn độc đáo không thể kiếm được trong thời gian chơi bình thường."
+  }
+]} />
+
+</Section>

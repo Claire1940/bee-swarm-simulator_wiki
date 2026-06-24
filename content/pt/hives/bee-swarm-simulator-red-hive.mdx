@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Colmeia Vermelha no Bee Swarm Simulator: Melhor Configuração e Guia de Boost para 2026",
+  description: "Domine a melhor configuração de colmeia vermelha no Bee Swarm Simulator. Aprenda a melhor composição de abelhas, equipamentos necessários, passivas do SSA e estratégias de boost ativo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Red+Hive+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build Principal**: A **colmeia vermelha no Bee Swarm Simulator** é especializada em jogabilidade de alto dano e boost de chamas ativo em campos vermelhos.
+- **Passiva Principal**: Você deve desbloquear o **Amuleto de Estrela Suprema** (SSA) com a passiva **Estrela Escaldante** (Scorching Star) antes de mudar.
+- **Abelhas Principais**: Acumule **Abelhas Picantes** (Spicy Bees) e **Abelhas Precisas** (Precise Bees) para gerar chamas vermelhas massivas e alvos de precisão.
+- **Equipamento Essencial**: Priorize a **Máscara de Demônio** (Demon Mask) e trabalhe em direção ao coletor de fim de jogo, a **Foice Sombria** (Dark Scythe).
+- **Melhores Campos**: Foque seus boosts ativos na **Plantação de Pimenta** (Pepper Patch) e no **Campo de Rosas** (Rose Field) para obter o máximo de rendimento de mel.
+</Callout>
+
+<Section icon={Swords} title="O Estilo de Jogo e a Meta da Colmeia Vermelha">
+
+A **colmeia vermelha no Bee Swarm Simulator** é a principal escolha de fim de jogo (late-game) para jogadores que preferem uma jogabilidade altamente ativa e recompensadora. Ao contrário das colmeias Azuis, que dependem de macro passivo e capacidade de balão de escala lenta, as colmeias Vermelhas focam em conversão explosiva instantânea, alto dano de combate e participação ativa no campo. 
+
+O estilo de jogo é construído em torno de duas mecânicas principais: **Calor da Chama** (Flame Heat) e **Precisão** (Precision). O Calor da Chama multiplica sua taxa de coleta de pólen vermelho conforme você coleta fichas de chamas vermelhas, enquanto os alvos de Precisão permitem que você converta pólen instantaneamente no campo e alcance coletas supercríticas massivas. Para ajudar você a decidir se esta build se adapta aos seus objetivos de progressão, comparamos as três direções de colmeias especializadas abaixo.
+
+| Cor da Colmeia | Estilo de Jogo | Campos Principais | Ativo/Passivo | Custo para Iniciar |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vermelha** | Explosão ativa, combate alto | Plantação de Pimenta, Campo de Rosas | Altamente Ativo | Alto (Requer SSA duplo) |
+| **Azul** | Macro passivo, armazenamento de balão | Floresta de Pinheiros | Semipassivo | Baixo (SSA único barato) |
+| **Branca** | Uso intenso de recursos, baseado em gosma | Campo de Coco | Altamente Ativo | Extremamente Alto (Crafting complexo) |
+
+<Callout type="warning" title="Não Mude Cedo Demais">
+Mudar para uma build de cor especializada antes de completar suas principais linhas de missão e garantir um Amuleto de Estrela Suprema atrasará severamente sua progressão. Sempre mantenha uma colmeia mista durante o início e o meio do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Composição Essencial de Abelhas para uma Colmeia Vermelha no Bee Swarm Simulator">
+
+Construir uma **colmeia vermelha no Bee Swarm Simulator** bem-sucedida requer um equilíbrio altamente específico de abelhas Míticas, abelhas de Evento e abelhas de suporte utilitárias. Seu objetivo principal é gerar o máximo possível de chamas vermelhas e alvos de precisão, mantendo bônus críticos como Foco (Focus) e Melodia (Melody). 
+
+O motor principal da sua colmeia consiste em **Abelhas Picantes** (Spicy Bees) e **Abelhas Precisas** (Precise Bees). As Abelhas Picantes geram abelhas de fogo que viajam pelo campo, deixando um rastro de chamas vermelhas que aumentam o seu Calor da Chama. As Abelhas Precisas geram alvos vermelhos no campo; pisar nesses alvos concede conversão instantânea de pólen e acumula o bônus de Precisão, o que aumenta sua chance supercrítica.
+
+<CardGrid cols={4}>
+  <Card title="Abelha Precisa">
+    Gera alvos de precisão vermelhos no campo, proporcionando conversão instantânea e coleta de pólen supercrítica.
+  </Card>
+  <Card title="Abelha Picante">
+    Gera abelhas de fogo que criam chamas vermelhas, aumentando o multiplicador de Calor da Chama e o dano de combate.
+  </Card>
+  <Card title="Abelha Vetorial">
+    Triangula marcas para coletar quantidades massivas de pólen de grandes áreas triangulares do campo.
+  </Card>
+  <Card title="Abelha Carmesim">
+    Fornece sinergia essencial de bomba vermelha e conversão vermelha instantânea quando mutada (gifted).
+  </Card>
+</CardGrid>
+
+Para otimizar sua colmeia, busque a seguinte composição de abelhas assim que desbloquear de 48 a 50 espaços de colmeia:
+
+| Tipo de Abelha | Quantidade Recomendada | Função Principal na Colmeia | Nível de Prioridade |
+| :--- | :--- | :--- | :--- |
+| **Abelha Precisa** | 10-12 | Gera alvos de precisão, conversão de pólen vermelho | Essencial |
+| **Abelha Picante** | 10-12 | Gera abelhas de fogo, aumenta o calor da chama | Essencial |
+| **Abelha Vetorial** | 3-4 | Sinergia de marcas, coleta triangular de pólen | Alta |
+| **Abelha Felpuda** | 1-2 (Mutada) | Poliniza flores, melhora os níveis das flores | Média |
+| **Abelha Malhada** | 1 (Mutada) | Poder crítico, conversão massiva | Essencial |
+| **Abelha Carmesim** | 1 (Mutada) | Sinergia de bomba vermelha, conversão instantânea | Essencial |
+| **Abelha da Música** | 3-4 | Mantém fichas de Melodia e Foco | Alta |
+| **Abelha Comandante** | 1 (Mutada) | Aumenta o poder crítico em toda a colmeia | Alta |
+
+<Callout type="tip" title="Prioridade de Mutadas (Gifted)">
+Sempre priorize transformar suas abelhas de Evento em mutadas (gifted) primeiro, como a Malhada e a Carmesim, seguidas pelas Abelhas Picantes e Precisas. Abelhas Picantes mutadas geram abelhas de fogo mais fortes que aumentam significativamente o multiplicador de calor da chama.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progressão de Equipamentos e Requisitos de Amuleto">
+
+Para suportar o estilo de jogo de alta intensidade de uma Colmeia Vermelha, você deve equipar itens que maximizem a coleta de pólen vermelho e a conversão instantânea. As colmeias vermelhas naturalmente sofrem com baixa capacidade de mochila, o que significa que seus equipamentos e amuletos devem focar fortemente em converter o pólen diretamente no campo antes que sua mochila transborde.
+
+A base da sua configuração de equipamentos é a **Máscara de Demônio** (Demon Mask), que concede a habilidade "Inflamar" (Ignite) e armadura de chama passiva. Seu objetivo final de fim de jogo é a **Foice Sombria** (Dark Scythe), um coletor que aumenta dinamicamente o pólen vermelho com base nas chamas ativas no campo.
+
+| Equipamento | Localização / Loja | Atributos e Bônus Principais | Prioridade de Crafting |
+| :--- | :--- | :--- | :--- |
+| **Máscara de Demônio** | Loja do Topo da Montanha | +X% de Pólen Vermelho, Conversão Vermelha Instantânea, Armadura de Chama | Muito Alta |
+| **Guarda Carmesim** | Loja do Distintivo de Ás | +X% de Pólen Vermelho, Sinergia de Bomba Vermelha, Defesa Vermelha | Alta |
+| **Foice Sombria** | Loja Vermelha de Fim de Jogo | Pólen Vermelho Massivo, Habilidades de Chama da Foice | Objetivo Final |
+| **Amuleto de Estrela Suprema** | Salão da Estrela | Passiva Estrela Escaldante, Multiplicadores de pólen vermelho | Obrigatório para Iniciar |
+
+Seu Amuleto de Estrela Suprema (SSA) é o item mais importante para esta build. Você não pode operar uma Colmeia Vermelha bem-sucedida sem a passiva **Estrela Escaldante** (Scorching Star). Esta passiva invoca uma estrela gigante que coleta pólen e o converte instantaneamente com base no seu Calor da Chama ativo. Para a configuração perfeita de passiva dupla, combine a Estrela Escaldante com a **Serra Estelar** (Star Saw - que converte pólen ao usar ferrões) ou **Chuva de Estrelas** (Star Shower - para capacidade extra).
+
+<Callout type="info" title="Atributos Secundários do Amuleto Importam">
+Ao rolar seu Amuleto de Estrela Suprema, procure por Pólen Vermelho, Chance Crítica, Pólen e Taxa de Habilidade de Abelha. Até mesmo uma Estrela Escaldante de passiva única com atributos secundários perfeitos pode superar um amuleto de passiva dupla medíocre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias de Boost Ativo e Farm">
+
+Fazer boost com uma Colmeia Vermelha é um processo ativo e rápido. Para obter o máximo de mel de suas sessões de boost, você deve preparar seu campo, acumular seus néctares e executar sua rotação de itens perfeitamente. Foque seus esforços na **Plantação de Pimenta** (Pepper Patch) ou no **Campo de Rosas** (Rose Field), pois esses campos oferecem a maior concentração de flores vermelhas.
+
+<Steps>
+  <Step num="1" title="Prepare Néctares e Materiais">
+    Certifique-se de ter ativo o Néctar Satisfatório (Satisfying Nectar - para capacidade e conversão) e o Néctar Revigorante (Invigorating Nectar - para poder crítico e velocidade do jogador). Acumule microconversores, extratos vermelhos, ferrões e bebidas tropicais.
+  </Step>
+  <Step num="2" title="Aplique Boosts de Campo">
+    Use o Gerador de Boost de Campo Vermelho na Loja do Topo da Montanha ou use Dados de Campo até garantir um multiplicador alto na Plantação de Pimenta ou no Campo de Rosas.
+  </Step>
+  <Step num="3" title="Acumule Calor da Chama e Precisão">
+    Entre no campo e deixe suas Abelhas Picantes acumularem Calor da Chama. Corra fisicamente sobre os alvos de precisão vermelhos gerados por suas Abelhas Precisas para acumular seu multiplicador de Precisão até x10.
+  </Step>
+  <Step num="4" title="Ative Itens de Boost Ativo">
+    Use um Extrato Vermelho, uma Bebida Tropical e ative sua Serra Estelar usando um Ferrão. Essa combinação maximiza sua coleta de pólen vermelho enquanto mantém sua mochila vazia por meio da conversão instantânea.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maximize os Alvos de Precisão">
+Certifique-se de pisar fisicamente nos alvos de precisão vermelhos gerados por suas Abelhas Precisas. Perder esses alvos desperdiça grandes oportunidades de conversão instantânea e reduz seu multiplicador crítico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Transição para Colmeia Vermelha">
+
+Antes de gastar trilhões de mel rolando abelhas míticas e mudando seus equipamentos, use esta lista de verificação para garantir que sua conta esteja totalmente preparada para a transição. Mudar cedo demais é o erro mais comum que os jogadores cometem, resultando em uma colmeia severamente enfraquecida que não consegue gerar mel.
+
+<Checklist
+  id="red-hive-readiness"
+  title="Critérios de Prontidão para Transição:"
+  items={[
+    "Amuleto de Estrela Suprema desbloqueado com pelo menos a passiva Estrela Escaldante",
+    "Pelo menos 45 espaços de colmeia comprados e preenchidos",
+    "Máscara de Demônio fabricada e equipada",
+    "Guarda Carmesim e Cinto de Favo de Mel adquiridos",
+    "Pelo menos 500 Extratos Vermelhos e 300 Ferrões estocados para boosts",
+    "Geleias Reais suficientes para rolar pelo menos 10 Abelhas Picantes e 10 Abelhas Precisas"
+  ]}
+/>
+
+<Callout type="warning" title="A Armadilha da Capacidade">
+As colmeias vermelhas sofrem com baixa capacidade de mochila em comparação com as colmeias azuis. Se você fizer a transição sem a Máscara de Demônio ou uma passiva de SSA adequada, como a Serra Estelar, sua mochila encherá instantaneamente, arruinando seu boost e forçando você a voltar para a colmeia constantemente.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso usar uma colmeia vermelha sem um Amuleto de Estrela Suprema (SSA)?",
+    answer: "Não. A passiva Estrela Escaldante é o motor absoluto da build de colmeia vermelha. Sem ela, você não terá o poder de conversão ou os multiplicadores de pólen necessários para sustentar o farm vermelho."
+  },
+  {
+    question: "Qual é melhor para colmeias vermelhas: Plantação de Pimenta ou Campo de Rosas?",
+    answer: "A Plantação de Pimenta é geralmente superior devido às suas flores de nível mais alto e melhor dimensionamento de boost. No entanto, o Campo de Rosas é uma excelente alternativa se você tiver um boost de campo específico ou requisito de missão lá."
+  },
+  {
+    question: "De quantas Abelhas Precisas eu preciso para uma configuração padrão?",
+    answer: "Uma configuração padrão de fim de jogo requer de 10 a 12 Abelhas Precisas. Isso garante um fluxo constante de alvos de precisão para conversão instantânea no campo e multiplicadores críticos."
+  },
+  {
+    question: "A build de Colmeia Vermelha é boa para combate e lutas contra chefes?",
+    answer: "Sim. As colmeias vermelhas se destacam na saída de dano bruto, tornando-as a melhor escolha para derrotar o Caranguejo de Coco (Coconut Crab), o Pintinho Comando (Commando Chick) e progredir nos Desafios do Urso Robô (Robo Bear Challenges)."
+  }
+]} />
+
+<Callout type="success" title="Lembrete do Clube do Roblox">
+Certifique-se de ser um membro do Clube oficial do Bee Swarm Simulator no Roblox para resgatar recompensas diárias gratuitas e boosts de campo que ajudam na progressão da sua Colmeia Vermelha.
+</Callout>
+
+</Section>

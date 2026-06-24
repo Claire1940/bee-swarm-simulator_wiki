@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vicious Bee no Bee Swarm Simulator: Guia de Spawn e Combate",
+  description: "Domine a Vicious Bee no Bee Swarm Simulator com locais de spawn, rotas de farm no ciclo noturno, estratégias de combate e guia de custo de ferrões para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/f6c518?text=Vicious+Bee+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Alvo principal**: Rastreie os espinhos da Vicious Bee do Bee Swarm Simulator nos campos durante os ciclos noturnos.
+- **Campos de spawn principais**: Procure nos campos Clover, Spider, Cactus, Rose e Mountain Top.
+- **Recompensa de combate**: Derrote a abelha selvagem para obter Ferrões (Stingers) para desbloquear o ovo.
+- **Custo de desbloqueio**: Economize 250 Ferrões para comprar o ovo no posto avançado sombrio do Rose Field.
+- **Prioridade de Gifted**: Transforme esta abelha em Gifted cedo para reduzir o tempo de respawn de monstros em 15%.
+</Callout>
+
+<Section icon={Sparkles} title="Atributos Básicos e Mecânicas da Vicious Bee">
+
+Para maximizar sua eficiência de combate, entender as mecânicas da **Vicious Bee no Bee Swarm Simulator** é essencial para a progressão no meio de jogo (mid-game). Ao contrário das abelhas coletoras tradicionais que se concentram inteiramente na coleta de pólen, a Vicious Bee é uma Abelha de Evento azul projetada especificamente para a batalha. Ela domina o campo causando um dano massivo de espinho em alvo único, tornando-se a principal escolha para derrotar chefes de campo, insetos hostis e monstros de alto nível.
+
+A principal habilidade desta abelha gira em torno de seu movimento característico: Impalar (Impale). Quando ativa, a Vicious Bee evoca espinhos gigantes debaixo da terra, empalando inimigos com um dano que escala diretamente com o nível da abelha e seu poder de ataque. Essa habilidade a torna indispensável para zonas de combate desafiadoras, como o Ant Challenge, Robo Bear Challenge e arenas de chefes.
+
+| Atributo | Valor Base | Valor Gifted | Impacto em Combate |
+| :--- | :--- | :--- | :--- |
+| **Ataque** | 4 | 5 | Alto dano de espinho em alvo único |
+| **Velocidade** | 14.4 | 16.8 | Coleta rápida de tokens e movimento |
+| **Coleta** | 10 de pólen | 15 de pólen | Baixo foco em coleta |
+| **Energia** | 100 | 150 | Estamina excepcional durante lutas contra chefes |
+
+Para ajudar você a decidir onde esta abelha se encaixa em sua rota de progressão, compare-a com outras Abelhas de Evento de alta prioridade disponíveis no jogo:
+
+<CardGrid cols={3}>
+  <Card title="Vicious Bee">
+    - **Função**: Combate e dano de espinho
+    - **Melhor Campo**: Rose, Cactus, Mountain Top
+    - **Benefício Principal**: Reduz o tempo de respawn de monstros
+  </Card>
+  <Card title="Tabby Bee">
+    - **Função**: Conversão e coleta
+    - **Melhor Campo**: Clover, Pumpkin, Pine Tree
+    - **Benefício Principal**: Escalonamento massivo de poder crítico
+  </Card>
+  <Card title="Photon Bee">
+    - **Função**: Coleta instantânea de pólen
+    - **Melhor Campo**: Sunflower, Pineapple, Coconut
+    - **Benefício Principal**: Energia infinita e tempestade de raios
+  </Card>
+</CardGrid>
+
+Embora a Vicious Bee não se destaque na coleta direta de pólen, sua capacidade de limpar campos de monstros hostis rapidamente permite que suas outras abelhas coletem pólen sem interrupções. Essa sinergia é vital para manter sessões de farm de alto rendimento.
+
+<Callout type="info" title="Análise de Função de Combate">
+A Vicious Bee deve ser colocada perto da parte inferior da grade da sua colmeia. Esse posicionamento minimiza a distância física percorrida por seus tokens de combate, permitindo que você os colete instantaneamente durante batalhas intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Locais de Spawn da Vicious Bee no Bee Swarm Simulator">
+
+Encontrar uma Vicious Bee selvagem requer uma boa compreensão dos ciclos de dia e noite do jogo. As versões selvagens desta abelha não vagam livremente; em vez disso, elas spawnam como espinhos de sombra estacionários escondidos em campos específicos exclusivamente durante a fase da noite. A fase do dia no jogo dura 14 minutos, seguida por uma fase da noite de 6 minutos.
+
+Assim que a noite cai, há uma chance fixa de um espinho de ferrão emergir do solo. Para iniciar a luta contra o chefe, você deve mover fisicamente seu personagem diretamente para o ferrão saliente. O espinho pode spawnar em um dos cinco campos designados, dependendo de sua progressão e zonas desbloqueadas.
+
+| Nome do Campo | Requisito de Portão | Probabilidade de Spawn | Dificuldade do Terreno |
+| :--- | :--- | :--- | :--- |
+| **Clover Field** | 0 Abelhas | Baixa | Plano, fácil de navegar |
+| **Spider Field** | 5 Abelhas | Média | Spawn de aranha por perto |
+| **Cactus Field** | 15 Abelhas | Média | Obstáculos de alta elevação |
+| **Rose Field** | 15 Abelhas | Alta | Flores de campo vermelhas |
+| **Mountain Top** | 25 Abelhas | Muito Alta | Perigos ambientais perigosos |
+
+Para farmar ferrões de forma eficiente, você deve estabelecer uma rota de patrulha confiável. Assim que o ciclo noturno começar, use o canhão vermelho ou o lançador amarelo para ganhar altitude e, em seguida, escaneie os campos Clover, Spider, Cactus, Rose e Mountain Top de cima. Procure por um espinho escuro e brilhante saindo do solo.
+
+<Callout type="tip" title="Dica de Spawn no Ciclo Noturno">
+Ouça com atenção quando a noite cair. Um sino sutil e de tom baixo toca globalmente pelo mapa se um espinho de Vicious Bee selvagem tiver spawnado em um dos campos ativos. Se você ouvir esse som, pare tudo o que estiver fazendo e comece a procurar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Combate: Como Derrotar a Vicious Bee Selvagem">
+
+Derrotar uma Vicious Bee selvagem requer movimentação cuidadosa e preparação. O nível da abelha selvagem é determinado pela abelha de maior nível na sua colmeia atual. Por exemplo, se a sua abelha mais forte for nível 8, a Vicious Bee selvagem spawonará no nível 8. Essa mecânica de escalonamento garante que a luta continue desafiadora durante toda a sua jornada.
+
+Durante a batalha, a abelha selvagem flutuará sobre o campo e periodicamente invocará espinhos terrestres, marcados por sombras circulares escuras. Ficar dentro dessas sombras quando o espinho emerge causa um dano massivo ao seu personagem e pode facilmente resultar em uma derrota repentina.
+
+| Nível da Abelha Selvagem | HP Aproximado | Ferrões Garantidos | Itens de Bônus |
+| :--- | :--- | :--- | :--- |
+| **Nível 1-3** | 500 - 1500 | 1 a 2 | Mel, Petiscos |
+| **Nível 4-6** | 2000 - 4500 | 2 a 4 | Geleia Real, Mirtilos |
+| **Nível 7-9** | 6000 - 10000 | 4 a 6 | Dados de Campo, Bitterberries |
+| **Nível 10-12** | 12000 - 20000 | 5 a 10 | Geleia Estelar, Microconversores |
+
+Para garantir que você sobreviva ao encontro e resgate suas recompensas, use a seguinte lista de preparação antes de enfrentar o chefe:
+
+<Checklist
+  id="vicious-prep"
+  title="Lista de Preparação para a Vicious Bee:"
+  items={[
+    "Equipe seus equipamentos defensivos de maior dano, como os Protetores Crimson ou Cobalt.",
+    "Acumule tokens de Focus (Foco) e Rage (Fúria) de suas outras abelhas antes de entrar no campo.",
+    "Certifique-se de que suas abelhas estejam totalmente alimentadas com petiscos para manter a estamina máxima de combate.",
+    "Ative um boost de campo azul ou vermelho para acelerar a coleta de tokens durante a luta.",
+    "Mantenha Microconversores prontos para esvaziar sua mochila sem precisar sair da zona de combate."
+  ]}
+/>
+
+Durante a luta, concentre-se inteiramente em desviar das sombras dos espinhos, mantendo seu personagem perto o suficiente de suas abelhas para coletar seus tokens de combate e fúria. Não corra para muito longe do campo, caso contrário, a abelha selvagem desaparecerá, forçando você a esperar pelo próximo ciclo noturno.
+
+<Callout type="warning" title="Aviso de Evasão de Espinhos">
+Os espinhos terrestres invocados pela abelha selvagem atordoarão temporariamente seu personagem e removerão seus buffs de velocidade de movimento. Sempre priorize desviar das sombras circulares em vez de coletar tokens de pólen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guia de Aquisição: Gastando Ferrões e Bônus de Gifted">
+
+Você não pode chocar a Vicious Bee a partir de um ovo padrão ou obtê-la através de giros de Geleia Real. Em vez disso, você deve comprar seu ovo no Posto Avançado Sombrio (Shadow Outpost) usando Ferrões. Isso exige um farm significativo, tornando o gerenciamento de Ferrões uma prioridade máxima durante a transição do início para o meio do jogo.
+
+Siga estes passos para coletar com sucesso os recursos necessários e resgatar sua própria Vicious Bee:
+
+<Steps>
+  <Step num="1" title="Colete 250 Ferrões">
+    Derrote Vicious Bees selvagens durante os ciclos noturnos, complete as doações diárias no Wind Shrine (Santuário do Vento) e resgate o ferrão grátis diário no distribuidor do Cactus Field, atrás do portão de 15 abelhas.
+  </Step>
+  <Step num="2" title="Localize o Posto Avançado Sombrio">
+    Suba a rampa perto do Rose Field e vá para trás da área do portão de 20 abelhas para encontrar o pedestal preto oculto de Ferrão.
+  </Step>
+  <Step num="3" title="Compre o Ovo da Vicious Bee">
+    Interaja com o pedestal sombrio para trocar seus 250 Ferrões acumulados pelo Ovo da Vicious Bee.
+  </Step>
+  <Step num="4" title="Choque e Posicione a Abelha">
+    Coloque o ovo em um espaço vazio na sua colmeia. Posicione-o nas linhas inferiores para garantir que seus tokens de combate caiam perto do seu personagem.
+  </Step>
+</Steps>
+
+Depois de chocar a abelha, seu próximo grande objetivo deve ser transformá-la em uma Abelha Gifted. Uma Vicious Bee Gifted fornece um dos bônus passivos mais poderosos de todo o jogo: uma redução permanente de 15% no tempo de respawn de monstros. Esse bônus acelera drasticamente suas rotas de farm de materiais, permitindo que você derrote monstros como o Werewolf (Lobisomem), Spider (Aranha) e Ladybugs (Joaninhas) com muito mais frequência.
+
+| Estado de Upgrade | Tempo de Recarga de Impale | Modificador de Respawn de Monstros | Poder de Ataque |
+| :--- | :--- | :--- | :--- |
+| **Vicious Bee Normal** | 30 Segundos | 0% | 4 de Ataque Base |
+| **Vicious Bee Gifted** | 25 Segundos | -15% de Tempo de Respawn | 5 de Ataque Base |
+
+Para aprimorar sua abelha, dê a ela um Star Treat. Este é o método mais confiável, já que Abelhas de Evento não têm petiscos favoritos e não podem se tornar gifted através de alimentos comuns.
+
+<Callout type="success" title="Recomendação de Prioridade de Gifted">
+Usar seu primeiro Star Treat na Vicious Bee é altamente recomendado. O tempo reduzido de respawn de monstros acelera o acúmulo de materiais de criação, permitindo que você fabrique equipamentos de meio de jogo muito mais rápido em 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+Para ajudar você a finalizar sua estratégia de farm e otimizar seu desempenho de combate, revise estas respostas para as perguntas mais comuns da comunidade sobre a Vicious Bee.
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor lugar para farmar ferrões para a vicious bee no bee swarm simulator?",
+    answer: "A maneira mais eficiente de farmar ferrões é caçar Vicious Bees selvagens durante o ciclo noturno nos campos Clover, Spider, Cactus, Rose e Mountain Top. Você também pode resgatar um ferrão grátis diariamente no distribuidor do Cactus Field assim que desbloquear o portão de 15 abelhas."
+  },
+  {
+    question: "O nível da Vicious Bee Selvagem afeta as recompensas?",
+    answer: "Sim. Vicious Bees selvagens de nível mais alto (Níveis 10 a 12) dropam significativamente mais ferrões (até 10 por derrota) e têm uma chance maior de dropar itens raros, como Geleias Estelares e Microconversores."
+  },
+  {
+    question: "A Vicious Bee é boa para uma Colmeia Azul (Blue Hive) ou Colmeia Vermelha (Red Hive)?",
+    answer: "A Vicious Bee é uma Abelha de Evento Azul, o que a torna uma escolha natural para Colmeias Azuis. No entanto, devido à sua incrível utilidade em combate e habilidade de espinho, ela é altamente recomendada para todas as colmeias mistas, vermelhas e brancas durante as fases inicial e intermediária do jogo."
+  },
+  {
+    question: "Qual é a maneira mais rápida de tornar a Vicious Bee gifted?",
+    answer: "Dar um Star Treat é a única maneira 100% garantida de tornar sua Vicious Bee gifted. Não é recomendado gastar Gingerbread Bears ou Bitterberries em abelhas de evento, a menos que você tenha um excedente massivo."
+  }
+]} />
+
+<Callout type="info" title="Verificação Final de Progressão">
+Lembre-se de equilibrar seus upgrades de combate com equipamentos de coleta de pólen. Embora a Vicious Bee se destaque na batalha, produzir mel continua sendo seu principal motor de crescimento. Mantenha sua mochila e ferramentas de coleta atualizadas junto com o nível da sua colmeia.
+</Callout>
+
+</Section>

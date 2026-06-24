@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Favorite Treats: Feeding Guide",
+  description: "Optimize your hive with our comprehensive Bee Swarm Simulator favorite treats guide. Learn gifted odds, feeding strategies, and treat farming locations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f6c518/000?text=Favorite+Treats+Guide",
+  date: "2026-06-24",
+  author: "bee swarm simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary mechanic**: Feeding a bee its **bee swarm simulator favorite treats** doubles the bond gained per item from 5 to 10 points.
+- **Gifted transformation**: Every favorite treat fed has a small chance to turn a bee Gifted, ranging from 1 in 8,000 to 1 in 24,000.
+- **Targeted feeding**: Always match treat colors to bee colors (Strawberries for Red, Blueberries for Blue) to maximize efficiency.
+- **Farming strategy**: Grind key fields like Pepper Patch, Pine Tree Forest, and Pumpkin Patch to stockpile treats quickly.
+</Callout>
+
+<Section icon={Map} title="Treat Compatibility & Bond System">
+
+Understanding how treats interact with your hive is the cornerstone of progression. In Bee Swarm Simulator, feeding your bees is the primary method to level them up, which increases their gather amount, attack power, and conversion speed. While basic Treats bought from the dispenser provide a flat 10 bond, specialized treats like Strawberries, Blueberries, Pineapples, and Sunflower Seeds behave differently based on which bee consumes them.
+
+When a bee is fed its designated favorite treat, the bond reward is doubled. If you feed a treat to a bee that does not favor it, the bond is halved to a meager 5 points, and you completely forfeit any chance of triggering a gifted transformation. Therefore, random feeding is highly inefficient and wastes valuable crafting resources.
+
+### Treat Efficiency Metrics
+
+The table below outlines the core differences in bond yields and transformation capabilities between basic treats and specialized treats.
+
+| Treat Type | Base Bond | Favorite Bee Bond | Gifted Transformation Chance |
+| :--- | :--- | :--- | :--- |
+| **Sunflower Seed** | 5 | 10 | 1 in 8,000 (Non-Mythic) |
+| **Strawberry** | 5 | 10 | 1 in 8,000 (Non-Mythic) |
+| **Blueberry** | 5 | 10 | 1 in 8,000 (Non-Mythic) |
+| **Pineapple** | 5 | 10 | 1 in 8,000 (Non-Mythic) |
+| **Treat (Basic)** | 10 | N/A | Cannot trigger transformation |
+
+### Favorite Treat Assignments
+
+To ensure you never waste your hard-earned resources, use this compatibility list to match the correct treat with your specific bees.
+
+| Bee Color / Type | Favorite Treat | Example Bees |
+| :--- | :--- | :--- |
+| **Red Bees** | Strawberry | Rad, Riley, Fire, Shy, Rage, Spicy, Precise |
+| **Blue Bees** | Blueberry | Cool, Bucko, Frosty, Diamond, Ninja, Tadpole, Buoyant |
+| **White / Colorless** | Pineapple | Stubborn, Exhausted, Carpenter, Vector |
+| **Colorless / Support** | Sunflower Seed | Basic, Bomber, Looker, Commander, Music, Baby, Photon |
+
+<CardGrid cols={2}>
+  <Card title="Red Hive Optimization">
+    Focus your **Strawberry** reserves entirely on Red Bees. This is crucial for leveling up high-tier attackers like Spicy and Precise Bees while hunting for their gifted variants.
+  </Card>
+  <Card title="Blue Hive Optimization">
+    Keep your **Blueberries** dedicated to Blue Bees. Blue hives rely heavily on high-level Tadpole and Buoyant Bees to sustain bubble and balloon capacities.
+  </Card>
+  <Card title="White Hive Optimization">
+    Use **Pineapples** to feed Carpenter and Vector Bees. White hives require massive amounts of enzymes, so balance feeding with crafting needs.
+  </Card>
+  <Card title="Colorless & Event Support">
+    **Sunflower Seeds** are best spent on support bees like Music and Baby Bees, or event bees like Photon Bee to steadily increase their bond levels.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip: Event Bee Feeding Limits">
+While Event Bees like Photon Bee, Tabby Bee, and Gummy Bee can eat Sunflower Seeds or other treats for bond, they **cannot** be turned Gifted through favorite treats. Save your treats for regular or Mythic bees, and only use Star Treats or seasonal Gingerbread Bears on Event Bees.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gifted Transformation Odds & Costs">
+
+Turning your bees into **Gifted Bees** is essential for unlocking powerful hive-wide passive bonuses. While Star Treats offer a guaranteed transformation, using **bee swarm simulator favorite treats** is the most common method for non-event bees. However, this process relies heavily on random number generation (RNG).
+
+The chance of a bee becoming gifted from a single favorite treat depends entirely on its rarity. Because the odds are quite low, you must prepare to feed thousands of treats in a single session to secure a transformation.
+
+### Gifted Transformation Probabilities
+
+The following data represents the average statistical requirements for transforming bees using their favorite treats.
+
+| Bee Rarity | Base Gifted Chance | Average Treats Required | Estimated Honey Cost (Equivalent) |
+| :--- | :--- | :--- | :--- |
+| **Rare Bees** | 1 in 8,000 | 8,000 treats | 40,000,000 Honey |
+| **Epic Bees** | 1 in 8,000 | 8,000 treats | 40,000,000 Honey |
+| **Legendary Bees** | 1 in 8,000 | 8,000 treats | 40,000,000 Honey |
+| **Mythic Bees** | 1 in 24,000 | 24,000 treats | 120,000,000 Honey |
+| **Event Bees** | N/A | Impossible via treats | Requires Star Treat |
+
+Because these numbers are statistical averages, you might get lucky and transform a bee in under 1,000 treats, or you might find yourself empty-handed after spending 20,000. For Mythic bees, the 1 in 24,000 odds make treat-based transformation a late-game endeavor.
+
+<Callout type="warning" title="Warning: Crafting vs. Feeding Dilemma">
+Before dumping thousands of Strawberries, Blueberries, or Pineapples into your hive, remember that these items are key ingredients for crafting high-tier gear. For example, Blue Extracts require Blueberries, and Enzymes require Pineapples. Do not leave yourself unable to craft your next major gear upgrade because you chased a gifted roll too early.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimal Feeding Step-by-Step">
+
+To minimize resource waste and maximize your chances of success, you should follow a structured feeding protocol. Blindly clicking the feed button can result in over-leveling bees you plan to replace or wasting rare treats on the wrong targets.
+
+<Steps>
+  <Step num="1" title="Identify Your Target Bee">
+    Analyze your hive and select a single bee that needs a gifted bonus or a level upgrade. Prioritize bees that offer universally beneficial hive bonuses, such as Commander Bee (+5% Critical Chance) or Music Bee (+10% Critical Power).
+  </Step>
+  <Step num="2" title="Stockpile a Safe Margin of Treats">
+    Do not attempt a gifted transformation with only 1,000 treats. For regular bees, wait until you have at least 10,000 of their favorite treat. For Mythic bees, do not start until you have accumulated at least 25,000 to 30,000 treats to combat bad RNG.
+  </Step>
+  <Step num="3" title="Configure Your Feeding Settings">
+    Open your hive menu, click on the target bee, and select the appropriate treat. Use the batch slider or select the "Until Gifted" option if you have a massive stockpile. This prevents manual clicking and stops feeding immediately once the bee transforms.
+  </Step>
+  <Step num="4" title="Re-evaluate Hive Synergy">
+    Once a bee becomes gifted, its hive bonus is active. Because identical gifted bonuses do not stack, immediately identify any duplicate gifted bees in your hive and prepare to replace them with other unique types to diversify your bonuses.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success: Gifted Hive Bonus Activation">
+Once a bee transforms, its unique hive bonus applies to your entire character instantly. Always prioritize keeping one of each gifted Rare, Epic, and Legendary bee in your hive before aiming for pure color specialization.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Farming Routes & Treat Gathering">
+
+To sustain a healthy feeding cycle, you must know where and how to farm treats efficiently. While purchasing treats from the dispenser near the Mother Bear zone is an option, it is incredibly expensive for early and mid-game players. Farming fields and defeating mobs is the most cost-effective way to build your inventory.
+
+Different fields have varying drop rates for specific treats. Aligning your farming sessions with your current treat needs will speed up your progression significantly.
+
+### High-Yield Treat Farming Locations
+
+Grind in these specific fields to maximize your passive treat acquisition while gathering pollen.
+
+| Field Name | Primary Treat Drop | Secondary Drop / Crafting Material | Recommended Sprinkler Setup |
+| :--- | :--- | :--- | :--- |
+| **Sunflower Field** | Sunflower Seed | Basic Treat | Silver Sprinkler or higher |
+| **Strawberry Field** | Strawberry | Moon Charm | Gold Sprinkler or higher |
+| **Bamboo Forest** | Blueberry | Blue Extract | Diamond Sprinkler or higher |
+| **Pineapple Patch** | Pineapple | Enzyme | Supreme Sprinkler |
+| **Pepper Patch** | Strawberry | Red Extract | Supreme Sprinkler |
+| **Pine Tree Forest** | Blueberry | Glue | Supreme Sprinkler |
+
+In addition to field grinding, utilizing daily dispensers and defeating seasonal or local mobs provides a steady influx of resources without draining your active playing time.
+
+<Checklist
+  id="daily-treat-checklist"
+  title="Daily Treat Gathering Routine:"
+  items={[
+    "Claim free rewards from the Strawberry, Blueberry, and Pineapple dispensers every 4 hours.",
+    "Defeat the King Beetle and Tunnel Bear bosses daily for guaranteed rare treat bundles.",
+    "Complete Mother Bear and Polar Bear quests to earn direct treat rewards and permanent feeding buffs.",
+    "Defeat the Spider and Werewolf mobs on cooldown to collect extra Strawberries and Blueberries.",
+    "Participate in the Memory Match mini-games to secure high-value treat packages."
+  ]}
+/>
+
+<Callout type="info" title="Note: Polar Bear Feeding Buff">
+Completing Polar Bear quests rewards you with Polar Power. This permanent buff increases your bees' energy capacity, reducing the frequency with which they must rest at the hive, indirectly boosting your overall pollen-to-honey conversion rates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+To help clarify common misconceptions about the feeding system, we have compiled the most frequent questions from the community.
+
+<FAQ items={[
+  {
+    question: "Can I use favorite treats on Event Bees to make them gifted?",
+    answer: "No. Event Bees (such as Tabby, Photon, Festive, Crimson, Cobalt, and Gummy) do not have favorite treats. Feeding them standard treats will only grant bond. To make an Event Bee gifted, you must feed it a Star Treat or use seasonal items like Gingerbread Bears."
+  },
+  {
+    question: "Is it worth buying treats with Honey from the dispenser?",
+    answer: "Only in the late-game. Buying basic treats costs 10,000 Honey each, which adds up incredibly fast. Until you can easily make billions of honey per farming session, rely on active field grinding, dispensers, and boss drops to gather your treats."
+  },
+  {
+    question: "Do identical Gifted Hive Bonuses stack if I have multiple of the same bee?",
+    answer: "No, identical Gifted Hive Bonuses do not stack. If you have two Gifted Commander Bees, you will still only receive a single +5% Critical Chance bonus. It is always best to maintain a diverse hive with unique gifted types."
+  },
+  {
+    question: "What is the difference between normal Treats and Favorite Treats?",
+    answer: "Basic Treats give a flat 10 bond to any bee but have a 0% chance of triggering a gifted transformation. Favorite Treats (like Strawberries for Red Bees) give 10 bond to their compatible bees, 5 bond to incompatible bees, and carry the unique chance to turn compatible bees gifted."
+  }
+]} />
+
+<Callout type="tip" title="Final Recommendation">
+Always prioritize leveling your main gatherers and attackers first. A higher-level hive allows you to defeat bosses faster, which in turn dramatically increases your daily treat yields.
+</Callout>
+
+</Section>

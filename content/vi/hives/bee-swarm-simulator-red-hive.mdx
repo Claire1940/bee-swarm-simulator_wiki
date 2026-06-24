@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Red Hive: Hướng dẫn cách Build & Boost tốt nhất năm 2026",
+  description: "Làm chủ cách build tổ ong đỏ (red hive) tối ưu trong Bee Swarm Simulator. Tìm hiểu về đội hình ong tốt nhất, trang bị bắt buộc, nội tại SSA và chiến thuật boost chủ động.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Red+Hive+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Lối chơi chính**: **Tổ ong đỏ (red hive)** chuyên về lượng sát thương lớn, lối chơi boost lửa chủ động trên các cánh đồng đỏ.
+- **Nội tại cốt lõi**: Bạn phải mở khóa **Bùa tinh tú tối cao (Supreme Star Amulet)** với nội tại **Sao thiêu đốt (Scorching Star)** trước khi chuyển đổi.
+- **Ong chủ chốt**: Tích lũy **Ong cay (Spicy Bee)** và **Ong chính xác (Precise Bee)** để tạo ra các ngọn lửa đỏ khổng lồ và các mục tiêu chính xác.
+- **Trang bị thiết yếu**: Ưu tiên **Mặt nạ ác quỷ (Demon Mask)** và hướng tới công cụ thu hoạch cuối game **Lưỡi hái bóng tối (Dark Scythe)**.
+- **Cánh đồng tốt nhất**: Tập trung boost chủ động tại **Vườn ớt (Pepper Patch)** và **Cánh đồng hoa hồng (Rose Field)** để đạt sản lượng mật ong tối đa.
+</Callout>
+
+<Section icon={Swords} title="Lối chơi và Meta của Tổ ong Đỏ (Red Hive)">
+
+**Tổ ong đỏ (red hive)** trong Bee Swarm Simulator là lựa chọn hàng đầu ở giai đoạn cuối game cho những người chơi yêu thích lối chơi chủ động cao và phần thưởng lớn. Không giống như tổ ong Xanh (Blue hive) vốn phụ thuộc vào việc treo máy (macro) thụ động và tăng dần sức chứa bong bóng, tổ ong Đỏ tập trung vào khả năng chuyển đổi bùng nổ, sát thương chiến đấu cao và tham gia trực tiếp trên cánh đồng. 
+
+Lối chơi này được xây dựng xoay quanh hai cơ chế cốt lõi: **Nhiệt lượng ngọn lửa (Flame Heat)** và **Sự chính xác (Precision)**. Nhiệt lượng ngọn lửa nhân tỷ lệ thu thập phấn hoa đỏ khi bạn thu thập các token ngọn lửa đỏ, trong khi các mục tiêu Chính xác cho phép bạn chuyển đổi phấn hoa ngay lập tức trên cánh đồng và đạt được lượng thu thập siêu chí mạng khổng lồ. Để giúp bạn quyết định xem hướng xây dựng này có phù hợp với mục tiêu tiến trình của mình hay không, chúng tôi đã so sánh ba hướng tổ ong chuyên biệt dưới đây.
+
+| Màu tổ ong | Lối chơi | Cánh đồng chính | Chủ động/Thụ động | Chi phí bắt đầu |
+| :--- | :--- | :--- | :--- | :--- |
+| **Đỏ (Red)** | Bùng nổ chủ động, chiến đấu cao | Pepper Patch, Rose Field | Rất chủ động | Cao (Yêu cầu SSA đôi) |
+| **Xanh (Blue)** | Treo máy thụ động, tích trữ bong bóng | Pine Tree Forest | Bán thụ động | Thấp (SSA đơn giá rẻ) |
+| **Trắng (White)** | Tốn tài nguyên, dựa trên keo (goo) | Coconut Field | Rất chủ động | Cực kỳ cao (Chế tạo chuyên sâu) |
+
+<Callout type="warning" title="Đừng chuyển đổi quá sớm">
+Việc chuyển sang một hướng xây dựng màu chuyên biệt trước khi hoàn thành các chuỗi nhiệm vụ chính và sở hữu Bùa tinh tú tối cao (Supreme Star Amulet) sẽ làm chậm nghiêm trọng tiến trình của bạn. Luôn duy trì một tổ ong hỗn hợp (mixed hive) trong giai đoạn đầu và giữa game.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Đội hình Ong Thiết yếu cho Tổ ong Đỏ trong Bee Swarm Simulator">
+
+Xây dựng một **tổ ong đỏ (red hive)** thành công đòi hỏi sự cân bằng cực kỳ cụ thể giữa các ong Thần thoại (Mythic bee), ong Sự kiện (Event bee) và các ong hỗ trợ tiện ích. Mục tiêu chính của bạn là tạo ra càng nhiều ngọn lửa đỏ và mục tiêu chính xác càng tốt trong khi vẫn duy trì các bùa lợi quan trọng như Focus (Tập trung) và Melody (Giai điệu). 
+
+Động cơ cốt lõi của tổ ong của bạn bao gồm **Ong cay (Spicy Bee)** và **Ong chính xác (Precise Bee)**. Spicy Bee triệu hồi các ong lửa di chuyển khắp cánh đồng, để lại vệt lửa đỏ giúp tăng Nhiệt lượng ngọn lửa của bạn. Precise Bee tạo ra các mục tiêu màu đỏ trên cánh đồng; bước vào các mục tiêu này sẽ giúp chuyển đổi phấn hoa ngay lập tức và tích lũy bùa lợi Precision (Chính xác), giúp tăng tỷ lệ siêu chí mạng của bạn.
+
+<CardGrid cols={4}>
+  <Card title="Precise Bee">
+    Tạo ra các mục tiêu chính xác màu đỏ trên cánh đồng, cung cấp khả năng chuyển đổi tức thì và thu thập phấn hoa siêu chí mạng.
+  </Card>
+  <Card title="Spicy Bee">
+    Triệu hồi ong lửa tạo ra ngọn lửa đỏ, tăng hệ số nhân Nhiệt lượng ngọn lửa và tăng sát thương chiến đấu.
+  </Card>
+  <Card title="Vector Bee">
+    Liên kết các ký hiệu (marks) để thu thập lượng phấn hoa khổng lồ từ các khu vực hình tam giác lớn trên cánh đồng.
+  </Card>
+  <Card title="Crimson Bee">
+    Cung cấp sự kết hợp bom đỏ thiết yếu và khả năng chuyển đổi đỏ tức thì khi được tặng quà (gifted).
+  </Card>
+</CardGrid>
+
+To optimize your hive, aim for the following bee composition once you have unlocked 48 to 50 hive slots:
+
+| Loại ong | Số lượng khuyến nghị | Vai trò chính trong tổ | Mức độ ưu tiên |
+| :--- | :--- | :--- | :--- |
+| **Precise Bee** | 10-12 | Tạo mục tiêu chính xác, chuyển đổi phấn hoa đỏ | Thiết yếu |
+| **Spicy Bee** | 10-12 | Triệu hồi ong lửa, tăng nhiệt lượng ngọn lửa | Thiết yếu |
+| **Vector Bee** | 3-4 | Kết hợp ký hiệu, thu thập phấn hoa hình tam giác | Cao |
+| **Fuzzy Bee** | 1-2 (Gifted) | Thụ phấn cho hoa, nâng cấp cấp độ hoa | Trung bình |
+| **Tabby Bee** | 1 (Gifted) | Sức mạnh chí mạng, chuyển đổi khổng lồ | Thiết yếu |
+| **Crimson Bee** | 1 (Gifted) | Kết hợp bom đỏ, chuyển đổi tức thì | Thiết yếu |
+| **Music Bee** | 3-4 | Duy trì token Melody và Focus | Cao |
+| **Commander Bee** | 1 (Gifted) | Tăng sức mạnh chí mạng cho toàn tổ ong | Cao |
+
+<Callout type="tip" title="Ưu tiên tặng quà (Gifted)">
+Luôn ưu tiên tặng quà cho các ong Sự kiện của bạn như Tabby và Crimson trước, sau đó là Spicy và Precise Bee. Spicy Bee được tặng quà (Gifted Spicy Bee) sẽ triệu hồi những ong lửa mạnh hơn, giúp tăng đáng kể hệ số nhân nhiệt lượng ngọn lửa của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tiến trình Trang bị và Yêu cầu về Bùa hộ mệnh">
+
+Để hỗ trợ lối chơi cường độ cao của Tổ ong Đỏ, bạn phải trang bị những vật phẩm giúp tối đa hóa khả năng thu thập phấn hoa đỏ và chuyển đổi tức thì. Tổ ong Đỏ tự nhiên có sức chứa ba lô thấp, nghĩa là trang bị và bùa hộ mệnh của bạn phải tập trung mạnh vào việc chuyển đổi phấn hoa trực tiếp trên cánh đồng trước khi ba lô của bạn bị tràn.
+
+Nền tảng cho thiết lập trang bị của bạn là **Mặt nạ ác quỷ (Demon Mask)**, cung cấp khả năng "Ignite" (Châm lửa) và giáp lửa nội tại. Mục tiêu cuối cùng của bạn là **Lưỡi hái bóng tối (Dark Scythe)**, một công cụ thu hoạch tăng động phấn hoa đỏ dựa trên các ngọn lửa đang hoạt động trên cánh đồng.
+
+| Trang bị | Vị trí / Cửa hàng | Chỉ số & Bùa lợi chính | Ưu tiên chế tạo |
+| :--- | :--- | :--- | :--- |
+| **Demon Mask** | Cửa hàng Đỉnh núi (Mountain Top Shop) | +X% Phấn hoa đỏ, Chuyển đổi đỏ tức thì, Giáp lửa | Rất cao |
+| **Crimson Guard** | Cửa hàng Huy hiệu Ace (Ace Badge Shop) | +X% Phấn hoa đỏ, Kết hợp bom đỏ, Phòng thủ đỏ | Cao |
+| **Dark Scythe** | Cửa hàng Đỏ cuối game (Endgame Red Shop) | Phấn hoa đỏ khổng lồ, Khả năng ngọn lửa lưỡi hái | Mục tiêu cuối cùng |
+| **Supreme Star Amulet** | Sảnh Tinh tú (Star Hall) | Nội tại Scorching Star, Hệ số nhân phấn hoa đỏ | Bắt buộc để bắt đầu |
+
+Bùa tinh tú tối cao (SSA) là vật phẩm quan trọng nhất cho hướng build này. Bạn không thể vận hành một Tổ ong Đỏ thành công nếu không có nội tại **Sao thiêu đốt (Scorching Star)**. Nội tại này triệu hồi một ngôi sao khổng lồ thu thập phấn hoa và chuyển đổi nó ngay lập tức dựa trên Nhiệt lượng ngọn lửa hiện tại của bạn. Để có thiết lập nội tại kép tối ưu nhất, hãy kết hợp Scorching Star với **Cưa tinh tú (Star Saw)** (chuyển đổi phấn hoa khi sử dụng ngòi ong) hoặc **Mưa tinh tú (Star Shower)** (để có thêm sức chứa).
+
+<Callout type="info" title="Chỉ số phụ của Bùa hộ mệnh rất quan trọng">
+Khi xoay chỉ số Bùa tinh tú tối cao, hãy tìm kiếm Phấn hoa đỏ (Red Pollen), Tỷ lệ chí mạng (Critical Chance), Phấn hoa (Pollen) và Tỷ lệ kỹ năng ong (Bee Ability Rate). Ngay cả một bùa Scorching Star nội tại đơn với các chỉ số phụ hoàn hảo cũng có thể vượt trội hơn một bùa nội tại kép trung bình.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật Boost chủ động và Thu hoạch">
+
+Boost với Tổ ong Đỏ là một quá trình chủ động và diễn ra nhanh chóng. Để thu được nhiều mật ong nhất từ các phiên boost của mình, bạn phải chuẩn bị cánh đồng, tích lũy mật hoa và thực hiện xoay vòng vật phẩm một cách hoàn hảo. Hãy tập trung nỗ lực vào **Vườn ớt (Pepper Patch)** hoặc **Cánh đồng hoa hồng (Rose Field)**, vì những cánh đồng này có mật độ hoa đỏ cao nhất.
+
+<Steps>
+  <Step num="1" title="Chuẩn bị mật hoa và nguyên liệu">
+    Đảm bảo bạn có sẵn Mật hoa thỏa mãn (Satisfying Nectar - tăng sức chứa và chuyển đổi) và Mật hoa tiếp sức (Invigorating Nectar - tăng sức mạnh chí mạng và tốc độ người chơi). Tích trữ sẵn bộ chuyển đổi nhỏ (micro-converter), chiết xuất đỏ (red extract), ngòi ong (stinger) và đồ uống nhiệt đới (tropical drink).
+  </Step>
+  <Step num="2" title="Kích hoạt Boost cánh đồng">
+    Sử dụng Máy tăng tốc cánh đồng đỏ (Red Field Booster) trong Cửa hàng Đỉnh núi hoặc xoay Xúc xắc cánh đồng (Field Dice) cho đến khi bạn nhận được hệ số nhân cao trên Vườn ớt (Pepper Patch) hoặc Cánh đồng hoa hồng (Rose Field).
+  </Step>
+  <Step num="3" title="Tích lũy Nhiệt lượng ngọn lửa và Sự chính xác">
+    Vào cánh đồng và để Spicy Bee của bạn tích lũy Nhiệt lượng ngọn lửa. Chạy qua các mục tiêu chính xác màu đỏ được tạo ra bởi Precise Bee để tích lũy hệ số nhân Chính xác lên x10.
+  </Step>
+  <Step num="4" title="Kích hoạt các vật phẩm Boost chủ động">
+    Sử dụng Chiết xuất đỏ, Đồ uống nhiệt đới và kích hoạt Cưa tinh tú (Star Saw) bằng cách sử dụng Ngòi ong. Sự kết hợp này tối đa hóa lượng phấn hoa đỏ thu thập được trong khi vẫn giữ cho ba lô của bạn trống nhờ chuyển đổi tức thì.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tối đa hóa các mục tiêu chính xác">
+Hãy đảm bảo bạn chạy qua các mục tiêu chính xác màu đỏ do Precise Bee tạo ra. Bỏ lỡ các mục tiêu này sẽ lãng phí cơ hội chuyển đổi tức thì khổng lồ và làm giảm hệ số nhân chí mạng của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra chuyển đổi sang Tổ ong Đỏ">
+
+Trước khi bạn chi hàng nghìn tỷ mật ong để xoay ong thần thoại và thay đổi trang bị của mình, hãy sử dụng danh sách kiểm tra này để đảm bảo tài khoản của bạn đã hoàn toàn sẵn sàng cho việc chuyển đổi. Chuyển đổi quá sớm là sai lầm phổ biến nhất mà người chơi mắc phải, dẫn đến một tổ ong bị yếu đi nghiêm trọng và không thể tạo ra mật ong.
+
+<Checklist
+  id="red-hive-readiness"
+  title="Tiêu chí sẵn sàng chuyển đổi:"
+  items={[
+    "Đã mở khóa Bùa tinh tú tối cao (Supreme Star Amulet) với ít nhất nội tại Scorching Star",
+    "Đã mua và lấp đầy ít nhất 45 ô tổ ong",
+    "Đã chế tạo và trang bị Mặt nạ ác quỷ (Demon Mask)",
+    "Sở hữu Bảo vệ đỏ thẫm (Crimson Guard) và Thắt lưng tổ ong (Honeycomb Belt)",
+    "Tích trữ ít nhất 500 Chiết xuất đỏ và 300 Ngòi ong cho các đợt boost",
+    "Đủ Sữa ong chúa (Royal Jelly) để xoay được ít nhất 10 Spicy Bee và 10 Precise Bee"
+  ]}
+/>
+
+<Callout type="warning" title="Bẫy sức chứa">
+Tổ ong Đỏ có sức chứa ba lô thấp hơn so với tổ ong Xanh. Nếu bạn chuyển đổi mà không có Mặt nạ ác quỷ hoặc nội tại SSA phù hợp như Star Saw, ba lô của bạn sẽ bị đầy ngay lập tức, làm hỏng đợt boost của bạn và buộc bạn phải liên tục chạy về tổ để chuyển đổi.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể chơi tổ ong đỏ mà không có Bùa tinh tú tối cao (SSA) không?",
+    answer: "Không. Nội tại Scorching Star là động cơ tuyệt đối của hướng build tổ ong đỏ. Không có nó, bạn sẽ không có khả năng chuyển đổi hoặc hệ số nhân phấn hoa cần thiết để duy trì việc thu hoạch màu đỏ."
+  },
+  {
+    question: "Cánh đồng nào tốt hơn cho tổ ong đỏ: Vườn ớt (Pepper Patch) hay Cánh đồng hoa hồng (Rose Field)?",
+    answer: "Vườn ớt nhìn chung vượt trội hơn do có các cấp hoa cao hơn và khả năng tăng tỷ lệ boost tốt hơn. Tuy nhiên, Cánh đồng hoa hồng là một sự thay thế tuyệt vời nếu bạn có một boost cánh đồng cụ thể hoặc yêu cầu nhiệm vụ ở đó."
+  },
+  {
+    question: "Tôi cần bao nhiêu Precise Bee cho một thiết lập tiêu chuẩn?",
+    answer: "Một thiết lập tiêu chuẩn ở giai đoạn cuối game yêu cầu từ 10 đến 12 Precise Bee. Điều này đảm bảo luồng mục tiêu chính xác liên tục để chuyển đổi ngay trên cánh đồng và nhận hệ số nhân chí mạng."
+  },
+  {
+    question: "Hướng build Tổ ong Đỏ có tốt cho chiến đấu và đấu trùm không?",
+    answer: "Có. Tổ ong Đỏ vượt trội về lượng sát thương thô, khiến chúng trở thành lựa chọn tốt nhất để đánh bại Cua dừa (Coconut Crab), Gà chỉ huy (Commando Chick) và tiến triển qua các Thử thách Gấu Robo (Robo Bear Challenges)."
+  }
+]} />
+
+<Callout type="success" title="Nhắc nhở về Câu lạc bộ Roblox">
+Hãy đảm bảo bạn là thành viên của Câu lạc bộ Bee Swarm Simulator chính thức trên Roblox để nhận phần thưởng miễn phí hàng ngày và các boost cánh đồng giúp ích cho tiến trình Tổ ong Đỏ của bạn.
+</Callout>
+
+</Section>

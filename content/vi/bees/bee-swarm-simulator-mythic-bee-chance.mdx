@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tỷ lệ Ong Thần Thoại trong Bee Swarm Simulator: Hướng dẫn Ấp & Tỷ lệ Rơi",
+  description: "Khám phá tỷ lệ chính xác để nhận Ong Thần Thoại trong Bee Swarm Simulator từ Sữa Ong Chúa, Trứng Vàng và Trứng Kim Cương. Học các chiến lược tốt nhất để ấp Ong Thần Thoại.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/1e293b?text=Mythic+Bee+Chance+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Tỷ lệ cơ bản**: Tỷ lệ cơ bản để nhận **ong Thần Thoại trong Bee Swarm Simulator** từ Sữa Ong Chúa (Royal Jelly) thông thường là 1 trên 25.000 (0,004%).
+- **Tỷ lệ ấp từ trứng**: Trứng Vàng (Gold Egg) mang lại 1% cơ hội, Trứng Kim Cương (Diamond Egg) mang lại 5% cơ hội, và Trứng Thần Thoại (Mythic Egg) đảm bảo tỷ lệ ấp thành công 100%.
+- **Ngân sách Tự động Quay (Auto-Roll)**: Đừng cố gắng tự động quay để tìm Ong Thần Thoại cho đến khi bạn có thể thoải mái chi tiêu 25 Tỷ Mật ong (tương đương với 25.000 Sữa Ong Chúa).
+- **Nguồn đảm bảo**: Hoàn thành các nhiệm vụ cuối game của Gấu Đen (Black Bear) hoặc đánh bại Gà Chỉ Huy (Commando Chick) 50 lần để chắc chắn nhận được Trứng Thần Thoại.
+- **Chuyên môn hóa tổ ong**: Hãy giữ tổ ong hỗn hợp (mixed hive) trong giai đoạn đầu và giữa game; không nên ép buộc xây dựng tổ ong chuyên màu cho đến khi bạn mở khóa được Bùa Sao Tối Cao (Supreme Star Amulet).
+</Callout>
+
+<Section icon={Sparkles} title="Hiểu về Tỷ lệ Ong Thần Thoại trong Bee Swarm Simulator">
+
+Ong Thần Thoại (Mythic Bees) đại diện cho đỉnh cao sức mạnh của tổ ong trong Trình mô phỏng bầy ong (Bee Swarm Simulator). Những loài côn trùng cực kỳ quý hiếm này—bao gồm Ong Cay (Spicy Bee), Ong Vector (Vector Bee), Ong Nòng Nọc (Tadpole Bee), Ong Bông (Fuzzy Bee), Ong Phao (Buoyant Bee) và Ong Chuẩn Xác (Precise Bee)—sở hữu những khả năng thay đổi cục diện trận đấu, định hình phong cách chơi ở giai đoạn cuối game. Tuy nhiên, để sở hữu chúng đòi hỏi bạn phải hiểu sâu sắc về tỷ lệ toán học đằng sau mỗi quả trứng và sữa ong chúa trong trò chơi.
+
+Để xây dựng một tổ ong mạnh mẽ, bạn phải hiểu rõ **tỷ lệ nhận ong Thần Thoại trong Bee Swarm Simulator** từ các vật phẩm khác nhau. Việc chỉ dựa vào may mắn mà không biết rõ các con số toán học là cách nhanh nhất để làm cạn kiệt nguồn mật ong dự trữ của bạn.
+
+| Loại Trứng / Vật phẩm | Tỷ lệ Ong Thần Thoại | Chi phí Mật ong Trung bình | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| **Sữa Ong Chúa (Royal Jelly)** | 1 trên 25.000 (0,004%) | 25 Tỷ Mật ong | Phương pháp chính cho người chơi ở giai đoạn giữa đến cuối game. |
+| **Trứng Vàng (Gold Egg)** | 1 trên 100 (1,00%) | 50 Vé (Cửa hàng) | Tỷ lệ thấp, tốt nhất nên tiết kiệm để chế tạo Mặt Nạ Mật Ong (Honey Mask). |
+| **Trứng Kim Cương (Diamond Egg)** | 1 trên 20 (5,00%) | 400 Vé (Cửa hàng) | Tỷ lệ khá tốt, nhưng cực kỳ quan trọng để tiết kiệm cho Mặt Nạ Kim Cương (Diamond Mask). |
+| **Sữa Ong Sao (Star Jelly)** | 1 trên 25.000 (0,004%) | Chi phí chế tạo | Đảm bảo nhận được một Ong Gifted, nhưng tỷ lệ ra Thần Thoại vẫn giữ nguyên. |
+| **Trứng Thần Thoại (Mythic Egg)** | 1 trên 1 (100,00%) | Phần thưởng Nhiệm vụ/Boss | Đảm bảo nhận được một Ong Thần Thoại ngẫu nhiên không phải dạng Gifted. |
+
+Tỷ lệ 1 trên 25.000 từ Sữa Ong Chúa là một xác suất thống kê, không phải là một sự đảm bảo chắc chắn. Sử dụng 25.000 Sữa Ong Chúa mang lại cho bạn khoảng 63,2% cơ hội ấp được ít nhất một Ong Thần Thoại do tính chất của xác suất độc lập. Để đảm bảo khả năng gần như chắc chắn (99% cơ hội) ấp được một Ong Thần Thoại thông qua việc quay thông thường, bạn nên chuẩn bị quay khoảng 115.000 Sữa Ong Chúa, tương đương với chi phí khoảng 115 Tỷ Mật ong.
+
+<Callout type="warning" title="Bẫy Đầu Game">
+Đừng bao giờ tiêu số mật ong khó khăn lắm mới kiếm được của bạn vào những đợt mua Sữa Ong Chúa số lượng lớn trong giai đoạn đầu game. Hãy ưu tiên nâng cấp dụng cụ thu hoạch, mua ba lô tốt hơn từ Cửa hàng Đỉnh Núi (Mountain Top Shop) và mở rộng các ô tổ ong trước. Cố gắng quay Ong Thần Thoại trước khi bạn có thể kiếm được hàng tỷ mật ong mỗi giờ sẽ hoàn toàn làm đình trệ tiến trình phát triển của bạn.
+</Callout>
+
+Mỗi loài Ong Thần Thoại phục vụ một mục đích cụ thể, đóng góp các token và khả năng độc đáo cho tổ ong của bạn. Trong khi một số loài rất đa dụng, những loài khác lại yêu cầu thiết lập tổ ong chuyên biệt hóa cao để giải phóng tiềm năng thực sự của chúng.
+
+</Section>
+
+<Section icon={Trophy} title="Cách Nhận Trứng Thần Thoại và Các Nguồn Rơi Đảm Bảo">
+
+Nếu trình tạo số ngẫu nhiên (RNG) không đứng về phía bạn, bạn có thể bỏ qua tỷ lệ thấp của **ong Thần Thoại trong Bee Swarm Simulator** bằng cách nhắm vào các Trứng Thần Thoại được đảm bảo. Trò chơi cung cấp một số cột mốc và các cuộc chạm trán boss đầy thử thách để thưởng cho bạn 100% cơ hội sở hữu một Ong Thần Thoại.
+
+Mặc dù các phương pháp này đòi hỏi đáng kể thời gian và công sức, chúng cung cấp một lộ trình tiến trình đáng tin cậy mà không phụ thuộc vào may rủi.
+
+| Nguồn | Yêu cầu | Độ khó | Có thể lặp lại |
+| :--- | :--- | :--- | :--- |
+| **Nhiệm vụ Gấu Đen** | Hoàn thành chuỗi nhiệm vụ "Mythic in the Making" | Trung bình | Không (Một lần mỗi tài khoản) |
+| **Gà Chỉ Huy (Commando Chick)** | Đánh bại boss đúng 50 lần | Cao | Không (Cột mốc một lần duy nhất) |
+| **Nhiệm vụ Gấu Nâu** | Hoàn thành đúng 100 nhiệm vụ | Khó | Có (Mỗi 100 nhiệm vụ sau đó) |
+| **Thử thách Gấu Robo** | Mua từ Cửa hàng Thẻ Robo (Robo Pass Shop) | Rất cao | Có (Yêu cầu Bánh răng) |
+| **Máy in Nhãn dán** | Quyên góp các nhãn dán có giá trị cao | Ngẫu nhiên (RNG) | Có (Cực kỳ tốn kém) |
+
+Tập trung vào các cột mốc đảm bảo này giúp đảm bảo sự tiến bộ ổn định. Ví dụ, chuỗi nhiệm vụ cuối cùng của Gấu Đen hoạt động như một bản đồ lộ trình tuyệt vời ở giai đoạn giữa game, hướng dẫn bạn qua các cánh đồng khác nhau trong khi xây dựng khả năng thu thập phấn hoa của bạn.
+
+<Callout type="success" title="Chiến thuật Đánh Gà Chỉ Huy">
+Để đánh bại Gà Chỉ Huy (Commando Chick) 50 lần, bạn phải nâng cấp cấp độ của các ong chiến đấu của mình. Hãy ưu tiên nâng cấp Ong Độc Ác (Vicious Bee) và Ong Phẫn Nộ (Rage Bees). Máu của Gà Chỉ Huy tăng lên đáng kể sau mỗi lần bị đánh bại, vì vậy hãy mời bạn bè hoặc những người chơi cấp cao vào máy chủ của bạn để giúp bạn hạ gục các phiên bản cấp cao của boss.
+</Callout>
+
+Ngoài những nguồn rơi đảm bảo này, những người chơi cực kỳ may mắn đôi khi có thể nhận được Trứng Thần Thoại từ các nguồn rơi hiếm hoi trong thế giới. Đánh bại Gà Mondo (Mondo Chick) dưới một giới hạn thời gian nhất định, tiêu diệt Ma Sói (Werewolf) hoặc Nhện (Spider), hoặc hoàn thành các Trận Khớp Trí Nhớ Cực Hạn (Extreme Memory Matches) cấp cao hiếm khi có thể thưởng một Trứng Thần Thoại, mặc dù những tỷ lệ này được ước tính là thấp hơn 0,1%.
+
+</Section>
+
+<Section icon={Target} title="Chiến lược Từng bước Tự động Quay Sữa Ong Chúa (Auto-Roll)">
+
+Một khi bạn đạt đến giai đoạn giữa đến cuối game và có thể tạo ra hàng tỷ mật ong trong một lần boost duy nhất, việc sử dụng Sữa Ong Chúa trở thành cách hiệu quả nhất để săn Ong Thần Thoại. Để tránh việc phải nhấp chuột thủ công hàng chục nghìn lần, bạn phải sử dụng hệ thống Tự động Quay (Auto-Roll) được tích hợp sẵn trong trò chơi.
+
+Hãy làm theo cách tiếp cận có cấu trúc này để tối đa hóa hiệu quả của bạn và bảo vệ ngân sách mật ong khi quay Ong Thần Thoại.
+
+<Steps>
+  <Step num="1" title="Đảm bảo Ngân sách của Bạn">
+    Đừng bắt đầu quay chỉ với 2 hoặc 3 Tỷ Mật ong. Chi phí trung bình để đạt được **tỷ lệ ong Thần Thoại trong Bee Swarm Simulator** là 25 Tỷ Mật ong. Hãy tích lũy ít nhất 30 Tỷ Mật ong để đảm bảo bạn có một biên độ an toàn và không kết thúc với một ô tổ ong trống bị lấp đầy bởi một con ong thường.
+  </Step>
+  <Step num="2" title="Mua Sữa Ong Chúa với Số lượng lớn">
+    Di chuyển đến Máy phân phối Sữa Ong Chúa (Royal Jelly Dispenser) nằm gần Cánh đồng Cỏ ba lá (Clover Field) hoặc sử dụng menu mua nhanh. Mua sữa ong chúa của bạn theo các đợt 25.000 cái. Mua số lượng lớn giúp tiết kiệm thời gian và đảm bảo kho đồ của bạn phù hợp với xác suất thống kê.
+  </Step>
+  <Step num="3" title="Cấu hình Cài đặt Tự động Quay (Auto-Roll)">
+    Mở menu tổ ong của bạn, chọn ô ong bạn muốn thay thế và nhấp vào 'Sử dụng Sữa Ong Chúa' (Use Royal Jelly). Mở menu cài đặt Tự động Quay. Tích vào ô có nhãn **Yêu cầu Thần Thoại (Require Mythic)**. Để trống tất cả các bộ lọc khác trừ khi bạn đang tìm kiếm cụ thể các ong Gifted với chi phí tiêu tốn nhiều sữa ong chúa hơn.
+  </Step>
+  <Step num="4" title="Thực hiện và Giám sát Quá trình Quay">
+    Nhấn nút Tự động Quay (Auto-Roll). Hệ thống sẽ tự động tiêu thụ Sữa Ong Chúa với tốc độ nhanh chóng và sẽ dừng lại ngay lập tức khi trúng bất kỳ Ong Thần Thoại nào. Hãy theo dõi số lượng trong kho của bạn để biết cần bao nhiêu sữa ong chúa cho lần ấp của bạn.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Kiểm tra An toàn Tự động Quay">
+Luôn kiểm tra kỹ xem bạn đã chọn đúng ô ong chưa trước khi bắt đầu quá trình Tự động Quay. Vô tình quay đè lên một Ong Sự kiện Gifted (Gifted Event Bee) cấp cao hoặc một con ong bị đột biến là một sai lầm phổ biến có thể khiến bạn mất đi tiến trình của nhiều tuần chơi.
+</Callout>
+
+Bảng dưới đây minh họa xác suất thành công của bạn dựa trên số lượng Sữa Ong Chúa bạn quay trong một phiên duy nhất. Hãy sử dụng bảng này để đặt ra những kỳ vọng thực tế trước khi chi tiêu mật ong của bạn.
+
+| Số lượng Sữa Ong Chúa đã quay | Tổng số Mật ong đã tiêu | Xác suất nhận được ≥1 Ong Thần Thoại |
+| :--- | :--- | :--- |
+| **5.000** | 5 Tỷ Mật ong | 18,13% |
+| **10.000** | 10 Tỷ Mật ong | 32,97% |
+| **25.000** | 25 Tỷ Mật ong | 63,21% |
+| **50.000** | 50 Tỷ Mật ong | 86,47% |
+| **100.000** | 100 Tỷ Mật ong | 98,17% |
+
+</Section>
+
+<Section icon={Shield} title="Bảng Xếp hạng Ong Thần Thoại & Sự Kết hợp Tổ ong">
+
+Ấp được một Ong Thần Thoại mới chỉ là bước đầu tiên; việc biết nên giữ lại hay quay đè lên nó hoàn toàn phụ thuộc vào giai đoạn tiến trình hiện tại của bạn và mục tiêu màu sắc tổ ong cuối cùng của bạn. Ở giai đoạn cuối game, người chơi chuyên biệt hóa thành các tổ ong Đỏ, Xanh hoặc Trắng, và mỗi màu sắc phụ thuộc rất nhiều vào các Ong Thần Thoại cụ thể.
+
+<CardGrid cols={3}>
+  <Card title="Ong Thần Thoại cho Tổ Xanh (Blue Hive)">
+    - **Ong Nòng Nọc (Tadpole Bee)**: Sinh ra những chú ếch giúp thu thập bong bóng và tình yêu của bé (baby love).
+    - **Ong Phao (Buoyant Bee)**: Triệu hồi những quả bóng bay vàng để mở rộng sức chứa.
+    - **Sự kết hợp (Synergy)**: Yêu cầu sức chứa lớn và các phiên cày cuốc tích cực, kéo dài.
+  </Card>
+  <Card title="Ong Thần Thoại cho Tổ Đỏ (Red Hive)">
+    - **Ong Cay (Spicy Bee)**: Triệu hồi ong lửa và tạo ra những ngọn lửa cho sản lượng cao.
+    - **Ong Chuẩn Xác (Precise Bee)**: Bắn vào các mục tiêu để thu thập phấn hoa chí mạng.
+    - **Sự kết hợp (Synergy)**: Tập trung vào sát thương bùng nổ cao và thúc đẩy (boost) tích cực.
+  </Card>
+  <Card title="Ong Thần Thoại cho Tổ Trắng (White Hive)">
+    - **Ong Vector (Vector Bee)**: Sinh ra các hình tam giác giúp thu thập lượng phấn hoa khổng lồ.
+    - **Ong Bông (Fuzzy Bee)**: Thụ phấn cho hoa để tạm thời nâng cấp cấp độ của chúng.
+    - **Sự kết hợp (Synergy)**: Thiết lập cực kỳ tốn kém được xây dựng xung quanh chất nhầy (goo) và các ký hiệu (marks).
+  </Card>
+</CardGrid>
+
+Trong các giai đoạn đầu và giữa game, bạn nên giữ lại **bất kỳ** Ong Thần Thoại nào bạn ấp được, bất kể màu sắc của nó. Mỗi Ong Thần Thoại đều có các chỉ số cơ bản vượt trội so với ong Hiếm (Rare) hoặc Sử thi (Epic), và các khả năng riêng lẻ của chúng sẽ thúc đẩy đáng kể việc thu thập phấn hoa nói chung của bạn.
+
+| Tên Ong | Màu sắc Chính | Tiện ích Cốt lõi | Giá trị Đầu Game | Vai trò Cuối Game |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ong Bông (Fuzzy Bee)** | Trắng | Nâng cấp Cấp độ Hoa | Xuất sắc | Hỗ trợ thiết yếu cho tất cả các màu tổ ong |
+| **Ong Phao (Buoyant Bee)** | Xanh dương | Tăng Sức chứa & Bóng bay | Tuyệt vời | Thành phần cốt lõi cho Tổ Xanh |
+| **Ong Nòng Nọc (Tadpole Bee)** | Xanh dương | Tình yêu của Bé & Bong bóng | Cực kỳ tốt | Thành phần cốt lõi cho Tổ Xanh |
+| **Ong Chuẩn Xác (Precise Bee)** | Đỏ | Ký hiệu Siêu Chí mạng | Tốt | Thành phần cốt lõi cho Tổ Đỏ |
+| **Ong Cay (Spicy Bee)** | Đỏ | Triệu hồi Lửa | Trung bình | Thành phần cốt lõi cho Tổ Đỏ |
+| **Ong Vector (Vector Bee)** | Trắng | Thu thập theo Hình tam giác | Trung bình | Thành phần cốt lõi cho Tổ Trắng |
+
+<Callout type="info" title="Sức mạnh của Ong Bông (Fuzzy Bee)">
+Ong Bông Gifted (Gifted Fuzzy Bee) được coi là loài ong hỗ trợ có giá trị nhất trong toàn bộ trò chơi. Khả năng nâng cấp cấp độ của hoa trên cánh đồng mang lại lợi ích cho mọi màu sắc tổ ong. Ngay cả khi bạn vận hành một tổ ong thuần Đỏ hoặc thuần Xanh ở giai đoạn cuối game, việc giữ lại ít nhất một hoặc hai Ong Bông Gifted là điều rất được khuyến khích để duy trì chất lượng cánh đồng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tối đa hóa Hiệu quả Ong Thần Thoại của Bạn">
+
+Để đảm bảo bạn không lãng phí tài nguyên trong khi săn tìm **tỷ lệ ong Thần Thoại trong Bee Swarm Simulator** tối ưu, hãy làm theo danh sách kiểm tra tiến trình này. Danh sách này đảm bảo rằng bạn chỉ săn lùng Ong Thần Thoại khi tài khoản của bạn đã chuẩn bị đầy đủ để hỗ trợ chúng.
+
+<Checklist
+  id="mythic-hunting-checklist"
+  title="Yêu cầu Trước khi Quay:"
+  items={[
+    "Mở khóa ít nhất 40 ô tổ ong để đảm bảo có đủ không gian cho các ong hỗ trợ.",
+    "Sở hữu Gáo Sứ (Porcelain Dipper) và Tổ Ong Đeo Lưng Bằng Sứ (Porcelain Port-O-Hive) từ Cửa hàng Đỉnh Núi.",
+    "Sở hữu Mặt Nạ Mật Ong (Honey Mask) để thiết lập một nguồn tạo mật ong thụ động ổn định.",
+    "Tích lũy kho dự trữ tối thiểu 25 Tỷ Mật ong trước khi sử dụng tính năng Tự động Quay.",
+    "Hoàn thành tất cả các chuỗi nhiệm vụ chính của Gấu Mẹ (Mother Bear) và Gấu Khoa Học (Science Bear)."
+  ]}
+/>
+
+Một khi các yêu cầu này được đáp ứng, bạn có thể chuyển đổi một cách an toàn sang giai đoạn giữa đến cuối game, nơi việc quay Ong Thần Thoại trở thành một phần tiêu chuẩn trong chu kỳ chơi game của bạn.
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp: Ấp & Tỷ lệ Ong Thần Thoại">
+
+<FAQ items={[
+  {
+    question: "Bạn có thể nhận được Ong Thần Thoại từ Trứng Cơ Bản trong Bee Swarm Simulator không?",
+    answer: "Không, bạn không thể ấp trực tiếp ra Ong Thần Thoại từ Trứng Cơ Bản (Basic Egg). Trứng Cơ Bản chỉ có cơ hội ấp ra các loại ong Thường (Common), Hiếm (Rare), Sử thi (Epic), Truyền thuyết (Legendary) hoặc Ong Cơ Bản Gifted. Tuy nhiên, bạn có thể sử dụng Sữa Ong Chúa trên một con ong được ấp từ Trứng Cơ Bản để quay tìm ong Thần Thoại với tỷ lệ tiêu chuẩn là 1 trên 25.000."
+  },
+  {
+    question: "Có đáng để mua Trứng Vàng bằng Vé để cố gắng ấp ra Ong Thần Thoại không?",
+    answer: "Nhìn chung là không. Mặc dù Trứng Vàng có 1% cơ hội ấp ra Ong Thần Thoại, việc chi tiêu 50 Vé cho mỗi quả trứng là cực kỳ kém hiệu quả. Vé có giá trị hơn nhiều khi được tiết kiệm để mua các Ong Sự kiện (như Ong Mèo - Tabby Bee và Ong Photon) hoặc mua Bánh Sao (Star Treats) để biến những con ong hiện tại của bạn thành dạng Gifted."
+  },
+  {
+    question: "Sữa Ong Sao (Star Jelly) có tỷ lệ ấp ra Ong Thần Thoại cao hơn không?",
+    answer: "Không. Tỷ lệ nhận ong Thần Thoại từ Sữa Ong Sao hoàn toàn giống với Sữa Ong Chúa thông thường (1 trên 25.000 hoặc 0,004%). Điểm khác biệt duy nhất là nếu bạn thực sự quay trúng Ong Thần Thoại, con Ong Thần Thoại đó chắc chắn sẽ là dạng Gifted."
+  },
+  {
+    question: "Tôi cần bao nhiêu Ong Thần Thoại để kích hoạt Mưa Sao Băng Thần Thoại (Mythic Meteor Shower)?",
+    answer: "Để triệu hồi Mưa Sao Băng Thần Thoại, bạn phải khám phá và đặt ít nhất ba loại Ong Thần Thoại độc nhất khác nhau trong tổ ong của mình. Một khi yêu cầu này được đáp ứng, bạn có thể kích hoạt Máy Phân Phối Thiên Thạch Thần Thoại (Mythic Meteor Dispenser) nằm trên núi gần Pháo Vàng (Yellow Cannon) một lần mỗi 22 giờ."
+  }
+]} />
+
+</Section>

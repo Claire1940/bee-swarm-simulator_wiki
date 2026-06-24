@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wind, Zap, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Windy Bee trong Bee Swarm Simulator: Hướng dẫn Mở khóa & Cách Build Tốt Nhất",
+  description: "Làm chủ Windy Bee trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu cách sử dụng Đền thờ Gió (Wind Shrine), Cánh hoa Tâm linh (Spirit Petal) và Lọ mây (Cloud Vial) để đạt lượng mật ong tối đa.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/333?text=Windy+Bee+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Windy Bee trong Bee Swarm Simulator** là một chú ong cấp Sự kiện (Event-tier) được mở khóa thông qua **Đền thờ Gió (Wind Shrine)** nằm phía sau Cổng 35 Ong.
+- **Cách sở hữu** yêu cầu quyên góp một **Cánh hoa Tâm linh (Spirit Petal)**, sau đó là một lượng lớn **Lọ mây (Cloud Vials)**.
+- **Cơ chế cốt lõi** tập trung vào việc thu thập phấn hoa trắng, tạo lốc xoáy và tăng mạnh khả năng di chuyển.
+- **Sự kết hợp tốt nhất** là với **Tổ Ong Xanh (Blue Hives)** và **Tổ Ong Trắng (White Hives)** nhờ vào khả năng tạo mây và tăng tốc độ.
+- **Mẹo hàng đầu**: Ưu tiên lấy Cánh hoa Tâm linh đầu tiên từ **Gấu Tâm Linh (Spirit Bear)** để bắt đầu quá trình quyên góp càng sớm càng tốt.
+</Callout>
+
+<Section icon={Wind} title="Tổng quan về Windy Bee: Chỉ số và Kỹ năng">
+
+**Windy Bee trong Bee Swarm Simulator** nổi bật là một trong những chú ong sự kiện linh hoạt và có tầm ảnh hưởng lớn nhất game. Không giống như các chú ong thông thường, Windy Bee không nở ra từ trứng truyền thống mà được triệu hồi thông qua một hành trình tiến trình dài hạn liên quan đến Đền thờ Gió (Wind Shrine). Nó được phân loại là Ong Sự kiện (Event Bee) tập trung vào **Phấn hoa Trắng (White Pollen)** và **Tốc độ Di chuyển (Movement Speed)**, khiến nó trở thành một lựa chọn không thể thiếu cho người chơi bước vào giai đoạn cuối game (late-game).
+
+Trong meta năm 2026, Windy Bee vẫn là một lựa chọn hàng đầu nhờ khả năng dọn sạch các cánh đồng nhanh chóng bằng những Cơn lốc xoáy (Tornadoes) đặc trưng của mình. Những cơn lốc này di chuyển khắp cánh đồng, thu thập phấn hoa từ mọi bông hoa chúng chạm vào và chuyển hóa chúng thành các mã thông báo mật ong (honey tokens) ngay lập tức. Điều này giúp nó trở nên cực kỳ mạnh mẽ khi kết hợp với các buff cánh đồng (field boosts) hoặc trong các sự kiện mùa giải như Beesmas.
+
+| Thuộc tính | Giá trị Cơ bản | Tăng trưởng mỗi Cấp | Vai trò |
+| :--- | :--- | :--- | :--- |
+| **Thu thập Phấn hoa** | 15 | +3 mỗi cấp | Trắng/Mây |
+| **Sức mạnh Tấn công** | 4 | +0.5 mỗi cấp | Hỗ trợ Chiến đấu |
+| **Năng lượng** | 40 | +5 mỗi cấp | Thể lực Cao |
+| **Tốc độ Di chuyển** | 24 | +1.2 mỗi cấp | Trinh sát/Thu thập |
+| **Thưởng Gifted** | +15% Phấn hoa Trắng | N/A | Buff toàn Tổ |
+
+<Callout type="tip" title="Mẹo Chuyên Nghiệp: Lợi thế từ Gifted">
+Một chú Windy Bee Gifted cung cấp một lượng buff khổng lồ **+15% Phấn hoa Trắng** cho toàn bộ tổ của bạn. Ngay cả khi bạn đang chơi tổ chuyên Đỏ hoặc Xanh, lượng buff này vẫn rất quan trọng để hoàn thành các nhiệm vụ phấn hoa hỗn hợp từ các NPC như Spirit Bear hoặc Science Bear.
+</Callout>
+
+Windy Bee sở hữu ba mã thông báo kỹ năng (ability tokens) chính định hình lối chơi của nó. Hiểu cách xoay tua các token này là chìa khóa để tối đa hóa lượng mật ong thu được mỗi giờ.
+
+| Tên Token | Mô tả Hiệu ứng | Sự kết hợp |
+| :--- | :--- | :--- |
+| **White Cloud** | Triệu hồi một đám mây mưa xuống các bông hoa, hồi phục chúng ngay lập tức. | Tổ Trắng/Xanh |
+| **Tornado** | Tạo ra một cơn lốc tự tìm đường đi qua các bông hoa để thu thập phấn hoa. | Mọi Cánh đồng |
+| **Windy Haste** | Cung cấp một lượng buff tốc độ có thể cộng dồn cho người chơi và ong. | Độ cơ động cao |
+
+</Section>
+
+<Section icon={Target} title="Mở khóa Windy Bee: Con đường Đền thờ Gió">
+
+Mở khóa **Windy Bee** là một trong những cột mốc quan trọng nhất trong quá trình thăng tiến của người chơi. Quá trình này yêu cầu quyền truy cập vào Khu vực 35 Ong và hoàn thành một số nhiệm vụ cấp cao. Bạn không thể đơn giản mua chú ong này bằng vé (tickets); bạn phải giành được sự ưu ái của nó thông qua Đền thờ Gió (Wind Shrine).
+
+Quá trình này được chia thành hai giai đoạn riêng biệt: mở khóa khả năng nhận được ong và sau đó "thu phục" nó thành công thông qua việc quyên góp.
+
+<Steps>
+  <Step num="1" title="Nhận Cánh hoa Tâm linh (Spirit Petal)">
+    Bạn phải hoàn thành nhiệm vụ thứ 10, 20 hoặc 30 từ **Spirit Bear**. Hầu hết người chơi khuyên nên sử dụng Cánh hoa Tâm linh thứ hai cho Windy Bee, vì cánh hoa đầu tiên thường được dùng cho **Gậy Cánh Hoa (Petal Wand)** để cải thiện khả năng farm tổng thể.
+  </Step>
+  <Step num="2" title="Quyên góp Cánh hoa vào Đền thờ Gió">
+    Di chuyển đến Đền thờ Gió (Wind Shrine) nằm trên đỉnh núi. Tương tác với đền và quyên góp Cánh hoa Tâm linh của bạn. Việc này không giúp bạn có ngay chú ong; nó chỉ mở khóa *khả năng* nhận được nó từ các lần quyên góp trong tương lai.
+  </Step>
+  <Step num="3" title="Farm Lọ mây (Cloud Vials)">
+    Đánh bại **Windy Bee Hoang Dã (Wild Windy Bee)** thỉnh thoảng xuất hiện ở các cánh đồng khác nhau. Thu thập các token rơi ra sẽ thưởng cho bạn **Lọ mây (Cloud Vials)**. Bạn sẽ cần từ 100 đến hơn 500 lọ tùy thuộc vào cấp độ "Độ ưu ái" (Favor) của bạn.
+  </Step>
+  <Step num="4" title="Liên tục quyên góp và cầu may">
+    Quyên góp Lọ mây theo từng xấp (thường là 10 lọ mỗi lần) cho Đền thờ. Mỗi lần quyên góp sẽ tăng chỉ số ẩn **Độ ưu ái (Favor)** của bạn. Cuối cùng, Đền thờ sẽ phản hồi bằng một thông điệp độc nhất và Trứng Windy Bee (Windy Bee Egg) sẽ được thêm vào kho đồ của bạn.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Chiến thuật quyên góp">
+Đừng quyên góp Cánh hoa Tâm linh cho đến khi bạn sẵn sàng thực hiện quá trình cày cuốc này. Một khi đã quyên góp, bạn không thể lấy lại. Đảm bảo bạn có nguồn cung cấp Lọ mây ổn định bằng cách kiểm tra chuông gió thường xuyên để săn Wild Windy Bee xuất hiện.
+</Callout>
+
+<Checklist
+  id="windy-bee-requirements"
+  title="Danh sách kiểm tra trước khi mở khóa:"
+  items={[
+    "Mở khóa Cổng 35 Ong",
+    "Hoàn thành ít nhất 10 nhiệm vụ của Spirit Bear",
+    "Sở hữu 1 Cánh hoa Tâm linh (Spirit Petal)",
+    "Thu thập ít nhất 50 Lọ mây (Cloud Vials) cho đợt quyên góp đầu tiên",
+    "Chuẩn bị sẵn một ô Tổ Ong trống"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Sự kết hợp Tổ ong và Tối ưu hóa cách Build">
+
+Sau khi đã thêm **Windy Bee** vào tổ của mình, bạn cần tối ưu hóa cách build để tận dụng tối đa khả năng của nó. Mặc dù là một chú ong hệ "Trắng", nhưng tính đa dụng của nó vượt qua cả giới hạn màu sắc của tổ. Trong meta 2026 hiện tại, các màu tổ ong khác nhau sử dụng Windy Bee theo những cách độc đáo.
+
+<CardGrid cols={3}>
+  <Card title="Đội hình Tổ Xanh (Blue Hive)">
+    - **Sự kết hợp Mây**: Hoạt động hoàn hảo với bong bóng của Tadpole Bee.
+    - **Sức chứa**: Giúp quản lý nhu cầu lưu trữ khổng lồ của Tổ Xanh.
+    - **Vai trò**: Người thu thập phụ và hỗ trợ hồi phục.
+  </Card>
+  <Card title="Đội hình Tổ Trắng (White Hive)">
+    - **Lõi chính**: Kết hợp tốt với các dấu ấn (marks) của Vector Bee.
+    - **Sức mạnh Lốc xoáy**: Tối đa hóa phấn hoa từ cánh đồng Dừa (Coconut) và cánh đồng Hoa (Flower).
+    - **Vai trò**: Động cơ thu thập chính và tạo tốc độ.
+  </Card>
+  <Card title="Đội hình Tổ Đỏ (Red Hive)">
+    - **Hỗ trợ Tấn công**: Sức tấn công cơ bản cao giúp ích trong các trận chiến với Cua Dừa (Coconut Crab).
+    - **Độ cơ động**: Cần thiết để né tránh trong các phiên kích hoạt buff (boosting).
+    - **Vai trò**: Tiện ích và bổ sung chiến đấu.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Giải thích về Hệ thống Độ ưu ái (Favor)">
+Mỗi vật phẩm bạn quyên góp cho Đền thờ Gió đều làm tăng chỉ số "Độ ưu ái" (Favor) của bạn. Độ ưu ái càng cao sẽ tăng cơ hội nhận được Windy Bee từ Lọ mây và cải thiện chất lượng của các buff cánh đồng bạn nhận được. Quyên góp các vật phẩm hiếm như Thạch Sao (Star Jelly) hoặc Kẹo Nguyên Tử (Atomic Treats) có thể tăng mạnh chỉ số này.
+</Callout>
+
+Để giúp bạn quyết định xem Windy Bee phù hợp ở giai đoạn nào trong quá trình thăng tiến của mình, hãy tham khảo bảng so sánh dưới đây về hiệu suất của nó qua các giai đoạn game khác nhau.
+
+| Giai đoạn Game | Mức độ Ưu tiên | Trường hợp Sử dụng Chính | Hiệu quả |
+| :--- | :--- | :--- | :--- |
+| **Đầu Game** | Thấp | N/A (Khóa) | 0/5 |
+| **Giữa Game** | Trung bình | Hoàn thành Nhiệm vụ | 3/5 |
+| **Cuối Game** | Cao | Farm Chuyên biệt | 5/5 |
+| **Endgame** | Thiết yếu | Xoay tua Token | 5/5 |
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật Nâng cao: Làm chủ Cơn lốc xoáy">
+
+Kỹ năng Lốc xoáy (Tornado) của **Windy Bee** là cơ chế phức tạp nhất của nó. Không giống như các chú ong khác thu thập từ một điểm duy nhất, Lốc xoáy là một công cụ gây ảnh hưởng diện rộng (AoE). Đường đi của nó là bán ngẫu nhiên nhưng có xu hướng hướng về những khu vực có mật độ hoa cao hơn hoặc nơi người chơi đang đứng.
+
+**Tối đa hóa sản lượng từ Lốc xoáy:**
+1. **Chọn Cánh đồng**: Sử dụng Windy Bee ở các cánh đồng có hoa cấp cao (như Pepper Patch hoặc Pine Tree Forest). Lượng thu hoạch của Lốc xoáy dựa trên tỷ lệ phần trăm giá trị của bông hoa, vì vậy hoa tốt hơn đồng nghĩa với nhiều mật ong hơn.
+2. **Kết hợp với Máy phun nước**: Đảm bảo Máy phun nước Supreme Star của bạn đang hoạt động. Lốc xoáy thu thập nhiều phấn hoa hơn từ những bông hoa "đã nâng cấp" được tưới nước.
+3. **Cộng dồn Kỹ năng**: Chờ hiệu ứng **Baby Love** (từ Baby Bee) hoặc **Melody** (từ Music Bee) kích hoạt trước khi thu thập các token Lốc xoáy. Điều này sẽ nhân số phấn hoa thu thập được bởi cơn lốc.
+
+| Trang bị | Mức độ Kết hợp | Lợi ích |
+| :--- | :--- | :--- |
+| **Gậy Cánh Hoa (Petal Wand)** | Cao | Chuyển hóa phấn hoa trong khi Lốc xoáy đang hoạt động. |
+| **Mặt Nạ Gummy (Gummy Mask)** | Cực kỳ Cao | Lốc xoáy kích hoạt hiệu ứng "Gummy Morph" nhanh hơn thông qua việc thu thập chất dính (goo). |
+| **Bình Đựng Dừa (Coconut Canister)** | Cao | Cung cấp sức chứa cần thiết cho các đợt bùng nổ phấn hoa từ Lốc xoáy. |
+| **Trang bị Ong Windy (Windy Beequip)** | Tối đa | Tăng thời gian tồn tại của Lốc xoáy và bán kính thu thập. |
+
+<Callout type="info" title="Tiện ích Chiến đấu">
+Windy Bee hiệu quả đến kinh ngạc trong chiến đấu. Những cơn Lốc xoáy của nó có thể gây sát thương lên nhiều kẻ địch cùng lúc, khiến nó trở nên lý tưởng để vượt qua Thử thách Kiến (Ant Challenge) hoặc phòng thủ chống lại tay sai của Stick Bug.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Giá trị Quyên góp Đền thờ Gió (2026)">
+
+Để sở hữu **Windy Bee**, bạn cần Lọ mây, nhưng để có được những buff tốt nhất, bạn cần biết nên quyên góp những gì khác. Đền thờ Gió là một cỗ máy khó tính, và phần thưởng của nó thay đổi dựa trên "giá trị" vật phẩm quyên góp của bạn.
+
+| Vật phẩm Quyên góp | Loại Phần thưởng | Phân khúc Giá trị |
+| :--- | :--- | :--- |
+| **Lọ mây (Cloud Vials)** | Windy Bee / Máy Chuyển đổi Nhỏ | Cao (để lấy Ong) |
+| **Xúc xắc Cánh đồng (Field Dice)** | Buff Cánh đồng Ngẫu nhiên | Thấp |
+| **Thạch Sao (Star Jelly)** | Độ ưu ái Cao / Buff Nhiều Cánh đồng | Trung bình |
+| **Whirligigs** | Buff Tốc độ Di chuyển | Tiện ích |
+| **Kẹo thường (1000+)** | Tăng nhẹ Độ ưu ái | Vật phẩm Phụ |
+
+<Steps>
+  <Step num="1" title="Kiểm tra Chuông gió">
+    Nếu chuông gió tại Đền thờ đang chuyển động và phát ra âm thanh, một chú Windy Bee Hoang Dã đang hoạt động trên bản đồ. Hãy tìm và đánh bại nó để lấy Lọ mây.
+  </Step>
+  <Step num="2" title="Theo dõi chỉ số Gió">
+    Chỉ số "Gió" (Wind) trong menu của bạn ảnh hưởng đến lượng phấn hoa mà Windy Bee thu thập được. Quyên góp cho Đền thờ sẽ tạm thời tăng chỉ số này.
+  </Step>
+  <Step num="3" title="Cân bằng lượng Lọ mây của bạn">
+    Đừng quyên góp tất cả Lọ mây của bạn cùng một lúc nếu bạn vẫn đang làm nhiệm vụ. Lọ mây là yêu cầu bắt buộc cho một số nhiệm vụ của Spirit Bear ở giai đoạn sau của trò chơi.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Windy Bee có tốt hơn Vicious Bee không?",
+    answer: "Chúng phục vụ các mục đích khác nhau. Vicious Bee là ông vua chiến đấu và giảm thời gian hồi sinh quái vật, trong khi Windy Bee là một chú ong thu thập và cơ động vượt trội. Hầu hết các tổ ong cấp cao đều bao gồm cả hai."
+  },
+  {
+    question: "Tôi có thể sở hữu Windy Bee mà không cần Cánh hoa Tâm linh không?",
+    answer: "Không. Cánh hoa Tâm linh (Spirit Petal) là yêu cầu bắt buộc để 'mở khóa' sự ưu ái của chú ong tại Đền thờ Gió. Bạn phải quyên góp ít nhất một cánh hoa trước khi Lọ mây có tác dụng."
+  },
+  {
+    question: "Trung bình mất bao nhiêu Lọ mây để nhận được ong?",
+    answer: "Hầu hết người chơi cho biết họ nhận được ong sau khoảng 200 đến 400 Lọ mây, với điều kiện họ đã quyên góp các vật phẩm khác để tích lũy chỉ số Độ ưu ái (Favor) trước đó."
+  },
+  {
+    question: "Tôi có nên dùng Cánh hoa Tâm linh đầu tiên cho Windy Bee không?",
+    answer: "Thông thường là không. Gậy Cánh Hoa (Petal Wand) là một nâng cấp ổn định hơn cho người chơi ở giai đoạn giữa game. Thường thì bạn nên sử dụng cánh hoa thứ hai cho Windy Bee."
+  }
+]} />
+
+</Section>

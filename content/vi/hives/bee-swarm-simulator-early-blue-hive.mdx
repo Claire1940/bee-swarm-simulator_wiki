@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hướng dẫn xây dựng Tổ Ong Xanh Dương Giai đoạn đầu (Early Blue Hive) trong Trình mô phỏng bầy ong: Bản năm 2026",
+  description: "Tối ưu hóa quá trình chuyển đổi sang tổ ong xanh dương giai đoạn đầu (early blue hive) trong Trình mô phỏng bầy ong. Tìm hiểu về đội hình ong tốt nhất, trang bị yêu cầu, chỉ số bùa hộ mệnh Pop Star và các tuyến đường cày cuốc.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Early+Blue+Hive+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Thời điểm chuyển đổi**: Chỉ nên xây dựng **tổ ong xanh dương giai đoạn đầu (early blue hive) trong Trình mô phỏng bầy ong** sau khi mở khóa Bùa hộ mệnh Ngôi sao Tối cao (Supreme Star Amulet) đầu tiên của bạn.
+- **Nội tại cốt lõi**: Quay lấy nội tại **Pop Star** trên bùa hộ mệnh của bạn để kích hoạt khả năng mở rộng quy mô bóng bay và bong bóng.
+- **Trang bị quan trọng**: Ưu tiên mở khóa **Mặt nạ Kim cương (Diamond Mask)** trước khi thay đổi đội hình tổ ong của bạn sang hệ xanh dương.
+- **Ưu tiên loại ong**: Tích lũy **Ong Phao (Buoyant Bee)** và **Ong Nòng Nọc (Tadpole Bee)** làm mục tiêu ong thần thoại chính để cày cuốc.
+- **Cánh đồng tốt nhất**: Hướng việc cày cuốc chủ động và tăng tốc (boost) của bạn vào **Rừng Thông (Pine Tree Forest)** để đạt hiệu suất tối ưu.
+</Callout>
+
+<Section icon={Shield} title="Yêu cầu Chuyển đổi: Khi nào nên chuyển sang Xanh Dương">
+
+Chuyển đổi sang một màu tổ ong chuyên biệt là cột mốc quan trọng nhất trong quá trình tiến trình từ giữa đến cuối game. Một **tổ ong xanh dương giai đoạn đầu (early blue hive) trong Trình mô phỏng bầy ong** được công nhận rộng rãi là lựa chọn màu sắc đầu tiên hiệu quả nhất, tiết kiệm chi phí nhất và dễ chơi nhất cho game thủ vào năm 2026. Không giống như tổ ong đỏ hoặc trắng đòi hỏi các ong thần thoại được ban tặng (gifted mythic) rất cụ thể và lượng tài nguyên khổng lồ để hoạt động hiệu quả, tổ ong xanh dương hoạt động cực kỳ tốt ngay cả với các ong thần thoại chưa được ban tặng và trang bị cơ bản. 
+
+Tuy nhiên, chuyển đổi quá sớm là một sai lầm nghiêm trọng có thể làm trì trệ tiến trình của bạn. Bạn phải duy trì một tổ ong hỗn hợp (mixed hive) để hoàn thành phần lớn các chuỗi nhiệm vụ chính từ Gấu Tâm Linh (Spirit Bear), Gấu Đen (Black Bear) và Gấu Khoa Học (Science Bear). Việc thay đổi màu tổ ong trước khi có được nội tại cốt lõi sẽ làm giảm nghiêm trọng khả năng thu thập phấn hoa đỏ và trắng của bạn, khiến các nhiệm vụ chung trở nên vô cùng khó khăn để hoàn thành.
+
+| Yêu cầu | Chỉ tiêu Mục tiêu | Lý do Quan trọng |
+| :--- | :--- | :--- |
+| **Bùa hộ mệnh** | Bùa hộ mệnh Ngôi sao Tối cao (SSA) | Mở khóa nội tại Pop Star, nền tảng của việc cày cuốc hệ xanh dương |
+| **Số lượng Ong** | 45+ Ong | Tối đa hóa sức chứa bóng bay và phạm vi bao phủ cánh đồng |
+| **Mặt nạ** | Mặt nạ Kim cương (Diamond Mask) | Cần thiết để có x3 Sức chứa Xanh dương và nội tại Diamond Drain |
+| **Dự trữ Mật ong** | 100 Tỷ - 200 Tỷ Mật ong | Nguồn vốn cần thiết để quay ong thần thoại và thiết lập ong hỗ trợ |
+| **Tiến trình Nhiệm vụ** | Đã có Spirit Petal thứ 2 | Đảm bảo bạn có Petal Wand hoặc Petal Belt trước khi chuyên môn hóa |
+
+<Callout type="warning" title="Đừng vội vàng chuyển đổi">
+Không bao giờ chuyển sang tổ ong xanh dương trước khi mở khóa Bùa hộ mệnh Ngôi sao Tối cao. Không có nội tại Pop Star, các ong xanh dương không thể tạo ra hệ số nhân tích lũy bong bóng (bubble bloat) hoặc chuyển đổi bóng bay cần thiết để giúp lối chơi này mang lại lợi nhuận.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cách xây dựng và Đội hình Ong cho Early Blue Hive">
+
+Cơ chế cốt lõi của **tổ ong xanh dương giai đoạn đầu trong Trình mô phỏng bầy ong** xoay quanh hai loại ong thần thoại: Ong Phao (Buoyant Bee) và Ong Nòng Nọc (Tadpole Bee). Ong Phao bơm căng các quả bóng bay để lưu trữ một lượng lớn phấn hoa thu thập được, sau đó bạn sẽ chuyển đổi tại tổ của mình để nhận lượng mật ong nhân lên. Ong Nòng Nọc sinh ra những chú ếch tạo ra bong bóng để thu thập phấn hoa, nuôi dưỡng hoa xanh dương và tích điện cho nội tại Pop Star của bạn.
+
+Trong giai đoạn đầu của lối xây dựng này, bạn không cần tất cả các ong thần thoại của mình phải là loại được ban tặng (gifted). Thay vào đó, hãy tập trung vào việc đạt được tỷ lệ hoạt động hiệu quả giữa Ong Phao và Ong Nòng Nọc, đồng thời lấp đầy phần còn lại của tổ bằng các loại ong hỗ trợ xanh dương và ong đa dụng thiết yếu.
+
+<CardGrid cols={3}>
+  <Card title="Ong Phao - Buoyant Bee (12-15)">
+    - **Vai trò chính**: Bơm bóng bay để lưu trữ phấn hoa thừa trên cánh đồng.
+    - **Tỷ lệ vàng**: Hướng tới tỷ lệ khoảng 1.5 Ong Phao cho mỗi 1 Ong Nòng Nọc.
+    - **Ưu tiên ban tặng**: Trung bình. Điểm thưởng ban tặng giúp tăng tốc độ chuyển đổi bóng bay.
+  </Card>
+  <Card title="Ong Nòng Nọc - Tadpole Bee (8-10)">
+    - **Vai trò chính**: Sinh ếch để tạo bong bóng và mật hoa xanh dương (blue nectar).
+    - **Kiểm soát cánh đồng**: Thiết yếu để duy trì hệ số nhân tích lũy bong bóng (bubble bloat).
+    - **Ưu tiên ban tặng**: Cao. Ong Nòng Nọc được ban tặng sẽ sinh ra ếch con để tạo bong bóng nhanh hơn.
+  </Card>
+  <Card title="Đa dụng & Hỗ trợ">
+    - **Vai trò chính**: Duy trì các bùa lợi quan trọng như Focus, Melody và Haste.
+    - **Mục tiêu chính**: Ong Âm Nhạc (Music Bee), Ong Chỉ Huy (Commander Bee) và Ong Sốc (Shocked Bee).
+    - **Ưu tiên ban tặng**: Cao đối với các điểm thưởng tổ ong được ban tặng (ví dụ: Ong Cơ Bản - Gifted Basic Bee).
+  </Card>
+</CardGrid>
+
+Để tối đa hóa lượng phấn hoa thu thập được, hãy cấu trúc tổ ong của bạn xung quanh một đội hình cân bằng giữa ong thần thoại, ong sự kiện và các ong hỗ trợ hiếm/sử thi được ban tặng. Sử dụng bản thiết kế tối ưu hóa cho giai đoạn đầu này:
+
+| Tên Ong | Số lượng Đề xuất | Ưu tiên Ban tặng | Chức năng Cốt lõi trong Tổ Xanh Dương |
+| :--- | :--- | :--- | :--- |
+| **Buoyant Bee (Ong Phao)** | 12 - 15 | Trung bình | Bơm bóng bay, mở rộng tỷ lệ vàng |
+| **Tadpole Bee (Ong Nòng Nọc)** | 8 - 10 | Cao | Sinh ếch, tạo bong bóng, mật hoa xanh dương |
+| **Tabby Bee (Ong Mướp)** | 1 | Cực kỳ quan trọng | Tốc độ chuyển đổi tối đa, sức mạnh chí mạng |
+| **Gummy Bee (Ong Kẹo Gôm)** | 1 | Trung bình | Tạo chất dính (goo) để hoàn thành nhiệm vụ |
+| **Photon Bee (Ong Quang Tử)** | 1 | Thấp | Chuyển đổi tức thì, giúp giải phóng không gian túi đồ |
+| **Music Bee (Ong Âm Nhạc)** | 3 - 4 | Thấp | Duy trì các biểu tượng (token) Melody và Focus |
+| **Commander Bee (Ong Chỉ Huy)** | 1 | Cao | Điểm thưởng ban tặng tăng +15% Sức mạnh Chí mạng |
+| **Shocked Bee (Ong Sốc)** | 1 | Cao | Điểm thưởng ban tặng tăng +15% Tốc độ Liên kết Biểu tượng |
+| **Basic Bee (Ong Cơ Bản)** | 1 | Cực kỳ quan trọng | Điểm thưởng ban tặng tăng x1.2 tổng lượng phấn hoa |
+
+<Callout type="tip" title="Vị trí đặt Ong Mướp">
+Luôn đặt Ong Mướp (Tabby Bee) của bạn ở hàng dưới cùng của tổ ong. Điều này giảm thiểu khoảng cách vật lý mà nó phải di chuyển để chuyển đổi phấn hoa, tiết kiệm những giây quý giá trong các phiên cày cuốc dài.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Trang bị Thiết yếu và Thiết lập Bùa hộ mệnh">
+
+Trang bị và bùa hộ mệnh của bạn cung cấp các hệ số nhân giúp biến phấn hoa thô thành hàng nghìn tỷ mật ong. Đối với tổ ong xanh dương giai đoạn đầu, Mặt nạ Kim cương (Diamond Mask) là thứ bắt buộc phải có. Nội tại của nó, Diamond Drain, chuyển đổi trực tiếp 20% phấn hoa xanh dương của bạn thành mật ong trong khi cày cuốc, cho phép bạn ở lại cánh đồng lâu hơn đáng kể trước khi túi đồ bị đầy.
+
+Ngoài ra, Bùa hộ mệnh Ngôi sao Tối cao của bạn phải có nội tại Pop Star. Pop Star kích hoạt sau khi thu thập đủ 100 bong bóng, sinh ra một ngôi sao khổng lồ nhân lên lượng phấn hoa xanh dương, sức mạnh thu thập bong bóng và tốc độ di chuyển của người chơi.
+
+| Trang bị | Chi phí / Nguyên liệu | Mức độ Ưu tiên | Lợi ích Cốt lõi |
+| :--- | :--- | :--- | :--- |
+| **Diamond Mask (Mặt nạ Kim cương)** | 5 Trứng Kim cương, 250 Chiết xuất Xanh, 150 Kim tuyến | **Cực kỳ quan trọng** | x3 Sức chứa Xanh dương, nội tại Diamond Drain |
+| **Honeycomb Belt (Thắt lưng Tổ ong)** | 50 Enzyme, 50 Keo, 15 Triệu Mật ong | **Cao** | +15% Sức chứa, +10% May mắn Nhặt đồ |
+| **Cobalt Guard (Bảo vệ Cobalt)** | 100 Chiết xuất Xanh, 50 Kim tuyến, 100 Ngòi độc | **Cao** | +10% Phấn hoa Xanh dương, Chuyển đổi Xanh dương Tức thì |
+| **Petal Wand (Gậy Cánh Hoa)** | 1 Cánh hoa Tâm linh, 10 Thạch Ngôi sao, 25 Enzyme | **Cao** | Tự động thu thập phấn hoa, chuyển đổi tức thì |
+| **Tide Popper (Gậy Sóng Thần)** | 1,500 Chiết xuất Xanh, 75 Sáp Siêu cấp, 50 Tỷ Mật ong | **Cuối game** | Công cụ thu thập xanh dương tối thượng, tạo ra sóng triều |
+
+Khi quay Bùa hộ mệnh Ngôi sao Tối cao của bạn, hãy ưu tiên các chỉ số dành riêng cho hệ xanh dương. Một bùa hộ mệnh Pop Star nội tại đơn với các chỉ số phụ chính xác sẽ vượt trội hơn nhiều so với một bùa hộ mệnh nội tại kép có chỉ số phụ kém.
+
+| Loại Bùa hộ mệnh | Nội tại Lý tưởng | Chỉ số phụ Hàng đầu cần Hướng tới |
+| :--- | :--- | :--- |
+| **Ngôi sao Tối cao (Supreme Star)** | Pop Star | Phấn hoa Xanh dương, Sức chứa, Tốc độ Chuyển đổi, Tỷ lệ Chí mạng |
+| **Vua Bọ hung (King Beetle)** | Không có | Phấn hoa Xanh dương, Phấn hoa Dâu tây, Tốc độ Chuyển đổi |
+| **Bùa Mặt trăng (Moon Amulet)** | Không có | Mật ong trên mỗi Phấn hoa, Sức chứa Tối đa |
+| **Bùa Ốc sên (Snail Amulet)** | Không có | Phấn hoa Xanh dương, Mật ong từ Biểu tượng, Tỷ lệ Kích hoạt Kỹ năng Ong |
+
+<Callout type="success" title="Ưu tiên Chỉ số Pop Star">
+Khi mới bắt đầu, một nội tại **Pop Star** đơn lẻ với ít nhất các chỉ số phụ **Phấn hoa Xanh dương** và **Sức chứa** là đã hoàn hảo. Đừng lãng phí hàng nghìn tỷ mật ong để săn đuổi nội tại kép (như Pop Star + Guiding Star) cho đến khi toàn bộ tổ ong của bạn được nâng cấp cấp độ đầy đủ và được ban tặng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Chuyển đổi Từng bước">
+
+Việc thay đổi toàn bộ thiết lập tổ ong của bạn có thể gây choáng ngợp. Hãy làm theo lộ trình có cấu trúc này để thực hiện quá trình chuyển đổi liền mạch sang tổ ong xanh dương mà không lãng phí tài nguyên quý giá.
+
+<Steps>
+  <Step num="1" title="Tích lũy Tài nguyên">
+    Đừng bắt đầu thay đổi tổ ong cho đến khi bạn đã tiết kiệm được ít nhất 100 Tỷ Mật ong, 250 Chiết xuất Xanh dương và 20,000 Sữa ong chúa (Royal Jelly). Bạn cần nguồn vốn này để đảm bảo có được những chú ong thần thoại ban đầu.
+  </Step>
+  <Step num="2" title="Quay Bùa hộ mệnh Ngôi sao Tối cao">
+    Dành mật ong của bạn để quay lấy Bùa hộ mệnh Ngôi sao Tối cao có nội tại **Pop Star**. Hãy dừng lại ngay khi bạn nhận được Pop Star, bất kể các chỉ số phụ có hoàn hảo hay không.
+  </Step>
+  <Step num="3" title="Dọn dẹp các Ong phụ và Dùng Sữa ong chúa liên tục">
+    Loại bỏ các ong đỏ và trắng không cần thiết khỏi tổ của bạn. Sử dụng cài đặt "Tự động quay cho đến khi đạt Thần thoại" (Auto-Roll until Mythic) trên Sữa ong chúa để nhắm mục tiêu vào **Ong Phao (Buoyant Bee)** và **Ong Nòng Nọc (Tadpole Bee)**.
+  </Step>
+  <Step num="4" title="Thiết lập Mạng lưới Hỗ trợ">
+    Lấp đầy các ô còn lại bằng các ong hỗ trợ hiếm và sử thi được ban tặng. Đảm bảo bạn có ít nhất 3 Ong Âm Nhạc để duy trì bùa lợi Melody liên tục và một Ong Cơ Bản được ban tặng để lấy hệ số nhân toàn cầu.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Hiệu quả sử dụng Sữa ong chúa">
+Trung bình, mất khoảng 24,000 Sữa ong chúa để quay được một con ong thần thoại duy nhất. Hãy chuẩn bị cho sự chênh lệch này và luôn giữ một lượng mật ong dự phòng để bạn không rơi vào tình trạng tổ ong chưa hoàn thiện.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tuyến đường Cày cuốc và Quản lý Tích lũy Bong bóng">
+
+Cày cuốc với tổ ong xanh dương đòi hỏi một lối chơi khác so với tổ ong hỗn hợp hoặc đỏ. Mục tiêu chính của bạn là xây dựng và duy trì **Tích lũy Bong bóng (Bubble Bloat)**, một hệ số nhân có thể cộng dồn lên đến x6 dựa trên số lượng bong bóng xuất hiện trên cánh đồng. Việc duy trì hệ số nhân này đòi hỏi lối chơi chủ động liên tục hoặc các đường đi cày cuốc có cấu trúc.
+
+| Tên Cánh đồng | Tỷ lệ Hoa Xanh | Trường hợp Sử dụng Tốt nhất | Mức độ Rủi ro |
+| :--- | :--- | :--- | :--- |
+| **Rừng Thông (Pine Tree Forest)** | 100% Xanh dương | Cày cuốc chủ động chính, tăng tốc (boost) và dùng macro | Thấp (Không có quái vật hung hãn xuất hiện bên trong) |
+| **Cánh đồng Tre (Bamboo Field)** | 70% Xanh dương | Hoàn thành nhiệm vụ, tăng tốc phụ | Trung bình (Nhện có thể làm gián đoạn việc cày cuốc) |
+| **Cánh đồng Gốc cây (Stump Field)** | 100% Xanh dương | Cày cuốc treo máy (AFK) dài hạn, tiêu diệt Ốc sên | Cao (Ốc sên gốc cây chặn ở giữa trừ khi bị đánh bại) |
+
+Để tối ưu hóa các lượt cày cuốc của bạn, hãy luôn ưu tiên Rừng Thông. Đây là một cánh đồng hoàn toàn xanh dương, có nghĩa là các hệ số nhân phấn hoa xanh dương của bạn sẽ áp dụng cho từng bông hoa mà bạn thu hoạch.
+
+<Callout type="tip" title="Duy trì Mật hoa">
+Giữ cho các chú ong xanh dương của bạn vui vẻ bằng cách liên tục cho tổ ong của bạn ăn Đất sét Xanh (Blue Clay) và sử dụng Máy phân phối Xanh (Blue Dispenser). Duy trì mức độ cao của **Mật hoa Thỏa mãn (Satisfying Nectar)** và **Mật hoa Sảng khoái (Refreshing Nectar)** giúp tăng sản lượng phấn hoa xanh dương của bạn lên đến 50%.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các cột mốc và Câu hỏi thường gặp">
+
+Trước khi hoàn thiện lối xây dựng của mình, hãy xem lại danh sách kiểm tra này để đảm bảo tài khoản của bạn đã chuẩn bị đầy đủ cho meta xanh dương.
+
+<Checklist
+  id="blue-hive-readiness"
+  title="Danh sách Kiểm tra Độ Sẵn sàng cho Tổ Xanh Dương:"
+  items={[
+    "Đã mở khóa Bùa hộ mệnh Ngôi sao Tối cao với nội tại Pop Star",
+    "Đã chế tạo Mặt nạ Kim cương (Diamond Mask) và Bảo vệ Cobalt (Cobalt Guard)",
+    "Đảm bảo có ít nhất 10 Ong Phao (Buoyant Bee) và 6 Ong Nòng Nọc (Tadpole Bee)",
+    "Đặt Ong Mướp (Tabby Bee) ở hàng dưới cùng của tổ ong",
+    "Nâng cấp tất cả các ong cốt lõi lên ít nhất Cấp 11"
+  ]}
+/>
+
+<Callout type="info" title="Chuẩn bị Cuối cùng">
+Nếu bạn đã hoàn thành tất cả các mục ở trên, tổ ong của bạn đã sẵn sàng để tạo ra lượng mật ong khổng lồ. Hãy đảm bảo bạn phối hợp các đợt tăng tốc (boost) của mình với gió từ cánh đồng xanh dương để đạt hiệu quả tối đa.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Tại sao tổ ong xanh dương giai đoạn đầu (early blue hive) trong Trình mô phỏng bầy ong được khuyên dùng hơn tổ đỏ hoặc trắng?",
+    answer: "Tổ ong xanh dương giai đoạn đầu được khuyên dùng vì chi phí thiết lập cực kỳ rẻ. Nó không yêu cầu bùa hộ mệnh có nội tại kép hoặc các ong thần thoại được ban tặng đầy đủ để tạo ra hàng nghìn tỷ mật ong, khiến nó trở thành lối xây dựng hoàn hảo để bước vào giai đoạn giữa game cho người chơi."
+  },
+  {
+    question: "Tôi có thể vận hành tổ ong xanh dương mà không cần Mặt nạ Kim cương (Diamond Mask) không?",
+    answer: "Mặc dù về mặt kỹ thuật là có thể, nhưng nó cực kỳ kém hiệu quả. Mặt nạ Kim cương cung cấp lượng tăng sức chứa Xanh dương khổng lồ x3 và nội tại Diamond Drain giúp chuyển đổi phấn hoa trực tiếp trên cánh đồng, ngăn túi đồ của bạn bị đầy ngay lập tức."
+  },
+  {
+    question: "Tôi nên làm gì nếu hết mật ong khi đang quay ong thần thoại?",
+    answer: "Hãy dừng quay ngay lập tức và sử dụng thiết lập tạm thời của bạn để cày cuốc trong Rừng Thông. Ngay cả một tổ ong xanh dương chưa hoàn chỉnh vẫn có thể tạo ra lượng mật ong khá tốt để giúp bạn phục hồi dự trữ và thử quay lại lần nữa."
+  },
+  {
+    question: "Tôi thực sự cần bao nhiêu Ong Âm Nhạc (Music Bee)?",
+    answer: "Bạn nên sử dụng từ 3 đến 4 Ong Âm Nhạc. Chúng rất quan trọng để duy trì 100% thời gian hoạt động của bùa lợi Melody (tăng +100% Sức mạnh Chí mạng) và tạo ra các biểu tượng Focus."
+  }
+]} />
+
+</Section>

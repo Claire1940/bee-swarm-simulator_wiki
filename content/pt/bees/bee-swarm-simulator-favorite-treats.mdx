@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Petiscos Favoritos do Bee Swarm Simulator: Guia de Alimentação",
+  description: "Otimize sua colmeia com nosso guia completo de petiscos favoritos do Bee Swarm Simulator. Aprenda as chances de abelhas talentosas, estratégias de alimentação e locais para farmar petiscos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Favorite+Treats+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica principal**: Alimentar uma abelha com seus **petiscos favoritos do bee swarm simulator** dobra o vínculo ganho por item de 5 para 10 pontos.
+- **Transformação em Talentosa**: Cada petisco favorito dado tem uma pequena chance de transformar uma abelha em Talentosa, variando de 1 em 8.000 a 1 em 24.000.
+- **Alimentação direcionada**: Sempre combine as cores dos petiscos com as cores das abelhas (Morangos para Vermelhas, Mirtilos para Azuis) para maximizar a eficiência.
+- **Estratégia de farm**: Foque em campos importantes como Pepper Patch, Pine Tree Forest e Pumpkin Patch para estocar petiscos rapidamente.
+</Callout>
+
+<Section icon={Map} title="Compatibilidade de Petiscos e Sistema de Vínculo">
+
+Entender como os petiscos interagem com sua colmeia é a base da progressão. No Bee Swarm Simulator, alimentar suas abelhas é o método principal para subi-las de nível, o que aumenta a quantidade de coleta, o poder de ataque e a velocidade de conversão. Embora os Petiscos (Treats) básicos comprados no dispensador forneçam um vínculo fixo de 10 pontos, petiscos especializados como Morangos (Strawberries), Mirtilos (Blueberries), Abacaxis (Pineapples) e Sementes de Girassol (Sunflower Seeds) se comportam de maneira diferente dependendo de qual abelha os consome.
+
+Quando uma abelha é alimentada com seu petisco favorito designado, a recompensa de vínculo é dobrada. Se você der um petisco a uma abelha que não o prefere, o vínculo é reduzido pela metade, caindo para meros 5 pontos, e você perde completamente qualquer chance de ativar uma transformação em talentosa. Portanto, a alimentação aleatória é altamente ineficiente e desperdiça recursos valiosos de criação (crafting).
+
+### Métricas de Eficiência dos Petiscos
+
+A tabela abaixo descreve as principais diferenças nos rendimentos de vínculo e capacidades de transformação entre petiscos básicos e petiscos especializados.
+
+| Tipo de Petisco | Vínculo Base | Vínculo de Abelha Favorita | Chance de Transformação em Talentosa |
+| :--- | :--- | :--- | :--- |
+| **Semente de Girassol** | 5 | 10 | 1 em 8.000 (Não Mítica) |
+| **Morango** | 5 | 10 | 1 em 8.000 (Não Mítica) |
+| **Mirtilo** | 5 | 10 | 1 em 8.000 (Não Mítica) |
+| **Abacaxi** | 5 | 10 | 1 em 8.000 (Não Mítica) |
+| **Petisco (Básico)** | 10 | N/A | Não pode ativar transformação |
+
+### Atribuições de Petiscos Favoritos
+
+Para garantir que você nunca desperdice seus recursos suados, use esta lista de compatibilidade para combinar o petisco correto com suas abelhas específicas.
+
+| Cor / Tipo de Abelha | Petisco Favorito | Exemplos de Abelhas |
+| :--- | :--- | :--- |
+| **Abelhas Vermelhas** | Morango | Rad, Riley, Fire, Shy, Rage, Spicy, Precise |
+| **Abelhas Azuis** | Mirtilo | Cool, Bucko, Frosty, Diamond, Ninja, Tadpole, Buoyant |
+| **Brancas / Incolores** | Abacaxi | Stubborn, Exhausted, Carpenter, Vector |
+| **Incolores / Suporte** | Semente de Girassol | Basic, Bomber, Looker, Commander, Music, Baby, Photon |
+
+<CardGrid cols={2}>
+  <Card title="Otimização de Colmeia Vermelha">
+    Foque suas reservas de **Morangos** inteiramente em Abelhas Vermelhas. Isso é crucial para subir o nível de atacantes de alto nível, como as abelhas Spicy e Precise, enquanto busca suas variantes talentosas.
+  </Card>
+  <Card title="Otimização de Colmeia Azul">
+    Mantenha seus **Mirtilos** dedicados às Abelhas Azuis. Colmeias azuis dependem muito de abelhas Tadpole e Buoyant de nível alto para sustentar as capacidades de bolhas e balões.
+  </Card>
+  <Card title="Otimização de Colmeia Branca">
+    Use **Abacaxis** para alimentar as abelhas Carpenter e Vector. Colmeias brancas exigem enormes quantidades de enzimas, então equilibre a alimentação com as necessidades de criação (crafting).
+  </Card>
+  <Card title="Suporte Incolor e de Evento">
+    **Sementes de Girassol** são melhor aproveitadas em abelhas de suporte, como Music e Baby, ou abelhas de evento, como a Photon Bee, para aumentar constantemente seus níveis de vínculo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional: Limites de Alimentação de Abelhas de Evento">
+Embora Abelhas de Evento como Photon Bee, Tabby Bee e Gummy Bee possam comer Sementes de Girassol ou outros petiscos para ganhar vínculo, elas **não podem** se tornar Talentosas através de petiscos favoritos. Economize seus petiscos para abelhas comuns ou Míticas, e use apenas Star Treats ou Gingerbread Bears sazonais em Abelhas de Evento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chances e Custos de Transformação em Talentosa">
+
+Transformar suas abelhas em **Abelhas Talentosas** é essencial para desbloquear bônus passivos poderosos para toda a colmeia. Embora os Star Treats ofereçam uma transformação garantida, usar **petiscos favoritos do bee swarm simulator** é o método mais comum para abelhas que não são de evento. No entanto, esse processo depende muito do gerador de números aleatórios (RNG).
+
+A chance de uma abelha se tornar talentosa com um único petisco favorito depende inteiramente da sua raridade. Como as chances são bastante baixas, você deve se preparar para alimentar milhares de petiscos em uma única sessão para garantir uma transformação.
+
+### Probabilidades de Transformação em Talentosa
+
+Os dados a seguir representam os requisitos estatísticos médios para transformar abelhas usando seus petiscos favoritos.
+
+| Raridade da Abelha | Chance Base de Talentosa | Média de Petiscos Necessários | Custo Estimado em Mel (Equivalente) |
+| :--- | :--- | :--- | :--- |
+| **Abelhas Raras** | 1 em 8.000 | 8.000 petiscos | 40.000.000 de Mel |
+| **Abelhas Épicas** | 1 em 8.000 | 8.000 petiscos | 40.000.000 de Mel |
+| **Abelhas Lendárias** | 1 em 8.000 | 8.000 petiscos | 40.000.000 de Mel |
+| **Abelhas Míticas** | 1 em 24.000 | 24.000 petiscos | 120.000.000 de Mel |
+| **Abelhas de Evento** | N/A | Impossível via petiscos | Requer Star Treat |
+
+Como esses números são médias estatísticas, você pode ter sorte e transformar uma abelha em menos de 1.000 petiscos, ou pode acabar de mãos vazias depois de gastar 20.000. Para abelhas Míticas, a chance de 1 em 24.000 torna a transformação baseada em petiscos um esforço para o late-game.
+
+<Callout type="warning" title="Aviso: O Dilema de Criar vs. Alimentar">
+Antes de gastar milhares de Morangos, Mirtilos ou Abacaxis na sua colmeia, lembre-se de que esses itens são ingredientes essenciais para criar equipamentos de alto nível. Por exemplo, Extratos Azuis (Blue Extracts) requerem Mirtilos, e Enzimas (Enzymes) requerem Abacaxis. Não fique impossibilitado de criar seu próximo grande upgrade de equipamento por ter tentado a sorte em uma transformação antes da hora.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo de Alimentação Ideal">
+
+Para minimizar o desperdício de recursos e maximizar suas chances de sucesso, você deve seguir um protocolo estruturado de alimentação. Clicar cegamente no botão de alimentar pode resultar em subir demais o nível de abelhas que você planeja substituir ou desperdiçar petiscos raros nos alvos errados.
+
+<Steps>
+  <Step num="1" title="Identifique sua Abelha Alvo">
+    Analise sua colmeia e selecione uma única abelha que precise de um bônus de talentosa ou de um upgrade de nível. Priorize abelhas que oferecem bônus de colmeia universalmente benéficos, como a Commander Bee (+5% de Chance Crítica) ou a Music Bee (+10% de Poder Crítico).
+  </Step>
+  <Step num="2" title="Estoque uma Margem Segura de Petiscos">
+    Não tente uma transformação em talentosa com apenas 1.000 petiscos. Para abelhas comuns, espere até ter pelo menos 10.000 de seu petisco favorito. Para abelhas Míticas, não comece até acumular pelo menos 25.000 a 30.000 petiscos para combater o azar do RNG.
+  </Step>
+  <Step num="3" title="Configure suas Opções de Alimentação">
+    Abra o menu da sua colmeia, clique na abelha alvo e selecione o petisco apropriado. Use a barra de ajuste de quantidade ou selecione a opção "Até Talentosa" se tiver um estoque massivo. Isso evita cliques manuais e interrompe a alimentação imediatamente assim que a abelha se transforma.
+  </Step>
+  <Step num="4" title="Reavalie a Sinergia da Colmeia">
+    Assim que uma abelha se torna talentosa, seu bônus de colmeia fica ativo. Como bônus de talentosas idênticos não se acumulam, identifique imediatamente quaisquer abelhas talentosas duplicadas em sua colmeia e prepare-se para substituí-las por outros tipos únicos para diversificar seus bônus.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso: Ativação do Bônus de Colmeia Talentosa">
+Assim que uma abelha se transforma, seu bônus de colmeia exclusivo é aplicado ao seu personagem instantaneamente. Sempre priorize manter uma de cada abelha Rara, Épica e Lendária talentosa em sua colmeia antes de buscar a especialização pura de cores.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rotas de Farm e Coleta de Petiscos">
+
+Para sustentar um ciclo de alimentação saudável, você deve saber onde e como farmar petiscos de maneira eficiente. Embora comprar petiscos no dispensador perto da zona da Mother Bear seja uma opção, é incrivelmente caro para jogadores no início e meio de jogo. Farmar em campos e derrotar monstros (mobs) é a maneira mais econômica de aumentar seu inventário.
+
+Campos diferentes têm taxas de queda variadas para petiscos específicos. Alinhar suas sessões de farm com suas necessidades atuais de petiscos acelerará significativamente sua progressão.
+
+### Locais de Farm de Petiscos de Alto Rendimento
+
+Foque o farm nestes campos específicos para maximizar a aquisição passiva de petiscos enquanto coleta pólen.
+
+| Nome do Campo | Drop Principal de Petisco | Drop Secundário / Material de Criação | Configuração Recomendada de Aspersor |
+| :--- | :--- | :--- | :--- |
+| **Sunflower Field** | Semente de Girassol | Petisco Básico | Aspersor de Prata ou superior |
+| **Strawberry Field** | Morango | Moon Charm | Aspersor de Ouro ou superior |
+| **Bamboo Forest** | Mirtilo | Extrato Azul | Aspersor de Diamante ou superior |
+| **Pineapple Patch** | Abacaxi | Enzima | Aspersor Supremo |
+| **Pepper Patch** | Morango | Extrato Vermelho | Aspersor Supremo |
+| **Pine Tree Forest** | Mirtilo | Cola | Aspersor Supremo |
+
+Além do farm nos campos, utilizar dispensadores diários e derrotar monstros sazonais ou locais fornece um fluxo constante de recursos sem consumir seu tempo de jogo ativo.
+
+<Checklist
+  id="daily-treat-checklist"
+  title="Rotina Diária de Coleta de Petiscos:"
+  items={[
+    "Resgate recompensas gratuitas dos dispensadores de Morango, Mirtilo e Abacaxi a cada 4 horas.",
+    "Derrote os chefes King Beetle e Tunnel Bear diariamente para obter pacotes garantidos de petiscos raros.",
+    "Conclua as missões da Mother Bear e do Polar Bear para ganhar recompensas diretas de petiscos e buffs permanentes de alimentação.",
+    "Derrote os monstros Spider (Aranha) e Werewolf (Lobisomem) sempre que estiverem disponíveis para coletar Morangos e Mirtilos extras.",
+    "Participe dos minijogos de Jogo da Memória (Memory Match) para garantir pacotes de petiscos de alto valor."
+  ]}
+/>
+
+<Callout type="info" title="Nota: Buff de Alimentação do Polar Bear">
+Concluir as missões do Polar Bear recompensa você com Polar Power. Este buff permanente aumenta a capacidade de energia das suas abelhas, reduzindo a frequência com que precisam descansar na colmeia, impulsionando indiretamente suas taxas gerais de conversão de pólen em mel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudar a esclarecer equívocos comuns sobre o sistema de alimentação, compilamos as perguntas mais frequentes da comunidade.
+
+<FAQ items={[
+  {
+    question: "Posso usar petiscos favoritos em Abelhas de Evento para torná-las talentosas?",
+    answer: "Não. Abelhas de Evento (como Tabby, Photon, Festive, Crimson, Cobalt e Gummy) não têm petiscos favoritos. Alimentá-las com petiscos padrão apenas concederá vínculo. Para tornar uma Abelha de Evento talentosa, você deve alimentá-la com um Star Treat ou usar itens sazonais como Gingerbread Bears."
+  },
+  {
+    question: "Vale a pena comprar petiscos com Mel no dispensador?",
+    answer: "Apenas no late-game. Comprar petiscos básicos custa 10.000 de Mel cada, o que acumula incrivelmente rápido. Até que você possa fazer facilmente bilhões de mel por sessão de farm, dependa de farm ativo nos campos, dispensadores e drops de chefes para coletar seus petiscos."
+  },
+  {
+    question: "Os Bônus de Colmeia Talentosa idênticos se acumulam se eu tiver várias da mesma abelha?",
+    answer: "Não, Bônus de Colmeia Talentosa idênticos não se acumulam. Se você tiver duas Commander Bees Talentosas, ainda receberá apenas um único bônus de +5% de Chance Crítica. É sempre melhor manter uma colmeia diversa com tipos talentosos únicos."
+  },
+  {
+    question: "Qual é a diferença entre Petiscos normais e Petiscos Favoritos?",
+    answer: "Os Petiscos básicos dão um vínculo fixo de 10 para qualquer abelha, mas têm 0% de chance de ativar uma transformação em talentosa. Os Petiscos Favoritos (como Morangos para Abelhas Vermelhas) dão 10 de vínculo para suas abelhas compatíveis, 5 de vínculo para abelhas incompatíveis e trazem a chance única de transformar abelhas compatíveis em talentosas."
+  }
+]} />
+
+<Callout type="tip" title="Recomendação Final">
+Sempre priorize subir o nível de seus principais coletores e atacantes primeiro. Uma colmeia de nível mais alto permite que você derrote chefes mais rápido, o que, por sua vez, aumenta drasticamente seus rendimentos diários de petiscos.
+</Callout>
+
+</Section>

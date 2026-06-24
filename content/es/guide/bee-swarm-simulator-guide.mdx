@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Bee Swarm Simulator: Progresión y Construcciones de Colmena",
+  description: "Domina Roblox Bee Swarm Simulator con nuestra guía experta. Aprende la mejor ruta de mejora de equipo, códigos de recompensa activos, listas de abejas y construcciones de colmenas especializadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000?text=Bee+Swarm+Simulator+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, guía, códigos, progresión, colmena, roblox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Sigue esta **guía de bee swarm simulator** completa para optimizar tu recolección de polen, eclosionar abejas de alto nivel y escalar tu producción de miel.
+- **Estrategia de progresión**: Prioriza siempre las mejoras de mochila y recolector antes de comprar artículos cosméticos caros o huevos aleatorios.
+- **Optimización de la colmena**: Mantén una colmena mixta y equilibrada durante las etapas iniciales y medias del juego para completar eficientemente las diversas misiones de los osos.
+- **Gestión de códigos**: Canjea los códigos promocionales activos de forma estratégica, ya que los potenciadores de campo se activan inmediatamente y no deben desperdiciarse.
+- **Transición al juego tardío**: Evita especializarte en un solo color de colmena (Rojo, Azul o Blanco) hasta que desbloquees el Amuleto de Estrella Suprema (Supreme Star Amulet).
+</Callout>
+
+<Section icon={Trophy} title="Códigos Activos y Recompensas Gratuitas">
+
+Usar códigos promocionales activos es la forma más rápida de acelerar tu progreso en el juego temprano y medio. Estos códigos proporcionan recursos esenciales, incluyendo miel, tickets, gomitas y potenciadores de campo inmediatos. Para maximizar el valor de los potenciadores de campo, canjéalos solo cuando estés totalmente preparado para farmear en esos campos específicos.
+
+| Código | Resumen de Recompensas | Artículos Clave Incluidos |
+| :--- | :--- | :--- |
+| **fourtunate** | 1 Abeja Malvavisco, 4 Dados de Campo, 4 Micro-convertidores, Frutas, Aguijones | Abeja Malvavisco, Aguijones |
+| **15MMembers** | 15 Gomitas, 1 Abeja Malvavisco, 15 Bayas Amargas, Frutas, 1 Globo Rojo | Globo Rojo, Bayas Amargas |
+| **BeesBuzz123** | 10 Gomitas, 5 Bayas Amargas, 1 Vial de Nube | Vial de Nube, Gomitas |
+| **ClubBean** | 1 Frijol Mágico, 2 Potenciadores de Campo de Piña | Frijol Mágico, Potenciadores |
+| **Wax** | 5,000 Miel, 5 Tickets | Tickets, Miel |
+| **Nectar** | 5,000 Miel | Miel |
+| **38217** | 5 Tickets | Tickets |
+| **BopMaster** | 5 Tickets | Tickets |
+| **Connoisseur** | 5 Tickets | Tickets |
+| **Crawlers** | 5 Tickets | Tickets |
+| **Roof** | 5 Tickets | Tickets |
+
+<Callout type="warning" title="Reglas de Canje">
+Antes de intentar canjear códigos exclusivos del club como **ClubBean**, debes unirte al [Club oficial de Bee Swarm Simulator](https://www.roblox.com/communities/3982592/Bee-Swarm-Simulator-Club) en Roblox. Si no eres miembro del club, estos códigos devolverán un mensaje de error en el juego.
+</Callout>
+
+### Cómo Canjear Códigos en Bee Swarm Simulator
+
+Para reclamar tus recompensas, inicia la experiencia oficial en Roblox y localiza el icono del engranaje en la esquina superior izquierda de tu pantalla. Al hacer clic en este icono se abrirá el menú de ajustes, que cuenta con un cuadro de texto etiquetado como "Codes".
+
+Escribe o pega tu código exactamente como aparece escrito y luego presiona el botón de canjear. Tus recompensas se acreditarán en tu inventario al instante. Recuerda guardar los códigos que contienen micro-convertidores y potenciadores de campo para sesiones de farmeo activo en lugar de canjearlos ociosamente.
+
+</Section>
+
+<Section icon={Map} title="Ruta de Inicio para Principiantes y Ciclo de Juego Principal">
+
+El ciclo de juego principal se centra en recolectar polen, regresar a tu colmena para convertirlo en miel y gastar esa miel para expandir tu enjambre y mejorar tus herramientas. Navegar este ciclo eficientemente evita cuellos de botella tempranos y asegura un suministro constante de recursos.
+
+<Callout type="tip" title="Eficiencia de Farmeo">
+Recoge siempre los tokens de habilidad que sueltan tus abejas mientras farmeas en los campos. Estos tokens activan bufos críticos, como enfoque, celeridad y poder crítico, que aumentan drásticamente tu tasa de recolección de polen.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Reclama tu Colmena y Únete a la Experiencia">
+    Inicia el juego en Roblox y reclama una ranura de colmena vacía. Asegúrate de unirte al Club oficial de Roblox de antemano para desbloquear dispensadores de miel diarios y calificar para códigos exclusivos del club.
+  </Step>
+  <Step num="2" title="Cosecha Polen en los Campos Iniciales">
+    Equipa tu pala básica y dirígete a los campos de bajo nivel cerca del área de inicio, como el Campo de Girasoles o el Campo de Dientes de León. Ten en cuenta el tamaño de tu contenedor y recolecta polen junto a tus abejas iniciales.
+  </Step>
+  <Step num="3" title="Convierte Polen en Miel en tu Colmena">
+    Una vez que tu mochila esté llena, regresa a tu colmena y sitúate en tu plataforma. Tus abejas comenzarán a convertir el polen recolectado en miel, que sirve como la moneda principal para toda la progresión.
+  </Step>
+  <Step num="4" title="Compra Huevos y Expande tu Enjambre">
+    Gasta tu miel recién convertida para comprar huevos básicos en la tienda de huevos. Coloca estos huevos en ranuras vacías de la colmena para eclosionar nuevas abejas, lo que aumenta tu velocidad de recolección general y tu poder de combate.
+  </Step>
+  <Step num="5" title="Prioriza las Misiones Iniciales de los Osos">
+    Interactúa con Black Bear y Mother Bear cerca del área de inicio. Sus misiones actúan como un tutorial estructurado, guiándote a través de diferentes campos y recompensándote con oro, tickets y golosinas.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Etapas de Progresión y Orden de Mejora de Equipo">
+
+Mejorar tu equipo en la secuencia correcta es vital. Comprar artículos caros fuera de orden puede estancar tu progresión y desperdiciar valiosos ingredientes de fabricación. Sigue esta hoja de ruta estructurada para optimizar tu gasto de monedas y el uso de materiales.
+
+| Etapa | Cantidad de Abejas | Objetivo Principal | Mejoras de Equipo Prioritarias |
+| :--- | :--- | :--- | :--- |
+| **Colmena Inicial** | 1-10 Abejas | Establecer ciclo de juego básico | Huevos Básicos, Pala Inicial, Mochila Inicial |
+| **Montaña Temprana** | 10-25 Abejas | Desbloquear puertas de nivel medio | Imán, Aspiradora, Rastrillo Dorado, Port-O-Hive |
+| **Cima de la Montaña** | 25-35 Abejas | Asegurar equipo de farmeo de alto rendimiento | Cucharón de Porcelana, Port-O-Hive de Porcelana, Cinturón |
+| **Crafteo de Juego Medio** | 35-45 Abejas | Adquirir máscaras y protecciones especializadas | Máscara de Miel, Guardia Carmesí, Guardia de Cobalto, Varita de Pétalos |
+| **Juego Tardío** | 45-50 Abejas | Especializar color de colmena y optimizar | Bote de Coco, Zuecos de Coco, Amuleto de Estrella Suprema |
+
+<Callout type="info" title="Preservación de Materiales">
+Nunca gastes ingredientes de fabricación raros como Purpurina, Enzimas, Pegamento o Aceite en artículos temporales de juego medio. Guarda estos recursos estrictamente para piezas de equipo de alto nivel como la Máscara de Miel, el Bote de Coco y la Varita de Pétalos.
+</Callout>
+
+### Hitos Clave de Equipo Explicados
+
+A medida que escalas tus operaciones, ciertas compras de equipo redefinirán tu velocidad de farmeo:
+
+- **Cucharón de Porcelana (Porcelain Dipper)**: Esta es tu herramienta de juego medio más importante. Recolecta cantidades masivas de polen y convierte una parte instantáneamente, reduciendo drásticamente tus viajes de regreso a la colmena.
+- **Máscara de Miel (Honey Mask)**: Fabricada en la tienda de la cima de la montaña, esta máscara otorga la habilidad pasiva "Coin Shower", que convierte el polen en miel directamente en el campo.
+- **Varita de Pétalos (Petal Wand)**: Obtenida al intercambiar un Pétalo de Espíritu en el Santuario del Viento, esta herramienta convierte polen automáticamente y dispara un proyectil que cosecha flores en línea recta.
+
+</Section>
+
+<Section icon={Sparkles} title="Construcciones de Colmena y Especialización de Color">
+
+Elegir una construcción de colmena dicta tu estilo de juego, bufos activos y opciones de equipo final. Mientras que los principiantes deben mantener una colmena mixta para completar misiones diversas, los jugadores avanzados eventualmente deben transicionar a una construcción de color especializada para maximizar sus rendimientos de miel.
+
+<Callout type="success" title="La Regla de Oro de la Transición de Color">
+No hagas la transición a una colmena especializada Roja, Azul o Blanca hasta que hayas desbloqueado el Amuleto de Estrella Suprema (SSA) y completado todas las líneas de misiones principales de Spirit Bear. Hacerlo antes dificultará increíblemente completar las misiones generales.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Construcción de Colmena Azul">
+    - **Estilo de juego**: Muy pasivo, amigable con macros y enfocado en escalar la capacidad.
+    - **Abejas principales**: Abeja Renacuajo, Abeja Boyante y dotadas enfocadas en burbujas.
+    - **Equipo clave**: Máscara de Diamante, Tide Popper y Amuleto Pop Star.
+    - **Ideal para**: Jugadores que prefieren sesiones de farmeo largas y constantes en el Bosque de Pinos.
+  </Card>
+  <Card title="Construcción de Colmena Roja">
+    - **Estilo de juego**: Muy activo, farmeo de daño explosivo y fuertes capacidades de combate.
+    - **Abejas principales**: Abeja Precisa, Abeja Picante y dotadas enfocadas en llamas.
+    - **Equipo clave**: Máscara de Demonio, Guadaña Oscura y Amuleto Scorching Star.
+    - **Ideal para**: Jugadores activos que disfrutan de potenciadores de alta interacción en el Campo de Pimienta.
+  </Card>
+  <Card title="Construcción de Colmena Blanca">
+    - **Estilo de juego**: Ultra caro, pesado en materiales y enfocado en multiplicadores masivos de pegote (goo).
+    - **Abejas principales**: Abeja Vector, Abeja Peluda y Abejas Gomosas dotadas.
+    - **Equipo clave**: Máscara Gomosa, Gummyballer y Amuleto Gummy Star.
+    - **Ideal para**: Jugadores de fase final con reservas masivas de recursos y amuletos optimizados.
+  </Card>
+</CardGrid>
+
+### Comparación de Colores de Colmena y Requisitos
+
+| Tipo de Construcción | Costo de Configuración | Estilo de Farmeo | Fuerza de Combate | Mejor Campo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Colmena Mixta** | Bajo (Inicio) | Enfocado en misiones, equilibrado | Moderado | Todos los campos |
+| **Colmena Azul** | Medio | Pasivo, basado en globos | Bajo | Bosque de Pinos |
+| **Colmena Roja** | Alto | Activo, basado en llamas | Alto | Campo de Pimienta / Rosa |
+| **Colmena Blanca** | Extremadamente Alto | Basado en pegote y marcas | Moderado | Campo de Coco |
+
+</Section>
+
+<Section icon={Target} title="Misiones de Osos e Hitos de Progresión">
+
+Los NPCs de osos sirven como los principales motores de la progresión de la historia y la exploración del mapa. Cada oso ofrece líneas de misiones únicas que recompensan a los jugadores con artículos de progresión críticos, como traductores, jaleas estelares y pétalos de espíritu.
+
+| Dador de Misión | Prioridad de Progresión | Enfoque Principal | Recompensa Notable |
+| :--- | :--- | :--- | :--- |
+| **Black Bear** | Alta (Juego Temprano) | Recolección general de polen | Huevo Mítico, Huevos Dorados |
+| **Mother Bear** | Alta (Juego Temprano) | Nivelación de abejas y golosinas | Jalea Estelar, Huevos Dotados |
+| **Science Bear** | Muy Alta (Juego Medio) | Misiones científicas y traducción | Traductores, Bufos de Ataque |
+| **Panda Bear** | Media | Entrenamiento de combate y caza de bichos | Jalea Estelar, Huevos |
+| **Spirit Bear** | Alta (Juego Tardío) | Farmeo masivo en múltiples campos | Pétalos de Espíritu |
+| **Robo Bear** | Alta (Fin del Juego) | Desafíos de combate y recolección cronometrados | Engranajes, Unidades |
+
+<Callout type="tip" title="Traductores de Science Bear">
+Science Bear te recompensa con tres Traductores a lo largo de su línea de misiones. Úsalos para comunicarte con Gifted Bucko Bee, Gifted Riley Bee y Stick Bug para desbloquear misiones especializadas y peleas contra jefes.
+</Callout>
+
+<Checklist
+  id="progression-milestones"
+  title="Hitos de Progresión Esenciales:"
+  items={[
+    "Alcanzar 25 abejas para desbloquear la zona de la Tienda de la Cima de la Montaña.",
+    "Obtener el Cucharón de Porcelana y el Port-O-Hive de Porcelana.",
+    "Adquirir tu primer Traductor de Science Bear.",
+    "Ganar tu primer Pétalo de Espíritu de Spirit Bear (úsalo en la Varita de Pétalos).",
+    "Desbloquear el Amuleto de Estrella Suprema descubriendo 40 tipos únicos de Abejas Dotadas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Para cerrar esta **guía de bee swarm simulator**, hemos recopilado respuestas a las preguntas más comunes que los jugadores hacen durante su viaje montaña arriba.
+
+<Callout type="info" title="Plataformas Oficiales de la Comunidad">
+Para actualizaciones en tiempo real sobre eventos estacionales como Beesmas, códigos promocionales activos y parches de equilibrio, únete al [Discord oficial de Bee Swarm Simulator](https://discord.com/invite/bee) o sigue las actualizaciones oficiales de desarrollo de Onett.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor abeja de evento para comprar primero con tickets?",
+    answer: "La Abeja Atigrada (Tabby Bee) es universalmente considerada la mejor abeja de evento para comprar primero. Su habilidad Tabby Love escala permanentemente hasta 1,000 acumulaciones, aumentando drásticamente su tasa de recolección, tasa de conversión y poder crítico por el resto de tu partida."
+  },
+  {
+    question: "¿Debería gastar mi primer Pétalo de Espíritu en la Varita de Pétalos o en el Cinturón de Pétalos?",
+    answer: "Deberías gastar tu primer Pétalo de Espíritu en la Varita de Pétalos (Petal Wand). Proporciona una mejora inmediata y masiva a tu recolección y conversión de polen activa, mientras que el Cinturón de Pétalos es muy caro de fabricar y es más adecuado para tu segundo o tercer pétalo."
+  },
+  {
+    question: "¿Cómo consigo Abejas Dotadas rápidamente?",
+    answer: "La forma más confiable de obtener Abejas Dotadas es alimentando a tus abejas con sus golosinas favoritas (como piñas para abejas azules o fresas para abejas rojas). También puedes usar Jaleas Reales configuradas para auto-giro en tipos Dotados, o dar un Trato Estelar a una abeja de evento para una mejora Dotada 100% garantizada."
+  },
+  {
+    question: "¿Cuándo debo empezar a elegir un color de colmena?",
+    answer: "No elijas un color de colmena hasta que hayas desbloqueado el Amuleto de Estrella Suprema (que requiere haber descubierto 40 tipos únicos de Abejas Dotadas) y completado las 30 misiones de Spirit Bear. Transicionar temprano dificultará severamente tu capacidad para completar misiones que requieran diferentes colores de polen."
+  }
+]} />
+
+</Section>

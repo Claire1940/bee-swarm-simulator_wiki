@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Colmeia Azul Inicial no Bee Swarm Simulator: Guia de Configuração 2026",
+  description: "Otimize sua transição para a colmeia azul inicial no Bee Swarm Simulator. Aprenda a melhor composição de abelhas, equipamentos necessários, atributos do amuleto Pop Star e rotas de farm.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Early+Blue+Hive+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Momento da transição**: Só monte uma **colmeia azul inicial no Bee Swarm Simulator** após desbloquear seu primeiro Amuleto de Estrela Suprema (Supreme Star Amulet).
+- **Passiva essencial**: Busque a passiva **Pop Star** no seu amuleto para ativar o escalonamento de balões e bolhas.
+- **Equipamento fundamental**: Priorize o desbloqueio da **Máscara de Diamante (Diamond Mask)** antes de mudar a composição da sua colmeia para azul.
+- **Prioridade de abelhas**: Acumule **Abelhas Flutuantes (Buoyant Bees)** e **Abelhas Girino (Tadpole Bees)** como seus principais alvos míticos para farmar.
+- **Melhor campo**: Direcione seu farm ativo e boosts para a **Floresta de Pinheiros (Pine Tree Forest)** para obter os melhores rendimentos.
+</Callout>
+
+<Section icon={Shield} title="Requisitos de Transição: Quando Mudar para Azul">
+
+A transição para uma cor de colmeia especializada é o marco mais importante na progressão do mid-to-late game. Uma **colmeia azul inicial no Bee Swarm Simulator** é amplamente reconhecida como a escolha de primeira cor mais eficiente, econômica e tolerante para os jogadores em 2026. Ao contrário das colmeias vermelhas ou brancas, que exigem abelhas míticas de presente (gifted) muito específicas e investimentos massivos de materiais para se tornarem viáveis, uma colmeia azul funciona excepcionalmente bem com abelhas míticas normais e equipamentos básicos. 
+
+No entanto, transicionar cedo demais é um erro crítico que pode travar seu progresso. Você deve continuar com uma colmeia mista para concluir a maior parte das suas principais linhas de missões da Spirit Bear, Black Bear e Science Bear. Mudar a cor da sua colmeia antes de garantir sua passiva principal reduzirá drasticamente sua capacidade de coletar pólen vermelho e branco, tornando as missões gerais incrivelmente difíceis de concluir.
+
+| Requisito | Meta / Métrica | Por Que Importa |
+| :--- | :--- | :--- |
+| **Amuleto** | Amuleto de Estrela Suprema (SSA) | Desbloqueia a passiva Pop Star, que é a base do farm azul |
+| **Quantidade de Abelhas** | 45+ Abelhas | Maximiza a capacidade dos balões e a cobertura do campo |
+| **Máscara** | Máscara de Diamante (Diamond Mask) | Essencial para x3 de Capacidade Azul e para a passiva Dreno de Diamante (Diamond Drain) |
+| **Reserva de Mel** | 100B - 200B de Mel | Capital necessário para girar míticas e configurar as abelhas de suporte |
+| **Status de Missão** | 2ª Pétala Espiritual Obtida | Garante que você tenha a Varinha de Pétala (Petal Wand) ou o Cinto de Pétala (Petal Belt) antes de se especializar |
+
+<Callout type="warning" title="Não Apresse a Transição">
+Nunca mude para uma colmeia azul antes de desbloquear o Amuleto de Estrela Suprema. Sem a passiva Pop Star, as abelhas azuis não conseguem gerar o acúmulo de bolhas (bubble bloat) ou os multiplicadores de conversão de balão necessários para tornar a build lucrativa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Build da Colmeia Azul Inicial e Composição de Abelhas">
+
+A mecânica central de uma **colmeia azul inicial no Bee Swarm Simulator** gira em torno de duas abelhas míticas: a Abelha Flutuante (Buoyant Bee) e a Abelha Girino (Tadpole Bee). As Abelhas Flutuantes inflam balões que armazenam quantidades massivas de pólen, que você então converte na sua colmeia para obter ganhos multiplicados de mel. As Abelhas Girino invocam sapos que geram bolhas, as quais coletam pólen, fazem crescer flores azuis e carregam sua passiva Pop Star.
+
+Nas fases iniciais desta build, você não precisa que todas as suas abelhas míticas sejam de presente (gifted). Em vez disso, concentre-se em atingir uma proporção funcional de abelhas Flutuantes e Girinos, enquanto preenche o restante da sua colmeia com abelhas utilitárias e de suporte azul essenciais.
+
+<CardGrid cols={3}>
+  <Card title="Abelha Flutuante / Buoyant Bee (12-15)">
+    - **Função principal**: Infla balões para armazenar o excesso de pólen do campo.
+    - **Proporção áurea**: Foque em aproximadamente 1,5 Flutuantes para cada 1 Girino.
+    - **Prioridade de Presente**: Moderada. O bônus de presente aumenta a taxa de conversão do balão.
+  </Card>
+  <Card title="Abelha Girino / Tadpole Bee (8-10)">
+    - **Função principal**: Invoca sapos para gerar bolhas e néctar azul.
+    - **Controle de campo**: Essencial para manter os multiplicadores de acúmulo de bolhas (bubble bloat).
+    - **Prioridade de Presente**: Alta. Girinos de presente invocam sapos bebês para uma geração de bolhas mais rápida.
+  </Card>
+  <Card title="Utilitárias e Suportes">
+    - **Função principal**: Manter buffs críticos como Foco (Focus), Melodia (Melody) e Pressa (Haste).
+    - **Alvos principais**: Abelhas Músicas (Music Bees), Abelhas Comandantes (Commander Bees) e Abelhas Chocadas (Shocked Bees).
+    - **Prioridade de Presente**: Alta para bônus de colmeia de presente (ex: Abelha Básica de Presente / Gifted Basic Bee).
+  </Card>
+</CardGrid>
+
+Para maximizar sua coleta de pólen, estruture sua colmeia em torno de uma composição equilibrada de míticas, abelhas de evento e suportes raros/épicos de presente. Use este modelo otimizado para a fase inicial:
+
+| Nome da Abelha | Quantidade Recomendada | Prioridade de Presente | Função Central na Colmeia Azul |
+| :--- | :--- | :--- | :--- |
+| **Abelha Flutuante (Buoyant Bee)** | 12 - 15 | Média | Inflação de balões, escalonamento da proporção áurea |
+| **Abelha Girino (Tadpole Bee)** | 8 - 10 | Alta | Invocação de sapos, geração de bolhas, néctar azul |
+| **Abelha Listrada (Tabby Bee)** | 1 | Crítica | Taxa máxima de conversão, poder crítico |
+| **Abelha Pegajosa (Gummy Bee)** | 1 | Média | Geração de meleca (goo) para conclusão de missões |
+| **Abelha Fóton (Photon Bee)** | 1 | Baixa | Conversão instantânea, ajuda a liberar espaço na mochila |
+| **Abelha Música (Music Bee)** | 3 - 4 | Baixa | Manutenção de tokens de Melodia e Foco |
+| **Abelha Comandante (Commander Bee)** | 1 | Alta | O bônus de presente concede +15% de Poder Crítico |
+| **Abelha Chocada (Shocked Bee)** | 1 | Alta | O bônus de presente concede +15% de Velocidade de Link de Token |
+| **Abelha Básica (Basic Bee)** | 1 | Crítica | O bônus de presente concede x1.2 de pólen global |
+
+<Callout type="tip" title="Posicionamento da Abelha Listrada (Tabby Bee)">
+Sempre coloque sua Abelha Listrada (Tabby Bee) na linha mais baixa da sua colmeia. Isso minimiza a distância física que ela precisa percorrer para converter o pólen, economizando segundos valiosos durante longas sessões de farm.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Equipamentos Essenciais e Configuração de Amuletos">
+
+Seus equipamentos e amuletos fornecem os multiplicadores que transformam pólen bruto em trilhões de mel. Para uma colmeia azul inicial, a Máscara de Diamante (Diamond Mask) é inegociável. Sua passiva, Dreno de Diamante (Diamond Drain), converte 20% do seu pólen azul diretamente em mel enquanto você farma, permitindo que você permaneça no campo por muito mais tempo antes que sua mochila encha.
+
+Além disso, seu Amuleto de Estrela Suprema deve ter a passiva Pop Star. A Pop Star é ativada após coletar 100 bolhas, invocando uma estrela gigante que multiplica o pólen azul, o poder de coleta de bolhas e a velocidade de movimento do jogador.
+
+| Equipamento | Custo / Materiais | Nível de Prioridade | Benefício Central |
+| :--- | :--- | :--- | :--- |
+| **Máscara de Diamante (Diamond Mask)** | 5 Ovos de Diamante, 250 Extratos Azuis, 150 Glitter | **Crítica** | x3 de Capacidade Azul, passiva Dreno de Diamante (Diamond Drain) |
+| **Cinto de Favo de Mel (Honeycomb Belt)** | 50 Enzimas, 50 Colas, 15M de Mel | **Alta** | +15% de Capacidade, +10% de Sorte de Saque |
+| **Guarda de Cobalto (Cobalt Guard)** | 100 Extratos Azuis, 50 Glitter, 100 Ferrões | **Alta** | +10% de Pólen Azul, Conversão Azul Instantânea |
+| **Varinha de Pétala (Petal Wand)** | 1 Pétala Espiritual, 10 Geleias Estelares, 25 Enzimas | **Alta** | Coleta automática de pólen, conversão instantânea |
+| **Estoura-Maré (Tide Popper)** | 1.500 Extratos Azuis, 75 Super Wax, 50B de Mel | **Fim de Jogo (Endgame)** | O melhor coletor azul, invoca ondas gigantes |
+
+Ao girar seu Amuleto de Estrela Suprema, priorize estatísticas específicas para a cor azul. Um amuleto Pop Star de passiva única com subatributos corretos é muito superior a um amuleto de passiva dupla com atributos ruins.
+
+| Tipo de Amuleto | Passiva Ideal | Principais Subatributos para Buscar |
+| :--- | :--- | :--- |
+| **Estrela Suprema (Supreme Star)** | Pop Star | Pólen Azul, Capacidade, Taxa de Conversão, Chance Crítica |
+| **Rei Besouro (King Beetle)** | N/A | Pólen Azul, Pólen de Morango, Taxa de Conversão |
+| **Amuleto da Lua (Moon Amulet)** | N/A | Mel por Pólen, Capacidade Máxima |
+| **Amuleto de Caracol (Snail Amulet)** | N/A | Pólen Azul, Mel de Tokens, Taxa de Habilidade de Abelha |
+
+<Callout type="success" title="Prioridade de Atributos da Pop Star">
+Ao começar, uma única passiva **Pop Star** com pelo menos os subatributos de **Pólen Azul (Blue Pollen)** e **Capacidade (Capacity)** já é perfeita. Não desperdice trilhões de mel correndo atrás de uma passiva dupla (como Pop Star + Guiding Star) até que toda a sua colmeia esteja totalmente upada e com abelhas de presente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Transição Passo a Passo">
+
+Mudar toda a build da sua colmeia pode ser intimidador. Siga este roteiro estruturado para executar uma transição suave para a colmeia azul sem desperdiçar recursos preciosos.
+
+<Steps>
+  <Step num="1" title="Acumule Recursos">
+    Não comece a girar sua colmeia até economizar pelo menos 100 Bilhões de Mel, 250 Extratos Azuis e 20.000 Geleias Reais. Você precisa desse capital para garantir suas abelhas míticas iniciais.
+  </Step>
+  <Step num="2" title="Gire seu Amuleto de Estrela Suprema">
+    Gaste seu mel girando o Amuleto de Estrela Suprema em busca da passiva **Pop Star**. Pare assim que conseguir a Pop Star, independentemente de os subatributos serem perfeitos ou não.
+  </Step>
+  <Step num="3" title="Remova as Abelhas Secundárias e Use Geleia Real">
+    Remova as abelhas vermelhas e brancas não essenciais da sua colmeia. Use a configuração "Auto-Roll até Mítica" nas suas Geleias Reais para focar em **Abelhas Flutuantes (Buoyant Bees)** e **Abelhas Girino (Tadpole Bees)**.
+  </Step>
+  <Step num="4" title="Estabeleça sua Rede de Suporte">
+    Preencha os espaços restantes com abelhas de suporte raras e épicas de presente. Garanta que você tenha pelo menos 3 Abelhas Músicas para buffs constantes de Melodia e uma Abelha Básica de presente para o multiplicador global.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Eficiência da Geleia Real">
+Em média, são necessárias cerca de 24.000 Geleias Reais para conseguir uma única abelha mítica. Espere variações e sempre mantenha uma reserva de segurança de mel para não acabar com uma colmeia incompleta.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotas de Farm e Gerenciamento do Acúmulo de Bolhas (Bubble Bloat)">
+
+Farmar com uma colmeia azul exige um estilo de jogo diferente de colmeias mistas ou vermelhas. Seu objetivo principal é acumular e manter o **Acúmulo de Bolhas (Bubble Bloat)**, um multiplicador que acumula até x6 com base no número de bolhas geradas no campo. Manter esse multiplicador exige um jogo ativo consistente ou rotas de farm estruturadas.
+
+| Nome do Campo | Proporção de Flores Azuis | Melhor Caso de Uso | Fator de Risco |
+| :--- | :--- | :--- | :--- |
+| **Floresta de Pinheiros (Pine Tree Forest)** | 100% Azul | Farm ativo principal, boosts e macroing | Baixo (Nenhum monstro hostil surge dentro) |
+| **Campo de Bambu (Bamboo Field)** | 70% Azul | Conclusão de missões, boosts secundários | Médio (Aranhas podem atrapalhar o farm) |
+| **Campo do Toco (Stump Field)** | 100% Azul | Farm AFK de longo prazo, eliminação do Caracol | Alto (O Caracol do Toco bloqueia o centro a menos que seja derrotado) |
+
+Para optimizar suas rodadas de farm, sempre priorize a Floresta de Pinheiros (Pine Tree Forest). É um campo totalmente azul, o que significa que seus multiplicadores de pólen azul se aplicarão a cada flor que você coletar.
+
+<Callout type="tip" title="Mantendo o Néctar">
+Mantenha suas abelhas azuis felizes alimentando constantemente suas colmeias com Argila Azul (Blue Clay) e utilizando o Dispensador Azul (Blue Dispenser). Manter níveis altos de **Néctar Satisfatório (Satisfying Nectar)** e **Néctar Refrescante (Refreshing Nectar)** aumenta seu rendimento de pólen azul em até 50%.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Metas e Perguntas Frequentes (FAQ)">
+
+Antes de finalizar sua build, revise esta lista para garantir que sua conta esteja totalmente preparada para o meta azul.
+
+<Checklist
+  id="blue-hive-readiness"
+  title="Lista de Preparação para a Colmeia Azul:"
+  items={[
+    "Desbloqueou o Amuleto de Estrela Suprema com a passiva Pop Star",
+    "Craftou a Máscara de Diamante (Diamond Mask) e a Guarda de Cobalto (Cobalt Guard)",
+    "Garantiu pelo menos 10 Abelhas Flutuantes (Buoyant Bees) e 6 Abelhas Girino (Tadpole Bees)",
+    "Posicionou a Abelha Listrada (Tabby Bee) na linha inferior da colmeia",
+    "Subiu o nível de todas as abelhas principais para pelo menos o Nível 11"
+  ]}
+/>
+
+<Callout type="info" title="Preparação Final">
+Se você marcou todos os itens acima, sua colmeia está pronta para gerar quantidades massivas de mel. Certifique-se de coordenar seus boosts com os ventos do campo azul para obter a eficiência máxima.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Por que a colmeia azul inicial no Bee Swarm Simulator é recomendada em vez da vermelha ou branca?",
+    answer: "Uma colmeia azul inicial é altamente recomendada porque é incrivelmente barata de configurar. Ela não exige amuletos de passiva dupla ou abelhas míticas totalmente de presente para gerar trilhões de mel, tornando-se a build de entrada perfeita para jogadores no mid-game."
+  },
+  {
+    question: "Posso usar uma colmeia azul sem a Máscara de Diamante (Diamond Mask)?",
+    answer: "Embora seja tecnicamente possível, é extremamente ineficiente. A Máscara de Diamante fornece um aumento massivo de x3 na Capacidade Azul e a passiva Dreno de Diamante (Diamond Drain), que converte o pólen diretamente no campo, evitando que sua mochila encha instantaneamente."
+  },
+  {
+    question: "O que devo fazer se ficar sem mel enquanto estiver girando para conseguir míticas?",
+    answer: "Pare de girar imediatamente e use sua configuração temporária para farmar na Floresta de Pinheiros (Pine Tree Forest). Mesmo uma colmeia azul incompleta pode gerar uma quantidade razoável de mel para ajudar você a recuperar suas reservas e tentar girar novamente."
+  },
+  {
+    question: "De quantas Abelhas Músicas (Music Bees) eu realmente preciso?",
+    answer: "Você deve usar de 3 a 4 Abelhas Músicas. Elas são fundamentais para manter 100% de atividade no buff de Melodia (Melody) — que concede +100% de Poder Crítico — e para gerar tokens de Foco (Focus)."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Geleia Real do Bee Swarm Simulator: Guia de Farm e Crafting 2026",
+  description: "Domine a Geleia Real do Bee Swarm Simulator em 2026. Aprenda as melhores rotas de farm, receitas de crafting e dispensadores de Geleia Real para transformar sua colmeia.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/1a1a2e?text=Royal+Jelly+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "geleia real, bee swarm simulator, farm, crafting, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Recurso primário**: Use a geleia real do bee swarm simulator para transformar abelhas básicas em níveis raro, épico ou lendário.
+- **Melhor método de farm**: Compre no Dispensador de Geleia Real ou fabrique no Liquidificador (Blender) usando sementes.
+- **Prioridade de crafting**: Economize Geleia Real para fabricar Geleia Estelar, Enzimas e Glitter para equipamentos de mid-game.
+- **Estratégia de auto-roll**: Use as configurações de auto-roll com cuidado para focar em abelhas dotadas ou míticas específicas sem desperdiçar suprimentos.
+</Callout>
+
+<Section icon={Sparkles} title="O que é a Geleia Real no Bee Swarm Simulator?">
+
+No Bee Swarm Simulator, a Geleia Real é um dos recursos de progressão mais críticos. Quando aplicada a qualquer abelha em sua colmeia, ela transforma essa abelha em uma abelha aleatória de raridade pelo menos **Rara**. Esta mecânica é a principal maneira de os jogadores melhorarem suas colmeias iniciais, descobrirem novos tipos de abelhas e, eventualmente, criarem builds de cores especializadas (colmeias Vermelhas, Azuis ou Brancas).
+
+Entender as probabilidades matemáticas dos rolls de Geleia Real é essencial para evitar o desperdício deste recurso precioso. A tabela abaixo descreve as probabilidades exatas ao fazer um roll manual ou usar o auto-roll em uma única Geleia Real.
+
+| Raridade da Abelha | Probabilidade de Roll | Custo Médio (em Geleias) |
+| :--- | :--- | :--- |
+| **Rara** | **70.00%** | 1.4 |
+| **Épica** | **27.00%** | 3.7 |
+| **Lendária** | **3.00%** | 33.3 |
+| **Mítica** | **0.004%** | 25,000 |
+| **Dotada (Qualquer)** | **0.40%** | 250 |
+
+<Callout type="warning" title="Aviso de Auto-Roll">
+Sempre configure suas opções de auto-roll antes de gastar Geleia Real em um slot. Rolar acidentalmente sobre uma Mítica ou uma Dotada rara por causa de cliques manuais é um erro comum que pode atrasar sua progressão em semanas.
+</Callout>
+
+Para ajudar você a entender as diferentes variantes de geleia disponíveis no jogo, compare os tipos principais de itens de transformação abaixo:
+
+<CardGrid cols={3}>
+  <Card title="Geleia Real">
+    - Transforma uma abelha em uma abelha **Rara, Épica ou Lendária** aleatória.
+    - Chance extremamente pequena de vir uma **Mítica** (1 em 25.000).
+    - Pode gerar abelhas **Dotadas** (1 em 250).
+  </Card>
+  <Card title="Geleia Estelar">
+    - Garante uma abelha **Dotada** de nível Raro, Épico ou Lendário.
+    - Requer **100 Geleias Reais** e **3 Glitters** para fabricar no Liquidificador.
+    - Essencial para desbloquear os Amuletos Estelares.
+  </Card>
+  <Card title="Geleia Real (Auto-Roll)">
+    - Configuração do sistema que consome geleias automaticamente até que uma condição seja atendida.
+    - Define filtros para **Dotada**, **Lendária** ou **Mítica**.
+    - Economiza tempo de clique físico durante os rolls de endgame.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Como Farmar Geleia Real Rápido">
+
+Adquirir a **geleia real do bee swarm simulator** em grandes quantidades muda conforme você progride do início para o fim do jogo. Enquanto iniciantes devem contar com missões e exploração de campo, jogadores avançados as compram aos milhares usando mel.
+
+A tabela abaixo destaca as principais fontes de Geleia Real, suas localizações e sua eficiência geral para jogadores ativos.
+
+| Tipo de Fonte | Localização / Requisitos | Custo / Cooldown | Classificação de Eficiência |
+| :--- | :--- | :--- | :--- |
+| **Dispensador de Geleia Real** | Zona de 10 Abelhas (perto do Slime) | 6 Tickets por Geleia | Baixa (Caro no início) |
+| **Dispensador em Massa** | Loja do Topo da Montanha | Mel (Escala com a compra) | Alta (Melhor para o late-game) |
+| **Crafting no Liquidificador** | Zona de 15 Abelhas | 10.000 Mel, 10 de cada semente | Média (Depende de recursos) |
+| **Chefe King Beetle** | Caverna do Campo de Flores Azuis | 30 Horas de Cooldown | Alta (Ótimo drop passivo diário) |
+| **Extreme Memory Match** | Zona de 30 Abelhas | 250.000 Mel / 4 Horas de Cooldown | Média (Recompensas por habilidade) |
+
+<Callout type="tip" title="Dica de Conservação de Tickets">
+Evite gastar seus Tickets suados no Dispensador de Geleia Real no início do jogo. Tickets são muito mais valiosos quando economizados para Abelhas de Evento como a Abelha Malhada (Tabby Bee), Abelha Fóton (Photon Bee) e Abelhas Carmesim/Cobalto.
+</Callout>
+
+Para um farm ativo, foque em derrotar monstros assim que o cooldown de renascimento terminar. Monstros como o Lobisomem (na caverna do Canteiro de Abóboras) e a Aranha (perto do Campo de Morangos) têm altas taxas de drop de Geleias Reais e materiais de crafting.
+
+</Section>
+
+<Section icon={Target} title="Receitas de Crafting e Eficiência no Liquidificador">
+
+A Geleia Real não serve apenas para rolar novas abelhas; é também um ingrediente fundamental de crafting no Liquidificador da Zona de 15 Abelhas. Para desbloquear equipamentos de mid-game e late-game, você precisará fabricar vários ingredientes que exigem um suprimento constante de Geleias Reais.
+
+A tabela abaixo lista as receitas essenciais de crafting que utilizam Geleia Real, junto com seus itens resultantes e uso recomendado.
+
+| Item Fabricado | Ingredientes Necessários | Tempo de Crafting | Requisito de Equipamento Primário |
+| :--- | :--- | :--- | :--- |
+| **Geleia Estelar** | 100 Geleia Real, 3 Glitter | 30 Minutos | Cajado de Pétalas, Amuletos Estelares |
+| **Enzimas** | 10 Geleia Real, 50 Abacaxis | 10 Minutos | Máscara de Mel, Guarda de Cobalto |
+| **Óleo** | 10 Geleia Real, 50 Sementes de Girassol | 10 Minutos | Cinto de Favo de Mel, Guarda Carmesim |
+| **Super Smoothie** | 3 Geleia Estelar, 3 Neonberries, 3 Poções Roxas | 1 Hora | Coletores de Endgame |
+
+<Callout type="info" title="Prioridade de Crafting">
+Priorize a fabricação de **Óleo** e **Enzimas** em vez de Geleia Estelar durante sua transição para o mid-game. A Máscara de Mel é o upgrade de equipamento mais importante do mid-game, e desperdiçar Geleias Reais em Geleias Estelares cedo demais atrasará este marco crucial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégia de Progressão de Geleia Real Passo a Passo">
+
+Usar suas Geleias Reais de forma eficiente determina quão rápido você pode progredir pelos diferentes estágios do Bee Swarm Simulator. Siga este caminho de progressão estruturado para maximizar seus recursos.
+
+<Steps>
+  <Step num="1" title="O Acúmulo no Early-Game (1 a 25 Abelhas)">
+    Durante esta fase, não gaste suas Geleias Reais para rolar abelhas específicas. Mantenha uma colmeia diversificada de abelhas básicas, raras e épicas. Economize cada Geleia Real que encontrar em missões, tokens escondidos e drops de monstros. Seu objetivo é acumular pelo menos **200 Geleias Reais** antes de iniciar qualquer grande projeto de crafting.
+  </Step>
+  <Step num="2" title="A Caça por Dotadas no Mid-Game (25 a 40 Abelhas)">
+    Assim que desbloquear a Zona de 30 Abelhas e começar a trabalhar para o **Amuleto Estelar de Ouro**, você precisará de tipos únicos de abelhas Dotadas. Use o recurso de auto-roll configurado para **Exigir Dotada**. Role slots individuais que contenham abelhas normais duplicadas até conseguir um novo tipo Dotado único. Não role sobre bônus Dotados únicos já existentes.
+  </Step>
+  <Step num="3" title="Fabricando o Cajado de Pétalas e Guardas (35+ Abelhas)">
+    Neste estágio, redirecione seu estoque de Geleia Real inteiramente para o Liquidificador. Você precisará de centenas de geleias para fabricar as **Enzimas** e o **Óleo** necessários para o Guarda Carmesim, Guarda de Cobalto e o Cajado de Pétalas. Pare de rolar abelhas temporariamente e foque inteiramente em upgrades de equipamentos.
+  </Step>
+  <Step num="4" title="A Transição Mítica no Late-Game (45+ Abelhas)">
+    Quando estiver pronto para a transição para uma colmeia especializada Vermelha, Azul ou Branca, você precisará comprar Geleias Reais em massa no dispensador do Topo da Montanha usando mel. Espere gastar **bilhões de mel** para garantir as abelhas Míticas necessárias (como Abelhas Flutuantes para colmeias Azuis ou Abelhas Picantes para Vermelhas) usando a configuração de auto-roll **Até Mítica**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco de Roll Mítico">
+Em média, rolar uma abelha Mítica requer 25.000 Geleias Reais, o que custa **25 bilhões de mel**. Não tente rolar para Míticas até que sua produção diária de mel possa suportar facilmente essa escala de gastos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos e Checklist da Geleia Real">
+
+Para garantir que você está gerenciando seus recursos corretamente, use este checklist para acompanhar seus marcos de Geleia Real. Completar esses marcos garante uma transição suave de uma colmeia de iniciante para uma potência de endgame.
+
+<Checklist
+  id="royal-jelly-milestones"
+  title="Marcos Essenciais de Geleia Real:"
+  items={[
+    "Acumule 100 Geleias Reais puramente de tokens grátis no mapa e missões.",
+    "Fabrique sua primeira Geleia Estelar no Liquidificador da Zona de 15 Abelhas.",
+    "Desbloqueie a Máscara de Mel usando Enzimas e Óleo fabricados.",
+    "Descubra 25 tipos únicos de abelhas Dotadas usando a configuração de auto-roll Dotada.",
+    "Acumule uma reserva de 10.000 Geleias Reais para emergências de crafting no late-game."
+  ]}
+/>
+
+<Callout type="tip" title="Tokens Escondidos no Mapa">
+Verifique atrás da caverna do Urso Negro, dentro do Labirinto atrás do Portão de 20 Abelhas e em cima do Dispensador de Abacaxi para encontrar tokens de Geleia Real escondidos e gratuitos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Você pode conseguir uma Abelha Mítica de uma Geleia Real normal?",
+    answer: "Sim, mas as chances são extremamente baixas, de 0,004% (ou cerca de 1 em cada 25.000 geleias). É altamente recomendável procurar abelhas Míticas usando o auto-roll apenas quando você puder comprar geleias em grandes quantidades usando mel."
+  },
+  {
+    question: "Devo usar Geleia Real nas minhas Abelhas de Evento?",
+    answer: "Não. Aplicar uma Geleia Real em uma Abelha de Evento (como Malhada, Fóton ou Chiclete) a transformará em uma abelha comum. Embora você possa recuperar o ovo da Abelha de Evento no seu inventário gratuitamente, você perderá quaisquer níveis e mutações que a abelha tenha acumulado."
+  },
+  {
+    question: "Qual é a maneira mais rápida de conseguir Geleia Real sem gastar mel?",
+    answer: "O método gratuito mais rápido é derrotar chefes assim que o cooldown terminar (King Beetle, Tunnel Bear e Lobisomem) e completar missões repetíveis do Urso Marrom e Urso Polar. Além disso, participar de eventos sazonais como o Beesmas fornece pacotes massivos de geleias."
+  },
+  {
+    question: "Vale a pena comprar Geleia Real com Robux?",
+    answer: "Não. Comprar Geleia Real com Robux é altamente ineficiente. O mel é facilmente farmado no mid e late game, permitindo que você compre milhões de Geleias Reais de graça. Economize seus Robux para passes de jogo como a Abelha Urso (Bear Bee) ou o dobro de velocidade de conversão."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Final">
+Nunca apresse a especialização da sua colmeia. Mantenha uma colmeia equilibrada e mista usando suas Geleias Reais até ter desbloqueado o Amuleto Estelar Supremo e completado a maioria das missões do Urso Espiritual.
+</Callout>
+
+</Section>

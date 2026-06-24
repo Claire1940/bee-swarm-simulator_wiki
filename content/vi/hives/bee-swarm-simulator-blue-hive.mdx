@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Tổ Ong Xanh (Blue Hive) trong Trình mô phỏng bầy ong: Hướng dẫn Setup & Farm Tốt Nhất 2026",
+  description: "Làm chủ meta tổ ong xanh (blue hive) trong Trình mô phỏng bầy ong với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu về các loại ong cần thiết, thứ tự ưu tiên trang bị và chiến thuật Pop Star SSA để đạt lượng mật ong tối đa.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Blue+Hive+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mục tiêu chính**: Lối chơi **tổ ong xanh trong Trình mô phỏng bầy ong** tập trung vào sức chứa lớn và khả năng farm bền bỉ thông qua bong bóng và bong bóng khí cầu.
+- **Nội tại cốt lõi**: Bạn bắt buộc phải sở hữu nội tại **Pop Star** trên Bùa hộ mệnh Sao Tối cao (Supreme Star Amulet - SSA) để lối build này có thể hoạt động hiệu quả.
+- **Ong thiết yếu**: Một đội hình thành công yêu cầu ít nhất 8-12 **Tadpole Bee (Ong nòng nọc)** và 15-20 **Buoyant Bee (Ong phao)**.
+- **Cánh đồng tốt nhất**: **Rừng thông (Pine Tree Forest)** là địa điểm tuyệt đối tốt nhất để người chơi tổ ong xanh farm mật ong.
+- **Kinh tế**: Màu xanh được coi là hệ màu thân thiện với người chơi miễn phí (f2p) nhất ở giai đoạn cuối game nhờ ít phụ thuộc vào các vật phẩm tiêu hao đắt đỏ.
+</Callout>
+
+<Section icon={Map} title="Giới thiệu về Meta Tổ Ong Xanh (Blue Hive) trong Trình mô phỏng bầy ong">
+
+**Tổ ong xanh trong Trình mô phỏng bầy ong** đã khẳng định vị thế là lựa chọn hàng đầu ở giai đoạn cuối game (late-game) cho những người chơi ưa thích các phiên cày cuốc (farming) lâu dài và ổn định. Khác với tổ ong Đỏ (Red hive) dựa vào sát thương bộc phát mạnh mẽ hay tổ ong Trắng (White hive) đòi hỏi tiêu tốn lượng tài nguyên keo dẻo khổng lồ, tổ ong Xanh (Blue hive) phát triển mạnh nhờ hiệu quả "macro" và sức chứa bong bóng khí cầu cực lớn. Vào năm 2026, meta xoay quanh việc tối đa hóa thời gian hoạt động của bong bóng để duy trì kích hoạt nội tại Pop Star, đồng thời sử dụng Buoyant Bee để tích trữ hàng tỷ phấn hoa trong bong bóng khí cầu.
+
+Lối build này đặc biệt được ưa chuộng vì nó mang lại tỷ lệ mật ong thu hoạch mỗi giờ cao với nỗ lực thao tác thủ công tương đối ít. Tuy nhiên, chuyển đổi quá sớm là một sai lầm phổ biến. Bạn phải có nền tảng phù hợp—cụ thể là Mặt nạ Kim cương (Diamond Mask) và Bùa hộ mệnh Sao Tối cao (Supreme Star Amulet)—trước khi việc chuyên môn hóa sang màu xanh bắt đầu vượt trội hơn thiết lập tổ ong hỗn hợp tiêu chuẩn.
+
+<Callout type="tip" title="Tại sao nên chọn màu Xanh?">
+Màu Xanh là lựa chọn tốt nhất cho những người chơi muốn farm liên tục từ 4 đến 8 tiếng mỗi lần. Nó mang lại sức chứa lớn nhất trong game, nghĩa là bạn sẽ mất ít thời gian chạy về tổ hơn và có nhiều thời gian thu thập phấn hoa trên cánh đồng hơn.
+</Callout>
+
+| Đặc điểm | Hồ sơ Tổ Ong Xanh | Lợi ích |
+| :--- | :--- | :--- |
+| **Phong cách chơi** | Thụ động/Macro | Thu nhập ổn định trong thời gian dài |
+| **Cánh đồng chính** | Rừng thông (Pine Tree Forest) | Hệ số nhân phấn hoa xanh cao nhất |
+| **Trang bị mấu chốt** | Mặt nạ Kim cương (Diamond Mask) | X3 Sức chứa Xanh và Diamond Drain |
+| **Nội tại** | Pop Star | Tăng phấn hoa xanh và sức mạnh bong bóng |
+
+</Section>
+
+<Section icon={Swords} title="Đội hình Ong Thiết yếu cho Tổ Ong Xanh">
+
+Xây dựng một **tổ ong xanh trong Trình mô phỏng bầy ong** là một bài toán quản lý ong thần thoại (mythic bee). Tổ ong của bạn cuối cùng sẽ bao gồm gần 50% là ong thần thoại. Sự phối hợp giữa Tadpole Bee (tạo ra bong bóng và ếch) và Buoyant Bee (cung cấp sức chứa và bong bóng khí cầu vàng) là yếu tố tạo ra lượng mật ong khổng lồ thường thấy trên các bảng xếp hạng hàng đầu.
+
+Mặc dù ong thần thoại là những ngôi sao sáng, các ong hỗ trợ của bạn cũng quan trọng không kém. Chỉ số Đột biến (Gifted) từ các ong hiếm (rare) và sử thi (epic) cung cấp các hệ số nhân quan trọng cần thiết để mở rộng quy mô thu thập phấn hoa.
+
+**Vai trò của các Ong Cốt lõi trong Tổ Ong Xanh:**
+
+- **Tadpole Bee**: Tạo ra bong bóng để thu thập phấn hoa và triệu hồi ếch. Ếch rất cần thiết để nhặt token và thúc đẩy sự phát triển của bong bóng.
+- **Buoyant Bee**: Nhân vật "gánh đội" của tổ ong. Nó cung cấp sức chứa khổng lồ thông qua bong bóng khí cầu và tăng đáng kể hệ số nhân phấn hoa của bạn.
+- **Ong hỗ trợ**: Music Bee để lấy Melody/Focus, và Gifted Commander/Looker bee để lấy sức mạnh chí mạng.
+
+<Callout type="warning" title="Gifted Basic Bee (Ong Cơ bản Đột biến)">
+Ngay cả trong một tổ ong thuần xanh, một con **Gifted Basic Bee** là bắt buộc phải có. Hệ số nhân 1.2x Tổng Phấn hoa của nó là một phép tính riêng biệt giúp tăng sản lượng mật ong cuối cùng của bạn nhiều hơn hầu hết mọi loài ong chuyên xanh nào khác.
+</Callout>
+
+| Loại Ong | Số lượng Khuyến nghị | Vai trò Chính |
+| :--- | :--- | :--- |
+| **Buoyant Bee** | 18 - 22 | Sức chứa, Bong bóng, Tăng phấn hoa |
+| **Tadpole Bee** | 8 - 12 | Bong bóng, Ếch, Token Bom Xanh |
+| **Music Bee** | 3 - 4 | Melody (Sức mạnh Chí mạng) và Focus |
+| **Fuzzy Bee** | 1 (Gifted) | Thụ phấn và nâng cấp hoa |
+| **Digital Bee** | 1 | Nhân bản token ở giai đoạn cuối game |
+
+</Section>
+
+<Section icon={Target} title="Lộ trình Tiến trình Trang bị và Bùa hộ mệnh">
+
+Bạn không thể chỉ đơn giản là mua ong xanh và mong đợi kết quả ngay lập tức. **Tổ ong xanh trong Trình mô phỏng bầy ong** phụ thuộc rất nhiều vào các trang bị cụ thể và các nội tại của bùa hộ mệnh. Cột mốc quan trọng nhất là **Mặt nạ Kim cương (Diamond Mask)**, cung cấp nội tại "Diamond Drain" và hệ số nhân x3 khổng lồ cho sức chứa màu xanh. Không có mặt nạ này, bong bóng khí cầu của bạn sẽ đầy quá nhanh và hiệu suất của bạn sẽ giảm mạnh.
+
+<CardGrid cols={3}>
+  <Card title="Diamond Mask">
+    Nền móng của màu xanh. Cung cấp x3 Sức chứa Xanh và nội tại **Diamond Drain** để chuyển đổi phấn hoa khổng lồ.
+  </Card>
+  <Card title="Tide Popper">
+    Dụng cụ thu hoạch cuối game. Nó cung cấp kỹ năng **Tidal Wave** (Sóng thần), giúp dọn sạch các cánh đồng và mang lại lượng tăng tốc màu xanh khổng lồ.
+  </Card>
+  <Card title="Pop Star SSA">
+    Nội tại khả thi duy nhất cho hệ Xanh. Nó tăng tiến theo số lượng bong bóng được làm vỡ, đạt tới hệ số nhân tối đa lên đến 2x.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Yêu cầu đối với SSA">
+Để mở khóa Bùa hộ mệnh Sao Tối cao (Supreme Star Amulet), bạn phải khám phá 40 loại **Ong Đột biến (Gifted Bee)** duy nhất. Đừng cố gắng chuyển sang tổ ong xanh cho đến khi bạn đạt được cột mốc này, vì nội tại Pop Star chịu trách nhiệm cho khoảng 60% sản lượng mật ong của bạn.
+</Callout>
+
+**Danh sách Ưu tiên Bùa hộ mệnh:**
+1. **Supreme Star Amulet**: Pop Star (Bắt buộc), Star Shower (Tùy chọn phụ).
+2. **King Beetle Amulet**: Tăng phấn hoa xanh và bổ trợ Dâu tây/Việt quất.
+3. **Moon Amulet**: Sức chứa tối đa và Liên kết từ Thức ăn.
+4. **Ant Amulet**: Sức mạnh chí mạng và Phấn hoa xanh.
+
+</Section>
+
+<Section icon={Sparkles} title="Từng bước một: Chuyển đổi sang Tổ Ong Xanh">
+
+Chuyển từ một tổ ong hỗn hợp ở giai đoạn giữa game sang một **tổ ong xanh chuyên biệt trong Trình mô phỏng bầy ong** đòi hỏi sự quản lý tài nguyên cẩn thiện. Nếu bạn tiêu hết Sữa ong chúa (Royal Jelly) quá sớm, bạn có thể kết thúc với một tổ ong "bị hỏng" không thể hoàn thành các nhiệm vụ của các màu sắc khác.
+
+<Steps>
+  <Step num="1" title="Mở khóa Diamond Mask">
+    Hãy tiết kiệm Trứng Kim cương (Diamond Egg) của bạn! Bạn cần 5 Trứng Kim cương để chế tạo mặt nạ. Đừng bao giờ sử dụng chúng để ấp ong trừ khi bạn đã sở hữu mặt nạ này.
+  </Step>
+  <Step num="2" title="Sở hữu SSA">
+    Cày cuốc 40 loại Ong Đột biến (Gifted Bee) duy nhất. Sử dụng Star Jelly và Hạt hướng dương/Việt quất để đột biến các ong cấp thấp của bạn trước.
+  </Step>
+  <Step num="3" title="Xoay thuộc tính Pop Star">
+    Hãy chuẩn bị tinh thần chi tiêu từ 50 tỷ đến 500 tỷ mật ong để xoay được một bùa hộ mệnh Pop Star ổn định. Lý tưởng nhất là tìm kiếm các chỉ số Phấn hoa xanh (Blue Pollen) và Sức mạnh Chí mạng (Critical Power).
+  </Step>
+  <Step num="4" title="Cày cuốc Jelly Thần thoại (Mythic Jelly)">
+    Sử dụng cài đặt "Tự động dùng Jelly cho đến khi ra Thần thoại" (Auto-Jelly until Mythic). Trung bình bạn sẽ cần khoảng 20.000 đến 50.000 Royal Jelly cho mỗi con ong Thần thoại.
+  </Step>
+  <Step num="5" title="Nâng cấp cấp độ Tổ ong">
+    Tổ ong xanh phụ thuộc vào cấp độ của ong để bám trụ trên cánh đồng lâu hơn. Hãy hướng tới một tổ ong toàn bộ Cấp 15 trước khi cố gắng sở hữu Tide Popper.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo tiết kiệm Mật ong">
+Trong sự kiện **Beesmas**, hãy sử dụng các bùa lợi Honeyday để nhân đôi tỷ lệ chuyển đổi của bạn. Đây là thời điểm tốt nhất để farm hàng nghìn tỷ mật ong cần thiết cho một tổ ong xanh thần thoại hoàn chỉnh.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tối ưu hóa Farm và Danh sách việc cần làm">
+
+Sau khi **tổ ong xanh trong Trình mô phỏng bầy ong** của bạn đã được thiết lập, mục tiêu của bạn là tối đa hóa thời gian duy trì các bùa lợi. Tổ ong xanh farm tốt nhất khi "cộng dồn" (stack) mật hoa (nectar) và tăng tốc cánh đồng (field boost). Rừng thông (Pine Tree Forest) là ngôi nhà chính của bạn, nhưng Cánh đồng Gốc cây (Stump Field) là nơi tuyệt vời để treo máy (AFK) qua đêm nếu Ốc sên Gốc cây (Stump Snail) đã bị tiêu diệt.
+
+| Cánh đồng | Hiệu quả | Ghi chú |
+| :--- | :--- | :--- |
+| **Rừng thông (Pine Tree Forest)** | ★★★★★ | Tiêu chuẩn vàng cho tổ ong xanh. |
+| **Cánh đồng Gốc cây (Stump Field)** | ★★★★☆ | Tuyệt vời để AFK; yêu cầu Ốc sên phải chết. |
+| **Cánh đồng Tre (Bamboo Field)** | ★★★☆☆ | Phương án dự phòng tốt nếu Rừng thông quá đông. |
+| **Cánh đồng Hoa Xanh (Blue Flower)** | ★★☆☆☆ | Chỉ dành cho đầu game hoặc các nhiệm vụ cụ thể. |
+
+<Checklist
+  id="blue-hive-daily"
+  title="Công việc hàng ngày của Tổ Ong Xanh:"
+  items={[
+    "Duy trì Mật hoa Tươi mới (Refreshing Nectar) và Mật hoa Thỏa mãn (Satisfying Nectar) 24/7",
+    "Tiêu diệt Ốc sên Gốc cây (Stump Snail) để lấy Bùa hộ mệnh và phần thưởng",
+    "Cộng dồn 10x Chiết xuất Xanh (Blue Extract) trước khi bắt đầu đợt boost lớn",
+    "Đảm bảo Ổ đĩa Xanh (Blue Drive) của bạn đang sạc (nếu sử dụng Digital Bee)",
+    "Kiểm tra Máy in Nhãn dán (Sticker Printer) để tìm các nhãn dán chủ đề màu Xanh"
+  ]}
+/>
+
+<Callout type="warning" title="Quản lý Mật hoa (Nectar)">
+Tổ ong xanh bị giảm hiệu suất đáng kể nếu không có **Refreshing Nectar**. Hãy sử dụng Máy ngưng tụ mật hoa (Nectar Condenser) hoặc Chậu cây (Planters) ở các cánh đồng màu xanh (Blue Flower, Bamboo, Pine Tree) để giữ cho bùa lợi này luôn hoạt động.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi thực sự cần bao nhiêu con Buoyant Bee cho một tổ ong xanh?",
+    answer: "Đối với một tổ ong xanh tiêu chuẩn ở giai đoạn cuối game, khuyến nghị nên có từ 18 đến 22 con Buoyant Bee. Điều này đảm bảo bạn có đủ sức chứa để bám trụ trên cánh đồng trong suốt thời gian kích hoạt Pop Star mà không làm bong bóng khí cầu bị quá tải."
+  },
+  {
+    question: "Tôi có thể vận hành tổ ong xanh mà không có Diamond Mask không?",
+    answer: "Điều này cực kỳ không được khuyến khích. Diamond Mask cung cấp sức chứa và khả năng chuyển đổi (Diamond Drain) giúp hệ màu xanh hoạt động hiệu quả. Việc chạy hệ xanh với mặt nạ Gummy hoặc Fire sẽ dẫn đến lượng mật ong thu được mỗi giờ thấp hơn đáng kể."
+  },
+  {
+    question: "Tide Popper có bắt buộc phải có cho tổ ong xanh không?",
+    answer: "Tide Popper là công cụ tốt nhất cho vị trí này, nhưng bạn hoàn toàn có thể farm hàng nghìn tỷ mật ong bằng cách sử dụng Porcelain Dipper hoặc Petal Wand trong khi tiết kiệm nguyên liệu cho nó. Đó là một mục tiêu cuối game, không phải là yêu cầu bắt đầu."
+  },
+  {
+    question: "Mật hoa (nectar) nào tốt nhất cho tổ ong xanh?",
+    answer: "Refreshing Nectar là ưu tiên hàng đầu vì nó tăng Phấn hoa xanh (Blue Pollen) và Tốc độ kỹ năng của Ong (Bee Ability Rate). Satisfying Nectar là lựa chọn thứ hai nhờ các chỉ số cộng thêm về mật ong tại tổ và sức chứa."
+  }
+]} />
+
+</Section>

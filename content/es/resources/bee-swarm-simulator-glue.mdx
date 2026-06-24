@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pegamento de Simulador de Enjambre de Abejas: Rutas de farmeo y recetas de elaboración",
+  description: "Aprende a farmear pegamento en Simulador de Enjambre de Abejas de manera eficiente. Descubre ubicaciones de dispensadores, recetas de elaboración en la licuadora y tasas de botín de criaturas para el equipamiento Gummy.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000000?text=Glue+Farming+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Simulador de Enjambre de Abejas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Recurso principal**: Domina las rutas de farmeo de **pegamento de Simulador de Enjambre de Abejas** para desbloquear el equipamiento Gummy de juego tardío.
+- **Dispensador diario**: Reclama pegamento diario gratis en el dispensador de la Guarida de Gummy Bear para evitar el farmeo activo.
+- **Plano de elaboración**: Usa la Licuadora de la zona de 15 abejas para convertir gominolas y jaleas reales en grandes reservas de pegamento.
+- **Caza de criaturas**: Derrota a hombres lobo, arañas y cangrejos de coco en horarios estrictos de enfriamiento para obtener botines adicionales.
+- **Medallas de Goo**: Sube de nivel tus Medallas de Goo para aumentar automáticamente tus recompensas del dispensador diario.
+</Callout>
+
+<Section icon={Sparkles} title="Introducción y mejores usos del pegamento">
+
+Adquirir un suministro constante de **pegamento de Simulador de Enjambre de Abejas** es uno de los hitos más críticos para los jugadores de juego medio y tardío. El pegamento sirve como ingrediente de elaboración fundamental para el codiciado conjunto de equipamiento Gummy. Sin una ruta de farmeo altamente optimizada, los jugadores a menudo se encuentran estancados durante semanas intentando reunir los cientos de pegamentos necesarios para progresar en el juego tardío.
+
+La Máscara Gummy es ampliamente considerada la máscara de juego medio-tardío más importante debido a su habilidad pasiva Gummy, que acumula goo en los campos para aumentar drásticamente tus tasas de conversión de miel. Guardar tu pegamento específicamente para estos hitos importantes evita que desperdicies recursos valiosos en mejoras temporales de objetos.
+
+| Objeto | Coste de pegamento | Otros materiales principales | Valoración |
+| :--- | :--- | :--- | :--- |
+| Máscara Gummy | 250 | 250 de purpurina, 250 enzimas, 100 de aceite | ★★★★★ (Esencial) |
+| Botas Gummy | 500 | 500 de purpurina, 250 extractos rojos, 250 extractos azules | ★★★★★ (Juego tardío) |
+| Gummyballer | 1,500 | 1,500 gominolas, 100 súper batidos, 50 ceras remolinadas | ★★★★★ (Equipamiento supremo) |
+| Amuleto Gummy | N/A | Cuesta gominolas para girar, otorga mejoras pasivas | ★★★★☆ (Mejoras) |
+
+<Callout type="success" title="Prioridad de la Máscara Gummy">
+Prioriza siempre la Máscara Gummy sobre las Botas Gummy. La Máscara Gummy proporciona un impulso masivo a tu generación diaria de miel, lo que hace que farmear los materiales para las Botas Gummy sea mucho más rápido a largo plazo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rutas y métodos de farmeo diario de pegamento">
+
+Para construir una reserva constante de pegamento, debes integrar las reclamaciones diarias de los dispensadores y rutas de campos específicas en tu rutina de juego. El fuente pasiva más confiable de pegamento es el Dispensador de Pegamento ubicado dentro de la Guarida de Gummy Bear. Para acceder a esta área secreta, debes pararte sobre el ícono de gominola al lado de la puerta de 20 abejas y usar una gominola, lo que te transportará temporalmente a la guarida.
+
+Una vez dentro, puedes reclamar pegamento gratis del gran dispensador una vez cada 22 horas. La cantidad exacta de pegamento que recibes escala directamente con tu nivel de Medalla de Goo, lo que hace que el farmeo activo de goo sea muy beneficioso para tu rendimiento pasivo diario.
+
+<CardGrid cols={3}>
+  <Card title="Dispensador de la Guarida Gummy">
+    - **Requiere Abeja Gummy** o acceso temporal con gominolas
+    - Otorga de 1 a más de 5 pegamentos al día
+    - **Escala con las Medallas de Goo**
+  </Card>
+  <Card title="Elaboración en la Licuadora">
+    - Ubicada en la **Zona de 15 Abejas**
+    - Elaboración diaria ilimitada
+    - Requiere grandes reservas de frutas y jaleas
+  </Card>
+  <Card title="Exterminación de Criaturas">
+    - Concéntrate en la **Araña y el Hombre Lobo**
+    - Las abejas de nivel alto aceleran las eliminaciones
+    - Probabilidad de botín pasivo al hacer misiones
+  </Card>
+</CardGrid>
+
+| Origen | Ubicación | Requisitos | Enfriamiento |
+| :--- | :--- | :--- | :--- |
+| Dispensador de pegamento | Guarida de Gummy Bear | Abeja Gummy o gominola | 22 horas |
+| Hombre lobo | Campo de tréboles | Se recomiendan abejas de nivel 6+ | 3 horas |
+| Araña | Campo de arañas | Se recomiendan abejas de nivel 5+ | 30 minutos |
+| Cangrejo de coco | Campo de cocos | Se recomiendan abejas de nivel 10+ | 36 horas |
+
+<Callout type="tip" title="Escalado del dispensador">
+No ignores tus Medallas de Goo. Alcanzar la Medalla de Goo de Gran Maestro aumenta significativamente el rendimiento diario del Dispensador de Pegamento, proporcionando un gran impulso a tu farmeo pasivo durante varias semanas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elaboración de pegamento de Simulador de Enjambre de Abejas">
+
+La elaboración activa en la Licuadora es la forma más rápida de adquirir pegamento si ya has reclamado tu recompensa diaria del dispensador. La Licuadora está ubicada dentro de la Zona de 15 Abejas, al lado del Cuartel General Rojo. La receta para un solo pegamento requiere 50 gominolas y 1 jalea real.
+
+Dado que elaborar 250 pegamentos para la Máscara Gummy requiere la asombrosa cantidad de 12,500 gominolas, debes optimizar la recolección de tus ingredientes. Puedes elaborar gominolas en la Licuadora usando frutas comunes de los campos (fresas, arándanos y piñas) o canjear códigos promocionales activos para aumentar instantáneamente tu inventario de ingredientes.
+
+<Steps>
+  <Step num="1" title="Recolectar frutas crudas">
+    Farmea piñas en el Parche de Piñas, fresas en el Campo de Fresas y arándanos en el Bosque de Bambú.
+  </Step>
+  <Step num="2" title="Elaborar gominolas en la Licuadora">
+    Convierte 3 de cada fruta correspondiente en 1 gominola. Usa la opción de elaboración por lotes de la Licuadora para ahorrar tiempo de juego activo.
+  </Step>
+  <Step num="3" title="Canjear códigos promocionales activos">
+    Introduce códigos activos como `fourtunate` (4 gominolas), `15MMembers` (15 gominolas) y `BeesBuzz123` (10 gominolas) para llenar rápidamente tu inventario.
+  </Step>
+  <Step num="4" title="Ejecutar la receta de pegamento">
+    Combina 50 gominolas y 1 jalea real en la Licuadora. Cada ciclo de elaboración tarda 30 segundos en completarse.
+  </Step>
+</Steps>
+
+| Pegamento objetivo | Gominolas necesarias | Jaleas reales necesarias | Tiempo de elaboración |
+| :--- | :--- | :--- | :--- |
+| 1 pegamento | 50 | 1 | 30 segundos |
+| 10 pegamentos | 500 | 10 | 5 minutos |
+| 50 pegamentos | 2,500 | 50 | 25 minutos |
+| 100 pegamentos | 5,000 | 100 | 50 minutos |
+
+<Callout type="info" title="Tickets por gominolas">
+Aunque puedes comprar gominolas directamente usando Tickets en el Dispensador de Gominolas, se recomienda encarecidamente guardar tus Tickets para Huevos de Abeja de Evento (como la Abeja Atigrada y la Abeja Fotón) durante las etapas iniciales y medias del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Botines de criaturas y fuentes de eventos">
+
+Derrotar a criaturas agresivas es un excelente suplemento pasivo para tu rutina diaria de elaboración. Aunque las tasas de botín de las criaturas están sujetas al azar, mantener un horario estricto de exterminación asegura un goteo constante de pegamento adicional e ingredientes de elaboración a lo largo del tiempo.
+
+El Caracol de Muñón y el Cangrejo de Coco ofrecen el mayor rendimiento de pegamento al ser derrotados, aunque requieren abejas de nivel alto y una inversión de tiempo significativa. Para los jugadores de menor nivel, el Hombre Lobo en el Campo de Tréboles y la Araña en el Campo de Arañas son las criaturas más accesibles con una probabilidad realista de soltar pegamento.
+
+| Criatura | Probabilidad de botín | Promedio de pegamento | Consejo de combate |
+| :--- | :--- | :--- | :--- |
+| Araña | Probabilidad baja | 1 pegamento | Derrótala rápidamente usando abejas de rabia o viciosas |
+| Hombre lobo | Probabilidad media | 1-2 pegamentos | Llévalo a la esquina del campo de tréboles para dañarlo fácilmente |
+| Cangrejo de coco | Probabilidad alta | 1-5 pegamentos | Esquiva los cocos que caen, usa abejas de nivel 10+ |
+| Caracol de muñón | Garantizado | 5-15 pegamentos | Deja a tu colmena farmeando durante la noche en el Campo del Muñón |
+
+<Callout type="warning" title="Farmeo del Caracol de Muñón">
+El Caracol de Muñón tiene 30 millones de HP. No intentes luchar contra él activamente a menos que tu colmena sea de al menos nivel 8 a 10. En su lugar, deja que tus abejas lo ataquen pasivamente mientras estás lejos del teclado para evitar desperdiciar tiempo de juego activo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el farmeo de pegamento en el juego tardío">
+
+Para asegurarte de que estás utilizando todas las fuentes posibles de pegamento en tu rutina diaria, sigue esta lista de verificación de progresión. Completar constantemente estas tareas reducirá drásticamente el tiempo que tardas en desbloquear tu Máscara Gummy o tus Botas Gummy.
+
+<Checklist
+  id="glue-farming-routine"
+  title="Hitos diarios de pegamento:"
+  items={[
+    "Reclamar la recompensa gratuita del Dispensador de Pegamento en la Guarida Gummy cada 22 horas.",
+    "Derrotar al Hombre Lobo y a la Araña en cada enfriamiento de reaparición.",
+    "Configurar la elaboración de gominolas por lotes en la Licuadora antes de desconectarte.",
+    "Participar en Tormentas de Pegamento siempre que sean activadas por jugadores de nivel alto.",
+    "Completar misiones repetibles de Brown Bear para obtener materiales de elaboración adicionales."
+  ]}
+/>
+
+<Callout type="tip" title="Activación de la Tormenta de Pegamento">
+Mantente atento al chat del servidor. Los jugadores de nivel alto a menudo activan Tormentas de Pegamento en la Guarida Gummy, lo que hace llover gominolas y pegamento gratis por todo el mapa durante un tiempo limitado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de conseguir pegamento en Simulador de Enjambre de Abejas?",
+    answer: "El método activo más rápido es elaborar pegamento en la Licuadora usando 50 gominolas y 1 jalea real. El método pasivo más rápido es reclamar la recompensa diaria del Dispensador de Pegamento en la Guarida de Gummy Bear."
+  },
+  {
+    question: "¿Aumenta la recompensa diaria del Dispensador de Pegamento?",
+    answer: "Sí. La cantidad de pegamento que recibes del dispensador escala con tu nivel de Medalla de Goo. Mejorar tus medallas de bronce a gran maestro aumenta tu rendimiento diario."
+  },
+  {
+    question: "¿Debería gastar mis Tickets en gominolas para elaborar pegamento?",
+    answer: "No, especialmente en el juego temprano y medio. Los Tickets se aprovechan mucho mejor comprando Huevos de Evento como el de la Abeja Atigrada. Solo gasta Tickets en gominolas si eres un jugador de juego tardío que busca una mejora final de forma urgente."
+  },
+  {
+    question: "¿Qué criaturas tienen la mejor tasa de botín de pegamento?",
+    answer: "El Caracol de Muñón garantiza pegamento al ser derrotado, mientras que el Cangrejo de Coco tiene una tasa de botín muy alta. Para los jugadores de menor nivel, el Hombre Lobo tiene el mejor equilibrio entre dificultad y probabilidad de botín."
+  }
+]} />
+
+<Callout type="info" title="Veredicto final">
+La consistencia es clave al farmear **pegamento de Simulador de Enjambre de Abejas**. Combinando las reclamaciones del dispensador diario, rutas eficientes de criaturas y una elaboración inteligente en la licuadora, desbloquearás tu equipamiento Gummy de juego tardío en un tiempo récord.
+</Callout>
+
+</Section>

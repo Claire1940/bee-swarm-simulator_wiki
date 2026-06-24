@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Abeja Viciosa de Bee Swarm Simulator: Guía de Aparición y Derrota",
+  description: "Domina a la abeja viciosa de Bee Swarm Simulator con ubicaciones de aparición, rutas de farmeo en el ciclo nocturno, estrategias de combate y guías de costo de aguijones para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/f6c518?text=Vicious+Bee+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Rastrea la púa de la abeja viciosa de Bee Swarm Simulator en los campos durante los ciclos nocturnos.
+- **Campos clave de aparición**: Busca en los campos Clover, Spider, Cactus, Rose y Mountain Top.
+- **Recompensa de combate**: Derrota a la abeja salvaje para obtener Aguijones (Stingers) para desbloquear el huevo.
+- **Costo de desbloqueo**: Ahorra 250 Aguijones para comprar el huevo en el puesto de avanzada de la sombra en Rose Field.
+- **Prioridad de Gifted**: Convierte a esta abeja en Gifted pronto para reducir los tiempos de reaparición de monstruos en un 15 por ciento.
+</Callout>
+
+<Section icon={Sparkles} title="Estadísticas Base y Mecánicas de la Abeja Viciosa">
+
+Para maximizar tu eficiencia en combate, comprender las mecánicas de la **abeja viciosa de Bee Swarm Simulator** es esencial para el progreso en el juego medio. A diferencia de las abejas recolectoras tradicionales que se enfocan completamente en la recolección de polen, la Abeja Viciosa (Vicious Bee) es una Abeja de Evento azul diseñada específicamente para la batalla. Domina el campo al infligir un daño masivo de púa a un solo objetivo, lo que la convierte en la opción principal para eliminar jefes de campo, bichos hostiles y monstruos de alto nivel.
+
+La capacidad principal de esta abeja gira en torno a su habilidad distintiva: Empalar (Impale). Cuando está activa, la Abeja Viciosa invoca púas gigantes desde el suelo, empalando a los enemigos para infligirles un daño que escala directamente con el nivel y el poder de ataque de la abeja. Esta habilidad la hace indispensable para zonas de combate desafiantes como el Desafío de la Hormiga (Ant Challenge), el Desafío del Oso Robo (Robo Bear Challenge) y las arenas de jefes.
+
+| Estadística | Valor Base | Valor Gifted | Impacto en Combate |
+| :--- | :--- | :--- | :--- |
+| **Ataque** | 4 | 5 | Alto daño de púa a un solo objetivo |
+| **Velocidad** | 14.4 | 16.8 | Rápida recolección de fichas y movimiento |
+| **Recolección** | 10 de polen | 15 de polen | Bajo enfoque de recolección |
+| **Energía** | 100 | 150 | Resistencia excepcional durante peleas de jefes |
+
+Para ayudarte a decidir dónde encaja esta abeja en tu camino de progresión, compárala con otras Abejas de Evento de alta prioridad disponibles en el juego:
+
+<CardGrid cols={3}>
+  <Card title="Abeja Viciosa">
+    - **Rol**: Combate y daño de púas
+    - **Mejor campo**: Rose, Cactus, Mountain Top
+    - **Beneficio clave**: Reduce la reaparición de monstruos
+  </Card>
+  <Card title="Abeja Atigrada">
+    - **Rol**: Conversión y recolección
+    - **Mejor campo**: Clover, Pumpkin, Pine Tree
+    - **Beneficio clave**: Escalado masivo de poder crítico
+  </Card>
+  <Card title="Abeja Fotón">
+    - **Rol**: Recolección instantánea de polen
+    - **Mejor campo**: Sunflower, Pineapple, Coconut
+    - **Beneficio clave**: Energía infinita y tormenta de rayos
+  </Card>
+</CardGrid>
+
+Aunque la Abeja Viciosa no destaca en la recolección directa de polen, su capacidad para limpiar rápidamente los campos de monstruos hostiles permite que tus otras abejas recolecten polen sin interrupciones. Esta sinergia es vital para mantener sesiones de farmeo de alto rendimiento.
+
+<Callout type="info" title="Análisis del Rol de Combate">
+La Abeja Viciosa debe colocarse cerca de la parte inferior de la cuadrícula de tu colmena. Esta posición minimiza la distancia física de viaje de sus fichas de combate, lo que te permite recolectarlas instantáneamente durante batallas intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ubicaciones de Aparición de la Abeja Viciosa en Bee Swarm Simulator">
+
+Encontrar una Abeja Viciosa salvaje requiere una sólida comprensión de los ciclos de día y noche del juego. Las versiones salvajes de esta abeja no deambulan libremente; en su lugar, aparecen como púas de sombra estacionarias ocultas en campos específicos exclusivamente durante la fase nocturna. La fase diurna en el juego dura 14 minutos, seguida de una fase nocturna de 6 minutos.
+
+Tan pronto como cae la noche, hay una probabilidad fija de que una púa de aguijón emerja del suelo. Para iniciar la pelea contra el jefe, debes caminar físicamente con tu personaje directamente hacia el aguijón que sobresale. La púa puede aparecer en uno de los cinco campos designados, dependiendo de tu progreso y zonas desbloqueadas.
+
+| Nombre del Campo | Requisito de Puerta | Probabilidad de Aparición | Dificultad del Terreno |
+| :--- | :--- | :--- | :--- |
+| **Clover Field** | 0 Abejas | Baja | Plano, fácil de navegar |
+| **Spider Field** | 5 Abejas | Media | La araña aparece cerca |
+| **Cactus Field** | 15 Abejas | Media | Obstáculos de gran altura |
+| **Rose Field** | 15 Abejas | Alta | Flores de campo rojas |
+| **Mountain Top** | 25 Abejas | Muy Alta | Peligros ambientales peligrosos |
+
+Para farmear aguijones de manera eficiente, debes establecer una ruta de exploración confiable. Tan pronto como comience el ciclo nocturno, usa el cañón rojo o el lanzador amarillo para ganar altura, luego escanea los campos Clover, Spider, Cactus, Rose y Mountain Top desde arriba. Busca una púa oscura y brillante que sobresalga de la tierra.
+
+<Callout type="tip" title="Consejo de Aparición en el Ciclo Nocturno">
+Escucha atentamente cuando caiga la noche. Se reproduce una campana distintiva y de tono bajo de forma global en todo el mapa si ha aparecido una púa de Abeja Viciosa salvaje en uno de los campos activos. Si escuchas este sonido, deja todo lo que estés haciendo y comienza a buscar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate: Cómo Derrotar a la Abeja Viciosa Salvaje">
+
+Derrotar a una Abeja Viciosa salvaje requiere un movimiento cuidadoso y preparación. El nivel de la abeja salvaje está determinado por la abeja de mayor nivel en tu colmena actual. Por ejemplo, si tu abeja más fuerte es de nivel 8, la Abeja Viciosa salvaje aparecerá en el nivel 8. Esta mecánica de escalado asegura que la pelea siga siendo desafiante durante toda tu partida.
+
+Durante la batalla, la abeja salvaje flotará sobre el campo e invocará periódicamente púas en el suelo, marcadas por sombras circulares oscuras. Pararse dentro de estas sombras cuando la púa emerge inflige un daño masivo a tu personaje y puede resultar fácilmente en una derrota repentina.
+
+| Nivel de la Abeja Salvaje | HP Aproximado | Aguijones Garantizados | Objetos de Bonificación |
+| :--- | :--- | :--- | :--- |
+| **Nivel 1-3** | 500 - 1500 | 1 a 2 | Miel, Golosinas |
+| **Nivel 4-6** | 2000 - 4500 | 2 a 4 | Jalea Real, Arándanos |
+| **Nivel 7-9** | 6000 - 10000 | 4 a 6 | Dados de Campo, Bayas Amargas |
+| **Nivel 10-12** | 12000 - 20000 | 5 a 10 | Jalea Estelar, Microconvertidores |
+
+Para asegurarte de sobrevivir al encuentro y reclamar tus recompensas, utiliza la siguiente lista de preparación antes de enfrentarte al jefe:
+
+<Checklist
+  id="vicious-prep"
+  title="Lista de Preparación para la Abeja Viciosa:"
+  items={[
+    "Equipa tu equipo defensivo de mayor daño, como las Guardas Carmesí (Crimson Guard) o Cobalto (Cobalt Guard).",
+    "Acumula fichas de Foco (Focus) y Rabia (Rage) de tus otras abejas antes de entrar al campo.",
+    "Asegúrate de que tus abejas estén completamente alimentadas con golosinas para mantener la máxima resistencia en combate.",
+    "Activa un potenciador de campo azul o rojo para acelerar la recolección de fichas durante la pelea.",
+    "Mantén Microconvertidores listos para vaciar tu mochila sin tener que abandonar la zona de combate."
+  ]}
+/>
+
+Durante la pelea, concéntrate por completo en esquivar las sombras de las púas mientras mantienes a tu personaje lo suficientemente cerca de tus abejas para recolectar sus fichas de combate y rabia. No te alejes demasiado del campo, o la abeja salvaje desaparecerá, obligándote a esperar al próximo ciclo nocturno.
+
+<Callout type="warning" title="Advertencia de Evasión de Púas">
+Las púas del suelo invocadas por la abeja salvaje aturdirán temporalmente a tu personaje y eliminarán tus mejoras de velocidad de movimiento. Prioriza siempre esquivar las sombras circulares antes que recolectar fichas de polen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de Adquisición: Gasto de Aguijones y Bonificaciones de Gifted">
+
+No puedes incubar la Abeja Viciosa a partir de un huevo estándar ni obtenerla a través de giros de Jalea Real. En su lugar, debes comprar su huevo en el Puesto de Avanzada de la Sombra (Shadow Outpost) usando Aguijones. Esto requiere un farmeo significativo, lo que hace que la gestión de Aguijones sea una prioridad absoluta durante la transición del juego temprano al medio.
+
+Sigue estos pasos para recolectar con éxito los recursos necesarios y reclamar tu propia Abeja Viciosa:
+
+<Steps>
+  <Step num="1" title="Recolecta 250 Aguijones">
+    Derrota a Abejas Viciosas salvajes durante los ciclos nocturnos, completa las donaciones diarias del Santuario del Viento (Wind Shrine) y reclama el aguijón gratuito diario del dispensador de Cactus Field detrás de la puerta de 15 abejas.
+  </Step>
+  <Step num="2" title="Localiza el Puesto de Avanzada de la Sombra">
+    Sube la rampa cerca de Rose Field y dirígete detrás del área de la puerta de 20 abejas para encontrar el pedestal negro oculto de Aguijón.
+  </Step>
+  <Step num="3" title="Compra el Huevo de Abeja Viciosa">
+    Interactúa con el pedestal de sombra para cambiar tus 250 Aguijones acumulados por el Huevo de Abeja Viciosa.
+  </Step>
+  <Step num="4" title="Incuba y Posiciona la Abeja">
+    Coloca el huevo en una ranura vacía de tu colmena. Posiciónala en las filas inferiores para asegurarte de que sus fichas de combate caigan cerca de tu personaje.
+  </Step>
+</Steps>
+
+Una vez que hayas incubado la abeja, tu siguiente gran objetivo debería ser convertirla en una Abeja Gifted. Una Abeja Viciosa Gifted proporciona una de las bonificaciones pasivas más poderosas de todo el juego: una reducción permanente del 15 por ciento en los tiempos de reaparición de los monstruos. Esta bonificación acelera drásticamente tus rutas de farmeo de materiales al permitirte derrotar a monstruos como el Hombre Lobo (Werewolf), la Araña (Spider) y las Mariquitas (Ladybugs) con mucha más frecuencia.
+
+| Estado de Mejora | Enfriamiento de Empalar | Modificador de Reaparición de Monstruos | Poder de Ataque |
+| :--- | :--- | :--- | :--- |
+| **Abeja Viciosa Normal** | 30 Segundos | 0% | 4 de Ataque Base |
+| **Abeja Viciosa Gifted** | 25 Segundos | -15% Tiempo de Reaparición | 5 de Ataque Base |
+
+Para mejorar tu abeja, aliméntala con un Regalo Estelar (Star Treat). Este es el método más confiable, ya que las Abejas de Evento no tienen golosinas favoritas y no pueden convertirse en gifted mediante alimentos estándar.
+
+<Callout type="success" title="Recomendación de Prioridad de Gifted">
+Se recomienda encarecidamente usar tu primer Star Treat en la Abeja Viciosa. El temporizador reducido de reaparición de monstruos acelera la acumulación de materiales de crafteo, lo que te permite fabricar equipo de juego medio mucho más rápido en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+Para ayudarte a finalizar tu configuración de farmeo y optimizar tu rendimiento en combate, revisa estas respuestas a las preguntas más comunes de la comunidad sobre la Abeja Viciosa.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor lugar para farmear aguijones para la abeja viciosa de Bee Swarm Simulator?",
+    answer: "La forma más eficiente de farmear aguijones es cazar Abejas Viciosas salvajes durante el ciclo nocturno en los campos Clover, Spider, Cactus, Rose y Mountain Top. También puedes reclamar un aguijón gratuito diario del dispensador de Cactus Field una vez que desbloquees la puerta de 15 abejas."
+  },
+  {
+    question: "¿Afecta el nivel de la Abeja Viciosa salvaje a las recompensas?",
+    answer: "Sí. Las Abejas Viciosas salvajes de mayor nivel (niveles 10 a 12) otorgan significativamente más aguijones (hasta 10 por derrota) y tienen una mayor probabilidad de soltar objetos raros como Jaleas Estelares (Star Jellies) y Microconvertidores (Micro-Converters)."
+  },
+  {
+    question: "¿Es buena la Abeja Viciosa para una Colmena Azul o una Colmena Roja?",
+    answer: "La Abeja Viciosa es una Abeja de Evento Azul, lo que la hace ideal para las Colmenas Azules. Sin embargo, debido a su increíble utilidad en combate y su habilidad de púas, se recomienda encarecidamente para todas las colmenas mixtas, rojas y blancas durante las etapas del juego temprano y medio."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de hacer que la Abeja Viciosa sea Gifted?",
+    answer: "Alimentarla con un Star Treat es la única forma 100% garantizada de hacer que tu Abeja Viciosa sea gifted. No se recomienda desperdiciar Ositos de Jengibre (Gingerbread Bears) o Bayas Amargas (Bitterberries) en abejas de evento a menos que tengas un excedente masivo."
+  }
+]} />
+
+<Callout type="info" title="Comprobación de Progreso Final">
+Recuerda equilibrar tus mejoras de combate con el equipo de recolección de polen. Aunque la Abeja Viciosa sobresale en la batalla, producir miel sigue siendo tu motor principal de crecimiento. Mantén tu mochila y tus herramientas de recolección mejoradas junto con el nivel de tu colmena.
+</Callout>
+
+</Section>

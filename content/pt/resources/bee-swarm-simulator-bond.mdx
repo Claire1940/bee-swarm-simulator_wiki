@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vínculo no Bee Swarm Simulator: Melhores Estratégias de Nível e Alimentação",
+  description: "Domine as mecânicas de vínculo do Bee Swarm Simulator para subir o nível da sua colmeia rapidamente. Saiba mais sobre guloseimas, bônus de frutas, multiplicadores da Abelha Filhote e missões da Ursa Mãe.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Bee+Bond+and+Leveling+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "vínculo bee swarm simulator, subir nível de abelhas, guloseimas, abelha filhote, ursa mãe"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Vínculo (Bond) no Bee Swarm Simulator** é o sistema de experiência usado para subir o nível das suas abelhas, aumentando sua taxa de coleta e eficácia em combate.
+- **Guloseimas e Frutas** são os principais métodos para aumentar o Vínculo, com frutas específicas fornecendo bônus massivos para tipos de abelhas correspondentes.
+- **Missões da Ursa Mãe** servem como o roteiro essencial para o nivelamento no início do jogo e fornecem grandes quantidades de guloseimas gratuitas.
+- **Abelha Filhote (Puppy Bee)** é um investimento crítico para o final do jogo, oferecendo até 50% de desconto nos custos de Vínculo quando é Dotada.
+- **Níveis de Abelha Mais Altos** são obrigatórios para derrotar chefes de alto nível como o Caranguejo de Coco e o Caracol de Tronco em 2026.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de Vínculo do Bee Swarm Simulator">
+
+No mundo do Bee Swarm Simulator, a força da sua colmeia não é determinada apenas pela raridade das suas abelhas, mas pelo nível delas. O **vínculo no bee swarm simulator** representa o total de pontos de experiência que uma abelha acumulou. À medida que uma abelha ganha Vínculo, ela sobe de nível, o que escala diretamente seu desempenho em todos os campos. Se você ignorar o sistema de Vínculo, suas abelhas terão dificuldade para atingir monstros de alto nível, e sua coleta de pólen permanecerá estagnada mesmo com equipamentos caros.
+
+Subir o nível das abelhas é uma progressão linear de poder. Para cada nível ganho, uma abelha aumenta sua energia, dano de ataque e estatísticas de coleta de pólen. Além disso, certos portões e desafios, como a zona de 35 abelhas ou testes específicos de NPCs, tornam-se significativamente mais fáceis quando a média de nível da sua colmeia é 10 ou superior.
+
+| Nível da Abelha | Vínculo Aproximado Necessário | Principais Benefícios de Atributos |
+| :--- | :--- | :--- |
+| Nível 1-5 | 100 - 1.500 | Escalonamento básico de energia e ataque |
+| Nível 6-8 | 4.000 - 15.000 | Melhor precisão contra insetos de campo |
+| Nível 9-11 | 40.000 - 250.000 | Obrigatório para o combate contra o Caranguejo de Coco |
+| Nível 12-15 | 1M - 15M | Eficiência de farm no endgame |
+| Nível 16+ | 40M+ | Otimização especializada da colmeia |
+
+<Callout type="info" title="Por que subir de nível é importante">
+As abelhas têm uma chance de "Errar" (Miss) ao atacar inimigos de um nível superior. Se sua abelha for nível 8 e o monstro for nível 10, suas abelhas errarão frequentemente seus ataques, tornando as lutas contra chefes quase impossíveis. Aumentar o seu **vínculo no bee swarm simulator** é a única maneira de corrigir isso.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="As Melhores Guloseimas e Frutas para Subir de Nível">
+
+Alimentar suas abelhas é a maneira mais rápida de aumentar o **vínculo no bee swarm simulator**. Embora as abelhas ganhem uma pequena quantidade de Vínculo naturalmente enquanto coletam pólen (1 de Vínculo por ciclo de coleta), isso é lento demais para um progresso significativo. Em vez disso, você deve utilizar Guloseimas, Frutas e itens especializados.
+
+O jogo apresenta vários tipos de comida, cada um com um valor base de Vínculo. No entanto, o verdadeiro segredo para a eficiência reside nos alimentos "preferidos". Por exemplo, alimentar uma abelha vermelha com um Morango fornece significativamente mais Vínculo do que alimentá-la com um Mirtilo.
+
+<CardGrid cols={3}>
+  <Card title="Guloseimas Básicas">
+    - **Vínculo Base**: 10 por guloseima
+    - **Custo**: 10.000 Mel cada
+    - **Melhor para**: Nivelamento em massa de qualquer tipo de abelha
+  </Card>
+  <Card title="Frutas Especializadas">
+    - **Vínculo Base**: 25 a 50
+    - **Bônus**: 2x Vínculo se a abelha gostar da fruta
+    - **Tipos**: Morangos, Mirtilos, Abacaxis
+  </Card>
+  <Card title="Iguarias Raras">
+    - **Feitiços da Lua**: 100 de Vínculo
+    - **Amoras Amargas**: 100 de Vínculo + Chance de mutação
+    - **Amoras Neon**: 200 de Vínculo + Status radioativo
+  </Card>
+</CardGrid>
+
+| Nome do Item | Vínculo Base | Tipo de Abelha Preferida | Vínculo de Bônus |
+| :--- | :--- | :--- | :--- |
+| **Morango** | 25 | Abelhas Vermelhas | 50 |
+| **Mirtilo** | 25 | Abelhas Azuis | 50 |
+| **Abacaxi** | 25 | Abelhas Brancas | 50 |
+| **Semente de Girassol** | 20 | Abelhas Básicas/Leão | 40 |
+| **Guloseima** | 10 | Todas as Abelhas | 10 |
+
+<Callout type="tip" title="Gerenciamento de Recursos">
+Nunca venda suas frutas por mel. As frutas são muito mais valiosas como impulsionadores de Vínculo ou ingredientes de fabricação para equipamentos de alto nível, como a Máscara Gosmenta (Gummy Mask) ou a Guarda Carmesim (Crimson Guard).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roteiro de Nível da Ursa Mãe">
+
+A Ursa Mãe é o principal NPC responsável por ensinar aos jogadores sobre o **vínculo no bee swarm simulator**. Sua linha de missões foi projetada para guiá-lo através do processo de chocar, alimentar e nivelar suas primeiras 25 abelhas. Completar suas tarefas é a maneira mais eficiente de ganhar quantidades massivas de Guloseimas sem gastar seu mel suado.
+
+Siga estes passos para maximizar seu progresso através do treinamento da Ursa Mãe:
+
+<Steps>
+  <Step num="1" title="Alimentação Inicial">
+    Comece alimentando suas abelhas com as Guloseimas básicas ganhas nas missões iniciais do Urso Negro. Concentre-se em levar toda a sua colmeia ao nível 4.
+  </Step>
+  <Step num="2" title="Missões de Tipos Específicos">
+    A Ursa Mãe pedirá que você alimente frutas específicas. Guarde seus Morangos para abelhas como a Abelha Radical ou Abelha Riley para completar essas tarefas rapidamente.
+  </Step>
+  <Step num="3" title="Marcos de Vínculo">
+    Trabalhe para atingir o marco da "Colmeia Nível 8". Esta missão fornece uma Geleia Estelar, que é crucial para obter sua primeira Abelha Dotada.
+  </Step>
+  <Step num="4" title="Utilização da Loja de Guloseimas">
+    Assim que chegar à zona de 10 abelhas, use o Dispensador de Guloseimas. Geralmente é mais econômico comprar guloseimas em massa do que farmá-las individualmente nos campos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensas de Missão">
+As missões finais da Ursa Mãe recompensam você com uma **Guloseima Estelar da Ursa Mãe**. Este é um dos itens mais raros do jogo e só deve ser usado em Abelhas de Evento como a Abelha Malhada ou Abelha Fóton.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Maximizando Multiplicadores de Vínculo e a Abelha Filhote">
+
+À medida que você avança para o meio e final do jogo, a quantidade de Vínculo necessária para um único nível torna-se astronômica. Para continuar progredindo, você deve utilizar multiplicadores de Vínculo. O multiplicador mais significativo no Bee Swarm Simulator vem da **Abelha Filhote (Puppy Bee)**.
+
+Embora a Abelha Filhote seja frequentemente considerada "fraca" em termos de coleta de pólen, seu bônus de colmeia é indiscutivelmente o mais poderoso para o crescimento da conta a longo prazo. Quando a Abelha Filhote é Dotada, ela fornece um bônus de **20% de Vínculo de Guloseimas**. Combinado com o Amuleto da Lua e Equipamentos de Abelha (Beequips) específicos, você pode reduzir o custo total de mel para nivelar sua colmeia em milhões.
+
+| Fonte de Multiplicador | Tipo de Bônus | Requisito |
+| :--- | :--- | :--- |
+| **Abelha Filhote (Normal)** | +10% de Vínculo de Guloseimas | Possuir a Abelha Filhote |
+| **Abelha Filhote Dotada** | +20% de Vínculo de Guloseimas | Usar Guloseima Estelar na Abelha Filhote |
+| **Amuleto da Lua** | Até +15% de Vínculo de Guloseimas | Sortear Feitiços da Lua na Estátua da Lua |
+| **Equipamentos de Abelha** | % Variável | Equipar itens específicos nas abelhas |
+
+<Callout type="warning" title="Armadilha de Nível">
+Não gaste bilhões de mel em guloseimas até ter uma Abelha Filhote Dotada e um Amuleto da Lua com um bom status. Sem esses multiplicadores, você está efetivamente jogando fora 20-30% do seu mel.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Diário para Nível da Colmeia">
+
+Para manter um aumento constante no seu **vínculo no bee swarm simulator**, você deve incorporar estas atividades à sua rotina diária. A consistência é a chave para alcançar uma colmeia de nível 15+.
+
+<Checklist
+  id="daily-bond-tasks"
+  title="Tarefas Diárias de Vínculo:"
+  items={[
+    "Derrote o Lobisomem e a Aranha para garantir drops de Guloseimas.",
+    "Colete as guloseimas gratuitas do dispensador na zona de 10 abelhas.",
+    "Use os Dispensadores de Frutas a cada 4 horas para estocar comida especializada.",
+    "Participe de Caças a Insetos (Bug Runs) para coletar tokens de Vínculo deixados pelas abelhas.",
+    "Verifique se há códigos ativos que fornecem Abelhas de Marshmallow ou Guloseimas gratuitas."
+  ]}
+/>
+
+<Callout type="tip" title="Subindo de Nível AFK">
+Se você tiver uma mochila de alta capacidade, pode ficar semi-AFK em campos como a Floresta de Pinheiros. Suas abelhas ganharão Vínculo passivo enquanto você coleta pólen, embora isso seja significativamente mais lento do que a alimentação direta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sobre Vínculo no Bee Swarm Simulator">
+
+<FAQ items={[
+  {
+    question: "Como aumento o vínculo no bee swarm simulator sem gastar mel?",
+    answer: "A melhor maneira de aumentar o Vínculo gratuitamente é completando as missões da Ursa Mãe e do Urso Marrom, derrotando mobs como o Lobisomem e coletando tokens de Vínculo nos campos enquanto suas abelhas colhem pólen."
+  },
+  {
+    question: "Devo alimentar minhas abelhas com frutas ou guardá-las para fabricação?",
+    answer: "No início do jogo, use frutas para elevar suas abelhas ao nível 8. No meio e final do jogo, guarde a maioria das frutas para fabricação (como Glitter ou Extratos) e use Guloseimas básicas para subir de nível, pois o mel se torna mais fácil de farmar."
+  },
+  {
+    question: "O nível da minha abelha afeta sua capacidade de coletar pólen?",
+    answer: "Sim. Abelhas de nível superior têm mais energia, permitindo que fiquem no campo por mais tempo, e coletam significativamente mais pólen por ciclo de coleta em comparação com abelhas de nível inferior."
+  },
+  {
+    question: "A Abelha Filhote vale os bilhetes?",
+    answer: "A Abelha Filhote só vale a pena se você planeja jogar a longo prazo. Suas estatísticas de coleta são ruins, mas seu bônus de Dotada economiza trilhões de mel no processo de nivelamento do endgame."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Certifique-se sempre de que sua colmeia esteja equilibrada. É melhor ter quarenta abelhas de nível 10 do que uma abelha de nível 15 e trinta e nove abelhas de nível 8. Uma colmeia equilibrada garante um desempenho consistente em todos os campos e missões.
+</Callout>
+
+</Section>

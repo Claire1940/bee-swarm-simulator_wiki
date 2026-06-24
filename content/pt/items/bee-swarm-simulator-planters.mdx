@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Plantadores do Bee Swarm Simulator: Rotas de Cultivo e Guia de Configuração",
+  description: "Domine os plantadores do Bee Swarm Simulator para otimizar o rendimento de néctar, resgatar materiais raros e executar as melhores rotas de cultivo diárias em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000000?text=Planters+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânicas de plantadores**: Implante plantadores do Bee Swarm Simulator em campos específicos para colher poderosos reforços de néctar e ingredientes de fabricação raros.
+- **Gerenciamento de néctar**: Mantenha seu armazenamento de néctar alto para manter multiplicadores constantes de coleta de pólen e conversão de colmeia.
+- **Posicionamento ideal**: Sempre combine os plantadores com seus campos preferidos para desbloquear pools de recompensas secretas e acelerar o crescimento.
+- **Rotação diária**: Estabeleça uma rota de cultivo consistente para ciclar os plantadores continuamente e maximizar a geração passiva de recursos.
+- **Progressão de fim de jogo**: Priorize o desbloqueio de plantadores de alto nível, como o Plantador de Pétalas (Petal Planter), para aumentar drasticamente sua eficiência na produção de mel.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos Plantadores e Mecânicas de Néctar">
+
+No Bee Swarm Simulator, os plantadores são itens implantáveis que crescem ao longo do tempo quando colocados em vários campos. Conforme você coleta pólen no mesmo campo, a taxa de crescimento do seu plantador ativo aumenta significativamente. Assim que o plantador atinge a maturidade total, colhê-lo rende uma combinação de mel, ingredientes de fabricação e néctares essenciais. 
+
+Os néctares são bônus (buffs) temporários e acumulativos que fornecem multiplicadores massivos para sua colmeia. Existem cinco tipos distintos de néctares, cada um associado a campos específicos e reforços de jogabilidade. Gerenciar esses néctares é fundamental para a progressão no meio e fim de jogo, pois eles afetam diretamente a quantidade de mel que você pode produzir durante as sessões de reforço ativo.
+
+| Tipo de Néctar | Multiplicadores Principais | Campos de Origem Primários |
+|-|-|-|
+| **Refreshing** | Pólen Azul, Capacidade, Velocidade (Haste) | Strawberry, Blue Flower, Pineapple, Clover |
+| **Satisfying** | Pólen Branco, Mel na Colmeia, Taxa de Conversão | Sunflower, Pumpkin, Pineapple, Coconut |
+| **Comforting** | Defesa, Capacidade, Taxa de Conversão | Dandelion, Bamboo, Pine Tree |
+| **Motivating** | Velocidade de Movimento do Jogador, Poder Crítico | Mushroom, Spider, Rose, Stump |
+| **Invigorating** | Pólen Vermelho, Ataque de Abelha, Chance Crítica | Clover, Cactus, Pepper Patch, Mountain Top |
+
+Cada bônus de néctar pode acumular até 24 horas de duração. Para manter esses bônus, você deve armazenar seus néctares colhidos no Condensador de Néctar (Nectar Condenser) localizado perto da Zona de 30 Abelhas. O condensador permite combinar e preservar seus bônus, garantindo que você não perca o progresso ao alternar entre as sessões de cultivo.
+
+<Callout type="info" title="Aviso de Decaimento de Néctar">
+Os néctares decaem passivamente ao longo do tempo, mesmo quando você está offline. Para evitar que seus multiplicadores suados desapareçam, crie o hábito de colher seus plantadores logo antes de sair do jogo e armazene os néctares no condensador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Níveis (Tier List) de Plantadores e Caminho de Progressão">
+
+Os plantadores são divididos em níveis distintos com base em seu custo, velocidade de crescimento e pools de recompensas. À medida que você avança de uma colmeia inicial para uma build de fim de jogo, sua prioridade de compra deve mudar para plantadores que oferecem multiplicadores passivos mais altos e melhores taxas de queda (drop) de materiais.
+
+<CardGrid cols={3}>
+  <Card title="Plantadores Iniciais">
+    - **Baixo custo de recursos**
+    - Alta velocidade de crescimento
+    - Drops de materiais básicos
+    - Perfeito para missões iniciais
+  </Card>
+  <Card title="Plantadores de Meio de Jogo">
+    - **Custo de fabricação moderado**
+    - Rendimentos de néctar equilibrados
+    - Drops de cola (glue), enzimas (enzymes) e glitter
+    - Essencial para as missões da Ursa Espiritual (Spirit Bear)
+  </Card>
+  <Card title="Plantadores de Fim de Jogo">
+    - **Requisitos extremos de materiais**
+    - Capacidade massiva de néctar
+    - Drops garantidos de materiais raros
+    - Adaptado para cores de colmeia específicas
+  </Card>
+</CardGrid>
+
+Para ajudá-lo a planejar suas melhorias, a tabela abaixo descreve as estatísticas, custos e objetivos principais de cada plantador disponível no jogo.
+
+| Nome do Plantador | Modificador de Crescimento | Custo de Fabricação / Compra Chave | Utilidade Primária |
+|-|-|-|-|
+| **Paper** | 1.25x | 1.000 de Mel | Barato, crescimento rápido, néctar básico |
+| **Ticket** | 1.00x | 10 Bilhetes | Gera bilhetes na colheita |
+| **Plastic** | 1.00x | 150.000 de Mel | Drops diários básicos, amigável para iniciantes |
+| **Candy** | 1.15x | 25.000.000 de Mel, 15 Gomas (Gumdrops) | Alto rendimento de petiscos, excelente para cola (glue) |
+| **Red Balloon** | 1.10x | 500.000.000 de Mel, 50 Morangos | Foco em pólen vermelho, aumenta a capacidade do balão |
+| **Blue Clay** | 1.10x | 500.000.000 de Mel, 50 Mirtilos (Blueberries) | Foco em pólen azul, alto néctar confortante |
+| **Tacky** | 1.05x | 2.500.000.000 de Mel, 100 Sementes de Girassol | Alto néctar satisfatório, dropa cera macia (soft wax) |
+| **Pesticide** | 0.95x | 15.000.000.000 de Mel, 15 Enzimas | Alto néctar confortante, dropa neobagas (neonberries) |
+| **Petal** | 0.90x | 1 Pétala Espiritual (Spirit Petal), 100 Glitters | Recompensas gerais extremamente altas |
+| **Hydroponic** | 0.85x | 500 Extratos Azuis (Blue Extract), 5 Super Wyrm | Crescimento infinito de néctar azul |
+| **Heat-Treated** | 0.85x | 500 Extratos Vermelhos (Red Extract), 5 Ceras Rígidas (Hard Wax) | Crescimento infinito de néctar vermelho |
+| **Plenty o' Planters** | 0.75x | 1.000.000.000.000 de Mel, 500 Extratos Roxos (Purple Extract) | O plantador definitivo, rendimentos inigualáveis |
+
+<Callout type="tip" title="Valor do Plantador de Doce">
+O Plantador de Doce (Candy Planter) é amplamente considerado o melhor plantador em termos de custo-benefício no meio de jogo. Colocá-lo no Campo de Morango (Strawberry Field) ou no Canteiro de Abóboras (Pumpkin Patch) rende regularmente materiais de fabricação de alto valor, como cola (glue) e enzimas (enzymes), que são necessários para melhorias importantes de equipamentos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Posicionamento Ideal nos Campos e Rotas de Cultivo">
+
+Para obter o máximo dos seus plantadores do Bee Swarm Simulator, você deve combiná-los com seus campos preferidos. Colocar um plantador em um campo preferido concede um multiplicador à sua velocidade de crescimento, aumenta o néctar colhido e desbloqueia pools de saques bônus exclusivos. 
+
+| Plantador | Melhores Campos | Saque Bônus Garantido |
+|-|-|-|
+| **Candy** | Strawberry, Pumpkin, Pineapple | Glue, Enzymes, Strawberries |
+| **Blue Clay** | Pine Tree Forest, Bamboo Field | Blueberries, Royal Jelly, Blue Extract |
+| **Red Balloon** | Pepper Patch, Rose Field, Strawberry | Strawberries, Red Extract, Soft Wax |
+| **Tacky** | Sunflower Field, Dandelion Field | Sunflower Seeds, Soft Wax, Bitterberries |
+| **Pesticide** | Spider Field, Bamboo Field | Enzymes, Glitter, Neonberries |
+| **Petal** | Coconut Field, Clover Field | Glitter, Star Jelly, Enzymes |
+
+Usando esses dados de posicionamento, você pode estabelecer rotas de cultivo altamente eficientes, dependendo da especialização atual da sua colmeia.
+
+### Rota de Cultivo para Colmeia Mista
+Se você estiver usando uma colmeia mista, seu objetivo é manter uma distribuição equilibrada de todos os cinco néctares para apoiar as missões gerais.
+1. Coloque o **Candy Planter** no **Strawberry Field** para coletar Néctar Refreshing e Glue.
+2. Coloque o **Tacky Planter** no **Sunflower Field** para coletar Néctar Satisfying e Soft Wax.
+3. Coloque o **Pesticide Planter** no **Spider Field** para coletar Néctar Motivating e Neonberries.
+
+### Rota de Cultivo para Colmeia Azul
+As colmeias azuis requerem o máximo de néctares Refreshing e Comforting para aumentar a capacidade de pólen azul e a geração de bolhas.
+1. Coloque o **Blue Clay Planter** na **Pine Tree Forest** para coletar Néctar Comforting.
+2. Coloque o **Hydroponic Planter** no **Bamboo Field** para manter um acúmulo permanente de Néctar Refreshing.
+3. Coloque o **Plastic Planter** no **Blue Flower Field** para ciclos rápidos de materiais azuis básicos.
+
+### Rota de Cultivo para Colmeia Vermelha
+As colmeias vermelhas dependem fortemente dos néctares Invigorating e Motivating para maximizar as explosões de pólen vermelho e o poder de ataque das abelhas.
+1. Coloque o **Red Balloon Planter** na **Pepper Patch** para coletar Néctar Invigorating.
+2. Coloque o **Heat-Treated Planter** no **Rose Field** para garantir altos rendimentos de extratos vermelhos e néctar.
+3. Coloque o **Candy Planter** no **Mushroom Field** para farmar rapidamente Néctar Motivating.
+
+<Callout type="warning" title="Cultivo Excessivo de Campos">
+Evite colocar o mesmo plantador no mesmo campo repetidamente dentro de um período de 24 horas. Fazer isso aciona uma penalidade de rendimentos decrescentes, reduzindo drasticamente a qualidade e a quantidade dos drops de saques bônus.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Processo de Cultivo com Plantadores Passo a Passo">
+
+Maximizar a eficiência do seu plantador requer uma abordagem estruturada para o plantio, colheita ativa e armazenamento de néctar. Siga estes passos para configurar uma rotina diária altamente produtiva.
+
+<Steps>
+  <Step num="1" title="Equipar e Implantar">
+    Selecione o plantador apropriado em seu inventário e fique no campo preferido dele. Clique no ícone do plantador para implantá-lo. Certifique-se de combinar o tipo de plantador com o tipo de néctar preferido do campo.
+  </Step>
+  <Step num="2" title="Acelerar as Taxas de Crescimento">
+    Passe pelo menos 5 a 10 minutos coletando pólen ativamente no campo onde seu plantador está implantado. Suas abelhas coletando pólen naquele campo acelerarão significativamente o cronômetro de crescimento do plantador.
+  </Step>
+  <Step num="3" title="Monitorar a Maturidade">
+    Verifique o percentual de crescimento do seu plantador periodicamente. Plantadores de nível superior demoram mais para amadurecer, mas podem ser deixados de forma passiva enquanto você trabalha em missões ou cultiva outras áreas da montanha.
+  </Step>
+  <Step num="4" title="Colher e Resgatar">
+    Assim que o plantador atingir 100% de maturidade, fique diretamente sobre ele e clique para colher. Colete todos os tokens dropados imediatamente, prestando muita atenção a quaisquer ingredientes de fabricação raros, como cola, cera ou glitter.
+  </Step>
+  <Step num="5" title="Condensar e Armazenar">
+    Viaje até o Condensador de Néctar (Nectar Condenser) na Zona de 30 Abelhas. Deposite seus néctares recém-colhidos para estender a duração dos seus bônus ativos, garantindo que seus multiplicadores permaneçam ativos para a sua próxima grande sessão de reforço.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bônus de Cultivo Ativo">
+Cultivar com reforços de campo ativos (como os obtidos de boosters de campo ou glitter) enquanto um plantador está crescendo naquele campo multiplicará ainda mais a velocidade de crescimento. Use essa tática para ciclar rapidamente plantadores de nível inferior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação Diária de Gerenciamento de Plantadores">
+
+Para manter seus bônus de néctar no limite máximo e seus estoques de materiais de fabricação crescendo, integre esta lista de verificação em suas sessões diárias de jogo.
+
+<Checklist
+  id="daily-planter-goals"
+  title="Rotina Diária de Plantadores:"
+  items={[
+    "Implante pelo menos três plantadores em seus campos preferidos no início da sua sessão",
+    "Colete pólen nos campos do seu plantador ativo por 10 minutos para ativar o impulso de crescimento",
+    "Colha todos os plantadores maduros antes que seu inventário fique cheio com drops normais de campo",
+    "Armazene todos os néctares colhidos no Condensador de Néctar para garantir seus multiplicadores ativos",
+    "Rotacione os locais dos plantadores diariamente para evitar a penalidade de posicionamento repetido em campos"
+  ]}
+/>
+
+<Callout type="info" title="Drops de Adesivos (Stickers)">
+Certos plantadores têm uma pequena chance de dropar adesivos (stickers) extremamente raros quando colhidos em campos específicos. Fique de olho no seu registro de chat durante as colheitas para ver se você resgatou um item de troca de alto valor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Os plantadores crescem quando estou offline?",
+    answer: "Sim, os plantadores continuam crescendo passivamente enquanto você está offline, mas a uma taxa significativamente reduzida em comparação a quando você está cultivando ativamente no campo. Para acelerar o crescimento, é sempre recomendado coletar pólen no campo do plantador enquanto estiver online."
+  },
+  {
+    question: "Qual é o melhor plantador para farmar Cola (Glue)?",
+    answer: "O Plantador de Doce (Candy Planter) é a melhor opção absoluta para farmar Cola (Glue). Quando colocado no Campo de Morango (Strawberry Field) ou no Canteiro de Abóboras (Pumpkin Patch), ele tem uma taxa de drop altamente consistente tanto para Cola quanto para Enzimas, tornando-o essencial para a fabricação no meio do jogo."
+  },
+  {
+    question: "Outros jogadores podem colher meus plantadores?",
+    answer: "Não, seus plantadores são totalmente privados. Outros jogadores não podem ver, interagir ou colher seus plantadores implantados, então você não precisa se preocupar com ninguém roubando seus néctares ou drops de materiais raros."
+  },
+  {
+    question: "Como faço para evitar que meus bônus de néctar decaiam?",
+    answer: "Os néctares decaem com o tempo, mas você pode retardar esse processo e estender a duração dos seus bônus visitando o Condensador de Néctar (Nectar Condenser) na Zona de 30 Abelhas. Depositar suas colheitas frescas regularmente é a única maneira de manter um acúmulo de 24 horas."
+  }
+]} />
+
+</Section>

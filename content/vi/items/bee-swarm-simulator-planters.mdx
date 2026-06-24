@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chậu Trồng Trong Bee Swarm Simulator: Tuyến Đường Farm & Hướng Dẫn Thiết Lập",
+  description: "Làm chủ các chậu trồng trong Bee Swarm Simulator để tối ưu hóa sản lượng mật hoa, thu thập nguyên liệu hiếm và thực hiện các tuyến đường farm hàng ngày tốt nhất năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000000?text=Planters+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Cơ chế chậu trồng**: Triển khai các chậu trồng trong Bee Swarm Simulator ở các cánh đồng cụ thể để thu hoạch các bùa lợi mật hoa mạnh mẽ và nguyên liệu chế tạo hiếm.
+- **Quản lý mật hoa**: Giữ lượng mật hoa lưu trữ ở mức cao để duy trì các hệ số nhân liên tục cho việc thu thập phấn hoa và chuyển đổi tổ ong.
+- **Vị trí tối ưu**: Luôn đặt chậu trồng vào cánh đồng ưa thích của chúng để mở khóa các bể phần thưởng bí mật và tăng tốc độ phát triển.
+- **Vòng xoay hàng ngày**: Thiết lập một tuyến đường farm nhất quán để liên tục xoay vòng các chậu trồng và tối đa hóa việc tạo tài nguyên thụ động.
+- **Tiến trình cuối game**: Ưu tiên mở khóa các chậu trồng cấp cao như Chậu Cánh Hoa (Petal Planter) để tăng mạnh hiệu suất kiếm mật ong của bạn.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Chậu Trồng và Cơ Chế Mật Hoa">
+
+Trong Bee Swarm Simulator, chậu trồng (planters) là các vật phẩm có thể triển khai và sẽ lớn dần theo thời gian khi được đặt ở các cánh đồng khác nhau. Khi bạn thu thập phấn hoa trên cùng một cánh đồng, tốc độ phát triển của chậu trồng đang hoạt động sẽ tăng lên đáng kể. Khi chậu trồng đạt độ chín hoàn toàn, việc thu hoạch nó sẽ mang lại sự kết hợp của mật ong, nguyên liệu chế tạo và các loại mật hoa thiết yếu. 
+
+Mật hoa (nectars) là các bùa lợi tạm thời, có thể cộng dồn, cung cấp các hệ số nhân khổng lồ cho tổ ong của bạn. Có năm loại mật hoa riêng biệt, mỗi loại liên quan đến các cánh đồng cụ thể và các bùa lợi lối chơi khác nhau. Quản lý các mật hoa này là cực kỳ quan trọng cho tiến trình giữa và cuối game, vì chúng trực tiếp ảnh hưởng đến lượng mật ong bạn có thể kiếm được trong các phiên tăng tốc (boost) hoạt động.
+
+| Loại Mật Hoa | Hệ Số Nhân Cốt Lõi | Cánh Đồng Nguồn Chính |
+|-|-|-|
+| **Refreshing (Tươi Mới)** | Phấn hoa xanh, Sức chứa, Tốc độ | Dâu tây, Hoa xanh, Dứa, Cỏ ba lá |
+| **Satisfying (Thỏa Mãn)** | Phấn hoa trắng, Mật ong tại tổ, Tốc độ chuyển đổi | Hướng dương, Bí ngô, Dứa, Dừa |
+| **Comforting (Dễ Chịu)** | Phòng thủ, Sức chứa, Tốc độ chuyển đổi | Bồ công anh, Tre, Cây thông |
+| **Motivating (Truyền Cảm Hứng)** | Tốc độ di chuyển người chơi, Sức mạnh chí mạng | Nấm, Nhện, Hoa hồng, Gốc cây |
+| **Invigorating (Tiếp Sức)** | Phấn hoa đỏ, Sức tấn công của ong, Tỷ lệ chí mạng | Cỏ ba lá, Xương rồng, Ruộng ớt, Đỉnh núi |
+
+Mỗi bùa lợi mật hoa có thể cộng dồn thời gian lên đến 24 giờ. Để duy trì các bùa lợi này, bạn phải lưu trữ mật hoa đã thu hoạch trong Máy Ngưng Tụ Mật Hoa (Nectar Condenser) nằm gần Khu vực 30 Ong. Máy ngưng tụ cho phép bạn kết hợp và bảo tồn các bùa lợi của mình, đảm bảo bạn không bị mất tiến trình khi chuyển đổi giữa các phiên farm.
+
+<Callout type="info" title="Cảnh Báo Suy Giảm Mật Hoa">
+Mật hoa sẽ suy giảm thụ động theo thời gian ngay cả khi bạn ngoại tuyến. Để ngăn các hệ số nhân khó nhọc mới kiếm được biến mất, hãy tập thói quen thu hoạch chậu trồng ngay trước khi đăng xuất và lưu trữ mật hoa trong máy ngưng tụ.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bảng Xếp Hạng Chậu Trồng và Lộ Trình Tiến Trình">
+
+Chậu trồng được chia thành các cấp bậc riêng biệt dựa trên chi phí, tốc độ phát triển và bể phần thưởng của chúng. Khi bạn tiến triển từ một tổ ong khởi đầu đến một đội hình cuối game, ưu tiên mua sắm của bạn nên chuyển dần sang các chậu trồng cung cấp hệ số nhân thụ động cao hơn và tỷ lệ rơi nguyên liệu tốt hơn.
+
+<CardGrid cols={3}>
+  <Card title="Chậu Trồng Khởi Đầu">
+    - **Chi phí tài nguyên thấp**
+    - Tốc độ phát triển nhanh
+    - Rơi nguyên liệu cơ bản
+    - Hoàn hảo cho các nhiệm vụ ban đầu
+  </Card>
+  <Card title="Chậu Trồng Giữa Game">
+    - **Chi phí chế tạo vừa phải**
+    - Sản lượng mật hoa cân bằng
+    - Rơi keo (glue), enzyme và kim tuyến (glitter)
+    - Thiết yếu cho các nhiệm vụ Gấu Tâm Linh (Spirit Bear)
+  </Card>
+  <Card title="Chậu Trồng Cuối Game">
+    - **Yêu cầu nguyên liệu cực cao**
+    - Sức chứa mật hoa khổng lồ
+    - Đảm bảo rơi nguyên liệu hiếm
+    - Được thiết kế riêng cho các màu tổ ong cụ thể
+  </Card>
+</CardGrid>
+
+Để giúp bạn lên kế hoạch nâng cấp, bảng dưới đây phác thảo các số liệu thống kê, chi phí và mục đích chính của mọi chậu trồng có sẵn trong trò chơi.
+
+| Tên Chậu | Hệ Số Phát Triển | Chi Phí Chế Tạo / Mua Chính | Công Dụng Chính |
+|-|-|-|-|
+| **Paper (Giấy)** | 1.25x | 1.000 Mật ong | Rẻ, phát triển nhanh, mật hoa cơ bản |
+| **Ticket (Vé)** | 1.00x | 10 Vé | Tạo vé khi thu hoạch |
+| **Plastic (Nhựa)** | 1.00x | 150.000 Mật ong | Rơi đồ hàng ngày cơ bản, thân thiện với người mới |
+| **Candy (Kẹo)** | 1.15x | 25.000.000 Mật ong, 15 Kẹo dẻo | Sản lượng kẹo cao, tuyệt vời để kiếm keo |
+| **Red Balloon (Bong Bóng Đỏ)** | 1.10x | 500.000.000 Mật ong, 50 Quả dâu tây | Tập trung phấn hoa đỏ, tăng sức chứa bong bóng |
+| **Blue Clay (Đất Sét Xanh)** | 1.10x | 500.000.000 Mật ong, 50 Quả việt quất | Tập trung phấn hoa xanh, mật hoa Dễ Chịu cao |
+| **Tacky (Dính)** | 1.05x | 2.500.000.000 Mật ong, 100 Hạt hướng dương | Mật hoa Thỏa Mãn cao, rơi sáp mềm |
+| **Pesticide (Thuốc Trừ Sâu)** | 0.95x | 15.000.000.000 Mật ong, 15 Enzyme | Mật hoa Dễ Chịu cao, rơi neonberry |
+| **Petal (Cánh Hoa)** | 0.90x | 1 Cánh hoa Tâm linh, 100 Kim tuyến | Phần thưởng chung cực kỳ cao |
+| **Hydroponic (Thủy Canh)** | 0.85x | 500 Chiết xuất xanh, 5 Super Wyrm | Tăng trưởng mật hoa xanh vô hạn |
+| **Heat-Treated (Nhiệt Luyện)** | 0.85x | 500 Chiết xuất đỏ, 5 Sáp cứng | Tăng trưởng mật hoa đỏ vô hạn |
+| **Plenty o' Planters** | 0.75x | 1.000.000.000.000 Mật ong, 500 Chiết xuất tím | Chậu trồng tối thượng, sản lượng vô song |
+
+<Callout type="tip" title="Giá Trị Của Chậu Kẹo">
+Chậu Kẹo (Candy Planter) được coi là chậu trồng đáng tiền nhất ở giai đoạn giữa game. Đặt nó ở Cánh đồng Dâu tây hoặc Ruộng Bí ngô thường xuyên mang lại các nguyên liệu chế tạo giá trị cao như keo và enzyme, những thứ cần thiết cho các nâng cấp trang bị lớn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Vị Trí Cánh Đồng Tối Ưu và Tuyến Đường Farm">
+
+Để tận dụng tối đa các chậu trồng trong Bee Swarm Simulator, bạn phải đặt chúng vào các cánh đồng ưa thích của chúng. Đặt chậu trồng ở cánh đồng ưa thích sẽ giúp nhân tốc độ phát triển, tăng lượng mật hoa thu hoạch và mở khóa các bể vật phẩm thưởng độc đáo. 
+
+| Chậu Trồng | Cánh Đồng Tốt Nhất | Vật Phẩm Thưởng Đảm Bảo |
+|-|-|-|
+| **Candy** | Dâu tây, Bí ngô, Dứa | Keo, Enzyme, Dâu tây |
+| **Blue Clay** | Rừng thông, Cánh đồng tre | Việt quất, Sữa ong chúa, Chiết xuất xanh |
+| **Red Balloon** | Ruộng ớt, Cánh đồng hoa hồng, Dâu tây | Dâu tây, Chiết xuất đỏ, Sáp mềm |
+| **Tacky** | Cánh đồng hướng dương, Cánh đồng bồ công anh | Hạt hướng dương, Sáp mềm, Bitterberry |
+| **Pesticide** | Cánh đồng nhện, Cánh đồng tre | Enzyme, Kim tuyến, Neonberry |
+| **Petal** | Cánh đồng dừa, Cánh đồng cỏ ba lá | Kim tuyến, Thạch sao, Enzyme |
+
+Sử dụng dữ liệu vị trí này, bạn có thể thiết lập các tuyến đường farm hiệu quả cao tùy thuộc vào chuyên môn hóa tổ ong hiện tại của bạn.
+
+### Tuyến Đường Farm Cho Tổ Ong Hỗn Hợp (Mixed Hive)
+Nếu bạn đang chơi tổ ong hỗn hợp, mục tiêu của bạn là duy trì sự phân bổ cân bằng của cả năm loại mật hoa để hỗ trợ làm nhiệm vụ chung.
+1. Đặt **Chậu Kẹo** ở **Cánh đồng Dâu tây** để thu thập Mật hoa Tươi Mới và Keo.
+2. Đặt **Chậu Dính** ở **Cánh đồng Hướng dương** để thu thập Mật hoa Thỏa Mãn và Sáp mềm.
+3. Đặt **Chậu Thuốc Trừ Sâu** ở **Cánh đồng Nhện** để thu thập Mật hoa Truyền Cảm Hứng và Neonberry.
+
+### Tuyến Đường Farm Cho Tổ Ong Xanh (Blue Hive)
+Tổ ong xanh yêu cầu tối đa Mật hoa Tươi Mới và Dễ Chịu để mở rộng sức chứa phấn hoa xanh và tạo bong bóng.
+1. Đặt **Chậu Đất Sét Xanh** ở **Rừng Thông** để thu thập Mật hoa Dễ Chịu.
+2. Đặt **Chậu Thủy Canh** ở **Cánh đồng Tre** để duy trì cộng dồn Mật hoa Tươi Mới vĩnh viễn.
+3. Đặt **Chậu Nhựa** ở **Cánh đồng Hoa Xanh** để xoay vòng nhanh các nguyên liệu xanh cơ bản.
+
+### Tuyến Đường Farm Cho Tổ Ong Đỏ (Red Hive)
+Tổ ong đỏ phụ thuộc nhiều vào Mật hoa Tiếp Sức và Truyền Cảm Hứng để tối đa hóa các đợt bùng nổ phấn hoa đỏ và sức tấn công của ong.
+1. Đặt **Chậu Bong Bóng Đỏ** ở **Ruộng Ớt** để thu thập Mật hoa Tiếp Sức.
+2. Đặt **Chậu Nhiệt Luyện** ở **Cánh đồng Hoa Hồng** để đảm bảo sản lượng chiết xuất đỏ và mật hoa cao.
+3. Đặt **Chậu Kẹo** ở **Cánh đồng Nấm** để nhanh chóng farm Mật hoa Truyền Cảm Hứng.
+
+<Callout type="warning" title="Lạm Dụng Farm Cánh Đồng">
+Tránh đặt cùng một chậu trồng ở cùng một cánh đồng liên tục trong vòng 24 giờ. Làm như vậy sẽ kích hoạt hình phạt giảm hiệu suất, làm giảm đáng kể chất lượng và số lượng vật phẩm thưởng rơi ra.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Quy Trình Farm Chậu Trồng Từng Bước">
+
+Tối đa hóa hiệu quả chậu trồng của bạn đòi hỏi một cách tiếp cận có cấu trúc để trồng, thu hoạch tích cực và lưu trữ mật hoa. Thực hiện theo các bước sau để thiết lập một thói quen hàng ngày năng suất cao.
+
+<Steps>
+  <Step num="1" title="Trang bị và Triển khai">
+    Chọn chậu trồng thích hợp từ kho đồ của bạn và đứng ở cánh đồng ưa thích của nó. Nhấp vào biểu tượng chậu trồng để triển khai. Đảm bảo bạn khớp loại chậu trồng với loại mật hoa ưa thích của cánh đồng.
+  </Step>
+  <Step num="2" title="Tăng Tốc Độ Phát Triển">
+    Dành ít nhất 5 đến 10 phút tích cực thu thập phấn hoa trong cánh đồng nơi chậu trồng của bạn được triển khai. Những chú ong thu thập phấn hoa của bạn ở cánh đồng đó sẽ tăng tốc đáng kể thời gian phát triển của chậu trồng.
+  </Step>
+  <Step num="3" title="Theo Dõi Độ Chín">
+    Kiểm tra định kỳ phần trăm phát triển của chậu trồng. Các chậu trồng cấp cao mất nhiều thời gian hơn để chín nhưng có thể được để thụ động trong khi bạn làm nhiệm vụ hoặc farm ở các khu vực khác của ngọn núi.
+  </Step>
+  <Step num="4" title="Thu Hoạch và Nhận Thưởng">
+    Khi chậu trồng đạt độ chín 100%, hãy đứng trực tiếp trên đó và nhấp để thu hoạch. Thu thập tất cả các mã thông báo (tokens) rơi ra ngay lập tức, chú ý kỹ đến bất kỳ nguyên liệu chế tạo hiếm nào như keo, sáp hoặc kim tuyến.
+  </Step>
+  <Step num="5" title="Ngưng Tụ và Lưu Trữ">
+    Di chuyển đến Máy Ngưng Tụ Mật Hoa trong Khu vực 30 Ong. Gửi mật hoa mới thu hoạch của bạn để kéo dài thời gian bùa lợi đang hoạt động, đảm bảo các hệ số nhân của bạn vẫn hoạt động cho phiên tăng tốc lớn tiếp theo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonus Farm Tích Cực">
+Farm với các bùa lợi cánh đồng đang hoạt động (chẳng hạn như bùa lợi từ máy tăng tốc cánh đồng hoặc kim tuyến) trong khi chậu trồng đang phát triển ở cánh đồng đó sẽ nhân tốc độ phát triển lên nhiều lần. Sử dụng chiến thuật này để nhanh chóng xoay vòng các chậu trồng cấp thấp.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Danh Sách Kiểm Tra Quản Lý Chậu Trồng Hàng Ngày">
+
+Để giữ cho các bùa lợi mật hoa của bạn luôn đạt giới hạn tối đa và kho nguyên liệu chế tạo của bạn tiếp tục tăng lên, hãy tích hợp danh sách kiểm tra này vào các phiên chơi hàng ngày của bạn.
+
+<Checklist
+  id="daily-planter-goals"
+  title="Thói quen chậu trồng hàng ngày:"
+  items={[
+    "Triển khai ít nhất ba chậu trồng ở các cánh đồng ưa thích của chúng vào đầu phiên chơi của bạn",
+    "Thu thập phấn hoa trong các cánh đồng chậu trồng đang hoạt động của bạn trong 10 phút để kích hoạt tăng tốc phát triển",
+    "Thu hoạch tất cả các chậu trồng đã chín trước khi kho đồ của bạn đầy các vật phẩm rơi ra từ cánh đồng thông thường",
+    "Lưu trữ tất cả mật hoa đã thu hoạch trong Máy Ngưng Tụ Mật Hoa để khóa các hệ số nhân đang hoạt động của bạn",
+    "Xoay vòng vị trí chậu trồng hàng ngày để tránh hình phạt đặt chậu lặp lại trên một cánh đồng"
+  ]}
+/>
+
+<Callout type="info" title="Rơi Nhãn Dán">
+Một số chậu trồng nhất định có cơ hội nhỏ rơi ra các nhãn dán (stickers) cực kỳ hiếm khi được thu hoạch từ các cánh đồng cụ thể. Hãy để mắt đến nhật ký trò chuyện của bạn trong khi thu hoạch để xem bạn có nhận được vật phẩm giao dịch giá trị cao nào không.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu Hỏi Thường Gặp">
+
+<FAQ items={[
+  {
+    question: "Chậu trồng có phát triển khi tôi ngoại tuyến không?",
+    answer: "Có, chậu trồng vẫn tiếp tục phát triển thụ động khi bạn ngoại tuyến, nhưng với tốc độ giảm đáng kể so với khi bạn đang tích cực farm trên cánh đồng. Để tăng tốc độ phát triển, khuyên bạn nên luôn thu thập phấn hoa trong cánh đồng của chậu trồng khi trực tuyến."
+  },
+  {
+    question: "Chậu trồng nào tốt nhất để farm Keo (Glue)?",
+    answer: "Chậu Kẹo (Candy Planter) là lựa chọn tốt nhất để farm Keo. Khi được đặt ở Cánh đồng Dâu tây hoặc Ruộng Bí ngô, nó có tỷ lệ rơi rất ổn định cho cả Keo và Enzyme, khiến nó trở nên thiết yếu cho việc chế tạo ở giữa game."
+  },
+  {
+    question: "Người chơi khác có thể thu hoạch chậu trồng của tôi không?",
+    answer: "Không, các chậu trồng của bạn hoàn toàn là riêng tư. Người chơi khác không thể nhìn thấy, tương tác hoặc thu hoạch các chậu trồng đã triển khai của bạn, vì vậy bạn không phải lo lắng về việc ai đó đánh cắp mật hoa hoặc vật phẩm hiếm rơi ra của mình."
+  },
+  {
+    question: "Làm thế nào để ngăn các bùa lợi mật hoa của tôi bị suy giảm?",
+    answer: "Mật hoa suy giảm theo thời gian, nhưng bạn có thể làm chậm quá trình này và kéo dài thời gian bùa lợi bằng cách ghé thăm Máy Ngưng Tụ Mật Hoa ở Khu vực 30 Ong. Gửi các nguồn thu hoạch tươi mới của bạn thường xuyên là cách duy nhất để duy trì cộng dồn 24 giờ."
+  }
+]} />
+
+</Section>
