@@ -9,6 +9,9 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // workers_dev:false：asset-only 站只靠自定义 route 服务，禁用 *.workers.dev 子域名；
+  //   规避 wrangler deploy 注册 /subdomain 时 Cloudflare 间歇性 [code 10013] 导致 deploy 中断、route 未绑定。
+  "workers_dev": false,
   "routes": [
     { "pattern": "www.bee-swarm-simulator.wiki/*", "zone_name": "bee-swarm-simulator.wiki" }
   ]
