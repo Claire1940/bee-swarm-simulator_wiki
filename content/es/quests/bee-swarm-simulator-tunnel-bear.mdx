@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tunnel Bear de Bee Swarm Simulator: Guía del Jefe 2026 y Tabla de Botín",
+  description: "Domina el combate contra el Tunnel Bear de Bee Swarm Simulator con nuestra guía de 2026. Aprende las mecánicas del jefe, botín, ubicaciones y las mejores abejas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/000?text=Tunnel+Bear+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator tunnel bear, guía de jefe, botín tunnel bear, bee swarm simulator español"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: El **Tunnel Bear de Bee Swarm Simulator** es un jefe de mitad de juego ubicado detrás de la puerta de 10 abejas.
+- **Mecánica clave**: Los jugadores deben derrotar al oso dentro de un **límite de tiempo de 2 minutos** evitando el contacto físico.
+- **Mejor estrategia**: Usa **Abejas Viciosas** (Vicious Bees) y **Abejas León** (Lion Bees) de alto nivel para maximizar el daño en el túnel estrecho.
+- **Consejo crítico**: El jefe tiene un **tiempo de reutilización de 48 horas**, así que optimiza tus potenciadores (boosts) antes de entrar a la arena.
+- **Elección recomendada**: Se recomienda una colmena de nivel 9 o superior para asegurar una victoria antes de que expire el temporizador.
+</Callout>
+
+<Section icon={Map} title="Localización del Tunnel Bear en Bee Swarm Simulator">
+
+El **Tunnel Bear de Bee Swarm Simulator** sirve como una de las pruebas de habilidad más significativas para los jugadores que transicionan desde el inicio del juego hacia la fase de progresión media. A diferencia de los enemigos basados en campos, este jefe reside en una instancia especializada conocida simplemente como "El Túnel". Acceder a esta área requiere que los jugadores hayan desbloqueado la puerta de 10 abejas, ubicada cerca del Convertidor Instantáneo y la Tienda Pro (Pro Shop).
+
+Una vez que atravieses la puerta de 10 abejas, encontrarás una abertura oscura en la pared. Caminar hacia este corredor oscuro activará el encuentro con el jefe. Es importante notar que el Tunnel Bear no aparecerá si el tiempo de reutilización de 48 horas sigue activo desde tu victoria anterior. Puedes verificar tu estado de "Derrotado" en el menú de insignias o misiones, aunque la mayoría de los jugadores simplemente llevan un control mental o revisan la entrada del túnel para ver la presencia física del oso.
+
+| Característica de Ubicación | Descripción | Requisito |
+| :--- | :--- | :--- |
+| **Puerta de Entrada** | Detrás de la barrera de 10 abejas | 10 Abejas en la colmena |
+| **Tipo de Arena** | Corredor lineal y estrecho | Ninguno |
+| **Tiempo de Reutilización** | 48 horas (Tiempo real) | Victoria previa |
+| **Escalado de Nivel** | Aumenta con cada derrota | Nivel 8 base |
+
+<Callout type="warning" title="Advertencia de Entrada">
+No entres al túnel si tus abejas están agotadas o si estás en medio de un potenciador importante en un campo. La pelea contra el Tunnel Bear requiere toda la atención de tus abejas, y no lograr matarlo dentro del límite de tiempo resultará en cero recompensas y una oportunidad desperdiciada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación y Requisitos de la Colmena">
+
+El éxito contra el **Tunnel Bear de Bee Swarm Simulator** depende en gran medida del nivel de combate de tu colmena y de la composición específica de abejas. Debido a que la arena es un túnel estrecho, las abejas que generan fichas de combate o tienen un alto poder de ataque base son muy superiores a las que se centran únicamente en la recolección de polen.
+
+Al preparar tu colmena, consulta los niveles de progresión de mitad de juego. Debes priorizar abejas que proporcionen los potenciadores de "Enfoque" (Focus) y "Melodía" (Melody). Estos aumentan la probabilidad de golpe crítico y el poder crítico de los ataques de tus abejas, lo cual es esencial para reducir la enorme barra de salud del Tunnel Bear.
+
+<CardGrid cols={3}>
+  <Card title="El Atacante">
+    - **Abeja Viciosa**
+    - Esencial por el daño de Empalar
+    - Reduce la salud del jefe por %
+  </Card>
+  <Card title="El Potenciador">
+    - **Abeja de Música**
+    - Proporciona el buff Melodía
+    - Aumenta el Poder Crítico en un 100%
+  </Card>
+  <Card title="El Soporte">
+    - **Abeja Comandante**
+    - Proporciona fichas de Enfoque
+    - Aumenta la Probabilidad de Crítico
+  </Card>
+</CardGrid>
+
+| Nivel de Abeja | Probabilidad de Éxito | Nota de Estrategia |
+| :--- | :--- | :--- |
+| **Nivel 7 o inferior** | Muy Baja | Solo posible con Abeja Viciosa de alto nivel |
+| **Nivel 8** | Moderada | Requiere recolección activa de fichas |
+| **Nivel 9-10** | Alta | Estándar para jugadores de mitad de juego |
+| **Nivel 12+** | Garantizada | El jefe muere en menos de 30 segundos |
+
+<Callout type="tip" title="Consejo Pro">
+Si tienes dificultades con el daño, usa un **Aguijón** (Stinger) o una **Bebida Tropical** (Tropical Drink) antes de entrar. Estos consumibles proporcionan un aumento temporal masivo al poder de ataque de tus abejas y pueden marcar la diferencia entre ganar o quedarte sin tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de Combate y Mecánicas">
+
+La pelea contra el **Tunnel Bear de Bee Swarm Simulator** es única debido al movimiento restringido. El oso se mueve lentamente hacia ti desde el extremo lejano del túnel. Si te toca, recibirás un daño masivo que generalmente resulta en un reinicio instantáneo. Tu objetivo es guiar al oso de un lado a otro del túnel mientras tus abejas lo atacan.
+
+Como el túnel es estrecho, el área de impacto (hitbox) del oso ocupa casi todo el ancho. Sin embargo, hay espacio suficiente para maniobrar a su alrededor si usas la técnica de pegarte a la pared. La mayoría de los jugadores prefieren caminar hasta el final del túnel, esperar a que el oso se acerque y luego pasar cuidadosamente por su lado para correr hacia el otro extremo.
+
+<Steps>
+  <Step num="1" title="Activar la Aparición">
+    Camina hacia el túnel hasta que comience la música del jefe y el oso emerja de la oscuridad.
+  </Step>
+  <Step num="2" title="Retroceder Lentamente">
+    Camina hacia atrás hacia la entrada mientras tus abejas atacan. Mantente justo fuera del alcance del oso para maximizar el tiempo de ataque de las abejas.
+  </Step>
+  <Step num="3" title="El Giro">
+    Cuando llegues a la entrada, pégate a la pared izquierda o derecha y corre pasando al oso en cuanto alcance el umbral.
+  </Step>
+  <Step num="4" title="Repetir y Ráfaga">
+    Continúa este ciclo de ida y vuelta. Usa la habilidad **Empalar (Impale) de tu Abeja Viciosa** tan pronto como esté disponible para infligir un daño de ráfaga masivo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maestría del Movimiento">
+Usar **Abejas Veloces** (Hasty Bees) o equipo que aumente la velocidad como las **Botas de Belcebú** (Beelzebub Boots) hace que la fase de giro sea mucho más segura. Cuanto más rápido te muevas, menos tiempo pasarás en la "zona de peligro" junto al hitbox del oso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín y Niveles de Recompensa">
+
+Derrotar al **Tunnel Bear de Bee Swarm Simulator** es altamente gratificante, especialmente para los jugadores que buscan fabricar equipo de mitad a final de juego. Las recompensas se dividen en "Botín Garantizado" y "Botín Raro (RNG)". Tu primera victoria contra el Tunnel Bear otorga un bono masivo de una sola vez, que incluye un Huevo de Plata y varias Jaleas Estelares.
+
+Las muertes posteriores proporcionan una variedad de golosinas, materiales y una alta probabilidad de potenciadores de campo localizados. Muchos jugadores farmean al Tunnel Bear específicamente por las **Jaleas Estelares** (Star Jellies), que son necesarias para transformar abejas en sus versiones "Dotadas" (Gifted), desbloqueando poderosos bonos para la colmena.
+
+| Nombre del Objeto | Probabilidad de Caída | Cantidad Típica |
+| :--- | :--- | :--- |
+| **Miel** | 100% | 50,000 - 250,000 |
+| **Golosinas (Treats)** | 100% | 50 - 150 |
+| **Jalea Estelar** | Alta | 1 |
+| **Huevo de Oro** | Raro | 1 |
+| **Huevo de Plata** | Garantizado (1ª Muerte) | 1 |
+| **Huevo de Plata Dotado** | Muy Raro | 1 |
+
+<Callout type="info" title="Escalado de Recompensas">
+La calidad del botín puede verse influenciada por tu potenciador de **Amor de Bebé** (Baby Love, de las Abejas Bebé) y tu estadística de **Suerte de Botín** (Loot Luck). Intenta siempre tener una Abeja Bebé en tu colmena para activar el buff de suerte justo antes de que el jefe muera.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Integración con Misiones y Progresión">
+
+El **Tunnel Bear de Bee Swarm Simulator** no es solo una fuente de botín; es un requisito obligatorio para varias líneas de misiones importantes. El **Oso Científico** (Science Bear), en particular, tiene múltiples misiones que requieren derrotar al Tunnel Bear o recolectar fichas dentro del túnel. Estas misiones son vitales para desbloquear los **Traductores**, que te permiten hablar con NPCs como la Abeja Riley y la Abeja Bucko.
+
+Además, los materiales que suelta el Tunnel Bear son esenciales para fabricar la **Máscara de Miel** (Honey Mask) y los **Guardias Carmesí/Cobalto** (Crimson/Cobalt Guards). Estos objetos son la piedra angular de las construcciones de colmena de mitad de juego y aumentarán significativamente tus tasas de recolección de polen en todos los campos.
+
+<Checklist
+  id="tunnel-bear-milestones"
+  title="Objetivos de Progresión:"
+  items={[
+    "Derrotar al Tunnel Bear por primera vez para obtener el Huevo de Plata",
+    "Completar la línea de misiones 'Probando Límites' del Oso Científico",
+    "Farmear 5 Jaleas Estelares para las primeras conversiones a Abejas Dotadas",
+    "Recolectar suficientes materiales para la receta de la Máscara de Miel",
+    "Llevar a nivel 10 a tu Abeja Viciosa para acelerar los tiempos de eliminación"
+  ]}
+/>
+
+<Callout type="tip" title="Sincronización de Misiones">
+Revisa tus misiones activas del Oso Negro, la Madre Osa y el Oso Científico antes de entrar. Si varios osos requieren "Derrotar 1 Jefe" o "Recolectar 100 Fichas de Batalla", puedes completarlas todas simultáneamente en una sola pelea contra el Tunnel Bear.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cada cuánto reaparece el Tunnel Bear?",
+    answer: "El Tunnel Bear tiene un tiempo de reutilización fijo de 48 horas. Este temporizador comienza en el momento en que derrotas al jefe, no cuando entras al túnel por primera vez."
+  },
+  {
+    question: "¿Cuál es la mejor abeja para la pelea contra el Tunnel Bear?",
+    answer: "La Abeja Viciosa es la reina indiscutible de esta pelea. Su habilidad Empalar inflige daño basado en un porcentaje de la salud del jefe, lo que la hace efectiva incluso si tus otras abejas son de menor nivel."
+  },
+  {
+    question: "¿Puedo matar al Tunnel Bear con una colmena de nivel 7?",
+    answer: "Es extremadamente difícil. Probablemente te quedarías sin tiempo (2 minutos) antes de que la salud del oso llegue a cero. Se recomienda subir tu colmena al menos al nivel 8 o 9 primero."
+  },
+  {
+    question: "¿El Tunnel Bear se vuelve más difícil cada vez que lo mato?",
+    answer: "Sí, su nivel aumenta ligeramente con cada victoria hasta un cierto límite. Esto significa que debes seguir mejorando tus abejas para mantener la eficiencia en la pelea."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+La constancia es clave. Incluso si no necesitas el botín específico hoy, las Jaleas Estelares y los Huevos acumulados del **Tunnel Bear de Bee Swarm Simulator** durante semanas de farmeo serán invaluables cuando llegues a las misiones finales del "Oso Espíritu" (Spirit Bear).
+</Callout>
+
+</Section>

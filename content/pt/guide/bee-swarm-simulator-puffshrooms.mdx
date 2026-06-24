@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Puffshrooms no Simulador de Enxame de Abelhas: Guia de Farm e Níveis de Raridade de 2026",
+  description: "Domine os puffshrooms no Simulador de enxame de abelhas com o nosso guia de 2026. Aprenda a mecânica de spawn, níveis de raridade, recompensas e as melhores builds de colmeia para um farm eficiente.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/000?text=Puffshroom+Farming+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Simulador de enxame de abelhas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Puffshrooms do Simulador de enxame de abelhas** são entidades interativas que surgem nos campos, exigindo que os jogadores os "estourem" para obter recompensas de alto nível.
+- **Horários de Spawn**: Aparecem naturalmente aos **15 e 45 minutos** de cada hora na zona de 15 abelhas.
+- **Escalonamento de Raridade**: Os puffshrooms variam de Comum a Mítico, com raridades maiores aparecendo conforme se espalham para diferentes campos.
+- **Melhor Estratégia**: Use **Vicious Bees** e **Precise Bees** de alto nível para maximizar o dano e estourar os cogumelos antes que o tempo acabe.
+- **Melhor Escolha**: Plantadores como o **Pesticide Planter** ou **Ticket Planter** são essenciais para iniciar rodadas controladas de puffshrooms.
+</Callout>
+
+<Section icon={Map} title="Entendendo os Puffshrooms no Simulador de Enxame de Abelhas">
+
+Os **puffshrooms do Simulador de enxame de abelhas** representam uma das mecânicas de meio a fim de jogo mais dinâmicas na principal experiência de coleta de abelhas do Roblox. Ao contrário das flores estáticas, os puffshrooms são entidades temporárias que exigem participação ativa. Quando um puffshroom é estourado, ele libera esporos que podem "infectar" campos adjacentes, criando uma reação em cadeia de spawns que aumentam de nível e raridade.
+
+Para ter sucesso em uma rodada de puffshrooms, os jogadores devem equilibrar a coleta de pólen com o dano bruto. À medida que você avança da subida inicial da montanha (10-25 abelhas) para a rota de fabricação do meio do jogo (35-45 abelhas), os puffshrooms se tornam sua principal fonte de materiais raros como **Cera Dura (Hard Wax)**, **Cera Espiralada (Swirled Wax)** e **Neonberries**.
+
+| Nível de Raridade | Cor | Dificuldade | Principais Recompensas |
+| :--- | :--- | :--- | :--- |
+| **Comum** | Marrom/Bronzeado | Muito Baixa | Mel, Mirtilos (Blueberries), Morangos (Strawberries) |
+| **Raro** | Verde | Baixa | Cera Macia (Soft Wax), Jujubas (Gumdrops), Passes (Tickets) |
+| **Épico** | Dourado/Amarelo | Média | Cera Dura (Hard Wax), Enzimas, Óleo |
+| **Lendário** | Ciano/Azul Claro | Alta | Cera Espiralada (Swirled Wax), Glitter, Geleia Estelar (Star Jelly) |
+| **Mítico** | Roxo/Rosa | Extrema | Cera Cáustica (Caustic Wax), Ovos Míticos, Petiscos Estelares (Star Treats) |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre verifique o relógio! Os spawns naturais ocorrem exatamente aos 15 e 45 minutos de cada hora. Estar posicionado na zona de 15 abelhas (perto dos campos de Rosas ou Pinheiros) permite que você aproveite a explosão inicial imediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando a Mecânica de Spawn dos Puffshrooms">
+
+O comportamento dos **puffshrooms do Simulador de enxame de abelhas** é governado por uma mecânica de "propagação". Quando a barra de vida de um puffshroom chega a zero, ele desaparece e tem a chance de spawnar de 1 a 3 novos puffshrooms no mesmo campo ou em campos vizinhos. Cada "salto" potencialmente aumenta o nível do cogumelo, tornando-o mais difícil de estourar, mas significativamente mais recompensador.
+
+<CardGrid cols={3}>
+  <Card title="Spawns Naturais">
+    Ocorrem duas vezes por hora. São ideais para farm casual e para completar as missões diárias do **Science Bear** ou **Spirit Bear**.
+  </Card>
+  <Card title="Spawns de Plantadores">
+    Ativados quando um Plantador (como o Red Clay ou Blue Hydro) termina de crescer. Isso permite o farm direcionado em campos específicos.
+  </Card>
+  <Card title="Eventos Especiais">
+    Durante o **Beesmas**, as taxas de spawn de puffshrooms e as chances de raridade costumam ser melhoradas, tornando este o momento ideal para o farm de materiais de fim de jogo.
+  </Card>
+</CardGrid>
+
+| Tipo de Campo | Multiplicador de Nível | Nível de Abelha Recomendado | Melhor Cor de Colmeia |
+| :--- | :--- | :--- | :--- |
+| **Campos Iniciais** | 1.0x | Nível 5-8 | Mista |
+| **Zona de 10 Abelhas** | 1.5x | Nível 8-10 | Mista / Azul |
+| **Zona de 15 Abelhas** | 2.0x | Nível 10-12 | Vermelha / Branca |
+| **Zona de 25 Abelhas** | 3.0x | Nível 12+ | Especializada |
+
+<Callout type="warning" title="Aviso">
+Os puffshrooms têm um tempo limite rígido para desaparecer (geralmente de 30 a 90 segundos). Se você não conseguir estourar um cogumelo de alta raridade a tempo, toda a cadeia naquele campo termina. Priorize cogumelos Épicos e Lendários em vez dos Comuns!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Builds de Colmeia para Farm de Puffshrooms">
+
+Sua capacidade de limpar os **puffshrooms do Simulador de enxame de abelhas** depende muito da composição da sua colmeia. Embora uma **Colmeia Mista** seja ótima para a progressão inicial, as builds especializadas de fim de jogo se destacam ao estourar cogumelos de nível mais alto.
+
+- **Colmeias Vermelhas (Red Hives)**: Os reis absolutos do dano contra puffshrooms. A combinação de **Precise Bee** (Target Marks) e **Spicy Bee** (Flames) fornece o dano explosivo necessário para cogumelos de nível 15+.
+- **Colmeias Azuis (Blue Hives)**: Embora tenham alta capacidade através das **Buoyant Bees**, muitas vezes falta o DPS bruto das colmeias vermelhas. Jogadores azuis devem focar em se agrupar com outros para dar suporte.
+- **Colmeias Brancas (White Hives)**: Excelentes em farm sustentado. As **Vector Bees** e **Fuzzy Bees** ajudam a limpar o campo rapidamente, garantindo que os esporos tenham bastante espaço para cair.
+
+| Tipo de Abelha | Função no Farm de Puffshrooms | Prioridade |
+| :--- | :--- | :--- |
+| **Vicious Bee** | Dano massivo a monstros/entidades via Empalar (Impale) | **Crítica** |
+| **Precise Bee** | Alto dano explosivo através do Treino de Alvo (Target Practice) | **Alta** |
+| **Fuzzy Bee** | Poliniza flores para aumentar a eficiência das abelhas | **Média** |
+| **Lion Bee** | Alto poder de ataque base para estourar mais rápido | **Início do Jogo** |
+| **Digital Bee** | Utilidade avançada de fim de jogo e duplicação de habilidades | **Fim de Jogo** |
+
+<Callout type="success" title="Estratégia de Sucesso">
+Usar um **Ferrão (Stinger)** durante o spawn de um puffshroom Lendário ou Mítico aumenta o ataque das suas abelhas em +50%, o que pode ser a diferença entre um estouro bem-sucedido e o desaparecimento do cogumelo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rota de Farm de Puffshrooms Passo a Passo">
+
+Para maximizar sua eficiência com os **puffshrooms do Simulador de enxame de abelhas**, siga esta rota de farm otimizada para 2026. Este método garante que você cubra a maior área possível e mantenha a "cadeia de esporos" ativa pelo maior tempo possível.
+
+<Steps>
+  <Step num="1" title="Preparação e Buffs">
+    Antes da marca de 15 ou 45 minutos, vá para a Loja do Topo da Montanha (Mountain Top Shop). Certifique-se de que seu **Porcelain Dipper** está pronto e use um **Extrato Vermelho/Azul** se for especializado. Verifique se sua **Vicious Bee** está descansada e pronta para o combate.
+  </Step>
+  <Step num="2" title="Aguardando o Spawn Inicial">
+    Fique na **Zona de 15 Abelhas** (campo de Rosas, Pinheiros ou Cacto). Assim que os puffshrooms aparecerem, foque primeiro nos menores para ativar a mecânica de "propagação" rapidamente.
+  </Step>
+  <Step num="3" title="Perseguindo os Esporos">
+    Observe os esporos verdes voando pelo ar. Eles pousarão em campos adjacentes. Siga-os imediatamente. Se os esporos caírem no **Campo de Coco** ou no **Canteiro de Pimenta**, priorize-os, pois eles oferecem multiplicadores de nível mais altos.
+  </Step>
+  <Step num="4" title="Priorize a Raridade em vez da Quantidade">
+    Se um puffshroom **Épico (Amarelo)** ou **Lendário (Ciano)** aparecer, ignore todos os cogumelos Comuns no campo. Peça ajuda a outros jogadores no servidor se a barra de vida estiver descendo devagar.
+  </Step>
+  <Step num="5" title="Coleta de Saque">
+    Assim que o tempo acabar ou todos os cogumelos forem estourados, uma pilha de saque aparecerá. Não se esqueça de passar por cima dela! As recompensas escalam com o cogumelo de maior raridade que você estourou durante a sessão.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Importante">
+O **Ticket Planter** tem uma mecânica oculta que garante uma chance maior de puffshrooms Épicos quando colhido nos campos de Girassol ou Dente-de-Leão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Recompensas e Progressão">
+
+Farmar os **puffshrooms do Simulador de enxame de abelhas** não é apenas por diversão; é um requisito para equipamentos de fim de jogo, como o **Coconut Canister** e as **Gummy Boots**. Use a seguinte lista para acompanhar suas metas de fabricação associadas aos drops de puffshrooms.
+
+<Checklist
+  id="puffshroom-rewards"
+  title="Metas de Fabricação com Puffshrooms:"
+  items={[
+    "Coletar 50 Ceras Duras (Hard Wax) para o Cinto de Favo de Mel (Honeycomb Belt)",
+    "Obter 5 Ceras Espiraladas (Swirled Wax) de Puffshrooms Lendários",
+    "Farmar 100 Neonberries para rolagens de Mutação",
+    "Estourar um Puffshroom de Nível 12 para as missões de fim de jogo do Science Bear",
+    "Coletar 250 Mirtilos/Morangos para a fabricação de Extratos"
+  ]}
+/>
+
+| Item | Cai De | Uso |
+| :--- | :--- | :--- |
+| **Cera Macia (Soft Wax)** | Puffshrooms Comuns/Raros | Fabricação de equipamentos básicos / Melhorias de Plantadores |
+| **Cera Dura (Hard Wax)** | Puffshrooms Épicos+ | Máscaras e cintos de meio de jogo |
+| **Cera Espiralada (Swirled Wax)** | Puffshrooms Lendários+ | Coletores de fim de jogo (Tide Popper/Dark Scythe) |
+| **Cera Cáustica (Caustic Wax)** | Puffshrooms Míticos | As melhorias de fim de jogo mais caras |
+
+<Callout type="tip" title="Dica de Fabricação">
+Se você estiver com dificuldades para encontrar Cera Espiralada (Swirled Wax), foque em estourar puffshrooms na **Floresta de Pinheiros (Pine Tree Forest)**. A densidade de nível lá costuma resultar em spawns Lendários mais frequentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Os puffshrooms do Simulador de enxame de abelhas spawnam em todos os campos?",
+    answer: "Não. Os puffshrooms não spawnam no Desafio da Formiga (Ant Challenge), no Hub ou na área da Bear Bee. Eles spawnam principalmente nos campos das zonas de 15 e 25 abelhas."
+  },
+  {
+    question: "Como posso aumentar o nível dos puffshrooms que spawnam?",
+    answer: "Os níveis dos puffshrooms aumentam à medida que eles se espalham. Para obter níveis mais altos, você deve estourá-los rapidamente para que tenham tempo de saltar várias vezes antes que o cronômetro global de 5 minutos do evento termine."
+  },
+  {
+    question: "Qual é o melhor plantador para puffshrooms?",
+    answer: "O Pesticide Planter é amplamente considerado o melhor para puffshrooms, pois ativa um evento de spawn massivo ao ser colhido, resultando frequentemente em cogumelos de maior raridade do que os spawns naturais."
+  },
+  {
+    question: "Posso farmar puffshrooms sozinho?",
+    answer: "Sim, mas é muito mais difícil. A vida dos puffshrooms escala com o número de jogadores próximos, mas ter uma equipe permite cobrir vários campos conforme os esporos se espalham, garantindo que nenhum cogumelo de alta raridade seja perdido."
+  }
+]} />
+
+</Section>

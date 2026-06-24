@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Hộp Đựng Dừa (Coconut Canister) Trong Bee Swarm Simulator: Hướng Dẫn Thiết Lập Trang Bị",
+  description: "Tối ưu hóa tiến trình chơi game giai đoạn cuối (late-game) với hướng dẫn chi tiết về hộp đựng dừa (coconut canister) trong Bee Swarm Simulator. Tìm hiểu các tuyến đường thu thập nguyên liệu, chi phí và sự phối hợp tổ ong.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Coconut+Canister+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Cột mốc giai đoạn cuối (Late-game)**: **Hộp đựng dừa (coconut canister)** trong Bee Swarm Simulator đại diện cho cầu nối tối thượng giữa việc cày cuốc giai đoạn giữa game (mid-game) và chuyên môn hóa giai đoạn cuối game (endgame).
+- **Sức chứa khổng lồ**: Bình chứa này mang lại một bước nhảy vọt vô song về khả năng lưu trữ phấn hoa, giúp ngăn túi bị đầy ngay lập tức trong các đợt tăng cường (boost) sản lượng cao.
+- **Các nội tại thiết yếu**: Mở khóa cơ chế thu thập token tự động và chuyển đổi tức thì, thay đổi căn bản hiệu suất cày cuốc của bạn.
+- **Ưu tiên cày cuốc**: Luôn ưu tiên chế tạo hộp đựng này trước khi đầu tư nhiều vào các dụng cụ thu thập chuyên dụng cuối game hoặc chuyển đổi màu tổ ong cuối cùng.
+</Callout>
+
+<Section icon={Map} title="Bối Cảnh Tiến Trình và Yêu Cầu">
+
+Đạt đến giai đoạn cuối game (late-game) đòi hỏi một sự chuyển dịch có cấu trúc trong chiến lược trang bị của bạn. Trong một thời gian dài, Porcelain Port-O-Hive đóng vai trò là người bạn đồng hành lưu trữ đáng tin cậy của bạn, nhưng cuối cùng nó sẽ trở thành một nút thắt cổ chai. Khi tổ ong của bạn mở rộng lên khoảng 40 đến 45 con ong, các công cụ khởi đầu không thể theo kịp tốc độ thu thập của bạn. Đây là lúc **hộp đựng dừa (coconut canister)** trong Bee Swarm Simulator trở thành bắt buộc. Nó không chỉ là một vật phẩm; nó là cả một cấp độ tiến trình định nghĩa lại khoảng thời gian bạn có thể ở lại trên cánh đồng trước khi trở về tổ.
+
+Nhiều người chơi mắc sai lầm khi vội vã chuyển sang các màu tổ ong cuối game như Đỏ, Xanh hoặc Trắng thuần túy trong khi vẫn đeo ba lô giai đoạn giữa game. Không có sức chứa khổng lồ và cơ chế nội tại của bình chứa cấp cao nhất này, các cách xây dựng tổ ong chuyên dụng không thể hoạt động hiệu quả. Bạn phải đảm bảo có được trang bị nền tảng từ [trò chơi Bee Swarm Simulator chính thức trên Roblox](https://www.roblox.com/games/1537690962/Bee-Swarm-Simulator) trước khi cố gắng tối ưu hóa các thành phần ong riêng lẻ.
+
+| Giai đoạn | Số lượng ong | Mục tiêu bình chứa | Trọng tâm chính |
+|--- |--- |--- |--- |
+| **Đầu Núi (Early Mountain)** | 10-25 con ong | Túi khởi đầu | Vòng lặp phấn hoa |
+| **Đỉnh Núi (Mountain Top)** | 25-35 con ong | Porcelain Port-O-Hive | Hoàn thành nhiệm vụ |
+| **Chế tạo Giữa Game** | 35-45 con ong | Mặt nạ Honey/Bubble/Fire | Tích lũy nguyên liệu |
+| **Chuyển dịch Cuối Game** | 45-50 con ong | **Coconut Canister** | Bùa hộ mệnh tối cao (Supreme Amulet) |
+
+<Callout type="warning" title="Cảnh Báo Tiến Trình">
+Đừng cố gắng mua các dụng cụ thu thập cuối game như Tide Popper hoặc Dark Scythe trước khi chế tạo hộp đựng của bạn. Việc thiếu sức chứa lưu trữ sẽ làm tê liệt khả năng cày hàng nghìn tỷ mật ong cần thiết cho những công cụ cuối cùng đó.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cày Cuốc Nguyên Liệu và Tuyến Đường Thu Hoạch">
+
+Việc có được các tài nguyên cần thiết cho bình chứa giai đoạn cuối này đòi hỏi một cách tiếp cận kỷ luật đối với các tuyến đường cày cuốc hàng ngày và hàng giờ. Bạn không thể chỉ đơn giản là dùng tiền để vượt qua cấp độ này; bạn phải thành thạo hệ thống chế tạo và đánh bại các trùm cánh đồng một cách nhất quán. Công thức yêu cầu tích lũy một lượng lớn Mật ong, Đồ uống nhiệt đới, Dừa và các chiết xuất màu chuyên dụng.
+
+Nút thắt cổ chai tuyệt đối đối với hầu hết người chơi là yêu cầu về Đồ uống nhiệt đới. Những thứ này phải được chế tạo trong máy xay hoặc rơi ra khi đánh bại Cua Dừa (Coconut Crab). Quản lý thời gian hồi chiêu của bạn và cày cuốc ở Cánh đồng Dừa (Coconut Field) một cách hiệu quả là cách nhanh nhất để rút ngắn quá trình này.
+
+<Steps>
+  <Step num="1" title="Đánh Bại Cua Dừa Thường Xuyên">
+    Cua Dừa là nguồn cung cấp Dừa và Đồ uống nhiệt đới miễn phí chính của bạn. Định vị các con ong chiến đấu cấp cao của bạn, chẳng hạn như một con Vicious Bee đột biến (gifted), để giảm thiểu thời gian chiến đấu và tối đa hóa phần thưởng.
+  </Step>
+  <Step num="2" title="Tối Ưu Hóa Thời Gian Hồi Chế Tạo Máy Xay">
+    Giữ cho máy xay của bạn hoạt động liên tục. Chuyển đổi enzyme, dầu và chiết xuất dư thừa của bạn thành Đồ uống nhiệt đới. Đừng bao giờ để hàng đợi chế tạo của bạn trống rỗng khi bạn đang chơi tích cực.
+  </Step>
+  <Step num="3" title="Cày Cuốc Cánh Đồng Màu Với Mã Tăng Cường">
+    Thu thập các Chiết xuất Đỏ và Xanh cần thiết bằng cách cày cuốc ở Pepper Patch, Rose Field và Pine Tree Forest. Sử dụng các phần thưởng câu lạc bộ đang hoạt động và các đợt tăng cường đã được xác minh để tối đa hóa tỷ lệ chuyển đổi phấn hoa thành chiết xuất.
+  </Step>
+</Steps>
+
+| Tài nguyên | Nguồn chính | Nguồn phụ | Cấp độ tiện ích |
+|--- |--- |--- |--- |
+| **Mật ong** | Cày cuốc cánh đồng | Mã tăng cường | Tiền tệ cốt lõi |
+| **Dừa** | Cánh đồng Dừa | Vật phẩm rơi từ Cua | Nền tảng chế tạo |
+| **Đồ uống nhiệt đới** | Chế tạo bằng máy xay | Đánh bại Cua | Khóa tiến trình |
+| **Chiết xuất** | Cánh đồng màu | Trò chơi trí nhớ | Chuyên môn hóa |
+
+<Callout type="tip" title="Mẹo Cày Cuốc">
+Luôn kiểm tra các kênh cộng đồng chính thức qua [Discord Bee Swarm Simulator](https://discord.com/invite/bee) để biết chi tiết về các sự kiện đang diễn ra. Các bản cập nhật theo mùa thường xuyên giới thiệu các máy phân phát tạm thời có thể đẩy nhanh đáng kể quá trình tích lũy chiết xuất và đồ uống của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sự Phối Hợp Với Các Cách Xây Dựng Tổ Ong Cuối Game">
+
+Sau khi được trang bị, bình chứa này sẽ tăng cường đáng kể hiệu suất của tất cả các kiểu tổ ong chuyên dụng. Cho dù bạn đang chạy một thiết lập sức chứa cao hay một lối chơi bùng nổ tích cực, các khả năng nội tại được tích hợp trong trang bị này sẽ tăng tỷ lệ trực tiếp với cấp độ ong và chỉ số bùa hộ mệnh của bạn.
+
+Vật phẩm này giới thiệu các cơ chế độc đáo giúp rơi ra các bộ chuyển đổi vi mô (micro-converter) chuyên dụng và tạo ra các trường thu thập tự động. Điều này trực tiếp ngăn túi của bạn bị đầy ngay lập tức trong các cửa sổ sự kiện x2 quan trọng hoặc các đợt tăng cường cánh đồng giá trị cao.
+
+<CardGrid cols={3}>
+  <Card title="Tích Hợp Tổ Ong Xanh">
+    - **Tỷ lệ sức chứa bong bóng**: Tối đa hóa tiềm năng lưu trữ của bong bóng Buoyant Bee.
+    - **Thời gian cày cuốc dài**: Cho phép ở lại lâu hơn trong Pine Tree Forest mà không cần phải về tổ thường xuyên.
+    - **Chuyển đổi ổn định**: Phối hợp hoàn hảo với bùa hộ mệnh nội tại Pop Star.
+  </Card>
+  <Card title="Tích Hợp Tổ Ong Đỏ">
+    - **Quản lý ngọn lửa**: Cung cấp bộ đệm sức chứa cần thiết trong quá trình kích hoạt Scorching Star.
+    - **Hỗ trợ chiến đấu**: Tăng cường chuyển đổi tức thì khi chiến đấu với quái vật cánh đồng cấp cao.
+    - **Sự phối hợp chính xác**: Giữ cho không gian túi luôn mở trong khi thu thập các token mục tiêu có sản lượng cao.
+  </Card>
+  <Card title="Tích Hợp Tổ Ong Trắng">
+    - **Bộ đệm hệ số nhân chất nhầy (Goo)**: Hấp thụ lượng phấn hoa khổng lồ tăng vọt do các dấu ấn Vector Bee tạo ra.
+    - **Đồng bộ Gummy Star**: Đảm bảo bình chứa của bạn không bị tràn trong các cơn bão chất nhầy khổng lồ.
+    - **Chuyển đổi cân bằng**: Giữ cho tỷ lệ chuyển đổi ổn định trên tất cả các cánh đồng trung lập.
+  </Card>
+</CardGrid>
+
+| Màu tổ ong | Tỷ lệ sức chứa | Mức độ phối hợp | Cánh đồng tốt nhất |
+|--- |--- |--- |--- |
+| **Tổ ong Xanh** | Sức chứa cao | Xuất sắc | Pine Tree Forest |
+| **Tổ ong Đỏ** | Bùng nổ cao | Rất tốt | Pepper Patch |
+| **Tổ ong Trắng** | Đầu tư cao | Xuất sắc | Cánh đồng Dừa |
+
+<Callout type="success" title="Phối Hợp Thành Công">
+Hộp đựng này cung cấp một khả năng nội tại vĩnh viễn gọi là **Coconut Patch**. Khả năng này thỉnh thoảng sẽ làm rơi dừa từ trên trời xuống cánh đồng, chuyển đổi tức thì một tỷ lệ phần trăm phấn hoa của bạn thành mật ong mà không yêu cầu bạn phải rời đi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Phân Tích Chi Phí - Lợi Ích và So Sánh Trang Bị">
+
+Liệu khoản đầu tư này có thực sự xứng đáng với chi phí tài nguyên khổng lồ? Khi so sánh các lựa chọn giữa game với bình chứa giai đoạn cuối game, bước nhảy vọt về mặt chỉ số là không thể phủ nhận. Chỉ riêng sức chứa cơ bản đã gấp hơn ba lần so với trang bị của Cửa hàng Đỉnh Núi (Mountain Top Shop), nhưng giá trị thực sự lại nằm ẩn trong các chỉ số phụ và các bổ trợ nội tại.
+
+Đầu tư các nguyên liệu khó khăn mới kiếm được của bạn vào đây sẽ mang lại một nền tảng lâu dài. Không giống như mặt nạ, thứ mà bạn có thể thay đổi tùy thuộc vào các chuỗi nhiệm vụ đang hoạt động hoặc màu sắc cánh đồng, bình chứa này sẽ được trang bị vĩnh viễn cho đến khi bạn đạt đến cấp độ dụng cụ thu thập cuối game tuyệt đối.
+
+| Bình chứa | Sức chứa cơ bản | Nội tại đặc biệt | Cấp độ tiến trình |
+|--- |--- |--- |--- |
+| **Porcelain Port-O-Hive** | 250.000 | Không có | Khởi đầu giữa game |
+| **Coconut Canister** | 2.000.000 | Coconut Patch / Haste | Cốt lõi cuối game |
+| **Dụng cụ thu thập cuối game** | Tùy thuộc vào công cụ | Các nội tại khác nhau | Cuối game tuyệt đối |
+
+<Callout type="info" title="Lưu Ý Chiến Thuật">
+Nhiều người chơi tranh luận về việc nên mua Guốc Dừa (Coconut Clogs) hay Hộp đựng (Canister) trước. Hãy luôn tiết kiệm để mua hộp đựng trước. Guốc dừa rất xuất sắc, nhưng tốc độ độc đáo và nội tại tạo xu của chúng chỉ phát huy hết tiềm năng khi kết hợp với sức chứa lưu trữ khổng lồ của hộp đựng.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh Sách Kiểm Tra Cuối Cùng và Chuẩn Bị">
+
+Trước khi bạn thực hiện hành trình cuối cùng đến khu vực cửa hàng chuyên dụng để nhận trang bị của mình, hãy đảm bảo tài khoản của bạn đáp ứng tất cả các tiêu chí cơ bản. Theo dõi nguyên liệu của bạn thông qua một danh sách kiểm tra có cấu trúc đảm bảo bạn không lãng phí các token có giá trị hoặc tính toán sai số dư chế tạo của mình.
+
+Hãy để mắt đến tiến trình huy hiệu của bạn. Một số huy hiệu đại sư (grandmaster badges) nhất định cung cấp các hệ số nhân ẩn giúp việc cày vài tỷ mật ong cuối cùng trở nên dễ dàng hơn nhiều.
+
+<Checklist
+  id="canister-preparation"
+  title="Các Cột Mốc Chế Tạo Yêu Cầu:"
+  items={[
+    "Tích lũy tổng cộng 25.000.000.000 token Mật ong",
+    "Chế tạo hoặc nhặt được tổng cộng 150 Đồ uống nhiệt đới",
+    "Thu thập tổng cộng 250 Dừa từ cánh đồng hoặc trùm",
+    "Sản xuất 250 Chiết xuất Đỏ trong máy xay",
+    "Sản xuất 250 Chiết xuất Xanh trong máy xay"
+  ]}
+/>
+
+<Callout type="tip" title="Chuẩn Bị Cuối Cùng">
+Trước khi mua, hãy đảm bảo bạn đã hoàn thành các chuỗi nhiệm vụ hiện tại cho Spirit Bear. Bạn không muốn tiêu hết các chiết xuất màu của mình ngay trước khi một nhiệm vụ lớn yêu cầu chúng để đổi lấy Spirit Petal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu Hỏi Thường Gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có nên mua hộp đựng dừa (coconut canister) trong Bee Swarm Simulator trước khi chọn màu tổ ong cuối cùng không?",
+    answer: "Có. Bạn phải duy trì một tổ ong hỗn hợp trong giai đoạn tiến trình từ giữa đến cuối game. Hộp đựng cung cấp sức chứa nền tảng cần thiết để hoàn thành các chuỗi nhiệm vụ rộng lớn trên tất cả các màu cánh đồng trước khi bạn chuyên môn hóa."
+  },
+  {
+    question: "Cách nhanh nhất để có được Đồ uống nhiệt đới cho công thức là gì?",
+    answer: "Đánh bại Cua Dừa mỗi khi thời gian hồi chiêu của nó kết thúc là phương pháp hiệu quả nhất. Bổ sung cho các vật phẩm rơi từ trùm này bằng cách liên tục chế tạo đồ uống trong máy xay bằng cách sử dụng enzyme và dầu."
+  },
+  {
+    question: "Nội tại của Hộp Đựng Dừa có hoạt động ở mọi cánh đồng không?",
+    answer: "Khả năng nội tự động Coconut Patch hoạt động ở bất kỳ cánh đồng nào có thể thu hoạch hoa, mặc dù nó nhận được thêm sự phối hợp về mặt hình ảnh và cơ chế khi cày cuốc trực tiếp bên trong Cánh đồng Dừa."
+  },
+  {
+    question: "Tôi có thể bỏ qua vật phẩm này và đi thẳng lên các công cụ cuối game không?",
+    answer: "Về mặt cơ chế, điều đó hầu như là không thể. Lượng mật ong và nguyên liệu khổng lồ cần thiết cho các công cụ cuối game đòi hỏi sức chứa lớn và các nội tại chuyển đổi tức thì mà chỉ bình chứa này mới cung cấp được."
+  }
+]} />
+
+<Callout type="success" title="Kết Luận Hướng Dẫn">
+Hãy tiếp tục chạy máy xay, quản lý thời gian hồi chiêu của cua một cách hiệu quả, và tiến trình giai đoạn cuối của bạn sẽ luôn suôn sẻ và có lợi nhuận.
+</Callout>
+
+</Section>

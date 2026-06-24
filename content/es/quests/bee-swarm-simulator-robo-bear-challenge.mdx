@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía del Desafío del Oso Robo en Bee Swarm Simulator: Configuración y Consejos",
+  description: "Domina el Desafío del Oso Robo en Bee Swarm Simulator. Aprende las mejores configuraciones de colmena, estrategias de mejora de engranajes y consejos de combate para rondas altas en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f59e0b/fff?text=Robo+Bear+Challenge",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, desafío oso robo, guía, consejos, configuración colmena, amuletos robo, abeja digital"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Completar misiones de campo aleatorias y cronometradas junto con oleadas de combate para recolectar engranajes (cogs) y comprar mejoras temporales de estilo rogue-lite.
+- **Requisito de Desbloqueo**: Debes reparar al Oso Robo usando los cuatro discos rotos (Rojo, Azul, Blanco y Glitch) después de completar tareas específicas del Oso Científico.
+- **Recomendación de Colmena**: Una colmena de alto nivel con fuertes capacidades de combate y generación versátil de fichas es vital para sobrevivir a las oleadas finales.
+- **Estrategia Clave**: Prioriza la compra de mejoras de ataque y conversión con los engranajes obtenidos al principio de la partida para escalar contra enemigos cada vez más fuertes.
+- **Mejor Recompensa**: Amuletos de Oso Robo de alto nivel y componentes críticos necesarios para desbloquear y mejorar la Abeja Digital de endgame.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando el Desafío del Oso Robo en Bee Swarm Simulator">
+
+El **desafío del oso robo de bee swarm simulator** representa uno de los bucles de endgame más avanzados del juego. Ubicado cerca de la Zona de 30 Abejas y el área del Oso Científico, este desafío mecánico opera bajo una estructura rogue-lite donde los jugadores enfrentan una dificultad creciente a través de misiones aleatorias y oleadas de enemigos hostiles. Antes de poder gastar tus Pases Robo para iniciar una partida, debes reactivar completamente al NPC del Oso Robo dañado.
+
+Reactivar al Oso Robo requiere una cadena de misiones de varias etapas vinculada directamente al Oso Científico, quien te ayuda a fabricar y entregar cuatro discos de colores distintos. Estos discos reparan la programación corrupta del oso. Debido a que el Oso Científico requiere traductores para comunicarse con otros NPCs clave de las facciones, completar tus rutas de progresión fundamentales es un requisito absoluto.
+
+| Tipo de Disco | Requisito Principal de Misión de Desbloqueo | Costo de Materiales Clave |
+|---|---|---|
+| **Disco Rojo** | Completar el análisis de campo del Oso Científico | Extracto rojo, enzimas, pegamentos |
+| **Disco Azul** | Recolectar fichas azules y polen de campo | Extracto azul, aceite, purpurina |
+| **Disco Blanco** | Completar tareas extensas de recolección de goo | Enzimas, aceite, bebidas tropicales |
+| **Disco Glitch** | Activar fichas glitch específicas en los campos | Jalea estelar, pases de ticket, bayas de neón |
+
+<Callout type="warning" title="Gestión de Pases">
+Cada intento en el desafío consume un Pase de Oso Robo. Aunque recibes un pase gratuito diariamente del dispensador junto al Oso Robo, los pases adicionales deben comprarse con tickets o ganarse a través de misiones de eventos de alto nivel. No desperdicies tus pases si tus abejas tienen un nivel inferior a 12.
+</Callout>
+
+Una vez instalados los cuatro discos, el Oso Robo se inicia y permite el acceso al minijuego. Cada partida comienza de cero, eliminando todas las bonificaciones temporales de intentos anteriores y obligándote a construir una configuración mecánica desde el principio utilizando los engranajes ganados durante esa partida específica.
+
+</Section>
+
+<Section icon={Shield} title="Configuración de Colmena y Selección de Abejas Pre-Desafío">
+
+El éxito en el desafío depende en gran medida de la composición permanente de tu colmena antes de subir a la plataforma de lanzamiento. A diferencia de la recolección estándar en campos donde las colmenas especializadas de un solo color destacan, este desafío exige una gran adaptabilidad. El Oso Robo aleatoriza los objetivos de tus misiones, a menudo obligando a una colmena azul a recolectar polen rojo o a una colmena roja a recolectar polen blanco bajo estrictas restricciones de tiempo.
+
+Tu colmena necesita un equilibrio óptimo de daño de alto nivel, herramientas de recolección de polen rápida y generación constante de fichas. Las abejas de combate son innegociables porque los enemigos mecánicos aparecen directamente en los campos, atacando activamente a tu personaje y bloqueando a tus abejas para que no recolecten polen.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque de Colmena Mixta">
+    - **Alta flexibilidad** en todos los colores de campo aleatorios
+    - Generación equilibrada de fichas para enfoque (focus) y prisa (haste)
+    - Progresión más sencilla a través de las rondas iniciales y medias
+  </Card>
+  <Card title="Enfoque en Ataque y Combate">
+    - Altamente eficiente para eliminar Mechsquitos y Cogmowers
+    - Depende en gran medida de las púas de la Abeja Viciosa y Abeja Picante
+    - Evita que los enemigos consuman el tiempo de la misión
+  </Card>
+  <Card title="Colmena Especializada de Endgame">
+    - Requiere Amuletos de Estrella Suprema y activadores pasivos precisos
+    - Necesita mucha suerte con los rerolls en la selección de misiones
+    - Ofrece el mayor potencial para superar la ronda 20+
+  </Card>
+</CardGrid>
+
+Para optimizar la eficiencia de tu colmena antes de activar un pase, revisa las calificaciones de utilidad específicas de las abejas de evento y míticas esenciales diseñadas para manejar amenazas mecánicas.
+
+| Tipo de Abeja | Rol en el Desafío | Calificación de Utilidad | Beneficio Clave |
+|---|---|---|---|
+| **Abeja Viciosa** | Daño Primario | ★★★★★ | Reduce el tiempo de aparición de monstruos e inflige gran daño de empalamiento |
+| **Abeja Atigrada** | Recolección Crítica | ★★★★★ | Máxima tasa de conversión y estadísticas de recolección base altas al máximo de amor |
+| **Abeja Digital** | Sinergia de Sistema | ★★★★☆ | Duplica fichas de habilidad y hackea objetivos mecánicos |
+| **Abeja Musical** | Soporte de Fichas | ★★★★☆ | Mantiene el máximo tiempo de actividad de melodía y bonificaciones de enfoque crítico |
+| **Abeja Boyante** | Expansión de Capacidad | ★★★★☆ | Genera globos para almacenar el exceso de polen durante oleadas de alto rendimiento |
+
+<Callout type="tip" title="Verificación de Nivel">
+El nivel de las abejas es el factor más importante para superar la penalización de precisión contra enemigos mecánicos de rondas altas. Si tu colmena está por debajo del nivel 12, tus abejas fallarán ataques con frecuencia, estancando tu progresión. Apunta a una colmena nivel 14+ totalmente dotada (gifted) para obtener recompensas consistentes de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Progresión Ronda por Ronda">
+
+Cada partida del **desafío del oso robo de bee swarm simulator** sigue un bucle estructurado dividido en fases distintas: seleccionar una misión, elegir un campo inicial, recolectar polen mientras luchas contra enemigos mecánicos y gastar tus engranajes ganados con esfuerzo en la tienda de mejoras antes de que comience la siguiente ronda.
+
+Gestionar tu tiempo de manera eficiente durante las primeras rondas sienta las bases para sobrevivir al brutal escalamiento de las etapas posteriores. Si terminas una ronda rápidamente, el tiempo restante se convierte en engranajes de bonificación, que son críticos para comprar mejoras mecánicas premium.
+
+<Steps>
+  <Step num="1" title="Selección y Evaluación de Misiones">
+    Evalúa las tres misiones aleatorias presentadas por el Oso Robo. Busca campos donde poseas bonificaciones de equipo permanente o campos que se alineen con el color actual de tu colmena. Evita misiones que requieran cantidades masivas de goo a menos que tengas equipada la Máscara Gomosa.
+  </Step>
+  <Step num="2" title="La Prisa Inicial (Rondas 1-5)">
+    Concéntrate en la velocidad absoluta. Los enemigos en estas rondas tienen poca vida. Elimínalos de inmediato usando tu recolector y permite que tus abejas recojan polen al instante. No uses consumibles pesados como micro-conversores todavía; guárdalos para más tarde.
+  </Step>
+  <Step num="3" title="Escalamiento de Mitad de Partida (Rondas 6-10)">
+    Enemigos mecánicos como los Cogmowers comienzan a aparecer con mecánicas de escudo. Mantén tus fichas de enfoque en un acumulado de cinco en todo momento para maximizar las posibilidades de golpe crítico. Usa tus aspersores inmediatamente al entrar al campo designado para mantener el crecimiento de las flores.
+  </Step>
+  <Step num="4" title="Supervivencia en el Juego Tardío (Rondas 11+)">
+    Las misiones ahora requieren decenas de millones de polen en ventanas de tiempo estrechas. Rota entre campos activos si tu misión lo permite, y despliega objetos de alto valor como dados de campo o bebidas tropicales para amplificar tus multiplicadores de recolección base.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Economía de Engranajes">
+No acapares tus engranajes. Los engranajes no se transfieren entre intentos de desafío. Gastarlos en mejoras inmediatas como el poder de ataque de las abejas, la velocidad de movimiento del jugador o los porcentajes de conversión instantánea siempre es mejor que ahorrar para una mejora costosa que podrías no sobrevivir para comprar.
+</Callout>
+
+Para maximizar tus opciones de mejora entre rondas, consulta esta matriz de prioridad para determinar dónde invertir tu moneda de engranajes acumulada.
+
+| Categoría de Mejora | Ventana de Compra Ideal | Nivel de Prioridad | Razón Estratégica |
+|---|---|---|---|
+| **Poder de Ataque de Abeja** | Rondas 1 a 4 | Alto | Acelera la eliminación de enemigos para asegurar bonificaciones de tiempo iniciales |
+| **Conversión Instantánea** | Rondas 5 a 9 | Muy Alto | Evita el desbordamiento de la mochila, minimizando los viajes de regreso a la colmena |
+| **Multiplicadores de Polen** | Rondas 3 a 7 | Medio | Ayuda a completar rápidamente requisitos masivos de polen blanco o rojo |
+| **Fichas de Reroll** | Según sea necesario | Situacional | Esencial cuando te quedas atrapado con opciones de campo terribles en rondas altas |
+
+</Section>
+
+<Section icon={Swords} title="Derrotando Enemigos Mecánicos y Oleadas de Facciones">
+
+El combate durante el desafío difiere significativamente de las cacerías de bichos estándar en los campos del mundo principal. Los enemigos mecánicos escalan en vida, defensa y daño con cada ronda que pasa. Además, ciertas rondas activan oleadas de facciones especializadas, generando ejércitos de enemigos temáticos que pueden interrumpir completamente tus patrones de recolección.
+
+Comprender los indicadores de ataque de los enemigos y priorizar objetivos asegura que tu personaje no reciba daño letal, lo que inflige una severa penalización de tiempo en tu reloj de misión activo.
+
+| Nombre del Enemigo | Comportamiento de Ataque Primario | Debilidad / Estrategia de Contraataque |
+|---|---|---|
+| **Mechsquito** | Ataques voladores a distancia que drenan la vida del jugador | Acumulaciones altas de enfoque y golpes precisos de baba de rana |
+| **Cogmower** | Líneas de carga rápidas que destruyen las flores del campo | Esquivar perpendicularmente y desplegar púas de alto nivel |
+| **Hormiga Robo** | Ataca al jugador en grandes números para bloquear el movimiento | Fichas de bomba radial y campos de fuego de alto nivel |
+| **Mega Cogmower** | Gran reserva de vida con pisotones de área de efecto | Requiere ataques continuos de abejas nivel 15+ y aguijones |
+
+<Callout type="warning" title="Seguridad del Personaje">
+Si la salud de tu personaje llega a cero durante una ronda de desafío, no fallas instantáneamente la partida, pero sufres una deducción masiva de 30 segundos de tu temporizador de ronda restante. Mantente en movimiento en patrones circulares alrededor de los bordes del campo para evitar ser acorralado por los Cogmowers que cargan.
+</Callout>
+
+Cuando te enfrentes a variantes Doradas o Glitch de estas unidades mecánicas, prioriza el uso de consumibles que potencien el combate. Activar un solo aguijón al comienzo de una oleada pesada de combate otorga a toda tu colmena una bonificación significativa de perforación, permitiendo que tus abejas atraviesen el blindaje mecánico de manera eficiente.
+
+</Section>
+
+<Section icon={Trophy} title="Listas de Hitos y Recompensas de Amuletos Robo">
+
+El objetivo final de realizar partidas regulares en el desafío es optimizar tu perfil de equipo mecánico y asegurar Amuletos de Oso Robo de alto nivel. Estos amuletos ocupan una ranura de equipo única, proporcionando mejoras de estadísticas permanentes a tu capacidad, poder crítico y vectores de ataque específicos de las abejas.
+
+Completar rondas más altas se traduce directamente en mejores tiradas de amuletos, desbloqueando habilidades pasivas raras que imitan las mecánicas de los amuletos de estrella suprema a una escala menor.
+
+<Checklist
+  id="robo-challenge-milestones"
+  title="Hitos de Rendimiento a Alcanzar:"
+  items={[
+    "Llegar a la Ronda 5 para asegurar tu primer Amuleto Robo de Bronce",
+    "Completar la Ronda 10 para desbloquear mejoras de nivel Plata y descuentos permanentes en la tienda de engranajes",
+    "Sobrevivir más allá de la Ronda 15 para ganar Amuletos Robo de Oro y discos raros de Abeja Digital",
+    "Conquistar la Ronda 20+ para variantes de Diamante/Supremo y materiales de artesanía de endgame de élite"
+  ]}
+/>
+
+<Callout type="success" title="Progresión de la Abeja Digital">
+Cada partida exitosa te recompensa con chips de datos especializados dependiendo de tu ronda más alta completada. Alimenta estos chips directamente en la terminal del núcleo de la computadora para desbloquear la Abeja Digital o mejorar sus habilidades permanentes de hackeo para futuros desafíos.
+</Callout>
+
+Usa la siguiente referencia de datos para rastrear las posibles variaciones de estadísticas disponibles en los Amuletos Robo a través de diferentes niveles de rendimiento.
+
+| Nivel de Amuleto | Ronda Mínima Requerida | Estadísticas Base Garantizadas | Posible Pasiva Rara Obtenida |
+|---|---|---|---|
+| **Bronce** | Ronda 5 | +5% Capacidad, +2% Ataque de Abeja | Ninguna |
+| **Plata** | Ronda 10 | +10% Capacidad, +5% Ataque de Abeja | Pequeñas mejoras de campo |
+| **Oro** | Ronda 15 | +15% Capacidad, +7% Ataque de Abeja, +3% Prob. Crítica | Pasivas de polen de un solo color |
+| **Diamante** | Ronda 20 | +20% Capacidad, +10% Ataque de Abeja, +5% Prob. Crítica | Pasivas de sinergia de doble color |
+| **Supremo** | Ronda 25 | +25% Capacidad, +15% Ataque de Abeja, +8% Prob. Crítica | Cog Overlord / Replicación Digital |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes del Desafío del Oso Robo">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo más Pases de Oso Robo de manera eficiente?",
+    answer: "Recibes un pase gratis cada 22 horas del dispensador junto al Oso Robo. Se pueden comprar pases adicionales en la tienda de tickets o ganarlos completando misiones de eventos estacionales durante actualizaciones especializadas."
+  },
+  {
+    question: "¿Puedo usar potenciadores (boosts) de campo del mundo principal dentro del desafío?",
+    answer: "No. Todos los potenciadores de campo externos, mejoras de objetos y multiplicadores temporales se pausan y eliminan automáticamente al entrar al mapa del desafío. Debes construir tus bonificaciones completamente desde cero usando la tienda de engranajes del juego."
+  },
+  {
+    question: "¿Qué debo hacer si recibo una misión para un color de campo donde mis abejas son débiles?",
+    answer: "Usa tus fichas de Reroll de Engranajes inmediatamente. Si no tienes rerolls disponibles, prioriza la compra de mejoras de conversión instantánea en la tienda para minimizar el tiempo dedicado a viajar de regreso a tu colmena para vaciar el polen."
+  },
+  {
+    question: "¿La dificultad del desafío del oso robo escala con el nivel de mi colmena?",
+    answer: "No, la dificultad base y los parámetros de escalamiento de los enemigos son completamente fijos. Esto significa que el desafío se vuelve naturalmente más fácil a medida que subes de nivel permanentemente a tus abejas y adquieres equipo de endgame más fuerte en el mundo principal."
+  }
+]} />
+
+<Callout type="tip" title="Resumen Final">
+Aborda este desafío como un maratón en lugar de una carrera de velocidad. Concéntrate en perfeccionar tus mecánicas de movimiento, optimizar tus hábitos de gasto de engranajes al principio de la partida y mejorar lentamente el nivel de tu colmena para alcanzar consistentemente los niveles de recompensa del juego tardío.
+</Callout>
+
+</Section>

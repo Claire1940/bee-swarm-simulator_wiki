@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "King Beetle trong Trình mô phỏng bầy ong: Hướng dẫn Boss & Phần thưởng Bùa hộ mệnh",
+  description: "Làm chủ trận chiến với boss King Beetle trong Trình mô phỏng bầy ong. Tìm hiểu các chiến thuật chiến đấu tốt nhất, vị trí hang ổ và cách farm Bùa hộ mệnh King Beetle vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=King+Beetle+Boss+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong",
+  keywords: "king beetle, trình mô phỏng bầy ong, hướng dẫn boss, bùa hộ mệnh king beetle, boss bee swarm simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Đánh bại **King Beetle trong Trình mô phỏng bầy ong** để nhận mật ong, vé và Bùa hộ mệnh King Beetle hiếm.
+- **Vị trí**: Ẩn bên trong **Hang King Beetle** phía sau Cánh đồng Hoa Xanh (yêu cầu 10 con ong để vào).
+- **Thời gian hồi**: Boss này hoạt động dựa trên **thời gian hồi 24 giờ** sau khi bị đánh bại.
+- **Cơ chế chính**: Sử dụng kiểu di chuyển vòng tròn để né các cú húc của bọ trong khi ong của bạn gây sát thương.
+- **Phần thưởng cao nhất**: **Bùa hộ mệnh King Beetle** cung cấp các chỉ số tăng cường khổng lồ cho sức chứa và phấn hoa ở các cánh đồng cụ thể.
+</Callout>
+
+<Section icon={Map} title="Định vị Hang King Beetle">
+
+Tìm kiếm **King Beetle trong Trình mô phỏng bầy ong** là thử thách đầu tiên đối với nhiều người chơi giai đoạn đầu. Không giống như Bọ Hung (Rhino Beetles) hay Bọ Rùa (Ladybugs) thường thấy ở các cánh đồng mở, King Beetle cư ngụ trong một khu vực riêng biệt được gọi là Hang King Beetle. Khu vực này được ẩn đi, yêu cầu người chơi phải chú ý kỹ đến ranh giới bản đồ.
+
+Để tìm lối vào, hãy đi đến **Cánh đồng Hoa Xanh (Blue Flower Field)**. Tìm một khe hở nhỏ, tối tăm ở vách đá phía sau cánh đồng. Bạn sẽ thấy một cánh cổng yêu cầu ít nhất **10 con ong** để đi qua. Nếu bạn chưa đạt đến quy mô tổ này, hãy tập trung vào vòng lặp thu thập và chuyển đổi cơ bản cho đến khi bạn ấp đủ trứng.
+
+| Yêu cầu vào cửa | Giá trị | Mô tả |
+| :--- | :--- | :--- |
+| **Số lượng ong** | 10 con ong | Quy mô tổ ong tối thiểu để vào cổng |
+| **Vị trí** | Cánh đồng Hoa Xanh | Lối vào ẩn phía sau những bông hoa |
+| **Cấp độ Boss** | Cấp 7 | Cấp độ chiến đấu của King Beetle |
+| **Máu Boss** | 500 HP | Tổng lượng máu cho cuộc chạm trán |
+| **Thời gian hồi** | 24 Giờ | Thời gian thực trước khi boss xuất hiện lại |
+
+<Callout type="warning" title="Cảnh báo lối vào">
+Hang King Beetle là một vùng tối. Đảm bảo độ sáng màn hình của bạn được điều chỉnh để bạn có thể thấy các tín hiệu di chuyển của bọ. Một khi bạn vào trong, trận chiến sẽ bắt đầu gần như ngay lập tức nếu bạn tiến lại gần trung tâm.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật chiến đấu và Đội hình ong tốt nhất">
+
+Đánh bại **King Beetle trong Trình mô phỏng bầy ong** đòi hỏi sự kết hợp giữa di chuyển của người chơi và các khả năng tác động cao của ong. Con bọ chủ yếu tấn công bằng cách húc theo một đường thẳng về phía người chơi. Nếu bạn đứng yên, bạn sẽ chịu sát thương lớn và có khả năng bị đánh bật ra khỏi hang, dẫn đến thất bại.
+
+Chiến thuật hiệu quả nhất là **Chạy vòng tròn (Circular Strafe)**. Bằng cách chạy theo một vòng tròn rộng quanh chu vi của hang, bạn buộc King Beetle phải liên tục xoay người và hụt các cú húc. Điều này giúp ong của bạn có đủ thời gian để bay vào, tung ra các đòn tấn công và thả các mã thông báo kỹ năng (ability tokens).
+
+<CardGrid cols={3}>
+  <Card title="Vicious Bee">
+    - **Chiến đấu hạng S**
+    - Tạo gai Đâm (Impale)
+    - Gây sát thương theo phần trăm cực lớn
+  </Card>
+  <Card title="Rage Bee">
+    - **Hỗ trợ sát thương**
+    - Tạo mã thông báo Phẫn nộ (Rage)
+    - Tăng sức tấn công cho cả tổ ong
+  </Card>
+  <Card title="Commander Bee">
+    - **Hỗ trợ chí mạng**
+    - Tạo mã thông báo Tập trung (Focus)
+    - Tăng tỉ lệ đòn đánh chí mạng để tiêu diệt nhanh
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo chiến đấu chuyên nghiệp">
+Nếu ong của bạn thấp hơn Cấp 7, trận chiến sẽ kéo dài hơn nhiều do các đòn tấn công bị "hụt" (miss). Hãy cố gắng nâng cấp tổ ong của bạn bằng các món ăn từ nhiệm vụ của Gấu Mẹ (Mother Bear) trước khi thử hạ gục boss này nhanh chóng.
+</Callout>
+
+### Trang bị khuyên dùng cho trận chiến
+Trong khi ong của bạn đảm nhận phần việc nặng nhọc, trang bị của bạn sẽ quyết định bạn có thể chịu được bao nhiêu đòn đánh. Người chơi giai đoạn đầu nên hướng tới thiết lập sau đây trước khi farm King Beetle thường xuyên:
+
+| Mảnh trang bị | Vật phẩm khuyên dùng | Lý do |
+| :--- | :--- | :--- |
+| **Giày** | Hasty Boots | Tăng tốc độ di chuyển để né tránh dễ dàng hơn |
+| **Bảo vệ (Trái)** | Cobalt Guard | Cung cấp tăng cường phấn hoa xanh và phòng thủ |
+| **Bảo vệ (Phải)** | Crimson Guard | Cung cấp tăng cường phấn hoa đỏ và tấn công |
+| **Thắt lưng** | Honeycomb Belt | Tăng sức chứa và tốc độ thu thập của ong |
+
+</Section>
+
+<Section icon={Trophy} title="Bùa hộ mệnh King Beetle và Danh sách vật phẩm rơi ra">
+
+Lý do chính khiến người chơi quay lại gặp **King Beetle trong Trình mô phỏng bầy ong** mỗi 24 giờ là vật phẩm rơi ra. Phần thưởng tốt hơn đáng kể so với các quái vật thông thường trên cánh đồng, biến nó trở thành một phần quan trọng trong quá trình tiến triển hàng ngày.
+
+"Giải thưởng lớn" là **Bùa hộ mệnh King Beetle**. Không giống như Bùa hộ mệnh Kiến hay Bùa hộ mệnh Sao, Bùa hộ mệnh King Beetle là một vật phẩm rơi ra hiếm có giúp tăng cường hiệu suất của tổ ong ở các cánh đồng cụ thể. Mỗi khi bạn đánh bại boss, bạn có cơ hội nhận được một bùa hộ mệnh mới. Nếu bạn đã có một cái, bạn có thể chọn giữ cái cũ hoặc thay thế nó bằng cái mới vừa nhận được.
+
+| Vật phẩm phần thưởng | Số lượng/Tỉ lệ | Công dụng |
+| :--- | :--- | :--- |
+| **Mật ong** | 5,000 - 50,000 | Tiền tệ cơ bản để nâng cấp tổ ong |
+| **Vé** | 1 - 5 | Dùng cho Ong Sự kiện và các vật phẩm trong cửa hàng |
+| **Sữa ong chúa** | 1 - 10 | Dùng để thay đổi loại ong |
+| **Việt quất** | 5 - 20 | Thức ăn cho Ong Xanh và dùng để chế tạo |
+| **Dâu tây** | 5 - 20 | Thức ăn cho Ong Đỏ và dùng để chế tạo |
+| **Bùa hộ mệnh** | ~10% Cơ hội | Tăng chỉ số vĩnh viễn cho tổ ong |
+
+<Callout type="success" title="Tập trung chỉ số Bùa hộ mệnh">
+Bùa hộ mệnh King Beetle có thể có các chỉ số tăng cường cho **Rừng Tre, Cánh đồng Cỏ ba lá, Cánh đồng Nấm và Cánh đồng Hoa Xanh**. Luôn tìm kiếm các chỉ số "Tỉ lệ chuyển đổi" (Convert Rate) và "Sức tấn công của ong" (Bee Attack) khi quyết định có nên đổi bùa hộ mệnh hiện tại hay không.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lộ trình tiến triển: Từ người mới đến thợ săn Boss">
+
+Việc tích hợp **King Beetle trong Trình mô phỏng bầy ong** vào thói quen hàng ngày là dấu hiệu cho thấy bạn đã bước vào giai đoạn giữa game. Để quá trình chuyển đổi này diễn ra suôn sẻ, hãy làm theo lộ trình tiến triển này để đảm bảo tổ ong của bạn luôn sẵn sàng cho mỗi lần reset 24 giờ.
+
+<Steps>
+  <Step num="1" title="Cột mốc 10 con ong">
+    Tập trung vào các nhiệm vụ ban đầu của Gấu Đen để kiếm đủ mật ong cho 10 ô tổ ong đầu tiên. Ấp nhiều loại ong khác nhau để duy trì một tổ ong hỗn hợp linh hoạt cho các nhiệm vụ.
+  </Step>
+  <Step num="2" title="Nâng cấp bầy đàn">
+    Sử dụng các nhiệm vụ của Gấu Mẹ để kiếm các món ăn. Cho ong ăn cho đến khi cấp độ trung bình của tổ đạt ít nhất 6 hoặc 7. Điều này giúp ngăn chặn cơ chế "Hụt" (Miss) trong trận chiến với King Beetle.
+  </Step>
+  <Step num="3" title="Sở hữu Ong Hung Dữ">
+    Thu thập Ngòi (Stingers) từ những con Ong Hung Dữ hung hãn trên các cánh đồng. Khi bạn có 250 Ngòi, hãy mua trứng Ong Hung Dữ. Con ong này là "Kẻ tiêu diệt King Beetle" nhờ khả năng tạo gai.
+  </Step>
+  <Step num="4" title="Chu kỳ farm hàng ngày">
+    Đặt lời nhắc ghé thăm Hang King Beetle mỗi ngày. Ngay cả khi bạn không nhận được bùa hộ mệnh, Vé và Sữa ong chúa vẫn rất thiết yếu để chế tạo trang bị giai đoạn giữa game như Mặt nạ Mật ong (Honey Mask).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lời khuyên chuyên gia">
+Đừng nản lòng nếu bùa hộ mệnh không rơi ra trong vài lần thử đầu tiên. RNG (Tạo số ngẫu nhiên) có thể khá cứng đầu, nhưng các phần thưởng phụ như Bùa Mặt trăng (Moon Charms) khiến mọi chiến thắng đều xứng đáng cho quá trình tiến triển Bùa hộ mệnh Mặt trăng của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Danh sách chuẩn bị hàng ngày">
+
+Trước khi bước vào hang để đối mặt với **King Beetle trong Trình mô phỏng bầy ong**, hãy đảm bảo bạn đã chuẩn bị đầy đủ để tối đa hóa phần thưởng và giảm thiểu rủi ro thất bại.
+
+<Checklist
+  id="king-beetle-prep"
+  title="Danh sách kiểm tra trước trận chiến:"
+  items={[
+    "Kiểm tra xem thời gian hồi 24 giờ đã hết chưa",
+    "Đảm bảo Ong Hung Dữ của bạn đã được nghỉ ngơi và có trong tổ đang hoạt động",
+    "Làm trống túi phấn hoa để nhường chỗ cho mật ong rơi ra",
+    "Trang bị các bảo vệ thiên về chiến đấu tốt nhất (Đỏ Thẫm/Coban)",
+    "Thu thập mã thông báo Tập trung hoặc Phẫn nộ từ một cánh đồng trước khi vào"
+  ]}
+/>
+
+<Callout type="warning" title="Tránh sai lầm này">
+Đừng vào Hang King Beetle khi bạn đang có Tăng cường Cánh đồng (Field Boost) hoạt động. Đồng hồ đếm ngược cho tăng cường của bạn vẫn sẽ tiếp tục chạy trong khi bạn chiến đấu với boss, gây lãng phí các cửa sổ x2 hoặc x3 phấn hoa quý giá.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để nhận được Bùa hộ mệnh King Beetle mỗi lần đánh?",
+    answer: "Bạn không thể đảm bảo việc rơi bùa hộ mệnh. Đó là một phần thưởng ngẫu nhiên với tỉ lệ khoảng 1/7 đến 1/10. Cách tốt nhất để nhận được nó là đánh bại King Beetle mỗi ngày như một phần thói quen của bạn."
+  },
+  {
+    question: "Con ong nào tốt nhất để dùng chống lại King Beetle?",
+    answer: "Ong Hung Dữ (Vicious Bee) là tốt nhất tuyệt đối nhờ khả năng Đâm (Impale) gây sát thương cực lớn bất kể khả năng phòng thủ của bọ. Ong Phẫn Nộ và Ong Âm Nhạc cũng rất tuyệt vời để tăng tổng chỉ số DPS cho tổ ong của bạn."
+  },
+  {
+    question: "Người chơi khác có thể giúp tôi chiến đấu với King Beetle không?",
+    answer: "Không, Hang King Beetle là một khu vực cá nhân. Khi bạn vào, bạn đang ở trong một khu vực riêng tư, nơi chỉ có ong và nhân vật của bạn mới có thể tương tác với boss."
+  },
+  {
+    question: "King Beetle có khó hơn khi tôi thăng cấp không?",
+    answer: "Không, King Beetle vẫn giữ nguyên ở Cấp 7 với 500 HP. Khi tổ ong của bạn mạnh lên, trận chiến sẽ đơn giản là trở nên nhanh hơn, cuối cùng chỉ mất vài giây để hoàn thành."
+  }
+]} />
+
+</Section>

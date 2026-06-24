@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Santuário do Vento no Bee Swarm Simulator: Guia de Doações e Recompensas",
+  description: "Domine o santuário do vento no Bee Swarm Simulator com nosso guia de 2026 sobre doações, mecânicas de favor e a maneira mais rápida de desbloquear a elusiva Abelha Ventania.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/f6c518/333?text=Wind+Shrine+Guide",
+  date: "2026-06-24",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Santuário do Vento no Bee Swarm Simulator**: Uma estrutura poderosa de fim de jogo (late-game) localizada na zona de 35 abelhas, usada para doações de itens.
+- **Sistema de Favor**: Mecânica oculta que determina suas chances de receber recompensas raras como a Abelha Ventania (Windy Bee).
+- **Pétalas Espirituais**: O principal item de alto valor necessário para começar a jornada para desbloquear uma Abelha Ventania domada.
+- **Impulsos de Campo**: Doações estratégicas podem ativar multiplicadores massivos de pólen para campos específicos.
+- **Frascos de Nuvem**: Consumíveis essenciais usados para aumentar o favor e, eventualmente, capturar a Abelha Ventania.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas do Santuário do Vento">
+
+O **santuário do vento no bee swarm simulator** é uma estrutura fundamental para os jogadores que alcançaram as fases de meio a fim de jogo em sua progressão. Localizado atrás do portão de 35 abelhas, situado em um penhasco perto da Ursa Espiritual (Spirit Bear), este santuário permite que os jogadores "sacrifiquem" ou doem vários itens em troca de favores, impulsos de campo e drops de itens raros. Ao contrário das lojas padrão ou dos doadores de missões, o Santuário do Vento opera em um sistema de probabilidade e pontos de "favor" ocultos, tornando-o um dos sistemas mais complexos do jogo para se dominar.
+
+Em 2026, o meta do Santuário do Vento foca em maximizar o "Favor", um atributo oculto que escala com o valor de suas doações. Quanto mais você doa, mais o Santuário do Vento "gosta" de você, o que aumenta a qualidade de suas recompensas e a probabilidade de domar com sucesso uma Abelha Ventania. Os jogadores costumam começar doando itens que têm em excesso, mas jogadores estratégicos guardam materiais de alto valor para janelas de impulso específicas para maximizar suas taxas de mel por hora.
+
+<Table>
+| Categoria do Item | Exemplos Comuns | Objetivo Principal no Santuário |
+| :--- | :--- | :--- |
+| **Materiais Básicos** | Sementes de Girassol, Mirtilos | Pequenos ganhos de favor / Pequenos impulsos |
+| **Itens Fabricados** | Enzimas, Óleo, Cola | Favor moderado / Impulsos de campo direcionados |
+| **Itens de Alto Valor** | Geleia Estelar, Ovos de Ouro | Favor significativo / Recompensas massivas de mel |
+| **Itens de Missão** | Pétalas Espirituais | Desbloquear o encontro com a Abelha Ventania |
+| **Consumíveis** | Frascos de Nuvem | Aumentar o favor / Domar a Abelha Ventania |
+</Table>
+
+<Callout type="tip" title="Nota sobre a Localização">
+Se você não conseguir encontrar o santuário, certifique-se de ter pelo menos 35 abelhas. Passe pela Ursa Espiritual e procure pela estrutura de pedra com uma turbina eólica giratória. É impossível interagir com ela antes de atingir o requisito de abelhas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O Sistema de Favor Oculto e como Domar a Abelha Ventania">
+
+A recompensa mais cobiçada do **santuário do vento no bee swarm simulator** é a Abelha Ventania. No entanto, obter esta Abelha de Evento não é tão simples quanto comprar um ovo. Requer um compromisso de longo prazo com o sistema de Favor. Cada vez que você doa um item, sua pontuação oculta de Favor aumenta. Essa pontuação nunca é resetada, o que significa que cada pequena doação contribui para o seu sucesso final.
+
+O processo começa com a doação de uma Pétala Espiritual. Uma vez que a pétala tenha sido doada, o santuário tem a chance de liberar um Equipamento de Abelha (Beequip) da Abelha Ventania ou um ovo de Abelha Ventania Domada quando você doar Frascos de Nuvem posteriormente. Sem a doação inicial da Pétala Espiritual, você ainda pode obter impulsos e itens, mas a abelha em si continuará fora de alcance.
+
+<CardGrid cols={3}>
+  <Card title="Acúmulo de Favor">
+    - **Cumulativo**: Seu favor cresce com cada doação individual.
+    - **Valor do Item**: Itens raros como Ovos Míticos concedem picos massivos de favor.
+    - **Consistência**: Pequenas doações regulares são melhores do que esperar meses por uma grande doação.
+  </Card>
+  <Card title="Domando a Abelha Ventania">
+    - **Pré-requisito**: Deve doar uma Pétala Espiritual primeiro.
+    - **Frascos de Nuvem**: O único item que ativa a verificação de "domar".
+    - **RNG**: Um favor mais alto reduz a quantidade de frascos necessários.
+  </Card>
+  <Card title="Buffs de Campo">
+    - **Força do Vento**: Determina o multiplicador para a coleta de pólen.
+    - **Direcionado**: Certos itens favorecem campos específicos (ex: Morangos para campos Vermelhos).
+    - **Duração**: Geralmente dura de 15 a 30 minutos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Prioridade da Pétala Espiritual">
+A maioria dos jogadores recomenda usar sua primeira Pétala Espiritual para o Bastão de Pétala (Petal Wand) e a segunda para o Santuário do Vento. Doar sua primeira pétala para o santuário pode atrasar significativamente o seu farm no início e meio do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Passo a Passo: Desbloqueando a Abelha Ventania">
+
+Desbloquear a Abelha Ventania é um rito de passagem para jogadores avançados. Siga estes passos para garantir que você não desperdice seus recursos no **santuário do vento no bee swarm simulator**.
+
+<Steps>
+  <Step num="1" title="Alcance a Zona de 35 Abelhas">
+    Farme mel suficiente para comprar 35 slots de colmeia. Isso desbloqueia a área do topo da montanha onde residem a Ursa Espiritual e o Santuário do Vento.
+  </Step>
+  <Step num="2" title="Complete as Missões da Ursa Espiritual">
+    Complete as primeiras 10 missões da Ursa Espiritual para receber sua primeira Pétala Espiritual. Complete as próximas 10 para obter sua segunda pétala.
+  </Step>
+  <Step num="3" title="Doe a Pétala Espiritual">
+    Interaja com o Santuário do Vento e selecione a Pétala Espiritual do seu inventário. O santuário a consumirá, e o vento irá "mudar", reconhecendo o seu sacrifício.
+  </Step>
+  <Step num="4" title="Construa Favor com Frascos de Nuvem">
+    Derrote Abelhas Ventania Selvagens (encontradas procurando por nuvens nos campos) para coletar Frascos de Nuvem. Doe esses frascos em pilhas de 5 ou 10 no santuário.
+  </Step>
+  <Step num="5" title="O Momento da Doma">
+    Continue doando Frascos de Nuvem. Eventualmente, o santuário responderá com uma mensagem única, e a Abelha Ventania se juntará à sua colmeia.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia Pro">
+Doar de 5 a 10 Frascos de Nuvem por vez é a maneira mais eficiente de verificar o desbloqueio da Abelha Ventania enquanto ainda acumula favor. Doar 1 frasco por vez é estatisticamente menos eficiente para ativar a recompensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Recompensas de Doação e Impulsos de Campo">
+
+Além da Abelha Ventania, o **santuário do vento no bee swarm simulator** é uma ferramenta poderosa para ativar os "Ventos". Os Ventos são multiplicadores específicos de campo que podem aumentar seu ganho de pólen em até 10x ou mais. Isso é essencial para concluir missões de alto nível que exigem bilhões de pólen de um único campo.
+
+O tipo de item que você doa influencia qual campo recebe o impulso. Embora haja um elemento de aleatoriedade, certos padrões foram identificados pela comunidade.
+
+<Table>
+| Item Doado | Impulso de Campo Provável | Recompensa Secundária |
+| :--- | :--- | :--- |
+| **Morango** | Campo de Morango / Cogumelo / Rosa | Extratos Vermelhos |
+| **Mirtilo** | Bambu / Pinheiro / Flor Azul | Extratos Azuis |
+| **Semente de Girassol** | Girassol / Abóbora / Abacaxi | Óleo / Enzimas |
+| **Abacaxi** | Plantação de Abacaxi / Tronco | Bebidas Tropicais |
+| **Balas de Goma** | Qualquer Campo (Aleatório) | Cola / Impulso de Gosma |
+| **Geleia Estelar** | Campos de Nível Alto (Pimenta/Coco) | Favor Alto / Mel |
+| **Passe de Formiga** | Campo de Formigas / Aranha | Tickets |
+</Table>
+
+<Callout type="info" title="Escalonamento de Recompensas">
+A "Força do Vento" (ex: Vento 4, Vento 7) refere-se ao multiplicador. Níveis de favor mais altos permitem que você alcance uma Força do Vento maior de forma mais consistente, mesmo com itens mais baratos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Estratégia de Doação Ideal">
+
+Para aproveitar ao máximo o **santuário do vento no bee swarm simulator**, você deve ter uma rotina diária ou semanal. Usar o santuário de forma desordenada é uma maneira rápida de esgotar seu inventário sem obter quase nada em troca.
+
+<Checklist
+  id="wind-shrine-routine"
+  title="Lista de Tarefas Diárias do Santuário:"
+  items={[
+    "Procure por Abelhas Ventania Selvagens para reabastecer os Frascos de Nuvem.",
+    "Doe petiscos básicos em excesso (100-500) para manter o favor base.",
+    "Guarde Geleias Estelares para sessões de 'impulso' principais quando tiver 3x boosters de campo ativos.",
+    "Evite doar itens necessários para sua próxima meta de fabricação (ex: guarde Cola para a Máscara Gummy).",
+    "Doe 5 Frascos de Nuvem a cada sessão se você já tiver doado uma Pétala Espiritual."
+  ]}
+/>
+
+<Callout type="tip" title="Recompensas de Mel">
+Se você estiver com pouco mel, doar um Ovo de Ouro ou um Ovo de Prata muitas vezes pode retornar milhões (ou até bilhões para jogadores avançados) de mel instantaneamente, além de ventos decentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "De quanto favor eu preciso para obter a Abelha Ventania?",
+    answer: "Não há um número exato, mas a maioria dos jogadores relata sucesso após doar entre 100 e 500 Frascos de Nuvem, desde que já tenham doado uma Pétala Espiritual. Doações de maior valor, como ovos e materiais raros, aceleram significativamente esse processo."
+  },
+  {
+    question: "Posso recuperar minha Pétala Espiritual se eu a doar por engano?",
+    answer: "Não. Uma vez que um item é doado ao Santuário do Vento, ele é consumido permanentemente. Sempre verifique seu inventário duas vezes antes de confirmar uma doação, especialmente com itens raros como Pétalas ou Ovos Míticos."
+  },
+  {
+    question: "O momento do dia afeta as recompensas do Santuário do Vento?",
+    answer: "Não há evidências confirmadas de que o horário do jogo (Dia/Noite) afete as recompensas. No entanto, muitos jogadores preferem doar durante o evento 'Beesmas' ou outros períodos especiais em que buffs globais possam estar ativos."
+  },
+  {
+    question: "Qual é o melhor item para favor se eu for um jogador de nível médio?",
+    answer: "Os Frascos de Nuvem são os melhores para favor em relação ao seu custo. Passes de Formiga e sementes básicas também são bons para construir favor de forma consistente e com baixo custo, sem sacrificar materiais raros de fabricação."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+O Santuário do Vento é uma maratona, não uma corrida de velocidade. Foque em seus equipamentos primeiro e trate a Abelha Ventania como um objetivo de longo prazo. Los impulsos que você obtiver ao longo do caminho compensarão com folga os itens sacrificados.
+</Callout>
+
+</Section>

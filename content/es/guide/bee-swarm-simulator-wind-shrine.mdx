@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Santuario del Viento de Simulador de Enjambre de Abejas: Guía de Donaciones y Recompensas",
+  description: "Domina el santuario del viento de Simulador de Enjambre de Abejas con nuestra guía de 2026 sobre donaciones, mecánica de favor y la forma más rápida de desbloquear a la esquiva Abeja Viento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f6c518/333?text=Wind+Shrine+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Simulador de Enjambre de Abejas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Santuario del Viento de Simulador de Enjambre de Abejas**: Una poderosa estructura del juego tardío ubicada en la zona de 35 abejas que se utiliza para donar objetos.
+- **Sistema de Favor**: Mecánica oculta que determina tus posibilidades de recibir recompensas raras como la Abeja Viento.
+- **Pétalos Espirituales**: El objeto principal de alto valor requerido para comenzar el viaje hacia el desbloqueo de una Abeja Viento domesticada.
+- **Potenciadores de Campo**: Las donaciones estratégicas pueden activar multiplicadores masivos de polen para campos específicos.
+- **Frascos de Nube**: Consumibles esenciales utilizados para aumentar el favor y finalmente capturar a la Abeja Viento.
+</Callout>
+
+<Section icon={Map} title="Entendiendo la Mecánica del Santuario del Viento">
+
+El **santuario del viento de Simulador de Enjambre de Abejas** es una estructura crucial para los jugadores que han alcanzado las etapas medias y tardías de su progresión. Ubicado detrás de la puerta de 35 abejas, en un acantilado cerca de Spirit Bear, este santuario permite a los jugadores "sacrificar" o donar varios objetos a cambio de favores, potenciadores de campo y botines de objetos raros. A diferencia de las tiendas estándar o los asignadores de misiones, el Santuario del Viento funciona con un sistema de probabilidad y puntos de "favor" ocultos, lo que lo convierte en uno de los sistemas más complejos de dominar en el juego.
+
+En 2026, el meta para el Santuario del Viento se centra en maximizar el "Favor", una estadística oculta que escala con el valor de tus donaciones. Cuanto más donas, más le "gustas" al Santuario del Viento, lo que aumenta la calidad de tus recompensas y la probabilidad de domesticar con éxito a una Abeja Viento. Los jugadores a menudo comienzan donando objetos que tienen en exceso, pero los jugadores estratégicos guardan materiales de alto valor para ventanas de potenciación específicas para maximizar sus tasas de miel por hora.
+
+<Table>
+| Categoría de Objeto | Ejemplos Comunes | Propósito Principal en el Santuario |
+| :--- | :--- | :--- |
+| **Materiales Básicos** | Semillas de Girasol, Arándanos | Pequeñas ganancias de favor / Pequeños potenciadores |
+| **Objetos Elaborados** | Enzimas, Aceite, Pegamento | Favor moderado / Potenciadores de campo específicos |
+| **Objetos de Alto Valor** | Jalea Estelar, Huevos de Oro | Favor significativo / Recompensas masivas de miel |
+| **Objetos de Misión** | Pétalos Espirituales | Desbloquear el encuentro con la Abeja Viento |
+| **Consumibles** | Frascos de Nube | Aumentar el favor / Domesticar a la Abeja Viento |
+</Table>
+
+<Callout type="tip" title="Nota de Ubicación">
+Si no puedes encontrar el santuario, asegúrate de tener al menos 35 abejas. Dirígete más allá de Spirit Bear y busca la estructura de piedra con una turbina de viento giratoria. Es imposible interactuar con ella antes de alcanzar el requisito de abejas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema Oculto de Favor y Cómo Domesticar a la Abeja Viento">
+
+La recompensa más buscada del **santuario del viento de Simulador de Enjambre de Abejas** es la Abeja Viento. Sin embargo, obtener esta Abeja de Evento no es tan simple como comprar un huevo. Requiere un compromiso a largo plazo con el sistema de Favor. Cada vez que donas un objeto, tu puntuación oculta de Favor aumenta. Esta puntuación nunca se reinicia, lo que significa que cada pequeña donación contribuye a tu éxito final.
+
+El proceso comienza donando un Pétalo Espiritual. Una vez que se ha donado un pétalo, el santuario tiene la posibilidad de otorgar un Equipamiento de Abeja Viento (Beequip) o un huevo de Abeja Viento Domesticada cuando posteriormente donas Frascos de Nube. Sin la donación inicial del Pétalo Espiritual, aún puedes obtener potenciadores y objetos, pero la abeja en sí seguirá estando fuera de tu alcance.
+
+<CardGrid cols={3}>
+  <Card title="Acumulación de Favor">
+    - **Acumulativo**: Tu favor crece con cada donación individual.
+    - **Valor del Objeto**: Los objetos raros como los Huevos Míticos otorgan aumentos masivos de favor.
+    - **Consistencia**: Las donaciones pequeñas y regulares son mejores que esperar meses para hacer una grande.
+  </Card>
+  <Card title="Domesticar a la Abeja Viento">
+    - **Prerrequisito**: Primero debes donar un Pétalo Espiritual.
+    - **Frascos de Nube**: El único objeto que activa la comprobación de "domesticación".
+    - **RNG (Azar)**: Un mayor favor reduce la cantidad de frascos necesarios.
+  </Card>
+  <Card title="Potenciadores de Campo">
+    - **Fuerza del Viento**: Determina el multiplicador para la recolección de polen.
+    - **Específicos**: Ciertos objetos benefician a campos específicos (por ejemplo, Fresas para campos Rojos).
+    - **Duración**: Generalmente dura de 15 a 30 minutos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Prioridad del Pétalo Espiritual">
+La mayoría de los jugadores recomiendan usar tu primer Pétalo Espiritual para la Varita de Pétalos y el segundo para el Santuario del Viento. Donar tu primer pétalo al santuario puede ralentizar significativamente tu progreso en el juego medio-temprano.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Cómo Desbloquear la Abeja Viento">
+
+Desbloquear a la Abeja Viento es un rito de iniciación para los jugadores del juego tardío. Sigue estos pasos para asegurarte de no desperdiciar tus recursos en el **santuario del viento de Simulador de Enjambre de Abejas**.
+
+<Steps>
+  <Step num="1" title="Alcanza la Zona de 35 Abejas">
+    Consigue suficiente miel para comprar 35 ranuras de colmena. Esto desbloquea el área de la cima de la montaña donde residen Spirit Bear y el Santuario del Viento.
+  </Step>
+  <Step num="2" title="Completa las Misiones de Spirit Bear">
+    Completa las primeras 10 misiones de Spirit Bear para recibir tu primer Pétalo Espiritual. Completa las siguientes 10 para obtener tu segundo pétalo.
+  </Step>
+  <Step num="3" title="Dona el Pétalo Espiritual">
+    Interactúa con el Santuario del Viento y selecciona el Pétalo Espiritual de tu inventario. El santuario lo consumirá y el viento "cambiará", reconociendo tu sacrificio.
+  </Step>
+  <Step num="4" title="Acumula Favor con Frascos de Nube">
+    Derrota a las Abejas Viento Salvajes (que se encuentran buscando nubes en los campos) para recolectar Frascos de Nube. Dona estos frascos en montones de 5 o 10 al santuario.
+  </Step>
+  <Step num="5" title="El Momento de la Domesticación">
+    Continúa donando Frascos de Nube. Eventualmente, el santuario responderá con un mensaje único y la Abeja Viento se unirá a tu colmena.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia Pro">
+Donar de 5 a 10 Frascos de Nube a la vez es la forma más eficiente de verificar el desbloqueo de la Abeja Viento mientras sigues acumulando favor. Donar 1 frasco a la vez es estadísticamente menos eficiente para activar la recompensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Recompensas de Donación y Potenciadores de Campo">
+
+Más allá de la Abeja Viento, el **santuario del viento de Simulador de Enjambre de Abejas** es una herramienta poderosa para activar "Vientos". Los vientos son multiplicadores específicos de campo que pueden aumentar tu ganancia de polen hasta 10 veces o más. Esto es esencial para completar misiones de alto nivel que requieren miles de millones de polen de un solo campo.
+
+El tipo de objeto que donas influye en qué campo recibe el potenciador. Aunque hay un elemento de aleatoriedad, la comunidad ha identificado ciertos patrones.
+
+<Table>
+| Objeto Donado | Potenciador de Campo Probable | Recompensa Secundaria |
+| :--- | :--- | :--- |
+| **Fresa** | Campo de Fresas / Champiñón / Rosa | Extractos Rojos |
+| **Arándano** | Bambú / Pino / Flor Azul | Extractos Azules |
+| **Semilla de Girasol** | Girasol / Calabaza / Piña | Aceite / Enzimas |
+| **Piña** | Parche de Piña / Muñón | Bebidas Tropicales |
+| **Gominolas** | Cualquier Campo (Aleatorio) | Pegamento / Potenciador de Viscosidad |
+| **Jalea Estelar** | Campos de Alto Nivel (Pimienta/Coco) | Alto Favor / Miel |
+| **Pase de Hormiga** | Campo de Hormigas / Araña | Tickets |
+</Table>
+
+<Callout type="info" title="Escala de Recompensas">
+La "Fuerza del Viento" (por ejemplo, Viento 4, Viento 7) se refiere al multiplicador. Los niveles de favor más altos te permiten alcanzar una mayor Fuerza del Viento de manera más consistente, incluso con objetos más baratos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Estrategia de Donación Óptima">
+
+Para aprovechar al máximo el **santuario del viento de Simulador de Enjambre de Abejas**, debes tener una rutina diaria o semanal. Usar el santuario al azar es una forma rápida de agotar tu inventario con poco que mostrar a cambio.
+
+<Checklist
+  id="wind-shrine-routine"
+  title="Lista de Verificación Diaria del Santuario:"
+  items={[
+    "Busca Abejas Viento Salvajes para reabastecer Frascos de Nube.",
+    "Dona el exceso de golosinas básicas (100-500) para mantener el favor base.",
+    "Guarda las Jaleas Estelares para sesiones de potenciación importantes cuando tengas activos potenciadores de campo de 3x.",
+    "Evita donar objetos necesarios para tu próximo objetivo de elaboración (por ejemplo, guarda el Pegamento para la Máscara Gomosa).",
+    "Dona 5 Frascos de Nube en cada sesión si ya has donado un Pétalo Espiritual."
+  ]}
+/>
+
+<Callout type="tip" title="Recompensas de Miel">
+Si te falta miel, donar un Huevo de Oro o un Huevo de Plata a menudo puede devolverte millones (or incluso miles de millones para jugadores avanzados) de miel al instante, junto con vientos decentes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto favor necesito para la Abeja Viento?",
+    answer: "No hay un número exacto, pero la mayoría de los jugadores informan tener éxito después de donar entre 100 y 500 Frascos de Nube, siempre que ya hayan donado un Pétalo Espiritual. Las donaciones de mayor valor como huevos y materiales raros aceleran significativamente este proceso."
+  },
+  {
+    question: "¿Puedo recuperar mi Pétalo Espiritual si lo dono por error?",
+    answer: "No. Una vez que se dona un objeto al Santuario del Viento, se consume permanentemente. Siempre verifica dos veces tu inventario antes de confirmar una donación, especialmente con objetos raros como Pétalos o Huevos Míticos."
+  },
+  {
+    question: "¿Afecta la hora del día a las recompensas del Santuario del Viento?",
+    answer: "No hay evidencia confirmada de que la hora del juego (Día/Noche) afecte las recompensas. Sin embargo, muchos jugadores prefieren donar durante el evento de 'Beesmas' u otros períodos especiales cuando los potenciadores globales podrían estar activos."
+  },
+  {
+    question: "¿Cuál es el mejor objeto para obtener favor si soy un jugador de juego medio?",
+    answer: "Los Frascos de Nube son los mejores para obtener favor en relación con su costo. Los Pases de Hormiga y las semillas básicas también son buenos para una acumulación constante y de bajo costo de favor sin sacrificar materiales raros de elaboración."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+El Santuario del Viento es un maratón, no una carrera de velocidad. Concéntrate primero en tu equipo y trata a la Abeja Viento como un objetivo a largo plazo. Los potenciadores que obtengas en el camino compensarán con creces los objetos que sacrifiques.
+</Callout>
+
+</Section>

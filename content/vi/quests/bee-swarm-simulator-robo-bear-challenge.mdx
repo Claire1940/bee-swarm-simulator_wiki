@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Thử thách Gấu Robot trong Bee Swarm Simulator: Hướng dẫn Thiết lập & Mẹo",
+  description: "Làm chủ Thử thách Gấu Robot trong Bee Swarm Simulator. Tìm hiểu các thiết lập tổ ong tốt nhất, chiến thuật nâng cấp bánh răng và mẹo chiến đấu để đạt vòng cao vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f59e0b/fff?text=Robo+Bear+Challenge",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mục tiêu chính**: Hoàn thành các nhiệm vụ trên cánh đồng ngẫu nhiên, có giới hạn thời gian và các đợt chiến đấu để thu thập bánh răng (cog) và mua các nâng cấp tạm thời kiểu rogue-lite.
+- **Yêu cầu mở khóa**: Bạn phải sửa chữa Gấu Robot (Robo Bear) bằng bốn ổ đĩa bị hỏng (Đỏ, Xanh dương, Trắng và Lỗi/Glitched) sau khi hoàn thành các nhiệm vụ cụ thể của Gấu Khoa Học (Science Bear).
+- **Khuyến nghị tổ ong**: Một tổ ong cấp cao với khả năng chiến đấu mạnh mẽ và tạo token linh hoạt là cực kỳ quan trọng để sống sót qua các vòng sau.
+- **Chiến thuật then chốt**: Ưu tiên mua các nâng cấp tấn công và chuyển đổi bằng bánh răng thu thập được ở đầu lượt chơi để đối phó với kẻ địch mạnh dần lên.
+- **Phần thưởng hàng đầu**: Bùa hộ mệnh Gấu Robot (Robo Amulet) cấp cao và các linh kiện quan trọng cần thiết để mở khóa và nâng cấp Ong Kỹ thuật số (Digital Bee) ở giai đoạn cuối game.
+</Callout>
+
+<Section icon={Map} title="Mở khóa Thử thách Gấu Robot trong Bee Swarm Simulator">
+
+Thử thách **gấu robot trong bee swarm simulator** đại diện cho một trong những vòng lặp cuối game (endgame) tiên tiến nhất. Nằm gần Khu vực 30 Ong và khu vực Gấu Khoa Học, thử thách cơ khí này hoạt động theo cấu trúc rogue-lite, nơi người chơi phải đối mặt với độ khó leo thang qua các nhiệm vụ ngẫu nhiên và các đợt quái vật hung hãn. Trước khi có thể sử dụng Vé Gấu Robot (Robo Pass) để bắt đầu một lượt chơi, bạn phải kích hoạt lại hoàn toàn NPC Gấu Robot bị hỏng.
+
+Việc kích hoạt lại Gấu Robot yêu cầu một chuỗi nhiệm vụ nhiều giai đoạn liên kết trực tiếp với Gấu Khoa Học, người sẽ giúp bạn chế tạo và bàn giao bốn ổ đĩa màu sắc khác nhau. Những ổ đĩa này sẽ sửa chữa chương trình bị lỗi của gấu. Vì Gấu Khoa Học yêu cầu máy dịch (translator) để giao tiếp với các NPC cốt lõi khác của các phe phái, việc hoàn thành các lộ trình tiến trình cơ bản là điều kiện tiên quyết bắt buộc.
+
+| Loại ổ đĩa | Yêu cầu nhiệm vụ mở khóa chính | Chi phí nguyên liệu chính |
+|---|---|---|
+| **Ổ đĩa Đỏ** | Hoàn thành phân tích cánh đồng của Gấu Khoa Học | Chiết xuất đỏ, enzyme, keo |
+| **Ổ đĩa Xanh dương** | Thu thập token xanh dương và phấn hoa trên cánh đồng | Chiết xuất xanh dương, dầu, kim tuyến |
+| **Ổ đĩa Trắng** | Hoàn thành các nhiệm vụ thu thập chất nhầy (goo) diện rộng | Enzyme, dầu, nước uống nhiệt đới |
+| **Ổ đĩa Lỗi (Glitched)** | Kích hoạt các token lỗi cụ thể trên cánh đồng | Thạch sao, vé thử thách, quả neon |
+
+<Callout type="warning" title="Quản lý Vé">
+Mỗi lần thử thách sẽ tiêu tốn một Vé Gấu Robot (Robo Bear Pass). Mặc dù bạn nhận được một vé miễn phí hàng ngày từ máy phân phát cạnh Gấu Robot, các vé bổ sung phải được mua bằng vé thường (ticket) hoặc kiếm được thông qua các chuỗi nhiệm vụ sự kiện cấp cao. Đừng lãng phí vé của bạn nếu ong của bạn dưới cấp 12.
+</Callout>
+
+Sau khi cài đặt cả bốn ổ đĩa, Gấu Robot sẽ khởi động và cho phép truy cập vào trò chơi phụ. Mỗi lượt chơi đều bắt đầu lại từ đầu, loại bỏ tất cả các bùa lợi (buff) tạm thời từ các lần thử trước đó và buộc bạn phải xây dựng một bộ trang bị cơ khí từ con số không bằng cách sử dụng bánh răng kiếm được trong chính lượt chơi đó.
+
+</Section>
+
+<Section icon={Shield} title="Thiết lập Tổ ong và Lựa chọn Ong trước Thử thách">
+
+Thành công trong thử thách phụ thuộc rất nhiều vào cấu trúc tổ ong vĩnh viễn của bạn trước khi bước lên bệ phóng. Không giống như việc cày cuốc trên cánh đồng thông thường nơi các tổ ong chuyên biệt một màu vượt trội, thử thách này đòi hỏi khả năng thích ứng cao. Gấu Robot sẽ ngẫu nhiên hóa các mục tiêu nhiệm vụ của bạn, thường buộc một tổ ong xanh dương phải thu thập phấn hoa đỏ hoặc một tổ ong đỏ phải thu thập phấn hoa trắng trong thời gian nghiêm ngặt.
+
+Tổ ong của bạn cần một sự cân bằng tối ưu giữa lượng sát thương cấp cao, các công cụ thu thập phấn hoa nhanh chóng và khả năng tạo token ổn định. Ong chiến đấu là bắt buộc vì kẻ thù cơ khí sẽ xuất hiện trực tiếp trên các cánh đồng, chủ động tấn công nhân vật của bạn và ngăn ong của bạn thu thập phấn hoa.
+
+<CardGrid cols={3}>
+  <Card title="Tiếp cận Tổ ong Hỗn hợp">
+    - **Độ linh hoạt cao** trên tất cả các màu cánh đồng ngẫu nhiên
+    - Tạo token cân bằng cho sự tập trung (focus) và tốc độ (haste)
+    - Tiến trình dễ dàng hơn qua các vòng đầu và giữa
+  </Card>
+  <Card title="Tập trung Tấn công & Chiến đấu">
+    - Hiệu quả cao trong việc dọn dẹp Mechsquito và Cogmower
+    - Phụ thuộc nhiều vào gai của Vicious Bee và Spicy Bee
+    - Ngăn chặn quái vật làm hao hụt thời gian làm nhiệm vụ
+  </Card>
+  <Card title="Tổ ong Chuyên biệt Cuối game">
+    - Yêu cầu Bùa hộ mệnh Sao Tối cao (Supreme Star Amulet) và kích hoạt nội tại chính xác
+    - Cần rất nhiều may mắn khi quay lại (reroll) lựa chọn nhiệm vụ
+    - Mang lại tiềm năng cao nhất để vượt qua vòng 20+
+  </Card>
+</CardGrid>
+
+Để tối ưu hóa hiệu quả tổ ong của bạn trước khi kích hoạt vé, hãy xem xét các đánh giá tiện ích cụ thể của các loài ong sự kiện và ong thần thoại thiết yếu được thiết kế riêng để đối phó với các mối đe dọa cơ khí.
+
+| Loại Ong | Vai trò trong Thử thách | Đánh giá Tiện ích | Lợi ích Chính |
+|---|---|---|---|
+| **Vicious Bee** | Sát thương chính | ★★★★★ | Giảm thời gian xuất hiện của quái vật và gây sát thương đâm xuyên khổng lồ |
+| **Tabby Bee** | Thu thập chí mạng | ★★★★★ | Tỷ lệ chuyển đổi tối đa và chỉ số thu thập cơ bản cao ở mức yêu thương tối đa |
+| **Digital Bee** | Tương tác hệ thống | ★★★★☆ | Nhân bản các token kỹ năng và hack các mục tiêu cơ khí |
+| **Music Bee** | Hỗ trợ Token | ★★★★☆ | Duy trì thời gian hoạt động tối đa cho bùa lợi giai điệu (melody) và tập trung chí mạng (focus) |
+| **Buoyant Bee** | Mở rộng Sức chứa | ★★★★☆ | Tạo bóng bay để trữ phấn hoa dư thừa trong các đợt sản lượng cao |
+
+<Callout type="tip" title="Kiểm tra Cấp độ">
+Cấp độ ong là yếu tố quan trọng nhất để vượt qua hình phạt giảm độ chính xác trước quái vật cơ khí ở các vòng cao. Nếu tổ ong của bạn dưới cấp 12, ong của bạn sẽ thường xuyên đánh trượt, làm đình trệ tiến trình nhiệm vụ. Hãy hướng tới một tổ ong cấp 14+ được tặng quà (gifted) hoàn toàn để có phần thưởng cấp cao ổn định.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến thuật Tiến trình từng Vòng">
+
+Mỗi lượt chơi của **thử thách gấu robot trong bee swarm simulator** tuân theo một vòng lặp có cấu trúc được chia thành các giai đoạn riêng biệt: chọn nhiệm vụ, chọn cánh đồng bắt đầu, thu hoạch phấn hoa trong khi chiến đấu với kẻ thù cơ khí, và chi tiêu bánh răng kiếm được tại cửa hàng nâng cấp trước khi vòng tiếp theo bắt đầu.
+
+Quản lý thời gian hiệu quả trong các vòng đầu sẽ đặt nền móng để sống sót qua sự gia tăng độ khó khắc nghiệt ở các giai đoạn sau. Nếu bạn hoàn thành một vòng nhanh chóng, thời gian còn lại sẽ được chuyển đổi thành bánh răng thưởng, điều này rất quan trọng để mua các nâng cấp cơ khí cao cấp.
+
+<Steps>
+  <Step num="1" title="Lựa chọn và Đánh giá Nhiệm vụ">
+    Đánh giá ba nhiệm vụ ngẫu nhiên do Gấu Robot đưa ra. Tìm kiếm các cánh đồng nơi bạn có các chỉ số tăng cường trang bị vĩnh viễn hoặc các cánh đồng phù hợp với màu tổ ong hiện tại của bạn. Tránh các nhiệm vụ yêu cầu lượng lớn chất nhầy (goo) trừ khi bạn đã trang bị Mặt nạ Kẹo dẻo (Gummy Mask).
+  </Step>
+  <Step num="2" title="Tăng tốc Đầu trận (Vòng 1-5)">
+    Tập trung vào tốc độ tuyệt đối. Quái vật trong các vòng này có lượng máu thấp. Hãy dọn dẹp chúng ngay lập tức bằng dụng cụ thu thập của bạn và để ong của bạn thu thập phấn hoa ngay lập tức. Đừng vội sử dụng các vật phẩm tiêu hao mạnh như máy chuyển đổi siêu tốc (micro-converter); hãy tiết kiệm chúng cho sau này.
+  </Step>
+  <Step num="3" title="Gia tăng Giữa trận (Vòng 6-10)">
+    Kẻ thù cơ khí như Cogmower bắt đầu xuất hiện với cơ chế lá chắn. Luôn giữ cộng dồn token tập trung (focus) ở mức 5 để tối đa hóa cơ hội chí mạng. Hãy sử dụng vòi phun nước (sprinkler) ngay khi bước vào cánh đồng được chỉ định để duy trì sự phát triển của hoa.
+  </Step>
+  <Step num="4" title="Sống sót Cuối trận (Vòng 11+)">
+    Các nhiệm vụ giờ đây yêu cầu hàng chục triệu phấn hoa trong khoảng thời gian hẹp. Hãy luân chuyển giữa các cánh đồng đang hoạt động nếu nhiệm vụ của bạn cho phép, và sử dụng các vật phẩm có giá trị cao như xúc xắc cánh đồng (field dice) hoặc nước uống nhiệt đới để khuếch đại hệ số thu thập cơ bản của bạn.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Kinh tế Bánh răng">
+Đừng tích trữ bánh răng của bạn. Bánh răng không được cộng dồn giữa các lượt chơi thử thách. Chi tiêu chúng cho các nâng cấp tức thời như sức tấn công của ong, tốc độ di chuyển của người chơi hoặc tỷ lệ chuyển đổi tức thì luôn tốt hơn là tiết kiệm cho một nâng cấp đắt đỏ mà bạn có thể không sống sót để mua.
+</Callout>
+
+Để tối ưu hóa lựa chọn nâng cấp của bạn giữa các vòng, hãy tham khảo bảng ưu tiên này để quyết định nơi đầu tư lượng bánh răng tích lũy được.
+
+| Danh mục Nâng cấp | Thời điểm Mua Lý tưởng | Mức độ Ưu tiên | Lý do Chiến thuật |
+|---|---|---|---|
+| **Sức tấn công của Ong** | Vòng 1 đến 4 | Cao | Tăng tốc dọn dẹp quái vật để đảm bảo phần thưởng thời gian đầu trận |
+| **Chuyển đổi Tức thì** | Vòng 5 đến 9 | Rất cao | Ngăn ba lô bị đầy, giảm thiểu số lần phải quay lại tổ |
+| **Hệ số nhân Phấn hoa** | Vòng 3 đến 7 | Trung bình | Giúp nhanh chóng hoàn thành yêu cầu lượng lớn phấn hoa trắng hoặc đỏ |
+| **Token Quay lại (Reroll)** | Khi cần thiết | Tùy tình huống | Cần thiết khi bị kẹt với các lựa chọn cánh đồng tồi tệ ở các vòng cao |
+
+</Section>
+
+<Section icon={Swords} title="Đánh bại Kẻ thù Cơ khí và các Đợt tấn công của Phe phái">
+
+Chiến đấu trong thử thách khác biệt đáng kể so với việc săn bọ thông thường trên các cánh đồng ở thế giới chính. Quái vật cơ khí tăng dần về máu, phòng thủ và sát thương sau mỗi vòng trôi qua. Hơn nữa, một số vòng nhất định sẽ kích hoạt các đợt tấn công chuyên biệt của phe phái, sản sinh ra đội quân kẻ thù theo chủ đề cụ thể có thể phá vỡ hoàn toàn tiến trình cày cuốc của bạn.
+
+Hiểu rõ các dấu hiệu tấn công của kẻ thù và ưu tiên các mục tiêu sẽ đảm bảo nhân vật của bạn không bị nhận sát thương chí mạng, điều này sẽ gây ra hình phạt trừ thời gian nghiêm trọng vào đồng hồ nhiệm vụ đang hoạt động của bạn.
+
+| Tên Kẻ thù | Hành vi Tấn công Chính | Điểm yếu / Chiến thuật Đối phó |
+|---|---|---|
+| **Mechsquito** | Tấn công bay tầm xa làm tiêu hao máu người chơi | Cộng dồn tập trung (focus) cao và các cú đánh chất nhờn ếch chính xác |
+| **Cogmower** | Các đường lao tới nhanh chóng phá hủy hoa trên cánh đồng | Né tránh theo hướng vuông góc và triển khai gai cấp cao |
+| **Robo Ant** | Bu đông người chơi với số lượng lớn để chặn di chuyển | Các token bom tỏa tròn và các cánh đồng lửa cấp cao |
+| **Mega Cogmower** | Lượng máu khổng lồ với các cú dậm chân diện rộng | Yêu cầu các đòn tấn công liên tục của ong cấp 15+ và ngòi chích (stinger) |
+
+<Callout type="warning" title="An toàn của Nhân vật">
+Nếu máu của nhân vật giảm về 0 trong một vòng thử thách, bạn không bị thất bại ngay lập tức, nhưng bạn sẽ bị trừ một lượng lớn 30 giây vào thời gian còn lại của vòng đó. Hãy liên tục di chuyển theo hình tròn quanh các cạnh của cánh đồng để tránh bị dồn vào góc bởi các Cogmower đang lao tới.
+</Callout>
+
+Khi đối phó với các biến thể Vàng (Golden) hoặc Lỗi (Glitched) của các đơn vị cơ khí này, hãy ưu tiên sử dụng các vật phẩm tiêu hao tăng cường chiến đấu. Kích hoạt một ngòi chích (stinger) duy nhất khi bắt đầu một đợt chiến đấu căng thẳng sẽ mang lại cho toàn bộ tổ ong của bạn một lượng lớn xuyên giáp, giúp ong của bạn vượt qua lớp giáp cơ khí một cách hiệu quả.
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách Cột mốc và Phần thưởng Bùa hộ mệnh Gấu Robot">
+
+Mục tiêu tối thượng của việc tham gia thử thách thường xuyên là tối ưu hóa hồ sơ trang bị cơ khí của bạn và đảm bảo có được Bùa hộ mệnh Gấu Robot (Robo Amulet) cấp cao. Những bùa hộ mệnh này chiếm một ô trang bị duy nhất, cung cấp các chỉ số tăng cường vĩnh viễn cho sức chứa, sức mạnh chí mạng và các hướng tấn công cụ thể của ong.
+
+Hoàn thành các vòng cao hơn sẽ trực tiếp mang lại các chỉ số bùa hộ mệnh tốt hơn, mở khóa các khả năng nội tại hiếm gặp mô phỏng cơ chế bùa hộ mệnh sao tối cao ở quy mô nhỏ hơn.
+
+<Checklist
+  id="robo-challenge-milestones"
+  title="Các cột mốc hiệu suất cần hướng tới:"
+  items={[
+    "Đạt Vòng 5 để nhận Bùa hộ mệnh Gấu Robot Đồng đầu tiên của bạn",
+    "Hoàn thành Vòng 10 để mở khóa các nâng cấp bậc Bạc và giảm giá vĩnh viễn tại cửa hàng bánh răng",
+    "Sống sót qua Vòng 15 để kiếm Bùa hộ mệnh Gấu Robot Vàng và các ổ đĩa Ong Kỹ thuật số hiếm",
+    "Chinh phục Vòng 20+ để nhận các biến thể Kim cương/Tối cao và các nguyên liệu chế tạo cuối game ưu tú"
+  ]}
+/>
+
+<Callout type="success" title="Tiến trình Ong Kỹ thuật số">
+Mỗi lượt chơi thành công sẽ thưởng cho bạn các chip dữ liệu chuyên biệt tùy thuộc vào vòng cao nhất bạn hoàn thành. Hãy nạp trực tiếp các chip này vào thiết bị lõi máy tính để mở khóa Ong Kỹ thuật số hoặc nâng cấp khả năng hack vĩnh viễn của nó cho các lượt chơi thử thách trong tương lai.
+</Callout>
+
+Sử dụng tham chiếu dữ liệu sau để theo dõi các biến động chỉ số tiềm năng có sẵn trên Bùa hộ mệnh Gấu Robot qua các bậc hiệu suất khác nhau.
+
+| Bậc Bùa hộ mệnh | Vòng tối thiểu yêu cầu | Chỉ số cơ bản được đảm bảo | Nội tại hiếm có thể nhận được |
+|---|---|---|---|
+| **Đồng** | Vòng 5 | +5% Sức chứa, +2% Tấn công của Ong | Không có |
+| **Bạc** | Vòng 10 | +10% Sức chứa, +5% Tấn công của Ong | Tăng cường cánh đồng nhỏ |
+| **Vàng** | Vòng 15 | +15% Sức chứa, +7% Tấn công của Ong, +3% Tỷ lệ Chí mạng | Nội tại Phấn hoa một màu |
+| **Kim cương** | Vòng 20 | +20% Sức chứa, +10% Tấn công của Ong, +5% Tỷ lệ Chí mạng | Nội tại Tương tác hai màu |
+| **Tối cao** | Vòng 25 | +25% Sức chứa, +15% Tấn công của Ong, +8% Tỷ lệ Chí mạng | Chúa tể Bánh răng / Sao chép kỹ thuật số |
+
+</Section>
+
+<Section icon={Sparkles} title="Câu hỏi thường gặp về Thử thách Gấu Robot">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để tôi có thêm Vé Gấu Robot một cách hiệu quả?",
+    answer: "Bạn nhận được một vé miễn phí mỗi 22 giờ từ máy phân phát cạnh Gấu Robot. Các vé bổ sung có thể được mua trong cửa hàng vé hoặc kiếm được bằng cách hoàn thành các chuỗi nhiệm vụ sự kiện theo mùa trong các bản cập nhật đặc biệt."
+  },
+  {
+    question: "Tôi có thể sử dụng các bùa tăng cường cánh đồng từ thế giới chính bên trong thử thách không?",
+    answer: "Không. Tất cả các tăng cường cánh đồng bên ngoài, bùa lợi vật phẩm và hệ số nhân tạm thời sẽ tự động bị tạm dừng và loại bỏ khi bạn vào bản đồ thử thách. Bạn phải xây dựng các bùa lợi của mình hoàn toàn từ đầu bằng cách sử dụng cửa hàng bánh răng trong trò chơi."
+  },
+  {
+    question: "Tôi nên làm gì nếu nhận được nhiệm vụ cho một màu cánh đồng trùng với những con ong yếu của mình?",
+    answer: "Hãy sử dụng các token Quay lại Bánh răng (Cog Reroll) ngay lập tức. Nếu bạn không có sẵn lượt quay lại, hãy ưu tiên mua các nâng cấp chuyển đổi tức thì từ cửa hàng để giảm thiểu thời gian di chuyển trở lại tổ của bạn để đổ phấn hoa."
+  },
+  {
+    question: "Độ khó của thử thách gấu robot trong bee swarm simulator có tăng theo cấp độ tổ ong của tôi không?",
+    answer: "Không, độ khó cơ bản và các thông số gia tăng của kẻ thù là hoàn toàn cố định. Điều này có nghĩa là thử thách sẽ tự nhiên trở nên dễ dàng hơn khi bạn nâng cấp ong của mình lên vĩnh viễn và có được các thiết bị cuối game mạnh hơn ở thế giới chính."
+  }
+]} />
+
+<Callout type="tip" title="Tóm tắt Cuối cùng">
+Hãy tiếp cận thử thách này như một cuộc chạy marathon thay vì một cuộc đua nước rút. Tập trung vào việc hoàn thiện cơ chế di chuyển của bạn, tối ưu hóa thói quen chi tiêu bánh răng đầu trận và từ từ nâng cấp cấp độ tổ ong của bạn để liên tục chạm tới các bậc phần thưởng cuối game.
+</Callout>
+
+</Section>

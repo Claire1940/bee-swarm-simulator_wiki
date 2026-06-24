@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Puffshrooms: Hướng dẫn cày cuốc & Cấp độ hiếm năm 2026",
+  description: "Làm chủ nấm puffshroom trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu cơ chế xuất hiện, cấp độ hiếm, phần thưởng và cách xây dựng tổ ong tốt nhất để cày cuốc hiệu quả.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f6c518/000?text=Puffshroom+Farming+Guide",
+  date: "2026-06-24",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Nấm puffshroom trong Bee Swarm Simulator** là các thực thể tương tác xuất hiện trên các cánh đồng, yêu cầu người chơi phải "làm nổ" (pop) chúng để nhận phần thưởng cấp cao.
+- **Thời gian xuất hiện**: Xuất hiện tự nhiên vào phút thứ **15 và 45** mỗi giờ tại khu vực 15 ong.
+- **Tỷ lệ độ hiếm**: Puffshroom có độ hiếm từ Thường (Common) đến Thần thoại (Mythic), với độ hiếm cao hơn xuất hiện khi chúng lan sang các cánh đồng khác.
+- **Chiến thuật tốt nhất**: Sử dụng **Vicious Bee** và **Precise Bee** cấp cao để tối đa hóa sát thương và làm nổ nấm trước khi hết thời gian.
+- **Lựa chọn hàng đầu**: Các chậu cây (Planter) như **Pesticide Planter** hoặc **Ticket Planter** là rất cần thiết để kích hoạt các đợt săn puffshroom có kiểm soát.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu về Puffshroom trong Bee Swarm Simulator">
+
+**Nấm puffshroom trong Bee Swarm Simulator** đại diện cho một trong những cơ chế năng động nhất ở giai đoạn giữa đến cuối game trong trải nghiệm thu thập ong hàng đầu của Roblox. Không giống như những bông hoa tĩnh, puffshroom là các thực thể có giới hạn thời gian đòi hỏi sự tham gia tích cực. Khi một puffshroom bị nổ, nó sẽ giải phóng các bào tử có thể "lây nhiễm" sang các cánh đồng lân cận, tạo ra một phản ứng dây chuyền xuất hiện các nấm mới với cấp độ và độ hiếm tăng dần.
+
+Để thành công trong một đợt săn puffshroom, người chơi phải cân bằng giữa việc thu thập phấn hoa và gây sát thương thuần túy. Khi bạn tiến triển từ việc leo núi ban đầu (10-25 con ong) vào lộ trình chế tạo giữa game (35-45 con ong), puffshroom trở thành nguồn cung cấp chính cho các nguyên liệu quý hiếm như **Sáp cứng (Hard Wax)**, **Sáp xoáy (Swirled Wax)**, và **Quả neon (Neonberries)**.
+
+| Cấp độ hiếm | Màu sắc | Độ khó | Phần thưởng chính |
+| :--- | :--- | :--- | :--- |
+| **Thường (Common)** | Nâu/Rám nắng | Rất thấp | Mật ong, Việt quất, Dâu tây |
+| **Hiếm (Rare)** | Xanh lá | Thấp | Sáp mềm (Soft Wax), Kẹo dẻo (Gumdrops), Vé (Tickets) |
+| **Sử thi (Epic)** | Vàng/Vàng kim | Trung bình | Sáp cứng (Hard Wax), Enzyme, Dầu (Oil) |
+| **Huyền thoại (Legendary)** | Xanh lam sáng | Cao | Sáp xoáy (Swirled Wax), Kim tuyến (Glitter), Thạch sao (Star Jelly) |
+| **Thần thoại (Mythic)** | Tím/Hồng | Cực hạn | Sáp ăn mòn (Caustic Wax), Trứng thần thoại (Mythic Eggs), Bánh quy sao (Star Treats) |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Luôn kiểm tra đồng hồ! Các đợt xuất hiện tự nhiên diễn ra chính xác vào mốc 15 phút và 45 phút. Việc đứng sẵn ở khu vực 15 ong (gần cánh đồng Hoa hồng hoặc Cây thông) giúp bạn đón đầu đợt bùng phát đầu tiên ngay lập tức.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Làm chủ cơ chế xuất hiện của Puffshroom">
+
+Hành vi của **nấm puffshroom trong Bee Swarm Simulator** được chi phối bởi cơ chế "lan truyền". Khi thanh máu của puffshroom về 0, nó sẽ biến mất và có cơ hội xuất hiện 1-3 puffshroom mới ở cùng một cánh đồng hoặc các cánh đồng lân cận. Mỗi lần "nhảy" này có khả năng làm tăng cấp độ của nấm, khiến nó khó nổ hơn nhưng phần thưởng lại lớn hơn đáng kể.
+
+<CardGrid cols={3}>
+  <Card title="Xuất hiện tự nhiên">
+    Diễn ra hai lần một giờ. Đây là cách tốt nhất để cày cuốc thông thường và hoàn thành các nhiệm vụ hàng ngày của **Gấu Khoa Học (Science Bear)** hoặc **Gấu Tâm Linh (Spirit Bear)**.
+  </Card>
+  <Card title="Xuất hiện từ chậu cây">
+    Kích hoạt khi một chậu cây (như Red Clay hoặc Blue Hydro) phát triển hoàn tất. Điều này cho phép cày cuốc mục tiêu ở các cánh đồng cụ thể.
+  </Card>
+  <Card title="Sự kiện đặc biệt">
+    Trong suốt sự kiện **Beesmas**, tỷ lệ xuất hiện và cơ hội nhận puffshroom hiếm thường được tăng cường, khiến đây là thời điểm tối ưu để cày cuốc nguyên liệu giai đoạn cuối game.
+  </Card>
+</CardGrid>
+
+| Loại cánh đồng | Hệ số nhân cấp độ | Cấp độ ong khuyến nghị | Màu tổ ong tốt nhất |
+| :--- | :--- | :--- | :--- |
+| **Cánh đồng khởi đầu** | 1.0x | Cấp 5-8 | Hỗn hợp (Mixed) |
+| **Khu vực 10 ong** | 1.5x | Cấp 8-10 | Hỗn hợp / Xanh lam (Blue) |
+| **Khu vực 15 ong** | 2.0x | Cấp 10-12 | Đỏ (Red) / Trắng (White) |
+| **Khu vực 25 ong** | 3.0x | Cấp 12 trở lên | Chuyên biệt (Specialized) |
+
+<Callout type="warning" title="Cảnh báo">
+Puffshroom có thời gian biến mất nghiêm ngặt (thường từ 30-90 giây). Nếu bạn không kịp làm nổ một cây nấm có độ hiếm cao, toàn bộ chuỗi lan truyền trên cánh đồng đó sẽ kết thúc. Hãy ưu tiên nấm Sử thi (Epic) và Huyền thoại (Legendary) hơn nấm Thường (Common)!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cách xây dựng tổ ong tốt nhất để cày Puffshroom">
+
+Khả năng dọn dẹp **nấm puffshroom trong Bee Swarm Simulator** phụ thuộc rất lớn vào đội hình tổ ong của bạn. Mặc dù **Tổ ong hỗn hợp (Mixed Hive)** rất tốt cho tiến trình ban đầu, nhưng các cách xây dựng chuyên biệt ở cuối game lại vượt trội hơn trong việc làm nổ các loại nấm cấp cao.
+
+- **Tổ ong Đỏ (Red Hives)**: Những vị vua tuyệt đối về sát thương puffshroom. Sự kết hợp giữa **Precise Bee** (Dấu mục tiêu) và **Spicy Bee** (Ngọn lửa) cung cấp lượng sát thương bùng nổ cần thiết cho nấm cấp 15+.
+- **Tổ ong Xanh (Blue Hives)**: Mặc dù chúng có sức chứa lớn nhờ **Buoyant Bees**, chúng thường thiếu sát thương DPS thuần túy như tổ ong Đỏ. Người chơi hệ Xanh nên tập trung vào việc lập đội với những người khác để hỗ trợ.
+- **Tổ ong Trắng (White Hives)**: Tuyệt vời trong việc cày cuốc bền bỉ. **Vector Bees** và **Fuzzy Bees** giúp dọn dẹp cánh đồng nhanh chóng, đảm bảo các bào tử có nhiều không gian để đáp xuống.
+
+| Loại ong | Vai trò trong cày Puffshroom | Độ ưu tiên |
+| :--- | :--- | :--- |
+| **Vicious Bee** | Sát thương quái vật/thực thể khổng lồ qua Impale | **Cực kỳ quan trọng** |
+| **Precise Bee** | Sát thương bùng nổ cao qua Target Practice | **Cao** |
+| **Fuzzy Bee** | Thụ phấn cho hoa để tăng hiệu quả của ong | **Trung bình** |
+| **Lion Bee** | Sức tấn công cơ bản cao giúp làm nổ nhanh hơn | **Đầu game** |
+| **Digital Bee** | Tiện ích nâng cao cuối game và nhân bản kỹ năng | **Cuối game** |
+
+<Callout type="success" title="Chiến thuật thành công">
+Sử dụng **Gai ong (Stinger)** trong khi puffshroom Huyền thoại hoặc Thần thoại xuất hiện sẽ tăng 50% sức tấn công của ong, đây có thể là yếu tố quyết định giữa việc làm nổ thành công hay để nấm biến mất.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lộ trình cày Puffshroom từng bước">
+
+Để tối đa hóa hiệu quả cày **nấm puffshroom trong Bee Swarm Simulator**, hãy làm theo lộ trình cày cuốc tối ưu năm 2026 này. Phương pháp này đảm bảo bạn bao phủ được nhiều diện tích nhất và giữ cho "chuỗi bào tử" tồn tại lâu nhất có thể.
+
+<Steps>
+  <Step num="1" title="Chuẩn bị và Nhận buff">
+    Trước mốc 15 hoặc 45 phút, hãy đến Cửa hàng Đỉnh núi (Mountain Top Shop). Đảm bảo **Gậy Porcelain Dipper** của bạn đã sẵn sàng và sử dụng **Chiết xuất Đỏ/Xanh (Red/Blue Extract)** nếu bạn chơi chuyên biệt. Kiểm tra xem **Vicious Bee** của bạn đã được nghỉ ngơi và sẵn sàng chiến đấu chưa.
+  </Step>
+  <Step num="2" title="Chờ sẵn đợt xuất hiện đầu tiên">
+    Đứng ở **Khu vực 15 ong** (Cánh đồng Hoa hồng, Cây thông hoặc Xương rồng). Ngay khi puffshroom xuất hiện, hãy tập trung vào những cây nhỏ nhất trước để kích hoạt cơ chế "lan truyền" nhanh chóng.
+  </Step>
+  <Step num="3" title="Đuổi theo các bào tử">
+    Quan sát các bào tử màu xanh lá bay trong không trung. Chúng sẽ hạ cánh ở các cánh đồng lân cận. Hãy đi theo chúng ngay lập tức. Nếu bào tử rơi vào **Cánh đồng Dừa (Coconut Field)** hoặc **Vườn Ớt (Pepper Patch)**, hãy ưu tiên những nơi đó vì chúng cung cấp hệ số nhân cấp độ cao hơn.
+  </Step>
+  <Step num="4" title="Ưu tiên độ hiếm hơn số lượng">
+    Nếu xuất hiện một puffshroom **Sử thi (Vàng)** hoặc **Huyền thoại (Xanh lam)**, hãy bỏ qua tất cả nấm Thường trong cánh đồng. Hãy gọi những người chơi khác trong máy chủ giúp đỡ nếu thanh máu của nấm giảm chậm.
+  </Step>
+  <Step num="5" title="Thu thập vật phẩm">
+    Khi hết giờ hoặc tất cả nấm đã bị nổ, một đống vật phẩm sẽ xuất hiện. Đừng quên đi qua nó để nhặt! Phần thưởng sẽ tỷ lệ thuận với cây nấm có độ hiếm cao nhất mà bạn đã làm nổ trong đợt đó.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Quan trọng">
+**Ticket Planter** có một cơ chế ẩn đảm bảo cơ hội nhận puffshroom Sử thi cao hơn khi thu hoạch ở cánh đồng Hướng dương hoặc Bồ công anh.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Phần thưởng và Danh sách kiểm tra tiến trình">
+
+Cày **nấm puffshroom trong Bee Swarm Simulator** không chỉ để giải trí; đây là yêu cầu bắt buộc đối với các trang bị cuối game như **Coconut Canister** và **Gummy Boots**. Hãy sử dụng danh sách kiểm tra sau để theo dõi các mục tiêu chế tạo liên quan đến vật phẩm rơi ra từ puffshroom.
+
+<Checklist
+  id="puffshroom-rewards"
+  title="Mục tiêu chế tạo từ Puffshroom:"
+  items={[
+    "Thu thập 50 Sáp cứng (Hard Wax) cho Thắt lưng tổ ong (Honeycomb Belt)",
+    "Nhận 5 Sáp xoáy (Swirled Wax) từ Puffshroom Huyền thoại",
+    "Cày 100 Quả neon (Neonberries) để reset Đột biến",
+    "Làm nổ một Puffshroom cấp 12 cho các nhiệm vụ cuối game của Gấu Khoa Học",
+    "Thu thập 250 Việt quất/Dâu tây để chế tạo Chiết xuất"
+  ]}
+/>
+
+| Vật phẩm | Rơi ra từ | Cách sử dụng |
+| :--- | :--- | :--- |
+| **Sáp mềm (Soft Wax)** | Puffshroom Thường/Hiếm | Chế tạo trang bị cơ bản / Nâng cấp chậu cây |
+| **Sáp cứng (Hard Wax)** | Puffshroom Sử thi trở lên | Mặt nạ và thắt lưng giữa game |
+| **Sáp xoáy (Swirled Wax)** | Puffshroom Huyền thoại trở lên | Công cụ thu thập cuối game (Tide Popper/Dark Scythe) |
+| **Sáp ăn mòn (Caustic Wax)** | Puffshroom Thần thoại | Các nâng cấp cuối game đắt đỏ nhất |
+
+<Callout type="tip" title="Mẹo chế tạo">
+Nếu bạn đang gặp khó khăn trong việc tìm Sáp xoáy, hãy tập trung vào việc làm nổ puffshroom ở **Rừng Cây Thông (Pine Tree Forest)**. Mật độ cấp độ ở đó thường dẫn đến việc xuất hiện nhiều puffshroom Huyền thoại hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Puffshroom trong Bee Swarm Simulator có xuất hiện ở mọi cánh đồng không?",
+    answer: "Không. Puffshroom không xuất hiện trong Thử thách Kiến (Ant Challenge), khu vực Trung tâm (Hub), hoặc khu vực Gấu Ong (Bear Bee). Chúng chủ yếu xuất hiện ở các cánh đồng thuộc khu vực 15 ong và 25 ong."
+  },
+  {
+    question: "Làm thế nào để tăng cấp độ của puffshroom khi chúng xuất hiện?",
+    answer: "Cấp độ của puffshroom tăng lên khi chúng lan truyền. Để có cấp độ cao hơn, bạn phải làm nổ chúng thật nhanh để chúng có thời gian nhảy nhiều lần trước khi thời gian sự kiện toàn cầu 5 phút kết thúc."
+  },
+  {
+    question: "Chậu cây nào tốt nhất cho puffshroom?",
+    answer: "Pesticide Planter được coi là chậu cây tốt nhất cho puffshroom vì nó kích hoạt một sự kiện xuất hiện hàng loạt khi thu hoạch, thường tạo ra nấm có độ hiếm cao hơn so với xuất hiện tự nhiên."
+  },
+  {
+    question: "Tôi có thể cày puffshroom một mình (solo) không?",
+    answer: "Có, nhưng sẽ khó hơn nhiều. Máu của puffshroom tỷ lệ thuận với số lượng người chơi ở gần, nhưng việc có một đội nhóm sẽ cho phép bạn bao phủ nhiều cánh đồng khi các bào tử lan truyền, đảm bảo không bỏ sót bất kỳ cây nấm hiếm nào."
+  }
+]} />
+
+</Section>
