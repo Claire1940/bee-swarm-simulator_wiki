@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Bee Swarm Simulator Wiki - Codes, Bees & Hive Guide",
+      "description": "Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, items, fields, events, stickers, and beginner guides for Roblox players.",
+      "keywords": "Bee Swarm Simulator, Roblox, codes, bees, hive, quests, items, stickers, guide",
+      "ogTitle": "Bee Swarm Simulator Wiki - Codes, Bees & Hive Guide",
+      "ogDescription": "Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, items, fields, events, stickers, and beginner guides for Roblox players.",
+      "twitterTitle": "Bee Swarm Simulator Wiki - Codes, Bees & Hive Guide",
+      "twitterDescription": "Complete Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, stickers, and beginner guides for Roblox players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox Bee Collecting Simulator",
+    "title": "Bee Swarm Simulator Wiki",
+    "description": "Grow your bee swarm, collect pollen, make honey, complete bear quests, unlock new zones, build better hives, trade stickers, and use codes for boosts.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4B+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "18M+",
+        "label": "Club Members"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "15K+",
+        "label": "Players Online"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "6",
+        "label": "Server Size"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Grow Your Bee Swarm?",
+    "description": "Join the Bee Swarm Simulator community on Discord for codes, guides, hive builds, and the latest event updates!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Bee Swarm Simulator Wiki",
+    "description": "Your complete resource hub for Bee Swarm Simulator codes, bees, hive builds, quests, stickers, events, and beginner guides for Roblox players.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Bee Swarm Simulator Wiki. Not affiliated with Onett or Roblox Corporation.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
