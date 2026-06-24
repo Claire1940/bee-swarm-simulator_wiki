@@ -158,13 +158,13 @@ export default function HomePageClient({
       },
       {
         "@type": "VideoObject",
-        name: "LUCID BLOCKS | AVAILABLE NOW",
+        name: "Noob to Pro in Bee Swarm Simulator - The PERFECT START! (Episode 1)",
         description:
-          "Official Lucid Blocks video featuring the Steam launch trailer and gameplay preview.",
-        uploadDate: "2026-03-12",
+          "Bee Swarm Simulator gameplay showcase covering the perfect start: collecting pollen, hatching bees, completing bear quests, and building your first hive on Roblox.",
+        uploadDate: "2025-08-09",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
-        embedUrl: "https://www.youtube.com/embed/7C7fybRM_No",
-        url: "https://www.youtube.com/watch?v=7C7fybRM_No",
+        embedUrl: "https://www.youtube.com/embed/dbzWAawMC-o",
+        url: "https://www.youtube.com/watch?v=dbzWAawMC-o",
       },
     ],
   };
@@ -267,24 +267,24 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-6xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="dbzWAawMC-o"
+              title="Noob to Pro in Bee Swarm Simulator - The PERFECT START! (Episode 1)"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Latest Updates Section */}
       <LatestGuidesAccordion
         articles={latestArticles}
         locale={locale}
         max={12}
       />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">

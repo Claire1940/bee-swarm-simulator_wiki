@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Bee Swarm Simulator Wiki - Codes, Bees & Hive Guide",
+  "short_name": "Bee Swarm Wiki",
+  "description": "Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, items, fields, events, stickers, and beginner guides for Roblox players.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f6c518",
+  "background_color": "#0a0f1c",
+  "lang": "en",
+  "categories": ["games", "education", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
