@@ -22,6 +22,7 @@ import {
   Heart,
   Home,
   Layers,
+  Lightbulb,
   MessageCircle,
   Package,
   PawPrint,
@@ -31,6 +32,7 @@ import {
   Sparkles,
   Sprout,
   Star,
+  Store,
   Sword,
   ToyBrick,
   TrendingUp,
@@ -736,6 +738,12 @@ export default function HomePageClient({
                   <p className="text-sm text-[hsl(var(--nav-theme-light))]">
                     {build.bestFor}
                   </p>
+                  {build.decisionNote && (
+                    <div className="flex items-start gap-2 mt-3 pt-3 border-t border-border/60">
+                      <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground italic">{build.decisionNote}</p>
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -791,6 +799,12 @@ export default function HomePageClient({
                       </span>
                     ))}
                   </div>
+                  {bear.routeNote && (
+                    <div className="flex items-start gap-2 mt-3 pt-3 border-t border-border/60">
+                      <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground italic">{bear.routeNote}</p>
+                    </div>
+                  )}
                 </div>
               );
             })}
@@ -827,6 +841,12 @@ export default function HomePageClient({
                       <span className="text-xs text-muted-foreground">
                         {item.type}
                       </span>
+                      {item.storeArea && (
+                        <span className="flex items-center gap-1 text-xs text-muted-foreground mt-1">
+                          <Store className="w-3 h-3" />
+                          {item.storeArea}
+                        </span>
+                      )}
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground mb-2">
@@ -839,6 +859,12 @@ export default function HomePageClient({
                     <span className="font-medium text-foreground">Best for: </span>
                     {item.bestFor}
                   </p>
+                  {item.buyingNote && (
+                    <div className="flex items-start gap-2 mt-3 pt-3 border-t border-border/60">
+                      <Lightbulb className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <p className="text-xs text-muted-foreground italic">{item.buyingNote}</p>
+                    </div>
+                  )}
                 </div>
               );
             })}

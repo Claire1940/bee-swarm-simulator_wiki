@@ -406,65 +406,37 @@
           "build": "Mixed Hive",
           "stage": "Early game to mid game",
           "playstyle": "Flexible questing across red, blue, and white pollen tasks",
-          "coreBees": [
-            "A balanced mix of red, blue, white, utility, and gifted bees",
-            "Event bees with strong general utility",
-            "Bees that help with tokens, focus, haste, melody, and baby love"
-          ],
-          "gearFocus": [
-            "General-purpose backpacks and collectors",
-            "Quest-friendly masks and mid-game shop gear",
-            "Do not overcommit to one color before major questlines and amulet progress"
-          ],
-          "bestFor": "Players still completing bear quests, unlocking gates, building gifted bee bonuses, and collecting broad resources."
+          "coreBees": ["A balanced mix of red, blue, white, utility, and gifted bees", "Event bees with strong general utility", "Bees that help with tokens, focus, haste, melody, baby love, bombs, and marks"],
+          "gearFocus": ["General-purpose backpacks and collectors", "Quest-friendly masks and mid-game shop gear", "Avoid overcommitming to one color before major questlines and amulet progress"],
+          "bestFor": "Players still completing bear quests, unlocking gates, building gifted bee bonuses, and collecting broad resources.",
+          "decisionNote": "Stay mixed until your account has enough permanent bonuses, gifted types, and gear options to support a full color path."
         },
         {
           "build": "Blue Hive",
           "stage": "Late game and endgame farming path",
           "playstyle": "Long farming sessions, high capacity, balloon-style storage, and steady honey gains",
-          "coreBees": [
-            "Tadpole Bee and Buoyant Bee",
-            "Bubble-focused bees",
-            "Gifted blue-support bees"
-          ],
-          "gearFocus": [
-            "Diamond Mask",
-            "Blue pollen and capacity upgrades",
-            "Tide Popper path for advanced blue progression"
-          ],
-          "bestFor": "Players who prefer longer farming sessions, capacity scaling, and blue-heavy routes such as Pine Tree Forest."
+          "coreBees": ["Tadpole Bee", "Buoyant Bee", "Bubble-focused bees", "Gifted blue-support bees", "Utility bees for token uptime and buffs"],
+          "gearFocus": ["Diamond Mask", "Blue pollen and capacity upgrades", "Tide Popper path for advanced blue progression", "Pop Star-style amulet play"],
+          "bestFor": "Players who prefer longer farming sessions, capacity scaling, and blue-field farming such as Pine Tree Forest or other blue-heavy routes.",
+          "decisionNote": "Blue is usually the most forgiving color path for long farming, but it still needs the right mythic bees and blue-focused gear to feel strong."
         },
         {
           "build": "Red Hive",
           "stage": "Late game and endgame active boost path",
-          "playstyle": "High burst farming, active boosting, flame and precision gameplay, and stronger combat",
-          "coreBees": [
-            "Precise Bee and Spicy Bee",
-            "Vector Bee support",
-            "Red gifted support bees"
-          ],
-          "gearFocus": [
-            "Demon Mask",
-            "Red pollen and attack-oriented upgrades",
-            "Dark Scythe path for advanced red progression"
-          ],
-          "bestFor": "Players who enjoy active boosts, red-field farming such as Pepper Patch or Rose Field, and higher interaction during sessions."
+          "playstyle": "High burst farming, active boosting, flame/precision gameplay, and stronger combat leaning",
+          "coreBees": ["Precise Bee", "Spicy Bee", "Vector Bee support", "Red gifted support bees", "Bees that help with focus, flames, marks, rage, and attack"],
+          "gearFocus": ["Demon Mask", "Red pollen and attack-oriented upgrades", "Dark Scythe path for advanced red progression", "Scorching Star-style amulet play"],
+          "bestFor": "Players who enjoy active boosts, red-field farming such as Pepper Patch or Rose Field, and higher interaction during sessions.",
+          "decisionNote": "Red can hit very hard, but it is demanding: weak amulets, missing mythics, or poor boost setup make the hive feel much weaker than it looks on paper."
         },
         {
           "build": "White Hive",
           "stage": "Expensive endgame path",
-          "playstyle": "High-investment farming built around goo, marks, precision, and strong white pollen scaling",
-          "coreBees": [
-            "Vector Bee and Fuzzy Bee",
-            "Precise Bee support",
-            "Gifted white-support bees"
-          ],
-          "gearFocus": [
-            "Gummy Mask and Gummy Boots",
-            "Gummyballer path for advanced white progression",
-            "Gummy Star-style amulet play"
-          ],
-          "bestFor": "Players with deep resources, strong amulets, strong gifted bonuses, and enough gear progress to support goo-heavy farming."
+          "playstyle": "High investment farming built around goo, marks, precision, and strong white pollen scaling",
+          "coreBees": ["Vector Bee", "Precise Bee support", "Fuzzy Bee support", "Gifted white-support bees", "Utility bees for marks, focus, and token uptime"],
+          "gearFocus": ["Gummy Mask", "Gummy Boots", "Gummyballer path for advanced white progression", "Gummy Star-style amulet play"],
+          "bestFor": "Players with deep resources, strong amulets, strong gifted bonuses, and enough gear progress to support goo-heavy farming.",
+          "decisionNote": "White is powerful but resource-hungry; choosing it too early can slow your overall progress before the account is ready to support it."
         }
       ]
     },
@@ -477,89 +449,65 @@
           "name": "Black Bear",
           "priority": "High for beginners",
           "role": "Core pollen questline and early progression guide",
-          "focus": [
-            "Collect pollen from different fields",
-            "Learn basic farming loops",
-            "Progress from early areas into wider map goals"
-          ],
-          "rewards": ["Honey", "Eggs", "Tickets", "General progression rewards"]
+          "focus": ["Collect pollen from different fields", "Learn basic farming loops", "Progress from early areas into wider map goals"],
+          "rewards": ["Honey", "Eggs", "Tickets", "General progression rewards"],
+          "routeNote": "Start here and keep this route moving while upgrading tools, bags, and hive slots."
         },
         {
           "name": "Brown Bear",
           "priority": "High repeatable route",
           "role": "Repeatable quest cycle for steady rewards",
-          "focus": [
-            "Field collection tasks",
-            "Repeat visits over long-term play",
-            "Progressive reward milestones"
-          ],
-          "rewards": ["Honey", "Tickets", "Egg rewards", "Useful consumables"]
+          "focus": ["Field collection tasks", "Repeat visits over long-term play", "Progressive reward milestones"],
+          "rewards": ["Honey", "Tickets", "Egg rewards", "Useful consumables"],
+          "routeNote": "Check Brown Bear often because repeatable quest routes add value over time."
         },
         {
           "name": "Mother Bear",
           "priority": "High for bee leveling",
           "role": "Bee care, treats, bonding, and basic hive improvement",
-          "focus": [
-            "Feed bees and improve bond",
-            "Strengthen early hive power",
-            "Support gifted and leveling progress"
-          ],
-          "rewards": ["Treats", "Royal Jelly-style progression items", "Bee growth rewards"]
+          "focus": ["Feed bees", "Improve bond", "Strengthen early hive power", "Support gifted and leveling progress"],
+          "rewards": ["Treats", "Royal Jelly-style progression items", "Bee growth rewards"],
+          "routeNote": "Use this route to keep bee levels climbing alongside your other goals."
         },
         {
           "name": "Panda Bear",
           "priority": "High when combat unlocks matter",
           "role": "Combat training and enemy-focused progression",
-          "focus": [
-            "Defeat bugs and monsters",
-            "Build combat readiness",
-            "Prepare for challenge content"
-          ],
-          "rewards": ["Eggs", "Tickets", "Battle-related rewards", "Progression items"]
+          "focus": ["Defeat bugs and monsters", "Build combat readiness", "Prepare for challenge content"],
+          "rewards": ["Eggs", "Tickets", "Battle-related rewards", "Progression items"],
+          "routeNote": "Progress this route while leveling bees, because stronger bees make combat tasks much easier."
         },
         {
           "name": "Science Bear",
           "priority": "Very high for systems unlocks",
           "role": "Technology, crafting, translators, and advanced mechanics",
-          "focus": [
-            "Collect pollen across fields",
-            "Use items and mechanics",
-            "Advance into deeper progression systems"
-          ],
-          "rewards": ["Translators", "Crafting-related rewards", "System unlock value"]
+          "focus": ["Collect pollen across fields", "Use items and mechanics", "Advance into deeper progression systems"],
+          "rewards": ["Translators", "Crafting-related rewards", "System unlock value"],
+          "routeNote": "Science Bear is one of the most important long-term quest lines because translators unlock communication with key NPCs."
         },
         {
           "name": "Spirit Bear",
           "priority": "Late-game priority",
           "role": "Spirit Petal route and advanced progression",
-          "focus": [
-            "Large pollen goals and field variety",
-            "Advanced item use",
-            "Long quest chains"
-          ],
-          "rewards": ["Spirit Petals", "Star Jelly-style rewards", "Late-game progression materials"]
+          "focus": ["Large pollen goals", "Field variety", "Advanced item use", "Long quest chains"],
+          "rewards": ["Spirit Petals", "Star Jelly-style rewards", "Late-game progression materials"],
+          "routeNote": "Use Spirit Petals carefully because they connect to major choices such as Petal Wand, Petal Belt, and Wind Shrine progression."
         },
         {
           "name": "Robo Bear",
           "priority": "Challenge route",
           "role": "Robo Bear Challenge, cogs, upgrades, and mechanical enemies",
-          "focus": [
-            "Timed challenge runs",
-            "Cog collection and temporary upgrades",
-            "Mechsquito and Cogmower combat"
-          ],
-          "rewards": ["Cogs", "Robo Challenge rewards", "Event and challenge materials"]
+          "focus": ["Timed challenge runs", "Cog collection", "Temporary upgrades", "Mechsquito and Cogmower combat"],
+          "rewards": ["Cogs", "Robo Challenge rewards", "Event and challenge materials"],
+          "routeNote": "Robo Bear is best handled after the hive has enough levels, combat strength, and flexible bee support."
         },
         {
-          "name": "Event Bears",
+          "name": "Event Bears & Seasonal Routes",
           "priority": "Time-limited during events",
           "role": "Beesmas-style quests, presents, ornaments, and seasonal catalogs",
-          "focus": [
-            "Complete event NPC quests",
-            "Collect seasonal items",
-            "Use temporary boosts while active"
-          ],
-          "rewards": ["Presents", "Ornaments", "Gingerbread Bears", "Snowflakes", "Beequips"]
+          "focus": ["Complete event NPC quests", "Collect seasonal items", "Trade or gather event-related rewards", "Use temporary boosts while active"],
+          "rewards": ["Presents", "Ornaments", "Gingerbread Bears", "Snowflakes", "Beequips", "Honeyday-style buffs"],
+          "routeNote": "Complete event quests while they are live; seasonal rewards do not stay available forever."
         }
       ]
     },
@@ -570,59 +518,75 @@
       "items": [
         {
           "name": "Bear Bee",
+          "storeArea": "Roblox Store",
           "type": "Progression helper",
           "what": "Grants access to Bear Bee, an event bee known for bear morph tokens that boost pollen and movement during its effect.",
           "value": "Strong progression and farming utility",
-          "bestFor": "Players who want a permanent bee upgrade with broad farming value."
+          "bestFor": "Players who want a permanent bee upgrade with broad farming value.",
+          "buyingNote": "Prioritize this over purely cosmetic spending when the goal is stronger account progression."
         },
         {
           "name": "x2 Convert Speed",
+          "storeArea": "Roblox Store",
           "type": "Convenience and farming speed",
           "what": "Makes bees convert pollen into honey at the hive faster.",
           "value": "Time-saving upgrade",
-          "bestFor": "Players who fill bags quickly or spend too much time converting at the hive."
+          "bestFor": "Players who fill bags quickly or spend too much time converting at the hive.",
+          "buyingNote": "Most useful when conversion time is a real bottleneck instead of a minor annoyance."
         },
         {
           "name": "x2 Bee Gather",
+          "storeArea": "Roblox Store",
           "type": "Bee gathering boost",
           "what": "Improves pollen gathered directly by bees from flowers.",
           "value": "Situational progression help",
-          "bestFor": "Players with enough bee activity and field time to benefit from stronger direct gathering."
+          "bestFor": "Players with enough bee activity and field time to benefit from stronger direct gathering.",
+          "buyingNote": "Compare it against Bear Bee and Convert Speed first, because not every hive gets the same value from direct bee gathering."
         },
         {
           "name": "Cub Buddy",
+          "storeArea": "Roblox Store & Events",
           "type": "Convenience companion",
           "what": "Adds a small bear companion that follows you, collects tokens, and can grant gifts.",
           "value": "Convenience and collection support",
-          "bestFor": "Players who farm actively and want help collecting tokens."
+          "bestFor": "Players who farm actively and want help collecting tokens.",
+          "buyingNote": "Better as a comfort and token collection upgrade than as a raw honey multiplier."
         },
         {
           "name": "Tickets, Eggs, and Consumable Packs",
+          "storeArea": "In-Game Robux Shop",
           "type": "Consumable shortcut",
           "what": "Provides resources such as tickets, eggs, Royal Jelly-style rerolls, boost materials, or event-limited bundles.",
           "value": "Speed-up purchase",
-          "bestFor": "Players who understand exactly which bottleneck they are paying to skip."
+          "bestFor": "Players who understand exactly which bottleneck they are paying to skip.",
+          "buyingNote": "Avoid spending Robux just because an item looks rare; progression bottlenecks should decide the purchase."
         },
         {
           "name": "Official DLC Codes Page",
+          "storeArea": "Official Merch Site",
           "type": "DLC code status",
           "what": "The official DLC page is the place to check Bee Swarm Simulator DLC redemption status.",
           "value": "Code verification",
-          "bestFor": "Players checking whether toy or DLC-related codes can be redeemed."
+          "bestFor": "Players checking whether toy or DLC-related codes can be redeemed.",
+          "buyingNote": "Use the official DLC page before trusting any code claim from a random seller."
         },
         {
           "name": "Official Toys",
+          "storeArea": "Official Merch Shop",
           "type": "Physical merchandise",
           "what": "Includes Brown Bear, Panda Bear, Gummy Bear, Mother Bear, and Black Bear action figure packs, plus Mystery Bee and honeycomb case products.",
           "value": "Merch and collectible value",
-          "bestFor": "Players buying physical Bee Swarm Simulator products rather than in-game power."
+          "bestFor": "Players buying physical Bee Swarm Simulator products rather than in-game power.",
+          "buyingNote": "Treat toys and merch as official collectibles; do not assume every physical product equals an active in-game reward."
         },
         {
           "name": "Official Apparel and Plush Items",
+          "storeArea": "Official Merch Shop",
           "type": "Physical merchandise",
           "what": "Includes plush bees, shirts, hoodies, and other Bee Swarm Simulator branded products.",
           "value": "Cosmetic real-world merch",
-          "bestFor": "Fans who want official Bee Swarm Simulator items outside Roblox."
+          "bestFor": "Fans who want official Bee Swarm Simulator items outside Roblox.",
+          "buyingNote": "This is merch value, not a hive build shortcut."
         }
       ]
     },
@@ -633,82 +597,54 @@
       "events": [
         {
           "period": "Winter 2020",
-          "name": "Bee Swarm Winter Event",
           "type": "Seasonal Beesmas event",
-          "content": [
-            "Decorate the map",
-            "Help bears with event tasks",
-            "Discover Beequip items",
-            "Deliver Presents"
-          ],
+          "name": "Bee Swarm Winter Event",
+          "content": ["Decorate the map", "Help bears with event tasks", "Discover Beequip items", "Deliver Presents"],
           "rewards": ["Beequips", "Presents", "Bear event progress", "Seasonal rewards"],
           "action": "Complete event bear quests while the winter event is active.",
           "status": "Archived seasonal event"
         },
         {
-          "period": "Beesmas-style seasons",
-          "name": "Bee Bear and Event Quest Routes",
+          "period": "Beesmas-style seasonal events",
           "type": "Temporary questline",
-          "content": [
-            "Talk to Bee Bear",
-            "Complete festive NPC quests",
-            "Collect seasonal items",
-            "Progress toward event reward boxes"
-          ],
+          "name": "Bee Bear and event quest routes",
+          "content": ["Talk to Bee Bear", "Complete festive NPC quests", "Collect seasonal items", "Progress toward event reward boxes"],
           "rewards": ["Presents", "Ornaments", "Gingerbread Bears", "Snowflakes", "Event catalog rewards"],
           "action": "Prioritize event quests before normal grinding when the seasonal route is live.",
           "status": "Time-limited seasonal route"
         },
         {
           "period": "Honeyday and x2 windows",
-          "name": "x2 Pollen and Convert Rate Event",
           "type": "Temporary boost event",
-          "content": [
-            "48-hour x2 Pollen boost",
-            "48-hour x2 Convert Rate boost",
-            "Boosted farming window"
-          ],
+          "name": "x2 Pollen and Convert Rate Event",
+          "content": ["48-hour x2 Pollen boost", "48-hour x2 Convert Rate boost", "Boosted farming window"],
           "rewards": ["Faster pollen collection", "Faster conversion", "Best value during active farming sessions"],
           "action": "Use field boosts, consumables, and active farming time during the event window.",
           "status": "Temporary boost"
         },
         {
           "period": "Trading-focused updates",
-          "name": "Cub Buddy and Sticker Trading Goals",
           "type": "Trading and collection event",
-          "content": [
-            "Trade toward Doodle Cub Buddy",
-            "Use event economy items",
-            "Work through Bee Bear-related event content"
-          ],
+          "name": "Doodle Cub Buddy Trading Goal",
+          "content": ["Trade toward Doodle Cub Buddy", "Use event economy items", "Work through Bee Bear-related event content"],
           "rewards": ["Cub Buddy skin goal", "Trading value progression", "Event collection rewards"],
           "action": "Trade carefully, confirm item names before accepting, and avoid off-platform item sellers.",
           "status": "Trading-focused seasonal content"
         },
         {
           "period": "Sticker-era content",
-          "name": "Stickers and Hive Collection",
           "type": "Collection and trading system",
-          "content": [
-            "Collect stickers",
-            "Use stickers in event quests",
-            "Trade stickers with other players",
-            "Build sticker-related value over time"
-          ],
+          "name": "Stickers and Hive Collection",
+          "content": ["Collect stickers", "Use stickers in event quests", "Trade stickers with other players", "Build sticker-related value over time"],
           "rewards": ["Sticker collection", "Quest turn-ins", "Trading value", "Cosmetic and event utility"],
-          "action": "Keep useful stickers for quests and trades instead of discarding everything.",
+          "action": "Keep useful stickers for quests and trades instead of discarding them.",
           "status": "Collection and trading system"
         },
         {
           "period": "Official update channels",
-          "name": "Onett and Bee Swarm Community Updates",
           "type": "News and status tracking",
-          "content": [
-            "Event start posts",
-            "x2 event announcements",
-            "Toy and store updates",
-            "Discord community updates"
-          ],
+          "name": "Onett and Bee Swarm community updates",
+          "content": ["Event start posts", "x2 event announcements", "Toy and store updates", "Discord community updates"],
           "rewards": ["Active event confirmation", "Store changes", "Code and DLC status", "Seasonal route details"],
           "action": "Check official Roblox, Onett, Bee Swarm shop, and Discord sources before trusting code lists or marketplace claims.",
           "status": "Official source tracking"
