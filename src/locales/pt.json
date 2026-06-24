@@ -1,11 +1,1119 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Bee Swarm Simulator - Códigos, Abelhas e Guia de Colmeias",
+      "description": "Wiki de Bee Swarm Simulator com códigos, tier list de abelhas, builds de colmeia, missões, itens, campos, eventos, adesivos e guias para iniciantes para jogadores de Roblox.",
+      "keywords": "Bee Swarm Simulator, Roblox, códigos, abelhas, colmeia, missões, itens, adesivos, guia",
+      "ogTitle": "Wiki de Bee Swarm Simulator - Códigos, Abelhas e Guia de Colmeias",
+      "ogDescription": "Wiki de Bee Swarm Simulator com códigos, tier list de abelhas, builds de colmeia, missões, itens, campos, eventos, adesivos e guias para iniciantes para jogadores de Roblox.",
+      "twitterTitle": "Wiki de Bee Swarm Simulator - Códigos, Abelhas e Guia de Colmeias",
+      "twitterDescription": "Wiki completa de Bee Swarm Simulator com códigos, tier list de abelhas, builds de colmeia, missões, adesivos e guias para iniciantes para jogadores de Roblox."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "bees": "Bees",
-    "hives": "Hives",
-    "items": "Items",
-    "resources": "Resources",
-    "quests": "Quests"
+    "codes": "Códigos",
+    "guide": "Guia",
+    "bees": "Abelhas",
+    "hives": "Colmeias",
+    "items": "Itens",
+    "resources": "Recursos",
+    "quests": "Missões"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulador de Coleta de Abelhas do Roblox",
+    "title": "Wiki de Bee Swarm Simulator",
+    "description": "Aumente seu enxame de abelhas, colete pólen, faça mel, complete missões de urso, desbloqueie novas zonas, construa colmeias melhores, troque adesivos e use códigos para boosts.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4B+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "18M+",
+        "label": "Membros do Clube"
+      },
+      "stat3": {
+        "value": "15K+",
+        "label": "Jogadores Online"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Tamanho do Servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Bee Swarm Simulator",
+    "description": "Colete pólen pelos campos, converta-o em mel na sua colmeia, choque abelhas mais fortes e suba a montanha através de missões de ursos, zonas, eventos e builds de colmeia neste simulador de coleta de abelhas do Roblox."
+  },
+  "tools": {
+    "title": "Bee Swarm Simulator",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para coletar pólen, fazer mel, construir colmeias e dominar o Bee Swarm Simulator",
+    "cards": [
+      {
+        "icon": "Presente",
+        "title": "Códigos de Bee Swarm Simulator",
+        "description": "Códigos ativos, passos de resgate e o arquivo de códigos expirados"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Bee Swarm Simulator",
+        "description": "O caminho da primeira sessão, do pólen à sua primeira colmeia"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Progressão de Bee Swarm Simulator",
+        "description": "Ordem de equipamentos e etapas de melhoria, da colmeia inicial ao endgame"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de Abelhas de Bee Swarm Simulator",
+        "description": "Rankings de abelhas baseados em estágios para todos os níveis de conta"
+      },
+      {
+        "icon": "Início",
+        "title": "Builds de Colmeia de Bee Swarm Simulator",
+        "description": "Caminhos de colmeia mista, vermelha, azul e branca comparados"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Missões de Bee Swarm Simulator",
+        "description": "Rotas de missões dos ursos, prioridades e tipos de recompensa"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Guia da Loja de Bee Swarm Simulator",
+        "description": "Gamepasses, status de DLC, brinquedos e valor de merch"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "Eventos de Bee Swarm Simulator",
+        "description": "Missões de Beesmas, boosts de 2x, adesivos e trocas"
+      }
+    ]
+  },
+  "modules": {
+    "codesAndRewards": {
+      "title": "Códigos e Recompensas de Bee Swarm Simulator",
+      "displayType": "code-cards",
+      "intro": "Este módulo separa códigos de recompensa ativos, códigos expirados, recompensas relacionadas ao grupo e o status de códigos de DLC para que você possa resgatar recompensas reais no Bee Swarm Simulator. Junte-se ao grupo oficial do Roblox primeiro, depois resgate os códigos no menu de configurações do jogo.",
+      "activeCodes": [
+        {
+          "code": "fourtunate",
+          "reward": "1 Abelha Marshmallow, 4 Morangos, 4 Sementes de Girassol, 4 Mirtilos, 4 Abacaxis, 4 Microconversores, 4 Dados de Campo, 4 Gomas, 4 Jujubas, 4 Aguilhões"
+        },
+        {
+          "code": "15MMembers",
+          "reward": "15 Gomas, 1 Abelha Marshmallow, 15 Sementes de Girassol, 15 Morangos, 15 Abacaxis, 15 Mirtilos, 15 Frutas Amargas, 1 Balão Vermelho"
+        },
+        {
+          "code": "38217",
+          "reward": "5 Tickets"
+        },
+        {
+          "code": "BeesBuzz123",
+          "reward": "10 Gomas, 5 Frutas Amargas, 1 Frasco de Nuvem"
+        },
+        {
+          "code": "BopMaster",
+          "reward": "5 Tickets"
+        },
+        {
+          "code": "ClubBean",
+          "reward": "1 Feijão Mágico, 2 Impulsos de Campo de Abacaxi"
+        },
+        {
+          "code": "Connoisseur",
+          "reward": "5 Tickets"
+        },
+        {
+          "code": "Crawlers",
+          "reward": "5 Tickets"
+        },
+        {
+          "code": "Nectar",
+          "reward": "5.000 de Mel"
+        },
+        {
+          "code": "Roof",
+          "reward": "5 Tickets"
+        },
+        {
+          "code": "Wax",
+          "reward": "5.000 de Mel, 5 Tickets"
+        }
+      ],
+      "redeemSteps": [
+        "Junte-se ao Bee Swarm Simulator Club no Roblox.",
+        "Inicie a experiência oficial do Bee Swarm Simulator.",
+        "Abra o ícone de engrenagem na área de configurações no canto superior esquerdo.",
+        "Insira o código na caixa de Códigos e pressione Resgatar.",
+        "Use códigos de impulso de campo apenas quando estiver pronto para farmar, pois as recompensas de impulso são ativadas imediatamente."
+      ],
+      "dlcNote": "A página oficial de DLC é o local para verificar o status de resgate de DLC do Bee Swarm Simulator. Considere qualquer outro site que alegue resgatar códigos de DLC como falso.",
+      "expiredCodes": [
+        "FrogFix",
+        "DiscordMillion",
+        "777",
+        "LatePresents",
+        "TheeBeeVee",
+        "MarchIsMerry",
+        "WordFactory",
+        "Wink",
+        "SecretProfileCode",
+        "Marshmallow",
+        "AnniversaBee",
+        "4MilMembers",
+        "Buzz",
+        "6irthday",
+        "GumdropsForScience",
+        "Cog"
+      ]
+    },
+    "bssBeginnerGuide": {
+      "title": "Guia de Iniciante do Bee Swarm Simulator",
+      "displayType": "passo a passo",
+      "intro": "O Bee Swarm Simulator é estruturado em torno de uma progressão repetitiva: coletar pólen nos campos, produzir mel na sua colmeia, expandir seu enxame, completar missões dos ursos, desbloquear áreas mais altas e usar abelhas mais fortes para lutar contra insetos e monstros. Este caminho inicial mantém a primeira sessão focada em um progresso útil em vez de gastos aleatórios.",
+      "steps": [
+        {
+          "title": "Junte-se à Experiência Oficial",
+          "description": "Comece pela página oficial do jogo no Roblox criada por Onett. Reivindique uma colmeia vazia quando surgir, depois fique perto dos campos iniciais até terminar as primeiras melhorias de mochila.",
+          "tip": "Use a página oficial do jogo e o link oficial do grupo para obter recompensas e atualizações."
+        },
+        {
+          "title": "Colete Pólen Primeiro",
+          "description": "Vá para um campo e use sua ferramenta de coleta, deixe suas abelhas coletarem pólen com você e pegue os tokens de habilidade que elas soltarem.",
+          "tip": "O progresso inicial vem de ciclos curtos de coleta e conversão, não de correr para áreas distantes."
+        },
+        {
+          "title": "Converta Pólen em Mel",
+          "description": "Volte para sua colmeia quando sua mochila estiver cheia e fique perto dela para converter pólen em mel, depois gaste o mel inicial em melhorias práticas.",
+          "tip": "Quando sua mochila encher rápido demais, priorize melhorias de recipiente. Quando a coleta parecer lenta, priorize melhorias de ferramenta."
+        },
+        {
+          "title": "Choque Mais Abelhas",
+          "description": "Compre ovos quando puder pagar por eles, coloque-os em espaços vazios da colmeia e mantenha abelhas raras, épicas, lendárias e de evento úteis conforme sua colmeia melhora.",
+          "tip": "Mais abelhas significam mais coleta, mais ajuda em combate e acesso a zonas mais altas da montanha."
+        },
+        {
+          "title": "Siga as Missões dos Ursos",
+          "description": "Complete missões de pólen no estilo do Black Bear para obter recompensas constantes, use tarefas no estilo da Mother Bear para aprender a subir o nível das abelhas e usar guloseimas, e faça missões de combate assim que suas abelhas conseguirem lidar com insetos com segurança.",
+          "tip": "As missões direcionam você para campos, mecânicas e recompensas em uma ordem mais clara do que pura adivinhação."
+        },
+        {
+          "title": "Desbloqueie Novas Áreas Gradualmente",
+          "description": "Aumente sua quantidade de abelhas para passar por portões, derrote insetos e monstros para obter drops quando forem fáceis de lidar, e procure por tesouros escondidos e dispensadores úteis à medida que novas áreas se abrirem.",
+          "tip": "Não se apresse em comprar melhorias caras antes que sua colmeia, missões e capacidade de mochila possam realmente suportá-las."
+        }
+      ],
+      "quickTips": [
+        "Sempre comece a partir da página oficial do jogo Bee Swarm Simulator para evitar cópias falsas.",
+        "Mantenha suas abelhas alimentadas com guloseimas para que subam de nível e coletem mais rápido.",
+        "Guarde materiais de alto valor em vez de gastar cada item no momento em que for obtido.",
+        "Use códigos de boost de campo apenas durante sessões ativas de farm para obter o melhor retorno."
+      ]
+    },
+    "progressionAndGearOrder": {
+      "title": "Progressão e Ordem de Equipamentos no Bee Swarm Simulator",
+      "displayType": "upgrade-path",
+      "intro": "A progressão no Bee Swarm Simulator consiste em manter a quantidade de abelhas, a força do coletor, o tamanho do recipiente, as missões, os emblemas, os materiais e os amuletos evoluindo juntos. Este caminho oferece uma ordem prática do que melhorar a seguir ao longo do early game, mid game e late game.",
+      "stages": [
+        {
+          "stage": "Colmeia Inicial",
+          "beeRange": "1-10 abelhas",
+          "goal": "Construa o ciclo básico de coletar, converter e melhorar.",
+          "priorities": [
+            "Ovos básicos e espaços de colmeia",
+            "Melhorias de coletor inicial",
+            "Melhorias de recipiente ou mochila inicial"
+          ],
+          "tasks": [
+            "Reivindique uma colmeia e colete pólen nos campos iniciais.",
+            "Converta pólen em mel na sua colmeia.",
+            "Comece as missões dos ursos imediatamente."
+          ]
+        },
+        {
+          "stage": "Subida Inicial da Montanha",
+          "beeRange": "10-25 abelhas",
+          "goal": "Aumente a quantidade de abelhas e compre melhorias práticas na loja à medida que novas áreas se abrirem.",
+          "priorities": [
+            "Coletores melhores quando a coleta de pólen parecer lenta",
+            "Mochilas melhores quando seu recipiente encher rápido demais",
+            "Mais espaços de colmeia quando novos portões exigirem mais abelhas"
+          ],
+          "tasks": [
+            "Use as missões para escolher os campos em vez de farmar aleatoriamente.",
+            "Lute contra insetos fáceis para obter recompensas e praticar combate.",
+            "Colete emblemas naturalmente enquanto farma nos campos."
+          ]
+        },
+        {
+          "stage": "Configuração de Equipamentos do Topo da Montanha",
+          "beeRange": "25-35 abelhas",
+          "goal": "Prepare-se para um farm mais forte, melhores missões e melhorias que exigem muitos materiais.",
+          "priorities": [
+            "Caminho de equipamentos da Loja do Topo da Montanha",
+            "Pegador de Porcelana e Port-O-Colmeia de Porcelana",
+            "Melhorias de irrigadores conforme as sessões de farm ficam mais longas"
+          ],
+          "tasks": [
+            "Melhore a variedade da colmeia para bônus de talentosas e cobertura de missões.",
+            "Trabalhe para conseguir máscaras e guardas mais fortes.",
+            "Acumule um estoque de materiais em vez de gastar cada item instantaneamente."
+          ]
+        },
+        {
+          "stage": "Rota de Criação do Mid Game",
+          "beeRange": "35-45 abelhas",
+          "goal": "Avance para equipamentos criados, planejamento de abelhas de evento, amuletos e progressão da Ursa Espiritual.",
+          "priorities": [
+            "Máscara de Mel, Máscara de Bolha ou Máscara de Fogo com base na direção do seu farm",
+            "Guarda Carmesim e Guarda Cobalto",
+            "Cinto de Favo de Mel e progressão da Varinha de Pétala ou Cinto de Pétala"
+          ],
+          "tasks": [
+            "Conclua as missões da Ursa Espiritual para obter Pétalas Espirituais.",
+            "Colete amuletos conforme forem desbloqueados.",
+            "Suba o nível de abelhas de combate essenciais para lutas mais fortes contra chefes e insetos."
+          ]
+        },
+        {
+          "stage": "Direção para o Late Game e Endgame",
+          "beeRange": "45-50 abelhas",
+          "goal": "Especialize a colmeia e busque melhorias caras de fim de jogo.",
+          "priorities": [
+            "Máscara de Diamante, Máscara Demônio ou Máscara de Goma com base na direção da colmeia",
+            "Recipiente de Coco e Tamancos de Coco",
+            "Amuleto de Estrela Supremo e caminho do coletor de endgame"
+          ],
+          "tasks": [
+            "Especialize-se no planejamento de colmeia azul, vermelha ou branca.",
+            "Suba o nível de toda a colmeia de forma constante.",
+            "Use impulsos quando a configuração de campo, néctar, balão, bala de goma e amuleto estiver pronta."
+          ]
+        }
+      ]
+    },
+    "beeTierList": {
+      "title": "Tier List de Abelhas do Bee Swarm Simulator",
+      "displayType": "tier-grid",
+      "intro": "O valor das abelhas muda conforme sua colmeia cresce. Jogadores iniciantes precisam de coleta, foco, suporte de fichas e dano simples. Jogadores de mid-game precisam de cobertura de missões, marcas, amor de bebê, bônus de música e valor de abelhas de evento. Jogadores de late-game classificam as abelhas por cor de colmeia, configuração de impulsos, necessidades de combate e sinergia de amuletos.",
+      "groups": [
+        {
+          "stage": "Early Game",
+          "tiers": [
+            {
+              "tier": "S",
+              "bees": [
+                "Abelha Tigrada",
+                "Abelha Fóton",
+                "Abelha Música",
+                "Abelha Bebê",
+                "Abelha Carpinteira"
+              ],
+              "why": "Forte valor inicial devido ao dano progressivo, coleta instantânea, suporte de foco e melodia, amor de bebê e marcas de campo."
+            },
+            {
+              "tier": "---",
+              "bees": [
+                "A",
+                "Abelha Comandante",
+                "Abelha Bucko",
+                "Abelha Riley",
+                "Abelha Gelada",
+                "Abelha de Raiva",
+                "Abelha Chocada"
+              ],
+              "why": "Abelha Apressada"
+            },
+            {
+              "tier": "Boa utilidade inicial através de foco, suporte de coleta azul ou vermelha, pressa, ajuda no ataque e cobertura geral de missões.",
+              "bees": [
+                "B",
+                "Abelha de Fogo",
+                "Abelha de Demolição",
+                "Abelha de Mel",
+                "Abelha Teimosa",
+                "Abelha Observadora"
+              ],
+              "why": "Mamangaba"
+            },
+            {
+              "tier": "Abelhas iniciais utilizáveis que preenchem funções enquanto a colmeia é pequena, embora muitas sejam substituídas por suportes mais fortes e bônus de dotadas.",
+              "bees": [
+                "C",
+                "Abelha Básica",
+                "Abelha Bombardeira",
+                "Abelha Corajosa",
+                "Abelha Legal",
+                "Abelha Radical"
+              ],
+              "why": "Abelha Travessa"
+            }
+          ]
+        },
+        {
+          "stage": "Abelhas de preenchimento iniciais. A Abelha Básica Dotada é valiosa mais tarde pelo seu bônus de colmeia, mas as iniciais normais não devem impedir melhorias mais fortes.",
+          "tiers": [
+            {
+              "tier": "Mid Game",
+              "bees": [
+                "S",
+                "Abelha Tabby",
+                "Abelha Fóton",
+                "Abelha Viciosa",
+                "Abelha de Goma",
+                "Abelha da Música",
+                "Abelha Carpinteira"
+              ],
+              "why": "Abelha Bebê"
+            },
+            {
+              "tier": "Abelhas de alto impacto para combate, gosma, marcas, melodia, amor de bebê e valor de conta a longo prazo.",
+              "bees": [
+                "A",
+                "Abelha Felpuda",
+                "Abelha Vetor",
+                "Abelha Precisa",
+                "Abelha Girino",
+                "Abelha Flutuante",
+                "Abelha Ninja",
+                "Abelha Diamante"
+              ],
+              "why": "Abelhas fortes que ganham importância à medida que a colmeia foca em uma cor, melhores impulsos e rotas de coleta mais eficientes."
+            },
+            {
+              "tier": "B",
+              "bees": [
+                "Abelha Demônio",
+                "Abelha Tímida",
+                "Abelha Leão",
+                "Abelha Comandante",
+                "Abelha Riley",
+                "Abelha Bucko",
+                "Abelha Gelada",
+                "Abelha de Raiva"
+              ],
+              "why": "Úteis para preencher funções de dano, suporte de cor, foco e missões, mas menos centrais do que as abelhas míticas e de suporte principais."
+            }
+          ]
+        },
+        {
+          "stage": "Late Game por Função da Colmeia",
+          "tiers": [
+            {
+              "tier": "Núcleo Azul",
+              "bees": [
+                "Abelha Flutuante",
+                "Abelha Girino",
+                "Abelha Musical",
+                "Abelha Felpuda",
+                "Abelha Digital"
+              ],
+              "why": "Colmeias azuis dependem de balões, bolhas, sapos, suporte de melodia, polinização e utilitários avançados de late-game."
+            },
+            {
+              "tier": "Núcleo Vermelho",
+              "bees": [
+                "Abelha Precisa",
+                "Abelha Picante",
+                "Abelha Vetor",
+                "Abelha Musical",
+                "Abelha Viciosa",
+                "Abelha Digital"
+              ],
+              "why": "Colmeias vermelhas valorizam marcas de alvo, chamas, precisão, combate forte, suporte de melodia e utilidade digital de late-game."
+            },
+            {
+              "tier": "Núcleo Branco",
+              "bees": [
+                "Abelha Vetor",
+                "Abelha Felpuda",
+                "Abelha de Goma",
+                "Abelha Carpinteira",
+                "Abelha Malhada",
+                "Abelha Digital"
+              ],
+              "why": "Colmeias brancas valorizam marcas, goma, polinização, suporte de conversão e o forte escalonamento de ferramentas de colmeia avançadas."
+            }
+          ]
+        },
+        {
+          "stage": "Prioridade de Abelhas de Evento",
+          "tiers": [
+            {
+              "tier": "Prioridade Máxima",
+              "bees": [
+                "Tabby Bee",
+                "Photon Bee",
+                "Vicious Bee",
+                "Gummy Bee"
+              ],
+              "why": "A Tabby escala extremamente bem, a Photon oferece uma forte coleta instantânea, a Vicious melhora o combate e a Gummy auxilia no farm focado em meleca."
+            },
+            {
+              "tier": "Prioridade Forte",
+              "bees": [
+                "Crimson Bee",
+                "Cobalt Bee",
+                "Festive Bee",
+                "Windy Bee"
+              ],
+              "why": "Crimson e Cobalt auxiliam na coleta vermelha e azul, Festive adiciona tokens úteis e a Windy torna-se poderosa assim que seu caminho de desbloqueio estiver disponível."
+            },
+            {
+              "tier": "Prioridade Posterior",
+              "bees": [
+                "Puppy Bee",
+                "Bear Bee",
+                "Digital Bee"
+              ],
+              "why": "Puppy ajuda quando subir o nível das abelhas é crucial, Bear Bee depende de acesso a Robux e a Digital Bee pertence à progressão avançada de final de jogo."
+            }
+          ]
+        }
+      ]
+    },
+    "hiveBuildsAndColors": {
+      "title": "Builds e Cores de Colmeia do Bee Swarm Simulator",
+      "displayType": "tabela-de-comparação",
+      "intro": "O Bee Swarm Simulator começa como um jogo de progressão de colmeia mista: você coleta pólen, converte mel, completa missões dos ursos, desbloqueia novas zonas e descobre abelhas com diferentes características. Colmeias especializadas em cores tornam-se mais fortes depois, mas mudar cedo demais pode atrasar missões, emblemas e o farm de recursos.",
+      "builds": [
+        {
+          "build": "Colmeia Mista",
+          "stage": "Do início ao meio do jogo",
+          "playstyle": "Missões flexíveis em tarefas de pólen vermelho, azul e branco",
+          "coreBees": [
+            "Uma mistura equilibrada de abelhas vermelhas, azuis, brancas, utilitárias e gifted",
+            "Abelhas de evento com forte utilidade geral",
+            "Abelhas que ajudam com tokens, focus, haste, melody, baby love, bombs e marks"
+          ],
+          "gearFocus": [
+            "Mochilas e coletores de uso geral",
+            "Máscaras ideais para missões e equipamentos da loja de meio de jogo",
+            "Evite se comprometer demais com uma cor antes das principais linhas de missão e do progresso de amuletos"
+          ],
+          "bestFor": "Jogadores que ainda estão completando missões de ursos, desbloqueando portões, acumulando bônus de abelhas gifted e coletando recursos variados.",
+          "decisionNote": "Mantenha-se misto até que sua conta tenha bônus permanentes, tipos gifted e opções de equipamentos suficientes para sustentar um caminho de cor completo."
+        },
+        {
+          "build": "Colmeia Azul",
+          "stage": "Caminho de farm para o final de jogo e endgame",
+          "playstyle": "Sessões de farm longas, alta capacidade, armazenamento estilo balão e ganhos constantes de mel",
+          "coreBees": [
+            "Tadpole Bee",
+            "Buoyant Bee",
+            "Abelhas focadas em bolhas",
+            "Abelhas gifted de suporte azul",
+            "Abelhas utilitárias para tempo de atividade de tokens e buffs"
+          ],
+          "gearFocus": [
+            "Diamond Mask",
+            "Upgrades de pólen azul e capacidade",
+            "Caminho do Tide Popper para progressão azul avançada",
+            "Jogabilidade com amuleto estilo Pop Star"
+          ],
+          "bestFor": "Jogadores que preferem sessões de farming mais longas, escalonamento de capacidade e farming em campos azuis como Pine Tree Forest ou outras rotas focadas em azul.",
+          "decisionNote": "O azul costuma ser o caminho de cor mais tolerante para farming longo, mas ainda precisa das abelhas míticas certas e equipamentos focados em azul para parecer forte."
+        },
+        {
+          "build": "Colmeia Vermelha",
+          "stage": "Caminho de boost ativo para late game e endgame",
+          "playstyle": "Farming de alto burst, boost ativo, jogabilidade de chamas/precisão e maior foco em combate",
+          "coreBees": [
+            "Precise Bee",
+            "Spicy Bee",
+            "Suporte de Vector Bee",
+            "Abelhas de suporte vermelhas gifted",
+            "Abelhas que ajudam com focus, flames, marks, rage e ataque"
+          ],
+          "gearFocus": [
+            "Demon Mask",
+            "Upgrades de pólen vermelho e orientados a ataque",
+            "Caminho da Dark Scythe para progressão vermelha avançada",
+            "Jogabilidade com amuleto estilo Scorching Star"
+          ],
+          "bestFor": "Jogadores que gostam de boosts ativos, farming em campos vermelhos como Pepper Patch ou Rose Field, e maior interação durante as sessões.",
+          "decisionNote": "O vermelho pode bater muito forte, mas é exigente: amuletos fracos, falta de míticas ou configuração de boost ruim fazem a colmeia parecer muito mais fraca do que no papel."
+        },
+        {
+          "build": "Colmeia Branca",
+          "stage": "Caminho caro de endgame",
+          "playstyle": "Farming de alto investimento baseado em goo, marks, precisão e forte escalonamento de pólen branco",
+          "coreBees": [
+            "Vector Bee",
+            "Suporte de Precise Bee",
+            "Suporte de Fuzzy Bee",
+            "Abelhas de suporte brancas gifted",
+            "Abelhas utilitárias para marks, focus e tempo de atividade de tokens"
+          ],
+          "gearFocus": [
+            "Gummy Mask",
+            "Gummy Boots",
+            "Caminho do Gummyballer para progressão branca avançada",
+            "Jogabilidade com amuleto estilo Gummy Star"
+          ],
+          "bestFor": "Jogadores com muitos recursos, amuletos fortes, bônus de gifted fortes e progresso de equipamento suficiente para sustentar farming pesado de goo.",
+          "decisionNote": "O branco é poderoso, mas consome muitos recursos; escolhê-lo cedo demais pode atrasar seu progresso geral antes que a conta esteja pronta para sustentá-lo."
+        }
+      ]
+    },
+    "questsAndBearsGuide": {
+      "title": "Guia de Ursos e Missões do Bee Swarm Simulator",
+      "displayType": "mural-de-missões",
+      "intro": "O Bee Swarm Simulator usa as missões dos ursos como a espinha dorsal da progressão. Você coleta pólen, derrota inimigos, junta tokens, desbloqueia zonas e ganha recompensas que impulsionam a colmeia em vez de vagar pela montanha sem rumo.",
+      "bears": [
+        {
+          "name": "Black Bear",
+          "priority": "Alto para iniciantes",
+          "role": "Linha de missões principal de pólen e guia de progressão inicial",
+          "focus": [
+            "Colete pólen de diferentes campos",
+            "Aprenda os ciclos básicos de farm",
+            "Progrida das áreas iniciais para objetivos mais amplos do mapa"
+          ],
+          "rewards": [
+            "Mel",
+            "Ovos",
+            "Tickets",
+            "Recompensas gerais de progressão"
+          ],
+          "routeNote": "Comece por aqui e mantenha essa rota ativa enquanto melhora ferramentas, mochilas e espaços da colmeia."
+        },
+        {
+          "name": "Brown Bear",
+          "priority": "Rota altamente repetível",
+          "role": "Ciclo de missões repetíveis para recompensas constantes",
+          "focus": [
+            "Tarefas de coleta nos campos",
+            "Visitas recorrentes ao longo do jogo",
+            "Marcos de recompensa progressivos"
+          ],
+          "rewards": [
+            "Mel",
+            "Tickets",
+            "Recompensas de ovos",
+            "Consumíveis úteis"
+          ],
+          "routeNote": "Visite o Brown Bear frequentemente, pois as rotas de missões repetíveis agregam valor ao longo do tempo."
+        },
+        {
+          "name": "Mother Bear",
+          "priority": "Alta para subir o nível das abelhas",
+          "role": "Cuidados com abelhas, petiscos, vínculo e melhorias básicas na colmeia",
+          "focus": [
+            "Alimente as abelhas",
+            "Melhore o vínculo",
+            "Fortaleça o poder inicial da colmeia",
+            "Apoie o progresso de abelhas gifted e evolução de nível"
+          ],
+          "rewards": [
+            "Petiscos",
+            "Itens de progressão no estilo Royal Jelly",
+            "Recompensas de crescimento de abelhas"
+          ],
+          "routeNote": "Use esta rota para continuar subindo o nível das abelhas junto com seus outros objetivos."
+        },
+        {
+          "name": "Panda Bear",
+          "priority": "Alta quando desbloqueios de combate são importantes",
+          "role": "Treinamento de combate e progressão focada em inimigos",
+          "focus": [
+            "Derrote insetos e monstros",
+            "Desenvolva prontidão para combate",
+            "Prepare-se para conteúdos de desafio"
+          ],
+          "rewards": [
+            "Ovos",
+            "Tickets",
+            "Recompensas relacionadas a batalhas",
+            "Itens de progressão"
+          ],
+          "routeNote": "Progrida nesta rota enquanto sobe o nível das abelhas, pois abelhas mais fortes facilitam muito as tarefas de combate."
+        },
+        {
+          "name": "---",
+          "priority": "Science Bear",
+          "role": "Muito alta para desbloqueio de sistemas",
+          "focus": [
+            "Tecnologia, crafting, Translators e mecânicas avançadas",
+            "Coletar pólen em diversos campos",
+            "Usar itens e mecânicas"
+          ],
+          "rewards": [
+            "Avançar em sistemas de progressão mais profundos",
+            "Translators",
+            "Recompensas relacionadas a crafting"
+          ],
+          "routeNote": "Valor de desbloqueio de sistemas"
+        },
+        {
+          "name": "Science Bear é uma das linhas de missões de longo prazo mais importantes porque Translators desbloqueiam a comunicação com NPCs cruciais.",
+          "priority": "Spirit Bear",
+          "role": "Prioridade de late-game",
+          "focus": [
+            "Rota da Spirit Petal e progressão avançada",
+            "Grandes metas de pólen",
+            "Variedade de campos",
+            "Uso de itens avançados"
+          ],
+          "rewards": [
+            "Longas sequências de missões",
+            "Spirit Petals",
+            "Recompensas estilo Star Jelly"
+          ],
+          "routeNote": "Materiais de progressão de late-game"
+        },
+        {
+          "name": "Use as Spirit Petals com cuidado, pois elas estão ligadas a escolhas importantes, como o Petal Wand, Petal Belt e a progressão do Wind Shrine.",
+          "priority": "Robo Bear",
+          "role": "Rota de desafio",
+          "focus": [
+            "Robo Bear Challenge, cogs, upgrades e inimigos mecânicos",
+            "Desafios com tempo limitado",
+            "Coleta de cogs",
+            "Upgrades temporários"
+          ],
+          "rewards": [
+            "Combate contra Mechsquito e Cogmower",
+            "Cogs",
+            "Recompensas do Robo Challenge"
+          ],
+          "routeNote": "Materiais de eventos e desafios"
+        },
+        {
+          "name": "O Robo Bear é melhor enfrentado quando a colmeia tem níveis suficientes, força de combate e suporte de abelhas flexível.",
+          "priority": "Event Bears & Seasonal Routes",
+          "role": "Tempo limitado durante eventos",
+          "focus": [
+            "Missões estilo Beesmas, presentes, ornamentos e catálogos sazonais",
+            "Completar missões de NPCs de evento",
+            "Coletar itens sazonais",
+            "Trocar ou reunir recompensas relacionadas a eventos"
+          ],
+          "rewards": [
+            "Usar boosts temporários enquanto ativos",
+            "Ornamentos",
+            "Ursos de Gengibre",
+            "Flocos de Neve",
+            "Beequips",
+            "Buffs estilo Honeyday"
+          ],
+          "routeNote": "Complete as missões de evento enquanto estiverem ativas; recompensas sazonais não ficam disponíveis para sempre."
+        }
+      ]
+    },
+    "gamepassesAndStoreGuide": {
+      "title": "Guia da Loja e Gamepasses do Bee Swarm Simulator",
+      "displayType": "tabela-comparativa",
+      "intro": "O Bee Swarm Simulator possui conteúdo na loja do Roblox, rotas de compra no jogo, produtos oficiais, brinquedos e uma página dedicada a códigos de DLC. A decisão principal é se uma compra ajuda na progressão, economiza tempo, adiciona conveniência ou se enquadra apenas na categoria de produtos físicos.",
+      "items": [
+        {
+          "name": "Bear Bee",
+          "storeArea": "Loja do Roblox",
+          "type": "Auxiliar de progressão",
+          "what": "Concede acesso à Bear Bee, uma abelha de evento conhecida pelos tokens de transformação em urso que impulsionam o pólen e o movimento durante seu efeito.",
+          "value": "Forte utilidade de progressão e coleta",
+          "bestFor": "Jogadores que desejam uma melhoria permanente na colmeia com amplo valor para a coleta.",
+          "buyingNote": "Priorize isso em vez de gastos puramente cosméticos quando o objetivo for uma progressão de conta mais forte."
+        },
+        {
+          "name": "x2 Velocidade de Conversão",
+          "storeArea": "Loja do Roblox",
+          "type": "Conveniência e velocidade de coleta",
+          "what": "Faz com que as abelhas convertam pólen em mel na colmeia mais rapidamente.",
+          "value": "Melhoria de economia de tempo",
+          "bestFor": "Jogadores que enchem as mochilas rapidamente ou passam muito tempo convertendo na colmeia.",
+          "buyingNote": "Mais útil quando o tempo de conversão é um gargalo real em vez de um pequeno incômodo."
+        },
+        {
+          "name": "x2 Coleta de Abelhas",
+          "storeArea": "Loja do Roblox",
+          "type": "Impulso de coleta das abelhas",
+          "what": "Melhora o pólen coletado diretamente pelas abelhas das flores.",
+          "value": "Ajuda de progressão situacional",
+          "bestFor": "Jogadores com atividade de abelhas e tempo de campo suficientes para se beneficiarem de uma coleta direta mais forte.",
+          "buyingNote": "Compare primeiro com a Bear Bee e a Velocidade de Conversão, pois nem toda colmeia obtém o mesmo valor da coleta direta das abelhas."
+        },
+        {
+          "name": "Cub Buddy",
+          "storeArea": "Loja do Roblox e Eventos",
+          "type": "Companheiro de conveniência",
+          "what": "Adiciona um pequeno companheiro urso que segue você, coleta tokens e pode conceder presentes.",
+          "value": "Suporte de conveniência e coleta",
+          "bestFor": "Jogadores que coletam ativamente e desejam ajuda para recolher tokens.",
+          "buyingNote": "Melhor como uma melhoria de conforto e coleta de tokens do que como um multiplicador bruto de mel."
+        },
+        {
+          "name": "Tickets, Ovos e Pacotes de Consumíveis",
+          "storeArea": "Loja de Robux no Jogo",
+          "type": "Atalho de consumíveis",
+          "what": "Fornece recursos como tickets, ovos, rerolls ao estilo Geleia Real, materiais de boost ou pacotes limitados de evento.",
+          "value": "Compra de aceleração",
+          "bestFor": "Jogadores que entendem exatamente qual gargalo estão pagando para pular.",
+          "buyingNote": "Evite gastar Robux apenas porque um item parece raro; os gargalos de progressão devem decidir a compra."
+        },
+        {
+          "name": "Página Oficial de Códigos de DLC",
+          "storeArea": "Site Oficial de Merch",
+          "type": "Status do código de DLC",
+          "what": "A página oficial de DLC é o lugar para verificar o status de resgate de DLC do Bee Swarm Simulator.",
+          "value": "Verificação de código",
+          "bestFor": "Jogadores verificando se códigos relacionados a brinquedos ou DLC podem ser resgatados.",
+          "buyingNote": "Use a página oficial de DLC antes de confiar em qualquer alegação de código de um vendedor aleatório."
+        },
+        {
+          "name": "Brinquedos Oficiais",
+          "storeArea": "Loja Oficial de Merch",
+          "type": "Mercadoria física",
+          "what": "Inclui pacotes de bonecos de ação do Brown Bear, Panda Bear, Gummy Bear, Mother Bear e Black Bear, além de produtos da Mystery Bee e estojos de favo de mel.",
+          "value": "Valor de merch e colecionáveis",
+          "bestFor": "Jogadores que compram produtos físicos do Bee Swarm Simulator em vez de poder no jogo.",
+          "buyingNote": "Trate brinquedos e merch como colecionáveis oficiais; não assuma que todo produto físico equivale a uma recompensa ativa no jogo."
+        },
+        {
+          "name": "Roupas e Pelúcias Oficiais",
+          "storeArea": "Loja Oficial de Merch",
+          "type": "Mercadoria física",
+          "what": "Inclui abelhas de pelúcia, camisetas, moletons e outros produtos da marca Bee Swarm Simulator.",
+          "value": "Merch cosmético do mundo real",
+          "bestFor": "Fãs que querem itens oficiais do Bee Swarm Simulator fora do Roblox.",
+          "buyingNote": "Isso é valor de merch, não um atalho para a construção da colmeia."
+        }
+      ]
+    },
+    "beesmasEventsAndTrading": {
+      "title": "Eventos de Beesmas e Trocas do Bee Swarm Simulator",
+      "displayType": "linha-do-tempo-do-evento",
+      "intro": "Os eventos do Bee Swarm Simulator costumam adicionar missões temporárias, decorações no mapa, presentes, enfeites, Beequips, stickers, metas de troca e boosts de tempo limitado. Trate as recompensas de eventos como rotas sazonais e use os canais oficiais primeiro para obter detalhes sobre eventos ativos.",
+      "events": [
+        {
+          "period": "Inverno de 2020",
+          "type": "Evento sazonal de Beesmas",
+          "name": "Evento de Inverno do Bee Swarm",
+          "content": [
+            "Decorar o mapa",
+            "Ajudar os ursos com as tarefas do evento",
+            "Descobrir itens Beequip",
+            "Entregar Presentes"
+          ],
+          "rewards": [
+            "Beequips",
+            "Presentes",
+            "Progresso do evento dos ursos",
+            "Recompensas sazonais"
+          ],
+          "action": "Complete as missões de evento dos ursos enquanto o evento de inverno estiver ativo.",
+          "status": "Evento sazonal arquivado"
+        },
+        {
+          "period": "Eventos sazonais no estilo Beesmas",
+          "type": "Linha de missões temporária",
+          "name": "Rotas de missões do Bee Bear e de eventos",
+          "content": [
+            "Fale com o Bee Bear",
+            "Complete missões festivas de NPCs",
+            "Colete itens sazonais",
+            "Progrida em direção às caixas de recompensa do evento"
+          ],
+          "rewards": [
+            "Presentes",
+            "Ornamentos",
+            "Ursos de Gengibre",
+            "Flocos de Neve",
+            "Recompensas do catálogo do evento"
+          ],
+          "action": "Priorize missões de evento antes do farm normal quando a rota sazonal estiver ativa.",
+          "status": "Rota sazonal por tempo limitado"
+        },
+        {
+          "period": "Janelas de Honeyday e x2",
+          "type": "Evento de boost temporário",
+          "name": "Evento de x2 de Pólen e Taxa de Conversão",
+          "content": [
+            "Boost de x2 de Pólen por 48 horas",
+            "Boost de x2 de Taxa de Conversão por 48 horas",
+            "Janela de farm com boost"
+          ],
+          "rewards": [
+            "Coleta de pólen mais rápida",
+            "Conversão mais rápida",
+            "Melhor valor durante sessões de farm ativas"
+          ],
+          "action": "Use boosts de campo, consumíveis e tempo de farm ativo durante a janela do evento.",
+          "status": "Boost temporário"
+        },
+        {
+          "period": "Atualizações focadas em trocas",
+          "type": "Evento de trocas e coleção",
+          "name": "Meta de troca do Doodle Cub Buddy",
+          "content": [
+            "Troque em direção ao Doodle Cub Buddy",
+            "Use itens da economia do evento",
+            "Trabalhe no conteúdo do evento relacionado ao Bee Bear"
+          ],
+          "rewards": [
+            "Meta de skin do Cub Buddy",
+            "Progressão de valor de troca",
+            "Recompensas de coleção do evento"
+          ],
+          "action": "Troque com cuidado, confirme os nomes dos itens antes de aceitar e evite vendedores de itens fora da plataforma.",
+          "status": "Conteúdo sazonal focado em trocas"
+        },
+        {
+          "period": "Conteúdo da era dos Stickers",
+          "type": "Sistema de coleção e trocas",
+          "name": "Stickers e Coleção de Colmeia",
+          "content": [
+            "Colete adesivos",
+            "Use adesivos em missões de evento",
+            "Troque adesivos com outros jogadores",
+            "Acumule valor relacionado a adesivos ao longo do tempo"
+          ],
+          "rewards": [
+            "Coleção de adesivos",
+            "Entregas de missões",
+            "Valor de troca",
+            "Utilidade cosmética e de evento"
+          ],
+          "action": "Guarde adesivos úteis para missões e trocas em vez de descartá-los.",
+          "status": "Sistema de coleção e trocas"
+        },
+        {
+          "period": "Canais oficiais de atualização",
+          "type": "Acompanhamento de notícias e status",
+          "name": "Atualizações da comunidade do Onett e do Bee Swarm",
+          "content": [
+            "Postagens de início de evento",
+            "Anúncios de eventos x2",
+            "Atualizações de brinquedos e da loja",
+            "Atualizações da comunidade do Discord"
+          ],
+          "rewards": [
+            "Confirmação de evento ativo",
+            "Mudanças na loja",
+            "Status de códigos e DLCs",
+            "Detalhes das rotas sazonais"
+          ],
+          "action": "Verifique fontes oficiais do Roblox, Onett, loja do Bee Swarm e Discord antes de confiar em listas de códigos ou alegações de mercado.",
+          "status": "Acompanhamento de fontes oficiais"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Bee Swarm Simulator",
+    "questions": [
+      {
+        "question": "O que é o Bee Swarm Simulator?",
+        "answer": "O Bee Swarm Simulator é um jogo do Roblox criado por Onett onde você cria um enxame de abelhas, coleta pólen, o converte em mel, choca novas abelhas e completa missões dos ursos para subir a montanha e desbloquear novas zonas."
+      },
+      {
+        "question": "Como eu resgato códigos do Bee Swarm Simulator?",
+        "answer": "Junte-se ao Bee Swarm Simulator Club no Roblox, inicie o jogo, abra o ícone de engrenagem de configurações no canto superior esquerdo, insira um código na caixa \"Codes\" e pressione \"Redeem\". Os códigos de boost de campo são ativados imediatamente, então use-os logo antes de farmar."
+      },
+      {
+        "question": "Onde posso jogar o Bee Swarm Simulator?",
+        "answer": "O Bee Swarm Simulator é gratuito para jogar no Roblox no PC, Mac, celular e Xbox. Sempre inicie o jogo a partir da página oficial do jogo no Roblox para evitar cópias falsas."
+      },
+      {
+        "question": "Qual é o objetivo principal no Bee Swarm Simulator?",
+        "answer": "O objetivo no Bee Swarm Simulator é expandir sua colmeia, coletar pólen, produzir mel, completar missões dos ursos, desbloquear novas zonas e construir um enxame de abelhas mais forte até obter uma colmeia completa de 50 abelhas no endgame."
+      },
+      {
+        "question": "Quantas abelhas cabem em uma colmeia do Bee Swarm Simulator?",
+        "answer": "Uma colmeia completa do Bee Swarm Simulator comporta até 50 abelhas. Novos slots de colmeia são desbloqueados conforme você progride, e uma quantidade maior de abelhas abre novos portões, campos e zonas da montanha."
+      },
+      {
+        "question": "As recompensas de eventos do Bee Swarm Simulator são permanentes?",
+        "answer": "A maioria das recompensas de eventos do Bee Swarm Simulator, como os presentes de Beesmas e missões sazonais, são por tempo limitado. Complete as rotas de eventos enquanto estiverem disponíveis e verifique os canais oficiais para detalhes de eventos ativos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para expandir seu enxame de abelhas?",
+    "description": "Junte-se à comunidade do Bee Swarm Simulator no Discord para obter códigos, guias, builds de colmeia e as últimas atualizações de eventos!",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Jogue no Roblox"
+  },
+  "footer": {
+    "title": "Bee Swarm Simulator Wiki",
+    "description": "Seu hub completo de recursos para códigos de Bee Swarm Simulator, abelhas, builds de colmeia, missões, adesivos, eventos e guias para iniciantes para jogadores de Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "roblox": "Jogue no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Bee Swarm Simulator Wiki. Não afiliado à Onett ou à Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial criado por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Bee Swarm Simulator",
+      "description": "Códigos ativos, etapas de resgate e recompensas para Bee Swarm Simulator. Atualizado diariamente com códigos verificados e funcionando.",
+      "metaTitle": "Códigos de Bee Swarm Simulator - Códigos Ativos e Recompensas",
+      "metaDescription": "Resgate códigos ativos de Bee Swarm Simulator para obter mel, tickets, gomas e boosts de campo gratuitos. Atualizado diariamente com códigos verificados e funcionando.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "O que são os códigos de Bee Swarm Simulator?",
+      "whatIsDescription": "Os códigos concedem mel, tickets, gomas, frutas, boosts de campo, microconversores e buffs de estilo de evento. Resgate-os no menu de configurações do jogo após entrar no Roblox Club oficial.",
+      "why": "Por que resgatar códigos?",
+      "whySteps": {
+        "step1Title": "Recursos Gratuitos",
+        "step1Description": "Resgate mel, tickets e materiais de boost sem gastar Robux.",
+        "step2Title": "Progresso Mais Rápido",
+        "step2Description": "Boosts de campo e gomas aceleram a coleta de pólen e a conversão de mel.",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Acompanhe os códigos ativos e evite resgatar códigos expirados ou falsos."
+      },
+      "featured": "Códigos em Destaque",
+      "all": "Todos os Códigos"
+    },
+    "guide": {
+      "title": "Guia de Bee Swarm Simulator",
+      "description": "Guias de progressão do iniciante ao pro cobrindo o início, meio e fim de jogo para Bee Swarm Simulator.",
+      "metaTitle": "Guia de Bee Swarm Simulator - Progressão do Iniciante ao Pro",
+      "metaDescription": "Domine o Bee Swarm Simulator com guias de progressão, dicas para iniciantes, caminhos de upgrade e estratégias para todas as fases do jogo.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é o guia de Bee Swarm Simulator?",
+      "whatIsDescription": "Caminhos de progressão passo a passo, desde a sua primeira abelha até as colmeias de fim de jogo, cobrindo objetivos, ordem de upgrades e o que priorizar em cada fase do jogo.",
+      "why": "Por que seguir o guia?",
+      "whySteps": {
+        "step1Title": "Objetivos Claros",
+        "step1Description": "Saiba exatamente o que fazer em cada estágio em vez de adivinhar.",
+        "step2Title": "Ordem de Upgrade Inteligente",
+        "step2Description": "Gaste mel nas ferramentas, mochilas e abelhas certas primeiro.",
+        "step3Title": "Evite Esforço Desperdiçado",
+        "step3Description": "Evite erros comuns que atrasam o seu progresso."
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "bees": {
+      "title": "Abelhas de Bee Swarm Simulator",
+      "description": "Tier lists de abelhas, raridades, habilidades, petiscos favoritos e como conseguir cada abelha no Bee Swarm Simulator.",
+      "metaTitle": "Abelhas de Bee Swarm Simulator - Tier List e Habilidades",
+      "metaDescription": "Explore as abelhas de Bee Swarm Simulator com tier lists, raridades, habilidades, abelhas talentosas, abelhas míticas e como desbloquear cada abelha.",
+      "categoryLabel": "ABELHAS",
+      "whatIs": "O que são as abelhas de Bee Swarm Simulator?",
+      "whatIsDescription": "Cada abelha tem uma raridade, habilidade e petisco favorito. Construa seu enxame coletando abelhas comuns, raras, épicas, lendárias e míticas, além de abelhas de evento como Windy Bee e Vicious Bee.",
+      "why": "Por que estudar as abelhas?",
+      "whySteps": {
+        "step1Title": "O Poder da Tier List",
+        "step1Description": "Saiba quais abelhas são as mais fortes para coleta de pólen e combate.",
+        "step2Title": "Bônus de Talentosas",
+        "step2Description": "Desbloqueie bônus permanentes de talentosas ao coletar uma de cada abelha.",
+        "step3Title": "Prioridade de Abelhas de Evento",
+        "step3Description": "Saiba quais abelhas de evento buscar e em qual ordem."
+      },
+      "featured": "Abelhas em Destaque",
+      "all": "Todas as Abelhas"
+    },
+    "hives": {
+      "title": "Colmeias de Bee Swarm Simulator",
+      "description": "Builds de colmeia vermelha, azul, branca e mista com SSA, mutações e amuletos para Bee Swarm Simulator.",
+      "metaTitle": "Colmeias de Bee Swarm Simulator - Builds Vermelha, Azul e Branca",
+      "metaDescription": "Monte a melhor colmeia de Bee Swarm Simulator com guias de colmeia vermelha, azul, branca e mista, passivas de SSA, mutações e requisitos de amuletos.",
+      "categoryLabel": "COLMEIAS",
+      "whatIs": "O que são as colmeias de Bee Swarm Simulator?",
+      "whatIsDescription": "Sua colmeia é o núcleo do seu enxame. Escolha uma build de cor (vermelha, azul ou branca) e junte abelhas, Super Slicers e amuletos que funcionem juntos para maximizar a coleta de pólen e a conversão de mel.",
+      "why": "Por que montar sua colmeia?",
+      "whySteps": {
+        "step1Title": "Modelos Comprovados",
+        "step1Description": "Copie builds de colmeia testadas em vez de tentar na base de tentativa e erro.",
+        "step2Title": "Conversão de Cores",
+        "step2Description": "Saiba quando e como alternar entre as cores de colmeia.",
+        "step3Title": "Otimização de Amuletos",
+        "step3Description": "Escolha o SSA e os amuletos certos para a sua build."
+      },
+      "featured": "Colmeias em Destaque",
+      "all": "---"
+    },
+    "items": {
+      "title": "Todas as Colmeias",
+      "description": "Itens de Bee Swarm Simulator",
+      "metaTitle": "Ferramentas, máscaras, bolsas, plantadores, amuletos e caminhos de melhoria para Bee Swarm Simulator.",
+      "metaDescription": "Itens de Bee Swarm Simulator - Ferramentas, Máscaras e Equipamentos",
+      "categoryLabel": "Melhore seus equipamentos de Bee Swarm Simulator com guias sobre ferramentas, máscaras, bolsas, amuletos, plantadores e os melhores equipamentos para cada estágio.",
+      "whatIs": "ITENS",
+      "whatIsDescription": "O que são itens de Bee Swarm Simulator?",
+      "why": "Os itens incluem ferramentas de coleta de pólen, máscaras, mochilas, cintos, protetores e botas. Cada melhoria aumenta a capacidade de pólen, a taxa de coleta ou a velocidade de conversão para manter seu enxame crescendo.",
+      "whySteps": {
+        "step1Title": "Por que melhorar os itens?",
+        "step1Description": "Prioridade de Equipamentos",
+        "step2Title": "Saiba qual ferramenta ou máscara comprar a seguir.",
+        "step2Description": "Custos de Materiais",
+        "step3Title": "Planeje seu mel e recursos para cada melhoria.",
+        "step3Description": "Rotas por Estágio"
+      },
+      "featured": "Siga os equipamentos recomendados para o seu progresso atual.",
+      "all": "Itens em Destaque"
+    },
+    "resources": {
+      "title": "Todos os Itens",
+      "description": "Recursos de Bee Swarm Simulator",
+      "metaTitle": "Glue, enzymes, soft wax, gumdrops, stingers, tickets, bond e nectar para Bee Swarm Simulator.",
+      "metaDescription": "Recursos de Bee Swarm Simulator - Glue, Enzymes e Stingers",
+      "categoryLabel": "Domine os recursos de Bee Swarm Simulator, incluindo guias de glue, enzymes, soft wax, gumdrops, stingers, tickets, bond e nectar.",
+      "whatIs": "RECURSOS",
+      "whatIsDescription": "O que são recursos de Bee Swarm Simulator?",
+      "why": "Recursos são materiais de criação e consumíveis como glue, enzymes, soft wax, gumdrops, stingers, tickets e bond. Eles servem para criação, petiscos de abelhas, boosts e progressão de eventos.",
+      "whySteps": {
+        "step1Title": "Por que gerenciar recursos?",
+        "step1Description": "Usos de Materiais",
+        "step2Title": "Saiba o que cada recurso cria e desbloqueia.",
+        "step2Description": "Acúmulo de Boosts",
+        "step3Title": "Combine gumdrops, enzymes e field dice para obter o rendimento máximo.",
+        "step3Description": "Estoque Inteligente"
+      },
+      "featured": "Guarde os materiais certos para grandes melhorias e eventos.",
+      "all": "Recursos em Destaque"
+    },
+    "quests": {
+      "title": "Todos os Recursos",
+      "description": "Missões de Bee Swarm Simulator",
+      "metaTitle": "Linhas de missões de NPCs Ursos, requisitos, recompensas e rotas de conclusão para Bee Swarm Simulator.",
+      "metaDescription": "Missões de Bee Swarm Simulator - Missões de Ursos e Recompensas",
+      "categoryLabel": "Complete todas as missões de Bee Swarm Simulator com guias para as linhas de missões e recompensas de Black Bear, Mother Bear, Panda Bear e Spirit Bear.",
+      "whatIs": "QUESTS",
+      "whatIsDescription": "O que são missões de Bee Swarm Simulator?",
+      "why": "Por que completar missões?",
+      "whySteps": {
+        "step1Title": "Recompensas Valiosas",
+        "step1Description": "Ganhe mel, tickets e geleia real para acelerar seu progresso.",
+        "step2Title": "Desbloqueie Conteúdo",
+        "step2Description": "Abra novas zonas, campos e abelhas através de séries de missões.",
+        "step3Title": "Rotas Claras",
+        "step3Description": "Siga caminhos eficientes para completar missões."
+      },
+      "featured": "Missões em Destaque",
+      "all": "Todas as Missões"
+    }
   }
 }

@@ -1,11 +1,1119 @@
 {
+  "seo": {
+    "home": {
+      "title": "Bee Swarm Simulator Wiki - Hướng dẫn về Code, Ong & Tổ ong",
+      "description": "Bee Swarm Simulator Wiki với mã code, bảng xếp hạng ong, cách build tổ ong, nhiệm vụ, vật phẩm, cánh đồng, sự kiện, sticker và hướng dẫn cho người mới bắt đầu chơi Roblox.",
+      "keywords": "Bee Swarm Simulator, Roblox, code, ong, tổ ong, nhiệm vụ, vật phẩm, sticker, hướng dẫn",
+      "ogTitle": "Bee Swarm Simulator Wiki - Hướng dẫn về Code, Ong & Tổ ong",
+      "ogDescription": "Bee Swarm Simulator Wiki với mã code, bảng xếp hạng ong, cách build tổ ong, nhiệm vụ, vật phẩm, cánh đồng, sự kiện, sticker và hướng dẫn cho người mới bắt đầu chơi Roblox.",
+      "twitterTitle": "Bee Swarm Simulator Wiki - Hướng dẫn về Code, Ong & Tổ ong",
+      "twitterDescription": "Wiki Bee Swarm Simulator đầy đủ với mã code, bảng xếp hạng ong, cách build tổ ong, nhiệm vụ, sticker và hướng dẫn cho người mới bắt đầu chơi Roblox."
+    }
+  },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "bees": "Bees",
-    "hives": "Hives",
-    "items": "Items",
-    "resources": "Resources",
-    "quests": "Quests"
+    "codes": "Mã Code",
+    "guide": "Hướng dẫn",
+    "bees": "Ong",
+    "hives": "Tổ ong",
+    "items": "Vật phẩm",
+    "resources": "Tài nguyên",
+    "quests": "Nhiệm vụ"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "more": "Thêm",
+    "playNow": "Chơi trên Roblox",
+    "switchLanguage": "Chuyển đổi ngôn ngữ",
+    "switchTheme": "Thay đổi giao diện",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "notFound": "Không tìm thấy trang",
+    "notFoundDescription": "Trang bạn đang tìm kiếm không tồn tại.",
+    "backToHome": "Quay lại Trang chủ",
+    "relatedArticles": "Bài viết liên quan",
+    "readMore": "Đọc thêm",
+    "articlesComingSoon": "Bài viết sắp ra mắt"
+  },
+  "hero": {
+    "badge": "Trò chơi mô phỏng thu thập ong trên Roblox",
+    "title": "Bee Swarm Simulator Wiki",
+    "description": "Phát triển đàn ong của bạn, thu thập phấn hoa, làm mật ong, hoàn thành nhiệm vụ của gấu, mở khóa các khu vực mới, xây dựng tổ ong tốt hơn, trao đổi sticker và sử dụng mã code để nhận buff.",
+    "getFreeCodesCTA": "Nhận mã code miễn phí",
+    "playOnRobloxCTA": "Chơi trên Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4B+",
+        "label": "Tổng số lượt truy cập"
+      },
+      "stat2": {
+        "value": "18M+",
+        "label": "Thành viên nhóm"
+      },
+      "stat3": {
+        "value": "15K+",
+        "label": "Người chơi trực tuyến"
+      },
+      "stat4": {
+        "value": "6",
+        "label": "Kích thước máy chủ"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Lối chơi Bee Swarm Simulator",
+    "description": "Thu thập phấn hoa trên các cánh đồng, chuyển hóa thành mật ong tại tổ của bạn, ấp những chú ong mạnh hơn và leo núi thông qua các nhiệm vụ gấu, khu vực, sự kiện và xây dựng tổ ong trong trò chơi mô phỏng thu thập ong trên Roblox này."
+  },
+  "tools": {
+    "title": "Bee Swarm Simulator",
+    "titleHighlight": "Tài nguyên",
+    "subtitle": "Mọi thứ bạn cần để thu thập phấn hoa, tạo mật ong, xây dựng tổ và làm chủ Bee Swarm Simulator",
+    "cards": [
+      {
+        "icon": "Quà tặng",
+        "title": "Code Bee Swarm Simulator",
+        "description": "Các code còn hạn, các bước nhập code và kho lưu trữ code đã hết hạn"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Hướng dẫn Bee Swarm Simulator cho người mới bắt đầu",
+        "description": "Lộ trình chơi đầu tiên từ phấn hoa đến tổ ong đầu tiên của bạn"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Tiến trình chơi Bee Swarm Simulator",
+        "description": "Thứ tự trang bị và các giai đoạn nâng cấp từ tổ ong khởi đầu đến cuối game"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Bảng xếp hạng Ong Bee Swarm Simulator",
+        "description": "Xếp hạng ong theo từng giai đoạn cho mọi cấp độ tài khoản"
+      },
+      {
+        "icon": "Trang chủ",
+        "title": "Cách xây dựng tổ Bee Swarm Simulator",
+        "description": "So sánh các hướng xây tổ hỗn hợp, đỏ, xanh và trắng"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Nhiệm vụ Bee Swarm Simulator",
+        "description": "Các tuyến nhiệm vụ gấu, thứ tự ưu tiên và các loại phần thưởng"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Hướng dẫn Cửa hàng Bee Swarm Simulator",
+        "description": "Gamepass, trạng thái DLC, đồ chơi và giá trị vật phẩm lưu niệm"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "Sự kiện Bee Swarm Simulator",
+        "description": "Nhiệm vụ Beesmas, nhân đôi boost, sticker và giao dịch"
+      }
+    ]
+  },
+  "modules": {
+    "codesAndRewards": {
+      "title": "Code và phần thưởng Bee Swarm Simulator",
+      "displayType": "code-cards",
+      "intro": "Mô-đun này phân chia các code thưởng còn hạn, code đã hết hạn, phần thưởng liên quan đến nhóm và trạng thái code DLC để bạn có thể nhận các phần thưởng thực tế trong Bee Swarm Simulator. Hãy tham gia nhóm Roblox chính thức trước, sau đó đổi code từ menu cài đặt trong trò chơi.",
+      "activeCodes": [
+        {
+          "code": "fourtunate",
+          "reward": "1 Ong Marshmallow, 4 Dâu tây, 4 Hạt hướng dương, 4 Việt quất, 4 Dứa, 4 Micro-Converter, 4 Field Dice, 4 Gumdrop, 4 Jelly Bean, 4 Stinger"
+        },
+        {
+          "code": "15MMembers",
+          "reward": "15 Gumdrop, 1 Ong Marshmallow, 15 Hạt hướng dương, 15 Dâu tây, 15 Dứa, 15 Việt quất, 15 Bitterberry, 1 Bóng bay đỏ"
+        },
+        {
+          "code": "38217",
+          "reward": "5 Vé"
+        },
+        {
+          "code": "BeesBuzz123",
+          "reward": "10 Gumdrop, 5 Bitterberry, 1 Cloud Vial"
+        },
+        {
+          "code": "BopMaster",
+          "reward": "5 Vé"
+        },
+        {
+          "code": "ClubBean",
+          "reward": "1 Hạt Đậu Thần, 2 Tăng cường Cánh đồng Dứa"
+        },
+        {
+          "code": "Connoisseur",
+          "reward": "5 Vé"
+        },
+        {
+          "code": "Crawlers",
+          "reward": "5 Vé"
+        },
+        {
+          "code": "Nectar",
+          "reward": "5.000 Mật ong"
+        },
+        {
+          "code": "Roof",
+          "reward": "5 Vé"
+        },
+        {
+          "code": "Wax",
+          "reward": "5.000 Mật ong, 5 Vé"
+        }
+      ],
+      "redeemSteps": [
+        "Tham gia Bee Swarm Simulator Club trên Roblox.",
+        "Khởi động trải nghiệm Bee Swarm Simulator chính thức.",
+        "Nhấn vào biểu tượng bánh răng ở khu vực cài đặt phía trên bên trái.",
+        "Nhập mã vào ô Codes và nhấn Redeem.",
+        "Chỉ sử dụng mã tăng cường cánh đồng khi bạn đã sẵn sàng cày, vì phần thưởng tăng cường sẽ kích hoạt ngay lập tức."
+      ],
+      "dlcNote": "Trang DLC chính thức là nơi để kiểm tra trạng thái đổi mã DLC Bee Swarm Simulator. Hãy coi bất kỳ trang web nào khác tuyên bố đổi mã DLC là giả mạo.",
+      "expiredCodes": [
+        "FrogFix",
+        "DiscordMillion",
+        "777",
+        "LatePresents",
+        "TheeBeeVee",
+        "MarchIsMerry",
+        "WordFactory",
+        "Wink",
+        "SecretProfileCode",
+        "Marshmallow",
+        "AnniversaBee",
+        "4MilMembers",
+        "Buzz",
+        "6irthday",
+        "GumdropsForScience",
+        "Cog"
+      ]
+    },
+    "bssBeginnerGuide": {
+      "title": "Hướng dẫn cho người mới chơi Bee Swarm Simulator",
+      "displayType": "từng bước một",
+      "intro": "Bee Swarm Simulator được xây dựng dựa trên một vòng lặp thăng tiến: thu thập phấn hoa trên các cánh đồng, luyện mật ong tại tổ, phát triển đàn ong, hoàn thành nhiệm vụ của gấu, mở khóa các khu vực cao hơn và sử dụng những con ong mạnh hơn để chiến đấu với bọ và quái vật. Lộ trình dành cho người mới này giúp phiên chơi đầu tiên tập trung vào tiến trình hữu ích thay vì chi tiêu ngẫu nhiên.",
+      "steps": [
+        {
+          "title": "Tham gia Trải nghiệm Chính thức",
+          "description": "Bắt đầu từ trang trò chơi Roblox chính xác của Onett. Nhận một tổ ong trống khi bạn xuất hiện, sau đó ở gần các cánh đồng ban đầu cho đến khi hoàn thành các nâng cấp túi đầu tiên.",
+          "tip": "Sử dụng trang trò chơi chính thức và liên kết câu lạc bộ chính thức để nhận phần thưởng và cập nhật."
+        },
+        {
+          "title": "Thu thập phấn hoa trước",
+          "description": "Đi vào một cánh đồng và sử dụng công cụ thu thập của bạn, để ong của bạn thu thập phấn hoa cùng bạn, và nhặt các token kỹ năng mà chúng rơi ra.",
+          "tip": "Tiến trình ban đầu đến từ các chu kỳ thu thập và chuyển đổi ngắn, chứ không phải từ việc vội vã đi đến các khu vực xa xôi."
+        },
+        {
+          "title": "Chuyển đổi phấn hoa thành mật ong",
+          "description": "Trở về tổ của bạn khi túi đầy và đứng gần đó để chuyển đổi phấn hoa thành mật ong, sau đó chi tiêu lượng mật ong ban đầu vào các nâng cấp thực tế.",
+          "tip": "Khi túi của bạn đầy quá nhanh, hãy ưu tiên nâng cấp bình chứa. Khi cảm thấy việc thu thập bị chậm, hãy ưu tiên nâng cấp công cụ."
+        },
+        {
+          "title": "Ấp thêm ong",
+          "description": "Mua trứng khi bạn có đủ khả năng, đặt chúng vào các ô tổ trống, và giữ lại các chú ong hiếm, sử thi, truyền thuyết và sự kiện hữu ích khi tổ của bạn được cải thiện.",
+          "tip": "Nhiều ong hơn đồng nghĩa với việc thu thập nhiều hơn, hỗ trợ chiến đấu nhiều hơn và tiếp cận được các khu vực núi cao hơn."
+        },
+        {
+          "title": "Làm theo các nhiệm vụ của Gấu",
+          "description": "Hoàn thành các nhiệm vụ phấn hoa kiểu Black Bear để nhận phần thưởng ổn định, thực hiện các nhiệm vụ kiểu Mother Bear để học cách nâng cấp ong và sử dụng treats, và nhận các nhiệm vụ chiến đấu khi ong của bạn có thể xử lý lũ bọ một cách an toàn.",
+          "tip": "Các nhiệm vụ sẽ hướng dẫn bạn đến các cánh đồng, cơ chế và phần thưởng theo một thứ tự rõ ràng hơn là tự đoán mò."
+        },
+        {
+          "title": "Mở khóa các khu vực mới một cách dần dần",
+          "description": "Tăng số lượng ong của bạn để vượt qua các cổng, tiêu diệt bọ và quái vật để lấy vật phẩm rơi ra khi chúng trong tầm kiểm soát, và tìm kiếm các kho báu ẩn cùng các máy phân phát hữu ích khi các khu vực mới mở ra.",
+          "tip": "Đừng vội vàng thực hiện các nâng cấp đắt đỏ trước khi tổ ong, nhiệm vụ và sức chứa túi của bạn thực sự có thể đáp ứng được chúng."
+        }
+      ],
+      "quickTips": [
+        "Luôn bắt đầu từ trang trò chơi Bee Swarm Simulator chính thức để tránh các bản sao giả mạo.",
+        "Cho ong của bạn ăn các loại treats để chúng lên cấp và thu thập nhanh hơn.",
+        "Tiết kiệm các nguyên liệu có giá trị cao thay vì sử dụng mọi vật phẩm ngay khi chúng rơi ra.",
+        "Chỉ sử dụng các mã boost cánh đồng trong các phiên cày cuốc tích cực để đạt hiệu quả tốt nhất."
+      ]
+    },
+    "progressionAndGearOrder": {
+      "title": "Tiến trình và thứ tự trang bị trong Bee Swarm Simulator",
+      "displayType": "upgrade-path",
+      "intro": "Tiến trình trong Bee Swarm Simulator là việc duy trì số lượng ong, sức mạnh công cụ thu thập, sức chứa bình chứa, nhiệm vụ, huy hiệu, nguyên liệu và bùa hộ mệnh cùng phát triển. Lộ trình này cung cấp cho bạn một thứ tự thực tế về những gì cần cải thiện tiếp theo trong giai đoạn đầu game, giữa game và cuối game.",
+      "stages": [
+        {
+          "stage": "Tổ ong khởi đầu",
+          "beeRange": "1-10 chú ong",
+          "goal": "Xây dựng chu kỳ thu thập-chuyển đổi-nâng cấp cơ bản.",
+          "priorities": [
+            "Trứng cơ bản và các ô tổ ong",
+            "Nâng cấp công cụ thu thập khởi đầu",
+            "Nâng cấp bình chứa hoặc ba lô khởi đầu"
+          ],
+          "tasks": [
+            "Nhận một tổ ong và thu thập phấn hoa ở các cánh đồng ban đầu.",
+            "Chuyển đổi phấn hoa thành mật ong tại tổ của bạn.",
+            "Bắt đầu các nhiệm vụ của Gấu ngay lập tức."
+          ]
+        },
+        {
+          "stage": "Leo núi giai đoạn đầu",
+          "beeRange": "10-25 chú ong",
+          "goal": "Tăng số lượng ong và mua các nâng cấp cửa hàng thực tế khi các khu vực mới mở ra.",
+          "priorities": [
+            "Công cụ thu thập tốt hơn khi cảm thấy việc gom phấn hoa bị chậm",
+            "Túi tốt hơn khi bình chứa của bạn đầy quá nhanh",
+            "Thêm ô tổ ong khi các cổng mới yêu cầu nhiều ong hơn"
+          ],
+          "tasks": [
+            "Sử dụng các nhiệm vụ để chọn cánh đồng thay vì cày cuốc ngẫu nhiên.",
+            "Tiêu diệt các loại bọ vừa sức để nhận vật phẩm rơi ra và luyện tập chiến đấu.",
+            "Thu thập huy hiệu một cách tự nhiên khi đang cày trên các cánh đồng."
+          ]
+        },
+        {
+          "stage": "Thiết lập trang bị Mountain Top",
+          "beeRange": "25-35 con ong",
+          "goal": "Chuẩn bị cho việc cày cuốc mạnh mẽ hơn, làm nhiệm vụ tốt hơn và các nâng cấp tốn nhiều nguyên liệu.",
+          "priorities": [
+            "Lộ trình trang bị Mountain Top Shop",
+            "Porcelain Dipper và Porcelain Port-O-Hive",
+            "Nâng cấp sprinkler khi các phiên cày cuốc kéo dài hơn"
+          ],
+          "tasks": [
+            "Cải thiện sự đa dạng của tổ ong để nhận chỉ số bonus từ ong gifted và hỗ trợ làm nhiệm vụ.",
+            "Hướng tới các loại mặt nạ và hộ vệ mạnh hơn.",
+            "Tích trữ nguyên liệu thay vì tiêu xài mọi vật phẩm ngay lập tức."
+          ]
+        },
+        {
+          "stage": "Lộ trình chế tạo Mid Game",
+          "beeRange": "35-45 con ong",
+          "goal": "Chuyển sang trang bị chế tạo, lên kế hoạch cho ong event, amulet và tiến trình Spirit Bear.",
+          "priorities": [
+            "Honey Mask, Bubble Mask, hoặc Fire Mask tùy thuộc vào hướng cày cuốc",
+            "Crimson Guard và Cobalt Guard",
+            "Tiến trình nâng cấp Honeycomb Belt và Petal Wand hoặc Petal Belt"
+          ],
+          "tasks": [
+            "Hoàn thành các nhiệm vụ của Spirit Bear để nhận Spirit Petal.",
+            "Thu thập các amulet khi chúng được mở khóa.",
+            "Nâng cấp các con ong chiến đấu chủ lực để diệt boss và bọ mạnh hơn."
+          ]
+        },
+        {
+          "stage": "Định hướng Late Game và Endgame",
+          "beeRange": "45-50 con ong",
+          "goal": "Chuyên biệt hóa tổ ong và hướng tới các nâng cấp đắt đỏ ở giai đoạn late-game.",
+          "priorities": [
+            "Diamond Mask, Demon Mask, hoặc Gummy Mask tùy thuộc vào hướng đi của tổ ong",
+            "Coconut Canister và Coconut Clogs",
+            "Supreme Star Amulet và lộ trình collector endgame"
+          ],
+          "tasks": [
+            "Chuyên biệt hóa theo hướng tổ ong blue, red hoặc white.",
+            "Nâng cấp đều đặn cấp độ cho toàn bộ tổ ong.",
+            "Sử dụng boost khi thiết lập cánh đồng, nectar, balloon, gumdrop và amulet đã sẵn sàng."
+          ]
+        }
+      ]
+    },
+    "beeTierList": {
+      "title": "Bảng xếp hạng Ong Bee Swarm Simulator",
+      "displayType": "tier-grid",
+      "intro": "Giá trị của ong thay đổi khi tổ ong của bạn phát triển. Người chơi Early Game cần khả năng thu hoạch, focus, hỗ trợ token và sát thương đơn giản. Người chơi Mid Game cần hỗ trợ làm nhiệm vụ, mark, baby love, buff nhạc và giá trị từ ong event. Người chơi Late Game xếp hạng các loại ong theo màu tổ ong, thiết lập boost, nhu cầu chiến đấu và sự kết hợp với amulet.",
+      "groups": [
+        {
+          "stage": "Early Game",
+          "tiers": [
+            {
+              "tier": "S",
+              "bees": [
+                "Tabby Bee",
+                "Photon Bee",
+                "Music Bee",
+                "Baby Bee",
+                "Carpenter Bee"
+              ],
+              "why": "Giá trị lớn ở giai đoạn đầu nhờ tăng tiến sát thương, thu hoạch tức thì, hỗ trợ focus và melody, baby love cùng các field mark."
+            },
+            {
+              "tier": "---",
+              "bees": [
+                "A",
+                "Commander Bee",
+                "Bucko Bee",
+                "Riley Bee",
+                "Frosty Bee",
+                "Rage Bee",
+                "Shocked Bee"
+              ],
+              "why": "Hasty Bee"
+            },
+            {
+              "tier": "Hỗ trợ tốt ở giai đoạn đầu nhờ focus, hỗ trợ thu hoạch xanh hoặc đỏ, tăng tốc, hỗ trợ tấn công và hoàn thành đa dạng các nhiệm vụ.",
+              "bees": [
+                "B",
+                "Fire Bee",
+                "Demo Bee",
+                "Honey Bee",
+                "Stubborn Bee",
+                "Looker Bee"
+              ],
+              "why": "Bumble Bee"
+            },
+            {
+              "tier": "Các loại ong hữu dụng ở giai đoạn đầu để lấp đầy vị trí khi tổ còn nhỏ, mặc dù nhiều con sẽ bị thay thế bởi các hỗ trợ mạnh hơn và chỉ số thưởng từ Gifted.",
+              "bees": [
+                "C",
+                "Basic Bee",
+                "Bomber Bee",
+                "Brave Bee",
+                "Cool Bee",
+                "Rad Bee"
+              ],
+              "why": "Rascal Bee"
+            }
+          ]
+        },
+        {
+          "stage": "Các loại ong khởi đầu để lấp chỗ trống. Gifted Basic Bee rất có giá trị về sau nhờ chỉ số thưởng cho tổ, nhưng các con khởi đầu bình thường không nên cản trở các nâng cấp mạnh hơn.",
+          "tiers": [
+            {
+              "tier": "Mid Game",
+              "bees": [
+                "S",
+                "Tabby Bee",
+                "Photon Bee",
+                "Vicious Bee",
+                "Gummy Bee",
+                "Music Bee",
+                "Carpenter Bee"
+              ],
+              "why": "Baby Bee"
+            },
+            {
+              "tier": "Các loại ong có tầm ảnh hưởng lớn trong chiến đấu, tạo goo, mark, melody, baby love và mang lại giá trị lâu dài cho tài khoản.",
+              "bees": [
+                "A",
+                "Fuzzy Bee",
+                "Vector Bee",
+                "Precise Bee",
+                "Ong Nòng Nọc",
+                "Ong Nổi",
+                "Ong Ninja",
+                "Ong Kim Cương"
+              ],
+              "why": "Những con ong mạnh mẽ dần trở nên quan trọng khi tổ ong định hướng theo màu sắc, tăng cường hiệu ứng và tối ưu hóa lộ trình cày cuốc."
+            },
+            {
+              "tier": "B",
+              "bees": [
+                "Ong Ác Ma",
+                "Ong Nhút Nhát",
+                "Ong Sư Tử",
+                "Ong Chỉ Huy",
+                "Ong Riley",
+                "Ong Bucko",
+                "Ong Băng Giá",
+                "Ong Phẫn Nộ"
+              ],
+              "why": "Những lựa chọn lấp đầy vị trí hữu ích cho sát thương, hỗ trợ màu sắc, tập trung và nhiệm vụ, nhưng ít quan trọng hơn các con ong hỗ trợ chính và ong thần thoại."
+            }
+          ]
+        },
+        {
+          "stage": "Giai đoạn cuối game theo vai trò tổ ong",
+          "tiers": [
+            {
+              "tier": "Cốt lõi hệ Xanh",
+              "bees": [
+                "Ong Nổi",
+                "Ong Nòng Nọc",
+                "Ong Âm Nhạc",
+                "Ong Xù Xì",
+                "Ong Kỹ Thuật Số"
+              ],
+              "why": "Tổ ong xanh dựa vào bóng bay, bong bóng, ếch, hỗ trợ giai điệu, thụ phấn và các tiện ích nâng cao ở giai đoạn cuối game."
+            },
+            {
+              "tier": "Cốt lõi hệ Đỏ",
+              "bees": [
+                "Ong Chính Xác",
+                "Ong Cay Nồng",
+                "Ong Vector",
+                "Ong Âm Nhạc",
+                "Ong Hung Dữ",
+                "Ong Kỹ Thuật Số"
+              ],
+              "why": "Tổ ong đỏ chú trọng vào dấu mục tiêu, ngọn lửa, sự chính xác, khả năng chiến đấu mạnh mẽ, hỗ trợ giai điệu và tiện ích kỹ thuật số giai đoạn cuối game."
+            },
+            {
+              "tier": "Cốt lõi hệ Trắng",
+              "bees": [
+                "Ong Vector",
+                "Ong Xù Xì",
+                "Ong Kẹo Dẻo",
+                "Ong Thợ Mộc",
+                "Ong Mướp",
+                "Ong Kỹ Thuật Số"
+              ],
+              "why": "Tổ ong trắng chú trọng vào các dấu ấn, chất nhầy, thụ phấn, hỗ trợ chuyển hóa và khả năng thăng tiến sức mạnh từ các công cụ tổ ong nâng cao."
+            }
+          ]
+        },
+        {
+          "stage": "Thứ tự ưu tiên Ong Sự kiện",
+          "tiers": [
+            {
+              "tier": "Ưu tiên hàng đầu",
+              "bees": [
+                "Tabby Bee",
+                "Photon Bee",
+                "Vicious Bee",
+                "Gummy Bee"
+              ],
+              "why": "Tabby tăng tiến sức mạnh cực tốt, Photon mang lại khả năng thu hoạch tức thời mạnh mẽ, Vicious cải thiện khả năng chiến đấu, và Gummy hỗ trợ farm chuyên goo."
+            },
+            {
+              "tier": "Ưu tiên cao",
+              "bees": [
+                "Crimson Bee",
+                "Cobalt Bee",
+                "Festive Bee",
+                "Windy Bee"
+              ],
+              "why": "Crimson và Cobalt hỗ trợ thu hoạch đỏ và xanh, Festive thêm các token hữu ích, và Windy trở nên mạnh mẽ khi đã có thể mở khóa."
+            },
+            {
+              "tier": "Ưu tiên sau",
+              "bees": [
+                "Puppy Bee",
+                "Bear Bee",
+                "Digital Bee"
+              ],
+              "why": "Puppy giúp ích nhiều khi việc nâng cấp độ ong là quan trọng, Bear Bee phụ thuộc vào việc sở hữu Robux, và Digital Bee thuộc về tiến trình cuối game nâng cao."
+            }
+          ]
+        }
+      ]
+    },
+    "hiveBuildsAndColors": {
+      "title": "Các cách xây dựng và màu sắc tổ ong trong Bee Swarm Simulator",
+      "displayType": "comparison-table",
+      "intro": "Bee Swarm Simulator bắt đầu như một trò chơi phát triển tổ ong hỗn hợp: bạn thu hoạch phấn hoa, chuyển hóa mật ong, hoàn thành các nhiệm vụ của gấu, mở khóa các khu vực mới, và khám phá các loài ong với những đặc tính khác nhau. Tổ ong chuyên màu sẽ mạnh hơn ở giai đoạn sau, nhưng chuyển đổi quá sớm có thể làm chậm tiến độ làm nhiệm vụ, nhận huy hiệu và farm tài nguyên.",
+      "builds": [
+        {
+          "build": "Tổ ong hỗn hợp",
+          "stage": "Đầu game đến giữa game",
+          "playstyle": "Làm nhiệm vụ linh hoạt trên các yêu cầu phấn hoa đỏ, xanh và trắng",
+          "coreBees": [
+            "Sự kết hợp cân bằng giữa ong đỏ, xanh, trắng, ong đa dụng và ong Gifted",
+            "Các ong Event với khả năng đa dụng mạnh mẽ",
+            "Các loài ong hỗ trợ tạo token, focus, haste, melody, baby love, bomb và mark"
+          ],
+          "gearFocus": [
+            "Balo và máy thu hoạch đa dụng",
+            "Mặt nạ phù hợp để làm nhiệm vụ và trang bị cửa hàng giữa game",
+            "Tránh tập trung quá mức vào một màu trước khi hoàn thành các chuỗi nhiệm vụ lớn và tiến trình nâng cấp amulet"
+          ],
+          "bestFor": "Người chơi vẫn đang hoàn thành các nhiệm vụ của gấu, mở khóa các cổng, xây dựng chỉ số bonus từ ong Gifted, và thu thập tài nguyên nói chung.",
+          "decisionNote": "Hãy giữ tổ ong hỗn hợp cho đến khi tài khoản của bạn có đủ các chỉ số bonus vĩnh viễn, các loại ong Gifted và các lựa chọn trang bị để hỗ trợ một hướng đi chuyên màu hoàn chỉnh."
+        },
+        {
+          "build": "Tổ ong xanh",
+          "stage": "Hướng đi farm cho giai đoạn cuối game và endgame",
+          "playstyle": "Các phiên farm dài, sức chứa lớn, lưu trữ dạng bong bóng và lượng mật ong tăng đều đặn",
+          "coreBees": [
+            "Tadpole Bee",
+            "Buoyant Bee",
+            "Các loài ong chuyên tạo bong bóng (bubble)",
+            "Các ong Gifted hỗ trợ hệ xanh",
+            "Các loài ong đa dụng giúp duy trì thời gian hoạt động của token và buff"
+          ],
+          "gearFocus": [
+            "Diamond Mask",
+            "Nâng cấp phấn hoa xanh dương và sức chứa",
+            "Hướng đi Tide Popper cho tiến trình xanh dương nâng cao",
+            "Lối chơi amulet kiểu Pop Star"
+          ],
+          "bestFor": "Những người chơi ưa thích các phiên cày cuốc kéo dài, tăng trưởng sức chứa, và cày ruộng xanh dương như Pine Tree Forest hoặc các tuyến đường chuyên xanh dương khác.",
+          "decisionNote": "Xanh dương thường là hướng đi dễ thở nhất cho việc cày cuốc lâu dài, nhưng bạn vẫn cần những chú ong mythic phù hợp và trang bị chuyên xanh dương để cảm thấy mạnh mẽ."
+        },
+        {
+          "build": "Red Hive",
+          "stage": "Hướng đi boost chủ động cho giai đoạn late game và endgame",
+          "playstyle": "Cày cuốc bùng nổ cao, boost chủ động, lối chơi flame/precision, và thiên về chiến đấu mạnh mẽ hơn",
+          "coreBees": [
+            "Precise Bee",
+            "Spicy Bee",
+            "Hỗ trợ từ Vector Bee",
+            "Các chú ong hỗ trợ gifted đỏ",
+            "Những chú ong hỗ trợ focus, flame, mark, rage, và tấn công"
+          ],
+          "gearFocus": [
+            "Demon Mask",
+            "Nâng cấp phấn hoa đỏ và thiên hướng tấn công",
+            "Hướng đi Dark Scythe cho tiến trình đỏ nâng cao",
+            "Lối chơi amulet kiểu Scorching Star"
+          ],
+          "bestFor": "Những người chơi yêu thích boost chủ động, cày ruộng đỏ như Pepper Patch hoặc Rose Field, và tương tác nhiều hơn trong các phiên chơi.",
+          "decisionNote": "Đỏ có thể cày rất khủng, nhưng nó đòi hỏi cao: amulet yếu, thiếu ong mythic, hoặc thiết lập boost kém sẽ khiến tổ ong yếu hơn nhiều so với trên lý thuyết."
+        },
+        {
+          "build": "White Hive",
+          "stage": "Hướng đi endgame tốn kém",
+          "playstyle": "Cày cuốc đầu tư cao xoay quanh goo, mark, precision, và khả năng tăng trưởng phấn hoa trắng mạnh mẽ",
+          "coreBees": [
+            "Vector Bee",
+            "Hỗ trợ từ Precise Bee",
+            "Hỗ trợ từ Fuzzy Bee",
+            "Các chú ong hỗ trợ gifted trắng",
+            "Các chú ong đa dụng cho mark, focus, và thời gian duy trì token"
+          ],
+          "gearFocus": [
+            "Gummy Mask",
+            "Gummy Boots",
+            "Hướng đi Gummyballer cho tiến trình trắng nâng cao",
+            "Lối chơi amulet kiểu Gummy Star"
+          ],
+          "bestFor": "Những người chơi có tài nguyên dồi dào, amulet mạnh, chỉ số bonus gifted tốt, và tiến trình trang bị đủ để hỗ trợ lối cày chuyên goo.",
+          "decisionNote": "Trắng rất mạnh nhưng cực kỳ ngốn tài nguyên; chọn nó quá sớm có thể làm chậm tiến trình chung của bạn trước khi tài khoản sẵn sàng để hỗ trợ."
+        }
+      ]
+    },
+    "questsAndBearsGuide": {
+      "title": "Hướng dẫn Nhiệm vụ và các chú Gấu trong Bee Swarm Simulator",
+      "displayType": "quest-board",
+      "intro": "Bee Swarm Simulator sử dụng các nhiệm vụ của các chú Gấu làm xương sống cho tiến trình chơi. Bạn thu thập phấn hoa, đánh bại kẻ thù, thu thập token, mở khóa các khu vực, và nhận phần thưởng để giúp tổ ong tiến xa hơn thay vì đi lang thang vô định trên núi.",
+      "bears": [
+        {
+          "name": "Black Bear",
+          "priority": "Độ ưu tiên cao cho người mới bắt đầu",
+          "role": "Chuỗi nhiệm vụ phấn hoa cốt lõi và hướng dẫn tiến trình chơi ban đầu",
+          "focus": [
+            "Thu thập phấn hoa từ các ruộng khác nhau",
+            "Tìm hiểu các vòng lặp cày cuốc cơ bản",
+            "Tiến triển từ các khu vực ban đầu đến các mục tiêu rộng hơn trên bản đồ"
+          ],
+          "rewards": [
+            "Mật ong",
+            "Trứng",
+            "Vé",
+            "Phần thưởng tiến trình chung"
+          ],
+          "routeNote": "Bắt đầu từ đây và duy trì lộ trình này trong khi nâng cấp công cụ, ba lô và ô tổ ong."
+        },
+        {
+          "name": "Brown Bear",
+          "priority": "Lộ trình lặp lại hiệu quả cao",
+          "role": "Chu kỳ nhiệm vụ lặp lại để nhận phần thưởng ổn định",
+          "focus": [
+            "Nhiệm vụ thu thập trên cánh đồng",
+            "Ghé thăm lại trong quá trình chơi lâu dài",
+            "Các mốc phần thưởng tăng dần"
+          ],
+          "rewards": [
+            "Mật ong",
+            "Vé",
+            "Phần thưởng trứng",
+            "Vật phẩm tiêu hao hữu ích"
+          ],
+          "routeNote": "Kiểm tra Brown Bear thường xuyên vì các lộ trình nhiệm vụ lặp lại sẽ gia tăng giá trị theo thời gian."
+        },
+        {
+          "name": "Mother Bear",
+          "priority": "Hiệu quả cao cho việc nâng cấp độ ong",
+          "role": "Chăm sóc ong, bánh thưởng, gắn kết và cải thiện tổ ong cơ bản",
+          "focus": [
+            "Cho ong ăn",
+            "Cải thiện mức độ gắn kết",
+            "Tăng cường sức mạnh tổ ong giai đoạn đầu",
+            "Hỗ trợ tiến trình nâng cấp độ và ong gifted"
+          ],
+          "rewards": [
+            "Bánh thưởng",
+            "Các vật phẩm tiến trình kiểu Royal Jelly",
+            "Phần thưởng phát triển của ong"
+          ],
+          "routeNote": "Sử dụng lộ trình này để giữ cho cấp độ của ong tiếp tục tăng song song với các mục tiêu khác của bạn."
+        },
+        {
+          "name": "Panda Bear",
+          "priority": "Hiệu quả cao khi việc mở khóa chiến đấu là quan trọng",
+          "role": "Huấn luyện chiến đấu và tiến trình tập trung vào kẻ thù",
+          "focus": [
+            "Tiêu diệt bọ và quái vật",
+            "Chuẩn bị sẵn sàng chiến đấu",
+            "Chuẩn bị cho các nội dung thử thách"
+          ],
+          "rewards": [
+            "Trứng",
+            "Vé",
+            "Phần thưởng liên quan đến chiến đấu",
+            "Vật phẩm tiến trình"
+          ],
+          "routeNote": "Thực hiện lộ trình này trong khi nâng cấp độ cho ong, vì ong mạnh hơn sẽ giúp các nhiệm vụ chiến đấu dễ dàng hơn nhiều."
+        },
+        {
+          "name": "Science Bear",
+          "priority": "Rất cao đối với việc mở khóa hệ thống",
+          "role": "Công nghệ, chế tạo, translator và cơ chế nâng cao",
+          "focus": [
+            "Thu thập phấn hoa trên các cánh đồng",
+            "Sử dụng vật phẩm và cơ chế",
+            "Tiến sâu hơn vào các hệ thống phát triển"
+          ],
+          "rewards": [
+            "Translators",
+            "Phần thưởng liên quan đến chế tạo",
+            "Giá trị mở khóa hệ thống"
+          ],
+          "routeNote": "Science Bear là một trong những chuỗi nhiệm vụ dài hạn quan trọng nhất vì các translator giúp mở khóa giao tiếp với các NPC quan trọng."
+        },
+        {
+          "name": "Spirit Bear",
+          "priority": "Ưu tiên giai đoạn cuối game",
+          "role": "Lộ trình Spirit Petal và tiến trình nâng cao",
+          "focus": [
+            "Mục tiêu phấn hoa lớn",
+            "Sự đa dạng của các cánh đồng",
+            "Sử dụng vật phẩm nâng cao",
+            "Các chuỗi nhiệm vụ dài"
+          ],
+          "rewards": [
+            "Spirit Petals",
+            "Phần thưởng kiểu Star Jelly",
+            "Nguyên liệu tiến trình giai đoạn cuối game"
+          ],
+          "routeNote": "Sử dụng Spirit Petals một cách cẩn thận vì chúng liên kết với các lựa chọn lớn như tiến trình Petal Wand, Petal Belt và Wind Shrine."
+        },
+        {
+          "name": "Robo Bear",
+          "priority": "Lộ trình thử thách",
+          "role": "Thử thách Robo Bear, cogs, nâng cấp và kẻ địch máy móc",
+          "focus": [
+            "Các lượt chạy thử thách tính giờ",
+            "Thu thập cogs",
+            "Nâng cấp tạm thời",
+            "Chiến đấu với Mechsquito và Cogmower"
+          ],
+          "rewards": [
+            "Cogs",
+            "Phần thưởng Thử thách Robo",
+            "Nguyên liệu sự kiện và thử thách"
+          ],
+          "routeNote": "Robo Bear được xử lý tốt nhất sau khi tổ ong có đủ cấp độ, sức mạnh chiến đấu và sự hỗ trợ linh hoạt từ các loài ong."
+        },
+        {
+          "name": "Event Bears & Lộ trình theo mùa",
+          "priority": "Giới hạn thời gian trong các sự kiện",
+          "role": "Nhiệm vụ kiểu Beesmas, quà tặng, đồ trang trí và danh mục theo mùa",
+          "focus": [
+            "Hoàn thành nhiệm vụ NPC sự kiện",
+            "Thu thập các vật phẩm theo mùa",
+            "Giao dịch hoặc thu thập phần thưởng liên quan đến sự kiện",
+            "Sử dụng các boost tạm thời khi đang hoạt động"
+          ],
+          "rewards": [
+            "Quà tặng",
+            "---",
+            "Vật phẩm trang trí",
+            "Gấu Gừng",
+            "Bông tuyết",
+            "Beequips"
+          ],
+          "routeNote": "Bùa lợi kiểu Honeyday"
+        }
+      ]
+    },
+    "gamepassesAndStoreGuide": {
+      "title": "Hoàn thành các nhiệm vụ sự kiện khi chúng đang diễn ra; phần thưởng theo mùa không tồn tại mãi mãi.",
+      "displayType": "Hướng dẫn Gamepass và Cửa hàng Bee Swarm Simulator",
+      "intro": "bảng-so-sánh",
+      "items": [
+        {
+          "name": "Bee Swarm Simulator có nội dung trên cửa hàng Roblox, các phương thức mua hàng trong trò chơi, vật phẩm chính thức, đồ chơi và một trang mã DLC riêng biệt. Quyết định chính là liệu việc mua hàng có giúp ích cho quá trình thăng tiến, tiết kiệm thời gian, tăng sự tiện lợi hay chỉ đơn thuần thuộc về nhóm vật phẩm sưu tầm vật lý.",
+          "storeArea": "Bear Bee",
+          "type": "Cửa hàng Roblox",
+          "what": "Hỗ trợ thăng tiến",
+          "value": "Cung cấp quyền sở hữu Bear Bee, một loại ong sự kiện nổi tiếng với các token biến hình gấu giúp tăng phấn hoa và tốc độ di chuyển trong thời gian hiệu lực.",
+          "bestFor": "Công cụ hỗ trợ cày cuốc và thăng tiến mạnh mẽ",
+          "buyingNote": "Những người chơi muốn nâng cấp ong vĩnh viễn với giá trị cày cuốc cao."
+        },
+        {
+          "name": "Ưu tiên vật phẩm này hơn là chi tiêu cho các đồ trang trí thuần túy khi mục tiêu là thăng tiến tài khoản mạnh mẽ hơn.",
+          "storeArea": "x2 Tốc độ chuyển đổi",
+          "type": "Cửa hàng Roblox",
+          "what": "Sự tiện lợi và tốc độ cày cuốc",
+          "value": "Giúp ong chuyển đổi phấn hoa thành mật ong tại tổ nhanh hơn.",
+          "bestFor": "Nâng cấp tiết kiệm thời gian",
+          "buyingNote": "Những người chơi thường xuyên đầy túi nhanh hoặc tốn quá nhiều thời gian để chuyển đổi tại tổ."
+        },
+        {
+          "name": "Hữu ích nhất khi thời gian chuyển đổi là một trở ngại thực sự thay vì chỉ là một sự bất tiện nhỏ.",
+          "storeArea": "x2 Thu thập của ong",
+          "type": "Cửa hàng Roblox",
+          "what": "Tăng cường khả năng thu thập của ong",
+          "value": "Cải thiện lượng phấn hoa mà ong trực tiếp thu thập được từ hoa.",
+          "bestFor": "Hỗ trợ thăng tiến theo tình huống",
+          "buyingNote": "Những người chơi có hoạt động của ong và thời gian trên cánh đồng đủ nhiều để hưởng lợi từ việc thu thập trực tiếp mạnh hơn."
+        },
+        {
+          "name": "Hãy so sánh nó với Bear Bee và Tốc độ chuyển đổi trước, vì không phải tổ ong nào cũng nhận được giá trị như nhau từ việc thu thập trực tiếp của ong.",
+          "storeArea": "Cub Buddy",
+          "type": "Cửa hàng Roblox & Sự kiện",
+          "what": "Bạn đồng hành tiện ích",
+          "value": "Thêm một chú gấu nhỏ đồng hành đi theo bạn, thu thập token và có thể tặng quà.",
+          "bestFor": "Hỗ trợ thu thập và tiện lợi",
+          "buyingNote": "Những người chơi cày cuốc tích cực và muốn được hỗ trợ thu thập token."
+        },
+        {
+          "name": "Phù hợp để tăng sự thoải mái và hỗ trợ thu thập token hơn là một công cụ nhân số lượng mật ong trực tiếp.",
+          "storeArea": "Vé, Trứng và Gói vật phẩm tiêu hao",
+          "type": "Cửa hàng Robux trong trò chơi",
+          "what": "Cung cấp các tài nguyên như vé, trứng, các lượt quay lại loại ong kiểu Sữa Ong Chúa, vật phẩm tăng tốc, hoặc các gói giới hạn sự kiện.",
+          "value": "Mua vật phẩm tăng tốc",
+          "bestFor": "Những người chơi hiểu rõ họ đang trả tiền để vượt qua rào cản cụ thể nào.",
+          "buyingNote": "Tránh tiêu Robux chỉ vì một vật phẩm trông có vẻ hiếm; hãy để các rào cản tiến độ quyết định việc mua sắm."
+        },
+        {
+          "name": "Trang Mã DLC Chính Thức",
+          "storeArea": "Trang Web Phụ Kiện Chính Thức",
+          "type": "Trạng thái mã DLC",
+          "what": "Trang DLC chính thức là nơi để kiểm tra trạng thái đổi mã DLC của Bee Swarm Simulator.",
+          "value": "Xác minh mã",
+          "bestFor": "Người chơi kiểm tra xem các mã liên quan đến đồ chơi hoặc DLC có thể đổi được hay không.",
+          "buyingNote": "Hãy sử dụng trang DLC chính thức trước khi tin tưởng bất kỳ lời mời chào mã nào từ người bán ngẫu nhiên."
+        },
+        {
+          "name": "Đồ Chơi Chính Thức",
+          "storeArea": "Cửa Hàng Phụ Kiện Chính Thức",
+          "type": "Sản phẩm vật lý",
+          "what": "Bao gồm các bộ mô hình Brown Bear, Panda Bear, Gummy Bear, Mother Bear và Black Bear, cùng với các sản phẩm Mystery Bee và hộp tổ ong.",
+          "value": "Giá trị quà lưu niệm và sưu tầm",
+          "bestFor": "Những người chơi mua các sản phẩm Bee Swarm Simulator vật lý thay vì sức mạnh trong trò chơi.",
+          "buyingNote": "Hãy coi đồ chơi và quà lưu niệm là vật phẩm sưu tầm chính thức; đừng mặc định mỗi sản phẩm vật lý đều đi kèm phần thưởng trong trò chơi."
+        },
+        {
+          "name": "Trang Phục và Thú Nhồi Bông Chính Thức",
+          "storeArea": "Cửa Hàng Phụ Kiện Chính Thức",
+          "type": "Sản phẩm vật lý",
+          "what": "Bao gồm ong nhồi bông, áo thun, áo hoodie và các sản phẩm thương hiệu Bee Swarm Simulator khác.",
+          "value": "Quà lưu niệm làm đẹp ngoài đời thực",
+          "bestFor": "Những người hâm mộ muốn sở hữu các vật phẩm Bee Swarm Simulator chính thức bên ngoài Roblox.",
+          "buyingNote": "Đây là giá trị lưu niệm, không phải lối tắt để xây dựng tổ ong."
+        }
+      ]
+    },
+    "beesmasEventsAndTrading": {
+      "title": "Sự Kiện Beesmas và Giao Dịch trong Bee Swarm Simulator",
+      "displayType": "dòng-thời-gian-sự-kiện",
+      "intro": "Các sự kiện Bee Swarm Simulator thường thêm vào các nhiệm vụ tạm thời, trang trí bản đồ, quà tặng, đồ trang trí, Beequip, nhãn dán, mục tiêu giao dịch và các vật phẩm tăng tốc giới hạn thời gian. Hãy coi phần thưởng sự kiện là các lộ trình theo mùa và sử dụng các kênh chính thức trước tiên để biết chi tiết về sự kiện đang diễn ra.",
+      "events": [
+        {
+          "period": "Mùa đông 2020",
+          "type": "Sự kiện Beesmas theo mùa",
+          "name": "Sự Kiện Mùa Đông Bee Swarm",
+          "content": [
+            "Trang trí bản đồ",
+            "Giúp đỡ các chú gấu thực hiện nhiệm vụ sự kiện",
+            "Khám phá các vật phẩm Beequip",
+            "Tặng Quà"
+          ],
+          "rewards": [
+            "Beequip",
+            "Quà tặng",
+            "Tiến độ sự kiện của Gấu",
+            "Phần thưởng theo mùa"
+          ],
+          "action": "Hoàn thành các nhiệm vụ của gấu sự kiện khi sự kiện mùa đông đang diễn ra.",
+          "status": "---"
+        },
+        {
+          "period": "Sự kiện mùa giải đã lưu trữ",
+          "type": "Các sự kiện mùa giải phong cách Beesmas",
+          "name": "Chuỗi nhiệm vụ tạm thời",
+          "content": [
+            "Lộ trình nhiệm vụ Bee Bear và sự kiện",
+            "Trò chuyện với Bee Bear",
+            "Hoàn thành các nhiệm vụ NPC lễ hội",
+            "Thu thập các vật phẩm mùa giải"
+          ],
+          "rewards": [
+            "Tiến trình nhận rương phần thưởng sự kiện",
+            "Quà tặng",
+            "Đồ trang trí",
+            "Gấu Gừng",
+            "Bông tuyết"
+          ],
+          "action": "Phần thưởng danh mục sự kiện",
+          "status": "Ưu tiên các nhiệm vụ sự kiện trước khi cày cuốc bình thường khi lộ trình mùa giải đang diễn ra."
+        },
+        {
+          "period": "Lộ trình mùa giải giới hạn thời gian",
+          "type": "Các đợt Honeyday và x2",
+          "name": "Sự kiện tăng cường tạm thời",
+          "content": [
+            "Sự kiện x2 Phấn hoa và Tốc độ Chuyển hóa",
+            "Tăng cường x2 Phấn hoa trong 48 giờ",
+            "Tăng cường x2 Tốc độ Chuyển hóa trong 48 giờ"
+          ],
+          "rewards": [
+            "Khoảng thời gian cày cuốc được tăng cường",
+            "Thu thập phấn hoa nhanh hơn",
+            "Chuyển hóa nhanh hơn"
+          ],
+          "action": "Giá trị tốt nhất trong các phiên cày cuốc tích cực",
+          "status": "Sử dụng tăng cường cánh đồng, vật phẩm tiêu hao và thời gian cày cuốc tích cực trong thời gian diễn ra sự kiện."
+        },
+        {
+          "period": "Tăng cường tạm thời",
+          "type": "Các bản cập nhật tập trung vào giao dịch",
+          "name": "Sự kiện giao dịch và thu thập",
+          "content": [
+            "Mục tiêu giao dịch Doodle Cub Buddy",
+            "Giao dịch để đạt được Doodle Cub Buddy",
+            "Sử dụng các vật phẩm kinh tế sự kiện"
+          ],
+          "rewards": [
+            "Thực hiện các nội dung sự kiện liên quan đến Bee Bear",
+            "Mục tiêu trang phục Cub Buddy",
+            "Tiến trình giá trị giao dịch"
+          ],
+          "action": "Phần thưởng thu thập sự kiện",
+          "status": "Giao dịch cẩn thận, xác nhận tên vật phẩm trước khi chấp nhận và tránh những người bán vật phẩm ngoài nền tảng."
+        },
+        {
+          "period": "Nội dung mùa giải tập trung vào giao dịch",
+          "type": "Nội dung kỷ nguyên Sticker",
+          "name": "Hệ thống thu thập và giao dịch",
+          "content": [
+            "Thu thập sticker",
+            "Sử dụng sticker trong các nhiệm vụ sự kiện",
+            "Giao dịch sticker với những người chơi khác",
+            "Tích lũy giá trị liên quan đến sticker theo thời gian"
+          ],
+          "rewards": [
+            "Bộ sưu tập sticker",
+            "Trả nhiệm vụ",
+            "Giá trị giao dịch",
+            "Tiện ích trang trí và sự kiện"
+          ],
+          "action": "Giữ lại các sticker hữu ích cho nhiệm vụ và giao dịch thay vì bỏ chúng đi.",
+          "status": "Hệ thống sưu tập và giao dịch"
+        },
+        {
+          "period": "Các kênh cập nhật chính thức",
+          "type": "Theo dõi tin tức và trạng thái",
+          "name": "Cập nhật từ Onett và cộng đồng Bee Swarm",
+          "content": [
+            "Các bài đăng bắt đầu sự kiện",
+            "Thông báo sự kiện x2",
+            "Cập nhật cửa hàng và đồ chơi",
+            "Cập nhật cộng đồng Discord"
+          ],
+          "rewards": [
+            "Xác nhận sự kiện đang diễn ra",
+            "Thay đổi cửa hàng",
+            "Trạng thái mã code và DLC",
+            "Chi tiết lộ trình theo mùa"
+          ],
+          "action": "Kiểm tra các nguồn chính thức từ Roblox, Onett, cửa hàng Bee Swarm và Discord trước khi tin tưởng các danh sách mã code hoặc tuyên bố trên chợ giao dịch.",
+          "status": "Theo dõi nguồn chính thức"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Câu hỏi",
+    "titleHighlight": "Thường gặp",
+    "subtitle": "Mọi thứ bạn cần biết về Bee Swarm Simulator",
+    "questions": [
+      {
+        "question": "Bee Swarm Simulator là gì?",
+        "answer": "Bee Swarm Simulator là một trò chơi Roblox của Onett, nơi bạn nuôi một đàn ong, thu thập phấn hoa, chuyển hóa thành mật ong, ấp những chú ong mới và hoàn thành các nhiệm vụ của gấu để leo núi và mở khóa các khu vực mới."
+      },
+      {
+        "question": "Làm cách nào để đổi mã code Bee Swarm Simulator?",
+        "answer": "Tham gia Bee Swarm Simulator Club trên Roblox, khởi động trò chơi, mở biểu tượng cài đặt hình bánh răng ở góc trên cùng bên trái, nhập mã vào ô Codes và nhấn Redeem. Các mã tăng cường cánh đồng sẽ kích hoạt ngay lập tức, vì vậy hãy sử dụng chúng ngay trước khi đi farm."
+      },
+      {
+        "question": "Tôi có thể chơi Bee Swarm Simulator ở đâu?",
+        "answer": "Bee Swarm Simulator được chơi miễn phí trên Roblox trên PC, Mac, thiết bị di động và Xbox. Luôn khởi động trò chơi từ trang game Roblox chính thức để tránh các bản sao giả mạo."
+      },
+      {
+        "question": "Mục tiêu chính trong Bee Swarm Simulator là gì?",
+        "answer": "Mục tiêu trong Bee Swarm Simulator là phát triển tổ ong của bạn, thu thập phấn hoa, làm mật ong, hoàn thành nhiệm vụ của gấu, mở khóa các khu vực mới và xây dựng một đàn ong mạnh hơn cho đến khi đạt được tổ ong hoàn chỉnh 50 con ở giai đoạn cuối game."
+      },
+      {
+        "question": "Một tổ ong trong Bee Swarm Simulator có thể chứa tối đa bao nhiêu con ong?",
+        "answer": "Một tổ ong Bee Swarm Simulator hoàn chỉnh chứa tối đa 50 con ong. Các ô chứa tổ ong mới sẽ mở khóa khi bạn tiến bộ, và số lượng ong nhiều hơn sẽ mở ra các cổng, cánh đồng và khu vực núi mới."
+      },
+      {
+        "question": "Các phần thưởng sự kiện trong Bee Swarm Simulator có vĩnh viễn không?",
+        "answer": "Hầu hết phần thưởng sự kiện Bee Swarm Simulator, chẳng hạn như quà Beesmas và nhiệm vụ theo mùa, đều bị giới hạn thời gian. Hãy hoàn thành các lộ trình sự kiện khi chúng đang diễn ra và kiểm tra các kênh chính thức để biết chi tiết về sự kiện đang hoạt động."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng phát triển Đàn ong của bạn chưa?",
+    "description": "Tham gia cộng đồng Bee Swarm Simulator trên Discord để nhận mã code, hướng dẫn, cách xây dựng tổ ong và các cập nhật sự kiện mới nhất!",
+    "joinCommunity": "---",
+    "joinGame": "Tham gia Discord"
+  },
+  "footer": {
+    "title": "Chơi trên Roblox",
+    "description": "Bee Swarm Simulator Wiki",
+    "resources": "Trung tâm tài nguyên đầy đủ về mã code Bee Swarm Simulator, các loại ong, cách xây tổ, nhiệm vụ, sticker, sự kiện và hướng dẫn cho người mới chơi trên Roblox.",
+    "community": "Tài nguyên",
+    "legal": "Cộng đồng",
+    "discord": "Pháp lý",
+    "reddit": "Discord",
+    "youtube": "Reddit",
+    "roblox": "YouTube",
+    "about": "Chơi trên Roblox",
+    "privacy": "Giới thiệu",
+    "terms": "Chính sách Bảo mật",
+    "copyrightNotice": "Điều khoản Dịch vụ",
+    "copyright": "Bản quyền",
+    "disclaimer": "© 2026 Bee Swarm Simulator Wiki. Không liên kết với Onett hoặc Roblox Corporation."
+  },
+  "pages": {
+    "codes": {
+      "title": "Trang web tài nguyên không chính thức do người hâm mộ tạo ra.",
+      "description": "Mã code Bee Swarm Simulator",
+      "metaTitle": "Các mã code đang hoạt động, các bước nhập và phần thưởng cho Bee Swarm Simulator. Cập nhật hàng ngày với các mã code đã xác thực.",
+      "metaDescription": "Mã code Bee Swarm Simulator - Code đang hoạt động & Phần thưởng",
+      "categoryLabel": "Nhập các mã code Bee Swarm Simulator đang hoạt động để nhận mật ong, vé, kẹo dẻo và tăng tốc cánh đồng miễn phí. Cập nhật hàng ngày với các mã code đã xác thực.",
+      "whatIs": "MÃ CODE",
+      "whatIsDescription": "Mã code Bee Swarm Simulator là gì?",
+      "why": "Các mã code cung cấp mật ong, vé, kẹo dẻo, dâu, tăng tốc cánh đồng, bộ vi chuyển đổi và các hiệu ứng sự kiện. Nhập chúng trong menu cài đặt trong trò chơi sau khi tham gia Câu lạc bộ Roblox chính thức.",
+      "whySteps": {
+        "step1Title": "Tại sao nên nhập code?",
+        "step1Description": "Tài nguyên Miễn phí",
+        "step2Title": "Nhận mật ong, vé và vật phẩm tăng tốc mà không cần tiêu tốn Robux.",
+        "step2Description": "Tiến triển Nhanh hơn",
+        "step3Title": "Tăng tốc cánh đồng và kẹo dẻo giúp đẩy nhanh việc thu thập phấn hoa và chuyển hóa mật ong.",
+        "step3Description": "Luôn Cập nhật"
+      },
+      "featured": "Theo dõi các mã code đang hoạt động và bỏ qua các mã đã hết hạn hoặc giả mạo.",
+      "all": "Mã code Nổi bật"
+    },
+    "guide": {
+      "title": "Tất cả Mã code",
+      "description": "Hướng dẫn Bee Swarm Simulator",
+      "metaTitle": "Hướng dẫn tiến trình từ người mới đến chuyên nghiệp bao gồm giai đoạn đầu, giữa và cuối trò chơi cho Bee Swarm Simulator.",
+      "metaDescription": "Hướng dẫn Bee Swarm Simulator - Tiến trình từ Người mới đến Chuyên nghiệp",
+      "categoryLabel": "Làm chủ Bee Swarm Simulator với các hướng dẫn tiến trình, mẹo cho người mới, lộ trình nâng cấp và chiến thuật cho mọi giai đoạn của trò chơi.",
+      "whatIs": "HƯỚNG DẪN",
+      "whatIsDescription": "Hướng dẫn Bee Swarm Simulator là gì?",
+      "why": "Tại sao nên làm theo hướng dẫn?",
+      "whySteps": {
+        "step1Title": "Mục tiêu rõ ràng",
+        "step1Description": "Biết chính xác những gì cần làm ở mỗi giai đoạn thay vì đoán mò.",
+        "step2Title": "Thứ tự nâng cấp thông minh",
+        "step2Description": "Chi tiêu mật ong vào đúng dụng cụ, ba lô và ong trước tiên.",
+        "step3Title": "Tránh lãng phí công sức",
+        "step3Description": "Bỏ qua những sai lầm phổ biến làm chậm tiến trình của bạn."
+      },
+      "featured": "Hướng dẫn nổi bật",
+      "all": "Tất cả hướng dẫn"
+    },
+    "bees": {
+      "title": "Các loại ong trong Bee Swarm Simulator",
+      "description": "Bảng xếp hạng ong, độ hiếm, kỹ năng, thức ăn yêu thích và cách sở hữu mọi loại ong trong Bee Swarm Simulator.",
+      "metaTitle": "Các loại ong trong Bee Swarm Simulator - Bảng xếp hạng & Kỹ năng",
+      "metaDescription": "Khám phá các loại ong trong Bee Swarm Simulator với bảng xếp hạng, độ hiếm, kỹ năng, ong gifted, ong mythic và cách mở khóa mọi loại ong.",
+      "categoryLabel": "ONG",
+      "whatIs": "Các loại ong trong Bee Swarm Simulator là gì?",
+      "whatIsDescription": "Mỗi con ong đều có độ hiếm, kỹ năng và thức ăn yêu thích riêng. Hãy xây dựng đàn ong của bạn bằng cách thu thập các loại ong thường, hiếm, sử thi, huyền thoại và thần thoại, cùng với các loại ong sự kiện như Windy Bee và Vicious Bee.",
+      "why": "Tại sao nên tìm hiểu về các loại ong?",
+      "whySteps": {
+        "step1Title": "Sức mạnh của bảng xếp hạng",
+        "step1Description": "Biết được những con ong nào mạnh nhất để thu thập phấn hoa và chiến đấu.",
+        "step2Title": "Chỉ số bonus từ Ong Gifted",
+        "step2Description": "Mở khóa các bonus gifted vĩnh viễn bằng cách thu thập mỗi loại ong một con.",
+        "step3Title": "Thứ tự ưu tiên Ong Sự kiện",
+        "step3Description": "Biết nên săn tìm những con ong sự kiện nào và theo thứ tự nào."
+      },
+      "featured": "Ong nổi bật",
+      "all": "Tất cả các loại ong"
+    },
+    "hives": {
+      "title": "Tổ ong trong Bee Swarm Simulator",
+      "description": "Các lối xây dựng tổ ong đỏ, xanh, trắng và hỗn hợp với SSA, đột biến và bùa hộ mệnh trong Bee Swarm Simulator.",
+      "metaTitle": "Tổ ong trong Bee Swarm Simulator - Lối xây dựng Đỏ, Xanh & Trắng",
+      "metaDescription": "Xây dựng tổ ong Bee Swarm Simulator tốt nhất với các hướng dẫn tổ ong đỏ, xanh, trắng và hỗn hợp, nội tại SSA, đột biến và yêu cầu bùa hộ mệnh.",
+      "categoryLabel": "TỔ ONG",
+      "whatIs": "Tổ ong trong Bee Swarm Simulator là gì?",
+      "whatIsDescription": "Tổ ong là cốt lõi trong đàn của bạn. Hãy chọn một lối xây dựng theo màu (đỏ, xanh hoặc trắng) và tập hợp các chú ong, Super Slicers và bùa hộ mệnh hoạt động hiệu quả cùng nhau để tối đa hóa việc thu thập phấn hoa và chuyển hóa mật ong.",
+      "why": "Tại sao nên xây dựng tổ ong của bạn?",
+      "whySteps": {
+        "step1Title": "Các mẫu đã được kiểm chứng",
+        "step1Description": "Sao chép các lối xây dựng tổ ong đã được thử nghiệm thay vì tự thử và sai.",
+        "step2Title": "Chuyển đổi màu tổ ong",
+        "step2Description": "Tìm hiểu khi nào và làm thế nào để chuyển đổi giữa các màu tổ ong.",
+        "step3Title": "Tối ưu hóa bùa hộ mệnh",
+        "step3Description": "Chọn SSA và bùa hộ mệnh phù hợp cho lối xây dựng của bạn."
+      },
+      "featured": "Tổ ong nổi bật",
+      "all": "Tất cả Tổ ong"
+    },
+    "items": {
+      "title": "Vật phẩm Bee Swarm Simulator",
+      "description": "Công cụ, mặt nạ, túi, chậu cây, bùa hộ mệnh và lộ trình nâng cấp trang bị cho Bee Swarm Simulator.",
+      "metaTitle": "Vật phẩm Bee Swarm Simulator - Công cụ, Mặt nạ & Trang bị",
+      "metaDescription": "Nâng cấp trang bị Bee Swarm Simulator của bạn với hướng dẫn về công cụ, mặt nạ, túi, bùa hộ mệnh, chậu cây và những thiết bị tốt nhất ở mọi giai đoạn.",
+      "categoryLabel": "VẬT PHẨM",
+      "whatIs": "Vật phẩm trong Bee Swarm Simulator là gì?",
+      "whatIsDescription": "Vật phẩm bao gồm công cụ thu thập phấn hoa, mặt nạ, ba lô, thắt lưng, giáp bảo vệ và giày. Mỗi lần nâng cấp sẽ tăng sức chứa phấn hoa, tốc độ thu thập hoặc tốc độ chuyển hóa để giúp đàn ong của bạn phát triển.",
+      "why": "Tại sao nên nâng cấp vật phẩm?",
+      "whySteps": {
+        "step1Title": "Thứ tự ưu tiên trang bị",
+        "step1Description": "Biết nên mua công cụ hoặc mặt nạ nào tiếp theo.",
+        "step2Title": "Chi phí nguyên liệu",
+        "step2Description": "Lên kế hoạch sử dụng mật ong và tài nguyên cho mỗi lần nâng cấp.",
+        "step3Title": "Lộ trình theo giai đoạn",
+        "step3Description": "Theo dõi các trang bị được đề xuất cho tiến trình hiện tại của bạn."
+      },
+      "featured": "Vật phẩm nổi bật",
+      "all": "Tất cả vật phẩm"
+    },
+    "resources": {
+      "title": "Tài nguyên Bee Swarm Simulator",
+      "description": "Keo, enzyme, sáp mềm, kẹo dẻo, ngòi châm, vé, điểm thân thiết và mật hoa cho Bee Swarm Simulator.",
+      "metaTitle": "Tài nguyên Bee Swarm Simulator - Keo, Enzyme & Ngòi châm",
+      "metaDescription": "Nắm vững các tài nguyên trong Bee Swarm Simulator bao gồm hướng dẫn về keo, enzyme, sáp mềm, kẹo dẻo, ngòi châm, vé, điểm thân thiết và mật hoa.",
+      "categoryLabel": "TÀI NGUYÊN",
+      "whatIs": "Tài nguyên trong Bee Swarm Simulator là gì?",
+      "whatIsDescription": "Tài nguyên là các vật liệu chế tạo và vật phẩm tiêu hao như keo, enzyme, sáp mềm, kẹo dẻo, ngòi châm, vé và điểm thân thiết. Chúng dùng để chế tạo, làm thức ăn cho ong, tăng cường và thăng tiến sự kiện.",
+      "why": "Tại sao cần quản lý tài nguyên?",
+      "whySteps": {
+        "step1Title": "Công dụng của nguyên liệu",
+        "step1Description": "Biết mỗi loại tài nguyên dùng để chế tạo và mở khóa những gì.",
+        "step2Title": "Cộng dồn tăng cường",
+        "step2Description": "Kết hợp kẹo dẻo, enzyme và xúc xắc cánh đồng để đạt hiệu suất tối đa.",
+        "step3Title": "Tích trữ thông minh",
+        "step3Description": "Tiết kiệm đúng loại nguyên liệu cho các đợt nâng cấp lớn và sự kiện."
+      },
+      "featured": "Tài nguyên nổi bật",
+      "all": "Tất cả tài nguyên"
+    },
+    "quests": {
+      "title": "Nhiệm vụ Bee Swarm Simulator",
+      "description": "Chuỗi nhiệm vụ của NPC Gấu, yêu cầu, phần thưởng và lộ trình hoàn thành cho Bee Swarm Simulator.",
+      "metaTitle": "Nhiệm vụ Bee Swarm Simulator - Nhiệm vụ Gấu & Phần thưởng",
+      "metaDescription": "Hoàn thành mọi nhiệm vụ trong Bee Swarm Simulator với hướng dẫn cho chuỗi nhiệm vụ và phần thưởng của Black Bear, Mother Bear, Panda Bear và Spirit Bear.",
+      "categoryLabel": "NHIỆM VỤ",
+      "whatIs": "Nhiệm vụ trong Bee Swarm Simulator là gì?",
+      "whatIsDescription": "Các NPC Gấu như Black Bear, Mother Bear và Spirit Bear giao các chuỗi nhiệm vụ có phần thưởng là mật ong, vé, sữa ong chúa và mở khóa các khu vực, cánh đồng cũng như công cụ mới.",
+      "why": "Tại sao nên hoàn thành nhiệm vụ?",
+      "whySteps": {
+        "step1Title": "Phần thưởng giá trị",
+        "step1Description": "Kiếm mật ong, vé và sữa ong chúa để đẩy nhanh tiến độ.",
+        "step2Title": "Mở khóa nội dung",
+        "step2Description": "Mở các khu vực, cánh đồng và ong mới thông qua các chuỗi nhiệm vụ.",
+        "step3Title": "Lộ trình rõ ràng",
+        "step3Description": "Đi theo các lộ trình hoàn thành nhiệm vụ hiệu quả."
+      },
+      "featured": "Nhiệm vụ nổi bật",
+      "all": "Tất cả nhiệm vụ"
+    }
   }
 }
