@@ -10,14 +10,7 @@
       "twitterDescription": "Complete Bee Swarm Simulator Wiki with codes, bee tier list, hive builds, quests, stickers, and beginner guides for Roblox players."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
