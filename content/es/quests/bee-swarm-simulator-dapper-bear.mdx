@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Oso Dapper: Guía de Macetas y Néctar 2026",
+  description: "Domina las misiones del Oso Dapper y el sistema de Néctar en Bee Swarm Simulator. Aprende estrategias de macetas, beneficios de néctar y niveles de recompensa para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Dapper+Bear+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, oso dapper, macetas, néctar, guía, roblox"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El Oso Dapper** se encuentra en la Zona de 15 Abejas, situado justo al lado del Campo del Tocón (Stump Field).
+- **Las Macetas** son la mecánica principal introducida por este PNJ, permitiendo a los jugadores recolectar recursos de forma pasiva.
+- **Los Néctares** proporcionan poderosas mejoras acumulables que son esenciales para las sesiones de recolección de miel de alto nivel.
+- **Las Misiones** del Oso Dapper recompensan con macetas únicas y mejoras permanentes para la colmena.
+- **Estrategia**: Mantén siempre las macetas creciendo para asegurar un tiempo de actividad de Néctar las 24 horas, los 7 días de la semana, para una máxima eficiencia.
+</Callout>
+
+<Section icon={Map} title="Ubicación del Oso Dapper y Requisitos Iniciales">
+
+El Oso Dapper es un PNJ sofisticado en Bee Swarm Simulator que se especializa en el estudio de la botánica y el cultivo de néctares. A diferencia de los osos del inicio del juego, el Oso Dapper requiere un nivel básico de progresión antes de que puedas interactuar con su tienda o línea de misiones. Lo encontrarás escondido en una elegante tienda ubicada en la Zona de 15 Abejas, específicamente posicionado entre el Campo del Tocón y el Parche de Piña.
+
+Para comenzar tu viaje con el Oso Dapper, debes haber desbloqueado la Puerta de 15 Abejas. Su tienda no es solo un lugar para misiones; es el centro principal para comprar macetas de alto nivel que no se pueden encontrar en ningún otro lugar del juego.
+
+| Requisito | Detalle |
+| :--- | :--- |
+| **Cantidad de Abejas** | Mínimo 15 abejas para entrar en la zona |
+| **Ubicación** | Zona de 15 Abejas (Al lado del Campo del Tocón) |
+| **Enfoque Principal** | Macetas, Néctares y Botánica |
+| **Moneda Clave** | Miel, Tickets e ingredientes de fabricación específicos |
+
+<Callout type="tip" title="Consejo Profesional">
+Antes de visitar al Oso Dapper, asegúrate de tener al menos 500,000 de Miel ahorrados. Sus macetas introductorias son asequibles, pero la utilidad que brindan para la progresión al inicio del juego es inigualable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La Mecánica de las Macetas: Crecimiento y Cosecha">
+
+Las macetas son herramientas especializadas que colocas en los campos para recolectar polen a lo largo del tiempo. A diferencia de tus palas o varitas controladas por el jugador, las macetas crecen según la cantidad de polen recolectado en ese campo por cualquier jugador, así como por el paso del tiempo en el mundo real. Cada maceta tiene un "Campo Preferido" donde crece significativamente más rápido y otorga mejores recompensas.
+
+Comprender las estadísticas de cada maceta es crucial para optimizar tu ganancia de recursos. En el meta de 2026, la estrategia gira en torno a rotar las macetas para asegurar que nunca te falte una mejora de néctar.
+
+| Nombre de la Maceta | Coste | Multiplicador de Crecimiento | Mejores Recompensas |
+| :--- | :--- | :--- | :--- |
+| **Maceta de Papel** | 100,000 Miel | 1.0x | Huevos Básicos, Golosinas |
+| **Maceta de Tickets** | 15 Tickets | 1.2x | Tickets, Jaleas Reales |
+| **Maceta de Plástico** | 1,000,000 Miel | 1.1x | Gomitas, Amuletos Lunares |
+| **Maceta de Caramelos** | 25,000,000 Miel | 1.3x | Golosinas, Madreselvas |
+| **Maceta Roja/Azul** | 150,000,000 Miel | 1.5x (Campos de Color) | Extractos Rojos/Azules |
+| **Maceta Hidropónica** | 500 Extractos Azules | 2.0x (Campos Azules) | Súper Jaleas, Objetos Azules |
+
+<Callout type="info" title="Mecánicas de Crecimiento">
+Las macetas crecen incluso cuando estás desconectado, pero a un ritmo reducido. Para maximizar la velocidad, mantente activo en el campo donde esté colocada tu maceta. La estadística de "Polen por Crecimiento" determina cuánto trabajo necesitan hacer tus abejas para terminar el ciclo.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Enfoque: Inicio del Juego">
+    Prioriza las **Macetas de Papel y Plástico**. Son baratas y proporcionan el néctar necesario para potenciar tu producción inicial de miel.
+  </Card>
+  <Card title="Enfoque: Mitad del Juego">
+    Invierte en **Macetas Rojas y Azules**. Estas son esenciales para fabricar los guardias Cobalto y Carmesí y potenciar construcciones de colores específicos.
+  </Card>
+  <Card title="Enfoque: Final del Juego">
+    El objetivo son la **Maceta de Pétalos** y las variantes **Hidropónica/Tratada Térmicamente**. Estas proporcionan cantidades masivas de néctar y materiales de fabricación raros.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Dominando el Sistema de Néctar">
+
+Cuando cosechas una maceta completamente crecida, recibes Néctar. Hay cinco tipos distintos de Néctar, cada uno ofreciendo un conjunto único de mejoras que pueden acumularse hasta 24 horas de duración. En el meta de 2026, mantener los néctares "Satisfactorio" e "Vigorizante" se considera obligatorio para cualquier sesión seria de recolección de miel.
+
+Los néctares se guardan en tu Vial de Néctar (visible en el inventario). Cada cosecha añade una cantidad específica de tiempo a la duración total de ese néctar.
+
+| Tipo de Néctar | Mejora Principal | Mejora Secundaria | Mejor Campo para Obtenerlo |
+| :--- | :--- | :--- | :--- |
+| **Refrescante** | +10% Polen Azul | +5% Velocidad de Movimiento | Flor Azul, Fresa |
+| **Satisfactorio** | +10% Polen Blanco | +5% Miel Por Polen | Calabaza, Piña |
+| **Reconfortante** | +10% Polen Rojo | +5% Tasa Habilidad Abeja | Trébol, Champiñón |
+| **Vigorizante** | +10% Todo el Polen | +5% Probabilidad Crítica | Cima de la Montaña, Cactus |
+| **Motivador** | +10% Recolección Abeja | +5% Velocidad Jugador | Araña, Bambú |
+
+<Callout type="success" title="Acumulación de Néctar">
+Puedes tener los cinco néctares activos a la vez. Para una máxima eficiencia, usa diferentes macetas en diferentes campos simultáneamente. Por ejemplo, coloca una Maceta de Caramelos en el Parche de Piña para Néctar Satisfactorio mientras colocas una Maceta Azul en el Bosque de Bambú para Néctar Refrescante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Misiones del Oso Dapper">
+
+El Oso Dapper ofrece una extensa línea de misiones que se centra en el aspecto de "Botánica" del juego. Estas misiones a menudo requieren que coseches cantidades específicas de néctar, coloques macetas en ciertos campos y recojas fichas de las cosechas de macetas. Completar estas misiones es la única forma de desbloquear mejoras permanentes como el **Samovar** y planos de macetas avanzados.
+
+<Steps>
+  <Step num="1" title="Conceptos Básicos de Botánica">
+    Las misiones iniciales requieren que coseches macetas de Papel y Plástico. Céntrate en los campos de Champiñón y Flor Azul para satisfacer rápidamente los requisitos iniciales de néctar.
+  </Step>
+  <Step num="2" title="Profesional de Macetas">
+    Las misiones de nivel medio pedirán tipos de néctar específicos, como 5 horas de "Néctar Vigorizante". Usa el campo de la Cima de la Montaña para esto, ya que tiene el mayor rendimiento para ese tipo específico.
+  </Step>
+  <Step num="3" title="Cultivo Avanzado">
+    Las misiones del final del juego implican cosechar de las macetas rojas y azules varias veces. Necesitarás gestionar los tiempos de reutilización de tus macetas de manera efectiva para terminarlas en un tiempo razonable.
+  </Step>
+  <Step num="4" title="La Gran Cosecha">
+    Las misiones finales recompensan con las macetas más poderosas del juego. Estas requieren cantidades masivas de recolección de polen y acumulaciones de néctar raro.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Eficiencia en Misiones">
+No coseches tus macetas tan pronto como lleguen al 100% si estás actualmente en una misión que requiere "Polen de Macetas". Espera hasta que la misión esté activa para que cada cosecha cuente para tu progresión.
+</Callout>
+
+| Nombre de la Misión | Objetivo Clave | Recompensa Principal |
+| :--- | :--- | :--- |
+| **Primera Misión del Oso Dapper** | Cosechar 1 Maceta | 500,000 Miel, 1 Abeja Malvavisco |
+| **Colector de Néctar** | Recoger 3 Horas de Néctar | Plano de la Maceta de Tickets |
+| **La Carga del Botánico** | Cosechar 5 Macetas en Campos Rojos | 5 Extractos Rojos, 10 Enzimas |
+| **El Secreto del Samovar** | Cosechar 10 Macetas en 10 Campos | Desbloqueo del Samovar (Objeto Permanente) |
+
+</Section>
+
+<Section icon={Swords} title="Estrategias Avanzadas para 2026">
+
+Para destacar realmente con las mecánicas del Oso Dapper, debes tratar tus macetas como una operación de 24 horas. En el estado actual del juego en 2026, los jugadores que ignoran las macetas pierden aproximadamente el 40% de su potencial de miel por hora (HPH) debido a la falta de multiplicadores de néctar.
+
+<Checklist
+  id="dapper-bear-daily"
+  title="Lista de Verificación Diaria de Botánica:"
+  items={[
+    "Revisar los porcentajes de crecimiento de las 3 macetas activas",
+    "Recoger la recompensa diaria del Samovar (si está desbloqueado)",
+    "Rotar las macetas a campos con tipos de néctar faltantes",
+    "Revisar la tienda del Oso Dapper para materiales de fabricación con descuento",
+    "Asegurar que las duraciones de néctar superen las 10 horas antes de un potenciador (boost)"
+  ]}
+/>
+
+### Afinidad de Campo y Bonificación de Maceta
+Cada campo tiene una afinidad oculta por ciertas macetas. Colocar una maceta en su "Campo Base" (por ejemplo, Cactus para la Maceta de Cactus) proporciona una bonificación de velocidad de crecimiento de 1.5x y una probabilidad significativamente mayor de obtener objetos raros como neobayas o golosinas atómicas.
+
+| Categoría de Campo | Mejor Rendimiento de Néctar | Maceta Recomendada |
+| :--- | :--- | :--- |
+| **Campos Blancos** | Satisfactorio | Maceta de Caramelos |
+| **Campos Rojos** | Reconfortante | Maceta Roja |
+| **Campos Azules** | Refrescante | Maceta Azul |
+| **Campos Mixtos** | Vigorizante / Motivador | Maceta de Plástico / Tickets |
+
+<Callout type="info" title="El Samovar">
+El Samovar es una instalación permanente que puedes desbloquear cerca del Oso Dapper. Proporciona una mejora de "Té" gratuita cada pocas horas, que otorga un impulso temporal a la recolección de néctar y a la energía de las abejas. Es esencial para largas sesiones de farmeo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿El Oso Dapper da un Huevo Mítico?",
+    answer: "Aunque la línea de misiones principal del Oso Dapper no recompensa directamente con un Huevo Mítico, las macetas de alto nivel que desbloquea (como la Maceta de Pétalos) tienen una probabilidad aleatoria de soltar Huevos Míticos al cosechar en campos específicos."
+  },
+  {
+    question: "¿Puedo usar varias macetas en el mismo campo?",
+    answer: "No, solo se puede colocar una maceta en un campo a la vez. Sin embargo, puedes tener varias macetas activas en diferentes campos simultáneamente."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de hacer crecer una maceta?",
+    answer: "La forma más rápida es permanecer en el campo con tus abejas y recolectar polen activamente. El ritmo de crecimiento está ligado al polen recolectado en ese campo, por lo que usar Purpurina (Glitter) o un Potenciador de Campo acelerará significativamente el proceso."
+  },
+  {
+    question: "¿Cómo obtengo la Maceta Hidropónica del Oso Dapper?",
+    answer: "La Maceta Hidropónica es un objeto de final del juego disponible en la tienda del Oso Dapper. Requiere 500 Extractos Azules, 100 Bebidas Tropicales y 5 mil millones de Miel para su compra."
+  }
+]} />
+
+</Section>

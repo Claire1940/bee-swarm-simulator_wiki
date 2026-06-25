@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beequips de Simulador de Enjambre de Abejas: Guía de encerado de 2026 y optimización de estadísticas",
+  description: "Domina los beequips de Simulador de Enjambre de Abejas con nuestra guía completa de 2026. Aprende estrategias de encerado, optimización del nivel de poder y requisitos de la tienda de Dapper Bear.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/f59e0b/fff?text=Beequip+Optimization+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Simulador de Enjambre de Abejas",
+  keywords: "beequips, simulador de enjambre de abejas, encerado, optimización de estadísticas, dapper bear"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los Beequips de Simulador de Enjambre de Abejas** son objetos equipables que otorgan enormes aumentos de estadísticas a tipos o colores de abejas específicos.
+- **El encerado (Waxing)** es el método principal para aumentar el nivel de poder de un Beequip, mejorando significativamente sus atributos base.
+- **La cera dura (Hard Wax)** ofrece el mejor equilibrio entre riesgo y recompensa para la progresión de nivel medio, otorgando un aumento de +2 al nivel de poder.
+- **La cera cáustica (Caustic Wax)** es de alto riesgo pero esencial para desbloquear habilidades únicas y alcanzar el máximo potencial del nivel de poder.
+- **La optimización** requiere equilibrar las tasas de éxito con los costes de recursos para evitar destruir valiosos objetos legendarios.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los conceptos básicos de los Beequips de Simulador de Enjambre de Abejas">
+
+**Los beequips de Simulador de Enjambre de Abejas** representan una capa crítica de la progresión del juego tardío (endgame), lo que permite a los jugadores personalizar el rendimiento de su colmena más allá de los simples niveles de las abejas y las abejas dotadas (gifted). Estos objetos se equipan directamente en abejas individuales, otorgando bonificaciones a la recolección, el ataque, la energía y multiplicadores de campos especializados. Comprender cómo adquirir, equipar y mejorar estos objetos es esencial para cualquier jugador que busque dominar las tablas de clasificación de 2026.
+
+**Puntos destacados del video:**
+- Desglose detallado de los cuatro tipos principales de cera y sus tasas de éxito.
+- Consejo estratégico sobre cuándo usar cera blanda (Soft Wax) frente a cera dura (Hard Wax) para minimizar la destrucción de objetos.
+- La estrategia de la "Regla de los Cinco" para maximizar las ganancias de nivel de poder en Beequips estándar.
+- Cómo manejar la cera cáustica (Caustic Wax) para desbloquear habilidades de nivel alto.
+
+<YouTubeEmbed videoId="wa_oSlqxEn4" title="Cómo encerar Beequips de manera efectiva | Simulador de Enjambre de Abejas" />
+
+Los Beequips se gestionan principalmente a través de la tienda de Dapper Bear, ubicada cerca del campo del tocón (Stump Field). Para poder examinar el inventario, los jugadores deben cumplir con requisitos específicos de cosméticos y equipamiento. Esta restricción garantiza que los jugadores hayan alcanzado un cierto nivel de progresión antes de involucrarse con las complejas mecánicas de encerado.
+
+<Callout type="tip" title="Requisito de entrada">
+Antes de visitar a Dapper Bear para comprar nuevos Beequips, asegúrate de llevar puestas las botas de apicultor (Beekeepers Boots) y un sombrero adecuado. El PNJ de la tienda se negará a comerciar con los jugadores que no cumplan con estos estándares "de moda".
+</Callout>
+
+| Tipo de requisito | Objeto específico | Propósito |
+| :--- | :--- | :--- |
+| **Calzado** | Botas de apicultor (Beekeepers Boots) | Desbloquea la interacción con la tienda |
+| **Sombrero** | Máscara de apicultor (Beekeepers Mask) o superior | Requerido para el diálogo con el PNJ |
+| **Moneda** | Miel y Tickets | Medio de compra principal |
+| **Materiales** | Cera blanda/dura/remolino (Soft/Hard/Swirl Wax) | Utilizado para mejorar los objetos comprados |
+
+</Section>
+
+<Section icon={Sparkles} title="Las mecánicas del encerado y los niveles de poder">
+
+El verdadero potencial de los **beequips de Simulador de Enjambre de Abejas** se desbloquea a través del proceso de encerado. Cada Beequip tiene un nivel de poder que determina la potencia de sus estadísticas. Aumentar este nivel requiere el consumo de varias ceras, cada una con distintas probabilidades de éxito y posibles penalizaciones.
+
+<CardGrid cols={2}>
+  <Card title="Encerado orientado al éxito">
+    - **Enfoque**: Progresión garantizada.
+    - **Método**: Uso intensivo de cera blanda (Soft Wax).
+    - **Beneficio**: Cero riesgo de destrucción del objeto.
+    - **Desventaja**: Crecimiento del nivel de poder más lento y mayor coste de miel a largo plazo.
+  </Card>
+  <Card title="Encerado de riesgo-recompensa">
+    - **Enfoque**: Maximización rápida de estadísticas.
+    - **Método**: Uso agresivo de cera dura (Hard Wax) y cáustica (Caustic Wax).
+    - **Beneficio**: Potencial para aumentos masivos de nivel de poder.
+    - **Desventaja**: Alta probabilidad de perder el Beequip por completo.
+  </Card>
+</CardGrid>
+
+La siguiente tabla detalla las propiedades específicas de cada tipo de cera disponible en 2026. Elegir la cera adecuada depende completamente de la rareza del Beequip y de tu excedente de recursos actual.
+
+| Tipo de cera | Tasa de éxito | Ganancia de nivel de poder | Efectos especiales |
+| :--- | :--- | :--- | :--- |
+| **Cera blanda (Soft Wax)** | 100% | +1 | Progresión segura, sin riesgos |
+| **Cera dura (Hard Wax)** | 60% | +2 | Riesgo moderado de fallo |
+| **Cera cáustica (Caustic Wax)** | 25% | +4 | 75% de probabilidad de destruir el objeto, desbloquea habilidades |
+| **Cera de remolino (Swirl Wax)** | 100% | 0 | Vuelve a sortear (re-roll) todas las estadísticas actuales del objeto |
+
+<Callout type="warning" title="Riesgo de destrucción">
+La cera cáustica (Caustic Wax) es la única cera que puede destruir permanentemente tu Beequip en caso de fallo. Nunca uses cera cáustica en un objeto de evento único a menos que tengas un duplicado o estés preparado para la pérdida.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de optimización paso a paso">
+
+Para aprovechar al máximo tus **beequips de Simulador de Enjambre de Abejas**, debes seguir una ruta de encerado estructurada. Esto minimiza el desperdicio de materiales raros como la cera de remolino (Swirl Wax) al tiempo que garantiza que tus abejas reciban los mayores aumentos de estadísticas posibles.
+
+<Steps>
+  <Step num="1" title="Sorteo de estadísticas (Re-roll)">
+    Antes de aplicar cualquier cera que aumente el nivel, usa cera de remolino (Swirl Wax) para buscar las estadísticas específicas que tu colmena necesita (por ejemplo, polen azul, probabilidad crítica). Es mucho más barato volver a sortear un objeto de nivel 0 que uno ya mejorado.
+  </Step>
+  <Step num="2" title="La apuesta cáustica">
+    Si el Beequip tiene habilidades de "Solo Cáustica", aplica cera cáustica primero. Si el objeto sobrevive y desbloquea la habilidad, puedes proceder. Si falla, al menos no habrás desperdiciado otras ceras en él.
+  </Step>
+  <Step num="3" title="Progresión con cera dura">
+    Aplica cera dura (Hard Wax) durante los siguientes 3 a 5 niveles. Estadísticamente, puedes esperar una tasa de éxito del 60%, lo que a menudo genera una ganancia de +6 en el nivel de poder tras cinco intentos.
+  </Step>
+  <Step num="4" title="Pulido con cera blanda">
+    Una vez que alcances un nivel de poder alto donde el riesgo de fallo sea demasiado costoso, cambia a cera blanda (Soft Wax) para terminar los niveles restantes de forma segura. Este "Método Híbrido" es el estándar del meta para 2026.
+  </Step>
+</Steps>
+
+| Nombre de la estrategia | Recomendado para | Combinación de ceras |
+| :--- | :--- | :--- |
+| **La apuesta segura** | Juego temprano / Comunes | 100% cera blanda (Soft Wax) |
+| **El profesional** | Juego medio / Raros | 3 cera dura + 2 cera blanda |
+| **El gran apostador** | Juego tardío / Míticos | 1 cera de remolino + 1 cera cáustica + 4 cera dura |
+| **El re-roleador** | Configuraciones específicas | Cera de remolino infinita hasta obtener estadísticas perfectas |
+
+<Callout type="info" title="Consejo de optimización">
+Si logras aplicar con éxito dos ceras duras en tus primeros tres intentos, cambiar a cera blanda para los dos últimos espacios garantiza un aumento total del nivel de poder de +6, eliminando todo el riesgo restante.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Los mejores Beequips para colores de colmena específicos">
+
+No todos los **beequips de Simulador de Enjambre de Abejas** son creados iguales. Algunos están diseñados específicamente para potenciar las fortalezas de las colmenas rojas, azules o blancas. Equipar el objeto incorrecto en una abeja especializada puede resultar en un potencial desperdiciado.
+
+| Nombre del Beequip | Mejor combinación de abeja | Bonificación primaria | Sinergia de colmena |
+| :--- | :--- | :--- | :--- |
+| **Paper Hat** | Abeja básica / Cualquiera | Energía y Recolección | Todo propósito |
+| **Smiley Sticker** | Abeja música (Music Bee) | Poder crítico | Blanca / Mixta |
+| **Poinsettia** | Abeja Riley (Riley Bee) | Polen rojo / Ataque | Colmena roja |
+| **Pinecone** | Abeja Bucko (Bucko Bee) | Polen azul / Conversión | Colmena azul |
+| **Toy Drum** | Abeja comandante (Commander Bee) | Tasa de habilidad | Configuraciones críticas |
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en colmena roja">
+    Prioriza los Beequips que aumenten el **Ataque** y el **Polen rojo**. Busca objetos que puedan equiparse en abejas picantes (Spicy) o precisas (Precise) para maximizar la producción de llamas.
+  </Card>
+  <Card title="Enfoque en colmena azul">
+    Enfócate en la **Tasa de conversión** y el **Polen azul**. Los objetos equipados en abejas renacuajo (Tadpole) o flotantes (Buoyant) deben enfatizar la regeneración de burbujas y la capacidad del globo.
+  </Card>
+  <Card title="Enfoque en colmena blanca">
+    Busca **Poder crítico** y **Multiplicadores de pegamento (Goo)**. Las abejas vectoriales (Vector) y gomosas (Gummy) se benefician más de los Beequips que mejoran la duración de las marcas y la miel por polen.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Bonificación por sinergia">
+Comprueba siempre si un Beequip tiene una "Abeja favorecida". Equipar un objeto en su abeja favorecida a menudo otorga un multiplicador de 1.1x o 1.2x a las estadísticas base del objeto, haciéndolo significativamente más poderoso que en una abeja estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el dominio de los Beequips">
+
+Antes de comenzar una sesión intensiva de encerado o de gastar tus preciados tickets en la tienda de Dapper Bear, revisa esta lista de verificación para asegurarte de estar completamente preparado.
+
+<Checklist
+  id="beequip-prep"
+  title="Requisitos previos al encerado:"
+  items={[
+    "Verifica que tienes al menos 10 ceras blandas (Soft Waxes) como colchón de seguridad",
+    "Equípate las botas de apicultor (Beekeepers Boots) para acceder a la tienda de Dapper Bear",
+    "Identifica qué abejas de tu colmena no tienen equipamiento actualmente",
+    "Calcula el coste total de miel para un ciclo completo de 5 ceras",
+    "Comprueba si tienes Beequips duplicados antes de usar cera cáustica (Caustic Wax)"
+  ]}
+/>
+
+<Callout type="info" title="Gestión de recursos">
+Las ceras se pueden fabricar en la licuadora (Blender) o encontrarse como botines raros de criaturas de alto nivel como el cangrejo de coco (Coconut Crab) o el caracol del tocón (Stump Snail). Eliminar a estos jefes diariamente es la forma más eficiente de acumular cera dura y cáustica sin gastar tickets.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo quitar un Beequip una vez que está equipado?",
+    answer: "Sí, puedes quitar los Beequips en cualquier momento. Sin embargo, hacerlo cuesta una pequeña cantidad de miel, y el objeto volverá a tu inventario con todas sus mejoras de cera y niveles de poder actuales intactos."
+  },
+  {
+    question: "¿Cuál es el nivel de poder máximo para los beequips de Simulador de Enjambre de Abejas?",
+    answer: "En el meta actual de 2026, la mayoría de los Beequips pueden alcanzar un nivel de poder máximo de 10 o 15, según su rareza. A menudo se requiere el uso de cera cáustica (Caustic Wax) para alcanzar estos límites superiores."
+  },
+  {
+    question: "¿Afecta el nivel de la abeja a las estadísticas del Beequip?",
+    answer: "El nivel de la abeja no cambia directamente las estadísticas del Beequip, pero las bonificaciones del Beequip suelen ser multiplicativas. Esto significa que una abeja de mayor nivel con mejores estadísticas base se beneficiará más de los aumentos porcentuales proporcionados por el equipamiento."
+  },
+  {
+    question: "¿Qué pasa si falla una cera dura (Hard Wax)?",
+    answer: "Si una cera dura falla, la cera se consume y el nivel de poder del Beequip no aumenta. A diferencia de la cera cáustica, la cera dura no destruirá el objeto al fallar; simplemente resulta en un recurso desperdiciado."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Ant Challenge: Hướng dẫn Điểm số & Phần thưởng 2026",
+  description: "Chinh phục Thử thách Kiến trong Bee Swarm Simulator với hướng dẫn của chúng tôi về cơ chế đợt quái, các cấp bùa hộ mệnh và chiến thuật đạt điểm cao năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Ant+Challenge+Guide",
+  date: "2026-06-25",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Bee Swarm Simulator Ant Challenge** (Thử thách Kiến) là một thử thách chiến đấu kéo dài 5 phút, có thể tham gia thông qua Cổng Kiến (Ant Gate) và yêu cầu tối thiểu 20 chú ong.
+- Cần có **Vé Kiến (Ant Passes)** để vào; nhận một vé miễn phí mỗi 2 giờ từ máy phân phát phía sau cổng.
+- **Chuyển đổi tức thời (Instant Conversion)** được đặt ở mức 100% trong suốt thử thách, nghĩa là ba lô của bạn sẽ không bao giờ bị đầy.
+- **Điểm số cao hơn** sẽ trực tiếp mang lại các cấp Bùa Kiến (Ant Amulet) tốt hơn, từ cấp Đồng (Bronze) đến Tối cao (Supreme).
+- **Ong Độc Ác (Vicious Bee)** là đơn vị quan trọng nhất để thành công nhờ khả năng tạo gai sát thương diện rộng.
+</Callout>
+
+<Section icon={Map} title="Cách tham gia Đấu trường Thử thách Kiến">
+
+**Bee Swarm Simulator Ant Challenge** là một đấu trường chiến đấu đặc biệt nằm phía sau Cổng Kiến. Để có thể bước chân vào thử thách cam go này, trước tiên người chơi phải sở hữu một tổ ong có ít nhất 20 chú ong. Cổng này đóng vai trò như một cột mốc kiểm tra tiến trình, đảm bảo bạn có đủ hỏa lực để đối phó với các đợt côn trùng ngày càng mạnh mẽ.
+
+Tuy nhiên, việc tham gia không hề miễn phí. Mỗi lượt thử thách sẽ tiêu tốn một Vé Kiến (Ant Pass). Mặc dù đây có thể là một trở ngại đối với những người chơi mới, nhưng có một số cách đáng tin cậy để tích lũy vé trước khi bắt đầu một chuỗi cày cuốc căng thẳng.
+
+| Nguồn | Cách thức | Tần suất/Chi phí |
+| :--- | :--- | :--- |
+| **Máy phân phát miễn phí** | Nằm phía sau Cổng Kiến | Mỗi 2 giờ |
+| **Cửa hàng Vé** | Mua tại Máy phân phát | 10 Vé thường (Tickets) mỗi lượt |
+| **Gấu Trúc (Panda Bear)** | Hoàn thành các nhiệm vụ tập trung vào chiến đấu | Phần thưởng thỉnh thoảng |
+| **Mảnh Vé Bí mật** | Ẩn phía sau khu vực thử thách | Nhận một lần duy nhất |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp: Vé ẩn">
+Có một mảnh Vé Kiến bí mật được giấu trong hành lang phía sau bảng xếp hạng Thử thách Kiến. Hãy đi theo con đường vòng qua góc để tìm thấy nó; con đường này cũng dẫn đến khu vực Nhận Trứng Ong Kẹo Dẻo (Gummy Bee Egg).
+</Callout>
+
+<Steps>
+  <Step num="1" title="Kiểm tra số lượng ong của bạn">
+    Đảm bảo bạn có ít nhất 20 chú ong trong tổ để đi qua Cổng Kiến nằm gần Gấu Trúc (Panda Bear).
+  </Step>
+  <Step num="2" title="Nhận Vé của bạn">
+    Tương tác với Máy phân phát Vé Kiến miễn phí. Nếu đang trong thời gian chờ, bạn có thể chi 10 Vé thường (Tickets) để bỏ qua thời gian hồi.
+  </Step>
+  <Step num="3" title="Dọn dẹp ba lô của bạn">
+    Mặc dù thử thách cung cấp 100% Chuyển đổi tức thời, nhưng bất kỳ phấn hoa nào hiện có trong ba lô của bạn sẽ được chuyển đổi thành mật ong ngay khi bạn bước vào trong.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Lối chơi cốt lõi và Cơ chế đợt quái">
+
+Khi đã bước vào đấu trường, mục tiêu vô cùng đơn giản: tiêu diệt càng nhiều kiến càng tốt trong giới hạn thời gian 5 phút. Thử thách sẽ kết thúc nếu đồng hồ đếm ngược về 0, nếu bạn rời khỏi sân đấu, hoặc nếu nhân vật của bạn tử trận. Một cơ chế độc đáo của **Bee Swarm Simulator Ant Challenge** là bùa lợi +100% Chuyển đổi tức thời (Instant Conversion), giúp bạn tập trung hoàn toàn vào việc chiến đấu thay vì phải chạy về tổ để làm trống ba lô.
+
+Độ khó sẽ tăng dần theo từng đợt (wave). Để tiến tới đợt tiếp theo, bạn phải lấp đầy thanh mật ong ở bên cạnh tổ kiến bằng cách thu thập phấn hoa.
+
+| Đặc trưng đợt quái | Mô tả | Chi tiết tăng tiến |
+| :--- | :--- | :--- |
+| **Yêu cầu Phấn hoa** | Bắt đầu ở mức 4.000 phấn hoa | Tăng thêm hơn 2.000 phấn hoa mỗi đợt |
+| **Cấp độ Kiến** | Bắt đầu ở Cấp 1 và 2 | Cấp độ tăng lên sau mỗi vài đợt |
+| **Kiến Khổng Lồ (Giant Ants)** | Xuất hiện sau mỗi 5 đợt | 2 Kiến Khổng Lồ xuất hiện ở Đợt 40 |
+| **Máy cắt cỏ (Lawnmowers)** | Mối nguy hiểm xuất hiện từ Đợt 8 | Gây 50 sát thương cơ bản |
+
+<Callout type="warning" title="Cảnh báo nguy hiểm: Máy cắt cỏ">
+Bắt đầu từ Đợt 8, các cánh cửa màu trắng ở hai bên sẽ nhấp nháy màu đỏ. Điều này báo hiệu một chiếc máy cắt cỏ sắp lao nhanh qua làn đường. Chúng di chuyển nhanh hơn và xuất hiện thường xuyên hơn khi bạn đạt đến các đợt cao hơn.
+</Callout>
+
+Các loại kiến bạn phải đối mặt sẽ thay đổi khi thử thách tiếp diễn. Trong 15 đợt đầu tiên, bạn sẽ chủ yếu gặp Kiến Bay (Flying Ants). Sau Đợt 15, Kiến Quân Đội (Army Ants) trở nên phổ biến hơn đáng kể. Kiến Lửa (Fire Ants) đặc biệt nguy hiểm vì chúng để lại những vệt lửa gây sát thương theo thời gian.
+
+</Section>
+
+<Section icon={Swords} title="Lựa chọn Ong chiến thuật và Bùa lợi">
+
+Để đạt được điểm số cao trong **Bee Swarm Simulator Ant Challenge**, đội hình tổ ong của bạn là vô cùng quan trọng. Bạn không chỉ thu thập phấn hoa mà còn đang tham gia vào một cuộc chiến tiêu hao sinh lực. Những chú ong có sức tấn công cao và khả năng gây sát thương diện rộng (AoE) sẽ thể hiện tốt nhất tại đây.
+
+<CardGrid cols={3}>
+  <Card title="Ong Độc Ác (Vicious Bee)">
+    MVP tuyệt đối của thử thách. Kỹ năng **Đâm (Impale)** của nó tạo ra những chiếc gai đâm trúng nhiều con kiến cùng một lúc, điều này cực kỳ quan trọng để dọn sạch các đợt kiến đông đúc.
+  </Card>
+  <Card title="Ong Cuồng Nộ (Rage Bee)">
+    Duy trì bùa lợi Cuồng nộ (Rage) để tăng sức tấn công tổng thể cho tổ ong của bạn, cho phép bạn tiêu diệt kiến trước khi chúng bao vây bạn.
+  </Card>
+  <Card title="Ong Bé Bỏng (Baby Bee)">
+    Cung cấp bùa lợi **Tình Yêu Bé Bỏng (Baby Love)**, giúp tăng chỉ số may mắn và hỗ trợ nhận được các vật phẩm rơi ra tốt hơn khi kết thúc thử thách.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Phối hợp chiến đấu">
+Sử dụng **Tàu lượn (Glider)** để lơ lửng phía trên các vệt lửa và lũ kiến. Sự cơ động này cho phép bạn ở lại trên sân đấu và thu thập phấn hoa trong khi đàn ong tập trung tiêu diệt kẻ thù mà không khiến bạn phải nhận sát thương không đáng có.
+</Callout>
+
+**Các bùa lợi thiết yếu để đạt điểm cao:**
+*   **Ngòi ong (Stingers):** Sử dụng vật phẩm này để tăng 50% sức tấn công cho ong của bạn trong 30 giây.
+*   **Huy hiệu Cuồng nộ (Rage Tokens):** Luôn ưu tiên nhặt các huy hiệu này để duy trì cộng dồn tấn công ở mức tối đa x3.
+*   **Cưa Sao (Star Saw):** Nếu bạn sở hữu Bùa Sao Tối Cao (Supreme Star Amulet) có nội tại này, nó sẽ cực kỳ hiệu quả trong việc vừa tiêu diệt kiến vừa thu thập phấn hoa cùng một lúc.
+*   **Mật hoa tiếp sức (Invigorating Nectar):** Cung cấp mức tăng đáng kể cho sức tấn công và tốc độ di chuyển của ong.
+
+</Section>
+
+<Section icon={Trophy} title="Các cấp độ Bùa Kiến và Phần thưởng">
+
+Lý do chính khiến người chơi cày cuốc **Bee Swarm Simulator Ant Challenge** là để thu thập Bùa Kiến (Ant Amulet). Trang bị này chiếm một ô độc nhất và cung cấp nhiều bùa lợi khác nhau cho tổ ong của bạn, chẳng hạn như tăng tốc độ di chuyển của người chơi, tăng phấn hoa trắng/đỏ/xanh, và sát thương chí mạng.
+
+| Điểm số | Cấp độ Bùa hộ mệnh | Chất lượng phần thưởng |
+| :--- | :--- | :--- |
+| **0 - 24** | Bùa Kiến Đồng (Bronze) | Mật ong thấp, Bánh thưởng cơ bản |
+| **25 - 49** | Bùa Kiến Bạc (Silver) | Mật ong vừa, Sữa ong chúa (Royal Jellies) |
+| **50 - 99** | Bùa Kiến Vàng (Gold) | Mật ong cao, Hạt giống, Chất chiết xuất |
+| **100 - 149** | Bùa Kiến Kim Cương (Diamond) | Mật ong khổng lồ, Nhãn dán hiếm |
+| **150+** | Bùa Kiến Tối Cao (Supreme) | Chỉ số tốt nhất, Cơ hội nhận Phiếu đổi quà |
+
+<Callout type="info" title="Cơ chế nhận thưởng">
+Mỗi con kiến bị tiêu diệt sẽ mang lại 1 điểm. Sau khi thử thách kết thúc, bạn có thể chọn giữ lại bùa hộ mệnh cũ hoặc thay thế bằng bùa hộ mệnh mới. Hãy luôn so sánh các chỉ số cụ thể (như Tỷ lệ chí mạng hoặc Sức tấn công của ong) thay vì chỉ nhìn vào cấp độ của bùa.
+</Callout>
+
+Ngoài bùa hộ mệnh, thử thách còn cung cấp nhiều loại vật phẩm khác nhau dựa trên điểm số của bạn. Chúng có thể bao gồm Hạt hướng dương, Dâu tây, Việt quất, Dứa, và thậm chí cả các nhãn dán hiếm như **Nhãn dán Kiến hướng trái (Left Facing Ant Sticker)** hoặc **Nhãn dán Dấu chân Kiến (Ant Field Stamp Sticker)**. Trong những trường hợp cực kỳ hiếm hoi, một Phiếu tăng x2 Tốc độ chuyển đổi (x2 Convert Speed Voucher) có thể rơi ra, mặc dù điều này được cộng đồng coi là gần như bất khả thi.
+
+</Section>
+
+<Section icon={Shield} title="Chiến thuật sinh tồn nâng cao">
+
+Sinh tồn cũng quan trọng không kém gì việc gây sát thương. Nếu bạn tử trận, thử thách sẽ kết thúc ngay lập tức, bất kể thời gian còn lại trên đồng hồ là bao nhiêu. Khi máy cắt cỏ và vệt lửa xuất hiện ngày càng nhiều, bạn cần có một chiến thuật phòng thủ vững chắc.
+
+<Checklist
+  id="survival-checklist"
+  title="Chuẩn bị sinh tồn:"
+  items={[
+    "Trang bị Bình dừa (Coconut Canister) để kích hoạt Khiên dừa khẩn cấp (Emergency Coconut Shield)",
+    "Kích hoạt trước các bùa lợi như Tình Yêu Bé Bỏng (Baby Love) và Hóa gấu (Bear Morph) trước khi vào đấu trường",
+    "Thu nhỏ camera hết cỡ để phát hiện sớm các cảnh báo máy cắt cỏ",
+    "Sử dụng Máy phun nước (Sprinklers) để tái tạo hoa giúp thu thập phấn hoa nhanh hơn",
+    "Di chuyển gần các cạnh của sân đấu để dụ kiến tránh xa khu vực trung tâm"
+  ]}
+/>
+
+<Callout type="warning" title="Mẹo Khiên dừa">
+Trong khi **Khiên dừa khẩn cấp (Emergency Coconut Shield)** đang hoạt động, việc bị máy cắt cỏ tông trúng thực chất sẽ hồi máu cho bạn thay vì gây 50 sát thương. Hãy cố gắng căn thời gian kích hoạt khiên để nó sẵn sàng cho 2 phút cuối cùng đầy hỗn loạn của thử thách.
+</Callout>
+
+Một chiến thuật hữu ích khác liên quan đến nội tại **Cưa Sao (Star Saw)**. Vì nó tỉ lệ thuận với sức tấn công của bạn, nó có thể dọn sạch toàn bộ kiến trên sân trong vài giây, cho phép bạn hoàn toàn tập trung vào thanh mật ong trong chốc lát. Nếu bạn đang gặp khó khăn với thanh mật ong, hãy nhớ rằng các công cụ của bạn là cách tốt nhất để lấp đầy nó, vì ong của bạn thường sẽ bị phân tâm bởi việc tấn công lũ kiến.
+
+</Section>
+
+<Section icon={Sparkles} title="Câu hỏi thường gặp về Thử thách Kiến">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để nhận được Bùa Kiến Tối Cao (Supreme Ant Amulet)?",
+    answer: "Bạn phải đạt ít nhất 150 điểm trong một lượt chơi Thử thách Kiến trong Bee Swarm Simulator. Điều này đòi hỏi bạn phải có ong cấp cao (Cấp 12 trở lên) và sử dụng liên tục Ngòi ong (Stingers) cũng như bùa lợi Cuồng nộ (Rage)."
+  },
+  {
+    question: "Máy cắt cỏ có phá hủy hoa trên sân đấu không?",
+    answer: "Không, bất chấp hình dáng và tên gọi của chúng, máy cắt cỏ không hề ảnh hưởng đến hoa trong Sân Kiến (Ant Field). Chúng chỉ gây sát thương lên nhân vật của người chơi."
+  },
+  {
+    question: "Số lượng đợt quái tối đa có thể đạt được là bao nhiêu?",
+    answer: "Về mặt lý thuyết, bạn có thể đạt tới 100 đợt. Vì mỗi đợt mất khoảng 3 giây để tiến triển và giới hạn thời gian là 300 giây (5 phút), nên 100 là giới hạn tối đa về mặt toán học."
+  },
+  {
+    question: "Tại sao ba lô của tôi không bị đầy trong suốt thử thách?",
+    answer: "Khi bước vào đấu trường, bạn sẽ nhận được bùa lợi +100% Chuyển đổi tức thời (Instant Conversion). Đây là một cơ chế tích hợp sẵn của Thử thách Kiến trong Bee Swarm Simulator nhằm đảm bảo người chơi có thể tập trung hoàn toàn vào tốc độ chiến đấu và thu thập phấn hoa."
+  }
+]} />
+
+</Section>

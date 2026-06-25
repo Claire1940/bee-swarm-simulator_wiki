@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beequip trong Bee Swarm Simulator: Hướng dẫn Waxing & Tối ưu hóa Chỉ số 2026",
+  description: "Làm chủ beequip trong Bee Swarm Simulator với hướng dẫn toàn diện năm 2026. Tìm hiểu chiến lược waxing, tối ưu hóa cấp độ sức mạnh và yêu cầu của cửa hàng Dapper Bear.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f59e0b/fff?text=Beequip+Optimization+Guide",
+  date: "2026-06-25",
+  author: "Đội ngũ Bee Swarm Simulator Wiki",
+  keywords: "bee swarm simulator, beequips, waxing guide, dapper bear, power level optimization"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Beequip trong Bee Swarm Simulator** là các vật phẩm có thể trang bị nhằm tăng chỉ số cực mạnh cho các loại ong hoặc màu sắc cụ thể.
+- **Waxing** là phương pháp chính để tăng Cấp độ Sức mạnh (Power Level) của Beequip, giúp cường hóa đáng kể các thuộc tính cơ bản.
+- **Hard Wax** mang lại sự cân bằng tốt nhất giữa rủi ro và phần thưởng cho giai đoạn giữa game, giúp tăng +2 Cấp độ Sức mạnh.
+- **Caustic Wax** có rủi ro cao nhưng thiết yếu để mở khóa các khả năng độc đáo và đạt đến tiềm năng Cấp độ Sức mạnh tối đa.
+- **Tối ưu hóa** đòi hỏi sự cân bằng giữa tỉ lệ thành công và chi phí tài nguyên để tránh phá hủy các vật phẩm huyền thoại quý giá.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu kiến thức cơ bản về Beequip trong Bee Swarm Simulator">
+
+**Beequip trong Bee Swarm Simulator** đại diện cho một tầng tiến trình quan trọng ở giai đoạn cuối game, cho phép người chơi tùy chỉnh hiệu suất của tổ ong vượt xa cấp độ ong và việc tặng quà (gifting). Những vật phẩm này được trang bị trực tiếp cho từng con ong, mang lại các phần thưởng về thu hoạch, tấn công, năng lượng và các hệ số nhân trên cánh đồng chuyên dụng. Hiểu cách sở hữu, trang bị và nâng cấp các vật phẩm này là điều cần thiết cho bất kỳ người chơi nào muốn thống trị bảng xếp hạng năm 2026.
+
+**Điểm nhấn Video:**
+- Phân tích chi tiết về bốn loại sáp (wax) chính và tỉ lệ thành công của chúng.
+- Lời khuyên chiến lược về thời điểm sử dụng Soft Wax so với Hard Wax để giảm thiểu việc phá hủy vật phẩm.
+- Chiến lược "Quy tắc số 5" để tối đa hóa mức tăng Cấp độ Sức mạnh trên các Beequip tiêu chuẩn.
+- Cách xử lý Caustic Wax để mở khóa các khả năng cấp cao.
+
+<YouTubeEmbed videoId="wa_oSlqxEn4" title="Cách Wax Beequip hiệu quả | Bee Swarm Simulator" />
+
+Beequip chủ yếu được quản lý thông qua Cửa hàng của Dapper Bear, nằm gần Cánh đồng Gốc cây (Stump Field). Để có thể xem danh mục hàng hóa, người chơi phải đáp ứng các yêu cầu cụ thể về ngoại trang và trang bị. Việc kiểm soát này đảm bảo rằng người chơi đã đạt đến một mức độ tiến triển nhất định trước khi tham gia vào các cơ chế waxing phức tạp.
+
+<Callout type="tip" title="Yêu cầu vào cửa">
+Trước khi đến gặp Dapper Bear để mua Beequip mới, hãy đảm bảo bạn đang đi Beekeepers Boots và đội một chiếc mũ phù hợp. NPC cửa hàng sẽ từ chối giao dịch với những người chơi không đáp ứng các tiêu chuẩn "thời trang" này.
+</Callout>
+
+| Loại yêu cầu | Vật phẩm cụ thể | Mục đích |
+| :--- | :--- | :--- |
+| **Giày** | Beekeepers Boots | Mở khóa tương tác với cửa hàng |
+| **Mũ** | Beekeepers Mask hoặc cao hơn | Cần thiết để đối thoại với NPC |
+| **Tiền tệ** | Mật ong và Vé | Phương tiện mua sắm chính |
+| **Nguyên liệu** | Soft/Hard/Swirl Wax | Dùng để nâng cấp các vật phẩm đã mua |
+
+</Section>
+
+<Section icon={Sparkles} title="Cơ chế của Waxing và Cấp độ Sức mạnh">
+
+Tiềm năng thực sự của **beequip trong Bee Swarm Simulator** được mở khóa thông qua quá trình waxing. Mỗi Beequip đều có một Cấp độ Sức mạnh (Power Level) quyết định hiệu lực của các chỉ số. Việc tăng cấp độ này đòi hỏi phải tiêu thụ các loại sáp khác nhau, mỗi loại có xác suất thành công và hình phạt tiềm ẩn riêng biệt.
+
+<CardGrid cols={2}>
+  <Card title="Waxing hướng tới thành công">
+    - **Trọng tâm**: Đảm bảo tiến trình.
+    - **Phương pháp**: Sử dụng nhiều Soft Wax.
+    - **Lợi ích**: Không có rủi ro bị phá hủy vật phẩm.
+    - **Hạn chế**: Tăng Cấp độ Sức mạnh chậm hơn và tốn nhiều mật ong hơn về lâu dài.
+  </Card>
+  <Card title="Waxing rủi ro - phần thưởng">
+    - **Trọng tâm**: Tối đa hóa chỉ số nhanh chóng.
+    - **Phương pháp**: Sử dụng mạnh tay Hard và Caustic Wax.
+    - **Lợi ích**: Tiềm năng nhảy vọt Cấp độ Sức mạnh.
+    - **Hạn chế**: Tỉ lệ cao bị mất hoàn toàn Beequip.
+  </Card>
+</CardGrid>
+
+Bảng dưới đây phác thảo các đặc tính cụ thể của từng loại sáp có sẵn trong năm 2026. Việc chọn đúng loại sáp hoàn toàn phụ thuộc vào độ hiếm của Beequip và lượng tài nguyên dư thừa hiện tại của bạn.
+
+| Loại Sáp | Tỉ lệ thành công | Tăng Cấp độ Sức mạnh | Hiệu ứng đặc biệt |
+| :--- | :--- | :--- | :--- |
+| **Soft Wax** | 100% | +1 | Tiến trình an toàn, không rủi ro |
+| **Hard Wax** | 60% | +2 | Rủi ro thất bại trung bình |
+| **Caustic Wax** | 25% | +4 | 75% cơ hội phá hủy vật phẩm, mở khóa kỹ năng |
+| **Swirl Wax** | 100% | 0 | Xoay lại tất cả các chỉ số hiện có của vật phẩm |
+
+<Callout type="warning" title="Rủi ro phá hủy">
+Caustic Wax là loại sáp duy nhất có thể phá hủy vĩnh viễn Beequip của bạn khi thất bại. Đừng bao giờ sử dụng Caustic Wax cho vật phẩm sự kiện độc nhất vô nhị trừ khi bạn có bản sao hoặc đã chuẩn bị tâm lý cho việc mất mát.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến lược tối ưu hóa từng bước">
+
+Để tận dụng tối đa **beequip trong Bee Swarm Simulator**, bạn nên tuân theo một lộ trình waxing có cấu trúc. Điều này giúp giảm thiểu việc lãng phí các vật liệu hiếm như Swirl Wax trong khi vẫn đảm bảo ong của bạn nhận được các chỉ số tăng cường cao nhất có thể.
+
+<Steps>
+  <Step num="1" title="Xoay lại chỉ số">
+    Trước khi áp dụng bất kỳ loại sáp tăng cấp nào, hãy sử dụng Swirl Wax để xoay các chỉ số cụ thể mà tổ ong của bạn cần (ví dụ: Phấn hoa xanh, Tỉ lệ chí mạng). Xoay lại một vật phẩm Cấp 0 sẽ rẻ hơn nhiều so với một vật phẩm đã được nâng cấp.
+  </Step>
+  <Step num="2" title="Canh bạc Caustic">
+    Nếu Beequip có các kỹ năng "Chỉ dành cho Caustic" (Caustic Only), hãy sử dụng Caustic Wax trước. Nếu vật phẩm sống sót và mở khóa được kỹ năng, bạn có thể tiếp tục. Nếu thất bại, bạn vẫn chưa lãng phí các loại sáp khác vào nó.
+  </Step>
+  <Step num="3" title="Tiến trình Hard Wax">
+    Sử dụng Hard Wax cho 3-5 cấp độ tiếp theo. Theo thống kê, bạn có thể mong đợi tỉ lệ thành công 60%, thường mang lại mức tăng +6 Cấp độ Sức mạnh sau năm lần thử.
+  </Step>
+  <Step num="4" title="Hoàn thiện bằng Soft Wax">
+    Khi bạn đạt đến Cấp độ Sức mạnh cao mà rủi ro thất bại trở nên quá tốn kém, hãy chuyển sang Soft Wax để hoàn thành các cấp độ còn lại một cách an toàn. "Phương pháp hỗn hợp" này là tiêu chuẩn meta cho năm 2026.
+  </Step>
+</Steps>
+
+| Tên chiến lược | Khuyên dùng cho | Kết hợp Sáp |
+| :--- | :--- | :--- |
+| **Lựa chọn an toàn** | Đầu game / Đồ thường | 100% Soft Wax |
+| **Chuyên nghiệp** | Giữa game / Đồ hiếm | 3 Hard Wax + 2 Soft Wax |
+| **Kẻ liều lĩnh** | Cuối game / Đồ Mythic | 1 Swirl + 1 Caustic + 4 Hard Wax |
+| **Người xoay chỉ số** | Các Build cụ thể | Swirl vô hạn cho đến khi có chỉ số hoàn hảo |
+
+<Callout type="info" title="Mẹo tối ưu hóa">
+Nếu bạn sử dụng thành công hai Hard Wax trong ba lần thử đầu tiên, việc chuyển sang Soft Wax cho hai ô cuối cùng sẽ đảm bảo tổng Cấp độ Sức mạnh tăng thêm +6 trong khi loại bỏ mọi rủi ro còn lại.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beequip tốt nhất cho các màu tổ ong cụ thể">
+
+Không phải tất cả **beequip trong Bee Swarm Simulator** đều được tạo ra như nhau. Một số được thiết kế đặc biệt để tăng cường sức mạnh cho tổ Đỏ, Xanh hoặc Trắng. Trang bị sai vật phẩm cho một con ong chuyên dụng có thể dẫn đến lãng phí tiềm năng.
+
+| Tên Beequip | Ong phù hợp nhất | Phần thưởng chính | Phối hợp tổ ong |
+| :--- | :--- | :--- | :--- |
+| **Paper Hat** | Basic Bee / Bất kỳ | Năng lượng và Thu hoạch | Đa dụng |
+| **Smiley Sticker** | Music Bee | Sức mạnh chí mạng | Tổ Trắng / Hỗn hợp |
+| **Poinsettia** | Riley Bee | Phấn hoa đỏ / Tấn công | Tổ Đỏ |
+| **Pinecone** | Bucko Bee | Phấn hoa xanh / Chuyển đổi | Tổ Xanh |
+| **Toy Drum** | Commander Bee | Tỉ lệ kỹ năng | Các Build chí mạng |
+
+<CardGrid cols={3}>
+  <Card title="Tập trung Tổ Đỏ">
+    Ưu tiên các Beequip tăng **Tấn công** và **Phấn hoa đỏ**. Tìm kiếm các vật phẩm có thể trang bị cho ong Spicy hoặc Precise để tối đa hóa việc tạo lửa.
+  </Card>
+  <Card title="Tập trung Tổ Xanh">
+    Tập trung vào **Tỉ lệ chuyển đổi** và **Phấn hoa xanh**. Các vật phẩm trang bị cho ong Tadpole hoặc Buoyant nên nhấn mạnh vào việc tái tạo bong bóng và sức chứa bóng bay.
+  </Card>
+  <Card title="Tập trung Tổ Trắng">
+    Tìm kiếm **Sức mạnh chí mạng** và **Hệ số nhân Goo**. Ong Vector và Gummy được hưởng lợi nhiều nhất từ các Beequip giúp tăng thời gian tồn tại của dấu ấn và mật ong trên mỗi phấn hoa.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Thưởng phối hợp">
+Luôn kiểm tra xem Beequip có "Ong ưa thích" (Favored Bee) hay không. Trang bị một vật phẩm cho con ong ưa thích của nó thường mang lại hệ số nhân 1.1x hoặc 1.2x cho các chỉ số cơ bản của vật phẩm, khiến nó mạnh hơn đáng kể so với khi trang bị cho ong thông thường.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra để làm chủ Beequip">
+
+Trước khi bạn bắt đầu một phiên waxing lớn hoặc tiêu những tấm vé khó kiếm được tại cửa hàng của Dapper Bear, hãy xem qua danh sách kiểm tra này để đảm bảo bạn đã chuẩn bị đầy đủ.
+
+<Checklist
+  id="beequip-prep"
+  title="Yêu cầu trước khi Waxing:"
+  items={[
+    "Xác nhận bạn có ít nhất 10 Soft Wax để dự phòng an toàn",
+    "Trang bị Beekeepers Boots để vào cửa hàng của Dapper Bear",
+    "Xác định những con ong nào trong tổ hiện đang thiếu trang bị",
+    "Tính toán tổng chi phí Mật ong cho một chu kỳ 5 lần wax đầy đủ",
+    "Kiểm tra các Beequip trùng lặp trước khi sử dụng Caustic Wax"
+  ]}
+/>
+
+<Callout type="info" title="Quản lý tài nguyên">
+Sáp có thể được chế tạo trong Máy xay (Blender) hoặc tìm thấy dưới dạng vật phẩm rơi hiếm từ các quái vật cấp cao như Cua Dừa (Coconut Crab) hoặc Ốc sên Gốc cây (Stump Snail). Tiêu diệt các boss này hàng ngày là cách hiệu quả nhất để tích trữ Hard và Caustic Wax mà không cần tốn vé.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể tháo Beequip sau khi đã trang bị không?",
+    answer: "Có, bạn có thể tháo Beequip bất cứ lúc nào. Tuy nhiên, việc này sẽ tốn một lượng nhỏ Mật ong, và vật phẩm sẽ quay trở lại kho đồ của bạn với tất cả các nâng cấp sáp và Cấp độ Sức mạnh hiện có được giữ nguyên."
+  },
+  {
+    question: "Cấp độ Sức mạnh tối đa cho Beequip trong Bee Swarm Simulator là bao nhiêu?",
+    answer: "Trong meta năm 2026 hiện tại, hầu hết các Beequip có thể đạt Cấp độ Sức mạnh tối đa là 10 hoặc 15, tùy thuộc vào độ hiếm của chúng. Việc sử dụng Caustic Wax thường là bắt buộc để đạt được các giới hạn cấp cao này."
+  },
+  {
+    question: "Cấp độ của ong có ảnh hưởng đến chỉ số của Beequip không?",
+    answer: "Cấp độ của ong không trực tiếp thay đổi chỉ số của Beequip, nhưng các phần thưởng của Beequip thường có tính nhân bản. Điều này có nghĩa là một con ong cấp cao hơn với các chỉ số cơ bản tốt hơn sẽ được hưởng lợi nhiều hơn từ các mức tăng phần trăm do trang bị cung cấp."
+  },
+  {
+    question: "Điều gì xảy ra nếu Hard Wax thất bại?",
+    answer: "Nếu Hard Wax thất bại, sáp sẽ bị tiêu thụ và Cấp độ Sức mạnh của Beequip không tăng. Khác với Caustic Wax, Hard Wax sẽ không phá hủy vật phẩm khi thất bại; nó chỉ đơn giản là làm lãng phí tài nguyên."
+  }
+]} />
+
+</Section>

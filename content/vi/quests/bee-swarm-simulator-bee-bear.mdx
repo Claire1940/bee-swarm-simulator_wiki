@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Bee Bear: Hướng dẫn Nhiệm vụ Petal Cub",
+  description: "Chinh phục tất cả các nhiệm vụ cuối cùng của Bee Bear trong Bee Swarm Simulator để mở khóa skin Petal Cub độc quyền với hướng dẫn chi tiết năm 2026 của chúng tôi.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Bee+Bear+Quests",
+  date: "2026-06-25",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, bee bear, petal cub, hướng dẫn nhiệm vụ, Beesmas"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mục tiêu chính**: Hoàn thành tất cả các nhiệm vụ cuối cùng của **Bee Bear trong Bee Swarm Simulator** để mở khóa skin Petal Cub.
+- **Chiến thuật cày cuốc**: Sử dụng chương trình macro đáng tin cậy để thu thập lượng lớn Cánh hoa (Blooms) trên nhiều cánh đồng.
+- **Lối tắt tiệc Robo**: Hoàn thành các yêu cầu Tiệc Robo nhanh chóng bằng cách đề nghị hỗ trợ miễn phí trong các máy chủ công cộng.
+- **Chuẩn bị Sticker**: Giao dịch sớm tại Hive Hub để bỏ qua các yêu cầu nhãn dán (sticker) phụ thuộc nhiều vào may rủi (RNG).
+- **Quản lý tài nguyên**: Tiết kiệm xúc xắc cánh đồng (field dice), thuốc tím (purple potions) và các nguyên liệu trong máy xay (blender) cho hai nhiệm vụ cuối cùng.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Nhiệm vụ Bee Bear">
+
+Bee Bear là một NPC du hành theo mùa được yêu thích trong Bee Swarm Simulator, người sẽ quay trở lại trong sự kiện Beesmas [wiki]. Được biết đến với việc cung cấp một trong những chuỗi nhiệm vụ bổ ích nhưng cũng đòi hỏi khắt khe nhất trong trò chơi, Bee Bear thách thức người chơi thu thập các token sự kiện độc đáo, hoàn thành các trò chơi nhỏ và hợp tác với những người chơi khác [wiki]. Trong lần ghé thăm chính thức thứ tám, kết thúc vào ngày 8 tháng 6 năm 2026, nhà phát triển đã giới thiệu một bộ nhiệm vụ cuối cùng khổng lồ tập trung mạnh vào việc thu thập Cánh hoa (Blooms) [wiki].
+
+Phần thưởng cuối cùng cho việc hoàn thành toàn bộ chuỗi nhiệm vụ này là skin Petal Cub cực kỳ quý giá, cùng với hàng tỷ Mật ong, Voucher Vé (Ticket Vouchers) và các vật liệu chế tạo giá trị như Sáp ăn mòn (Caustics) và Sáp xoáy (Swirled Waxes) [1, wiki]. Vì những nhiệm vụ này đòi hỏi hàng trăm giờ cày cuốc thủ công, việc hiểu rõ các chiến thuật hiệu quả nhất, thiết lập macro và các lối tắt giao dịch là điều cần thiết để hoàn thành trước khi thời gian sự kiện kết thúc [1, wiki].
+
+**Điểm nhấn Video:**
+- **Chiến thuật Cánh hoa**: Cách thu thập hiệu quả các Cánh hoa màu bằng vòng lặp macro tự động.
+- **Hiệu quả Bông tuyết**: Mẹo sử dụng bông tuyết trong các đợt tăng cường (boost) và chạy nấm (puff runs) để tối đa hóa tiến độ.
+- **Chạy nhanh Tiệc Robo**: Một chiến thuật chơi nhiều người thông minh để hoàn thành 25 Tiệc Robo chỉ trong hơn một giờ.
+- **Macro Cánh hoa tại Hive Hub**: Một mẹo vật lý đơn giản để tự động hóa các yêu cầu cánh hoa khổng lồ của Nhiệm vụ 20.
+
+<YouTubeEmbed videoId="Ozwy54SM1dE" title="Cách hoàn thành tất cả nhiệm vụ Bee Bear mới trong Bee Swarm Simulator!" />
+
+| Số Nhiệm vụ | Trọng tâm Cày cuốc | Phần thưởng Nổi bật |
+| :--- | :--- | :--- |
+| **Nhiệm vụ 16** | Cánh hoa & Sử dụng Bông tuyết | 1 Tỷ Mật ong, 5 Sáp xoáy |
+| **Nhiệm vụ 17** | Cánh hoa & Trò chơi Trí nhớ | 5 Tỷ Mật ong, 5 Sáp ăn mòn |
+| **Nhiệm vụ 18** | Cánh hoa & Cộng dồn Nấm Puffshroom | 25 Tỷ Mật ong, 3 Lọ Mật hoa |
+| **Nhiệm vụ 19** | Tiệc Robo & Thuốc tím | 100 Tỷ Mật ong, 25 Thuốc tím |
+| **Nhiệm vụ 20** | Cánh hoa Đa cánh đồng Khổng lồ | 250 Tỷ Mật ong, Skin Petal Cub |
+
+<Callout type="tip" title="Lưu ý về Thời gian Sự kiện">
+Mặc dù lần ghé thăm thứ tám của Bee Bear đã chính thức kết thúc vào tháng 6 năm 2026, nhưng những chiến thuật tối ưu hóa này vẫn rất có giá trị để chuẩn bị cho các kỳ Beesmas tương lai và hiểu rõ cơ chế cốt lõi của các nhiệm vụ sự kiện cấp cao [wiki].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Nhiệm vụ 16 đến 18">
+
+Ba nhiệm vụ đầu tiên của khối cuối cùng (Nhiệm vụ 16, 17 và 18) đóng vai trò là rào cản để tiến tới các phần thưởng cao cấp [1]. Mặc dù chúng không phức tạp về mặt cơ chế, nhưng chúng đòi hỏi một lượng thu thập Cánh hoa đáng kinh ngạc và sự tham gia tích cực vào trò chơi [1].
+
+Để hoàn thành các nhiệm vụ này mà không bị kiệt sức, người chơi nên dựa vào các công cụ tự động hóa và phối hợp nhóm [1]. Ví dụ, thu thập Cánh hoa thủ công có thể mất hàng chục giờ [1]. Sử dụng một chương trình macro đáng tin cậy, chẳng hạn như Revolution Macro, cho phép bạn thu thập Cánh hoa liên tục khi không ở gần máy tính [1].
+
+<Steps>
+  <Step num="1" title="Tối ưu hóa Tiêu thụ Bông tuyết">
+    Nhiệm vụ 16 yêu cầu bạn sử dụng 1,080 Bông tuyết [1]. Đây là một sự tiêu tốn tài nguyên khổng lồ, vì vậy bạn phải sử dụng chúng hiệu quả [1]. Tránh dùng chúng một cách ngẫu nhiên [1]. Thay vào đó, hãy sử dụng chúng trong các đợt tăng cường cánh đồng hoặc chạy nấm puffshroom để tối đa hóa sản lượng phấn hoa của bạn [1]. Ngoài ra, hãy tham gia máy chủ cùng bạn bè và kích hoạt chúng cùng nhau, vì bất kỳ bông tuyết nào được người chơi gần đó sử dụng cũng sẽ đóng góp vào tiến trình nhiệm vụ của bạn [1].
+  </Step>
+  <Step num="2" title="Tự động hóa Trò chơi Trí nhớ">
+    Nhiệm vụ 17 đưa ra yêu cầu cho 50 cặp Trò chơi Trí nhớ (Memory Match) [1]. Mặc dù tẻ nhạt, việc này có thể dễ dàng thực hiện bằng macro cùng với việc cày Cánh hoa [1]. Một macro được cấu hình đúng sẽ ghi nhớ hoàn hảo vị trí các thẻ, đảm bảo các cặp khớp hoàn hảo mỗi lần và giúp bạn tiết kiệm hàng giờ thử sai thủ công [1].
+  </Step>
+  <Step num="3" title="Chế tạo Vật liệu trong Blender">
+    Nhiệm vụ 18 giao cho bạn thu thập các loại chiết xuất, dầu và 50 cộng dồn Nấm Puffshroom [1]. Đừng lãng phí nhiều ngày để săn quái vật tìm vật phẩm hiếm [1]. Thay vào đó, hãy thu thập nguyên liệu thô và chế tạo các chiết xuất yêu cầu trực tiếp trong Máy xay (Blender) [1]. Điều này giúp bỏ qua yếu tố may rủi nặng nề và tăng tốc đáng kể tiến trình của bạn [1].
+  </Step>
+</Steps>
+
+| Tên Nhiệm vụ | Yêu cầu Chính | Phần thưởng Tiêu hao | Phần thưởng Đặc biệt |
+| :--- | :--- | :--- | :--- |
+| **Nhiệm vụ 16** | Thu thập Cánh hoa, Dùng 1,080 Bông tuyết | 5 Đồ uống Nhiệt đới, 5 Gấu Gừng | Bóng trắng, Quà tặng |
+| **Nhiệm vụ 17** | Thu thập Cánh hoa, 50 Trò chơi Trí nhớ | 5 Kim tuyến, 5 Sáp ăn mòn | Bóng đen |
+| **Nhiệm vụ 18** | Thu thập Cánh hoa, 50 Nấm Puffshroom | 10 Keo, 5 Gấu Gừng | Quà tặng, 3 Lọ Mật hoa |
+
+<Callout type="warning" title="Quản lý Bông tuyết">
+Đừng vứt bỏ Bông tuyết của bạn ngoài các phiên cày cuốc tích cực [1]. Luôn phối hợp với nhóm tổ ong của bạn hoặc cộng đồng Discord để chia sẻ tiến trình sử dụng Bông tuyết [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nhiệm vụ 19: Tiệc Robo và May rủi Sticker">
+
+Nhiệm vụ 19 đại diện cho một sự gia tăng đột biến về độ khó [1]. Nó chuyển từ việc chạy macro thụ động sang yêu cầu bạn tham gia vào các thử thách chơi nhiều người và nền kinh tế giao dịch [1]. Hai rào cản chính ở đây là hoàn thành 25 Tiệc Robo và đưa một nhãn dán (sticker) cụ thể cho Bee Bear [1].
+
+<CardGrid cols={3}>
+  <Card title="Chạy nhanh Tiệc Robo">
+    Hoàn thành 25 Tiệc Robo bình thường có thể mất nhiều ngày. Để hoàn thành việc này trong vòng một giờ, hãy ghé thăm các máy chủ công cộng và đề nghị giúp đỡ những người chơi khác hoàn thành Tiệc Robo của họ miễn phí [1]. Chiến thuật đôi bên cùng có lợi này cho phép bạn di chuyển từ sảnh này sang sảnh khác, tích lũy các tiệc đã hoàn thành một cách nhanh chóng [1].
+  </Card>
+  <Card title="Chế tạo Thuốc tím">
+    Bạn sẽ cần 25 Thuốc tím (Purple Potions), loại thuốc cực kỳ đắt đỏ để chế tạo [1]. Để tích lũy những thứ này mà không làm cạn kiệt toàn bộ nguồn cung nguyên liệu, hãy cố gắng đạt đến vòng 15 trong Thử thách Gấu Robo (Robo Bear Challenge) [1]. Vòng này mang lại phần thưởng thuốc rất tốt [1]. Bạn cũng có thể thử vận may với mưa thiên thạch, mặc dù điều này phụ thuộc nhiều vào may rủi [1].
+  </Card>
+  <Card title="Chiến thuật Giao dịch Sticker">
+    Bee Bear sẽ yêu cầu một trong bốn nhãn dán ngẫu nhiên [1]. Nếu may mắn, bạn sẽ cần một Bông hoa Tím Bốn Cánh (Purple Four-Point Flower), có thể dễ dàng đổi lấy một Star Sign [1]. Tuy nhiên, nếu không may, bạn có thể cần một Bức tranh Lăng kính (Prism Painting) hoặc Bức tranh Chuối (Banana Painting) [1]. Những thứ này rất giá trị, có giá lên tới chín Star Sign trong cộng đồng giao dịch [1].
+  </Card>
+</CardGrid>
+
+| Loại Yêu cầu | Số lượng Mục tiêu | Phương pháp Cày Tối ưu | Giá trị Cộng đồng / Chi phí |
+| :--- | :--- | :--- | :--- |
+| **Hoàn thành Tiệc Robo** | 25 Tiệc | Nhảy máy chủ công cộng & gánh team miễn phí | Miễn phí (Chơi hợp tác) |
+| **Thuốc tím** | 25 Lọ | Vòng 15 Thử thách Gấu Robo / Máy xay | Chi phí nguyên liệu chế tạo cao |
+| **Sticker Hoa Tím** | 1 Nhãn dán | Giao dịch tại Hive Hub | ~1 Star Sign |
+| **Sticker Bức tranh** | 1 Nhãn dán | Giao dịch tại Hive Hub | ~9 Star Sign (Phụ thuộc may rủi) |
+
+<Callout type="info" title="Cảnh báo Giao dịch Sticker">
+Nếu bạn không tham gia giao dịch tích cực với người chơi khác tại Hive Hub, yêu cầu nhãn dán bức tranh có thể làm đình trệ hoàn toàn tiến trình nhiệm vụ của bạn [1]. Chúng tôi khuyên bạn nên tham gia máy chủ Discord chính thức để thương lượng các giao dịch công bằng cho các vật phẩm nhiệm vụ này [1].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nhiệm vụ 20: Cuộc Cày cuốc Petal Cub Cuối cùng">
+
+Nhiệm vụ 20 là trở ngại cuối cùng và to lớn nhất ngăn cách bạn với skin Petal Cub độc quyền [1]. Nó đòi hỏi một lượng tài nguyên khổng lồ, bao gồm 500 Cánh hoa của hầu hết mọi màu sắc, 1,000 token từ Brick Blooms và lượng mật hoa thu hoạch trong nhiều ngày [1].
+
+Để thu thập số lượng lớn Cánh hoa màu một cách hiệu quả, bạn phải tận dụng Hive Hub [1]. Hive Hub rất độc đáo vì các cánh hoa của mọi màu sắc xuất hiện liên tục trong khu vực chung này [1]. Tuy nhiên, vì các macro cày cuốc tiêu chuẩn không hỗ trợ sơ đồ Hive Hub một cách tự nhiên, bạn sẽ cần sử dụng một chiến thuật di chuyển tùy chỉnh [1].
+
+<Checklist
+  id="quest-20-checklist"
+  title="Các Cột mốc Hoàn thành Nhiệm vụ 20:"
+  items={[
+    "Thu thập 500 Cánh hoa của hầu hết mọi màu sắc trong Hive Hub",
+    "Thu thập 1,000 token từ Brick Blooms trong Thử thách Retro Swarm",
+    "Thu hoạch đủ 2 ngày Mật hoa bằng Chậu cây (Planters) cấp cao",
+    "Áp dụng 500 cộng dồn Tăng cường Cánh đồng bằng Xúc xắc Cánh đồng",
+    "Chia sẻ 250 token Kẹo dẻo (Jelly Bean) với người chơi trong Hive Hub",
+    "Lấy nhãn dán Small Tick Seed và các nhãn dán Marble yêu cầu"
+  ]}
+/>
+
+| Yêu cầu Nhiệm vụ | Số lượng | Chiến thuật Tốt nhất |
+| :--- | :--- | :--- |
+| **Token Brick Bloom** | 1,000 Token | Tham gia tích cực vào Thử thách Retro Swarm [1]. |
+| **Cộng dồn Tăng cường** | 500 Cộng dồn | Dùng liên tục Xúc xắc Cánh đồng (Hãy chuẩn bị cho việc tốn kém) [1]. |
+| **Chia sẻ Kẹo dẻo** | 250 Token | Ném Kẹo dẻo trong một máy chủ Hive Hub đông đúc [1]. |
+| **Thu hoạch Mật hoa** | 2 Ngày | Đặt và thu hoạch các Chậu cây cấp cao từ trước [1, wiki]. |
+| **Gấu Gừng** | 25 Con | Thu thập từ Nhà Gấu Gừng, tiêu diệt quái vật hoặc dùng Lò nướng [1, wiki]. |
+| **Tăng cường Đỉnh núi** | 10 Lần | Dùng Xúc xắc Cánh đồng cho đến khi Cánh đồng Đỉnh núi được tăng cường [1]. |
+
+<Callout type="success" title="Mẹo Macro Vòng tròn tại Hive Hub">
+Bạn có thể dễ dàng tạo một macro vật lý đơn giản cho Hive Hub [1]. Đặt một vật nặng lên phím "Mũi tên phải" và phím "W" để nhân vật của bạn chạy thành các vòng tròn liên tục [1]. Kết hợp điều này với một trình tự động nhấp (auto-clicker) đang hoạt động, nhân vật của bạn sẽ tự động thu thập mọi màu cánh hoa xuất hiện trong hub khi bạn đi vắng [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách tốt nhất để cày Cánh hoa cho các nhiệm vụ Bee Bear là gì?",
+    answer: "Phương pháp hiệu quả nhất là sử dụng chương trình macro như Revolution Macro trong các cánh đồng được chỉ định cho Nhiệm vụ 16-19. Đối với Nhiệm vụ 20 cuối cùng, hãy sử dụng mẹo vật nặng trên bàn phím hoặc một script chuyên dụng trong Hive Hub để thu thập tất cả các màu cánh hoa cùng lúc."
+  },
+  {
+    question: "Làm thế nào để tôi vượt qua sự xui xẻo của sticker trong Nhiệm vụ 19 và 20?",
+    answer: "Giao dịch tích cực tại Hive Hub là con đường khả thi duy nhất. Trong khi một số nhãn dán như Hoa Tím Bốn Cánh khá rẻ, những nhãn dán khác như Bức tranh Lăng kính có thể tốn tới chín Star Sign. Đừng cố tự tìm chúng mà hãy tận dụng các cộng đồng giao dịch."
+  },
+  {
+    question: "Tôi có thể hoàn thành yêu cầu Bông tuyết nhanh chóng không?",
+    answer: "Có. Luôn sử dụng Bông tuyết khi đang tăng cường tích cực hoặc chạy Nấm Puffshroom. Ngoài ra, hãy cày cùng bạn bè hoặc trong các máy chủ công cộng đang hoạt động, vì việc kích hoạt bông tuyết từ những người chơi gần đó cũng sẽ được tính vào tiến trình của bạn."
+  },
+  {
+    question: "Skin Petal Cub có xứng đáng với công sức cày cuốc khổng lồ không?",
+    answer: "Hoàn toàn xứng đáng. Skin Petal Cub là một trong những phần thưởng thẩm mỹ và tiện ích hiếm nhất trong trò chơi, thể hiện sự tận tâm của bạn trong việc hoàn thành một trong những thử thách Beesmas khó khăn nhất từng được phát hành."
+  }
+]} />
+
+<Callout type="tip" title="Mẹo Chuẩn bị Cuối cùng">
+Luôn đặt sẵn các Chậu cây (Planters) của bạn trong các cánh đồng có sản lượng cao vài giờ trước khi bạn mở khóa Nhiệm vụ 20 [wiki]. Điều này đảm bảo bạn có thể thu hoạch ngay lập tức lượng Mật hoa yêu cầu ngay khi nhiệm vụ được kích hoạt [1, wiki].
+</Callout>
+
+</Section>

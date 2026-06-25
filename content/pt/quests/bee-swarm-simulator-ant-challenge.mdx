@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desafio da Formiga no Bee Swarm Simulator: Guia de Pontuação e Recompensas de 2026",
+  description: "Domine o Desafio da Formiga no Bee Swarm Simulator com o nosso guia sobre mecânicas de ondas, níveis de amuletos e estratégias para pontuações altas em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Ant+Challenge+Guide",
+  date: "2026-06-25",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Desafio da Formiga do Bee Swarm Simulator** é um teste de combate de 5 minutos acessado pelo Portão da Formiga, exigindo no mínimo 20 abelhas.
+- **Passes de Formiga** (Ant Passes) são necessários para entrar; obtenha um gratuito a cada 2 horas no dispensador atrás do portão.
+- A **Conversão Instantânea** é definida em 100% durante o desafio, o que significa que sua mochila nunca ficará cheia.
+- **Pontuações mais altas** estão diretamente correlacionadas a melhores níveis de Amuleto de Formiga, variando de Bronze a Supremo.
+- A **Vicious Bee** é a unidade mais crítica para o sucesso devido à sua habilidade de espinhos com área de efeito (AoE).
+</Callout>
+
+<Section icon={Map} title="Acessando a Arena do Desafio da Formiga">
+
+O **desafio da formiga do Bee Swarm Simulator** é uma arena de combate especializada localizada atrás do Portão da Formiga. Para sequer pensar em entrar neste desafio, os jogadores devem primeiro reunir uma colmeia de pelo menos 20 abelhas. Este portão serve como uma verificação de progressão, garantindo que você tenha poder de fogo suficiente para lidar com as ondas crescentes de insetos.
+
+No entanto, a entrada não é gratuita. Cada tentativa consome um Passe de Formiga. Embora isso possa ser um obstáculo para novos jogadores, existem várias maneiras confiáveis de estocar passes antes de uma sessão intensa de farm.
+
+| Fonte | Método | Frequência/Custo |
+| :--- | :--- | :--- |
+| **Dispensador Grátis** | Localizado atrás do Portão da Formiga | A cada 2 horas |
+| **Loja de Bilhetes** | Comprar no Dispensador | 10 Bilhetes por passe |
+| **Panda Bear** | Concluir missões focadas em combate | Recompensa ocasional |
+| **Token Secreto** | Escondido atrás da área do desafio | Resgate único |
+
+<Callout type="tip" title="Dica de Mestre: O Passe Escondido">
+Há um token secreto de Passe de Formiga escondido no corredor atrás do placar de líderes do Desafio da Formiga. Siga o caminho virando a esquina para encontrá-lo; esta rota também leva à área de resgate do Ovo de Gummy Bee.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Verifique sua quantidade de abelhas">
+    Certifique-se de ter pelo menos 20 abelhas em sua colmeia para passar pelo Portão da Formiga localizado perto do Panda Bear.
+  </Step>
+  <Step num="2" title="Pegue seu passe">
+    Interaja com o Dispensador de Passes de Formiga Grátis. Se estiver no tempo de recarga, você pode gastar 10 Bilhetes para pular a espera.
+  </Step>
+  <Step num="3" title="Esvazie sua mochila">
+    Embora o desafio conceda 100% de Conversão Instantânea, qualquer pólen atualmente em sua mochila será convertido em mel no momento em que você entrar.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Jogabilidade Principal e Mecânicas de Ondas">
+
+Assim que você entra na arena, o objetivo é simples: derrotar o maior número possível de formigas dentro de um limite de tempo de 5 minutos. O desafio termina se o cronômetro chegar a zero, se você sair do campo ou se seu personagem morrer. Uma mecânica única do **desafio da formiga do Bee Swarm Simulator** é o bônus de +100% de Conversão Instantânea, que garante que você gaste seu tempo lutando em vez de correr de volta para a colmeia para esvaziar sua mochila.
+
+A dificuldade aumenta através de ondas. Para avançar para a próxima onda, você deve encher o medidor de mel na lateral do formigueiro coletando pólen.
+
+| Recurso da Onda | Descrição | Detalhe de Escalonamento |
+| :--- | :--- | :--- |
+| **Requisito de Pólen** | Começa em 4.000 de pólen | Aumenta em mais de 2.000 por onda |
+| **Nível das Formigas** | Começa no Nível 1 e 2 | Os níveis aumentam a cada poucas ondas |
+| **Formigas Gigantes** | Surgem a cada 5 ondas | 2 Gigantes surgem na Onda 40 |
+| **Cortadores de Grama** | Obstáculo que aparece a partir da Onda 8 | Causa 50 de dano base |
+
+<Callout type="warning" title="Alerta de Perigo: Cortadores de Grama">
+A partir da Onda 8, as portas brancas nas laterais piscarão em vermelho. Isso indica que um cortador de grama está prestes a atravessar a pista em alta velocidade. Eles se movem mais rápido e aparecem com mais frequência conforme você atinge ondas mais altas.
+</Callout>
+
+A variedade de formigas que você enfrenta mudará conforme o desafio avança. Durante as primeiras 15 rodadas, você encontrará principalmente Formigas Voadoras (Flying Ants). Após a Onda 15, as Formigas Soldado (Army Ants) tornam-se significativamente mais comuns. As Formigas de Fogo (Fire Ants) são particularmente perigosas, pois deixam rastros de fogo que causam dano ao longo do tempo.
+
+</Section>
+
+<Section icon={Swords} title="Seleção Estratégica de Abelhas e Bônus">
+
+Para alcançar uma pontuação alta no **desafio da formiga do Bee Swarm Simulator**, a composição da sua colmeia é vital. Você não está apenas coletando pólen; você está lutando uma guerra de desgaste. Abelhas com alto poder de ataque e habilidades de área de efeito (AoE) têm o melhor desempenho aqui.
+
+<CardGrid cols={3}>
+  <Card title="Vicious Bee">
+    A MVP absoluta. Sua habilidade **Impale** cria espinhos que atingem várias formigas ao mesmo tempo, o que é essencial para limpar ondas densas.
+  </Card>
+  <Card title="Rage Bee">
+    Mantém o bônus de Fúria (Rage) para aumentar o poder de ataque geral da sua colmeia, permitindo que você elimine as formigas antes que elas o cerquem.
+  </Card>
+  <Card title="Baby Bee">
+    Fornece o bônus **Baby Love**, que aumenta a sorte e ajuda a garantir melhores drops de itens ao final do desafio.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Combate">
+Use um **Planador** (Glider) para planar sobre os rastros de fogo e as formigas. Essa mobilidade permite que você permaneça no campo e colete pólen enquanto suas abelhas focam nos inimigos, sem que você sofra danos desnecessários.
+</Callout>
+
+**Bônus Essenciais para Pontuações Altas:**
+*   **Stingers (Aguilhões):** Use-os para aumentar o ataque das suas abelhas em +50% por 30 segundos.
+*   **Tokens de Fúria (Rage):** Sempre priorize coletá-los para manter seu bônus de ataque acumulado em 3x.
+*   **Star Saw (Serra Estelar):** Se você tiver um Amuleto de Estrela Supremo (Supreme Star Amulet) com esta passiva, ela é incrivelmente eficaz para triturar formigas e coletar pólen simultaneamente.
+*   **Néctar Vigorante (Invigorating Nectar):** Oferece um aumento significativo no ataque e na velocidade de movimento das abelhas.
+
+</Section>
+
+<Section icon={Trophy} title="Níveis de Amuleto de Formiga e Recompensas">
+
+A principal razão pela qual os jogadores farmam o **desafio da formiga do Bee Swarm Simulator** é pelo Amuleto de Formiga. Este item de equipamento ocupa um espaço único e fornece vários bônus para sua colmeia, como aumento da velocidade de movimento do jogador, bônus de pólen branco/vermelho/azul e poder crítico.
+
+| Pontos de Pontuação | Nível do Amuleto | Qualidade da Recompensa |
+| :--- | :--- | :--- |
+| **0 - 24** | Amuleto de Formiga de Bronze | Pouco Mel, Petiscos Básicos |
+| **25 - 49** | Amuleto de Formiga de Prata | Mel Médio, Geleias Reais |
+| **50 - 99** | Amuleto de Formiga de Ouro | Muito Mel, Sementes, Extratos |
+| **100 - 149** | Amuleto de Formiga de Diamante | Mel Massivo, Adesivos Raros |
+| **150+** | Amuleto de Formiga Supremo | Melhores Atributos, Possíveis Vouchers |
+
+<Callout type="info" title="Mecânicas de Recompensa">
+Cada formiga derrotada concede 1 ponto. Após o término do desafio, você pode optar por manter seu amuleto antigo ou substituí-lo pelo novo. Sempre compare os atributos específicos gerados (como Chance Crítica ou Ataque de Abelha) em vez de apenas olhar para o nível.
+</Callout>
+
+Além dos amuletos, o desafio fornece uma variedade de itens com base na sua pontuação. Isso pode incluir Sementes de Girassol, Morangos, Mirtilos, Abacaxis e até adesivos raros como o **Left Facing Ant Sticker** (Adesivo de Formiga Virada para a Esquerda) ou o **Ant Field Stamp Sticker** (Adesivo de Carimbo do Campo de Formiga). Em casos extremamente raros, um Voucher de Velocidade de Conversão de 2x (x2 Convert Speed Voucher) pode dropar, embora isso seja considerado quase impossível pela comunidade.
+
+</Section>
+
+<Section icon={Shield} title="Táticas Avançadas de Sobrevivência">
+
+A sobrevivência é tão importante quanto o dano. Se você morrer, o desafio termina imediatamente, independentemente de quanto tempo resta no cronômetro. À medida que os cortadores de grama e os rastros de fogo se multiplicam, você precisa de uma estratégia defensiva.
+
+<Checklist
+  id="survival-checklist"
+  title="Preparação para Sobrevivência:"
+  items={[
+    "Equipe o Coconut Canister para obter o Escudo de Coco de Emergência (Emergency Coconut Shield)",
+    "Ative previamente bônus como Baby Love e Bear Morph antes de entrar",
+    "Afaste o zoom da câmera totalmente para ver os avisos dos cortadores de grama com antecedência",
+    "Use Aspersores (Sprinklers) para regenerar flores para uma coleta de pólen mais rápida",
+    "Fique perto das bordas do campo para atrair as formigas para longe do centro"
+  ]}
+/>
+
+<Callout type="warning" title="O Truque do Escudo de Coco">
+Enquanto o **Escudo de Coco de Emergência** estiver ativo, ser atingido por um cortador de grama na verdade irá curar você em vez de causar 50 de dano. Tente cronometrar a ativação do seu escudo para que ele esteja pronto para os caóticos 2 minutos finais do desafio.
+</Callout>
+
+Outra tática útil envolve a passiva **Star Saw**. Como ela escala com seu ataque, ela pode limpar todo o campo de formigas em segundos, permitindo que você se concentre inteiramente no medidor de mel por alguns instantes. Se estiver tendo dificuldades com o medidor de mel, lembre-se de que suas ferramentas são a melhor maneira de enchê-lo, pois suas abelhas frequentemente se distrairão atacando as formigas.
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes do Desafio da Formiga">
+
+<FAQ items={[
+  {
+    question: "Como obtenho um Amuleto de Formiga Supremo?",
+    answer: "Você deve marcar pelo menos 150 pontos em uma única rodada do Desafio da Formiga do Bee Swarm Simulator. Isso requer abelhas de alto nível (Nível 12+) e uso consistente de Stingers (Aguilhões) e bônus de Fúria (Rage)."
+  },
+  {
+    question: "Os cortadores de grama destroem as flores no campo?",
+    answer: "Não, apesar de sua aparência e nome, os cortadores de grama não afetam as flores no Campo de Formiga. Eles apenas causam dano ao personagem do jogador."
+  },
+  {
+    question: "Qual é o número máximo de ondas possível?",
+    answer: "Teoricamente, você pode chegar a 100 ondas. Como cada onda leva cerca de 3 segundos para avançar e o limite é de 300 segundos (5 minutos), 100 é o limite matemático."
+  },
+  {
+    question: "Por que minha mochila não enche durante o desafio?",
+    answer: "Entrar na arena concede um bônus de +100% de Conversão Instantânea. Essa é uma mecânica integrada do Desafio da Formiga do Bee Swarm Simulator para garantir que o foco permaneça no combate e na velocidade de coleta de pólen."
+  }
+]} />
+
+</Section>

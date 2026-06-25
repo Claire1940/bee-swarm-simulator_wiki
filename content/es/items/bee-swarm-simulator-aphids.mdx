@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Áfidos de Bee Swarm Simulator: Guía de Aparición 2026 y Tablas de Recompensas Raras",
+  description: "Domina los áfidos de Bee Swarm Simulator con nuestra guía de 2026. Aprende las mecánicas de aparición, las tasas de drop del Áfido de Diamante y estrategias para conseguir recompensas raras como Huevos de Diamante.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Aphid+Spawn+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **áfidos de Bee Swarm Simulator** son mobs hostiles raros que aparecen al recolectar hojas en varios campos.
+- Existen **cuatro tipos distintos**: Normal, de Furia (Rage), Acorazado (Armored) y el muy codiciado Áfido de Diamante (Diamond).
+- El **temporizador de desaparición** está configurado exactamente en 30 segundos; debes derrotarlos rápidamente o desaparecerán.
+- Los **Áfidos de Diamante** ofrecen el mejor botín, incluyendo una probabilidad rara de obtener Huevos de Diamante y Súper Batidos (Super Smoothies).
+- Las **tasas de aparición aumentan** cuando un jugador no ha visitado un campo específico durante un período prolongado.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendiendo los Áfidos de Bee Swarm Simulator">
+
+Los áfidos representan uno de los encuentros de combate más únicos dentro del juego. A diferencia de los mobs estándar como las Mariquitas (Ladybugs) o los Escarabajos Rinoceronte (Rhinoceros Beetles) que tienen ubicaciones y temporizadores de aparición fijos, los áfidos son dinámicos. Se activan por la interacción del jugador con el entorno, específicamente, al recolectar polen y agitar las hojas. Comprender los matices de los **áfidos de Bee Swarm Simulator** es esencial para los jugadores de juego medio y tardío que buscan optimizar su recolección de recursos.
+
+**Aspectos Destacados del Video:**
+- Desglose detallado de las cuatro variedades de áfidos que se encuentran en el juego.
+- Confirmación visual de las tasas de drop para objetos raros como Jaleas Estelares (Star Jellies) y Huevos de Diamante (Diamond Eggs).
+- Explicación de la mecánica de desaparición de 30 segundos y cómo rastrearla.
+- Comparación de los Puntos de Batalla otorgados para los diferentes niveles de áfidos.
+
+<YouTubeEmbed videoId="6Hisd4OhCds" title="¿Cuál es la probabilidad de drop de ÁFIDO MÁS RARA en Bee Swarm Simulator?" />
+
+Los áfidos funcionan como mobs públicos. Esto significa que, aunque tú seas quien active la aparición, cualquier jugador en el campo puede contribuir a la batalla y, lo que es más importante, recoger el botín resultante. Esto los convierte en un encuentro centrado en la comunidad, lo que a menudo genera un caos frenético cuando una variante rara de Diamante aparece en un servidor lleno de gente.
+
+| Característica | Descripción |
+| :--- | :--- |
+| **Activador de Aparición** | Recolectar hojas mientras se junta polen |
+| **Visibilidad** | Pública (todos los jugadores pueden ver y atacar) |
+| **Duración** | 30 segundos antes de desaparecer |
+| **Movimiento** | Sigue lentamente al jugador más cercano |
+| **Tipo de Recompensa** | Vínculo, Puntos de Batalla y drops de objetos específicos |
+
+<Callout type="info" title="Mecánicas de Botín Público">
+Debido a que los áfidos son mobs públicos, no necesitas dar el golpe de gracia para recibir recompensas. Sin embargo, debes estar presente y activo en el campo para recoger los drops físicos antes de que desaparezcan.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Variedades de Áfidos y Estadísticas de Combate">
+
+No todos los **áfidos de Bee Swarm Simulator** son iguales. Escalan según el nivel del campo donde aparecen, lo que hace que un áfido en el Campo de Coco (Coconut Field) sea significativamente más peligroso que uno en el Campo de Girasol (Sunflower Field). Hay cuatro variantes principales que encontrarás durante tus sesiones de farmeo.
+
+| Tipo de Áfido | Rareza | Puntos de Batalla | Identificación |
+| :--- | :--- | :--- | :--- |
+| **Áfido Normal** | Común | 10 | Color verde/marrón, HP estándar |
+| **Áfido de Furia** | Raro | 20 | Brillo rojo, velocidad de movimiento aumentada |
+| **Áfido Acorazado** | Raro | 20 | Caparazón visible, HP significativamente mayor |
+| **Áfido de Diamante** | Muy Raro | 20 | Azul translúcido, reserva de HP masiva |
+
+La salud y el nivel de estos mobs se correlacionan directamente con la dificultad del campo. Por ejemplo, un Áfido de Furia en la Parcela de Pimienta (Pepper Patch) tendrá millones de puntos de salud, lo que requiere una colmena de alto nivel para derrotarlo dentro de la estricta ventana de 30 segundos.
+
+<CardGrid cols={2}>
+  <Card title="La Variante de Furia">
+    - **IA Agresiva**: Rastrea a los jugadores más rápido que otros tipos.
+    - **Nivel Más Alto**: Por lo general, aparece 2-3 niveles por encima del promedio del campo.
+    - **Mejor Vínculo**: Otorga más vínculo de abeja al ser derrotado.
+  </Card>
+  <Card title="La Variante Acorazada">
+    - **Reducción de Daño**: Recibe menos daño de los ataques estándar de las abejas.
+    - **Tanque**: Requiere una Abeja Viciosa (Vicious Bee) de alto nivel o aguijones precisos.
+    - **Multiplicador de Botín**: A menudo suelta más recursos básicos como Golosinas (Treats).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="La Regla de los 30 Segundos">
+El temporizador comienza en el momento en que el áfido emerge de las hojas. Si tu colmena no tiene el nivel suficiente para agotar su salud en 30 segundos, el áfido volverá a enterrarse bajo tierra y no recibirás ninguna recompensa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tablas de Drops Raros y Optimización de Recompensas">
+
+La razón principal por la que los jugadores cazan **áfidos de Bee Swarm Simulator** es por sus lucrativas tablas de drops. Mientras que los Áfidos Normales proporcionan necesidades básicas, las variantes raras pueden ahorrarte docenas de horas de farmeo al proporcionar materiales de juego tardío.
+
+| Objeto | Fuente de Áfido | Probabilidad de Drop | Utilidad en 2026 |
+| :--- | :--- | :--- | :--- |
+| **Jalea Real** | Todos los tipos | Garantizado | Esencial para la transformación de abejas |
+| **Jalea Estelar** | Acorazado / Diamante | Raro | Mejora garantizada a abeja dotada (gifted) |
+| **Huevo de Diamante** | Diamante | Muy Raro | Necesario para la Máscara de Diamante (Diamond Mask) |
+| **Súper Batido** | Diamante | Legendario | El mejor objeto de potenciación (buff) en el juego |
+| **Poción Morada** | Furia / Acorazado | Poco común | Impulso masivo y temporal de estadísticas |
+
+Para maximizar tus posibilidades de obtener estos objetos, debes concentrarte en aumentar tu **Suerte de Botín (Loot Luck)**. Esto se puede lograr a través de varios medios, como el efecto de Amor de Bebé (Baby Love) de las Abejas Bebé (Baby Bees) o Abejas Renacuajo Dotadas (Gifted Tadpole Bees), y usando equipamiento como el Trébol de la Suerte (Lucky Clover).
+
+<Steps>
+  <Step num="1" title="Acumula Suerte de Botín">
+    Asegúrate de que tus Abejas Bebé estén activas o usa una Gominola (Gumdrop) para activar habilidades específicas de las abejas antes de que el áfido muera.
+  </Step>
+  <Step num="2" title="Prioriza las Variantes de Diamante">
+    Si aparece un Áfido de Diamante, priorízalo sobre cualquier otra actividad en el campo. Es la única fuente confiable para obtener el drop de Súper Batido.
+  </Step>
+  <Step num="3" title="Revisa los Enfriamientos">
+    Algunas recompensas de alto nivel tienen enfriamientos internos. Si recibiste recientemente un drop raro de un áfido, la probabilidad de obtener otro inmediatamente después se reduce ligeramente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia Pro de Recompensas">
+Intenta siempre derrotar a los áfidos en campos donde tengas un nivel alto de progreso en la "Insignia de Campo" (Field Badge), ya que esto influye sutilmente en la cantidad de drops básicos como Miel (Honey) y Golosinas (Treats).
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Farmear Áfidos de Manera Efectiva">
+
+Farmear **áfidos de Bee Swarm Simulator** requiere una mezcla de paciencia y gestión de campos. Dado que aparecen de las hojas, cuanto más polen recolectes, mayores serán tus posibilidades. Sin embargo, existe una mecánica oculta: el bono de "Ausencia del Campo" (Field Absence).
+
+| Estrategia | Método | Pros | Contras |
+| :--- | :--- | :--- | :--- |
+| **Salto de Campos (Field Hopping)** | Muévete entre campos cada 5 minutos | Mayores activaciones de aparición | Interrumpe la acumulación de néctar |
+| **Molienda de Hojas (Leaf Grinding)** | Quédate en un campo con alta prisa (haste) | Intentos constantes de aparición | Menor bono de "Ausencia" |
+| **Salto de Servidores (Server Hopping)** | Revisa campos de alto nivel en nuevos servidores | Encuentra apariciones existentes | Tiempos de carga elevados |
+
+La forma más efectiva de forzar una aparición es evitar un campo durante al menos 15-20 minutos. Cuando finalmente entres y comiences a recolectar, el juego calculará una mayor probabilidad de que aparezca un áfido en los primeros conjuntos de hojas que agites.
+
+<CardGrid cols={3}>
+  <Card title="Girasol / Diente de León">
+    - **Nivel Bajo**: Fácil de matar.
+    - **Botín Deficiente**: Mayormente golosinas básicas.
+    - **Apariciones Rápidas**: Alta densidad de hojas.
+  </Card>
+  <Card title="Cima de la Montaña (Mountain Top)">
+    - **Nivel Medio**: Dificultad equilibrada.
+    - **Mejor Botín**: Posibilidad de Huevos de Plata (Silver Eggs).
+    - **Alto Tráfico**: Mucha ayuda de otros jugadores.
+  </Card>
+  <Card title="Coco / Pimienta (Coconut/Pepper)">
+    - **Nivel Alto**: Extremadamente difícil.
+    - **Botín de Élite**: Huevos de Diamante y Batidos.
+    - **Riesgo en Solitario**: Difícil de matar en 30s sin ayuda.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="La Estrategia AFK">
+Si estás farmeando AFK, los áfidos pueden ser una molestia, ya que podrían matarte si tus abejas no están configuradas en modo agresivo. Asegúrate de tener una Abeja Cachorro (Puppy Bee) o Abeja Festiva (Festive Bee) de alto nivel para mantener tu salud mientras farmeas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación para el Combate y Maestría">
+
+Derrotar a un Áfido Acorazado o de Diamante de alto nivel en menos de 30 segundos es una prueba de equipamiento para muchos jugadores. Si tus abejas están fallando sus ataques, es probable que tengas un nivel inferior al requerido para el áfido de ese campo específico.
+
+**Preparación Esencial para el Combate:**
+<Checklist
+  id="aphid-combat-prep"
+  title="Preparación Esencial para el Combate:"
+  items={[
+    "Abeja Viciosa nivel 12 o superior para campos de nivel medio",
+    "Aguijones (Stingers) equipados en la barra de acceso rápido para daño de emergencia",
+    "Acumulaciones de Foco (Focus) (10x) mantenidas a través de Abejas Músico (Music Bees)",
+    "Acumulaciones de Prisa (Haste) (10x) para mantener el ritmo de los Áfidos de Furia",
+    "Efecto de Amor de Bebé activo durante los últimos 5 segundos de la pelea"
+  ]}
+/>
+
+Cuando el áfido aparece, seguirá al jugador más cercano. Si tienes dificultades para infligir daño, guía al áfido hacia el centro de tu enjambre de abejas. Las abejas tienden a agruparse donde se encuentra el jugador, por lo que "rodear" al áfido en círculos lo mantiene dentro de la zona de ataque de tus atacantes más poderosos.
+
+| Estadística de Combate | Importancia | Nivel Recomendado |
+| :--- | :--- | :--- |
+| **Ataque de Abeja** | Crítico | Promedio de 10+ |
+| **Precisión de Abeja** | Alto | Coincide con el Nivel del Campo |
+| **Velocidad del Jugador** | Medio | 25+ con Botas |
+| **Cantidad de Aguijones** | Táctico | Mantén más de 50 en el inventario |
+
+<Callout type="info" title="Uso de Aguijones">
+Usa Aguijones únicamente con los Áfidos de Diamante. El costo de un Aguijón generalmente no vale la pena por la recompensa de un Áfido Normal o de Furia, a menos que estés desesperado por conseguir Puntos de Batalla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+Masterizar las mecánicas de los áfidos de Bee Swarm Simulator a menudo genera preguntas comunes sobre su comportamiento y botín.
+
+<FAQ items={[
+  {
+    question: "¿Los áfidos aparecen en el Desafío de la Hormiga (Ant Challenge) o en el Desafío del Bicho Palo (Stick Bug Challenge)?",
+    answer: "No, los áfidos solo aparecen en los campos públicos principales al agitar hojas. No aparecen en zonas especializadas de minijuegos como el Desafío de la Hormiga."
+  },
+  {
+    question: "¿Puedo aumentar específicamente la tasa de aparición de los Áfidos de Diamante?",
+    answer: "No hay una forma directa de apuntar a los Áfidos de Diamante. Sin embargo, farmear en campos de mayor nivel (zonas de más de 30 abejas) generalmente tiene una mayor probabilidad de generar variantes raras de áfidos en comparación con los campos iniciales."
+  },
+  {
+    question: "¿Qué pasa si hay dos jugadores en el campo cuando aparece un áfido?",
+    answer: "El áfido fijará como objetivo al jugador más cercano. Las recompensas de botín son objetos físicos en el suelo; aunque el juego intenta instanciar parte del botín, muchos objetos se los lleva el primero que los recoja."
+  },
+  {
+    question: "¿Los áfidos se ven afectado por el clima, como la lluvia o la nieve?",
+    answer: "Los efectos climáticos no cambian directamente las tasas de aparición de los áfidos, pero las Nubes de Lluvia hacen que las hojas aparezcan más rápido, lo que aumenta indirectamente las oportunidades de que se active un áfido."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Experto Final">
+Mantente atento al chat. A menudo, los jugadores anunciarán '¡Áfido de Diamante en Coco!' en el chat del servidor. Dado que son mobs públicos, puedes viajar rápidamente allí para ayudar y llevarte una parte del botín de alto nivel.
+</Callout>
+
+</Section>

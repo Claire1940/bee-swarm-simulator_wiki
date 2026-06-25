@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Dapper Bear: Hướng dẫn về Bình trồng cây & Mật hoa 2026",
+  description: "Chinh phục các nhiệm vụ của Gấu Dapper và hệ thống Mật hoa trong Bee Swarm Simulator. Tìm hiểu chiến thuật bình trồng cây, bùa lợi mật hoa và các mốc phần thưởng cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Dapper+Bear+Guide",
+  date: "2026-06-25",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Gấu Dapper (Dapper Bear)** nằm ở Khu vực 15 Con Ong (15-Bee Zone), ngay cạnh Cánh đồng Gốc cây (Stump Field).
+- **Bình trồng cây (Planters)** là cơ chế chính được giới thiệu bởi NPC này, cho phép người chơi thu hoạch tài nguyên một cách thụ động.
+- **Mật hoa (Nectars)** cung cấp các bùa lợi cộng dồn cực mạnh, rất cần thiết cho các đợt cày mật ong cấp cao.
+- **Nhiệm vụ** từ Gấu Dapper sẽ thưởng các bình trồng cây độc đáo và các nâng cấp tổ ong vĩnh viễn.
+- **Chiến thuật**: Luôn giữ cho các bình trồng cây phát triển để duy trì bùa lợi Mật hoa 24/7 nhằm đạt hiệu quả tối đa.
+</Callout>
+
+<Section icon={Map} title="Vị trí của Gấu Dapper và Yêu cầu ban đầu">
+
+Gấu Dapper là một NPC lịch lãm trong Bee Swarm Simulator, chuyên nghiên cứu về thực vật học và nuôi trồng mật hoa. Không giống như các chú gấu ở giai đoạn đầu game, Gấu Dapper yêu cầu một mức độ tiến trình nhất định trước khi bạn có thể tương tác với cửa hàng hoặc chuỗi nhiệm vụ của ông ấy. Bạn sẽ tìm thấy ông ấy ẩn mình trong một cửa hàng thời thượng nằm ở Khu vực 15 Con Ong, cụ thể là vị trí giữa Cánh đồng Gốc cây (Stump Field) và Vườn Dứa (Pineapple Patch).
+
+Để bắt đầu hành trình với Gấu Dapper, bạn phải mở khóa Cổng 15 Con Ong. Cửa hàng của ông ấy không chỉ là nơi nhận nhiệm vụ; đó còn là trung tâm chính để mua các bình trồng cây cấp cao mà không thể tìm thấy ở bất kỳ nơi nào khác trong trò chơi.
+
+| Yêu cầu | Chi tiết |
+| :--- | :--- |
+| **Số lượng Ong** | Tối thiểu 15 con Ong để vào khu vực |
+| **Vị trí** | Khu vực 15 Con Ong (Cạnh Cánh đồng Gốc cây) |
+| **Trọng tâm chính** | Bình trồng cây, Mật hoa và Thực vật học |
+| **Tiền tệ chính** | Mật ong, Vé (Tickets) và các Nguyên liệu chế tạo cụ thể |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Trước khi đến gặp Gấu Dapper, hãy đảm bảo bạn đã tiết kiệm được ít nhất 500,000 Mật ong. Các bình trồng cây nhập môn của ông ấy có giá cả phải chăng, nhưng lợi ích chúng mang lại cho tiến trình đầu game là vô song.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cơ chế Bình trồng cây: Phát triển và Thu hoạch">
+
+Bình trồng cây là những công cụ chuyên dụng mà bạn đặt trên các cánh đồng để thu thập phấn hoa theo thời gian. Khác với các dụng cụ xúc hoặc gậy do người chơi điều khiển, bình trồng cây phát triển dựa trên lượng phấn hoa được thu thập trên cánh đồng đó bởi bất kỳ người chơi nào, cũng như thời gian trôi qua trong thế giới thực. Mỗi bình trồng cây đều có một "Cánh đồng ưa thích" (Preferred Field), nơi nó phát triển nhanh hơn đáng kể và mang lại phần thưởng tốt hơn.
+
+Hiểu rõ các chỉ số của từng bình trồng cây là điều cốt lõi để tối ưu hóa lượng tài nguyên thu được. Trong meta năm 2026, lối chơi xoay quanh việc luân chuyển các bình trồng cây để đảm bảo bạn không bao giờ bị thiếu bùa lợi mật hoa.
+
+| Tên bình trồng cây | Giá cả | Hệ số tăng trưởng | Phần thưởng tốt nhất |
+| :--- | :--- | :--- | :--- |
+| **Paper Planter** (Bình giấy) | 100,000 Mật ong | 1.0x | Trứng thường (Basic Eggs), Thức ăn (Treats) |
+| **Ticket Planter** (Bình vé) | 15 Vé | 1.2x | Vé, Sữa ong chúa (Royal Jellies) |
+| **Plastic Planter** (Bình nhựa) | 1,000,000 Mật ong | 1.1x | Kẹo dẻo (Gumdrops), Bùa mặt trăng (Moon Charms) |
+| **Candy Planter** (Bình kẹo) | 25,000,000 Mật ong | 1.3x | Thức ăn, Kim ngân hoa (Honeysuckles) |
+| **Red/Blue Planter** (Bình Đỏ/Xanh) | 150,000,000 Mật ong | 1.5x (Cánh đồng màu) | Chiết xuất Đỏ/Xanh (Red/Blue Extracts) |
+| **Hydroponic** (Bình thủy canh) | 500 Chiết xuất Xanh | 2.0x (Cánh đồng Xanh) | Siêu sữa ong chúa (Super Jellies), Vật phẩm màu Xanh |
+
+<Callout type="info" title="Cơ chế tăng trưởng">
+Các bình trồng cây vẫn phát triển ngay cả khi bạn ngoại tuyến, nhưng với tốc độ giảm đi. Để tối đa hóa tốc độ, hãy hoạt động tích cực trên cánh đồng nơi đặt bình trồng cây của bạn. Chỉ số "Phấn hoa mỗi lần tăng trưởng" (Pollen per Growth) quyết định lượng công việc mà ong của bạn cần thực hiện để hoàn thành chu kỳ.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Trọng tâm đầu game">
+    Ưu tiên **Paper Planter** và **Plastic Planter**. Chúng rẻ và cung cấp lượng Mật hoa cần thiết để thúc đẩy sản lượng mật ong ban đầu của bạn.
+  </Card>
+  <Card title="Trọng tâm giữa game">
+    Đầu tư vào **Red Planter** và **Blue Planter**. Chúng rất cần thiết để chế tạo bảo hộ Cobalt và Crimson (Cobalt & Crimson guards) và tăng sức mạnh cho các lối chơi chuyên biệt theo màu sắc.
+  </Card>
+  <Card title="Trọng tâm cuối game">
+    Mục tiêu là các biến thể **Petal Planter** (Bình cánh hoa) và **Hydroponic/Heat-Treated** (Bình thủy canh/Bình xử lý nhiệt). Chúng cung cấp lượng mật hoa khổng lồ và các nguyên liệu chế tạo quý hiếm.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Làm chủ hệ thống Mật hoa">
+
+Khi bạn thu hoạch một bình trồng cây đã phát triển hoàn toàn, bạn sẽ nhận được Mật hoa. Có năm loại Mật hoa riêng biệt, mỗi loại mang lại một bộ bùa lợi độc đáo có thể cộng dồn thời gian lên đến 24 giờ. Trong meta năm 2026, việc duy trì mật hoa "Satisfying" (Thỏa mãn) và "Invigorating" (Sảng khoái) được coi là bắt buộc đối với bất kỳ đợt cày mật ong nghiêm túc nào.
+
+Mật hoa được lưu trữ trong Lọ Mật hoa (Nectar Vial) của bạn (có thể xem trong kho đồ). Mỗi lần thu hoạch sẽ cộng thêm một lượng thời gian cụ thể vào tổng thời hạn của loại Mật hoa đó.
+
+| Loại mật hoa | Bùa lợi chính | Bùa lợi phụ | Cánh đồng tốt nhất để thu thập |
+| :--- | :--- | :--- | :--- |
+| **Refreshing** (Tươi mát) | +10% Phấn hoa Xanh | +5% Tốc độ di chuyển | Hoa Xanh (Blue Flower), Dâu tây (Strawberry) |
+| **Satisfying** (Thỏa mãn) | +10% Phấn hoa Trắng | +5% Mật ong mỗi phấn hoa | Bí ngô (Pumpkin), Dứa (Pineapple) |
+| **Comforting** (Dễ chịu) | +10% Phấn hoa Đỏ | +5% Tỷ lệ kích hoạt kỹ năng Ong | Cỏ ba lá (Clover), Nấm (Mushroom) |
+| **Invigorating** (Sảng khoái) | +10% Tất cả phấn hoa | +5% Tỷ lệ chí mạng | Đỉnh núi (Mountain Top), Xương rồng (Cactus) |
+| **Motivating** (Động lực) | +10% Ong thu hoạch | +5% Tốc độ di chuyển người chơi | Nhện (Spider), Tre (Bamboo) |
+
+<Callout type="success" title="Cộng dồn Mật hoa">
+Bạn có thể kích hoạt cả năm loại Mật hoa cùng một lúc. Để đạt hiệu quả tối đa, hãy sử dụng các bình trồng cây khác nhau trên các cánh đồng khác nhau cùng một lúc. Ví dụ: đặt Candy Planter ở Vườn Dứa để lấy mật hoa Satisfying, đồng thời đặt Blue Planter ở Rừng Tre để lấy mật hoa Refreshing.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tiến trình Nhiệm vụ của Gấu Dapper">
+
+Gấu Dapper cung cấp một chuỗi nhiệm vụ dài tập trung vào khía cạnh "Thực vật học" của trò chơi. Các nhiệm vụ này thường yêu cầu bạn thu hoạch một lượng Mật hoa cụ thể, đặt bình trồng cây ở một số cánh đồng nhất định và thu thập các mã thông báo (tokens) từ việc thu hoạch bình trồng cây. Hoàn thành các nhiệm vụ này là cách duy nhất để mở khóa các nâng cấp vĩnh viễn như bình đun nước **Samovar** và các bản thiết kế bình trồng cây tiên tiến.
+
+<Steps>
+  <Step num="1" title="Cơ bản về Thực vật học">
+    Các nhiệm vụ ban đầu yêu cầu bạn thu hoạch Paper Planter và Plastic Planter. Hãy tập trung vào cánh đồng Nấm và Hoa Xanh để nhanh chóng đáp ứng các yêu cầu Mật hoa ban đầu.
+  </Step>
+  <Step num="2" title="Chuyên gia Bình trồng cây">
+    Các nhiệm vụ cấp trung sẽ yêu cầu các loại Mật hoa cụ thể, chẳng hạn như 5 giờ mật hoa "Invigorating". Hãy sử dụng cánh đồng Đỉnh núi cho việc này, vì nó có sản lượng cao nhất cho loại mật hoa đó.
+  </Step>
+  <Step num="3" title="Canh tác nâng cao">
+    Các nhiệm vụ cuối game yêu cầu thu hoạch từ Red Planter và Blue Planter nhiều lần. Bạn sẽ cần quản lý thời gian hồi chiêu của bình trồng cây một cách hiệu quả để hoàn thành chúng trong khung thời gian hợp lý.
+  </Step>
+  <Step num="4" title="Đại thu hoạch">
+    Các nhiệm vụ cuối cùng sẽ thưởng những bình trồng cây mạnh mẽ nhất trong trò chơi. Chúng đòi hỏi lượng thu thập phấn hoa khổng lồ và các mức cộng dồn Mật hoa quý hiếm.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hiệu quả làm Nhiệm vụ">
+Đừng thu hoạch bình trồng cây ngay khi chúng đạt 100% nếu bạn hiện đang thực hiện nhiệm vụ yêu cầu "Phấn hoa từ Bình trồng cây". Hãy đợi cho đến khi nhiệm vụ được kích hoạt để mọi lượt thu hoạch đều được tính vào tiến trình của bạn.
+</Callout>
+
+| Tên nhiệm vụ | Mục tiêu chính | Phần thưởng lớn |
+| :--- | :--- | :--- |
+| **Dapper Bear's First Quest** | Thu hoạch 1 Bình trồng cây | 500,000 Mật ong, 1 Ong kẹo dẻo (Marshmallow Bee) |
+| **Nectar Collector** | Thu thập 3 giờ Mật hoa | Bản thiết kế Ticket Planter |
+| **Botanist's Burden** | Thu hoạch 5 Bình trồng cây ở Cánh đồng Đỏ | 5 Chiết xuất Đỏ, 10 Men tiêu hóa (Enzymes) |
+| **The Samovar Secret** | Thu hoạch 10 Bình trồng cây ở 10 Cánh đồng | Mở khóa Samovar (Vật phẩm căn cứ vĩnh viễn) |
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật nâng cao cho năm 2026">
+
+Để thực sự xuất sắc với các cơ chế của Gấu Dapper, bạn phải vận hành các bình trồng cây của mình liên tục 24/7. Trong bối cảnh trò chơi năm 2026 hiện tại, những người chơi bỏ qua bình trồng cây sẽ mất khoảng 40% lượng mật ong tiềm năng mỗi giờ (HPH) do thiếu các hệ số nhân từ mật hoa.
+
+<Checklist
+  id="dapper-bear-daily"
+  title="Danh sách kiểm tra Thực vật học hàng ngày:"
+  items={[
+    "Kiểm tra tỷ lệ phần trăm tăng trưởng của cả 3 bình trồng cây đang hoạt động",
+    "Nhận phần thưởng hàng ngày từ Samovar (nếu đã mở khóa)",
+    "Luân chuyển các bình trồng cây đến các cánh đồng thiếu loại Mật hoa tương ứng",
+    "Kiểm tra cửa hàng của Gấu Dapper để tìm các nguyên liệu chế tạo được giảm giá",
+    "Ensure Nectar durations are above 10 hours before a boost"
+  ]}
+/>
+
+### Sự tương thích Cánh đồng và Phần thưởng Bình trồng cây
+Mỗi cánh đồng có một sự tương thích ẩn với một số bình trồng cây nhất định. Đặt bình trồng cây ở "Cánh đồng nhà" của nó (ví dụ: Cánh đồng Xương rồng đối với Cactus Planter) sẽ mang lại hệ số tốc độ tăng trưởng gấp 1.5 lần và tỷ lệ rơi ra các vật phẩm quý hiếm như Quả neon (Neonberries) hoặc Thức ăn nguyên tử (Atomic Treats) cao hơn đáng kể.
+
+| Nhóm cánh đồng | Sản lượng Mật hoa tốt nhất | Bình trồng cây khuyên dùng |
+| :--- | :--- | :--- |
+| **Cánh đồng Trắng** | Satisfying | Candy Planter |
+| **Cánh đồng Đỏ** | Comforting | Red Planter |
+| **Cánh đồng Xanh** | Refreshing | Blue Planter |
+| **Cánh đồng Hỗn hợp** | Invigorating / Motivating | Plastic / Ticket Planter |
+
+<Callout type="info" title="Bình Samovar">
+Samovar là một vật thể cố định vĩnh viễn mà bạn có thể mở khóa gần Gấu Dapper. Nó cung cấp bùa lợi "Trà" (Tea) miễn phí sau mỗi vài giờ, giúp tăng tốc độ thu thập Mật hoa và Năng lượng Ong tạm thời. Nó rất cần thiết cho các phiên cày cuốc kéo dài.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Gấu Dapper có tặng Trứng Thần thoại (Mythic Egg) không?",
+    answer: "Mặc dù chuỗi nhiệm vụ chính của Gấu Dapper không trực tiếp thưởng Trứng Thần thoại, nhưng các bình trồng cây cấp cao mà ông ấy mở khóa (như Petal Planter) có cơ hội ngẫu nhiên rơi ra Trứng Thần thoại khi thu hoạch ở một số cánh đồng cụ thể."
+  },
+  {
+    question: "Tôi có thể sử dụng nhiều bình trồng cây trên cùng một cánh đồng không?",
+    answer: "Không, chỉ có thể đặt một bình trồng cây trên một cánh đồng tại một thời điểm. Tuy nhiên, bạn có thể kích hoạt nhiều bình trồng cây trên các cánh đồng khác nhau cùng một lúc."
+  },
+  {
+    question: "Cách nhanh nhất để làm bình trồng cây phát triển là gì?",
+    answer: "Cách nhanh nhất là đứng trên cánh đồng cùng với đàn ong của bạn và tích cực khai thác phấn hoa. Tốc độ tăng trưởng gắn liền với lượng phấn hoa thu thập được trên cánh đồng đó, vì vậy việc sử dụng Kim tuyến (Glitter) hoặc Bộ tăng cường cánh đồng (Field Booster) sẽ đẩy nhanh quá trình này một cách đáng kể."
+  },
+  {
+    question: "Làm thế nào để lấy được Bình thủy canh (Hydroponic Planter) từ Gấu Dapper?",
+    answer: "Hydroponic Planter là một vật phẩm ở giai đoạn cuối game có sẵn trong cửa hàng của Gấu Dapper. Nó yêu cầu 500 Chiết xuất Xanh, 100 Nước trái cây nhiệt đới (Tropical Drinks) và 5 tỷ Mật ong để mua."
+  }
+]} />
+
+</Section>

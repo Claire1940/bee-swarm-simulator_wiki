@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dapper Bear no Bee Swarm Simulator: Guia de Plantadores e Néctar 2026",
+  description: "Domine as missões do Dapper Bear e o sistema de Néctar no Bee Swarm Simulator. Aprenda estratégias de plantadores, buffs de néctar e níveis de recompensa para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Dapper+Bear+Guide",
+  date: "2026-06-25",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, dapper bear, plantadores, néctar, guia, roblox"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dapper Bear** está localizado na Zona de 15 Abelhas, situado logo ao lado do Campo do Toco (Stump Field).
+- **Plantadores** são a mecânica principal introduzida por este NPC, permitindo que os jogadores coletem recursos de forma passiva.
+- **Néctares** fornecem buffs massivos acumuláveis que são essenciais para sessões de fabricação de mel de alto nível.
+- **Missões** do Dapper Bear recompensam com plantadores exclusivos e melhorias permanentes para a colmeia.
+- **Estratégia**: Sempre mantenha os plantadores crescendo para garantir 24 horas de Néctar ativo para máxima eficiência.
+</Callout>
+
+<Section icon={Map} title="Localizando o Dapper Bear e Requisitos Iniciais">
+
+O Dapper Bear é um NPC sofisticado no Bee Swarm Simulator especializado no estudo da botânica e no cultivo de néctares. Ao contrário dos ursos do início do jogo, o Dapper Bear exige um nível básico de progressão antes que você possa interagir com sua loja ou linha de missões. Você o encontrará em uma loja estilosa localizada na Zona de 15 Abelhas, especificamente posicionado entre o Campo do Toco e a Plantação de Abacaxi.
+
+Para começar sua jornada com o Dapper Bear, você deve ter desbloqueado o Portão de 15 Abelhas. Sua loja não é apenas um lugar para missões; é o hub central para a compra de plantadores de alto nível que não podem ser encontrados em nenhum outro lugar do jogo.
+
+| Requisito | Detalhe |
+| :--- | :--- |
+| **Contagem de Abelhas** | Mínimo de 15 Abelhas para entrar na zona |
+| **Localização** | Zona de 15 Abelhas (Ao lado do Campo do Toco) |
+| **Foco Principal** | Plantadores, Néctares e Botânica |
+| **Moedas Chave** | Mel, Bilhetes e Ingredientes de Fabricação específicos |
+
+<Callout type="tip" title="Dica Profissional">
+Antes de visitar o Dapper Bear, certifique-se de ter pelo menos 500.000 de Mel economizados. Seus plantadores introdutórios são acessíveis, mas a utilidade que proporcionam para a progressão inicial é inigualável.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="A Mecânica do Plantador: Crescimento e Colheita">
+
+Plantadores são ferramentas especializadas que você coloca nos campos para coletar pólen ao longo do tempo. Diferente dos seus coletores ou varinhas controlados pelo jogador, os plantadores crescem com base na quantidade de pólen coletado naquele campo por qualquer jogador, bem como na passagem do tempo no mundo real. Cada plantador possui um "Campo Preferido", onde cresce significativamente mais rápido e rende melhores recompensas.
+
+Entender as estatísticas de cada plantador é crucial para otimizar seu ganho de recursos. Em 2026, a meta gira em torno de ciclar os plantadores para garantir que você nunca fique sem um buff de néctar.
+
+| Nome do Plantador | Custo | Multiplicador de Crescimento | Melhores Recompensas |
+| :--- | :--- | :--- | :--- |
+| **Plantador de Papel** | 100.000 Mel | 1.0x | Ovos Básicos, guloseimas |
+| **Plantador de Bilhete** | 15 Bilhetes | 1.2x | Bilhetes, Geleias Reais |
+| **Plantador de Plástico** | 1.000.000 Mel | 1.1x | Balas de Goma, Amuletos da Lua |
+| **Plantador de Doces** | 25.000.000 Mel | 1.3x | Guloseimas, Madressilvas |
+| **Plantador Vermelho/Azul** | 150.000.000 Mel | 1.5x (Campos Coloridos) | Extratos Vermelhos/Azuis |
+| **Plantador Hidropônico** | 500 Extratos Azuis | 2.0x (Campos Azuis) | Super Geleias, Itens Azuis |
+
+<Callout type="info" title="Mecânicas de Crescimento">
+Os plantadores crescem mesmo quando você está offline, mas em uma taxa reduzida. Para maximizar a velocidade, permaneça ativo no campo onde seu plantador foi colocado. A estatística "Pólen por Crescimento" determina quanto trabalho suas abelhas precisam fazer para terminar o ciclo.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Foco no Início do Jogo">
+    Priorize os **Plantadores de Papel e Plástico**. Eles são baratos e fornecem o Néctar necessário para impulsionar sua produção inicial de mel.
+  </Card>
+  <Card title="Foco no Meio do Jogo">
+    Invista nos **Plantadores Vermelho e Azul**. Estes são essenciais para fabricar as guardas de Cobalto e Carmesim e impulsionar builds de cores específicas.
+  </Card>
+  <Card title="Foco no Final do Jogo">
+    O **Plantador de Pétalas** e as variantes **Hidropônico/Tratado Termicamente** são o objetivo. Eles fornecem quantidades massivas de néctar e materiais de fabricação raros.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Dominando o Sistema de Néctar">
+
+Quando você colhe um plantador totalmente crescido, você recebe Néctar. Existem cinco tipos distintos de Néctar, cada um oferecendo um conjunto único de buffs que podem se acumular por até 24 horas de duração. Na meta de 2026, manter os néctares "Satisfatório" e "Vigorante" é considerado obrigatório para qualquer sessão séria de coleta de mel.
+
+Os néctares são armazenados no seu Frasco de Néctar (visível no inventário). Cada colheita adiciona uma quantidade específica de tempo à duração total daquele Néctar.
+
+| Tipo de Néctar | Buff Primário | Buff Secundário | Melhor Campo para Obter |
+| :--- | :--- | :--- | :--- |
+| **Refrescante** | +10% Pólen Azul | +5% Velocidade de Movimento | Flor Azul, Morango |
+| **Satisfatório** | +10% Pólen Branco | +5% Mel Por Pólen | Abóbora, Abacaxi |
+| **Confortante** | +10% Pólen Vermelho | +5% Taxa de Habilidade de Abelha | Trevo, Cogumelo |
+| **Vigorante** | +10% Todo o Pólen | +5% Chance Crítica | Topo da Montanha, Cacto |
+| **Motivador** | +10% Coleta de Abelha | +5% Velocidade do Jogador | Aranha, Bambu |
+
+<Callout type="success" title="Acúmulo de Néctar">
+Você pode ter todos os cinco Néctares ativos ao mesmo tempo. Para máxima eficiência, use diferentes plantadores em diferentes campos simultaneamente. Por exemplo, coloque um Plantador de Doces na Plantação de Abacaxi para Néctar Satisfatório enquanto coloca um Plantador Azul na Floresta de Bambu para Néctar Refrescante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão de Missões do Dapper Bear">
+
+O Dapper Bear oferece uma longa linha de missões focada no aspecto de "Botânica" do jogo. Essas missões geralmente exigem que você colha quantidades específicas de Néctar, coloque plantadores em determinados campos e colete tokens de colheitas de plantadores. Completar essas missões é a única maneira de desbloquear melhorias permanentes como o **Samovar** e projetos de plantadores avançados.
+
+<Steps>
+  <Step num="1" title="O Básico da Botânica">
+    As missões iniciais exigem que você colha plantadores de Papel e Plástico. Foque nos campos de Cogumelo e Flor Azul para satisfazer os requisitos iniciais de Néctar rapidamente.
+  </Step>
+  <Step num="2" title="Profissional de Plantadores">
+    Missões de nível médio pedirão tipos específicos de Néctar, como 5 horas de "Néctar Vigorante". Use o campo do Topo da Montanha para isso, pois ele tem o maior rendimento para esse tipo específico.
+  </Step>
+  <Step num="3" title="Cultivo Avançado">
+    Missões de fim de jogo envolvem colher dos plantadores Vermelho e Azul várias vezes. Você precisará gerenciar os tempos de recarga dos seus plantadores de forma eficaz para terminá-las em um prazo razoável.
+  </Step>
+  <Step num="4" title="A Grande Colheita">
+    As missões finais recompensam com os plantadores mais poderosos do jogo. Estas exigem quantidades massivas de coleta de pólen e acúmulos raros de Néctar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Eficiência de Missão">
+Não colha seus plantadores assim que eles atingirem 100% se você estiver em uma missão que exige "Pólen de Plantadores". Espere até que a missão esteja ativa para que cada colheita conte para sua progressão.
+</Callout>
+
+| Nome da Missão | Objetivo Principal | Recompensa Principal |
+| :--- | :--- | :--- |
+| **Primeira Missão do Dapper Bear** | Colher 1 Plantador | 500.000 Mel, 1 Abelha Marshmallow |
+| **Coletor de Néctar** | Coletar 3 Horas de Néctar | Projeto do Plantador de Bilhete |
+| **O Fardo do Botânico** | Colher 5 Plantadores em Campos Vermelhos | 5 Extratos Vermelhos, 10 Enzimas |
+| **O Segredo do Samovar** | Colher 10 Plantadores em 10 Campos | Desbloqueio do Samovar (Item Base Permanente) |
+
+</Section>
+
+<Section icon={Swords} title="Estratégias Avançadas para 2026">
+
+Para realmente se destacar com as mecânicas do Dapper Bear, você deve tratar seus plantadores como uma operação 24 horas por dia, 7 dias por semana. No estado atual do jogo em 2026, os jogadores que ignoram os plantadores perdem aproximadamente 40% do seu potencial de mel por hora (HPH) devido à falta de multiplicadores de néctar.
+
+<Checklist
+  id="dapper-bear-daily"
+  title="Lista de Verificação Diária de Botânica:"
+  items={[
+    "Verifique as porcentagens de crescimento de todos os 3 plantadores ativos",
+    "Colete a recompensa diária do Samovar (se desbloqueado)",
+    "Alterne os plantadores para campos com tipos de Néctar ausentes",
+    "Confira a loja do Dapper Bear para materiais de fabricação com desconto",
+    "Garanta que as durações do Néctar estejam acima de 10 horas antes de um boost"
+  ]}
+/>
+
+### Afinidade de Campo e Bônus de Plantador
+Cada campo tem uma afinidade oculta para certos plantadores. Colocar um plantador em seu "Campo de Origem" (ex: Cacto para o Plantador de Cacto) fornece um bônus de 1.5x na velocidade de crescimento e uma chance significativamente maior de dropar itens raros como Neonberries ou Atomic Treats.
+
+| Categoria do Campo | Melhor Rendimento de Néctar | Plantador Recomendado |
+| :--- | :--- | :--- |
+| **Campos Brancos** | Satisfatório | Plantador de Doces |
+| **Campos Vermelhos** | Confortante | Plantador Vermelho |
+| **Campos Azuis** | Refrescante | Plantador Azul |
+| **Campos Mistos** | Vigorante / Motivador | Plantador de Plástico / Bilhete |
+
+<Callout type="info" title="O Samovar">
+O Samovar é uma instalação permanente que você pode desbloquear perto do Dapper Bear. Ele fornece um buff de "Chá" gratuito a cada poucas horas, que concede um impulso temporário à coleta de Néctar e à Energia das Abelhas. É essencial para longas sessões de grinding.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Dapper Bear dá um Ovo Mítico?",
+    answer: "Embora a linha de missões principal do Dapper Bear não recompense diretamente com um Ovo Mítico, os plantadores de alto nível que ele desbloqueia (como o Plantador de Pétalas) têm uma chance aleatória de dropar Ovos Míticos ao serem colhidos em campos específicos."
+  },
+  {
+    question: "Posso usar vários plantadores no mesmo campo?",
+    answer: "Não, apenas um plantador pode ser colocado em um único campo por vez. No entanto, você pode ter vários plantadores ativos em diferentes campos simultaneamente."
+  },
+  {
+    question: "Qual é a maneira mais rápida de fazer um plantador crescer?",
+    answer: "A maneira mais rápida é ficar no campo com suas abelhas e coletar pólen ativamente. A taxa de crescimento está ligada ao pólen coletado naquele campo, então usar um Brilho (Glitter) ou Impulsionador de Campo acelerará significativamente o processo."
+  },
+  {
+    question: "Como obtenho o Plantador Hidropônico do Dapper Bear?",
+    answer: "O Plantador Hidropônico é um item de fim de jogo disponível na loja do Dapper Bear. Ele requer 500 Extratos Azuis, 100 Bebidas Tropicais e 5 bilhões de Mel para ser comprado."
+  }
+]} />
+
+</Section>

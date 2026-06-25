@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desafío de las Hormigas en Simulador de Enjambre de Abejas: Guía de Puntuación y Recompensas 2026",
+  description: "Domina el Desafío de las Hormigas en Simulador de Enjambre de Abejas con nuestra guía sobre mecánicas de oleadas, niveles de amuletos y estrategias de alta puntuación para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Ant+Challenge+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Simulador de Enjambre de Abejas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Desafío de las Hormigas de Simulador de Enjambre de Abejas** es una prueba de combate de 5 minutos a la que se accede a través de la Puerta de las Hormigas y requiere al menos 20 abejas.
+- Se requieren **Pases de Hormiga** para entrar; obtén uno gratis cada 2 horas desde el dispensador detrás de la puerta.
+- La **Conversión Instantánea** se establece al 100% durante el desafío, lo que significa que tu mochila nunca se llenará.
+- Las **puntuaciones más altas** se correlacionan directamente con mejores niveles de Amuleto de Hormiga, que van desde Bronce hasta Supremo.
+- La **Abeja Viciosa** es la unidad más crítica para el éxito debido a su habilidad de púas en área de efecto.
+</Callout>
+
+<Section icon={Map} title="Acceso a la Arena del Desafío de las Hormigas">
+
+El **desafío de las hormigas de simulador de enjambre de abejas** es una arena de combate especializada ubicada detrás de la Puerta de las Hormigas. Para siquiera considerar entrar en esta prueba, los jugadores deben reunir primero una colmena de al menos 20 abejas. Esta puerta sirve como un control de progresión, asegurando que tengas suficiente potencia de fuego para manejar las crecientes oleadas de insectos.
+
+Sin embargo, la entrada no es gratuita. Cada intento consume un Pase de Hormiga. Aunque estos pueden ser un cuello de botella para los jugadores nuevos, existen varias formas confiables de acumularlos antes de una sesión intensa de farmeo.
+
+| Fuente | Método | Frecuencia/Coste |
+| :--- | :--- | :--- |
+| **Dispensador Gratis** | Ubicado detrás de la Puerta de las Hormigas | Cada 2 horas |
+| **Tienda de Tickets** | Compra en el dispensador | 10 Tickets por pase |
+| **Oso Panda** | Completa misiones centradas en combate | Recompensa ocasional |
+| **Ficha Secreta** | Oculta detrás del área del desafío | Reclamación única |
+
+<Callout type="tip" title="Consejo Pro: El Pase Oculto">
+Hay una ficha de Pase de Hormiga secreta oculta en el pasillo detrás de la tabla de clasificación del Desafío de las Hormigas. Sigue el camino a la vuelta de la esquina para encontrarla; esta ruta también conduce al área de reclamación del Huevo de Abeja Gomosa.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Verifica tu cantidad de abejas">
+    Asegúrate de tener al menos 20 abejas en tu colmena para pasar a través de la Puerta de las Hormigas ubicada cerca del Oso Panda.
+  </Step>
+  <Step num="2" title="Reclama tu pase">
+    Interactúa con el Dispensador de Pases de Hormiga Gratis. Si estás en tiempo de recarga, puedes gastar 10 Tickets para evitar la espera.
+  </Step>
+  <Step num="3" title="Vacía tu mochila">
+    Aunque el desafío otorga un 100% de Conversión Instantánea, cualquier polen que tengas actualmente en tu mochila se convertirá en miel en el momento en que entres.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Jugabilidad Principal y Mecánicas de Oleadas">
+
+Una vez que ingresas a la arena, el objetivo es simple: derrotar a tantas hormigas como sea posible dentro de un límite de tiempo de 5 minutos. El desafío termina si el temporizador llega a cero, si sales del campo o si tu personaje muere. Una mecánica única del **desafío de las hormigas de simulador de enjambre de abejas** es el beneficio de +100% de Conversión Instantánea, que garantiza que pases tu tiempo luchando en lugar de corriendo de regreso a tu colmena para vaciar tu mochila.
+
+La dificultad escala a través de oleadas. Para progresar a la siguiente oleada, debes llenar el medidor de miel en el lateral del hormiguero recolectando polen.
+
+| Característica de la Oleada | Descripción | Detalle de Escalado |
+| :--- | :--- | :--- |
+| **Requisito de Polen** | Comienza en 4,000 de polen | Aumenta en más de 2,000 por oleada |
+| **Niveles de Hormigas** | Comienza en Nivel 1 y 2 | Los niveles aumentan cada pocas oleadas |
+| **Hormigas Gigantes** | Aparecen cada 5 oleadas | Aparecen 2 Gigantes en la Oleada 40 |
+| **Cortacéspedes** | Obstáculo que aparece desde la Oleada 8 | Inflige 50 de daño base |
+
+<Callout type="warning" title="Alerta de Obstáculo: Cortacéspedes">
+A partir de la Oleada 8, las puertas blancas de los lados parpadearán en rojo. Esto indica que un cortacésped está a punto de cruzar a toda velocidad por el carril. Estos se mueven más rápido y aparecen con más frecuencia a medida que alcanzas oleadas más altas.
+</Callout>
+
+La variedad de hormigas a las que te enfrentas cambiará a medida que progrese el desafío. Durante las primeras 15 rondas, te encontrarás principalmente con Hormigas Voladoras. Después de la Oleada 15, las Hormigas Guerreras se vuelven significativamente más comunes. Las Hormigas de Fuego son particularmente peligrosas, ya que dejan rastros de fuego que infligen daño con el tiempo.
+
+</Section>
+
+<Section icon={Swords} title="Selección Estratégica de Abejas y Beneficios">
+
+Para lograr una puntuación alta en el **desafío de las hormigas de simulador de enjambre de abejas**, la composición de tu colmena es vital. No solo estás recolectando polen; estás librando una guerra de desgaste. Las abejas con alto poder de ataque y habilidades de área de efecto (AoE) son las que mejor se desempeñan aquí.
+
+<CardGrid cols={3}>
+  <Card title="Abeja Viciosa">
+    La jugadora más valiosa absoluta (MVP). Su habilidad **Empalar** crea púas que golpean a múltiples hormigas a la vez, lo cual es esencial para limpiar oleadas densas.
+  </Card>
+  <Card title="Abeja de Furia">
+    Mantiene el beneficio de Furia para aumentar el poder de ataque general de tu colmena, permitiéndote matar hormigas antes de que te abrumen.
+  </Card>
+  <Card title="Abeja Bebé">
+    Proporciona el beneficio **Amor de Bebé**, que aumenta la suerte y ayuda a asegurar mejores botines al final del desafío.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Combate">
+Usa un **Planador** para flotar sobre los rastros de fuego y las hormigas. Esta movilidad te permite permanecer en el campo y recolectar polen mientras tus abejas se concentran en los enemigos sin que sufras daños innecesarios.
+</Callout>
+
+**Beneficios Esenciales para Puntuaciones Altas:**
+*   **Aguijones:** Úsalos para aumentar el ataque de tus abejas en un +50% durante 30 segundos.
+*   **Fichas de Furia:** Prioriza siempre recogerlas para mantener tu acumulación de ataque en x3.
+*   **Sierra de Estrella:** Si tienes un Amuleto de Estrella Supremo con esta pasiva, es increíblemente efectiva para triturar hormigas y recolectar polen simultáneamente.
+*   **Néctar Vigorizante:** Proporciona un impulso significativo al ataque de las abejas y a la velocidad de movimiento.
+
+</Section>
+
+<Section icon={Trophy} title="Niveles de Amuleto de Hormiga y Recompensas">
+
+La razón principal por la que los jugadores farmean el **desafío de las hormigas de simulador de enjambre de abejas** es por el Amuleto de Hormiga. Esta pieza de equipo ocupa una ranura única y proporciona varios beneficios a tu colmena, como un aumento de la velocidad de movimiento del jugador, mejoras de polen blanco/rojo/azul y poder crítico.
+
+| Puntos de Puntuación | Nivel de Amuleto | Calidad de la Recompensa |
+| :--- | :--- | :--- |
+| **0 - 24** | Amuleto de Hormiga de Bronce | Poca Miel, Golosinas Básicas |
+| **25 - 49** | Amuleto de Hormiga de Plata | Miel Media, Jaleas Reales |
+| **50 - 99** | Amuleto de Hormiga de Oro | Mucha Miel, Semillas, Extractos |
+| **100 - 149** | Amuleto de Hormiga de Diamante | Miel Masiva, Pegatinas Raras |
+| **150+** | Amuleto de Hormiga Supremo | Mejores Estadísticas, Posibles Cupones |
+
+<Callout type="info" title="Mecánicas de Recompensa">
+Cada hormiga derrotada otorga 1 punto. Después de que termina el desafío, puedes elegir conservar tu amuleto antiguo o reemplazarlo por el nuevo. Compara siempre las estadísticas específicas (como Probabilidad Crítica o Ataque de Abeja) en lugar de mirar solo el nivel.
+</Callout>
+
+Más allá de los amuletos, el desafío proporciona una variedad de objetos según tu puntuación. Estos pueden incluir Semillas de Girasol, Fresas, Arándanos, Piñas e incluso pegatinas raras como la **Pegatina de Hormiga Mirando a la Izquierda** o la **Pegatina de Sello del Campo de Hormigas**. En casos extremadamente raros, puede caer un cupón de velocidad de conversión x2, aunque la comunidad considera que esto es casi imposible.
+
+</Section>
+
+<Section icon={Shield} title="Tácticas Avanzadas de Supervivencia">
+
+La supervivencia es tan importante como el daño. Si mueres, el desafío termina inmediatamente, independientemente de cuánto tiempo quede en el reloj. A medida que los cortacéspedes y los rastros de fuego se multiplican, necesitas una estrategia defensiva.
+
+<Checklist
+  id="survival-checklist"
+  title="Preparación para la Supervivencia:"
+  items={[
+    "Equipa el Bote de Coco para obtener el Escudo de Coco de Emergencia",
+    "Preactiva beneficios como Amor de Bebé y Metamorfosis de Oso antes de entrar",
+    "Aleja la cámara al máximo para ver las advertencias de los cortacéspedes con anticipación",
+    "Usa Aspersores para regenerar flores y recolectar polen más rápido",
+    "Quédate cerca de los bordes del campo para atraer a las hormigas lejos del centro"
+  ]}
+/>
+
+<Callout type="warning" title="El Truco del Escudo de Coco">
+Mientras el **Escudo de Coco de Emergencia** esté activo, ser golpeado por un cortacésped en realidad te curará en lugar de infligirte 50 de daño. Intenta cronometrar la activación de tu escudo para que esté listo para los caóticos últimos 2 minutos del desafío.
+</Callout>
+
+Otra táctica útil involucra la pasiva **Sierra de Estrella**. Dado que escala con tu ataque, puede limpiar todo el campo de hormigas en segundos, permitiéndote concentrarte por completo en el medidor de miel durante unos momentos. Si tienes dificultades con el medidor de miel, recuerda que tus herramientas son la mejor manera de llenarlo, ya que tus abejas a menudo estarán distraídas atacando a las hormigas.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes del Desafío de las Hormigas">
+
+<FAQ items={[
+  {
+    question: "¿Cómo obtengo un Amuleto de Hormiga Supremo?",
+    answer: "Debes anotar al menos 150 puntos en una sola partida del Desafío de las Hormigas en Simulador de Enjambre de Abejas. Esto requiere abejas de alto nivel (Nivel 12+) y el uso constante de Aguijones y beneficios de Furia."
+  },
+  {
+    question: "¿Los cortacéspedes destruyen las flores del campo?",
+    answer: "No, a pesar de su apariencia y nombre, los cortacéspedes no afectan a las flores en el Campo de Hormigas. Solo infligen daño al personaje del jugador."
+  },
+  {
+    question: "¿Cuál es el número máximo de oleadas posible?",
+    answer: "Teóricamente, puedes alcanzar las 100 oleadas. Dado que cada oleada tarda unos 3 segundos en progresar y el límite es de 300 segundos (5 minutos), 100 es el límite matemático."
+  },
+  {
+    question: "¿Por qué mi mochila no se llena durante el desafío?",
+    answer: "Entrar a la arena otorga un beneficio de +100% de Conversión Instantánea. Esta es una mecánica integrada del Desafío de las Hormigas de Simulador de Enjambre de Abejas para garantizar que el enfoque permanezca en el combate y la velocidad de recolección de polen."
+  }
+]} />
+
+</Section>

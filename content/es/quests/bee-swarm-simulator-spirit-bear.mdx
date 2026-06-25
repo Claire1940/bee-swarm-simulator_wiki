@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Oso Espíritu de Bee Swarm Simulator: Orden de Misiones y Guía de Pétalos",
+  description: "Domina las misiones del Oso Espíritu en Bee Swarm Simulator. Aprende el orden óptimo de las misiones, la prioridad de gasto de pétalos y las estrategias de progresión para el juego tardío.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Spirit+Bear+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, oso espíritu, misiones, pétalo de espíritu, guía, petal wand, petal belt, windy bee"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Progresión de Misiones**: El PNJ **oso espíritu de bee swarm simulator** ofrece 30 desafiantes misiones para el juego tardío.
+- **Pétalos de Espíritu**: Gana tres Pétalos de Espíritu en los hitos de misión 10, 20 y 30.
+- **Prioridad de Gasto**: Desbloquea primero la Varita de Pétalos, seguida de la Abeja Ventosa y, finalmente, el Cinturón de Pétalos.
+- **Preparación**: Acumula ingredientes críticos de artesanía como Purpurina, Jaleas Estelares y Enzimas desde temprano.
+</Callout>
+
+<Section icon={Map} title="Entendiendo al PNJ Oso Espíritu">
+
+El **oso espíritu de bee swarm simulator** es una dadora de misiones crucial en el juego tardío, ubicada en la Zona de 30 Abejas, justo al lado del Campo de Cocos. Conocida por sus diálogos increíblemente largos y sus desafiantes líneas de misiones, sirve como la puerta de entrada principal al equipo de alto nivel. Acceder a ella requiere que los jugadores hayan desbloqueado la puerta de 30 abejas, lo que marca la transición del farmeo de mitad de juego a la optimización de alto nivel.
+
+Completar sus misiones requiere dedicación, ya que exigen cantidades masivas de polen de campos específicos, compartir fichas, recolectar pegajosidad (goo) e interactuar con el Santuario del Viento. Las recompensas finales por sus esfuerzos son los Pétalos de Espíritu, que son necesarios para fabricar las herramientas y accesorios más poderosos del juego.
+
+**Puntos destacados del video:**
+- Demuestra la finalización de las misiones avanzadas del Oso Espíritu.
+- Muestra las rutas óptimas de farmeo en campos para la recolección de polen de alto nivel.
+- Explica la interacción entre los requisitos de las misiones y los eventos estacionales.
+
+<YouTubeEmbed videoId="T7VdtmE1Dr8" title="Completando la misión de Beesmas del Oso Espíritu en la actualización de Bee Swarm Simulator" />
+
+<Callout type="info" title="Nota de Ubicación">
+El Oso Espíritu se encuentra subiendo la rampa al lado del Dispensador de Cocos. Asegúrate de tener al menos 30 abejas en tu colmena antes de intentar llegar a su plataforma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Misiones e Hitos">
+
+La línea de misiones consta de 30 tareas distintas, divididas en tres bloques de 10. Cada bloque aumenta en dificultad, requiriendo que los jugadores recolecten miles de millones de polen, compartan miles de fichas y derroten monstruos de campo de alto nivel. Completar las misiones 10, 20 y 30 recompensa al jugador con un Pétalo de Espíritu.
+
+| Bloque de Misión | Rango de Misiones | Hito Clave de Misión | Recompensa Principal |
+| :--- | :--- | :--- | :--- |
+| Nivel 1 | Misiones 1 a 10 | Sway Into Spring (Misión 10) | Primer Pétalo de Espíritu |
+| Nivel 2 | Misiones 11 a 20 | Tickle the Wind (Misión 20) | Segundo Pétalo de Espíritu |
+| Nivel 3 | Misiones 21 a 30 | Spirit Journey (Misión 30) | Tercer Pétalo de Espíritu |
+
+Debido a que estas misiones requieren polen de campos específicos, los jugadores deben planificar sus potenciadores (boosts) en consecuencia. Farmear sin potenciadores activos o vientos del santuario puede hacer que estas misiones tomen significativamente más tiempo.
+
+| Nombre del Campo | Frecuencia en Misiones | Tipo de Polen | Nivel de Peligro |
+| :--- | :--- | :--- | :--- |
+| Campo de Cocos | Alta | Blanco | Alto (Cangrejo de Coco) |
+| Parche de Pimienta | Media | Rojo | Medio |
+| Campo de Tréboles | Alta | Mixto | Bajo |
+| Campo de la Cima de la Montaña | Alta | Mixto | Bajo |
+
+<Callout type="warning" title="Advertencia de Ritmo">
+No apresures estas misiones sin preparación. Los requisitos de polen aumentan drásticamente después de la misión 15, por lo que es esencial tener amuletos de alto nivel y abejas niveladas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de Gasto del Pétalo de Espíritu">
+
+Una vez que obtienes un Pétalo de Espíritu, te enfrentas a una decisión crítica sobre cómo gastarlo. Hay tres usos principales para los Pétalos de Espíritu, y elegir el orden incorrecto puede retrasar tu progresión durante semanas.
+
+<CardGrid cols={3}>
+  <Card title="Varita de Pétalos">
+    - **Costo**: 1 Pétalo de Espíritu, 1.5B de Miel
+    - **Ingredientes**: 10 Jaleas Estelares, 25 Purpurina, 75 Enzimas
+    - **Beneficio**: Conversión automática de polen cada tres golpes
+  </Card>
+  <Card title="Abeja Ventosa">
+    - **Costo**: 1 Pétalo de Espíritu (Donado al Santuario del Viento)
+    - **Ingredientes**: Viales de Nube (para favor)
+    - **Beneficio**: Abeja ayudante poderosa que invoca tornados
+  </Card>
+  <Card title="Cinturón de Pétalos">
+    - **Costo**: 1 Pétalo de Espíritu, 15B de Miel
+    - **Ingredientes**: 25 Jaleas Estelares, 50 Purpurina, 100 Pegamento
+    - **Beneficio**: Alta capacidad y generación pasiva de tormentas de pétalos
+  </Card>
+</CardGrid>
+
+El consenso de la comunidad para la ruta de gasto óptima se detalla a continuación. Seguir este orden garantiza una progresión constante sin golpear cuellos de botella importantes.
+
+| Paso | Elección de Objeto | Razonamiento |
+| :--- | :--- | :--- |
+| 1er Pétalo | Varita de Pétalos | Proporciona utilidad inmediata al convertir polen durante el farmeo activo, reduciendo los viajes a la colmena. |
+| 2do Pétalo | Abeja Ventosa | Te permite comenzar a donar Viales de Nube para ganar favor con el Santuario del Viento temprano. |
+| 3er Pétalo | Cinturón de Pétalos | El costoso precio de fabricación lo hace poco práctico como primera o segunda opción para la mayoría de los jugadores. |
+
+<Callout type="tip" title="Ruta Alternativa">
+Algunos jugadores avanzados prefieren obtener el Cinturón de Pétalos en segundo lugar si han acumulado suficientes materiales temprano, pero donar el segundo pétalo para la Abeja Ventosa sigue siendo el camino más equilibrado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia de Misiones Paso a Paso">
+
+Farmear eficientemente para el Oso Espíritu requiere utilizar mecánicas del juego como potenciadores de campo, pegamentos y enzimas. Sigue estos pasos para optimizar la velocidad de finalización de tus misiones.
+
+<Steps>
+  <Step num="1" title="Acumula Materiales Temprano">
+    Antes de llegar a la Zona de 30 Abejas, guarda tu Purpurina, Jaleas Estelares, Enzimas y Pegamento. Evita usar estos materiales para mejoras menores, ya que son muy necesarios para fabricar la Varita y el Cinturón de Pétalos.
+  </Step>
+  <Step num="2" title="Utiliza Potenciadores del Santuario del Viento">
+    Antes de comenzar una sesión importante de farmeo, dona objetos al Santuario del Viento para obtener vientos de campo. Esto multiplica tu tasa de recolección de polen en los campos específicos requeridos por tu misión activa del Oso Espíritu.
+  </Step>
+  <Step num="3" title="Coordina con Fiestas de Brotes">
+    Muchas misiones requieren la recolección de fichas y cantidades masivas de polen. Coordina con otros jugadores para reventar brotes (sprouts) en los campos objetivo, lo que genera fichas de alto valor y aumenta la generación de polen.
+  </Step>
+  <Step num="4" title="Optimiza la Composición de la Colmena">
+    Mantén una colmena equilibrada de abejas rojas, azules y blancas hasta que completes las 30 misiones. Cambiar a una colmena de un solo color demasiado pronto hace que completar misiones en campos opuestos sea extremadamente difícil.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Coordinación de Potenciadores">
+Siempre verifica los requisitos de tu misión activa antes de usar los potenciadores de campo en los dispensadores de Flor Azul, Flor Roja o de la Cima de la Montaña para evitar desperdiciar los tiempos de reutilización diarios.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Artesanía y Preparación">
+
+Para fabricar las recompensas desbloqueadas por los Pétalos de Espíritu, debes reunir recursos significativos. Usa la lista de verificación a continuación para seguir tu progreso hacia la fabricación de la Varita de Pétalos y el Cinturón de Pétalos.
+
+<Checklist
+  id="petal-crafting-goals"
+  title="Hitos de Artesanía Requeridos:"
+  items={[
+    "Recolectar 35 Jaleas Estelares para la Varita y el Cinturón",
+    "Reunir 75 de Purpurina mediante artesanía y juegos de memoria",
+    "Acumular 75 Enzimas para la Varita de Pétalos",
+    "Atesorar 100 de Pegamento para la receta del Cinturón de Pétalos",
+    "Ahorrar 16.5 mil millones de Miel para comprar ambos objetos"
+  ]}
+/>
+
+| Objeto de Receta | Costo en Miel | Jalea Estelar | Purpurina | Ingrediente Especial |
+| :--- | :--- | :--- | :--- | :--- |
+| Varita de Pétalos | 1.5 Mil millones | 10 | 25 | 75 Enzimas |
+| Cinturón de Pétalos | 15 Mil millones | 25 | 50 | 100 Pegamento, 100 Aceite |
+
+<Callout type="info" title="Recolección de Recursos">
+La Purpurina se puede fabricar en la Licuadora usando Habichuelas Mágicas y Amuletos Lunares. Asegúrate de participar en los eventos nocturnos para recolectar Amuletos Lunares regularmente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo saltarme el diálogo del oso espíritu de bee swarm simulator?",
+    answer: "No, el Oso Espíritu es famoso por sus largos diálogos que no se pueden omitir. Hacer clic a través de su texto es una parte obligatoria de la interacción de la misión."
+  },
+  {
+    question: "¿Qué pasa si dono mi primer Pétalo de Espíritu al Santuario del Viento?",
+    answer: "Donar tu primer pétalo es altamente desaconsejado. Aunque desbloquea la posibilidad de obtener la Abeja Ventosa, la adquisición se basa en el azar (RNG) y te perderás el aumento confiable de farmeo que da la Varita de Pétalos."
+  },
+  {
+    question: "¿Cómo obtengo Viales de Nube para la misión de la Abeja Ventosa?",
+    answer: "Los Viales de Nube se obtienen derrotando a las Abejas Ventosas Salvajes que aparecen en varios campos, o donando objetos como Jaleas Estelares al Santuario del Viento."
+  },
+  {
+    question: "¿Vale la pena conseguir el Cinturón de Pétalos antes que la Varita de Pétalos?",
+    answer: "Generalmente no. El Cinturón de Pétalos es diez veces más caro en miel y requiere el doble de Purpurina, lo que lo hace demasiado costoso para los jugadores que acaban de terminar su décima misión."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+La paciencia es clave cuando tratas con el Oso Espíritu. Concéntrate en completar un requisito a la vez y mantén tu licuadora fabricando ingredientes constantemente para evitar cuellos de botella en tu progresión.
+</Callout>
+
+</Section>
