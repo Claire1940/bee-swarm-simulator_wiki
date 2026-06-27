@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Coconut Crab trong Bee Swarm Simulator: Chiến thuật đánh bại & Hướng dẫn vật phẩm rơi",
+  description: "Làm chủ boss Coconut Crab trong Bee Swarm Simulator với hướng dẫn chiến thuật toàn diện của chúng tôi. Tìm hiểu các phương pháp đánh bại dễ dàng, vị trí lỗi (glitch) và các vật phẩm rơi ra chắc chắn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Coconut+Crab+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, coconut crab, chiến thuật, vật phẩm rơi, hướng dẫn"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Đánh bại boss**: **Coconut Crab trong Bee Swarm Simulator** là một boss cấp 12 nằm ở Cánh đồng Dừa (Coconut Field), đòi hỏi vị trí chiến thuật và những chú ong cấp cao để đánh bại.
+- **Tránh việc hồi lại máu**: Không rời khỏi cánh đồng hoặc nhảy quá cao (đặc biệt là với Bear Bee hoặc giày nhảy cao) vì điều này sẽ ngay lập tức hồi lại đầy máu cho cua.
+- **Né dừa**: Nhảy ngay sau cú nhảy thứ hai của cua trong giai đoạn dừa rơi để né tránh sát thương.
+- **Mang theo những chú ong phù hợp**: Ong cấp 12+ là lý tưởng để tránh các đòn tấn công bị hụt, trong đó Vicious Bee cấp 9+ rất được khuyến khích để gây sát thương chính.
+</Callout>
+
+<Section icon={Shield} title="Giới thiệu và Chỉ số cơ bản">
+
+**Coconut Crab trong Bee Swarm Simulator** là một trong những quái vật boss đáng gờm nhất trong trò chơi [secondary: web]. Nằm ở phía sau Cánh đồng Dừa, gã khổng lồ cấp 12 này bảo vệ lối vào Hang Dừa (Coconut Cave) cực kỳ giá trị [secondary: web]. Đánh bại nó là một cột mốc quan trọng đối với những người chơi ở giai đoạn giữa game, vì nó mở khóa khả năng mua các trang bị cao cấp như Coconut Canister và Coconut Clogs, đồng thời mở ra cánh đồng để cày mật ong mà không bị gián đoạn [secondary: web]. 
+
+Không giống như các boss khác như Stump Snail, Coconut Crab không lưu lại lượng máu giữa các lần chơi [secondary: web]. Nếu bạn rời khỏi cánh đồng, mất kết nối hoặc kích hoạt việc đặt lại ranh giới, máu của nó sẽ ngay lập tức trở về 250,000 HP [secondary: web]. Người chơi có giới hạn thời gian nghiêm ngặt là hai giờ để hoàn thành trận chiến trước khi nó tự động đặt lại [secondary: web].
+
+**Điểm nhấn video:**
+- Tìm hiểu cách định vị bản thân ở rìa cánh đồng để tránh các đòn tấn công bằng càng [secondary: youtube].
+- Hiểu rõ thời điểm cần thiết để né tránh loạt dừa rơi xuống [secondary: youtube].
+- Khám phá lý do tại sao một số thiết lập tổ ong và biến hình gấu có thể vô tình làm boss hồi máu [secondary: youtube].
+
+<YouTubeEmbed videoId="qGYoe6Kt-Mg" title="Cách đánh bại Coconut Crab [DỄ DÀNG] *VỚI TỔ ONG CẤP THẤP* l Bee Swarm Simulator" />
+
+Theo truyền thuyết chính thức của trò chơi được ghi lại trên [Bee Swarm Simulator Wiki](https://bee-swarm-simulator.fandom.com/wiki/Coconut_Crab), Coconut Crab thực chất là một loài xâm lấn vô tình được Spirit Bear đưa vào [secondary: web]. Khởi đầu là một chú cua nhỏ, nó đã lớn thành một vệ binh khổng lồ do nhiều năm bị bỏ mặc, và giờ đây nó đóng vai trò là người gác cổng tối thượng cho tiến trình cuối game [secondary: web].
+
+| Chỉ số | Giá trị | Chi tiết |
+| :--- | :--- | :--- |
+| Cấp độ | **Cấp 12** | Quái vật có cấp độ cơ bản cao nhất trong game |
+| Máu | **250,000 HP** | Lượng máu cơ bản cao thứ ba trong BSS |
+| Thời gian hồi sinh | **36 Giờ** | Thời gian hồi giảm xuống còn 30.6 giờ với Gifted Vicious Bee |
+| Giới hạn thời gian | **2 Giờ** | Máu sẽ hồi lại tối đa nếu hết thời gian |
+| Đặt lại cánh đồng | **Tức thì** | Hồi máu nếu người chơi rời cánh đồng hoặc nhảy quá cao |
+
+<Callout type="warning" title="Chú ý độ cao khi nhảy">
+Nhảy quá cao khi chiến đấu với Coconut Crab có thể kích hoạt việc đặt lại ranh giới, khiến máu của nó trở lại 100% [secondary: youtube, web]. Tránh sử dụng Gummy Boots hoặc các biến hình Bear Bee đang hoạt động nếu bạn đang sử dụng mẹo an toàn ở gờ đá [secondary: youtube].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các kiểu tấn công và Cơ chế né tránh">
+
+Coconut Crab sử dụng một chu kỳ tấn công rất dễ đoán bao gồm hai giai đoạn tấn công chính [secondary: web]. Hiểu được các kiểu tấn công này là điều cần thiết để sinh tồn, vì một cú đánh từ dừa rơi có thể ngay lập tức hạ gục những người chơi chưa có trang bị tốt [secondary: web].
+
+Trong Giai đoạn Càng (Claw Phase), con cua cố gắng đứng thẳng hàng với nhân vật của bạn và đâm nhanh bằng càng [secondary: web]. Nó thực hiện bảy cú đâm nhanh, tạm dừng để định vị lại và lặp lại trình tự này thêm hai lần nữa, tổng cộng là 21 cú đâm [secondary: web]. Mỗi cú đâm gây 40 sát thương cơ bản trước khi tính phòng thủ [secondary: web]. Bạn có thể dễ dàng né giai đoạn này bằng cách di chuyển liên tục hoặc lướt từ bên này sang bên kia cánh đồng [secondary: web].
+
+Trong Giai đoạn Dừa (Coconut Phase), con cua lùi về giữa bức tường phía sau và nhảy tám lần [secondary: web]. Mỗi cú nhảy sẽ phóng ra một quả dừa lớn nhắm vào cánh đồng [secondary: web]. Quả dừa đầu tiên luôn nhắm chính xác vào vị trí của bạn, trong khi bảy quả còn lại rơi ngẫu nhiên [secondary: web]. Những quả dừa này gây ra 150 sát thương cơ bản cực kỳ lớn và có thể gây tử vong dễ dàng [secondary: web].
+
+| Loại tấn công | Sát thương | Cơ chế | Cách né tránh |
+| :--- | :--- | :--- | :--- |
+| Tấn công Càng | **40 Sát thương** | Đâm nhanh vào người chơi tổng cộng 21 lần | Đi bộ hoặc lướt qua con cua khi nó tiến lại gần |
+| Tấn công Dừa | **150 Sát thương** | Rơi 8 quả dừa lớn sau khi cua nhảy 8 lần | Nhảy sau cú nhảy thứ hai của cua hoặc sử dụng lỗi gờ đá |
+
+<Callout type="tip" title="Chiến thuật sử dụng Glider">
+Sử dụng Glider (Tàu lượn) để bay vòng quanh càng cua cho phép bạn hoàn toàn tránh được sát thương từ càng trong khi vẫn giữ những chú ong đủ gần để gây sát thương ổn định [secondary: web].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Thiết lập tổ ong và Buff được đề xuất">
+
+Chuẩn bị là chìa khóa để giảm thời gian tiêu diệt cua từ hàng giờ xuống còn vài phút. Vì Coconut Crab cấp 12, bất kỳ chú ong nào trong tổ của bạn dưới cấp 12 sẽ có tỷ lệ đánh hụt cao [secondary: web]. Những chú ong có cấp độ thấp hơn đáng kể có thể đánh hụt hoàn toàn, khiến trận chiến kéo dài vô tận [secondary: web].
+
+Để tối đa hóa lượng sát thương đầu ra, bạn nên tập trung vào một đội hình tổ ong ưu tiên sức mạnh chí mạng, buff tấn công và các kỹ năng chiến đấu trực tiếp [secondary: web].
+
+<CardGrid cols={3}>
+  <Card title="Kẻ tấn công chính">
+    - **Vicious Bee**: Thiết yếu cho sát thương gai; cấp 9+ được khuyến khích mạnh mẽ [secondary: youtube, web].
+    - **Rage/Spicy Bees**: Tăng sức tấn công tổng thể cho tổ ong [secondary: web].
+    - **Precise/Lion Bees**: Gây sát thương đơn mục tiêu cao [secondary: web].
+  </Card>
+  <Card title="Hỗ trợ chí mạng">
+    - **Music Bee**: Tạo ra các token Focus và Melody [secondary: web].
+    - **Gifted Looker Bee**: Tăng **+25% Sức mạnh chí mạng** [secondary: web].
+    - **Gifted Tabby Bee**: Tăng **+50% Sức mạnh chí mạng** [secondary: web].
+  </Card>
+  <Card title="Vật phẩm tăng cường">
+    - **Stingers**: Cung cấp buff **x1.5 Tấn công của ong** [secondary: web].
+    - **Oil**: Tăng tốc độ di chuyển thêm **x1.2** cho người chơi và ong [secondary: web].
+    - **Tropical Drink**: Tăng **+5% Tỷ lệ chí mạng** trong 10 phút [secondary: web].
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="prefights-checklist"
+  title="Danh sách chuẩn bị trước trận chiến:"
+  items={[
+    "Thu thập đủ 10 cộng dồn token Focus tại Pepper Patch trước khi nhảy vào",
+    "Đảm bảo Vicious Bee của bạn ít nhất cấp 9 (ưu tiên cấp 12)",
+    "Trang bị và kích hoạt Stingers để được tăng x1.5 tấn công",
+    "Sử dụng Oil và Tropical Drinks để tối đa hóa tốc độ và tỷ lệ chí mạng",
+    "Tháo giày nhảy cao hoặc Bear Bee nếu định sử dụng mẹo lỗi gờ đá"
+  ]}
+/>
+
+<Callout type="success" title="Mẹo tích lũy Focus">
+Luôn tích lũy các token Focus của bạn lên x10 ở Pepper Patch trước, sau đó ngay lập tức chuyển sang Cánh đồng Dừa [secondary: web]. Điều này đảm bảo các đòn chí mạng khổng lồ ngay từ khi bắt đầu trận chiến [secondary: web].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến thuật từng bước để đánh bại Coconut Crab trong Bee Swarm Simulator">
+
+Trong khi những người chơi cấp cao có thể dùng sức mạnh để vượt qua, những người chơi cấp thấp hơn phải dựa vào vị trí chính xác và các mẹo cơ học để giành chiến thắng [secondary: youtube]. Hãy làm theo trình tự từng bước này để đánh bại boss một cách an toàn [secondary: youtube, web].
+
+<Steps>
+  <Step num="1" title="Kích hoạt và Vị trí">
+    Vào Cánh đồng Dừa và di chuyển về phía góc gờ đá gần Hang Dừa [secondary: youtube]. Đứng ở ngay mép để kích hoạt cua xuất hiện mà không đặt bản thân trực tiếp vào đường đi vật lý của nó [secondary: youtube].
+  </Step>
+  <Step num="2" title="Né giai đoạn Càng">
+    Nếu chiến đấu bình thường, hãy đi bộ hoặc lướt qua lại để nhử các cú đâm càng [secondary: web]. Nếu bạn đang sử dụng lỗi gờ đá, hãy nép vào góc nơi càng vật lý không thể chạm vào hitbox của bạn [secondary: youtube].
+  </Step>
+  <Step num="3" title="Căn thời gian nhảy né dừa">
+    Quan sát các cú nhảy của cua trong giai đoạn dừa [secondary: youtube]. Đợi cua hoàn thành cú nhảy thứ hai, sau đó nhảy lên không trung để né các mục tiêu vòng tròn đỏ của dừa sắp rơi xuống [secondary: youtube, web].
+  </Step>
+  <Step num="4" title="Thu thập Token an toàn">
+    Sử dụng Token Links, Tornado của Windy Bee hoặc Triangulate của Vector Bee để thu thập các token kỹ năng mà không cần bước vào hitbox chết chóc của cua [secondary: web].
+  </Step>
+</Steps>
+
+<Callout type="info" title="Điểm an toàn tại Cây Dừa">
+Ngoài ra, bạn có thể đứng ngay sau Cây Dừa xa Hang Dừa nhất và gần Spirit Bear nhất [secondary: web]. Con cua thường bị kẹt ở đó, cho phép bạn gây sát thương (DPS) an toàn [secondary: web].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vật phẩm rơi ra chắc chắn và quý hiếm">
+
+Đánh bại Coconut Crab mang lại một số phần thưởng chế tạo và tiến trình tốt nhất trong trò chơi [secondary: web]. Tốc độ bạn đánh bại boss ảnh hưởng trực tiếp đến chất lượng, số lượng và độ hiếm của các vật phẩm rơi ra, khiến việc tối ưu hóa tổ ong trở nên rất xứng đáng [secondary: web].
+
+| Vật phẩm | Số lượng | Mục đích |
+| :--- | :--- | :--- |
+| Coconuts | **Thay đổi** | Dùng để chế tạo và tăng cường cánh đồng nói chung |
+| Micro-Converters | **Chắc chắn** | Chuyển đổi phấn hoa trong túi của bạn ngay lập tức |
+| Tropical Drinks | **Chắc chắn** | Thiết yếu để chế tạo Trang bị Dừa (Coconut Gear) |
+| Bitterberries | **Chắc chắn** | Dùng để đột biến ong |
+| Star Jellies | **Chắc chắn** | Biến một chú ong thành một chú ong Gifted ngẫu nhiên |
+
+| Vật phẩm rơi | Độ hiếm | Điểm nổi bật |
+| :--- | :--- | :--- |
+| Glitter / Oil / Glue | Thường / Không phổ biến | Nguyên liệu chế tạo thiết yếu |
+| Silver / Diamond Egg | Rất hiếm | Trứng cấp cao cho tổ ong của bạn |
+| Super Smoothie | Cực kỳ hiếm | Vật phẩm tiêu hao tăng sức mạnh tối thượng |
+| Mythic Egg / Star Treat | Đặc biệt hiếm | Các vật phẩm tiến trình có giá trị tối đa |
+
+<Callout type="success" title="Quy tắc chia sẻ Token">
+Chỉ người chơi đã đánh bại Coconut Crab của chính họ mới có thể nhìn thấy và thu thập các token rơi ra [secondary: web]. Bạn không phải lo lắng về việc những người chơi khác đánh cắp chiến lợi phẩm khó khăn mới giành được của mình trong các máy chủ công cộng [secondary: web].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Bao lâu thì Coconut Crab trong Bee Swarm Simulator hồi sinh một lần?",
+    answer: "Coconut Crab hồi sinh sau mỗi 36 giờ (1.5 ngày) kể từ khi bị đánh bại. Nếu bạn có một chú ong Gifted Vicious Bee trong tổ ong đang hoạt động, thời gian hồi này sẽ giảm xuống còn 30 giờ 36 phút."
+  },
+  {
+    question: "Tại sao máu của Coconut Crab cứ bị hồi lại trong khi tôi đang chiến đấu?",
+    answer: "Máu của nó sẽ hồi lại nếu bạn bước ra ngoài ranh giới Cánh đồng Dừa, chạm vào các bức tường xung quanh, mất hơn 2 giờ giới hạn, hoặc nhảy quá cao (kích hoạt việc thoát khỏi ranh giới)."
+  },
+  {
+    question: "Tôi có thể đánh bại Coconut Crab với một tổ ong cấp thấp không?",
+    answer: "Có. Mặc dù ong cấp 12 là lý tưởng để tránh đánh hụt, bạn có thể đánh bại nó với Vicious Bee cấp 9 hoặc 10 bằng cách sử dụng lỗi gờ đá hoặc các điểm an toàn tại cây để tránh nhận sát thương."
+  }
+]} />
+
+<Callout type="tip" title="Độc quyền mùa Beesmas">
+Trong sự kiện mùa Beesmas, Coconut Crab có cơ hội rơi ra Gingerbread Bears, khiến nó trở thành boss hàng ngày ưu tiên cao để cày cuốc [secondary: web].
+</Callout>
+
+</Section>

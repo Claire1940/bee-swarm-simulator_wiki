@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bùa Mặt Trăng (Moon Amulet) trong Bee Swarm Simulator: Hướng dẫn Chỉ số Tốt nhất & Sức chứa Tối đa",
+  description: "Tìm hiểu cách tối ưu hóa bùa mặt trăng (moon amulet) của bạn trong Bee Swarm Simulator. Khám phá các chỉ số tốt nhất cho mọi màu tổ ong, giới hạn sức chứa tối đa và mẹo cày moon charm.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Moon+Amulet+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Bùa Mặt Trăng (Moon Amulet)** trong Bee Swarm Simulator là một trang bị quan trọng có được bằng cách đổi 100 Moon Charm tại Máy Tạo Bùa Mặt Trăng (Moon Amulet Generator).
+- **Sức chứa Tối đa** đạt giới hạn +250.000 sau khi tạo chính xác 10 bùa mặt trăng.
+- **Chỉ số Tối ưu** thay đổi tùy theo màu tổ ong, nhưng **Mật ong mỗi Phấn hoa (Honey Per Pollen)** và **Phấn hoa Trắng (White Pollen)** luôn được ưu tiên hàng đầu cho người chơi mới.
+- **Cấp độ Chất lượng (Quality Scaling)** tiếp tục cải thiện lên đến 40 lần tạo bùa, ngay cả sau khi chỉ số tăng sức chứa đã đạt mức tối đa.
+- **Nền tảng Ban đêm (Night Platforms)** có thể truy cập được sau khi bạn sở hữu bùa mặt trăng, cho phép bạn tiếp cận các khu vực ẩn vào ban đêm.
+</Callout>
+
+<Section icon={Map} title="Cách Sở Hữu Bùa Mặt Trăng & Khái Niệm Cơ Bản Về Máy Tạo">
+
+**Bùa Mặt Trăng (Moon Amulet)** trong Bee Swarm Simulator là một trong những loại bùa sớm nhất và có sức ảnh hưởng lớn nhất mà người chơi có thể sở hữu. Không giống như Bùa Kiến (Ant Amulet) hay Bùa Sao (Star Amulet) đòi hỏi phải chiến đấu hoặc đạt các cột mốc ong đột biến (gifted bee), Bùa Mặt Trăng được kiếm thông qua việc thu thập tài nguyên. Để tạo ra một chiếc bùa, bạn phải ghé thăm Máy Tạo Bùa Mặt Trăng (Moon Amulet Generator) nằm ở khu vực Vườn Dứa (Pineapple Patch). Mỗi lần tạo tốn **100 Moon Charm**.
+
+**Nội dung Video Nổi bật:**
+- Phân tích chi tiết các chỉ số tốt nhất cho người chơi giai đoạn đầu, giữa và cuối game.
+- Giải thích về giới hạn sức chứa sau 10 lần tạo và giới hạn chất lượng sau 40 lần tạo.
+- So sánh các chỉ số cho các kiểu tổ ong Xanh (Blue), Đỏ (Red) và Trắng (White).
+- Hướng dẫn trực quan cách nhận biết các dòng chỉ số "siêu phẩm" (god-tier) cho Bùa Mặt Trăng.
+
+<YouTubeEmbed videoId="CwbI-Typhtk" title="Best Stats For Every Amulet (ALL Game Stages) | Roblox Bee Swarm Simulator" />
+
+Máy tạo hoạt động dựa trên hệ thống tiến trình tuyến tính. Mỗi khi chế tạo một bùa mặt trăng mới, bạn sẽ được lựa chọn giữ lại bùa cũ hoặc thay thế bằng bùa mới vừa quay được. Đây là một điểm quyết định cực kỳ quan trọng, vì những lần tạo đầu tiên sẽ tập trung vào sức chứa thuần túy, trong khi các lần tạo sau này sẽ tập trung vào việc hoàn thiện các chỉ số tăng phần trăm cụ thể.
+
+| Yêu cầu | Giá trị | Vị trí/Lưu ý |
+| :--- | :--- | :--- |
+| **Chi phí Tài nguyên** | 100 Moon Charm | Rơi ra từ Đom đóm (Fireflies), Mầm Mặt Trăng (Moon Sprouts) |
+| **Vị trí Máy Tạo** | Vườn Dứa (Pineapple Patch) | Đằng sau Cổng 5 Ong (5-Bee Gate) |
+| **Giới hạn Sức chứa** | +250.000 | Đạt được ở bùa thứ 10 |
+| **Giới hạn Chất lượng** | 40 Bùa | Đạt mức tối đa cho phạm vi chỉ số phụ |
+| **Kích hoạt** | Chỉ Ban Đêm | Máy tạo chỉ hoạt động trong chu kỳ ban đêm |
+
+<Callout type="tip" title="Chiến Thuật Cày Cuốc">
+Luôn đợi chu kỳ ban đêm bắt đầu trước khi tiến vào Vườn Dứa. Nếu bạn sắp đủ 100 bùa mặt trăng, hãy tập trung đuổi theo Đom đóm hoặc hoàn thành Trò chơi Trí nhớ (Memory Match) ở Khu vực 15 Ong để lấp đầy kho đồ của mình.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tiến Trình và Tăng Trưởng Sức Chứa">
+
+Hiểu được tiến trình nâng cấp của **Bùa Mặt Trăng trong Bee Swarm Simulator** là điều cần thiết để quản lý kho đồ. Nhiều người chơi lầm tưởng rằng họ nên dừng quay sau chiếc bùa thứ 10 vì nghĩ đã đạt mức "tối đa". Mặc dù lượng sức chứa cộng thêm sẽ ngừng tăng ở mức +250.000, nhưng "Chất lượng" (Quality) của bùa vẫn tiếp tục tăng tiến cho đến khi bạn đã tạo tổng cộng 40 chiếc bùa.
+
+Chất lượng cao hơn sẽ tăng xác suất quay ra các giá trị phần trăm cao hơn cho các chỉ số phụ như Thân thiết từ Thức ăn (Bond from Treats), Mật ong mỗi Phấn hoa (Honey Per Pollen) và Sức mạnh Chí mạng (Critical Power). Theo [Bee Swarm Simulator Wiki](https://bee-swarm-simulator.fandom.com/wiki/Moon_Amulet), sức chứa tăng thêm 25.000 cho mỗi lần quay, với một ngoại lệ nhỏ ở lần quay thứ 7.
+
+| Số lần tạo | Sức chứa Cộng thêm | Cấp độ Chất lượng |
+| :--- | :--- | :--- |
+| Bùa thứ 1 | +25.000 | 0,025 |
+| Bùa thứ 5 | +125.000 | 0,125 |
+| Bùa thứ 10 | +250.000 (TỐI ĐA) | 0,250 |
+| Bùa thứ 25 | +250.000 | 0,625 |
+| Bùa thứ 40 | +250.000 | 1,000 (TỐI ĐA) |
+
+<Callout type="warning" title="Quy tắc 10 Lần Quay">
+Đừng quá bận tâm về các chỉ số cụ thể cho đến khi bạn đạt đến lần quay thứ 10. Mục tiêu chính của bạn ở giai đoạn đầu game đơn giản là tăng sức chứa của túi đựng để có thể ở lại các cánh đồng lâu hơn. Khi đã chạm mốc giới hạn 250.000, bạn mới nên bắt đầu chọn lọc các chỉ số phụ.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chỉ Số Tốt Nhất Cho Từng Màu Tổ Ong">
+
+Khi đã đạt đến giới hạn chất lượng ở lần tạo thứ 40, trọng tâm của bạn sẽ chuyển sang việc "quay" để tìm kiếm sự kết hợp hoàn hảo giữa các chỉ số. **Bùa Mặt Trăng trong Bee Swarm Simulator** có thể cung cấp nhiều loại bùa lợi ảnh hưởng đáng kể đến sản lượng mật ong của bạn tùy thuộc vào màu tổ ong.
+
+<CardGrid cols={3}>
+  <Card title="Chỉ số Tổ Xanh">
+    - **Mật ong mỗi Phấn hoa (Honey Per Pollen)** (Lên đến 8%)
+    - **Phấn hoa Xanh (Blue Pollen)**
+    - **Sức chứa (Capacity)** (Cố định)
+    - Tập trung vào chuyển hóa và duy trì.
+  </Card>
+  <Card title="Chỉ số Tổ Đỏ">
+    - **Mật ong mỗi Phấn hoa (Honey Per Pollen)** (Lên đến 8%)
+    - **Phấn hoa Đỏ (Red Pollen)**
+    - **Phấn hoa Trắng (White Pollen)** (Dành cho Thử thách Robo)
+    - Tập trung vào tấn công thuần túy và chuyển hóa tức thời.
+  </Card>
+  <Card title="Chỉ số Tổ Trắng">
+    - **Phấn hoa Trắng (White Pollen)**
+    - **Phấn hoa Ong Thu thập (Bee Gather Pollen)**
+    - **Mật ong từ Huy hiệu (Honey From Tokens)**
+    - Thiết yếu cho sự phối hợp với Gummy Star.
+  </Card>
+</CardGrid>
+
+Đối với hầu hết người chơi, **Mật ong mỗi Phấn hoa (Honey Per Pollen)** là chỉ số giá trị nhất. Nó hoạt động như một hệ số nhân cho lượng mật ong bạn nhận được trực tiếp từ phấn hoa thu hoạch được, bỏ qua nhu cầu chuyển hóa ngay lập tức tại tổ ong.
+
+| Tên Chỉ số | Giá trị Tối đa Có thể | Mức độ Ưu tiên |
+| :--- | :--- | :--- |
+| **Mật ong mỗi Phấn hoa (Honey Per Pollen)** | +8% | ★★★★★ |
+| **Thân thiết từ Thức ăn (Bond from Treats)** | +10% | ★★★★☆ |
+| **Phấn hoa Trắng (White Pollen)** | +50% | ★★★★☆ |
+| **Phấn hoa Xanh/Đỏ (Blue/Red Pollen)** | +50% | ★★★☆☆ |
+| **Sức mạnh Chí mạng (Critical Power)** | +20% | ★★★☆☆ |
+| **Cơ hội nhận Vé (Ticket Chance)** | +5% | ★☆☆☆☆ |
+
+<Callout type="success" title="Lần Quay Cuối Game Lý Tưởng">
+Lần quay "Siêu Phẩm" (God Roll) cho tổ ong đa dụng hoặc tổ ong trắng là **+250.000 Sức chứa, +8% Mật ong mỗi Phấn hoa và +50% Phấn hoa Trắng**. Nếu bạn đang nâng cấp cấp độ cho ong của mình, **+10% Thân thiết từ Thức ăn** là một sự thay thế tuyệt vời cho Phấn hoa Trắng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách Cày Moon Charm Nhanh Chóng">
+
+Để đạt được giới hạn 40 lần tạo cho **Bùa Mặt Trăng trong Bee Swarm Simulator**, bạn sẽ cần tổng cộng 4.000 Moon Charm. Dù con số này nghe có vẻ nản lòng, nhưng có một vài phương pháp có thể đẩy nhanh tiến độ này một cách đáng kể.
+
+<Steps>
+  <Step num="1" title="Đuổi Theo Đom Đóm">
+    Trong chu kỳ ban đêm, Đom đóm (Fireflies) sẽ xuất hiện trên các cánh đồng khác nhau. Chạy qua chúng sẽ rơi ra Moon Charm và Kim tuyến (Glitter). Đây là phương pháp miễn phí và ổn định nhất.
+  </Step>
+  <Step num="2" title="Mầm Mặt Trăng (Moon Sprouts)">
+    Trồng một Mầm cây (Sprout) vào ban đêm có tỷ lệ cao biến thành Mầm Mặt Trăng. Những mầm này sẽ rơi ra một lượng lớn Moon Charm khi nổ.
+  </Step>
+  <Step num="3" title="Trò Chơi Trí Nhớ (Memory Match)">
+    Các trò chơi Trí nhớ tại Khu vực 15 Ong và Khu vực 30 Ong thường xuyên cung cấp Moon Charm làm phần thưởng. Hãy luôn ưu tiên chọn chúng thay vì các loại thức ăn cơ bản.
+  </Step>
+  <Step num="4" title="Bọ Hung Vương (King Beetle) & Quái Vật">
+    Đánh bại Bọ Hung Vương và các quái vật cấp cao hơn như Cua Dừa (Coconut Crab) thỉnh thoảng có thể rơi ra Moon Charm như một phần thưởng thêm.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Chuông Đêm (Night Bells)">
+Nếu bạn đang vội, sử dụng một chiếc **Chuông Đêm (Night Bell)** sẽ ngay lập tức kích hoạt chu kỳ ban đêm, cho phép bạn sử dụng Máy Tạo Bùa Mặt Trăng và gọi Đom đóm xuất hiện ngay lập tức.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Nền Tảng Ban Đêm và Tiện Ích">
+
+Bên cạnh các chỉ số tăng sức mạnh, **Bùa Mặt Trăng trong Bee Swarm Simulator** còn mang lại một khả năng bị động độc đáo: khả năng đi trên các nền tảng hình mặt trăng. Những nền tảng này chỉ xuất hiện trong chu kỳ ban đêm và vô hình/không thể chạm tới đối với những người chơi không có bùa mặt trăng.
+
+<Checklist
+  id="moon-platforms"
+  title="Vị trí các Nền tảng Ẩn:"
+  items={[
+    "Đằng sau Cửa hàng của Gấu Bảnh Bao (Dapper Bear) (dẫn đến khu vực ẩn)",
+    "Bên trong Phòng Kim Cương (Diamond Room) (cho phép tiếp cận các gờ đá cao hơn)",
+    "Chướng ngại vật Khu vực 30 Ong (30-Bee Zone Obby) (lối đi tắt và huy hiệu ẩn)",
+    "Phía trên Vườn Dứa (Pineapple Patch) (di chuyển dễ dàng hơn vào ban đêm)"
+  ]}
+/>
+
+Những nền tảng này là vô cùng cần thiết để hoàn thành một số nhiệm vụ từ Gấu Tâm Linh (Spirit Bear) và Onett, vì họ thường yêu cầu bạn thu thập các huy hiệu (token) nằm ở những vị trí trên không rất khó tiếp cận. Nếu không có bùa mặt trăng, những huy hiệu này hầu như không thể lấy được.
+
+| Khu vực Nền tảng | Độ khó | Phần thưởng/Tiện ích |
+| :--- | :--- | :--- |
+| **Dapper Bear** | Dễ | Sữa Ong Chúa (Royal Jellies), Nhãn dán (Stickers) |
+| **Phòng Kim Cương** | Trung bình | Tiến trình nhận Trứng Ong Kim Cương (Diamond Bee Egg) |
+| **Vượt chướng ngại vật 30 Ong** | Khó | Thạch Sao (Star Jelly), Huy hiệu giá trị cao |
+
+<Callout type="warning" title="Thời Gian Hết Hạn Của Nền Tảng">
+Hãy nhớ rằng những nền tảng này sẽ biến mất ngay khi mặt trời bắt đầu mọc. Nếu bạn đang đứng trên đó khi chu kỳ ban ngày bắt đầu, bạn sẽ bị rơi xuống. Hãy luôn để mắt đến thời gian nhé!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tóm Tắt và Câu Hỏi Thường Gặp">
+
+**Bùa Mặt Trăng trong Bee Swarm Simulator** là một viên gạch nền móng cho tiến trình chơi ở giai đoạn giữa game. Bằng cách tập trung đạt mốc giới hạn sức chứa ở lần quay thứ 10 từ sớm và sau đó tiếp tục cày cuốc hướng tới giới hạn chất lượng ở lần quay thứ 40, bạn sẽ đảm bảo tổ ong của mình hoạt động với hiệu suất tối đa. Cho dù bạn đang săn tìm chỉ số +8% Mật ong mỗi Phấn hoa hiếm hoi hay chỉ đơn giản là cần thêm không gian túi chứa, Bùa Mặt Trăng là một khoản đầu tư sẽ tự hoàn vốn bằng hàng tỷ mật ong.
+
+<FAQ items={[
+  {
+    question: "Tôi cần bao nhiêu Moon Charm để đạt chất lượng tối đa?",
+    answer: "Bạn cần tổng cộng 4.000 Moon Charm để đạt giới hạn chất lượng ở lần tạo thứ 40, vì mỗi lần quay tốn 100 bùa."
+  },
+  {
+    question: "Sức chứa của Bùa Mặt Trăng có bao giờ vượt quá 250.000 không?",
+    answer: "Không, chỉ số tăng sức chứa của Bùa Mặt Trăng trong Bee Swarm Simulator được giới hạn cứng ở mức +250.000 sau 10 lần tạo."
+  },
+  {
+    question: "Chỉ số tốt nhất cho Tổ Xanh (Blue Hive) trên Bùa Mặt Trăng là gì?",
+    answer: "Đối với Tổ Xanh, bạn nên nhắm tới Mật ong mỗi Phấn hoa (Honey Per Pollen) và Phấn hoa Xanh (Blue Pollen). Thân thiết từ Thức ăn (Bond from Treats) cũng rất được khuyến khích nếu bạn vẫn đang nâng cấp cấp độ cho tổ ong của mình."
+  },
+  {
+    question: "Tôi có thể sử dụng Máy Tạo Bùa Mặt Trăng vào ban ngày không?",
+    answer: "Không, máy tạo chỉ hoạt động trong chu kỳ ban đêm. Bạn có thể sử dụng Chuông Đêm (Night Bell) để bắt buộc chuyển sang ban đêm nếu cần."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,194 @@
+import { Map, Wind, Trophy, Target, Shield, Sparkles, Zap, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lọ Đám Mây Bee Swarm Simulator: Hướng Dẫn Farm & Triệu Hồi 2026",
+  description: "Làm chủ cách farm Lọ Đám Mây (Cloud Vial) trong Bee Swarm Simulator năm 2026. Học cách đánh bại Ong Gió Hoang Dã (Wild Windy Bee), tối đa hóa độ thiện cảm Đền Thờ Gió (Wind Shrine) và triệu hồi Ong Gió hiệu quả.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Cloud+Vial+Farming+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Mục tiêu chính**: Thu thập **Lọ Đám Mây (Cloud Vials) trong Bee Swarm Simulator** để quyên góp cho Đền Thờ Gió (Wind Shrine) nhằm có cơ hội nhận được trứng Ong Gió (Windy Bee).
+- **Phương pháp farm tốt nhất**: Đánh bại **Ong Gió Hoang Dã (Wild Windy Bee)** trên các cánh đồng cấp cao như Cánh đồng Dừa (Coconut Field) hoặc Cánh đồng Đỉnh Núi (Mountaintop Field) để nhận 2-5 lọ mỗi lần chạm trán.
+- **Yêu cầu quan trọng**: Bạn phải quyên góp một **Cánh Hoa Tâm Linh (Spirit Petal)** cho Đền Thờ Gió trước khi Lọ Đám Mây có thể ban tặng trứng Ong Gió.
+- **Giới hạn túi đồ**: Người chơi có thể tích trữ tối đa **10 Lọ Đám Mây** cùng lúc (các lọ nhận thêm từ nhiệm vụ có thể vượt quá giới hạn này).
+- **Công dụng phụ**: Sử dụng lọ trên các cánh đồng để triệu hồi **Đám Mây Mưa (Rain Clouds)** giúp tăng 25% lượng phấn hoa và đẩy nhanh tốc độ phát triển của mầm.
+</Callout>
+
+<Section icon={Wind} title="Khái Niệm Cơ Bản Về Lọ Đám Mây và Video Hướng Dẫn">
+
+**Lọ Đám Mây (Cloud Vial) trong Bee Swarm Simulator** là một vật phẩm tiêu hao cực kỳ quan trọng ở giai đoạn giữa đến cuối game, phục vụ hai mục đích chính: nâng cao năng suất thu hoạch trên cánh đồng và đóng vai trò là đơn vị tiền tệ để mở khóa Ong Gió (Windy Bee). Kể từ khi ra mắt, meta để sở hữu những chiếc lọ này đã chuyển dịch sang việc săn lùng tích cực trên các cánh đồng và tối ưu hóa quyên góp tại Đền Thờ Gió (Wind Shrine). Vào năm 2026, người chơi ưu tiên những vật phẩm này không chỉ vì bản thân chú ong, mà còn vì lượng phấn hoa tăng thêm đáng kể từ những đám mây mưa được triệu hồi.
+
+**Điểm nhấn trong Video:**
+- Xác định **chuyển động của Đền Thờ Gió** để định vị Ong Gió Hoang Dã (Wild Windy Bee).
+- Vòng lặp cánh đồng hiệu quả nhất để farm lọ đám mây.
+- Tại sao bạn nên đợi cho đến khi có Cánh Hoa Tâm Linh (Spirit Petal) thứ hai hoặc thứ ba trước khi tập trung vào Ong Gió.
+- Mẹo đánh bại Ong Gió Hoang Dã nhanh hơn bằng cách sử dụng các kỹ năng đặc biệt của ong.
+
+<YouTubeEmbed videoId="TZG7Vh55IoU" title="Cách NHANH NHẤT để có ONG GIÓ + Farm Lọ Đám Mây!🌪️ (Hướng dẫn đầy đủ) trong Bee Swarm Simulator" />
+
+<Callout type="success" title="Giá Trị Chiến Thuật">
+Sử dụng Lọ Đám Mây trên cánh đồng có **Máy Trồng Cây (Planter)** sẽ tăng tốc độ phát triển của nó thêm 8% cho mỗi đám mây, điều này rất cần thiết để hoàn thành các nhiệm vụ cuối game từ Gấu Bảnh Bao (Dapper Bear) hoặc Gấu Tâm Linh (Spirit Bear).
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Các Phương Pháp Tốt Nhất Để Kiếm Lọ Đám Mây">
+
+Việc kiếm Lọ Đám Mây đòi hỏi sự kết hợp giữa lối chơi tích cực và tiến trình thực hiện nhiệm vụ. Trong khi người chơi giai đoạn đầu game có thể nhận được chúng như những phần thưởng rơi ra hiếm hoi, thì người chơi giai đoạn cuối game phải dựa vào các tuyến đường farm ổn định. Giới hạn túi đồ là 10 lọ đồng nghĩa với việc bạn phải quyên góp hoặc sử dụng chúng thường xuyên để tránh lãng phí các vật phẩm rơi ra từ quái hoặc nhiệm vụ.
+
+| Phương pháp | Chi tiết nguồn | Độ tin cậy | Sản lượng trung bình |
+| :--- | :--- | :--- | :--- |
+| **Ong Gió Hoang Dã** | Đánh bại mini-boss trên các cánh đồng | Cao | 2 - 5 Lọ |
+| **Gấu Tâm Linh** | Hoàn thành các mốc nhiệm vụ cụ thể | Đảm bảo | 10 Lọ |
+| **Chồng Nhãn Dán** | Phần thưởng khi xếp chồng các nhãn dán cụ thể | Trung bình | 1 - 3 Lọ |
+| **Đền Thờ Gió** | Phần thưởng hiếm khi quyên góp các vật phẩm cấp cao | Thấp | 1 - 2 Lọ |
+| **Gấu Ong** | Danh mục mùa giải trong sự kiện Beesmas | Cao | 20 Lọ |
+
+<CardGrid cols={3}>
+  <Card title="Săn Ong Gió Hoang Dã">
+    - **Kiểm tra Đền Thờ**: Nếu nó đang chuyển động, nghĩa là có một chú ong đang hoạt động.
+    - **Chuyển Server**: Nhanh chóng chuyển đổi máy chủ để tìm các boss đang hoạt động.
+    - **Tập trung Sát thương**: Sử dụng Ong Độc Ác (Vicious Bee) để tạo gai đâm.
+  </Card>
+  <Card title="Quản Lý Nhiệm Vụ">
+    - **Gấu Tâm Linh**: Tiết kiệm lọ cho các nhiệm vụ thứ 10/20.
+    - **Gấu Đen**: Phần thưởng thỉnh thoảng có trong chuỗi nhiệm vụ cuối game.
+    - **BBM**: Độ khó cao nhưng phần thưởng lọ cực kỳ lớn.
+  </Card>
+  <Card title="Mã Code Quy Đổi">
+    - **1MLikes**: Kiểm tra các mã code cũ còn hoạt động.
+    - **Theo mùa**: Các mã code Beesmas thường bao gồm 5-10 lọ.
+    - **Cập nhật Wiki**: Theo dõi các mã code dành riêng cho năm 2026.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Quản Lý Túi Đồ">
+Nếu bạn nhận được Lọ Đám Mây từ nhiệm vụ hoặc Chồng Nhãn Dán, chúng có thể vượt quá giới hạn 10 lọ của bạn. Đừng sử dụng chúng ngay lập tức; hãy tiết kiệm chúng cho một buổi quyên góp lớn tại Đền Thờ Gió.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Cơ Chế Đám Mây và Năng Suất Cánh Đồng">
+
+Khi sử dụng, Lọ Đám Mây sẽ tạo ra một đám mây mưa trên cánh đồng hiện tại của bạn. Đây không chỉ là một hiệu ứng hình ảnh; nó mang lại những bùa lợi (buff) thực tế cho việc thu hoạch tài nguyên của bạn. Các đám mây di chuyển linh hoạt, nghĩa là bạn phải đi theo chúng để duy trì phần thưởng phấn hoa tối đa. Vào năm 2026, các tổ ong cấp cao sẽ tận dụng những lọ này trong các đợt "boost" để nhân rộng chỉ số mật ong mỗi giây (HPS) của họ.
+
+| Tính năng | Hiệu ứng thường | Bùa lợi từ Ong Gió Đột Biến (Gifted Windy Bee) |
+| :--- | :--- | :--- |
+| **Tăng Phấn Hoa** | Tăng 25% | Tăng 50% |
+| **Tốc độ mầm lớn** | Tốc độ 1.5x | Tốc độ 2.5x |
+| **Tốc độ Máy Trồng Cây** | 8% mỗi Đám mây | 8% (Giới hạn ở mức 20%) |
+| **Tốc độ mọc lại của hoa** | Tốc độ cao | Tức thì ở trung tâm |
+
+Đám mây cũng kết nối với các mầm đang hoạt động bằng một đường màu xanh lam, tập trung năng lượng tăng trưởng của nó. Điều này khiến Lọ Đám Mây trở thành công cụ tốt nhất cho các "bữa tiệc mầm" (sprout parties), nơi người chơi đặt mục tiêu làm vỡ nhiều mầm Tối Cao (Supreme) hoặc mầm Ánh Trăng (Moonlight) trong một phiên chơi.
+
+<Callout type="info" title="Hạn Chế Cánh Đồng">
+Bạn không thể sử dụng Lọ Đám Mây trong **Cánh Đồng Kiến (Ant Field)** hoặc **Cánh Đồng Trung Tâm (Hub Field)**. Cố gắng làm như vậy sẽ kích hoạt một thông báo hệ thống và lọ vẫn sẽ nằm trong túi đồ của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Quy Trình Triệu Hồi Ong Gió">
+
+Lý do phổ biến nhất khiến người chơi farm Lọ Đám Mây là để sở hữu **Ong Gió (Windy Bee)**. Quá trình này được chi phối bởi một cơ chế ẩn gọi là "Độ thiện cảm" (Favor). Mỗi vật phẩm bạn quyên góp cho Đền Thờ Gió sẽ tăng độ thiện cảm của bạn, và khi độ thiện cảm đủ cao, việc quyên góp Lọ Đám Mây sẽ có cơ hội kích hoạt phần thưởng "Trứng Ong Gió".
+
+<Steps>
+  <Step num="1" title="Quyên góp Cánh Hoa Tâm Linh">
+    Bạn phải quyên góp một trong ba Cánh Hoa Tâm Linh (Spirit Petal) của mình cho Đền Thờ Gió. Hầu hết các game thủ chuyên nghiệp khuyên bạn nên quyên góp cánh hoa **thứ hai**, sử dụng cánh hoa đầu tiên cho Gậy Cánh Hoa (Petal Wand).
+  </Step>
+  <Step num="2" title="Tích lũy Độ Thiện Cảm">
+    Quyên góp các vật phẩm như Lọ Đám Mây, Thạch Sao (Star Jelly) hoặc Nhãn dán để tăng điểm thiện cảm ẩn của bạn. Độ thiện cảm càng cao thì tỷ lệ rơi trứng càng lớn.
+  </Step>
+  <Step num="3" title="Quyên góp hàng loạt Lọ Đám Mây">
+    Khi độ thiện cảm của bạn đã được thiết lập, hãy quyên góp Lọ Đám Mây theo từng đợt 10 lọ. Mỗi lọ trong đợt quyên góp hoạt động như một lượt quay riêng lẻ để nhận trứng Ong Gió.
+  </Step>
+  <Step num="4" title="Kiểm tra Lời thoại">
+    Phản hồi bằng văn bản của Đền Thờ Gió sẽ thay đổi khi độ thiện cảm của bạn tăng lên. Hãy tìm kiếm các cụm từ cho biết gió đang "hài lòng" (pleased) hoặc "tò mò" (intrigued).
+  </Step>
+</Steps>
+
+| Vật phẩm quyên góp | Giá trị thiện cảm | Chiến thuật |
+| :--- | :--- | :--- |
+| **Lọ Đám Mây** | Vừa phải | Tốt nhất cho các "lượt quay" ổn định |
+| **Trứng Thần Thoại** | Cực kỳ cao | Chỉ dành cho người chơi giai đoạn cực kỳ cuối game |
+| **Thạch Sao** | Cao | Tốt để tích lũy độ thiện cảm ban đầu |
+| **Vé Kiến** | Thấp | Hữu ích để dọn dẹp túi đồ |
+
+<Callout type="warning" title="Cảnh Báo Quyên Góp">
+Đừng quyên góp Lọ Đám Mây để lấy ong cho đến khi bạn đã xác nhận việc quyên góp Cánh Hoa Tâm Linh của mình. Những lọ được quyên góp trước khi dâng cánh hoa chỉ tích lũy độ thiện cảm và sẽ không bao giờ mang lại trứng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vị Trí Xuất Hiện Của Ong Gió Hoang Dã">
+
+Để farm lọ hiệu quả, bạn phải biết nơi Ong Gió Hoang Dã thích ẩn nấp. Boss không xuất hiện ngẫu nhiên trên mọi cánh đồng; nó tuân theo một quy luật logic cụ thể. Khi bạn vào một máy chủ, hãy nhìn vào Đền Thờ Gió. Nếu chuông gió đang đung đưa và phát sáng, nghĩa là chú ong đang hoạt động ở đâu đó trên bản đồ.
+
+| Cấp độ cánh đồng | Tên cánh đồng | Chất lượng vật phẩm rơi ra | Độ khó |
+| :--- | :--- | :--- | :--- |
+| **Khởi đầu** | Cánh đồng Bồ Công Anh | Thấp | Dễ |
+| **Tầm trung** | Vườn Dứa | Trung bình | Trung bình |
+| **Tầm trung** | Vườn Bí Ngô | Trung bình | Trung bình |
+| **Cấp cao** | Cánh đồng Đỉnh Núi | Cao | Khó |
+| **Cấp cao** | Cánh đồng Dừa | Xuất sắc | Rất khó |
+
+**Mẹo chiến đấu:**
+- **Ong Độc Ác (Vicious Bee)**: Cần thiết cho kỹ năng "Đâm Gai" (Impale) để gây sát thương bộc phát cực lớn.
+- **Cộng dồn Tốc độ (Haste Stacks)**: Giữ tốc độ di chuyển của bạn ở mức cao để né tránh các cơn lốc xoáy.
+- **Tàu lượn (Glider)**: Sử dụng tàu lượn để lơ lửng trên không và tránh hiệu ứng "đẩy lùi" (knockback) từ các luồng gió của ong.
+
+<Callout type="tip" title="Chiến Thuật Chuyên Nghiệp">
+Nếu Ong Gió Hoang Dã xuất hiện ở Cánh đồng Dừa, hãy cố gắng dụ nó ra rìa cánh đồng. Điều này ngăn Cua Dừa (Coconut Crab) tấn công bạn cùng một lúc, điều có thể dẫn đến việc bạn bị hạ gục nhanh chóng.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh Sách Kiểm Tra và Câu Hỏi Thường Gặp">
+
+Duy trì nguồn cung cấp lọ ổn định là chìa khóa để tiến triển trong giai đoạn cuối game. Hãy sử dụng danh sách kiểm tra này để đảm bảo bạn đang tối đa hóa lượng lọ thu thập được hàng ngày.
+
+<Checklist
+  id="daily-vial-routine"
+  title="Thói quen thu hoạch Lọ Đám Mây hàng ngày:"
+  items={[
+    "Kiểm tra chuông Đền Thờ Gió mỗi khi bạn tham gia vào một máy chủ mới",
+    "Đánh bại nhất 3 Ong Gió Hoang Dã để đạt giới hạn 10 lọ",
+    "Quyên góp 10 lọ cho Đền Thờ Gió nếu bạn đã quyên góp Cánh Hoa Tâm Linh",
+    "Sử dụng các lọ thừa cho Máy Trồng Cây để tăng tốc sản xuất mật hoa (nectar)",
+    "Xếp chồng 5 nhãn dán để kiểm tra phần thưởng lọ từ Chồng Nhãn Dán"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Cần bao nhiêu Lọ Đám Mây để có được Ong Gió?",
+    answer: "Không có số lượng cố định. Điều này phụ thuộc vào điểm Thiện Cảm ẩn của bạn. Một số người chơi nhận được sau 100 lọ, trong khi những người khác có thể mất hơn 500 lọ. Việc quyên góp đều đặn các vật phẩm tăng độ thiện cảm cao như Thạch Sao sẽ giúp ích rất nhiều."
+  },
+  {
+    question: "Tôi có thể nhận được Lọ Đám Mây từ các trò chơi ghép hình ghi nhớ (memory match) không?",
+    answer: "Có, Lọ Đám Mây thỉnh thoảng xuất hiện trong Trò chơi Ghép hình Cực hạn (Extreme Memory Match - khu vực 30 ong) và Trò chơi Ghép hình Ban đêm (Night Memory Match), mặc dù chúng khá hiếm."
+  },
+  {
+    question: "Số lượng lọ quyên góp cùng một lúc có quan trọng không?",
+    answer: "Có. Việc quyên góp 10 lọ cùng một lúc thường được coi là hiệu quả hơn để kích hoạt phần thưởng trứng khi độ thiện cảm của bạn đã đủ cao."
+  },
+  {
+    question: "Cách tốt nhất để tự triệu hồi Ong Gió Hoang Dã theo cách thủ công là gì?",
+    answer: "Bạn có thể quyên góp các vật phẩm như Thạch Sao hoặc Xúc Xắc Cánh Đồng (Field Dice) cho Đền Thờ Gió để có cơ hội triệu hồi Ong Gió Hoang Dã, nhưng điều này không đảm bảo và có thời gian hồi chiêu là 30 phút."
+  }
+]} />
+
+<Callout type="success" title="Lời Khuyên Cuối Cùng">
+Vào năm 2026, **Lọ Đám Mây trong Bee Swarm Simulator** vẫn là vật phẩm tiêu hao quan trọng nhất đối với những người chơi đang chuyển đổi sang meta "Tổ Ong Xanh" (Blue Hive) hoặc "Tổ Ong Trắng" (White Hive). Hãy luôn luân chuyển túi đồ của bạn và đừng bao giờ tích trữ 10 lọ quá lâu!
+</Callout>
+
+</Section>

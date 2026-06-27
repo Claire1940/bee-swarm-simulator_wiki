@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Field Dice: Hướng dẫn Cày cuốc & Tăng tốc",
+  description: "Làm chủ cách cày cuốc Field Dice trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Khám phá tỷ lệ rơi từ quái, phần thưởng nhiệm vụ và mẹo chế tạo để thu thập tối đa phấn hoa.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Field+Dice+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Từ khóa chính**: Sử dụng **bee swarm simulator field dice** để nhận được +100% lượng phấn hoa tăng thêm ở cánh đồng trong 15 phút.
+- **Cơ chế cốt lõi**: Việc đổ xúc xắc là ngẫu nhiên nhưng có thể bị ảnh hưởng bằng cách quyên góp một lượng cụ thể cho Đền Gió (Wind Shrine).
+- **Chiến thuật tốt nhất**: Cày quái như Ma Sói (Werewolves) và Nhện (Spiders) một cách đều đặn trong khi hoàn thành các nhiệm vụ Gấu để nhận được các tích lũy chắc chắn.
+- **Mẹo quan trọng**: Không sử dụng nhiều xúc xắc cùng một lúc; lượt đổ mới sẽ ghi đè lên hiệu ứng tăng tốc hiện có thay vì cộng dồn thời gian.
+- **Lựa chọn hàng đầu**: Chế tạo Xúc xắc Mịn (Smooth Dice) trong Máy xay (Blender) là cách tốt nhất để nâng cấp Field Dice tiêu chuẩn của bạn nhằm đạt hiệu suất cao hơn.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu Cơ chế của Field Dice trong Bee Swarm Simulator">
+
+Trong thế giới do Onett tạo ra, **bee swarm simulator field dice** đóng vai trò là một vật phẩm hành trang cơ bản cho những người chơi muốn tối ưu hóa việc thu thập phấn hoa của họ. Được thêm vào ban đầu trong bản cập nhật năm 2019 và được tinh chỉnh vào cuối năm 2021, những vật phẩm này là thiết yếu cho quá trình tiến trình giữa game và cuối game. Khi sử dụng, một Field Die (số ít) sẽ chọn ngẫu nhiên một cánh đồng mà người chơi đã mở khóa và áp dụng hiệu ứng Tăng tốc Cánh đồng Phấn hoa (Pollen Field Boost) khổng lồ +100%. Hiệu ứng này kéo dài trong 15 phút, mang lại một khoảng thời gian đáng kể để cày cuốc với cường độ cao.
+
+**Điểm nhấn Video:**
+- Các tuyến đường hiệu quả để cày Field Dice từ quái hàng ngày.
+- Cách sử dụng Chậu cây (Planters) để tạo phần thưởng Xúc xắc một cách thụ động.
+- Phối hợp với đồng đội để nhặt xúc xắc rơi ra từ Nấm phồng (Puffshroom).
+- Mẹo Trò chơi Trí nhớ (Memory Match) nhanh để rinh về tối đa 5 Xúc xắc mỗi trò chơi.
+
+<YouTubeEmbed videoId="TXfg_5CJ8m8" title="CÁCH CÀY FIELD DICE NHƯ PRO trong Bee Swarm Simulator" />
+
+Hiểu được những giới hạn của các vật phẩm này cũng quan trọng không kém việc biết được lợi ích của chúng. Mặc dù hiệu ứng tăng tốc rất mạnh mẽ, nhưng điều quan trọng cần nhớ là Field Dice không cộng dồn thời gian hoặc cường độ. Nếu bạn đổ một viên xúc xắc khi một hiệu ứng tăng tốc đang hoạt động, lượt đổ mới sẽ thay thế hoàn toàn lượt đổ trước đó. Điều này có nghĩa là bạn nên luôn chờ bộ đếm thời gian 15 phút của mình hết hạn—hoặc gần hết hạn—trước khi đổ lại, trừ khi bạn đang cố tình tìm kiếm một hiệu ứng tăng tốc cánh đồng khác.
+
+| Loại Xúc xắc | Tỷ lệ Tăng tốc | Thời gian | Nguồn chính |
+| :--- | :--- | :--- | :--- |
+| **Field Dice** | +100% Phấn hoa | 15 Phút | Quái, Nhiệm vụ, Chậu cây |
+| **Smooth Dice** | +100% Phấn hoa + thêm | 15 Phút | Chế tạo trong Máy xay |
+| **Loaded Dice** | +100% (Nhiều Cánh đồng) | 15 Phút | Gấu Robo, Gói Đặc biệt |
+
+<Callout type="tip" title="Bí mật Chọn Cánh đồng">
+Bạn hoàn toàn có thể nhận được hiệu ứng tăng tốc cho các khu vực độc quyền như Đỉnh Núi (Mountain Top) hoặc Cánh đồng Dừa (Coconut Field) thông qua Xúc xắc, mặc dù các Máy tăng tốc Cánh đồng Đỏ/Xanh (Red/Blue Field Boosters) tiêu chuẩn trong các cửa hàng không thể nhắm mục tiêu vào những địa điểm này.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các Phương pháp Cày Field Dice Tốt nhất">
+
+Việc có được nguồn cung cấp ổn định **bee swarm simulator field dice** đòi hỏi một cách tiếp cận đa diện bao gồm chiến đấu, khám phá và các trò chơi nhỏ. Đối với hầu hết người chơi, săn quái là nguồn hàng ngày nhất quán nhất. Quái trên khắp bản đồ có tỷ lệ rơi Xúc xắc khác nhau, trong đó các boss cấp cao hơn mang lại cơ hội tốt hơn đáng kể.
+
+<CardGrid cols={3}>
+  <Card title="Săn Quái">
+    - **Bọ rùa & Bọ cạp**: Tỷ lệ rơi thấp nhưng dễ cày.
+    - **Ma sói & Nhện**: Tỷ lệ rơi trung bình ở khu vực 10-15 con ong.
+    - **Rệp (Aphids)**: Xuất hiện hiếm hoi nhưng thường rơi nhiều Xúc xắc.
+  </Card>
+  <Card title="Chạm trán Boss">
+    - **Gà Mondo**: Tiêu diệt nhanh chóng để có cơ hội cao nhận được Xúc xắc.
+    - **Ong Gió Hoang Dã**: Có thể rơi Xúc xắc khi bị đánh bại hoặc thông qua Đền thờ.
+    - **Gấu Đường Hầm**: Một nguồn đáng tin cậy cho các vật phẩm tiêu hao khác nhau.
+  </Card>
+  <Card title="Trò chơi nhỏ">
+    - **Trò chơi Trí nhớ**: Có sẵn ở các khu vực 5, 15 và 30 con ong.
+    - **Nấm phồng**: Rơi hiếm hoi trong các khung giờ xuất hiện kéo dài 15 phút.
+    - **Chồng Nhãn dán**: Thêm nhãn dán Xương ước (Wishbone) sẽ tặng 5 Xúc xắc.
+  </Card>
+</CardGrid>
+
+Gà Mondo đặc biệt có giá trị vì người chơi có thể chuyển máy chủ (server hop) để tiêu diệt nó nhiều lần trong một thời gian ngắn. Chiến thuật này, kết hợp với việc dọn dẹp hang Ma sói và cánh đồng Nhện thường xuyên, đảm bảo bạn không bao giờ hết lượt tăng tốc trong các phiên cày cuốc lớn của mình.
+
+| Tên Quái | Vị trí | Tần suất Rơi | Cấp độ Khuyến nghị |
+| :--- | :--- | :--- | :--- |
+| **Bọ rùa** | Cánh đồng Nấm/Cỏ ba lá | Thấp | Cấp 1+ |
+| **Nhện** | Cánh đồng Nhện | Trung bình | Cấp 5+ |
+| **Ma sói** | Hang Ma sói | Trung bình - Cao | Cấp 8+ |
+| **Gà Mondo** | Đỉnh Núi | Cao | Cấp 10+ |
+| **Ong Gió Hoang Dã** | Nhiều nơi | Đảm bảo (Đền thờ) | Cấp 12+ |
+
+<Callout type="warning" title="Thời gian Hồi sinh của Quái">
+Luôn theo dõi thời gian hồi sinh của Ma sói (1 giờ) và Nhện (30 phút). Bỏ lỡ các đợt xuất hiện này sẽ làm chậm đáng kể quá trình tích lũy Xúc xắc thụ động của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Phần thưởng Nhiệm vụ và Cột mốc">
+
+Nếu bạn thích một con đường có cấu trúc hơn, một số chú Gấu trong trò chơi sẽ cung cấp **bee swarm simulator field dice** như một phần thưởng đảm bảo khi hoàn thành các nhiệm vụ của họ. Gấu Đen (Black Bear), người giao nhiệm vụ đầu tiên mà hầu hết người chơi gặp phải, đặc biệt hào phóng with Xúc xắc trong các chuỗi nhiệm vụ từ giữa đến cuối game của mình.
+
+<Steps>
+  <Step num="1" title="Hoàn thành Nhiệm vụ Gấu Đen">
+    Tập trung vào các nhiệm vụ như 'Bamboo Boogie' và 'Variety Fetcher'. Những nhiệm vụ này thường thưởng từ 3 đến 5 Field Dice sau khi hoàn thành.
+  </Step>
+  <Step num="2" title="Đạt Cột mốc Gấu Nâu">
+    Gấu Nâu (Brown Bear) thưởng Xúc xắc ở các khoảng thời gian cụ thể. Ví dụ: nhiệm vụ thứ 15, 65 và 145 của ông đều cung cấp 5 Field Dice mỗi nhiệm vụ.
+  </Step>
+  <Step num="3" title="Tiến trình Gấu Tâm Linh">
+    Đối với những người chơi cuối game, các nhiệm vụ 'Bear Without Despair' và 'Echoing Call' của Gấu Tâm Linh (Spirit Bear) cung cấp tới 10 Xúc xắc khổng lồ cho mỗi nhiệm vụ.
+  </Step>
+</Steps>
+
+Nhiệm vụ là cách đáng tin cậy nhất để xây dựng một "lượng dự trữ ban đầu" Xúc xắc. Không giống như việc quái rơi đồ, vốn phụ thuộc vào RNG (Tạo số ngẫu nhiên), phần thưởng nhiệm vụ là cố định. Điều này cho phép bạn lên kế hoạch cho các đợt tăng tốc lớn của mình xung quanh việc hoàn thành các nhiệm vụ khó khăn này.
+
+| Gấu | Tên Nhiệm vụ | Số lượng Phần thưởng | Độ khó |
+| :--- | :--- | :--- | :--- |
+| **Gấu Đen** | One Stop On The Tip Top | 5 Field Dice | Trung bình |
+| **Gấu Đen** | Low Tier Trek | 5 Field Dice | Dễ |
+| **Gấu Nâu** | Cột mốc thứ 15 | 5 Field Dice | Tốn thời gian |
+| **Gấu Tâm Linh** | Pollenpalooza | 5 Field Dice | Khó |
+| **Gấu Mặt Trời** | Right On Target | 3 Field Dice | Đặc thù Sự kiện |
+
+<Callout type="success" title="Giá trị từ Gấu Tâm Linh">
+Các nhiệm vụ của Gấu Tâm Linh rất dài, nhưng phần thưởng thì không gì sánh bằng. Hầu hết tất cả các nhiệm vụ của bà đều bao gồm Field Dice, khiến bà trở thành nguồn cung cấp tối thượng cho các vật liệu tăng tốc cuối game.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật Nâng cao: Chậu cây và Nấm phồng">
+
+Đối với những người chơi tận tụy vào năm 2026, thu nhập thụ động từ **bee swarm simulator field dice** thông qua Chậu cây (Planters) là tiêu chuẩn vàng. Các chậu cây như Chậu dính (Tacky Planter) và Chậu cánh hoa (Petal Planter) có sự tương thích với các cánh đồng cụ thể giúp tăng khả năng nhận được Xúc xắc khi thu hoạch.
+
+- **Chậu dính (Tacky Planter)**: Tốt nhất nên sử dụng ở cánh đồng Cỏ ba lá hoặc Hướng dương để nhận các vật liệu cơ bản.
+- **Chậu cánh hoa (Petal Planter)**: Lý tưởng nhất là đặt ở cánh đồng Cây thông hoặc Bí ngô để nhận các phần thưởng cấp cao bao gồm nhiều Xúc xắc.
+- **Nấm phồng (Puffshrooms)**: Mặc dù hiếm, việc đánh bại Nấm phồng Hiếm (Rare) hoặc Sử thi (Epic) có thể mang lại Field Dice. Điều này hiệu quả nhất khi thực hiện theo nhóm để dọn dẹp các cánh đồng nhanh hơn.
+
+Chậu cây đòi hỏi sự kiên nhẫn, vì chúng mất vài giờ chơi tích cực (hoặc lâu hơn khi ngoại tuyến) để phát triển hoàn toàn. Tuy nhiên, mật độ phần thưởng cao hơn nhiều so với việc cày quái thông thường. Nếu bạn đang nhắm tới một hiệu ứng tăng tốc cánh đồng cụ thể, bạn nên tích lũy sẵn hơn 50 Xúc xắc trước khi bắt đầu một "chu kỳ tăng tốc" nơi bạn đổ liên tục cho đến khi trúng cánh đồng mong muốn.
+
+| Loại Chậu cây | Cánh đồng Tốt nhất | Phần thưởng Chính | Phần thưởng Phụ |
+| :--- | :--- | :--- | :--- |
+| **Chậu dính (Tacky)** | Cỏ ba lá | Gumdrops | Field Dice |
+| **Chậu cánh hoa (Petal)** | Cây thông | Enzymes | Field Dice |
+| **Chậu kẹo (Candy)** | Dâu tây | Treats | Smooth Dice |
+
+<Callout type="tip" title="Hiệu quả khi sử dụng Macro">
+Nhiều người chơi chuyên nghiệp sử dụng macro để tự động hóa việc thu thập Trò chơi Trí nhớ và tiêu diệt quái. Mặc dù không bắt buộc, việc tự động hóa các trò chơi Trí nhớ 5 con ong và 15 con ong là cách nhanh nhất để kiếm được 10-15 Xúc xắc mỗi ngày mà không cần tốn sức.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chế tạo và Tiện ích từ Đền Gió">
+
+Khi bạn đã tích lũy được một lượng dư thừa **bee swarm simulator field dice**, bạn có thể bắt đầu sử dụng chúng để chế tạo nâng cao hoặc triệu hồi các thực thể mạnh mẽ. Máy xay (Blender), nằm ở khu vực 10 con ong, cho phép bạn chuyển hóa các Xúc xắc cơ bản thành các biến thể mạnh hơn.
+
+**Chế tạo Xúc xắc Mịn (Smooth Dice):**
+Để chế tạo một Xúc xắc Mịn, loại xúc xắc mang lại hiệu ứng tăng tốc ổn định hơn và thường vượt trội hơn, bạn sẽ cần các nguyên liệu sau trong Máy xay:
+- 3 Field Dice
+- 3 Sáp mềm (Soft Waxes)
+- 3 Chong chóng (Whirligigs)
+- 3 Dầu (Oils)
+
+Bên cạnh việc chế tạo, Đền Gió (Wind Shrine) là một cơ chế quan trọng đối với Field Dice. Việc quyên góp chính xác 3 Field Dice cho Đền thờ có tỷ lệ thành công gần 100% để triệu hồi một Ong Gió Hoang Dã (Wild Windy Bee). Đây là cách hiệu quả nhất để cày Lọ Mây (Cloud Vials) và mã thông báo Windy Bee mà không cần chờ đợi chúng xuất hiện tự nhiên.
+
+<Checklist
+  id="dice-utility-goals"
+  title="Nhiệm vụ Quản lý Xúc xắc:"
+  items={[
+    "Chế tạo ít nhất 5 Xúc xắc Mịn cho các đợt tăng tốc lớn",
+    "Quyên góp 3 Xúc xắc hàng ngày để triệu hồi Windy Bee",
+    "Duy trì lượng dự trữ tối thiểu 25 Xúc xắc cho các trường hợp khẩn cấp",
+    "Đổ xúc xắc để tìm Nhãn dán Ba Dấu Chấm Than (tỷ lệ 1/289)",
+    "Chỉ sử dụng Xúc xắc khi các Máy tăng tốc Cánh đồng đang trong thời gian hồi chiêu"
+  ]}
+/>
+
+<Callout type="info" title="Nhãn dán Ba Dấu Chấm Than">
+Nếu bạn đổ trúng cùng một cánh đồng ba lần liên tiếp bằng cách sử dụng Field Dice, bạn sẽ kích hoạt một thông báo đặc biệt: "Ồ! Viên Xúc xắc Cánh đồng đó có thứ gì đó trên đó." Điều này sẽ làm xuất hiện Nhãn dán Ba Dấu Chấm Than (Triple Exclamation Sticker) hiếm có ở cánh đồng đó.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Hiệu ứng tăng tốc từ Field Dice có cộng dồn với các máy tăng tốc khác không?",
+    answer: "Có, hiệu ứng tăng tốc của Field Dice cộng dồn với Máy tăng tốc Cánh đồng Đỏ/Xanh và Kim tuyến (Glitter). Tuy nhiên, việc sử dụng một Field Die khác sẽ ghi đè lên hiệu ứng tăng tốc của viên xúc xắc hiện tại của bạn, chứ không cộng thêm vào đó."
+  },
+  {
+    question: "Cánh đồng tốt nhất để sử dụng Field Die là gì?",
+    answer: "Điều này tùy thuộc vào màu tổ ong của bạn. Tổ Xanh muốn cánh đồng Cây thông (Pine Tree), tổ Đỏ muốn Dâu tây (Strawberry) hoặc Hoa hồng (Rose), và tổ Trắng hướng tới cánh đồng Dừa (Coconut) hoặc Hoa (Flower)."
+  },
+  {
+    question: "Tôi có thể nhận được hiệu ứng tăng tốc cho một cánh đồng mà tôi chưa mở khóa không?",
+    answer: "Không, Field Dice sẽ chỉ đổ ra các cánh đồng mà bạn hiện đang có quyền truy cập dựa trên số lượng ong và tiến trình mở cổng của bạn."
+  },
+  {
+    question: "Có giới hạn số lượng Field Dice tôi có thể giữ không?",
+    answer: "Kể từ bản cập nhật ngày 26-12-2021, giới hạn 25 Field Dice trước đó đã bị gỡ bỏ, cho phép bạn tích lũy hàng trăm viên cho các phiên cày cuốc khổng lồ."
+  }
+]} />
+
+</Section>

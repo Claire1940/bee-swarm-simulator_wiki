@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Jelly trong Bee Swarm Simulator: Hướng dẫn cày cuốc & Vị trí",
+  description: "Tìm hiểu cách cày cuốc và tìm kiếm Star Jelly trong Bee Swarm Simulator. Khám phá các phần thưởng rơi ra từ boss chắc chắn, vị trí token ẩn, nhiệm vụ và công thức chế tạo trong máy xay.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Star+Jelly+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Tài nguyên cốt lõi**: **Star Jelly (Keo ngôi sao) trong Bee Swarm Simulator** là một vật phẩm cao cấp được sử dụng để biến đổi bất kỳ con ong thường nào thành một con ong Gifted ngẫu nhiên.
+- **Tỷ lệ rơi chắc chắn**: Đánh bại Cua Dừa (Coconut Crab), Ốc Sên Gốc Cây (Stump Snail) hoặc đạt 10 triệu điểm với Bọ Gậy (Stick Bug) sẽ chắc chắn nhận được Star Jelly.
+- **Token ẩn**: Bốn token miễn phí được giấu khắp bản đồ, bao gồm phía sau cửa hàng của Gấu Bảnh Bao (Dapper Bear) và bên trong Hang Gummy (Gummy Lair).
+- **Chế tạo bằng máy xay**: Chế tạo Star Jelly trong Máy xay (Blender) bằng cách sử dụng 100 Royal Jelly và 3 Glitter.
+- **Công dụng cuối game**: Tiết kiệm Star Jelly của bạn để chế tạo các vật phẩm tiến trình cuối game như Sinh tố siêu cấp (Super Smoothie) và Nhựa thông (Turpentine).
+</Callout>
+
+<Section icon={Map} title="Star Jelly trong Bee Swarm Simulator: Cơ chế & Tổng quan">
+
+Trong Bee Swarm Simulator, việc xây dựng một tổ ong mạnh mẽ đòi hỏi bạn phải biến đổi các con ong tiêu chuẩn thành biến thể Gifted của chúng để mở khóa các chỉ số thưởng (hive bonus) quan trọng. **Star Jelly** là một trong những tài nguyên quý giá nhất cho tiến trình giữa game (mid-game) và cuối game (endgame) [IuSapEK6us0]. Không giống như Royal Jelly thông thường chỉ có tỷ lệ cực nhỏ là 0.4% để tạo ra ong Gifted, Star Jelly đảm bảo 100% biến đổi thành ong Gifted trong khi vẫn giữ nguyên tỷ lệ phân bổ độ hiếm tiêu chuẩn [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Hiểu cách cày cuốc, chế tạo và tìm vị trí của những viên keo này một cách hiệu quả là điều cần thiết để tối ưu hóa tổ ong của bạn và chuẩn bị cho các trang bị cuối game.
+
+**Điểm nhấn video:**
+- **Boss chắc chắn rơi**: Đánh bại Cua Dừa (Coconut Crab) và Ốc Sên Gốc Cây (Stump Snail) để chắc chắn nhận được Star Jelly [IuSapEK6us0].
+- **Trò chơi trí nhớ (Memory Match)**: Chơi Extreme Memory Match để nhận phần thưởng chắc chắn 100%, hoặc thử Mega và Night Memory Match để lấy cơ hội [IuSapEK6us0].
+- **Phần thưởng nhiệm vụ**: Hoàn thành các chuỗi nhiệm vụ cụ thể từ Gấu Khoa Học (Science Bear), Gấu Tâm Linh (Spirit Bear) và Gấu Đen (Black Bear) để nhận được nhiều Star Jelly [IuSapEK6us0].
+- **Token bí mật**: Thu thập bốn token Star Jelly ẩn rải rác trên bản đồ [IuSapEK6us0].
+
+<YouTubeEmbed videoId="IuSapEK6us0" title="Hướng dẫn tối thượng về Star Jelly trong Bee Swarm Simulator!" />
+
+Khi bạn sử dụng Star Jelly lên một con ong, nó sẽ biến đổi thành một con ong Gifted ngẫu nhiên [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Tỷ lệ phân bổ độ hiếm cho lần biến đổi này tương tự như Royal Jelly thông thường, đảm bảo rằng mặc dù trạng thái Gifted được đảm bảo, nhưng độ hiếm cơ bản vẫn phụ thuộc vào sự may mắn của bạn [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+
+| Cấp độ hiếm | Tỷ lệ biến đổi Gifted | Tỷ lệ ước tính |
+| :--- | :--- | :--- |
+| **Rare (Hiếm)** | 69.996% | 1 trong ~2 |
+| **Epic (Sử thi)** | 27.000% | 1 trong ~4 |
+| **Legendary (Huyền thoại)** | 3.000% | 1 trong ~34 |
+| **Mythic (Thần thoại)** | 0.004% | 1 trong 25,000 |
+
+<Callout type="tip" title="Cảnh báo trạng thái Gifted">
+Sử dụng Royal Jelly thông thường lên một con ong Gifted gần như chắc chắn sẽ khiến nó mất đi trạng thái Gifted [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Luôn sử dụng Star Jelly hoặc Star Treat để đảm bảo biến đổi Gifted một cách an toàn [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Đánh bại Boss và Tiêu diệt Quái vật">
+
+Tiêu diệt boss là phương pháp lặp lại đáng tin cậy nhất để thu thập Star Jelly [IuSapEK6us0]. Một số boss cấp cao chắc chắn sẽ rơi ra Star Jelly sau khi bị đánh bại, trong khi các quái vật nhỏ hơn mang lại một cơ hội hiếm hoi để rơi ra chúng [IuSapEK6us0]. Việc đưa những cuộc chạm trán này vào thói quen hàng ngày của bạn là cách tốt nhất để tích lũy Star Jelly mà không cần tốn tài nguyên chế tạo quý giá [IuSapEK6us0].
+
+| Boss / Trận đấu | Tỷ lệ rơi | Độ khó | Chiến thuật |
+| :--- | :--- | :--- | :--- |
+| **Cua Dừa (Coconut Crab)** | Chắc chắn (100%) | Khó | Né dừa rơi; đứng gần bức tường phía sau [IuSapEK6us0]. |
+| **Ốc Sên Gốc Cây (Stump Snail)** | Chắc chắn (100%) | Trung bình (HP cao) | Treo máy tự động click (auto-click) trong Cánh đồng Gốc cây (Stump Field) [IuSapEK6us0]. |
+| **Bọ Gậy (Stick Bug)** | Chắc chắn ở mức điểm 10M+ | Khó | Lập đội với những người chơi cấp cao để tăng điểm số [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. |
+| **Extreme Memory Match** | Chắc chắn (100%) | Trung bình | Tập trung lật các cặp hình nhanh chóng trước khi hết thời gian [IuSapEK6us0]. |
+| **Mega/Night Match** | Cơ hội | Dễ | Chơi hàng ngày; tốn ít Mật ong hơn nhưng phần thưởng là ngẫu nhiên [IuSapEK6us0]. |
+
+Ngoài các phần thưởng chắc chắn từ boss, việc đánh bại các quái vật thông thường và mini-boss trên các cánh đồng cũng có thể rơi ra Star Jelly như một phần thưởng hiếm [IuSapEK6us0].
+
+| Tên Quái vật | Tỷ lệ rơi | Vị trí | Lưu ý quan trọng |
+| :--- | :--- | :--- | :--- |
+| **Gà Mondo (Mondo Chick)** | Tỷ lệ hiếm | Cánh đồng Đỉnh núi (Mountain Top Field) | Rơi ra nhiều phần thưởng hơn nếu bạn tiêu diệt nó càng nhanh [IuSapEK6us0]. |
+| **Gấu Đường Hầm (Tunnel Bear)** | Tỷ lệ hiếm | Đường hầm phía sau Cổng 10 Ong | Yêu cầu ong gây sát thương cao để tiêu diệt trước khi hết giờ [IuSapEK6us0]. |
+| **Bọ Hung Chúa (King Beetle)** | Tỷ lệ hiếm | Hang Bọ Hung Chúa (King Beetle Lair) | Có thể tiếp cận phía sau Cánh đồng Hoa Xanh (Blue Flower Field) [IuSapEK6us0]. |
+| **Ong Gió (Windy Bee)** | Tỷ lệ hiếm | Nhiều cánh đồng khác nhau | Được triệu hồi qua Đền Gió (Wind Shrine) hoặc xuất hiện ngẫu nhiên [IuSapEK6us0]. |
+| **Nhện / Ma sói (Spider / Werewolf)** | Cực kỳ hiếm | Cánh đồng Nhện / Hang Ma sói | Thời gian hồi chiêu nhanh; hãy tiêu diệt chúng mỗi khi chúng hồi sinh [IuSapEK6us0]. |
+
+<Callout type="warning" title="Cảnh báo Thử thách Gấu Robot (Robo Bear Challenge)">
+Ấp trứng hoặc biến đổi một con ong ở giữa Thử thách Gấu Robot sẽ ngay lập tức kết thúc lượt chơi của bạn [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Luôn hoàn thành các vòng thử thách trước khi sử dụng Star Jelly [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+</Callout>
+
+<Steps>
+  <Step num="1" title="Tiêu diệt Boss hàng ngày">
+    Bắt đầu lượt chơi của bạn bằng cách đánh bại Cua Dừa và kiểm tra Ốc Sên Gốc Cây [IuSapEK6us0]. Đây là những nguồn rơi chắc chắn chính của bạn [IuSapEK6us0].
+  </Step>
+  <Step num="2" title="Chơi các trận đấu trí nhớ (Memory Matches)">
+    Truy cập Extreme Memory Match và Mega/Night Memory Matches [IuSapEK6us0]. Hãy đảm bảo bạn đã tiết kiệm đủ Mật ong để trả phí tham gia [IuSapEK6us0].
+  </Step>
+  <Step num="3" title="Dọn dẹp quái vật hồi sinh">
+    Đánh bại Ma sói, Nhện, Bọ Hung Chúa và Gấu Đường Hầm [IuSapEK6us0]. Hãy để mắt đến sự xuất hiện của Ong Gió và Gà Mondo [IuSapEK6us0].
+  </Step>
+  <Step num="4" title="Tham gia các thử thách">
+    Tham gia Thử thách Gấu Robot và thử thách Bọ Gậy bất cứ khi nào chúng hoạt động để tối đa hóa cơ hội rơi vật phẩm [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Nhiệm vụ và Vị trí Token trên bản đồ">
+
+Nhiệm vụ là một cách tuyệt vời để đảm bảo nhận được Star Jelly khi bạn tiến bộ trong game [IuSapEK6us0]. Ngoài ra, có bốn token bí mật được giấu quanh bản đồ mà mỗi người chơi có thể thu thập một lần [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+
+| Người giao nhiệm vụ | Tên / Số thứ tự nhiệm vụ cụ thể | Số lượng phần thưởng | Lưu ý quan trọng |
+| :--- | :--- | :--- | :--- |
+| **Gấu Đen (Black Bear)** | Bubble Trouble / Pollen Fetcher 6 | 1 Star Jelly mỗi nhiệm vụ | Một phần của chuỗi nhiệm vụ Trứng Thần Thoại (Mythic Egg) [IuSapEK6us0]. |
+| **Gấu Khoa Học (Science Bear)** | Bees Ponto / Epistemological Endeavor | 1 Star Jelly mỗi nhiệm vụ | Các mốc quan trọng trong chuỗi nhiệm vụ Máy dịch (Translator) [IuSapEK6us0]. |
+| **Gấu Khoa Học (Science Bear)** | Corrupting the Glitch | 1 Star Jelly | Phần thưởng chuỗi nhiệm vụ Glitch Drive [IuSapEK6us0]. |
+| **Gấu Nâu (Brown Bear)** | Nhiệm vụ thứ 90 & 195 | 1 Star Jelly mỗi nhiệm vụ | Đòi hỏi cày cuốc đáng kể các nhiệm vụ lặp lại [IuSapEK6us0]. |
+| **Gấu Tâm Linh (Spirit Bear)** | Nhiệm vụ thứ 5, 7, & từ 21 đến 30 | Nhiều Star Jelly | Các nhiệm vụ cấp cao cuối game với phần thưởng tuyệt vời [IuSapEK6us0]. |
+| **Gấu Bảnh Bao (Dapper Bear)** | Nhiệm vụ thứ 5 & 10 | 1 Star Jelly mỗi nhiệm vụ | Tập trung vào cơ chế mật hoa (nectar) và chậu trồng cây (planter) [IuSapEK6us0]. |
+| **Riley & Bucko** | Nhiệm vụ thứ 25 | 1 Star Jelly mỗi nhiệm vụ | Đòi hỏi danh tiếng phe phái và cày cuốc trên cánh đồng [IuSapEK6us0]. |
+| **Ong Mật (Honey Bee)** | Mỗi 10 nhiệm vụ | 1 Star Jelly | Chỉ khuyến nghị nếu bạn đang tăng tỷ lệ chuyển đổi [IuSapEK6us0]. |
+
+Đối với những người chơi muốn thăng tiến nhanh, việc tìm kiếm các token ẩn rải rác trên bản đồ rất được khuyến khích [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+
+<CardGrid cols={4}>
+  <Card title="Tường Máy xay">
+    Nằm ở vị trí cao phía trên Máy xay (Blender) [IuSapEK6us0]. Yêu cầu sức nhảy cao hoặc kỹ năng leo tường thành thạo để tiếp cận [IuSapEK6us0].
+  </Card>
+  <Card title="Hang Gummy">
+    Được giấu gần Gấu Gummy (Gummy Bear) bên trong Hang Gummy (Gummy Lair) [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Yêu cầu Ong Gummy (Gummy Bee) hoặc kẹo cao su (Gumdrops) để vào [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+  </Card>
+  <Card title="Cửa hàng Cánh hoa">
+    Được giấu đằng sau cửa sổ kính bí mật trong Cửa hàng Cánh hoa (Petal Shop) [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Đi bộ ra phía sau quầy để tìm thấy nó [IuSapEK6us0].
+  </Card>
+  <Card title="Cửa hàng Bảnh Bao">
+    Nằm phía sau Cửa hàng của Gấu Bảnh Bao (Dapper Bear's Shop) [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Khu vực bí mật này chỉ có thể tiếp cận vào ban đêm [IuSapEK6us0].
+  </Card>
+</CardGrid>
+
+| Vị trí Token ẩn | Yêu cầu tối thiểu | Khả năng tiếp cận |
+| :--- | :--- | :--- |
+| **Phía trên Máy xay** | Sức nhảy cao hoặc Leo tường | Vĩnh viễn [IuSapEK6us0] |
+| **Hang Gummy** | Quyền vào Hang Gummy | Vĩnh viễn [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom] |
+| **Cửa sổ Cửa hàng Cánh hoa** | Quyền vào Khu vực 35 Ong | Vĩnh viễn [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom] |
+| **Phía sau Cửa hàng Bảnh Bao** | Ban đêm đang hoạt động | Chỉ ban đêm [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom] |
+
+<Callout type="success" title="Tăng tốc dễ dàng đầu game">
+Nhặt các token ẩn là cách nhanh nhất để người chơi ở giai đoạn đầu game có được vài viên Star Jelly đầu tiên mà không cần chiến đấu với các boss cấp cao [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chế tạo bằng Máy xay và Công dụng Cuối game">
+
+Nếu bạn cần một số lượng lớn Star Jelly để chế tạo hoặc tối ưu hóa tổ ong, Máy xay (Blender) là lựa chọn tốt nhất của bạn [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Tuy nhiên, việc chế tạo chúng đòi hỏi một lượng nguyên liệu thô đáng kể [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+
+| Vật phẩm cần chế tạo | Nguyên liệu yêu cầu | Chi phí nguyên liệu thô | Mục đích / Trường hợp sử dụng |
+| :--- | :--- | :--- | :--- |
+| **Star Jelly** | 100 Royal Jelly, 3 Glitter | 1125 Quả dâu tây, 1125 Quả việt quất | Biến đổi ong thành biến thể Gifted [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. |
+| **Super Smoothie** | 3 Star Jelly, 3 Neonberry, 3 Purple Potion, 6 Tropical Drink | N/A | Vật phẩm tăng chỉ số cực kỳ mạnh mẽ [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. |
+| **Turpentine** | 100 Star Jelly, 10 Super Smoothie, 10 Caustic Wax, 1000 Honeysuckle | N/A | Nguyên liệu chế tạo tối thượng vào cuối game [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. |
+
+<Checklist
+  id="star-jelly-goals"
+  title="Các cột mốc Star Jelly:"
+  items={[
+    "Thu thập tất cả 4 token ẩn trên bản đồ",
+    "Đánh bại Cua Dừa để nhận phần thưởng boss chắc chắn rơi đầu tiên",
+    "Chế tạo Star Jelly đầu tiên của bạn trong Máy xay",
+    "Kiếm được 35 Star Jelly cho các vật phẩm mua một lần trong cửa hàng",
+    "Tiết kiệm 100 Star Jelly để chế tạo Nhựa thông (Turpentine) cuối game"
+  ]}
+/>
+
+<Callout type="tip" title="Quản lý Glitter (Kim tuyến)">
+Glitter có thể khá khó kiếm ở giai đoạn đầu đến giữa game [Royal Jelly - Bee Swarm Simulator Wiki - Fandom]. Tránh chế tạo quá nhiều Star Jelly nếu bạn vẫn cần Glitter cho các nâng cấp trang bị khác như Gậy Cánh Hoa (Petal Wand) [Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách tốt nhất để kiếm Star Jelly trong Bee Swarm Simulator là gì?",
+    answer: "Cách ổn định nhất là đánh bại Cua Dừa (Coconut Crab) và Ốc Sên Gốc Cây (Stump Snail), vì chúng chắc chắn sẽ rơi ra Star Jelly. Để cày cuốc tích cực, việc chế tạo chúng trong Máy xay (Blender) bằng 100 Royal Jelly và 3 Glitter là cực kỳ hiệu quả."
+  },
+  {
+    question: "Star Jelly có thể biến một con ong thành ong Mythic Gifted không?",
+    answer: "Có. Star Jelly có tỷ lệ rất nhỏ (0.000016% hoặc 1 trên 6,250,000) để biến một con ong thành ong Mythic Gifted. Nó chia sẻ cùng tỷ lệ phân cấp như Royal Jelly thông thường nhưng đảm bảo trạng thái Gifted."
+  },
+  {
+    question: "Tôi có nên sử dụng Star Jelly cho các con ong sự kiện (Event Bee) của mình không?",
+    answer: "Không. Không thể sử dụng Star Jelly cho Ong Sự Kiện. Để biến Ong Sự Kiện thành Gifted, bạn phải cho chúng ăn Star Treat hoặc thức ăn yêu thích của chúng (mặc dù Star Treat là phương pháp chắc chắn duy nhất)."
+  },
+  {
+    question: "Tôi cần bao nhiêu Star Jelly để chế tạo cuối game?",
+    answer: "Bạn cần tổng cộng 35 Star Jelly cho tất cả các vật phẩm mua một lần. Đối với chế tạo cuối game, bạn sẽ cần 3 Star Jelly cho mỗi Super Smoothie và 100 Star Jelly để chế tạo một viên Turpentine duy nhất."
+  }
+]} />
+
+<Callout type="info" title="Nhận định cuối cùng">
+Luôn ưu tiên các phần thưởng boss chắc chắn rơi và token ẩn trước khi chi tiêu Royal Jelly và Glitter quý giá của bạn trong Máy xay [IuSapEK6us0, Royal Jelly - Bee Swarm Simulator Wiki - Fandom].
+</Callout>
+
+</Section>

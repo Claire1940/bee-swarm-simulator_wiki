@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cangrejo de Coco en Bee Swarm Simulator: Guía de Estrategia y Recompensas",
+  description: "Domina al jefe Cangrejo de Coco en Bee Swarm Simulator con nuestra guía completa de estrategia. Aprende métodos fáciles para derrotarlo, puntos de glitch y recompensas garantizadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Coconut+Crab+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, cangrejo de coco, estrategia, jefe, recompensas, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Derrota al jefe**: El **cangrejo de coco de Bee Swarm Simulator** es un jefe de nivel 12 ubicado en el Campo de Cocos que requiere un posicionamiento estratégico y abejas de alto nivel para ser derrotado.
+- **Evita el reinicio de salud**: No abandones el campo ni saltes demasiado alto (especialmente con la Abeja Oso o botas de salto alto), ya que esto reiniciará inmediatamente la salud del cangrejo.
+- **Esquiva los cocos**: Salta inmediatamente después del segundo salto del cangrejo durante su fase de lluvia de cocos para esquivar el daño entrante.
+- **Trae las abejas adecuadas**: Las abejas de nivel 12+ son ideales para evitar ataques fallidos; se recomienda encarecidamente una Abeja Viciosa de nivel 9+ para el daño principal.
+</Callout>
+
+<Section icon={Shield} title="Introducción y Estadísticas Principales">
+
+El **cangrejo de coco de Bee Swarm Simulator** es uno de los jefes más formidables del juego. Ubicado al fondo del Campo de Cocos, este gigante de nivel 12 defiende la entrada a la codiciada Cueva de Cocos. Derrotarlo es un hito importante para los jugadores en la etapa media del juego, ya que desbloquea la capacidad de comprar equipo de primer nivel como el Bote de Coco (Coconut Canister) y los Zuecos de Coco (Coconut Clogs), además de permitir el farmeo de miel sin interrupciones en el campo.
+
+A diferencia de otros jefes como el Caracol de Tocón (Stump Snail), el Cangrejo de Coco no guarda su salud entre sesiones. Si abandonas el campo, te desconectas o activas un reinicio por límite, su salud volverá instantáneamente a 250,000 HP. Los jugadores tienen un límite de tiempo estricto de dos horas para completar el encuentro antes de que la pelea se reinicie automáticamente.
+
+**Puntos Destacados del Video:**
+- Aprende a posicionarte en el borde del campo para evitar los ataques de pinzas.
+- Entiende el tiempo necesario para esquivar el bombardeo de cocos cayendo.
+- Descubre por qué ciertas configuraciones de colmena y transformaciones de oso pueden reiniciar accidentalmente al jefe.
+
+<YouTubeEmbed videoId="qGYoe6Kt-Mg" title="Cómo derrotar al Cangrejo de Coco [FÁCIL] *CON COLMENA DE BAJO NIVEL* | Bee Swarm Simulator" />
+
+Según el lore oficial del juego documentado en la Wiki, el Cangrejo de Coco es en realidad una especie invasora introducida accidentalmente por el Oso Espíritu (Spirit Bear). Lo que comenzó como un pequeño cangrejo creció hasta convertirse en un guardián masivo debido a años de negligencia, y ahora sirve como el guardián definitivo para la progresión del endgame.
+
+| Estadística | Valor | Detalles |
+| :--- | :--- | :--- |
+| Nivel | **Nivel 12** | El mob de nivel base más alto del juego |
+| Salud | **250,000 HP** | Tercera salud base más alta en BSS |
+| Tiempo de Respawn | **36 Horas** | El enfriamiento se reduce a 30.6 horas con la Abeja Viciosa Regalada |
+| Límite de Tiempo | **2 Horas** | La salud se reinicia al máximo si el tiempo expira |
+| Reinicio de Campo | **Instantáneo** | Se reinicia si el jugador sale del campo o salta muy alto |
+
+<Callout type="warning" title="Cuidado con la Altura de Salto">
+Saltar demasiado alto mientras luchas contra el Cangrejo de Coco puede activar un reinicio por límites, devolviendo su salud al 100%. Evita usar las Botas Gomosas (Gummy Boots) o transformaciones activas de Abeja Oso si estás utilizando el truco de seguridad del borde.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Patrones de Ataque y Mecánicas de Esquiva">
+
+El Cangrejo de Coco utiliza una rotación altamente predecible que consiste en dos fases de ataque principales. Comprender estos patrones es esencial para la supervivencia, ya que un solo golpe de sus cocos cayendo puede derrotar instantáneamente a jugadores con equipo insuficiente.
+
+Durante la Fase de Pinzas, el cangrejo intenta alinearse con tu personaje y lanza ataques rápidos con sus pinzas. Realiza siete estocadas rápidas, hace una pausa para reposicionarse y repite esta secuencia dos veces más para un total de 21 golpes. Cada golpe inflige 40 de daño base antes de aplicar la defensa. Puedes esquivar fácilmente esta fase moviéndote continuamente o planeando de lado a lado a través del campo.
+
+Durante la Fase de Cocos, el cangrejo se retira al centro de la pared trasera y salta ocho veces. Cada salto lanza un coco grande que apunta al campo. El primer coco siempre apunta a tu posición exacta, mientras que los siete restantes caen al azar. Estos infligen un devastador daño base de 150 y pueden resultar letales fácilmente.
+
+| Tipo de Ataque | Daño | Mecánicas | Cómo Esquivar |
+| :--- | :--- | :--- | :--- |
+| Ataque de Pinza | **40 Daño** | Ataca rápido al jugador 21 veces en total | Camina o planea pasando al cangrejo mientras se acerca |
+| Ataque de Coco | **150 Daño** | Lanza 8 cocos grandes tras saltar 8 veces | Salta tras el segundo salto del cangrejo o usa el glitch del borde |
+
+<Callout type="tip" title="Estrategia con Planeador">
+Usar un Planeador (Glider) para circular alrededor de las pinzas del cangrejo te permite evitar completamente el daño de las pinzas mientras mantienes a tus abejas lo suficientemente cerca para infligir daño constante.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración de Colmena Recomendada y Buffs">
+
+La preparación es clave para reducir el tiempo de eliminación de horas a minutos. Debido a que el Cangrejo de Coco es nivel 12, cualquier abeja en tu colmena por debajo del nivel 12 sufrirá una alta tasa de fallos. Las abejas que tienen un nivel significativamente inferior pueden fallar sus ataques por completo, alargando la pelea indefinidamente.
+
+Para maximizar tu daño, debes concentrarte en una composición de colmena que priorice el poder crítico, los buffs de ataque y las habilidades de combate directo.
+
+<CardGrid cols={3}>
+  <Card title="Atacantes Principales">
+    - **Abeja Viciosa**: Esencial para el daño de picos; se recomienda nivel 9+ o superior.
+    - **Abejas Rabiosas/Picantes**: Aumentan el poder de ataque general de la colmena.
+    - **Abejas Precisas/León**: Infligen un alto daño a un solo objetivo.
+  </Card>
+  <Card title="Soportes Críticos">
+    - **Abeja Música**: Genera tokens de Foco (Focus) y Melodía.
+    - **Abeja Observadora Regalada**: Otorga **+25% de Poder Crítico**.
+    - **Abeja Atigrada Regalada**: Otorga **+50% de Poder Crítico**.
+  </Card>
+  <Card title="Potenciadores Consumibles">
+    - **Aguijones**: Proporcionan un buff de **x1.5 de Ataque de Abeja**.
+    - **Aceite**: Aumenta la velocidad de movimiento por **x1.2** para el jugador y las abejas.
+    - **Bebida Tropical**: Otorga **+5% de Probabilidad Crítica** durante 10 minutos.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="prefights-checklist"
+  title="Lista de Preparación Previa a la Batalla:"
+  items={[
+    "Reúne una pila de x10 tokens de Foco en el Parche de Pimienta antes de entrar",
+    "Asegúrate de que tu Abeja Viciosa sea al menos nivel 9 (preferiblemente nivel 12)",
+    "Equipa y activa Aguijones para el aumento de ataque x1.5",
+    "Consume Aceite y Bebidas Tropicales para maximizar la velocidad y la probabilidad crítica",
+    "Desequipa botas de salto alto o la Abeja Oso si vas a intentar el glitch del borde"
+  ]}
+/>
+
+<Callout type="success" title="Truco de Acumulación de Foco">
+Siempre acumula tus tokens de Foco hasta x10 en el Parche de Pimienta primero, luego transicióna inmediatamente al Campo de Cocos. Esto garantiza golpes críticos masivos desde el inicio de la pelea.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia Paso a Paso para Derrotar al Cangrejo de Coco">
+
+Mientras que los jugadores de alto nivel pueden vencer al jefe por fuerza bruta, los jugadores de nivel inferior deben confiar en un posicionamiento preciso y exploits mecánicos para asegurar la victoria. Sigue esta progresión paso a paso para derrotar al jefe de forma segura.
+
+<Steps>
+  <Step num="1" title="Activar y Posicionarse">
+    Entra al Campo de Cocos y muévete hacia la esquina del borde cerca de la Cueva de Cocos. Posiciónate en el mismo borde para activar la aparición del cangrejo sin colocarte directamente en su camino físico.
+  </Step>
+  <Step num="2" title="Esquivar la Fase de Pinzas">
+    Si luchas normalmente, camina o planea de lado a lado para provocar las estocadas de las pinzas. Si utilizas el glitch del borde, mantente pegado en la esquina donde las pinzas físicas no pueden hacer contacto con tu hitbox.
+  </Step>
+  <Step num="3" title="Sincronizar los Saltos de Coco">
+    Observa los saltos del cangrejo durante la fase de cocos. Espera a que el cangrejo complete su segundo salto, luego salta en el aire para esquivar los objetivos de círculo rojo de los cocos que caen.
+  </Step>
+  <Step num="4" title="Recolectar Tokens de Forma Segura">
+    Usa Enlaces de Tokens (Token Links), el Tornado de la Abeja Ventosa o la Triangulación de la Abeja Vector para recolectar tokens de habilidad sin entrar en el hitbox letal del cangrejo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Punto Seguro del Árbol">
+Alternativamente, puedes pararte directamente detrás del Árbol de Coco más alejado de la Cueva de Cocos y más cercano al Oso Espíritu. El cangrejo a menudo se queda atascado allí, permitiendo un DPS seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas Garantizadas y Raras">
+
+Derrotar al Cangrejo de Coco otorga algunas de las mejores recompensas de artesanía y progresión del juego. La velocidad a la que derrotes al jefe influye directamente en la calidad, cantidad y rareza de los objetos obtenidos, lo que hace que la optimización de la colmena sea muy gratificante.
+
+| Objeto | Cantidad | Propósito |
+| :--- | :--- | :--- |
+| Cocos | **Varía** | Usados para artesanía y potenciadores de campo generales |
+| Micro-Convertidores | **Garantizado** | Convierte instantáneamente el polen en tu mochila |
+| Bebidas Tropicales | **Garantizado** | Esenciales para fabricar equipo de Coco |
+| Bayas Amargas | **Garantizado** | Usadas para mutar abejas |
+| Jaleas Estelares | **Garantizado** | Transforma una abeja en una Abeja Regalada aleatoria |
+
+| Objeto de Recompensa | Nivel de Rareza | Aspectos Clave |
+| :--- | :--- | :--- |
+| Brillo / Aceite / Pegamento | Común / Poco Común | Materiales de artesanía esenciales |
+| Huevo de Plata / Diamante | Muy Raro | Huevos de alto nivel para tu colmena |
+| Súper Batido | Extremadamente Raro | Consumible de potenciación definitivo |
+| Huevo Mítico / Trato Estelar | Excepcionalmente Raro | Objetos de progresión de máximo valor |
+
+<Callout type="success" title="Regla de Tokens Compartidos">
+Solo el jugador que derrotó a su propio Cangrejo de Coco puede ver y recolectar los tokens soltados. No tienes que preocuparte de que otros jugadores roben tu botín ganado con esfuerzo en servidores públicos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Con qué frecuencia reaparece el cangrejo de coco en Bee Swarm Simulator?",
+    answer: "El Cangrejo de Coco reaparece cada 36 horas (1.5 días) después de ser derrotado. Si tienes una Abeja Viciosa Regalada en tu colmena activa, este enfriamiento se reduce a 30 horas y 36 minutos."
+  },
+  {
+    question: "¿Por qué la salud del Cangrejo de Coco se reinicia durante mi pelea?",
+    answer: "Su salud se reinicia si sales del límite del Campo de Cocos, tocas las paredes circundantes, tardas más del límite de 2 horas o saltas demasiado alto (lo que activa una salida por límite)."
+  },
+  {
+    question: "¿Puedo derrotar al Cangrejo de Coco con una colmena de bajo nivel?",
+    answer: "Sí. Aunque las abejas de nivel 12 son ideales para evitar fallar, puedes derrotarlo con una Abeja Viciosa de nivel 9 o 10 usando el glitch del borde o los puntos seguros de los árboles para evitar recibir daño."
+  }
+]} />
+
+<Callout type="tip" title="Exclusivo de Beesmas">
+Durante el evento estacional de Beesmas, el Cangrejo de Coco tiene la posibilidad de soltar Osos de Jengibre (Gingerbread Bears), lo que lo convierte en un jefe diario de alta prioridad para farmear.
+</Callout>
+
+</Section>

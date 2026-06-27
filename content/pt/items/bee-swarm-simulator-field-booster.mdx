@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Field Booster no Bee Swarm Simulator: Localizações e Guia de Boost",
+  description: "Saiba como encontrar e usar todos os field boosters do Bee Swarm Simulator em 2026. Descubra requisitos de desbloqueio, campos disponíveis e estratégias de empilhamento.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Field+Booster+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, field booster, guia, localizações, boosts, pólen, mel"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Field boosters** fornecem um multiplicador massivo para a coleta de pólen em campos específicos por uma duração limitada.
+- **HQs Vermelha e Azul** contêm boosters específicos por cor que exigem a descoberta de cinco tipos de abelhas vermelhas ou azuis.
+- **Booster do Topo da Montanha** requer vinte abelhas para acessar e impulsiona uma variedade maior de campos.
+- **Períodos de recarga (Cooldown)** duram uma hora, tornando a gestão ativa crucial para a coleta otimizada de mel.
+- **Empilhar itens** como Field Dice e Glitter com efeitos de booster maximiza suas taxas de coleta de recursos.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Field Booster do Bee Swarm Simulator">
+
+O sistema de **field booster no Bee Swarm Simulator** é uma mecânica central projetada para acelerar sua progressão na produção de mel. Espalhadas pelo mapa, essas máquinas estacionárias concedem multiplicadores substanciais à coleta de pólen em campos selecionados aleatoriamente. Utilizar esses boosters regularmente permite que os jogadores terminem missões difíceis mais rápido e acumulem o mel necessário para equipamentos de nível superior e slots de colmeia.
+
+**Destaques do Vídeo:**
+- **Localizações dos Boosters**: Onde encontrar os boosters Azul, Vermelho e Incolor.
+- **Requisitos de Desbloqueio**: A contagem específica de abelhas e tipos necessários para ativação.
+- **Aviso de Segurança**: Evitando perigos ambientais como a parede da HQ Vermelha.
+- **Dicas de Gameplay**: Por que você deve evitar estilingues e usar portais em vez disso.
+
+<YouTubeEmbed videoId="FxCu690SRwo" title="Bee Swarm Simulator - Como usar os Field Boosters. Por favor, curta e se inscreva" />
+
+Cada booster funciona com um cronômetro de recarga rigoroso, o que significa que você deve planejar suas rotas de coleta em torno da disponibilidade deles. Quando ativado, o booster seleciona aleatoriamente um campo de seu grupo designado e aplica um multiplicador a todo o pólen coletado lá. Saber quais campos estão vinculados a cada booster ajuda você a focar nas cores específicas em que sua colmeia se destaca na colheita.
+
+| Booster | Localização | Requisitos | Foco Principal |
+|--- |--- |--- |--- |
+| Booster Azul | HQ Azul (Zona de 10 Abelhas) | 5 Tipos de Abelhas Azuis | Campos Azuis |
+| Booster Vermelho | HQ Vermelha (Zona de 10 Abelhas) | 5 Tipos de Abelhas Vermelhas | Campos Vermelhos |
+| Booster do Topo da Montanha | Topo da Montanha (Zona de 20 Abelhas) | 20 Abelhas | Campos Mistos |
+
+<Callout type="tip" title="Gestão de Recarga">
+Sempre verifique suas missões ativas antes de usar um booster. Se você precisar de pólen vermelho para uma missão do Science Bear, priorize o booster da HQ Vermelha em vez do booster da HQ Azul para maximizar a eficiência da sua progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Localizações e Requisitos de Desbloqueio">
+
+Acessar cada **field booster do Bee Swarm Simulator** requer atingir marcos específicos de progresso. Esses marcos são medidos pelo número total de abelhas em sua colmeia ou pelo número de tipos únicos de abelhas que você descobriu.
+
+<CardGrid cols={3}>
+  <Card title="Field Booster Azul">
+    - **Localização**: Dentro da HQ Azul (Zona de 10 Abelhas).
+    - **Requisito**: 5 tipos únicos de Abelhas Azuis descobertos.
+    - **Campos Principais**: Bambu, Pinheiro, Flor Azul.
+  </Card>
+  <Card title="Field Booster Vermelho">
+    - **Localização**: Dentro da HQ Vermelha (Zona de 10 Abelhas).
+    - **Requisito**: 5 tipos únicos de Abelhas Vermelhas descobertos.
+    - **Campos Principais**: Morango, Rosa, Cogumelo.
+  </Card>
+  <Card title="Booster do Topo da Montanha">
+    - **Localização**: Topo da Montanha (Zona de 20 Abelhas).
+    - **Requisito**: 20 Abelhas no total em sua colmeia.
+    - **Campos Principais**: Topo da Montanha, Abacaxi, Abóbora.
+  </Card>
+</CardGrid>
+
+A HQ Azul está localizada perto do Campo de Flor Azul, passando pelo portão de 10 abelhas. A HQ Vermelha situa-se no lado oposto do mapa, perto do Campo de Rosas. O booster do Topo da Montanha, frequentemente chamado de booster Incolor ou Principal, fica no alto, acima da área inicial, e requer navegar pela rampa ou usar o Canhão Vermelho assim que você desbloquear o portão de 25 abelhas.
+
+| Tipo de Campo | Booster Azul | Booster Vermelho | Booster do Topo da Montanha |
+|--- |--- |--- |--- |
+| Campo de Flor Azul | Alta Chance | Sem Chance | Baixa Chance |
+| Campo de Morango | Sem Chance | Alta Chance | Baixa Chance |
+| Floresta de Pinheiros | Alta Chance | Sem Chance | Média Chance |
+| Campo do Topo da Montanha | Sem Chance | Sem Chance | Alta Chance |
+| Campo de Trevo | Média Chance | Média Chance | Média Chance |
+
+<Callout type="warning" title="Aviso de Perigo">
+Ao navegar perto da HQ Vermelha, evite tocar nas paredes vermelhas brilhantes. O contato com essas barreiras resulta em derrota instantânea do jogador, enviando você de volta ao ponto de spawn inicial e desperdiçando um tempo valioso de viagem.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Ativar e Usar Boosters">
+
+Ativar um booster é um processo simples, mas preparar-se para o boost com antecedência garante que você não desperdice a duração limitada do multiplicador. Siga estas etapas para desbloquear, ativar e utilizar seus boosts de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Verificar Requisitos da Colmeia">
+    Verifique o menu da sua colmeia para garantir que você tem o número necessário de tipos únicos de abelhas vermelhas ou azuis, ou o total de abelhas para a área do Topo da Montanha.
+  </Step>
+  <Step num="2" title="Navegar até a Máquina de Booster">
+    Viaje até a HQ escolhida ou ao Topo da Montanha. Evite usar estilingues se eles te tirarem do curso; em vez disso, caminhe pelos portais designados ou use o Canhão Vermelho se tiver 25 abelhas.
+  </Step>
+  <Step num="3" title="Interagir com o Booster">
+    Caminhe até a plataforma amarela do booster e pressione a tecla de ativação. A tela exibirá o nome do campo que recebeu o multiplicador.
+  </Step>
+  <Step num="4" title="Colher no Campo Impulsionado">
+    Viaje imediatamente para o campo impulsionado e comece a coletar pólen. Use sua melhor ferramenta de coleta e habilidades ativas para maximizar o rendimento.
+  </Step>
+</Steps>
+
+Os boosters escalam em eficácia dependendo do seu equipamento atual e configuração da colmeia. Um único boost pode aumentar significativamente a velocidade de enchimento da sua mochila, exigindo viagens frequentes de volta à sua colmeia para converter pólen em mel.
+
+| Nível de Boost | Multiplicador de Pólen | Duração | Ferramenta Recomendada |
+|--- |--- |--- |--- |
+| Boost Único | 2x Pólen | 15 Minutos | Golden Rake |
+| Boost Duplo | 3x Pólen | 15 Minutos | Porcelain Dipper |
+| Boost Triplo | 4x Pólen | 15 Minutos | Petal Wand |
+
+<Callout type="success" title="Sinergia de Dispensadores">
+Ao visitar as HQs Azul ou Vermelha para ativar seu booster, lembre-se de resgatar seus recursos gratuitos nos dispensadores Azul e Vermelho. Eles fornecem mirtilos (blueberries), morangos e mel gratuitos a cada poucas horas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias Avançadas para Empilhar Boosts">
+
+Para aproveitar ao máximo o seu **field booster no Bee Swarm Simulator**, você deve empilhar seus efeitos com itens e outras mecânicas de jogo. Empilhar multiplicadores aumenta exponencialmente a quantidade de pólen que você coleta por cada movimento do seu coletor.
+
+Antes de ativar um booster, certifique-se de ter os seguintes itens prontos em seu inventário:
+- **Field Dice**: Usado para trocar o campo impulsionado se o booster selecionar um campo que você não deseja cultivar.
+- **Glitter**: Concede um aumento percentual fixo ao pólen e à capacidade em um campo específico.
+- **Extracts (Red/Blue)**: Aumenta a coleta de pólen de cor específica por uma curta duração.
+- **Micro-Converters**: Converte instantaneamente uma parte da sua mochila de pólen em mel, permitindo que você permaneça no campo impulsionado por mais tempo sem retornar à colmeia.
+
+| Item | Fonte | Efeito | Duração |
+|--- |--- |--- |--- |
+| Field Dice | Missões / Loja | Troca o boost de campo ativo | Instantâneo |
+| Glitter | Crafting / Memory Match | +100% Pólen no Campo, +100% Capacidade | 15 Minutos |
+| Red Extract | Crafting / HQ Vermelha | +50% Pólen Vermelho, +25% Ataque de Abelha Vermelha | 10 Minutos |
+| Blue Extract | Crafting / HQ Azul | +50% Pólen Azul, +25% Conversão de Abelha Azul | 10 Minutos |
+
+<Checklist
+  id="booster-prep-checklist"
+  title="Checklist de Preparação para Coleta:"
+  items={[
+    "Limpe o espaço do inventário e esvazie seu recipiente de pólen na colmeia.",
+    "Verifique se seus Field Dice e Micro-Converters estão na sua barra de atalhos.",
+    "Ative seu booster e verifique qual campo recebeu o multiplicador.",
+    "Aplique os Extratos correspondentes e use um Glitter no campo impulsionado.",
+    "Invoque boosts de campo usando o Santuário do Vento (Wind Shrine) se você o tiver desbloqueado."
+  ]}
+/>
+
+<Callout type="info" title="Alinhamento de Cor da Colmeia">
+No final do jogo (late game), alinhar a cor da sua colmeia (Vermelha, Azul ou Branca) com o seu booster de campo preferido gera as maiores taxas de mel por segundo. Colmeias mistas devem focar principalmente no booster do Topo da Montanha.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quanto tempo dura a recarga de cada field booster no Bee Swarm Simulator?",
+    answer: "Cada field booster no jogo tem uma recarga padrão de uma hora. Este cronômetro começa imediatamente após você ativar o booster, independentemente de quanto tempo você passa coletando."
+  },
+  {
+    question: "Posso usar vários field boosters ao mesmo tempo?",
+    answer: "Sim, você pode ativar os boosters Azul, Vermelho e do Topo da Montanha simultaneamente. No entanto, eles impulsionarão campos diferentes, então você só pode coletar em um campo impulsionado de cada vez."
+  },
+  {
+    question: "O booster do Topo da Montanha afeta campos de alto nível como Coconut ou Pepper?",
+    answer: "Não, os field boosters padrão não visam campos de alto nível como o Coconut Patch ou Pepper Patch. Esses campos requerem itens especiais, santuários do vento ou emblemas de grão-mestre para serem impulsionados."
+  },
+  {
+    question: "O que devo fazer se um booster selecionar um campo que eu não preciso?",
+    answer: "Você pode usar um Field Dice do seu inventário para mudar aleatoriamente o campo impulsionado. Isso permite que você procure por um campo que corresponda às suas missões atuais ou à cor da sua colmeia."
+  }
+]} />
+
+<Callout type="tip" title="Boosts de Emblemas">
+Tenha em mente que os emblemas de campo (badges) também concedem multiplicadores permanentes de pólen aos seus respectivos campos. Empilhar essas recompensas de emblemas com boosters de campo ativos é a chave para alcançar bilhões de mel.
+</Callout>
+
+</Section>

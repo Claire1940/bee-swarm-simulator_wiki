@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cera Dura no Bee Swarm Simulator: Guia de Farm e Craft",
+  description: "Aprenda a farmar e craftar Cera Dura no Bee Swarm Simulator. Otimize seus plantadores, derrote Puffshrooms e melhore seus Beequips.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hard+Wax+Farming+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **Cera Dura (Hard Wax) no Bee Swarm Simulator** é um item essencial do meio ao final do jogo, usado para craftar equipamentos premium e melhorar Beequips.
+- **Craftar no Liquidificador (Blender)** continua sendo o método mais confiável, exigindo Cera Macia, Enzimas, Bitter Berries e Geleias Reais.
+- O **Farm passivo** é altamente eficaz ao colocar Plantadores de Argila Vermelha (Red Clay Planters) diretamente no Campo de Abóbora (Pumpkin Patch).
+- **Encontros de combate ativos**, como Snowbears de Nível 5 e Puffshrooms Raros ou superiores, garantem quedas garantidas e de alta probabilidade.
+- A **progressão de final de jogo (endgame)** exige economizar um total de 465 Ceras Duras para craftar todos os itens de compra única.
+</Callout>
+
+<Section icon={Map} title="Cera Dura no Bee Swarm Simulator: Mecânicas e Upgrades">
+
+A Cera Dura (Hard Wax) é um item de inventário especializado adicionado durante a expansão do final de 2021. Ela serve a um duplo propósito: atuar como um ingrediente crucial em receitas de crafting de alto nível e como um material de upgrade consumível para seus Beequips. Quando aplicada a um Beequip, ela tem uma probabilidade definida de melhorar os atributos do item, tornando-se altamente valiosa para jogadores que buscam otimizar o desempenho de sua colmeia.
+
+**Destaques do Vídeo:**
+- Aprenda as configurações ideais de plantadores para maximizar os drops passivos de cera.
+- Entenda a receita exata de crafting no liquidificador para uma produção confiável de cera.
+- Descubra como focar em Puffshrooms de alto nível para drops bônus.
+
+<YouTubeEmbed videoId="iPaKkiqVfbI" title="Como Conseguir Cera Dura Rápido! [Melhor Método] - Bee Swarm Simulator" />
+
+Aplicar Cera Dura a um Beequip traz riscos. Cada tentativa tem 60% de chance de sucesso, o que ativa uma notificação confirmando a melhoria. Se o upgrade falhar, a cera é consumida sem que nenhuma alteração seja feita no Beequip. Isso torna o acúmulo em massa necessário para jogadores que buscam rolagens de atributos perfeitas.
+
+| Métrica de Upgrade | Valor Estatístico | Detalhe Operacional |
+| --- | --- | --- |
+| Chance de Sucesso | 60% | Melhora com sucesso os atributos do Beequip |
+| Chance de Falha | 40% | Consome a cera sem alterações de atributos |
+| Valor do Upgrade | 2 | Valor adicionado ao perfil do Beequip |
+| Sucesso Perfeito 5x | 7,776% | Probabilidade de 5 upgrades consecutivos |
+
+<Callout type="warning" title="Aviso de Risco de Upgrade">
+A Cera Dura é a única cera no jogo que pode falhar em fazer qualquer alteração em um Beequip e ainda assim consumir o item. Como a probabilidade de conseguir um upgrade perfeito de cinco estágios é de aproximadamente 1 em cada 13 Beequips, você deve evitar desperdiçar esse recurso em equipamentos temporários ou de nível baixo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Maneiras de Farmar Cera Dura Rápido">
+
+Farmar Cera Dura com eficiência requer uma combinação de geração passiva de recursos e jogabilidade ativa. O farm passivo depende muito do posicionamento dos plantadores, enquanto o farm ativo envolve enfrentar chefes desafiadores, concluir atividades diárias e coordenar eventos de campo com outros jogadores.
+
+Os plantadores oferecem um fluxo constante de recompensas passivas. Especificamente, os Plantadores de Argila Vermelha (Red Clay Planters) são programados para dropar ceras bônus. Quando colocados no Campo de Abóbora (Pumpkin Patch), a frequência de drop dessas ceras aumenta significativamente. Isso torna o Campo de Abóbora o melhor local absoluto para o farm passivo de cera.
+
+| Método de Farm | Tipo de Atividade | Probabilidade de Drop | Rendimento Esperado |
+| --- | --- | --- | --- |
+| Plantador de Argila Vermelha (Campo de Abóbora) | Passivo | Raro | 1-2 Ceras Duras por colheita |
+| Puffshrooms Raros+ | Ativo | Moderado | Escala com a raridade do Puffshroom |
+| Snowbear de Nível 5 | Luta de Chefe | Garantido | 3 Ceras Duras por derrota |
+| Desafio do Urso Robô | Minijogo Ativo | Comum | Recompensa aleatória por rodada |
+| Velas Honeyday da Riley Bee Dotada | Interativo | 16,3% | 1 Cera Dura por resgate |
+
+<CardGrid cols={3}>
+  <Card title="Estratégia de Plantadores">
+    - O **Plantador de Argila Vermelha** é o melhor
+    - Coloque no **Campo de Abóbora**
+    - Alto potencial de rendimento passivo
+  </Card>
+  <Card title="Corridas de Puffshroom">
+    - Foque nos tipos **Raro e Épico**
+    - Junte-se a um grupo para limpezas mais rápidas
+    - Altas taxas de drop ativo
+  </Card>
+  <Card title="Encontros com Chefes">
+    - Derrote o **Snowbear de Nível 5**
+    - Altas recompensas garantidas
+    - Requer colmeias focadas em combate
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Otimização de Plantadores">
+Para maximizar sua eficiência de farm passivo, sempre rotacione seus Plantadores de Argila Vermelha pelo Campo de Abóbora. Embora outros campos possam conceder recompensas gerais, as tabelas de drop internas do Campo de Abóbora são fortemente ponderadas para itens de cera, tornando-o o local matematicamente mais eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Receitas de Crafting e Guia do Liquidificador">
+
+Embora os drops e missões forneçam excelentes reforços, o crafting é a única maneira de garantir um suprimento constante de Cera Dura. O Liquidificador (Blender), localizado perto do Portão de 15 Abelhas, permite combinar materiais de nível inferior para criar Cera Dura.
+
+Para craftar uma única Cera Dura, você deve reunir Ceras Macias, Enzimas, Bitter Berries e Geleias Reais. Esta receita requer uma mistura equilibrada de recursos colhidos nos campos e sub-materiais craftados.
+
+| Ingrediente Necessário | Quantidade Necessária | Método de Aquisição Principal |
+| --- | --- | --- |
+| Cera Macia | 3 | Crafte no Liquidificador ou colha de Plantadores de Pesticida |
+| Enzimas | 3 | Crafte com Abacaxis ou obtenha de drops de monstros |
+| Bitter Berries | 33 | Derrote monstros de insetos ou limpe Puffshrooms ativos |
+| Geleias Reais | 33 | Compre em lojas ou crafte no Liquidificador |
+
+<Steps>
+  <Step num="1" title="Garanta as Ceras Macias">
+    Crafte Ceras Macias no Liquidificador usando 5 Honeysuckles, 5 Geleias Reais e 10 Sementes de Girassol, ou colete-as passivamente de Plantadores de Pesticida e de Argila.
+  </Step>
+  <Step num="2" title="Reúna Enzimas e Geleias Reais">
+    Farme no Campo de Abacaxi (Pineapple Patch) para reunir os materiais brutos necessários para craftar Enzimas, e acumule Geleias Reais por meio de farm ativo nos campos ou compra direta.
+  </Step>
+  <Step num="3" title="Colha Bitter Berries">
+    Participe de eventos de limpeza de Puffshrooms. Puffshrooms Raros e Épicos dropam grandes quantidades de Bitter Berries, que são vitais para concluir o craft.
+  </Step>
+  <Step num="4" title="Execute o Craft no Liquidificador">
+    Vá até o Liquidificador perto do Portão de 15 Abelhas, insira os ingredientes coletados e inicie o processo de crafting para receber sua Cera Dura.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso na Eficiência de Crafting">
+Ao manter um estoque constante de ingredientes brutos como Abacaxis e Sementes de Girassol, você pode realizar crafts contínuos no Liquidificador. Essa abordagem sistemática ignora completamente a natureza aleatória dos drops dos plantadores, garantindo que você sempre tenha cera suficiente para o seu próximo upgrade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Aplicações de Crafting com Cera Dura">
+
+A Cera Dura não é apenas um consumível de upgrade para o final do jogo; ela também é um componente de crafting fundamental para alguns dos itens mais poderosos do jogo. Economizar sua cera para essas receitas é essencial para a progressão a longo prazo.
+
+Para desbloquear todos os itens de compra única que exigem Cera Dura, você deve acumular um total de 465 Ceras Duras. Isso inclui o crafting de itens utilitários de alto nível e ceras avançadas, como a Cera Espiralada (Swirled Wax).
+
+| Resultado do Crafting | Custo de Cera Dura | Ingredientes Adicionais Necessários |
+| --- | --- | --- |
+| Cera Espiralada | 3 | 9 Ceras Macias, 6 Poções Roxas, 3333 Geleias Reais |
+| Dados Carregados | 3 | 3 Dados Lisos, 3 Óleos, 1 Cola |
+
+<Callout type="info" title="Prioridade de Crafting no Final do Jogo">
+A Cera Espiralada e os Dados Carregados (Loaded Dice) são fundamentais para boosts e progressão de equipamentos no final do jogo. Não gaste todas as suas Ceras Duras em upgrades de Beequips até garantir materiais brutos suficientes para craftar esses itens essenciais de progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Missões do Dapper Bear e Marcos de Progressão">
+
+O Dapper Bear oferece uma série de missões que recompensam os jogadores com Cera Dura garantida. Concluir essas missões é altamente recomendado para jogadores no meio do jogo que precisam dar um pontapé inicial em sua coleção de cera sem gastar recursos valiosos de crafting.
+
+A linha de missões do Dapper Bear recompensa a progressão constante, oferecendo maiores quantidades de Cera Dura à medida que a dificuldade das tarefas aumenta.
+
+| Número da Missão | Título da Missão | Recompensa de Cera Dura | Recompensas Secundárias |
+| --- | --- | --- | --- |
+| Missão 4 | All About Appearances (Tudo Sobre Aparências) | 3 | Tickets, Bitter Berries |
+| Missão 6 | Creative Comforts (Confortos Criativos) | 3 | Cera Macia, Glitter |
+| Missão 8 | Wandering Ambition (Ambição Errante) | 1 | Enzimas, Extrato Azul |
+| Missão 9 | Unintended Intimidation (Intimidação não Intencional) | 3 | Cola, Extrato Vermelho |
+| Missão 14 | Solitarily Steadfast (Solitariamente Firme) | 10 | Neonberries, Bebidas Tropicais |
+
+<Checklist
+  id="hard-wax-milestones"
+  title="Lista de Verificação de Progressão de Cera Dura:"
+  items={[
+    "Complete a missão 'All About Appearances' do Dapper Bear para obter facilmente 3x Ceras Duras.",
+    "Derrote um Snowbear de Nível 5 para garantir 3x drops.",
+    "Estabeleça uma rotação permanente do Plantador de Argila Vermelha no Campo de Abóbora.",
+    "Crafte sua primeira Cera Espiralada usando as Ceras Duras acumuladas.",
+    "Acumule um total de 465 Ceras Duras para concluir todas as receitas de compra única do final do jogo."
+  ]}
+/>
+
+<Callout type="tip" title="Estratégia de Progressão de Missões">
+Foque em concluir a 14ª missão do Dapper Bear, 'Solitarily Steadfast', o mais cedo possível. A recompensa de 10 Ceras Duras é um dos maiores pagamentos de fonte única do jogo, poupando você de horas de coleta e crafting.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Para estratégias mais detalhadas e atualizações da comunidade, confira a [Bee Swarm Simulator Fandom Wiki](https://bee-swarm-simulator.fandom.com/wiki/Hard_Wax).
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de conseguir Cera Dura no Bee Swarm Simulator?",
+    answer: "O método ativo mais rápido é derrotar um Snowbear de Nível 5 para obter 3 drops garantidos, combinado com o farm ativo de Puffshrooms. Para o farm passivo, coloque um Plantador de Argila Vermelha no Campo de Abóbora. Para uma aquisição constante e garantida, craftar no Liquidificador é o método mais confiável."
+  },
+  {
+    question: "O que acontece se a Cera Dura falhar ao tentar dar upgrade em um Beequip?",
+    answer: "Se o upgrade falhar (o que tem 40% de chance de acontecer), a Cera Dura é completamente consumida e o Beequip permanece inalterado. Você receberá uma notificação no jogo informando que a cera parece não ter ajudado."
+  },
+  {
+    question: "Vale a pena usar Cera Dura em Beequips do início do jogo?",
+    answer: "Não. Como a Cera Dura é rara e necessária em grandes quantidades (465 no total) para equipamentos de final de jogo e para o crafting de Cera Espiralada, você deve economizar sua cera e evitar usá-la em Beequips temporários de nível baixo."
+  },
+  {
+    question: "O Campo de Abóbora realmente aumenta as taxas de drop de Cera Dura?",
+    answer: "Sim. As mecânicas do jogo determinam que os plantadores colocados no Campo de Abóbora dropam itens de cera com mais frequência. Combinar este campo com um Plantador de Argila Vermelha, que dropa ceras bônus, gera os melhores resultados de farm passivo."
+  }
+]} />
+
+<Callout type="info" title="Contribuição da Comunidade">
+As estratégias de farm são constantemente otimizadas pela comunidade. Compartilhe suas configurações de plantadores e coordene corridas de Puffshroom com outros jogadores para tornar a busca por Cera Dura muito mais rápida e eficiente.
+</Callout>
+
+</Section>

@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Dados de Campo no Bee Swarm Simulator: Guia de Farm e Boost",
+  description: "Domine o farm de dados de campo no Bee Swarm Simulator com o nosso guia de 2026. Descubra drops de monstros, recompensas de missões e dicas de criação para coleta máxima de pólen.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Field+Dice+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Use os **dados de campo do Bee Swarm Simulator** para obter um bônus de +100% de pólen no campo por 15 minutos.
+- **Mecânica chave**: As jogadas de dados são aleatórias, mas podem ser influenciadas ao doar quantidades específicas ao Santuário do Vento.
+- **Melhor estratégia**: Derrote monstros como Lobisomens e Aranhas de forma consistente enquanto completa as missões dos Ursos para garantir estoques acumulados.
+- **Dica crucial**: Não use vários dados ao mesmo tempo; novas jogadas substituem os bônus existentes em vez de acumular a duração.
+- **Melhor escolha**: Criar Dados Suaves (Smooth Dice) no Liquidificador é a melhor maneira de aprimorar seus Dados de Campo padrão para obter rendimentos ainda melhores.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas dos Dados de Campo no Bee Swarm Simulator">
+
+No mundo criado por Onett, os **dados de campo do Bee Swarm Simulator** servem como um item fundamental de inventário para jogadores que buscam otimizar sua coleta de pólen. Originalmente adicionados na atualização de 2019 e refinados no final de 2021, esses itens são essenciais para a progressão no meio e fim de jogo. Quando consumido, um Dado de Campo (singular) seleciona um campo aleatório que o jogador já desbloqueou e aplica um bônus massivo de +100% de Pólen naquele campo. Esse efeito dura 15 minutos, proporcionando uma excelente janela para farm de alta intensidade.
+
+**Destaques do Vídeo:**
+- Rotas eficientes para farmar Dados de Campo de monstros diários.
+- Como usar Plantadores para gerar recompensas de Dados passivamente.
+- Coordenação com aliados para obter drops de Dados de Puffshrooms.
+- Dicas rápidas de Jogo da Memória para conseguir até 5 Dados por partida.
+
+<YouTubeEmbed videoId="TXfg_5CJ8m8" title="COMO FARMAR DADOS DE CAMPO COMO UM PROFISSIONAL no Bee Swarm Simulator" />
+
+Compreender as limitações desses itens é tão importante quanto conhecer seus benefícios. Embora o bônus seja poderoso, é crucial lembrar que os Dados de Campo não acumulam sua duração ou intensidade. Se você rolar um dado enquanto um bônus já estiver ativo, a nova jogada substituirá completamente a anterior. Isso significa que você deve sempre esperar o cronômetro de 15 minutos expirar — ou quase expirar — antes de rolar novamente, a menos que esteja especificamente tentando obter um bônus de campo diferente.
+
+| Tipo de Dado | Porcentagem de Bônus | Duração | Fonte Principal |
+| :--- | :--- | :--- | :--- |
+| **Dado de Campo** | +100% de Pólen | 15 Minutos | Monstros, Missões, Plantadores |
+| **Dado Suave** | +100% de Pólen + extra | 15 Minutos | Criação no Liquidificador |
+| **Dado Carregado** | +100% (Vários Campos) | 15 Minutos | Urso Robo, Pacotes Especiais |
+
+<Callout type="tip" title="Segredo de Seleção de Campo">
+É possível receber bônus para áreas exclusivas como o Topo da Montanha (Mountain Top) ou o Campo de Coco (Coconut Field) através dos Dados, embora os Geradores de Bônus de Campo Vermelho/Azul padrão nas lojas não possam mirar nesses locais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Métodos de Farm para Dados de Campo">
+
+Adquirir um suprimento constante de **dados de campo do Bee Swarm Simulator** exige uma abordagem multifacetada que envolve combate, exploração e minijogos. Para a maioria dos jogadores, a caça a monstros é a fonte diária mais consistente. Monstros espalhados pelo mapa têm taxas de queda variadas para os Dados, com chefes de nível mais alto oferecendo chances significativamente melhores.
+
+<CardGrid cols={3}>
+  <Card title="Caça a Monstros">
+    - **Joaninhas e Escorpiões**: Taxa de queda baixa, mas fáceis de farmar.
+    - **Lobisomens e Aranhas**: Taxas de queda moderadas na zona de 10 e 15 abelhas.
+    - **Pulgões**: Spawns raros que frequentemente dropam vários Dados.
+  </Card>
+  <Card title="Encontros com Chefes">
+    - **Mondo Chick**: Derrote-o rapidamente para ter uma alta chance de obter Dados.
+    - **Abelha Ventosa Selvagem**: Pode dropar Dados ao ser derrotada ou através do Santuário.
+    - **Urso do Túnel**: Uma fonte confiável de vários consumíveis.
+  </Card>
+  <Card title="Minijogos">
+    - **Jogo da Memória**: Disponível nas zonas de 5, 15 e 30 abelhas.
+    - **Puffshrooms**: Drops raros durante as janelas de spawn de 15 minutos.
+    - **Pilha de Adesivos**: Adicionar o adesivo de Wishbone concede 5 Dados.
+  </Card>
+</CardGrid>
+
+O Mondo Chick é particularmente valioso porque os jogadores podem trocar de servidor (server hop) para derrotá-lo várias vezes em um curto período. Essa estratégia, combinada com limpezas regulares da caverna do Lobisomem e do campo da Aranha, garante que você nunca fique sem bônus durante suas principais sessões de farm.
+
+| Nome do Monstro | Localização | Frequência de Drop | Nível Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Joaninha** | Cogumelo/Trevo | Baixa | Nível 1+ |
+| **Aranha** | Campo de Aranha | Média | Nível 5+ |
+| **Lobisomem** | Caverna do Lobisomem | Média-Alta | Nível 8+ |
+| **Mondo Chick** | Topo da Montanha | Alta | Nível 10+ |
+| **Abelha Ventosa Selvagem** | Vários | Garantido (Santuário) | Nível 12+ |
+
+<Callout type="warning" title="Temporizadores de Renascimento de Monstros">
+Sempre acompanhe os temporizadores do seu Lobisomem (1 hora) e da Aranha (30 minutos). Perder esses spawns reduz significativamente o seu acúmulo passivo de Dados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recompensas de Missões e Marcos">
+
+Se você prefere um caminho mais estruturado, vários Ursos no jogo fornecem **dados de campo do Bee Swarm Simulator** como recompensas garantidas ao completar suas tarefas. O Urso Negro (Black Bear), o primeiro doador de missões que a maioria dos jogadores encontra, é particularmente generoso com Dados durante suas linhas de missões de meio a fim de jogo.
+
+<Steps>
+  <Step num="1" title="Complete as Missões do Urso Negro">
+    Foque em missões como 'Bamboo Boogie' e 'Variety Fetcher'. Elas normalmente recompensam entre 3 e 5 Dados de Campo ao serem concluídas.
+  </Step>
+  <Step num="2" title="Alcance os Marcos do Urso Marrom">
+    O Urso Marrom (Brown Bear) recompensa com Dados em intervalos específicos. Por exemplo, suas missões de número 15, 65 e 145 fornecem 5 Dados de Campo cada.
+  </Step>
+  <Step num="3" title="Progressão com o Urso Espiritual">
+    Para jogadores de fim de jogo, as missões 'Bear Without Despair' e 'Echoing Call' do Urso Espiritual (Spirit Bear) oferecem massivos 10 Dados cada.
+  </Step>
+</Steps>
+
+As missões são a maneira mais confiável de construir um \"estoque inicial\" de Dados. Ao contrário dos drops de monstros, que estão sujeitos ao RNG (Geração de Números Aleatórios), as recompensas de missões são fixas. Isso permite que você planeje seus principais bônus em torno da conclusão dessas tarefas difíceis.
+
+| Urso | Nome da Missão | Quantidade de Recompensa | Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **Urso Negro** | One Stop On The Tip Top | 5 Dados de Campo | Moderada |
+| **Urso Negro** | Low Tier Trek | 5 Dados de Campo | Fácil |
+| **Urso Marrom** | 15º Marco | 5 Dados de Campo | Demorada |
+| **Urso Espiritual** | Pollenpalooza | 5 Dados de Campo | Difícil |
+| **Urso do Sol** | Right On Target | 3 Dados de Campo | Específica de Evento |
+
+<Callout type="success" title="Valor do Urso Espiritual">
+As missões do Urso Espiritual são longas, mas as recompensas são incomparáveis. Quase todas as suas missões incluem Dados de Campo, tornando-a a fonte definitiva de materiais de boost para o fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias Avançadas: Plantadores e Puffshrooms">
+
+Para o jogador dedicado em 2026, a renda passiva de **dados de campo do Bee Swarm Simulator** através de Plantadores (Planters) é o padrão ouro. Plantadores como o Plantador Brega (Tacky Planter) e o Plantador de Pétalas (Petal Planter) têm afinidades de campo específicas que aumentam a probabilidade de receber Dados ao serem colhidos.
+
+- **Plantador Brega**: Melhor usado nos campos de Trevo (Clover) ou Girassol (Sunflower) para drops de materiais básicos.
+- **Plantador de Pétalas**: Idealmente colocado nos campos de Pinheiro (Pine Tree) ou Abóbora (Pumpkin) para recompensas de alto nível, incluindo múltiplos Dados.
+- **Puffshrooms**: Embora raros, derrotar Puffshrooms Raros ou Épicos pode render Dados de Campo. Isso é mais eficaz quando feito em grupo para limpar os campos mais rapidamente.
+
+Os Plantadores exigem paciência, pois levam várias horas de jogo ativo (or mais tempo offline) para crescer totalmente. No entanto, a densidade de recompensa é muito maior do que o farm padrão de monstros. Se você deseja um bônus de campo específico, recomenda-se ter um estoque de mais de 50 Dados antes de iniciar um \"ciclo de boost\", onde você rola até conseguir o campo desejado.
+
+| Tipo de Plantador | Melhor Campo | Recompensa Principal | Recompensa Secundária |
+| :--- | :--- | :--- | :--- |
+| **Brega** | Trevo | Gomas | Dados de Campo |
+| **Pétalas** | Pinheiro | Enzimas | Dados de Campo |
+| **Doces** | Morango | Petiscos | Dados Suaves |
+
+<Callout type="tip" title="Eficiência de Macro">
+Muitos jogadores profissionais usam macros para automatizar a coleta do Jogo da Memória e eliminações de monstros. Embora não seja obrigatório, automatizar seus jogos de Jogo da Memória de 5 e 15 abelhas é a maneira mais rápida de obter de 10 a 15 Dados por dia com zero esforço.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Criação e Utilidade no Santuário do Vento">
+
+Depois de acumular um excedente de **dados de campo do Bee Swarm Simulator**, você pode começar a usá-los para criação avançada ou para invocar entidades poderosas. O Liquidificador (Blender), localizado na zona de 10 abelhas, permite transmutar Dados básicos em variantes mais poderosas.
+
+**Criação de Dados Suaves:**
+Para criar um Dado Suave (Smooth Die), que fornece um bônus mais estável e frequentemente superior, você precisará dos seguintes ingredientes no Liquidificador:
+- 3 Dados de Campo
+- 3 Ceras Macias (Soft Waxes)
+- 3 Whirligigs
+- 3 Óleos (Oils)
+
+Além da criação, o Santuário do Vento (Wind Shrine) é uma mecânica vital para os Dados de Campo. Doar exatamente 3 Dados de Campo ao Santuário tem uma taxa de sucesso de quase 100% para invocar uma Abelha Ventosa Selvagem (Wild Windy Bee). Essa é a maneira mais eficiente de farmar Frascos de Nuvem (Cloud Vials) e tokens de Abelha Ventosa sem esperar por spawns naturais.
+
+<Checklist
+  id="dice-utility-goals"
+  title="Tarefas de Gerenciamento de Dados:"
+  items={[
+    "Criar pelo menos 5 Dados Suaves para grandes bônus",
+    "Doar 3 Dados diariamente para invocar a Abelha Ventosa",
+    "Manter um estoque mínimo de 25 Dados para emergências",
+    "Rolar para obter o Adesivo de Três Exclamações (chance de 1/289)",
+    "Usar Dados apenas quando os Geradores de Campo estiverem em recarga (cooldown)"
+  ]}
+/>
+
+<Callout type="info" title="O Adesivo de Três Exclamações">
+Se você rolar o mesmo campo três vezes seguidas usando Dados de Campo, ativará uma mensagem especial: \"Oh! Esse Dado de Campo tinha algo nele.\" Isso faz com que o raro Adesivo de Três Exclamações (Triple Exclamation Sticker) apareça naquele campo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Os bônus dos dados de campo se acumulam com outros multiplicadores?",
+    answer: "Sim, os bônus dos Dados de Campo se acumulam com os Geradores de Campo Vermelho/Azul e Glitter [2.1.1]. No entanto, usar outro Dado de Campo substituirá o bônus do Dado atual, em vez de adicioná-lo."
+  },
+  {
+    question: "Qual é o melhor campo para usar um dado de campo?",
+    answer: "Isso depende da cor da sua colmeia. Colmeias azuis preferem o Pinheiro (Pine Tree), colmeias vermelhas preferem Morango (Strawberry) ou Rosa (Rose), e colmeias brancas buscam os campos de Coco (Coconut) ou Flor (Flower)."
+  },
+  {
+    question: "Posso obter um bônus para um campo que ainda não desbloqueei?",
+    answer: "Não, os Dados de Campo só selecionarão campos aos quais você tem acesso no momento, com base na sua contagem de abelhas e no progresso dos portões."
+  },
+  {
+    question: "Existe um limite de quantos dados de campo posso carregar?",
+    answer: "A partir da atualização de 26/12/2021, o limite anterior de 25 Dados de Campo foi removido, permitindo que você acumule centenas deles para sessões massivas de farm."
+  }
+]} />
+
+</Section>

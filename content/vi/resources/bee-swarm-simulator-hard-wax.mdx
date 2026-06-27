@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hướng dẫn Cày cuốc & Chế tạo Sáp Cứng trong Bee Swarm Simulator",
+  description: "Tìm hiểu cách cày cuốc và chế tạo Sáp Cứng trong Bee Swarm Simulator. Tối ưu hóa việc đặt chậu cây, đánh bại Nấm Puffshroom và nâng cấp Beequip của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Hard+Wax+Farming+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, sáp cứng, hard wax, hướng dẫn, chế tạo, cày cuốc"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Sáp Cứng (Hard Wax)** trong Bee Swarm Simulator là một vật phẩm thiết yếu ở giai đoạn giữa và cuối game, được sử dụng để chế tạo trang bị cao cấp và nâng cấp Beequip.
+- **Chế tạo trong Máy xay (Blender)** vẫn là phương pháp đáng tin cậy nhất, yêu cầu Sáp Mềm, Enzyme, Quả mọng đắng và Sữa ong chúa.
+- **Cày cuốc thụ động** cực kỳ hiệu quả khi đặt Chậu Đất Sét Đỏ trực tiếp vào Cánh đồng Bí ngô (Pumpkin Patch).
+- **Các cuộc đụng độ chiến đấu** như Gấu Tuyết (Snowbear) cấp 5 và Nấm Puffshroom hiếm trở lên sẽ đảm bảo hoặc có xác suất rơi vật phẩm cao.
+- **Tiến trình cuối game** yêu cầu tiết kiệm tổng cộng 465 Sáp Cứng để chế tạo tất cả các vật phẩm mua một lần.
+</Callout>
+
+<Section icon={Map} title="Sáp Cứng trong Bee Swarm Simulator: Cơ chế và Nâng cấp">
+
+Sáp Cứng là một vật phẩm chuyên dụng trong kho được thêm vào trong bản mở rộng cuối năm 2021. Nó phục vụ mục đích kép: vừa là nguyên liệu quan trọng trong các công thức chế tạo cấp cao, vừa là vật liệu nâng cấp tiêu hao cho Beequip của bạn. Khi áp dụng cho Beequip, nó có xác suất nhất định để tăng cường các chỉ số của vật phẩm, khiến nó trở nên cực kỳ giá trị đối với những người chơi muốn tối ưu hóa hiệu suất của tổ ong.
+
+**Điểm nhấn Video:**
+- Tìm hiểu cách thiết lập chậu cây tối ưu để tối đa hóa lượng sáp rơi thụ động.
+- Nắm rõ công thức chế tạo chính xác trong máy xay để sản xuất sáp ổn định.
+- Khám phá cách nhắm mục tiêu vào Nấm Puffshroom cấp cao để nhận thêm phần thưởng.
+
+<YouTubeEmbed videoId="iPaKkiqVfbI" title="Cách lấy Sáp Cứng nhanh nhất! [Phương pháp tốt nhất] - Bee Swarm Simulator" />
+
+Việc áp dụng Sáp Cứng vào Beequip đi kèm với rủi ro. Mỗi lần thử có 60% cơ hội thành công, điều này sẽ kích hoạt thông báo xác nhận sự cải thiện. Nếu nâng cấp thất bại, sáp sẽ bị tiêu hao mà không có thay đổi nào đối với Beequip. Điều này khiến việc tích lũy số lượng lớn trở nên cần thiết đối với những người chơi tìm kiếm các chỉ số hoàn hảo.
+
+| Chỉ số nâng cấp | Giá trị thống kê | Chi tiết vận hành |
+| --- | --- | --- |
+| Tỉ lệ thành công | 60% | Cải thiện thành công chỉ số Beequip |
+| Tỉ lệ thất bại | 40% | Tiêu hao sáp mà không thay đổi chỉ số |
+| Giá trị nâng cấp | 2 | Giá trị được cộng thêm vào hồ sơ Beequip |
+| Thành công 5 lần liên tiếp | 7.776% | Xác suất đạt 5 lần nâng cấp liên tiếp |
+
+<Callout type="warning" title="Cảnh báo rủi ro nâng cấp">
+Sáp Cứng là loại sáp duy nhất trong trò chơi có thể thất bại khi nâng cấp Beequip mà vẫn bị tiêu hao vật phẩm. Vì xác suất đạt được nâng cấp năm giai đoạn hoàn hảo là khoảng 1 trên 13 Beequip, bạn nên tránh lãng phí tài nguyên này cho các thiết bị cấp thấp hoặc tạm thời.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Những cách tốt nhất để cày Sáp Cứng nhanh">
+
+Cày Sáp Cứng hiệu quả đòi hỏi sự kết hợp giữa việc tạo tài nguyên thụ động và lối chơi chủ động. Cày thụ động phụ thuộc nhiều vào việc đặt chậu cây, trong khi cày chủ động bao gồm việc thách thức các con trùm, hoàn thành hoạt động hàng ngày và phối hợp các sự kiện trên cánh đồng với những người chơi khác.
+
+Chậu cây (Planters) cung cấp một nguồn phần thưởng thụ động ổn định. Cụ thể, Chậu Đất Sét Đỏ được lập trình để rơi thêm sáp bonus. Khi được đặt trong Cánh đồng Bí ngô, tần suất rơi của các loại sáp này tăng lên đáng kể. Điều này khiến Cánh đồng Bí ngô trở thành địa điểm tốt nhất tuyệt đối để cày sáp thụ động.
+
+| Phương pháp cày | Loại hoạt động | Xác suất rơi | Sản lượng dự kiến |
+| --- | --- | --- | --- |
+| Chậu Đất Sét Đỏ (Cánh đồng Bí ngô) | Thụ động | Hiếm | 1-2 Sáp Cứng mỗi lần thu hoạch |
+| Nấm Puffshroom Hiếm+ | Chủ động | Trung bình | Tăng theo độ hiếm của Nấm Puffshroom |
+| Gấu Tuyết Cấp 5 | Đấu Trùm | Đảm bảo | 3 Sáp Cứng mỗi lần đánh bại |
+| Thử thách Gấu Robo | Trò chơi nhỏ | Phổ biến | Phần thưởng ngẫu nhiên mỗi vòng |
+| Nến Ngày Mật của Riley Gifted | Tương tác | 16.3% | 1 Sáp Cứng mỗi lần nhận |
+
+<CardGrid cols={3}>
+  <Card title="Chiến thuật Chậu cây">
+    - **Chậu Đất Sét Đỏ** là tốt nhất
+    - Đặt tại **Cánh đồng Bí ngô**
+    - Tiềm năng sản lượng thụ động cao
+  </Card>
+  <Card title="Săn Nấm Puffshroom">
+    - Nhắm vào loại **Hiếm và Sử thi**
+    - Lập đội để dọn dẹp nhanh hơn
+    - Tỉ lệ rơi chủ động cao
+  </Card>
+  <Card title="Đối đầu với Trùm">
+    - Đánh bại **Gấu Tuyết Cấp 5**
+    - Phần thưởng đảm bảo cao
+    - Yêu cầu tổ ong thiên về chiến đấu
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo tối ưu hóa Chậu cây">
+Để tối đa hóa hiệu quả cày thụ động, hãy luôn luân chuyển Chậu Đất Sét Đỏ của bạn qua Cánh đồng Bí ngô. Mặc dù các cánh đồng khác có thể mang lại phần thưởng chung, nhưng bảng tỉ lệ rơi nội bộ của Cánh đồng Bí ngô thiên nặng về các vật phẩm sáp, khiến nó trở thành địa điểm hiệu quả nhất về mặt toán học.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Công thức chế tạo và Hướng dẫn Máy xay">
+
+Trong khi các vật phẩm rơi và nhiệm vụ cung cấp sự hỗ trợ tuyệt vời, chế tạo là cách duy nhất để đảm bảo nguồn cung Sáp Cứng ổn định. Máy xay (Blender), nằm gần Cổng 15 Con Ong, cho phép bạn kết hợp các vật liệu cấp thấp hơn để tạo ra Sáp Cứng.
+
+Để chế tạo một viên Sáp Cứng, bạn phải thu thập Sáp Mềm, Enzyme, Quả mọng đắng và Sữa ong chúa. Công thức này yêu cầu sự kết hợp cân bằng giữa tài nguyên thu hoạch trên cánh đồng và các nguyên liệu phụ đã qua chế tạo.
+
+| Nguyên liệu cần thiết | Số lượng yêu cầu | Phương pháp thu thập chính |
+| --- | --- | --- |
+| Sáp Mềm (Soft Wax) | 3 | Chế tạo trong Máy xay hoặc thu hoạch Chậu Thuốc trừ sâu |
+| Enzyme | 3 | Chế tạo bằng Dứa hoặc đánh quái rơi ra |
+| Quả mọng đắng (Bitter Berries) | 33 | Đánh bại quái vật bọ hoặc dọn Nấm Puffshroom |
+| Sữa ong chúa (Royal Jellies) | 33 | Mua từ cửa hàng hoặc chế tạo trong Máy xay |
+
+<Steps>
+  <Step num="1" title="Chuẩn bị Sáp Mềm">
+    Chế tạo Sáp Mềm trong Máy xay bằng 5 Kim ngân hoa, 5 Sữa ong chúa và 10 Hạt hướng dương, hoặc thu thập thụ động từ Chậu Thuốc trừ sâu và Chậu Đất Sét.
+  </Step>
+  <Step num="2" title="Thu thập Enzyme và Sữa ong chúa">
+    Cày Cánh đồng Dứa để thu thập nguyên liệu thô cần thiết để chế tạo Enzyme, và tích lũy Sữa ong chúa thông qua việc cày cuốc chủ động hoặc mua trực tiếp.
+  </Step>
+  <Step num="3" title="Thu hoạch Quả mọng đắng">
+    Tham gia vào các sự kiện dọn dẹp Nấm Puffshroom. Nấm Puffshroom Hiếm và Sử thi rơi ra lượng lớn Quả mọng đắng, rất quan trọng để hoàn thành việc chế tạo.
+  </Step>
+  <Step num="4" title="Thực hiện chế tạo tại Máy xay">
+    Di chuyển đến Máy xay gần Cổng 15 Con Ong, nhập các nguyên liệu đã thu thập và bắt đầu quá trình chế tạo để nhận Sáp Cứng của bạn.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thành công trong hiệu quả chế tạo">
+Bằng cách giữ một lượng dự trữ ổn định các nguyên liệu thô như Dứa và Hạt hướng dương, bạn có thể liên tục vận hành Máy xay. Cách tiếp cận hệ thống này hoàn toàn bỏ qua tính chất ngẫu nhiên của việc rơi vật phẩm từ chậu cây, đảm bảo bạn luôn có đủ sáp cho lần nâng cấp tiếp theo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ứng dụng chế tạo của Sáp Cứng">
+
+Sáp Cứng không chỉ là vật phẩm tiêu hao nâng cấp cuối game; nó còn là thành phần chế tạo cơ bản cho một số vật phẩm mạnh nhất trong trò chơi. Tiết kiệm sáp cho các công thức này là rất quan trọng cho tiến trình dài hạn.
+
+Để mở khóa mọi vật phẩm mua một lần yêu cầu Sáp Cứng, bạn phải tích lũy tổng cộng 465 Sáp Cứng. Điều này bao gồm việc chế tạo các vật phẩm tiện ích cấp cao và các loại sáp tiên tiến như Sáp Xoáy (Swirled Wax).
+
+| Sản phẩm chế tạo | Chi phí Sáp Cứng | Nguyên liệu bổ sung yêu cầu |
+| --- | --- | --- |
+| Sáp Xoáy (Swirled Wax) | 3 | 9 Sáp Mềm, 6 Thuốc Tím, 3333 Sữa ong chúa |
+| Xúc xắc Nạp sẵn (Loaded Dice) | 3 | 3 Xúc xắc Nhẵn, 3 Dầu, 1 Keo |
+
+<Callout type="info" title="Ưu tiên chế tạo cuối game">
+Sáp Xoáy và Xúc xắc Nạp sẵn là công cụ quan trọng để tăng tốc và tiến triển trang bị cuối game. Đừng sử dụng tất cả Sáp Cứng của bạn vào việc nâng cấp Beequip cho đến khi bạn đã đảm bảo đủ nguyên liệu thô để chế tạo các vật phẩm tiến trình thiết yếu này.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Nhiệm vụ Gấu Dapper và các Cột mốc tiến trình">
+
+Gấu Dapper (Dapper Bear) cung cấp một loạt các nhiệm vụ phần thưởng cho người chơi bằng Sáp Cứng đảm bảo. Hoàn thành các nhiệm vụ này rất được khuyến khích cho những người chơi giai đoạn giữa game, những người cần khởi động bộ sưu tập sáp của mình mà không tốn tài nguyên chế tạo quý giá.
+
+Chuỗi nhiệm vụ của Gấu Dapper phần thưởng cho sự tiến bộ ổn định, cung cấp số lượng Sáp Cứng lớn hơn khi độ khó của các nhiệm vụ tăng lên.
+
+| Số thứ tự nhiệm vụ | Tên nhiệm vụ | Phần thưởng Sáp Cứng | Phần thưởng phụ |
+| --- | --- | --- | --- |
+| Nhiệm vụ 4 | All About Appearances | 3 | Vé, Quả mọng đắng |
+| Nhiệm vụ 6 | Creative Comforts | 3 | Sáp Mềm, Kim tuyến |
+| Nhiệm vụ 8 | Wandering Ambition | 1 | Enzyme, Chiết xuất Xanh |
+| Nhiệm vụ 9 | Unintended Intimidation | 3 | Keo, Chiết xuất Đỏ |
+| Nhiệm vụ 14 | Solitarily Steadfast | 10 | Quả Neon, Đồ uống Nhiệt đới |
+
+<Checklist
+  id="hard-wax-milestones"
+  title="Danh sách kiểm tra tiến trình Sáp Cứng:"
+  items={[
+    "Hoàn thành nhiệm vụ 'All About Appearances' của Gấu Dapper để nhận dễ dàng 3x Sáp Cứng.",
+    "Đánh bại Gấu Tuyết Cấp 5 để đảm bảo nhận được 3x vật phẩm rơi.",
+    "Thiết lập vòng xoay Chậu Đất Sét Đỏ vĩnh viễn tại Cánh đồng Bí ngô.",
+    "Chế tạo viên Sáp Xoáy đầu tiên của bạn bằng cách sử dụng Sáp Cứng đã tích lũy.",
+    "Tích lũy tổng cộng 465 Sáp Cứng để hoàn thành tất cả các công thức cuối game mua một lần."
+  ]}
+/>
+
+<Callout type="tip" title="Chiến lược tiến trình nhiệm vụ">
+Tập trung hoàn thành nhiệm vụ thứ 14 của Gấu Dapper, 'Solitarily Steadfast', càng sớm càng tốt. Phần thưởng 10 Sáp Cứng là một trong những khoản thanh toán từ một nguồn duy nhất lớn nhất trong trò chơi, giúp bạn tiết kiệm hàng giờ thu thập và chế tạo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+Để biết thêm các chiến lược chi tiết và cập nhật từ cộng đồng, hãy xem [Bee Swarm Simulator Fandom Wiki](https://bee-swarm-simulator.fandom.com/wiki/Hard_Wax).
+
+<FAQ items={[
+  {
+    question: "Cách nhanh nhất để có được Sáp Cứng trong Bee Swarm Simulator là gì?",
+    answer: "Phương pháp chủ động nhanh nhất là đánh bại Gấu Tuyết Cấp 5 để nhận 3 vật phẩm rơi đảm bảo, kết hợp với việc cày Nấm Puffshroom chủ động. Đối với cày thụ động, hãy đặt Chậu Đất Sét Đỏ trong Cánh đồng Bí ngô. Để đảm bảo thu thập ổn định, chế tạo trong Máy xay là phương pháp đáng tin cậy nhất."
+  },
+  {
+    question: "Điều gì xảy ra nếu Sáp Cứng thất bại khi nâng cấp Beequip?",
+    answer: "Nếu nâng cấp thất bại (có 40% khả năng xảy ra), Sáp Cứng sẽ bị tiêu hao hoàn toàn và Beequip vẫn không thay đổi. Bạn sẽ nhận được thông báo trong trò chơi cho biết rằng sáp dường như không giúp ích được gì."
+  },
+  {
+    question: "Có đáng để sử dụng Sáp Cứng cho Beequip đầu game không?",
+    answer: "Không. Vì Sáp Cứng rất hiếm và cần số lượng lớn (tổng cộng 465) cho trang bị cuối game và chế tạo Sáp Xoáy, bạn nên tiết kiệm sáp của mình và tránh sử dụng nó cho các Beequip tạm thời, cấp thấp."
+  },
+  {
+    question: "Cánh đồng Bí ngô có thực sự tăng tỉ lệ rơi Sáp Cứng không?",
+    answer: "Có. Cơ chế trò chơi quy định rằng các chậu cây đặt trong Cánh đồng Bí ngô sẽ rơi các vật phẩm sáp thường xuyên hơn. Kết hợp cánh đồng này với Chậu Đất Sét Đỏ, loại chậu rơi thêm sáp bonus, sẽ mang lại kết quả cày thụ động tốt nhất."
+  }
+]} />
+
+<Callout type="info" title="Đóng góp cộng đồng">
+Các chiến lược cày cuốc liên tục được cộng đồng tối ưu hóa. Hãy chia sẻ cách thiết lập chậu cây của bạn và phối hợp các đợt săn Nấm Puffshroom với những người chơi khác để việc cày Sáp Cứng trở nên nhanh chóng và hiệu quả hơn nhiều.
+</Callout>
+
+</Section>
