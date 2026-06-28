@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Globos de Bee Swarm Simulator: Guía de Recolección Paso a Paso",
+  description: "Descubre cómo optimizar los globos de Bee Swarm Simulator, maximizar la Bendición de Globo y ejecutar la estrategia avanzada de potenciación RBC en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BSS+Balloons+Guide",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Bee Swarm Simulator",
+  keywords: "bee swarm simulator, globos, bendición de globo, estrategia rbc, recolección de polen"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Invoca globos para absorber el polen del campo y convertirlo en miel de alto valor en tu colmena.
+- **Bendición de Globo**: Almacena hasta 10 billones de polen en el globo de tu colmena para alcanzar una bendición de x100.
+- **Estrategia de potenciación RBC**: Aprovecha las mejoras de capacidad del Robo Bear Challenge para inflar artificialmente tus límites de globos.
+- **Ventana de conversión**: Cambia al equipo de conversión y usa un Whirly Gig en los 60 segundos posteriores a finalizar una potenciación.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los Globos de Bee Swarm Simulator y sus Mecánicas Principales">
+
+Dominar los **globos de Bee Swarm Simulator** es uno de los pasos más críticos para convertirse en un jugador de élite, particularmente para las composiciones de colmena azul [ikC7IEK8mIc, Balloon]. Los globos flotan directamente sobre el campo, proyectando una sombra de 5 celdas de radio sobre las flores de abajo [Balloon]. Cualquier polen recolectado de estas flores sombreadas es absorbido por el globo en lugar de llenar tu mochila, lo que permite sesiones de recolección prolongadas sin viajes constantes a la colmena [Balloon].
+
+**Aspectos Destacados del Video:**
+- Las **mejoras de capacidad de RBC** son esenciales para lograr una bendición de globo extremadamente alta.
+- El **cambio de Bequips** maximiza el tamaño de tu bolsa durante la potenciación y la eficiencia de conversión al final.
+- El **posicionamiento en el campo** y los patrones de explosión de burbujas afectan drásticamente la velocidad con la que se llenan tus globos.
+
+<YouTubeEmbed videoId="ikC7IEK8mIc" title="Cómo Aumentar la Bendición de Globo en Bee Swarm Simulator" />
+
+Hay seis tipos únicos de globos disponibles en el juego [Balloon]. Mientras que los globos rosas, rojos, blancos y negros se invocan usando objetos específicos obtenidos de botines de mobs o misiones, los globos azules y dorados se invocan dinámicamente a través de las habilidades de la Abeja Boyante (Buoyant Bee) [Balloon].
+
+| Tipo de Globo | Límite de Cantidad | Modificador de Capacidad | Límite de Tiempo | Método de Obtención |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rosa** | 1 por jugador | Capacidad del Jugador x1 | 3 minutos | Botín de mobs, Misiones |
+| **Rojo** | 1 por jugador | Capacidad del Jugador x5 | 3 minutos | Botín de mobs, Misiones |
+| **Blanco** | 1 por jugador | Capacidad del Jugador x10 | 5 minutos | Botín de mobs, Misiones |
+| **Negro** | 1 por jugador | Capacidad del Jugador x25 | 5 minutos | Botín de mobs, Misiones |
+| **Azul** | Ilimitado | Capacidad del Jugador x0.166 | 20s (+2s/nivel) | Habilidad de Abeja Boyante |
+| **Dorado** | Ilimitado | Capacidad del Jugador x1.25 | 20s (+2s/level) | Abeja Boyante Regalada |
+
+Cuando varios globos se superponen en la misma flor, el globo con la menor cantidad de polen actual tiene prioridad para asegurar un llenado equilibrado [Balloon]. Además, estar bajo cualquier globo activo otorga una acumulación del potenciador Aura de Globo, que tiene un límite de x10 y proporciona hasta x1.2 de polen y +20% de miel de los tokens [Balloon].
+
+<Callout type="tip" title="Optimización del Aura de Globo">
+Intenta siempre permanecer en un solo lugar mientras te potencias. Esto apila tus globos en una ubicación, estableciendo un Aura de Globo de alta densidad que mantiene tu mochila vacía y maximiza tu tasa de recolección de polen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maximizando la Bendición de Globo mediante la Estrategia de Potenciación RBC">
+
+La potenciación del Robo Bear Challenge (RBC) es una metodología avanzada utilizada para asegurar una Bendición de Globo excepcionalmente alta, alcanzando a menudo acumulaciones de x80 a x100 [ikC7IEK8mIc]. Esta estrategia explota las mejoras masivas de capacidad disponibles solo durante el Robo Bear Challenge para inflar tu capacidad máxima de globos antes de volver a una potenciación de campo estándar [ikC7IEK8mIc].
+
+<CardGrid cols={3}>
+  <Card title="Preparación de la Colmena">
+    - **Abejas Azules Regaladas**: Los tipos regalados aumentan la recolección de burbujas en un 15% cada una.
+    - **Abeja Cachorro (Puppy Bee)**: Combínala con Bequips de Reno para el potenciador de capacidad Reindeer Fetch.
+    - **Abeja Viciosa (Vicious Bee)**: Regalada para daño extra durante las rondas desafiantes de RBC.
+  </Card>
+  <Card title="Optimización de Bequips">
+    - **Bequips de Capacidad**: Prioriza objetos que aumenten directamente el tamaño de tu bolsa.
+    - **Cambio Temporal**: Retira los equipos de tasa de conversión y miel en la colmena durante la ejecución.
+    - **Llenar Espacios**: Usa carámbanos o trozos de carbón si te faltan equipos de capacidad de alto nivel.
+  </Card>
+  <Card title="Estrategia de Mejora RBC">
+    - **Potenciadores de Capacidad**: Compra solo mejoras de capacidad; evita comprar mejoras de ataque a menos que sea necesario.
+    - **Mejora de HDD**: Bloquea la mejora de HDD y cómprala solo en tu ronda objetivo final.
+    - **Política de Reinicio**: Si no tienes suerte con las mejoras de capacidad, reinicia la partida.
+  </Card>
+</CardGrid>
+
+Para ejecutar con éxito esta potenciación, debes coordinar tu equipo, potenciadores activos y la progresión del desafío con una sincronización precisa [ikC7IEK8mIc].
+
+<Steps>
+  <Step num="1" title="Preparar Potenciadores Previos">
+    Reúne todos los potenciadores esenciales antes de entrar en la ronda final de RBC. Esto incluye la bendición máxima de Puffroom, 10x Reindeer Fetch, potenciador de copos de nieve, bendición de Mondo, acumulación de stickers y bendición de Galentine.
+  </Step>
+  <Step num="2" title="Iniciar y Finalizar la Ronda Objetivo">
+    Comienza tu ronda objetivo (típicamente la Ronda 20, o 15-19 para jugadores de nivel medio). Usa un Super Smoothie, activa los drives Azul y Glitched, entra en el campo Pine Tree y luego finaliza inmediatamente el desafío.
+  </Step>
+  <Step num="3" title="Ejecutar Potenciación de 14 Minutos">
+    Poténciate intensamente en el campo Pine Tree durante exactamente 14 minutos. Asegúrate de permanecer en un lugar para agregar globos, explotar burbujas durante Tidal Surge y atrapar tokens de inspiración. No excedas los 14 minutos, o arriesgas perder la mitad de tu globo.
+  </Step>
+  <Step num="4" title="Cambio de Equipo y Entrega de Misión">
+    Una vez que termine el temporizador de 14 minutos, tienes una ventana estricta de 60 segundos. Completa la misión de Honey Bee para obtener una tasa de conversión de 2x, equípate la Honey Mask y vuelve a equipar tus bequips de tasa de conversión y miel en la colmena.
+  </Step>
+  <Step num="5" title="Conversión con Whirly Gig">
+    Usa un Whirly Gig en tu colmena para convertir instantáneamente el globo masivo. Esto asegura tu enorme acumulación de Bendición de Globo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Ventana Estricta de Conversión de 60 Segundos">
+Si no completas tus cambios de equipo, entregas de misiones y la conversión con Whirly Gig en los 60 segundos posteriores a finalizar la potenciación, tu globo se desinflará rápidamente y perderás la mayor parte de tu Bendición de Globo potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Recolección en el Campo y Configuración de Cuentas Secundarias">
+
+Para llenar tus **globos de Bee Swarm Simulator** de manera eficiente durante una potenciación de alto nivel, debes optimizar tu estilo de juego activo en el campo [ikC7IEK8mIc]. Quedarse quieto no es suficiente; debes gestionar activamente la explosión de burbujas, los tokens de habilidad y el posicionamiento en el campo [ikC7IEK8mIc].
+
+Cuando se activa la habilidad Tidal Surge (después de explotar 500 burbujas), corre de izquierda a derecha por el campo para explotar tantas burbujas como sea posible [ikC7IEK8mIc]. No te concentres en recolectar tokens de miel individuales generados por los globos; en su lugar, prioriza mantener una pasiva de Pop Star alta y atrapar tokens de Inspiración para mantener tu bolsa llenándose rápidamente [ikC7IEK8mIc].
+
+| Potenciador / Objeto | Beneficio Principal | Duración / Acumulación | Uso Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Super Smoothie** | Aumento masivo de estadísticas generales | 15 minutos | Activar al inicio de la ronda final de RBC |
+| **Glitched Drive** | Aumenta el polen y la tasa de habilidades | Varía | Usar durante la potenciación activa en el campo |
+| **Blue Drive** | Potencia la recolección de polen azul | Varía | Usar en el campo Pine Tree |
+| **Marshmallow Bee** | Capacidad y polen extra | Varía | Opcional pero muy recomendado |
+
+Recolectar con una cuenta secundaria (alt) dedicada puede aumentar drásticamente tu eficiencia [ikC7IEK8mIc]. Una composición especializada de Tadpole Alt debería consistir en 20 Tadpoles, 7 Fuzzies, 11 Buoyants, 6 Shocked Bees, Festive Bee, Bumble Bee y Bucko Bee [ikC7IEK8mIc]. Esta configuración asegura un flujo constante de burbujas y potenciadores de capacidad extra, evitando que la mochila de tu cuenta principal se llene prematuramente [ikC7IEK8mIc].
+
+<Callout type="success" title="Sinergia con Cuenta Secundaria">
+Recolectar con una Tadpole Alt dedicada te permite mantener un Bubble Bloat continuo y genera cantidades masivas de burbujas, lo que acelera la tasa de inflado de tu globo hasta en un 300%.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conversión de Globos en la Colmena y Escalamiento de la Bendición">
+
+Cuando un globo está completamente lleno o su límite de tiempo expira, viaja automáticamente de regreso a tu colmena y se fusiona en el "Globo de la Colmena" [Balloon]. El Globo de la Colmena flota en su lugar sobre tu espacio de colmena, manteniendo el polen almacenado hasta que comiences el proceso de conversión [Balloon]. Tus abejas siempre priorizarán convertir el contenido de tu mochila antes de comenzar a convertir el polen almacenado dentro del Globo de la Colmena [Balloon].
+
+Convertir este polen acumulado otorga el codiciado potenciador Bendición de Globo, que proporciona multiplicadores masivos tanto a tu Capacidad general como a tu tasa de Miel en la Colmena [Balloon].
+
+<Checklist
+  id="conversion-prep"
+  title="Lista de Verificación para la Conversión:"
+  items={[
+    "Completa la misión de Honey Bee para el potenciador de 2x tasa de conversión",
+    "Equipa la Honey Mask para la dispersión de monedas y tasa de conversión",
+    "Vuelve a equipar todos los bequips de tasa de conversión y miel en la colmena",
+    "Usa un Whirly Gig en la colmena para activar la conversión rápida"
+  ]}
+/>
+
+Para alcanzar la acumulación máxima absoluta de x100 de Bendición de Globo, tu Globo de la Colmena debe contener y convertir con éxito un total de 10 billones de polen [Balloon].
+
+| Acumulaciones de Bendición | Polen Requerido | Multiplicador de Capacidad | Multiplicador de Miel en Colmena |
+| :--- | :--- | :--- | :--- |
+| **x10** | 100 Mil Millones de Polen | x1.3 Capacidad | x1.15 Miel en Colmena |
+| **x30** | 1 Billón de Polen | x2.0 Capacidad | x1.50 Miel en Colmena |
+| **x50** | 3 Billones de Polen | x2.8 Capacidad | x1.85 Miel en Colmena |
+| **x100 (Máx)** | 10 Billones de Polen | x4.0 Capacidad | x2.50 Miel en Colmena |
+
+El polen almacenado dentro de tu Globo de la Colmena no es permanente y se agotará gradualmente con el tiempo [Balloon]. La tasa de agotamiento depende en gran medida de qué tan grande sea el globo en relación con tu capacidad estándar [Balloon]. En su punto más lento, el globo se encoge un 20% por hora; sin embargo, si el globo contiene más de 100 veces tu capacidad máxima, se desinflará rápidamente, perdiendo hasta el 99.99% de su polen en 10 minutos [Balloon].
+
+<Callout type="info" title="Refrescando tu Bendición">
+Si ya tienes una Bendición de Globo alta, convertir un globo más pequeño no la sobrescribirá con un valor inferior. En su lugar, refrescará de forma segura el temporizador de tu Bendición de Globo existente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<Callout type="tip" title="Solución Rápida de Problemas">
+Si tus globos desaparecen inesperadamente, verifica tu conexión. Salir del juego o desconectarse hará que todos los globos activos en el campo desaparezcan inmediatamente.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo invoco Globos Dorados en Bee Swarm Simulator?",
+    answer: "Los Globos Dorados son invocados por la habilidad Inflar Globos de las Abejas Boyantes Regaladas o durante una Fiesta Sorpresa. Potencian las burbujas en Burbujas Doradas, que recolectan 1.5x polen y contribuyen un 50% más al Bubble Bloat."
+  },
+  {
+    question: "¿Cuál es la acumulación máxima de Bendición de Globo que puedo lograr?",
+    answer: "La Bendición de Globo máxima es x100, lo que requiere almacenar 10 billones de polen en tu Globo de la Colmena. Esto otorga x4 de Capacidad y x2.5 de Miel en la Colmena."
+  },
+  {
+    question: "¿Por qué el Globo de mi Colmena se encoge tan rápido?",
+    answer: "La tasa de agotamiento de tu Globo de la Colmena depende de cuánto polen contiene en relación con tu capacidad. Si contiene más de 100 veces tu capacidad, se encogerá hasta un 99.99% en 10 minutos. A niveles sostenibles, se encoge a una tasa lenta del 20% por hora."
+  },
+  {
+    question: "¿Importa el color del globo al convertir en la colmena?",
+    answer: "No. Independientemente de si usas globos Rosas, Rojos, Blancos, Negros, Azules o Dorados en el campo, todos se vuelven azules cuando llegan a la colmena y contribuyen al mismo Globo de la Colmena."
+  }
+]} />
+
+</Section>

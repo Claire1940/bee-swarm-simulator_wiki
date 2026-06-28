@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bong bóng trong Bee Swarm Simulator: Hướng dẫn cày cuốc từng bước",
+  description: "Khám phá cách tối ưu hóa bong bóng trong Bee Swarm Simulator, tối đa hóa Phước lành Bong bóng (Balloon Blessing) và thực hiện chiến thuật boost RBC nâng cao vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BSS+Balloons+Guide",
+  date: "2026-06-28",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Cơ chế chính**: Triệu hồi bong bóng để hấp thụ phấn hoa trên cánh đồng và chuyển hóa thành mật ong giá trị cao tại tổ của bạn.
+- **Phước lành Bong bóng (Balloon Blessing)**: Tích trữ lên đến 10 nghìn tỷ phấn hoa trong bong bóng tổ ong để đạt được phước lành x100.
+- **Chiến thuật boost RBC**: Tận dụng các nâng cấp sức chứa từ Thử thách Gấu Robo (Robo Bear Challenge) để thổi phồng giới hạn bong bóng một cách nhân tạo.
+- **Khung thời gian chuyển hóa**: Chuyển sang trang bị chuyển hóa và sử dụng Whirly Gig trong vòng 60 giây sau khi kết thúc đợt boost.
+</Callout>
+
+<Section icon={Map} title="Hiểu về Bong bóng trong Bee Swarm Simulator và các Cơ chế Cốt lõi">
+
+Làm chủ **bong bóng trong Bee Swarm Simulator** là một trong những bước quan trọng nhất để chuyển mình thành một người chơi xuất sắc, đặc biệt là đối với các lối xây dựng tổ ong xanh (blue hive) [ikC7IEK8mIc, Balloon]. Bong bóng lơ lửng ngay phía trên cánh đồng, tạo ra một vùng bóng râm bán kính 5 ô trên những bông hoa bên dưới [Balloon]. Bất kỳ phấn hoa nào thu thập được từ những bông hoa trong vùng bóng râm này sẽ được bong bóng hấp thụ thay vì làm đầy ba lô của bạn, cho phép kéo dài thời gian cày cuốc mà không cần phải liên tục quay về tổ [Balloon].
+
+**Điểm nhấn Video:**
+- **Nâng cấp sức chứa RBC** là yếu tố thiết yếu để đạt được phước lành bong bóng cực cao.
+- **Hoán đổi Bequip** giúp tối đa hóa kích thước túi của bạn trong suốt đợt boost và tối ưu hóa hiệu suất chuyển hóa ở giai đoạn cuối.
+- **Vị trí trên cánh đồng** và cách thức làm vỡ bong bóng nước (bubble) ảnh hưởng đáng kể đến tốc độ làm đầy bong bóng của bạn.
+
+<YouTubeEmbed videoId="ikC7IEK8mIc" title="Cách tăng Phước lành Bong bóng trong Bee Swarm Simulator" />
+
+Có sáu loại bong bóng độc đáo trong trò chơi [Balloon]. Trong khi bong bóng hồng, đỏ, trắng và đen được triệu hồi bằng cách sử dụng các vật phẩm cụ thể nhận được từ quái rơi ra hoặc nhiệm vụ, thì bong bóng xanh dương và vàng được triệu hồi một cách linh hoạt thông qua các kỹ năng của Ong Phao (Buoyant Bee) [Balloon].
+
+| Loại bong bóng | Giới hạn số lượng | Hệ số sức chứa | Giới hạn thời gian | Cách sở hữu |
+| :--- | :--- | :--- | :--- | :--- |
+| **Hồng** | 1 mỗi người chơi | Sức chứa người chơi x1 | 3 phút | Quái rơi ra, Nhiệm vụ |
+| **Đỏ** | 1 mỗi người chơi | Sức chứa người chơi x5 | 3 phút | Quái rơi ra, Nhiệm vụ |
+| **Trắng** | 1 mỗi người chơi | Sức chứa người chơi x10 | 5 phút | Quái rơi ra, Nhiệm vụ |
+| **Đen** | 1 mỗi người chơi | Sức chứa người chơi x25 | 5 phút | Quái rơi ra, Nhiệm vụ |
+| **Xanh dương** | Không giới hạn | Sức chứa người chơi x0.166 | 20 giây (+2 giây/cấp) | Kỹ năng của Ong Phao |
+| **Vàng** | Không giới hạn | Sức chứa người chơi x1.25 | 20 giây (+2 giây/cấp) | Ong Phao Đột biến (Gifted) |
+
+When multiple balloons overlap on the same flower, the balloon with the lowest current pollen amount takes priority to ensure balanced filling [Balloon]. Ngoài ra, đứng dưới bất kỳ bong bóng nào đang hoạt động sẽ nhận được một cộng dồn bùa lợi Hào quang Bong bóng (Balloon Aura), tối đa là x10 và cung cấp tới x1.2 phấn hoa và +20% mật ong từ các token [Balloon].
+
+<Callout type="tip" title="Tối ưu hóa Hào quang Bong bóng">
+Hãy luôn cố gắng đứng ở một vị trí duy nhất khi đang boost. Điều này giúp xếp chồng các bong bóng của bạn tại một chỗ, tạo ra một vùng Hào quang Bong bóng mật độ cao giúp ba lô của bạn luôn trống và tối đa hóa tốc độ thu thập phấn hoa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tối đa hóa Phước lành Bong bóng qua Chiến thuật Boost RBC">
+
+Boost Thử thách Gấu Robo (RBC) là một phương pháp nâng cao được sử dụng để đạt được Phước lành Bong bóng cực kỳ cao, thường đạt tới x80 đến x100 cộng dồn [ikC7IEK8mIc]. Chiến thuật này khai thác các nâng cấp sức chứa khổng lồ chỉ có trong Thử thách Gấu Robo để thổi phồng sức chứa bong bóng tối đa của bạn trước khi chuyển về đợt boost trên cánh đồng thông thường [ikC7IEK8mIc].
+
+<CardGrid cols={3}>
+  <Card title="Chuẩn bị tổ ong">
+    - **Ong Xanh Đột biến (Gifted)**: Các loại đột biến giúp tăng hiệu suất thu thập bong bóng nước lên 15% mỗi con.
+    - **Ong Cún (Puppy Bee)**: Kết hợp với Bequip Tuần lộc để lấy bùa lợi sức chứa Reindeer Fetch.
+    - **Ong Độc ác (Vicious Bee)**: Đột biến để gây thêm sát thương trong các vòng RBC đầy thử thách.
+  </Card>
+  <Card title="Tối ưu hóa Bequip">
+    - **Bequip Sức chứa**: Ưu tiên các vật phẩm trực tiếp tăng kích thước túi của bạn.
+    - **Hoán đổi tạm thời**: Gỡ bỏ các trang bị tăng tốc độ chuyển hóa (convert rate) và mật ong tại tổ (honey at hive) trong suốt quá trình chạy.
+    - **Lấp đầy ô**: Sử dụng cột băng (icicles) hoặc cục than (lumps of coal) nếu bạn thiếu các trang bị sức chứa cấp cao.
+  </Card>
+  <Card title="Chiến thuật Nâng cấp RBC">
+    - **Bùa lợi sức chứa**: Chỉ mua các nâng cấp sức chứa; tránh mua nâng cấp tấn công trừ khi thực sự cần thiết.
+    - **Nâng cấp HDD**: Khóa nâng cấp HDD và chỉ mua nó ở vòng mục tiêu cuối cùng của bạn.
+    - **Chính sách khởi động lại**: Nếu bạn không gặp may mắn với các nâng cấp sức chứa, hãy bắt đầu lại lượt chạy.
+  </Card>
+</CardGrid>
+
+Để thực hiện thành công đợt boost này, bạn phải phối hợp trang bị, các bùa lợi đang hoạt động và tiến trình thử thách với thời gian chính xác [ikC7IEK8mIc].
+
+<Steps>
+  <Step num="1" title="Chuẩn bị các bùa lợi trước khi boost">
+    Thu thập tất cả các bùa lợi thiết yếu trước khi bước vào vòng RBC cuối cùng. Bao gồm phước lành Puffroom tối đa, 10x Reindeer Fetch, bùa tuyết rơi (snowflakes), phước lành Mondo, cộng dồn sticker và phước lành Galentine.
+  </Step>
+  <Step num="2" title="Bắt đầu và kết thúc vòng mục tiêu">
+    Bắt đầu vòng mục tiêu của bạn (thường là Vòng 20, hoặc 15-19 đối với người chơi giai đoạn giữa game). Sử dụng Super Smoothie, kích hoạt ổ đĩa Xanh (Blue drive) và ổ đĩa Lỗi (Glitched drive), di chuyển vào cánh đồng Cây Thông (Pine Tree), và sau đó kết thúc thử thách ngay lập tức.
+  </Step>
+  <Step num="3" title="Thực hiện Boost trong 14 phút">
+    Boost mạnh mẽ ở cánh đồng Cây Thông trong đúng 14 phút. Hãy đảm bảo bạn đứng yên một chỗ để gộp các bong bóng lại, làm vỡ bong bóng nước khi có Thủy Triều Dâng (Tidal Surge) và nhặt các token truyền cảm hứng (inspire). Không vượt quá 14 phút, nếu không bạn có nguy cơ mất một nửa lượng bong bóng của mình.
+  </Step>
+  <Step num="4" title="Tráo trang bị và trả nhiệm vụ">
+    Ngay khi bộ đếm thời gian 14 phút kết thúc, bạn có một khung thời gian nghiêm ngặt là 60 giây. Hoàn thành nhiệm vụ của Ong Mật (Honey Bee) để lấy bùa lợi x2 tốc độ chuyển hóa, trang bị Mặt nạ Mật ong (Honey Mask) và đổi lại các bequip tăng tốc độ chuyển hóa và mật ong tại tổ.
+  </Step>
+  <Step num="5" title="Chuyển hóa bằng Whirly Gig">
+    Sử dụng Whirly Gig tại tổ của bạn để chuyển hóa ngay lập tức bong bóng khổng lồ này. Điều này giúp đảm bảo bạn nhận được cộng dồn Phước lành Bong bóng cực lớn.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Khung thời gian chuyển hóa nghiêm ngặt 60 giây">
+Nếu bạn không hoàn thành việc hoán đổi trang bị, trả nhiệm vụ và chuyển hóa bằng Whirly Gig trong vòng 60 giây sau khi kết thúc boost, bong bóng của bạn sẽ xẹp xuống nhanh chóng và bạn sẽ mất phần lớn Phước lành Bong bóng tiềm năng.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chiến thuật Cày cuốc Cánh đồng và Thiết lập Tài khoản Phụ">
+
+Để làm đầy **bong bóng trong Bee Swarm Simulator** một cách hiệu quả trong đợt boost cấp cao, bạn phải tối ưu hóa lối chơi chủ động trên cánh đồng [ikC7IEK8mIc]. Chỉ đứng yên là không đủ; bạn phải chủ động kiểm soát việc làm vỡ bong bóng nước, các token kỹ năng và vị trí đứng trên cánh đồng [ikC7IEK8mIc].
+
+Khi kỹ năng Thủy Triều Dâng (Tidal Surge) kích hoạt (sau khi làm vỡ 500 bong bóng nước), hãy chạy từ trái sang phải khắp cánh đồng để làm vỡ càng nhiều bong bóng nước càng tốt [ikC7IEK8mIc]. Đừng tập trung vào việc thu thập từng token mật ong riêng lẻ do bong bóng sinh ra; thay vào đó, hãy ưu tiên duy trì nội tại Pop Star ở mức cao và nhặt các token Truyền cảm hứng (Inspire) để giữ cho túi của bạn được làm đầy nhanh chóng [ikC7IEK8mIc].
+
+| Bùa lợi / Vật phẩm | Lợi ích chính | Thời gian / Cộng dồn | Cách dùng khuyến nghị |
+| :--- | :--- | :--- | :--- |
+| **Super Smoothie** | Tăng mạnh mẽ tất cả các chỉ số | 15 phút | Kích hoạt khi bắt đầu vòng RBC cuối cùng |
+| **Glitched Drive** | Tăng phấn hoa và tỷ lệ xuất hiện kỹ năng | Thay đổi | Sử dụng trong khi đang boost chủ động trên cánh đồng |
+| **Blue Drive** | Tăng lượng phấn hoa xanh thu thập được | Thay đổi | Sử dụng ở cánh đồng Cây Thông |
+| **Marshmallow Bee** | Thêm sức chứa và phấn hoa | Thay đổi | Không bắt buộc nhưng rất khuyến khích |
+
+Cày cuốc cùng một tài khoản phụ (acc clone) chuyên dụng có thể tăng đáng kể hiệu suất của bạn [ikC7IEK8mIc]. Một đội hình Tài khoản phụ Nòng nọc (Tadpole Alt) chuyên dụng nên bao gồm 20 Ong Nòng nọc (Tadpole), 7 Ong Lông lá (Fuzzy), 11 Ong Phao (Buoyant), 6 Ong Sốc (Shocked), Ong Lễ hội (Festive Bee), Ong Nghệ (Bumble Bee) và Ong Bucko (Bucko Bee) [ikC7IEK8mIc]. Thiết lập này đảm bảo một dòng bong bóng nước liên tục và các bùa lợi tăng sức chứa, ngăn không cho ba lô của tài khoản chính bị đầy quá sớm [ikC7IEK8mIc].
+
+<Callout type="success" title="Sự cộng hưởng từ Tài khoản phụ">
+Cày cuốc với một tài khoản phụ Tadpole chuyên dụng cho phép bạn duy trì Bubble Bloat liên tục và tạo ra một lượng lớn bong bóng nước, giúp tăng tốc độ thổi phồng bong bóng của bạn lên tới 300%.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Chuyển hóa Bong bóng Tổ ong và Tỷ lệ Phước lành">
+
+Khi một bong bóng được làm đầy hoặc hết giới hạn thời gian, nó sẽ tự động bay trở lại tổ của bạn và hợp nhất thành "Bong bóng Tổ ong" (Hive Balloon) [Balloon]. Bong bóng Tổ ong lơ lửng tại chỗ phía trên ô tổ của bạn, giữ lượng phấn hoa đã tích trữ cho đến khi bạn bắt đầu quá trình chuyển hóa [Balloon]. Lũ ong của bạn sẽ luôn ưu tiên chuyển hóa những gì có trong ba lô của bạn trước khi chúng bắt đầu chuyển hóa phấn hoa được lưu trữ bên trong Bong bóng Tổ ong [Balloon].
+
+Việc chuyển hóa lượng phấn hoa tích lũy này sẽ ban tặng bùa lợi Phước lành Bong bóng (Balloon Blessing) cực kỳ quý giá, cung cấp các hệ số nhân khổng lồ cho cả Sức chứa tổng thể và tỷ lệ Mật ong tại Tổ của bạn [Balloon].
+
+<Checklist
+  id="conversion-prep"
+  title="Danh sách chuẩn bị chuyển hóa:"
+  items={[
+    "Hoàn thành nhiệm vụ của Ong Mật để lấy bùa lợi x2 tốc độ chuyển hóa",
+    "Trang bị Mặt nạ Mật ong (Honey Mask) để rải xu (coin scatter) và tăng tốc độ chuyển hóa",
+    "Trang bị lại tất cả các bequip tăng tốc độ chuyển hóa và mật ong tại tổ",
+    "Sử dụng Whirly Gig tại tổ để kích hoạt chuyển hóa nhanh chóng"
+  ]}
+/>
+
+Để đạt được cộng dồn Phước lành Bong bóng tối đa là x100, Bong bóng Tổ ong của bạn phải chứa và chuyển hóa thành công tổng cộng 10 nghìn tỷ phấn hoa [Balloon].
+
+| Cộng dồn Phước lành | Phấn hoa yêu cầu | Hệ số nhân sức chứa | Hệ số nhân mật ong tại tổ |
+| :--- | :--- | :--- | :--- |
+| **x10** | 100 tỷ phấn hoa | x1.3 Sức chứa | x1.15 Mật ong tại tổ |
+| **x30** | 1 nghìn tỷ phấn hoa | x2.0 Sức chứa | x1.50 Mật ong tại tổ |
+| **x50** | 3 nghìn tỷ phấn hoa | x2.8 Sức chứa | x1.85 Mật ong tại tổ |
+| **x100 (Tối đa)** | 10 nghìn tỷ phấn hoa | x4.0 Sức chứa | x2.50 Mật ong tại tổ |
+
+Phấn hoa được lưu trữ bên trong Bong bóng Tổ ong không tồn tại vĩnh viễn và sẽ giảm dần theo thời gian [Balloon]. Tốc độ giảm phụ thuộc rất nhiều vào việc bong bóng lớn như thế nào so với sức chứa tiêu chuẩn của bạn [Balloon]. Ở mức chậm nhất, bong bóng sẽ co lại 20% mỗi giờ; tuy nhiên, nếu bong bóng chứa lượng phấn hoa gấp hơn 100 lần sức chứa tối đa của bạn, nó sẽ xẹp xuống cực nhanh, mất tới 99,99% phấn hoa trong vòng 10 phút [Balloon].
+
+<Callout type="info" title="Làm mới Phước lành">
+Nếu bạn đã có Phước lành Bong bóng ở mức cao, việc chuyển hóa một bong bóng nhỏ hơn sẽ không ghi đè giá trị thấp hơn lên nó. Thay vào đó, nó sẽ làm mới thời gian tồn tại của Phước lành Bong bóng hiện tại một cách an toàn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Các Câu hỏi Thường gặp">
+
+<Callout type="tip" title="Khắc phục sự cố nhanh">
+Nếu bong bóng của bạn biến mất một cách bất ngờ, hãy kiểm tra kết nối mạng. Rời trò chơi hoặc mất kết nối sẽ khiến tất cả các bong bóng đang hoạt động trên cánh đồng biến mất ngay lập tức.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để triệu hồi Bong bóng Vàng trong Bee Swarm Simulator?",
+    answer: "Bong bóng Vàng được triệu hồi bằng kỹ năng Thổi Bong bóng (Inflate Balloons) của Ong Phao Đột biến (Gifted Buoyant Bee) hoặc trong một Bữa tiệc Bất ngờ (Surprise Party). Chúng tăng sức mạnh cho các bong bóng nước thành Bong bóng nước Vàng (Gold Bubbles), giúp thu thập gấp 1.5 lần phấn hoa và đóng góp thêm 50% cho Bubble Bloat."
+  },
+  {
+    question: "Cộng dồn Phước lành Bong bóng tối đa tôi có thể đạt được là bao nhiêu?",
+    answer: "Phước lành Bong bóng tối đa là x100, yêu cầu tích trữ 10 nghìn tỷ phấn hoa trong Bong bóng Tổ ong của bạn. Điều này mang lại x4 Sức chứa và x2.5 Mật ong tại Tổ."
+  },
+  {
+    question: "Tại sao Bong bóng Tổ ong của tôi lại xẹp nhanh như vậy?",
+    answer: "Tốc độ hao hụt của Bong bóng Tổ ong phụ thuộc vào lượng phấn hoa nó chứa so với sức chứa của bạn. Nếu nó chứa gấp hơn 100 lần sức chứa của bạn, nó sẽ xẹp đi tới 99.99% trong vòng 10 phút. Ở mức bền vững, nó sẽ co lại với tốc độ chậm là 20% mỗi giờ."
+  },
+  {
+    question: "Màu sắc của bong bóng có quan trọng khi chuyển hóa tại tổ không?",
+    answer: "Không. Bất kể bạn sử dụng bong bóng Hồng, Đỏ, Trắng, Đen, Xanh dương hay Vàng trên cánh đồng, tất cả chúng đều chuyển thành màu xanh dương khi về đến tổ và đóng góp vào cùng một Bong bóng Tổ ong."
+  }
+]} />
+
+</Section>

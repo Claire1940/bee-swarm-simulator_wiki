@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Balões do Bee Swarm Simulator: Guia de Farm Passo a Passo",
+  description: "Descubra como otimizar os balões do bee swarm simulator, maximizar a Bênção do Balão (Balloon Blessing) e executar a estratégia avançada de boost do RBC em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BSS+Balloons+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica principal**: Invoque balões para absorver o pólen do campo e convertê-lo em mel de alto valor em sua colmeia [Balloon].
+- **Bênção do Balão**: Armazene até 10 trilhões de pólen no balão da sua colmeia para alcançar uma bênção de x100 [Balloon].
+- **Estratégia de boost do RBC**: Aproveite as melhorias de capacidade do Desafio do Urso Robô (RBC) para inflar artificialmente os limites do seu balão [ikC7IEK8mIc].
+- **Janela de conversão**: Troque para os equipamentos de conversão e use um Whirly Gig em até 60 segundos após terminar um boost [ikC7IEK8mIc].
+</Callout>
+
+<Section icon={Map} title="Entendendo os Balões do Bee Swarm Simulator e as Mecânicas Principais">
+
+Dominar os **balões do bee swarm simulator** é um dos passos mais críticos para se tornar um jogador de elite, particularmente para builds de colmeia azul (blue hive) [ikC7IEK8mIc, Balloon]. Os balões flutuam diretamente acima do campo, projetando uma sombra com raio de 5 blocos sobre as flores abaixo [Balloon]. Qualquer pólen coletado dessas flores sombreadas é absorvido pelo balão em vez de encher sua mochila, permitindo sessões de farm prolongadas sem a necessidade de viagens constantes de volta à colmeia [Balloon].
+
+**Destaques do Vídeo:**
+- As **melhorias de capacidade do RBC** são essenciais para alcançar uma Bênção do Balão extremamente alta [ikC7IEK8mIc].
+- A **troca de Bequips** maximiza o tamanho da sua mochila durante o boost e a eficiência de conversão no final [ikC7IEK8mIc].
+- O **posicionamento no campo** e os padrões de estouro de bolhas afetam drasticamente a velocidade com que seus balões se enchem [ikC7IEK8mIc].
+
+<YouTubeEmbed videoId="ikC7IEK8mIc" title="Como Aumentar a Bênção do Balão no Bee Swarm Simulator" />
+
+Existem seis tipos únicos de balões disponíveis no jogo [Balloon]. Enquanto os balões rosa, vermelho, branco e preto são invocados usando itens específicos obtidos de drops de monstros ou missões, os balões azul e dourado são invocados dinamicamente através das habilidades da Abelha Flutuante (Buoyant Bee) [Balloon].
+
+| Tipo de Balão | Limite de Quantidade | Modificador de Capacidade | Limite de Tempo | Método de Obtenção |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rosa** | 1 por jogador | Capacidade do Jogador x1 | 3 minutos | Drops de monstros, Missões |
+| **Vermelho** | 1 por jogador | Capacidade do Jogador x5 | 3 minutos | Drops de monstros, Missões |
+| **Branco** | 1 por jogador | Capacidade do Jogador x10 | 5 minutos | Drops de monstros, Missões |
+| **Preto** | 1 por jogador | Capacidade do Jogador x25 | 5 minutos | Drops de monstros, Missões |
+| **Azul** | Ilimitado | Capacidade do Jogador x0.166 | 20s (+2s/nível) | Habilidade da Buoyant Bee |
+| **Dourado** | Ilimitado | Capacidade do Jogador x1.25 | 20s (+2s/nível) | Buoyant Bee Gifted |
+
+Quando vários balões se sobrepõem na mesma flor, o balão com a menor quantidade de pólen atual tem prioridade para garantir um preenchimento equilibrado [Balloon]. Além disso, ficar embaixo de qualquer balão ativo concede um acúmulo do efeito Aura do Balão (Balloon Aura), que chega a até x10 e fornece até x1.2 de pólen e +20% de mel obtido de tokens [Balloon].
+
+<Callout type="tip" title="Otimização da Aura do Balão">
+Sempre tente ficar em um único ponto enquanto estiver no boost. Isso acumula seus balões em um só local, estabelecendo uma Aura do Balão de alta densidade que mantém sua mochila vazia e maximiza sua taxa de coleta de pólen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Maximizando a Bênção do Balão via Estratégia de Boost do RBC">
+
+O boost do Desafio do Urso Robô (RBC) é uma metodologia avançada usada para garantir uma Bênção do Balão excepcionalmente alta, frequentemente alcançando de x80 a x100 acúmulos [ikC7IEK8mIc]. Esta estratégia explora as enormes melhorias de capacidade disponíveis apenas durante o Desafio do Urso Robô para inflar sua capacidade máxima de balão antes de transitar de volta para um boost de campo padrão [ikC7IEK8mIc].
+
+<CardGrid cols={3}>
+  <Card title="Preparação da Colmeia">
+    - **Abelhas Azuis Gifted**: Tipos Gifted aumentam a coleta de bolhas em 15% cada.
+    - **Puppy Bee**: Combine com Bequips de Rena para obter o buff de capacidade do Reindeer Fetch.
+    - **Vicious Bee**: Gifted para dano extra durante rodadas difíceis do RBC.
+  </Card>
+  <Card title="Otimização de Bequips">
+    - **Bequips de Capacidade**: Priorize itens que aumentam diretamente o tamanho da sua mochila.
+    - **Troca Temporária**: Remova equipamentos de taxa de conversão e mel na colmeia durante a partida.
+    - **Preencha os Espaços**: Use icicles (pingentes de gelo) ou pedaços de carvão se não tiver Bequips de capacidade de alto nível.
+  </Card>
+  <Card title="Estratégia de Melhoria do RBC">
+    - **Buffs de Capacidade**: Compre apenas melhorias de capacidade; evite comprar melhorias de ataque, a menos que seja necessário.
+    - **Melhoria de HDD**: Bloqueie a melhoria de HDD e compre-a apenas na sua rodada final planejada.
+    - **Política de Reinício**: Se não tiver sorte com as melhorias de capacidade, reinicie a partida.
+  </Card>
+</CardGrid>
+
+Para executar este boost com sucesso, você deve coordenar seus equipamentos, buffs ativos e a progressão do desafio com um tempo preciso [ikC7IEK8mIc].
+
+<Steps>
+  <Step num="1" title="Prepare os Buffs Pré-Boost">
+    Reúna todos os buffs essenciais antes de entrar na rodada final do RBC. Isso inclui a bênção máxima do Puffroom, 10x Reindeer Fetch, buff de flocos de neve, bênção do Mondo, acúmulo de adesivos (sticker stack) e bênção do Galentine.
+  </Step>
+  <Step num="2" title="Inicie e Termine a Rodada Alvo">
+    Comece sua rodada alvo (geralmente a Rodada 20, ou 15-19 para jogadores de meio de jogo). Use um Super Smoothie, ative os drives Azul e Glitched, entre no campo de Pinheiros (Pine Tree) e, em seguida, encerre imediatamente o desafio.
+  </Step>
+  <Step num="3" title="Execute o Boost de 14 Minutos">
+    Faça o boost intensamente no campo de Pinheiros por exatamente 14 minutos. Certifique-se de ficar em um único ponto para agregar os balões, estourar bolhas durante o Tidal Surge e coletar tokens de inspiração (Inspire). Não ultrapasse 14 minutos, ou correrá o risco de perder metade do seu balão.
+  </Step>
+  <Step num="4" title="Troca de Equipamentos e Entrega de Missão">
+    Assim que o cronômetro de 14 minutos terminar, você terá uma janela estrita de 60 segundos. Conclua a missão da Honey Bee para obter uma taxa de conversão de 2x, equipe sua Honey Mask e coloque de volta seus Bequips de taxa de conversão e mel na colmeia.
+  </Step>
+  <Step num="5" title="Conversão com Whirly Gig">
+    Use um Whirly Gig na sua colmeia para converter instantaneamente o balão gigante. Isso garante seu acúmulo massivo de Bênção do Balão.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Janela Estrita de Conversão de 60 Segundos">
+Se você não conseguir concluir suas trocas de equipamentos, entregas de missões e a conversão com o Whirly Gig em até 60 segundos após o término do boost, seu balão esvaziará rapidamente e você perderá a maior parte da sua Bênção do Balão potencial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Farm de Campo e Configuração de Conta Secundária (Alt)">
+
+Para encher seus **balões do bee swarm simulator** de forma eficiente durante um boost de alto nível, você deve otimizar seu estilo de jogo ativo no campo [ikC7IEK8mIc]. Apenas ficar parado não é suficiente; você deve gerenciar ativamente o estouro de bolhas, os tokens de habilidade e o posicionamento no campo [ikC7IEK8mIc].
+
+Quando a habilidade Tidal Surge for ativada (após estourar 500 bolhas), corra da esquerda para a direita pelo campo para estourar o máximo de bolhas possível [ikC7IEK8mIc]. Não foque em coletar tokens de mel individuais gerados pelos balões; em vez disso, priorize manter a passiva Pop Star ativa e coletar tokens de inspiração (Inspire) para manter sua mochila enchendo rapidamente [ikC7IEK8mIc].
+
+| Buff / Item | Benefício Principal | Duração / Acúmulo | Uso Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Super Smoothie** | Aumento massivo de atributos gerais | 15 minutos | Ative no início da rodada final do RBC |
+| **Glitched Drive** | Aumenta o pólen e a taxa de habilidades | Varia | Use durante o boost ativo no campo |
+| **Blue Drive** | Impulsiona a coleta de pólen azul | Varia | Use no campo de Pinheiros (Pine Tree) |
+| **Marshmallow Bee** | Capacidade e pólen extras | Varia | Opcional, mas altamente recomendado |
+
+Farmar com uma conta secundária (alt) dedicada pode aumentar drasticamente sua eficiência [ikC7IEK8mIc]. Uma composição especializada de Tadpole Alt deve consistir em 20 Tadpoles, 7 Fuzzies, 11 Buoyants, 6 Shocked Bees, Festive Bee, Bumble Bee e Bucko Bee [ikC7IEK8mIc]. Essa configuração garante um fluxo constante de bolhas e buffs de capacidade extras, evitando que a mochila da sua conta principal encha antes da hora [ikC7IEK8mIc].
+
+<Callout type="success" title="Sinergia de Conta Secundária (Alt)">
+Farmar com uma Tadpole Alt dedicada permite que você mantenha o Bubble Bloat contínuo e gera quantidades massivas de bolhas, o que acelera a taxa de inflação do seu balão em até 300%.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conversão do Balão da Colmeia e Escalonamento da Bênção">
+
+Quando um balão está totalmente cheio ou seu limite de tempo expira, ele viaja automaticamente de volta para a sua colmeia e se funde ao "Balão da Colmeia" (Hive Balloon) [Balloon]. O Balão da Colmeia flutua no lugar acima do espaço da sua colmeia, guardando o pólen armazenado até que você inicie o processo de conversão [Balloon]. Suas abelhas sempre priorizarão converter o conteúdo da sua mochila antes de começarem a converter o pólen armazenado dentro do Balão da Colmeia [Balloon].
+
+Converter esse pólen acumulado concede o cobiçado buff Bênção do Balão (Balloon Blessing), que fornece multiplicadores massivos tanto para sua Capacidade geral quanto para sua taxa de Mel na Colmeia [Balloon].
+
+<Checklist
+  id="conversion-prep"
+  title="Lista de Preparação para Conversão:"
+  items={[
+    "Conclua a missão da Honey Bee para obter o buff de 2x na taxa de conversão",
+    "Equipe a Honey Mask para dispersão de moedas (coin scatter) e taxa de conversão",
+    "Reequipe todos os Bequips de taxa de conversão e mel na colmeia",
+    "Use um Whirly Gig na colmeia para acionar a conversão rápida"
+  ]}
+/>
+
+Para alcançar o acúmulo máximo absoluto de x100 de Bênção do Balão, seu Balão da Colmeia deve conter e converter com sucesso um total de 10 trilhões de pólen [Balloon].
+
+| Acúmulos de Bênção | Pólen Necessário | Multiplicador de Capacidade | Multiplicador de Mel na Colmeia |
+| :--- | :--- | :--- | :--- |
+| **x10** | 100 Bilhões de Pólen | x1.3 Capacidade | x1.15 Mel na Colmeia |
+| **x30** | 1 Trilhão de Pólen | x2.0 Capacidade | x1.50 Mel na Colmeia |
+| **x50** | 3 Trilhões de Pólen | x2.8 Capacidade | x1.85 Mel na Colmeia |
+| **x100 (Máx)** | 10 Trilhões de Pólen | x4.0 Capacidade | x2.50 Mel na Colmeia |
+
+O pólen armazenado dentro do seu Balão da Colmeia não é permanente e se esgotará gradualmente ao longo do tempo [Balloon]. A taxa de esgotamento depende muito de quão grande o balão é em relação à sua capacidade padrão [Balloon]. Em seu ritmo mais lento, o balão encolhe 20% por hora; no entanto, se o balão contiver mais de 100 vezes a sua capacidade máxima, ele esvaziará rapidamente, perdendo até 99,99% do seu pólen em 10 minutos [Balloon].
+
+<Callout type="info" title="Atualizando sua Bênção">
+Se você já possui uma Bênção do Balão alta, converter um balão menor não a substituirá por um valor menor. Em vez disso, atualizará com segurança o cronômetro da sua Bênção do Balão existente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<Callout type="tip" title="Solução Rápida de Problemas">
+Se os seus balões estiverem desaparecendo inesperadamente, verifique sua conexão. Sair do jogo ou desconectar fará com que todos os balões de campo ativos desapareçam imediatamente.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como invoco Balões Dourados no Bee Swarm Simulator?",
+    answer: "Os Balões Dourados são invocados pela habilidade Inflate Balloons das Buoyant Bees Gifted ou durante uma Surprise Party (Festa Surpresa). Eles transformam bolhas em Bolhas Douradas, que coletam 1.5x de pólen e contribuem 50% mais para o Bubble Bloat."
+  },
+  {
+    question: "Qual é o acúmulo máximo de Bênção do Balão que posso alcançar?",
+    answer: "A Bênção do Balão máxima é de x100, o que requer o armazenamento de 10 trilhões de pólen no seu Balão da Colmeia. Isso concede x4 de Capacidade e x2.5 de Mel na Colmeia."
+  },
+  {
+    question: "Por que o meu Balão da Colmeia encolhe tão rápido?",
+    answer: "A taxa de esgotamento do seu Balão da Colmeia depende de quanto pólen ele contém em relação à sua capacidade. Se contiver mais de 100 vezes a sua capacidade, ele encolherá em até 99,99% em 10 minutos. Em níveis sustentáveis, ele encolhe a uma taxa lenta de 20% por hora."
+  },
+  {
+    question: "A cor do balão importa ao converter na colmeia?",
+    answer: "Não. Independentemente de você usar balões Rosa, Vermelho, Branco, Preto, Azul ou Dourado no campo, todos eles se tornam azuis quando chegam à colmeia e contribuem para o mesmo Balão da Colmeia."
+  }
+]} />
+
+</Section>
