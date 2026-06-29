@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Honey Bee: Hướng dẫn Nhiệm vụ 2026 & NPC",
+  description: "Chinh phục nhiệm vụ Honey Bee 2026 trong Bee Swarm Simulator. Tìm hiểu vị trí NPC, phần thưởng nhiệm vụ lặp lại và chiến thuật cày nhanh Token Mật ong.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/fbbf24/000?text=Honey+Bee+Guide",
+  date: "2026-06-29",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **NPC Honey Bee**: Nằm gần Rừng Thông (Pine Tree Forest) và Chồng Nhãn Dán (Sticker Stack); không cần Máy dịch (Translator) để tương tác.
+- **Nhiệm vụ 2026**: Một thử thách khổng lồ gồm 9 nhiệm vụ yêu cầu phải đeo Mặt nạ Mật ong (Honey Mask) và hoàn thành nhiệm vụ Vòng hoa Mật ong (Honey Wreath) của Gấu Đen (Black Bear).
+- **Token Mật ong (Honey Tokens)**: Thu thập tốt nhất thông qua Mondo Chick, Cơn bão Mật ong (Honey Storms) và nhặt Quả dừa (Coconuts) ở các cánh đồng cấp thấp.
+- **Liên kết Chuyển đổi (Conversion Links)**: Cực kỳ quan trọng cho nhiệm vụ 2026; được tạo ra bởi token Honey Mark từ các loại ong cụ thể.
+- **Phần thưởng chính**: Hoàn thành nhiệm vụ chính sẽ nhận được Tăng tốc Chuyển đổi (Conversion Boost) khổng lồ và nâng cấp Vòng hoa Mật ong (Honey Wreath).
+</Callout>
+
+<Section icon={Map} title="Vị trí và Tổng quan về NPC Honey Bee">
+
+Honey Bee là một NPC giao nhiệm vụ độc đáo trong Bee Swarm Simulator, là một trong ba chú Ong Nhiệm vụ vĩnh viễn bên cạnh Gifted Riley Bee và Gifted Bucko Bee. Khác với các đối thủ hệ nguyên tố của mình, Honey Bee không yêu cầu Máy dịch (Translator), giúp bất kỳ người chơi nào có ít nhất 15 chú ong đều có thể tiếp cận. Bạn có thể tìm thấy NPC luôn mỉm cười này đậu trên một tảng đá gần Rừng Thông (Pine Tree Forest), cụ thể là ở phía bên phải của Chồng Nhãn Dán (Sticker Stack).
+
+**Điểm nổi bật trong Video:**
+- Hướng dẫn chi tiết các bước làm nhiệm vụ Beesmas Honey Bee 2026.
+- Chiến thuật hoàn thành 100k Liên kết Chuyển đổi Mật ong (Honey Conversion Links) một cách hiệu quả.
+- Mẹo tối đa hóa việc thu thập token từ Cơn bão Mật ong (Honey Storm).
+- Các cánh đồng tốt nhất để cày Token Mật ong cụ thể và Cánh hoa Bloom (Bloom Petals).
+
+<YouTubeEmbed videoId="jRNoibetLU0" title="Honey Bee Quest was so EASY | Bee Swarm Simulator Roblox" />
+
+<Callout type="tip" title="Lịch sử Vị trí">
+Honey Bee ban đầu nằm gần đoạn dốc dẫn đến Cổng Ong Cơ Bản (Basic Bee Gate) nhưng đã được di chuyển đến vị trí hiện tại phía sau Rừng Thông để nhường chỗ cho các bản mở rộng bản đồ.
+</Callout>
+
+| Thuộc tính | Chi tiết |
+| --- | --- |
+| **Loài** | Ong (NPC) |
+| **Vị trí** | Cạnh Rừng Thông / Chồng Nhãn Dán |
+| **Điều kiện tiên quyết** | 15 Ong |
+| **Yêu cầu Máy dịch** | Không |
+| **Loại nhiệm vụ** | Lặp lại & Theo sự kiện |
+
+</Section>
+
+<Section icon={Trophy} title="Săn Mật ong của Honey Bee: Nhiệm vụ Lặp lại">
+
+Tương tác chính với Honey Bee ngoài các sự kiện đặc biệt là nhiệm vụ "Săn Mật ong của Honey Bee" (Honey Bee's Honey Hunt). Đây là một nhiệm vụ lặp lại tăng dần độ khó dựa trên số lần bạn đã hoàn thành nó. Mục tiêu cốt lõi luôn giống nhau: thu thập Token Mật ong (Honey Tokens). Những token này là những đồng xu màu vàng nhỏ rơi ra từ nhiều nguồn khác nhau trên khắp bản đồ.
+
+Số lượng token yêu cầu được tính theo công thức `500 * n`, trong đó `n` là số thứ tự nhiệm vụ hiện tại của bạn. Mặc dù nhiệm vụ khá đơn giản, nhưng phần thưởng lại vô cùng hữu ích cho những người chơi ở giai đoạn giữa game (mid-game) muốn gia tăng sản lượng mật ong của mình.
+
+| Số thứ tự Nhiệm vụ | Yêu cầu Token | Phần thưởng Chính | Cơ hội nhận Phần thưởng Thêm |
+| --- | --- | --- | --- |
+| **Nhiệm vụ 1** | 500 Token | 11.000 Mật ong + Boost | 24% Vé (Ticket) / 24% Bánh thưởng (Treats) |
+| **Nhiệm vụ 10** | 5.000 Token | 110.000 Mật ong + Boost | 1 Thạch Sao (Star Jelly) (Chắc chắn) |
+| **Nhiệm vụ 50** | 25.000 Token | 2,51M Mật ong + Boost | 24% Vé (Ticket) / 24% Bánh thưởng (Treats) |
+| **Nhiệm vụ 100** | 50.000 Token | 10,01M Mật ong + Boost | 1 Thạch Sao (Star Jelly) (Chắc chắn) |
+
+<Callout type="success" title="Chiến thuật Chuyển đổi">
+Hiệu ứng tăng x2 Tốc độ Chuyển đổi (Conversion Rate boost) trong 30 phút là phần giá trị nhất của nhiệm vụ này. Hãy luôn đợi để nhận phần thưởng cho đến khi bạn sẵn sàng bắt đầu một đợt cày cuốc lớn (một đợt "boost") để tối đa hóa lượng mật ong kiếm được mỗi giây.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn chi tiết Nhiệm vụ Honey Bee 2026">
+
+Nhiệm vụ Honey Bee 2026, thường gắn liền với sự kiện Beesmas, nổi tiếng là cực kỳ khó khăn và đòi hỏi sự chuẩn bị kỹ lưỡng. Để có thể nhận được nhiệm vụ này, bạn phải đeo Mặt nạ Mật ong (Honey Mask) và đã hoàn thành nhiệm vụ Vòng hoa Mật ong (Honey Wreath) của Gấu Đen (Black Bear). Các yêu cầu tập trung vào việc thu thập token số lượng lớn và các cơ chế cánh đồng cụ thể.
+
+<Steps>
+  <Step num="1" title="Thu thập Cánh hoa Bloom (Bloom Petal)">
+    Thu thập 10 triệu Mật ong từ Cánh hoa Bloom. Chiến thuật tốt nhất ở đây là chọn một cánh đồng phù hợp với Màu Tổ của bạn (Đỏ, Xanh hoặc Trắng) và sử dụng Dầu (Oil) để tăng tốc độ di chuyển trong lúc cày cánh hoa.
+  </Step>
+  <Step num="2" title="Liên kết Chuyển đổi Mật ong">
+    Hoàn thành 100.000 Liên kết Chuyển đổi Mật ong. Điều này đòi hỏi những chú ong có thể rơi ra các token Honey Mark, chẳng hạn như Honey Bee, Carpenter Bee hoặc Festive Bee. Đứng trong một vòng Honey Mark sẽ giúp bạn nhận được 2 Liên kết Chuyển đổi mỗi giây, cộng dồn tối đa lên đến 3 lần.
+  </Step>
+  <Step num="3" title="Thu thập Token Mật ong số lượng lớn">
+    Thu thập 100.000 Token Mật ong. Đẩy nhanh tiến độ này bằng cách tiêu diệt Mondo Chick, kích hoạt Cơn bão Mật ong (Honey Storms) và làm nổ mầm cây (sprouts). Nhặt quả Dừa rơi ra từ Coconut Bee cũng là một nguồn cực kỳ đáng tin cậy.
+  </Step>
+  <Step num="4" title="Làm chủ Cơn bão Mật ong">
+    Thu thập 10.000 token từ Cơn bão Mật ong. Đây là phần khó nhất đối với người chơi đơn (solo). Hãy tham gia các máy chủ công cộng hoặc phối hợp với bạn bè để kích hoạt liên tiếp nhiều Cơn bão Mật ong. Đứng ở vị trí giữa Cánh đồng Cỏ ba lá (Clover Field) và Đồng hồ Tài lộc (Wealth Clock) để có độ bao phủ tối ưu nhất.
+  </Step>
+  <Step num="5" title="Cánh đồng Hub và Cánh đồng Hướng Dương">
+    Thu thập 1.000 Token Mật ong tại Cánh đồng Hub (Hub Field) và 1.000 tại Cánh đồng Hướng Dương (Sunflower Field). Sử dụng Dừa và Mầm cây tại các địa điểm cụ thể này. Vì đây là những cánh đồng cấp thấp, token sẽ xuất hiện thường xuyên hơn so với trên Đỉnh Núi (Mountain Top).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Yêu cầu về Honey Mark">
+Nếu bạn không có ít nhất 3-4 chú ong có khả năng tạo ra Honey Mark (như Carpenter Bee), nhiệm vụ Liên kết Chuyển đổi sẽ mất nhiều thời gian hơn đáng kể. Hãy cân nhắc điều chỉnh tạm thời đội hình tổ ong của bạn cho nhiệm vụ này.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật Cày Token Mật ong Tối ưu">
+
+Để hoàn thành các yêu cầu của Honey Bee một cách hiệu quả, bạn cần tận dụng mọi cơ chế tạo ra các token màu vàng. Không phải phương pháp nào cũng giống nhau; một số phương pháp mang lại lượng token khổng lồ ngay lập tức, trong khi số khác thì ổn định nhưng chậm rãi.
+
+<CardGrid cols={3}>
+  <Card title="Săn Quái">
+    - **Mondo Chick**: Rơi ra các cụm Token Mật ong khổng lồ khi bị tiêu diệt.
+    - **Stick Bug**: Sinh ra Stick Nymph rơi ra token liên tục.
+    - **Windy Bee**: Các cơn lốc xoáy tự động thu thập và phân phát lại token để bạn dễ dàng nhặt.
+  </Card>
+  <Card title="Cơ chế Cánh đồng">
+    - **Quả dừa (Coconuts)**: Thả và nhặt Dừa là cách nhanh nhất để tạo ra 10 token mỗi 10 giây.
+    - **Rải Xu (Coin Scatter)**: Kỹ năng \"Coin Scatter\" của Mặt nạ Mật ong trực tiếp chuyển đổi mật ong trong túi thành các token trên cánh đồng.
+    - **Mầm cây (Sprouts)**: Các mầm cây hiếm mang lại mật độ token cao hơn.
+  </Card>
+  <Card title="Buff Cộng đồng">
+    - **Cơn bão Mật ong (Honey Storm)**: Triệu hồi một cơn mưa token trên toàn bản đồ.
+    - **Mưa Thiên thạch (Meteor Shower)**: Cung cấp các token giá trị cao và các vật phẩm hiếm.
+    - **Mầm Tiệc tùng (Party Sprouts)**: Tốt nhất cho các buổi cày cuốc theo nhóm.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Chiến thuật 'Đứng Ngoài'">
+Để thu thập riêng các Token Quà tặng Mật ong (Honey Gift Tokens), hãy đứng *bên ngoài* các cánh đồng. Điều này giúp các chú ong của bạn không bị xao nhãng bởi việc thu thập phấn hoa hoặc các token kỹ năng khác, cho phép chúng tập trung hoàn toàn vào việc thả những món quà bạn cần.
+</Callout>
+
+| Nguồn | Sản lượng Token | Tần suất | Phù hợp nhất cho |
+| --- | --- | --- | --- |
+| **Cơn bão Mật ong** | Rất cao | Thấp (Thời gian hồi) | Tiến trình Nhiệm vụ 2026 |
+| **Nhặt Dừa** | Cao | Liên tục | Cày cuốc chung |
+| **Vật phẩm rơi từ Mondo Chick** | Cực kỳ cao | Mỗi 1 giờ | Nhận lượng lớn token tức thì |
+| **Cánh đồng Hướng Dương** | Vừa phải | Rất cao | Nhiệm vụ cấp thấp |
+| **Honey Mark** | Thấp (Token) | Cao | Liên kết Chuyển đổi |
+
+</Section>
+
+<Section icon={Shield} title="Chuẩn bị và Sự Kết hợp Tổ ong">
+
+Trước khi thử sức với các nhiệm vụ Honey Bee cấp cao vào năm 2026, hãy đảm bảo tổ ong và trang bị của bạn được tối ưu hóa cho việc tạo token. Theo [Bee Swarm Simulator Wiki](https://bee-swarm-simulator.fandom.com/wiki/Honey_Bee_(NPC)), một số trang bị cụ thể là bắt buộc để tiến triển sự kiện.
+
+<Checklist
+  id="honey-bee-prep"
+  title="Sẵn sàng cho Nhiệm vụ Honey Bee:"
+  items={[
+    "Trang bị Mặt nạ Mật ong (Honey Mask) để kích hoạt Rải Xu (Coin Scatter) và đủ điều kiện nhận nhiệm vụ",
+    "Có ít nhất 3 chú Carpenter Bee để tạo Honey Mark",
+    "Mở khóa Vòng hoa Mật ong (Honey Wreath) thông qua chuỗi nhiệm vụ của Gấu Đen (Black Bear)",
+    "Tích trữ Dầu (Oils) và Enzyme để tăng tốc độ di chuyển và chuyển đổi",
+    "Tham gia Câu lạc bộ Bee Swarm Simulator để sử dụng Máy phân phát Mật ong (Honey Dispenser)"
+  ]}
+/>
+
+### Các loại Ong tốt nhất cho Nhiệm vụ Honey Bee
+
+| Loại Ong | Kỹ năng | Lợi ích cho Nhiệm vụ |
+| --- | --- | --- |
+| **Honey Bee** | Quà tặng Mật ong / Honey Mark | Nguồn tạo token chính và là yêu cầu của nhiệm vụ |
+| **Carpenter Bee** | Honey Mark | Cần thiết cho nhiệm vụ 100k Liên kết Chuyển đổi |
+| **Diamond Bee** | Quà tặng Mật ong | Hoàn thành nhanh hơn các yêu cầu về Token Quà tặng |
+| **Digital Bee** | Nhân bản kỹ năng | Có thể nhân bản Honey Mark và token Quà tặng |
+| **Windy Bee** | Mây / Lốc xoáy | Tự động thu thập token trên khắp cánh đồng |
+
+<Callout type="info" title="Sự kết hợp với Mặt nạ Mật ong">
+Mặt nạ Mật ong (Honey Mask) là trang bị quan trọng nhất đối với NPC này. Nó không chỉ cho phép bạn nhận nhiệm vụ Beesmas mà kỹ năng "Coin Scatter" của nó còn biến mật ong trong túi của bạn thành các token, trực tiếp đóng góp vào yêu cầu "Thu thập Token Mật ong".
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "NPC Honey Bee nằm ở đâu vào năm 2026?",
+    answer: "Honey Bee nằm trên một gờ đá cạnh Rừng Thông (Pine Tree Forest) và ở phía bên phải của Chồng Nhãn Dán (Sticker Stack). Nó đã được di chuyển từ vị trí cũ gần Cổng Ong Cơ Bản (Basic Bee Gate) trong một bản cập nhật trước đó."
+  },
+  {
+    question: "Tôi có cần Máy dịch (Translator) để nói chuyện với Honey Bee không?",
+    answer: "Không, Honey Bee là NPC Ong duy nhất không yêu cầu Máy dịch. Bạn chỉ cần có 15 chú ong để bắt đầu các nhiệm vụ của nó."
+  },
+  {
+    question: "Làm thế nào để hoàn thành nhiệm vụ 100k Liên kết Chuyển đổi Mật ong?",
+    answer: "Bạn phải đứng trong các vòng Honey Mark được tạo ra bởi Honey Bee, Carpenter Bee, Festive Bee hoặc Digital Bee. Mỗi vòng sẽ cung cấp Liên kết Chuyển đổi khi bạn đứng bên trong khu vực được đánh dấu trên cánh đồng."
+  },
+  {
+    question: "Cánh đồng nào tốt nhất để cày Token Mật ong?",
+    answer: "Các cánh đồng cấp thấp như Cánh đồng Hướng Dương (Sunflower Field) nhìn chung tốt hơn vì chúng xuất hiện nhiều Token Mật ong tự nhiên hơn so với các cánh đồng cấp cao như Đỉnh Núi (Mountain Top)."
+  }
+]} />
+
+</Section>

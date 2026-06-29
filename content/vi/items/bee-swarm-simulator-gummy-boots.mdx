@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gummy Boots trong Trình mô phỏng bầy ong: Hướng dẫn chế tạo 2026",
+  description: "Tìm hiểu cách chế tạo gummy boots trong Trình mô phỏng bầy ong năm 2026. Khám phá chi phí công thức chính xác, các kỹ năng nội tại và các lộ trình cày cuốc nhanh nhất.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gummy+Boots+Crafting+Guide",
+  date: "2026-06-29",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Yêu cầu Gummy Boots**: Chế tạo **gummy boots trong Trình mô phỏng bầy ong** tại Hang Gấu Gummy bằng cách sử dụng các nguyên liệu cuối game khổng lồ.
+- **Chi phí công thức**: Bạn cần **100 tỷ Mật ong**, 500 Keo, 250 Kim tuyến, 250 Chiết xuất đỏ và 250 Chiết xuất xanh.
+- **Nội tại kép**: Đôi giày này cung cấp cả hai nội tại **Vệt chất nhờn (Goo Trail)** và **Tăng tốc dừa (Coconut Haste)** để cày cuốc trên các cánh đồng cao cấp.
+- **Ưu tiên cày cuốc**: Hãy sở hữu **Bùa sao tối thượng (Supreme Star Amulet)** trước khi dành toàn bộ tài nguyên cho việc chế tạo khổng lồ này.
+</Callout>
+
+<Section icon={Sparkles} title="Tổng quan & Chỉ số Gummy Boots trong Trình mô phỏng bầy ong">
+
+**Gummy boots trong Trình mô phỏng bầy ong** đại diện cho đỉnh cao tuyệt đối của tiến trình trang bị giày trong trò chơi. Được phát hành dưới dạng phụ kiện cuối game cao cấp, đôi giày này chỉ có thể được mua bên trong Hang Gấu Gummy. Chúng được công nhận rộng rãi là đôi giày đắt nhất hiện có, đóng vai trò là một cột mốc quan trọng cho những người chơi tận tụy muốn tối ưu hóa việc thu thập phấn hoa và chất nhờn.
+
+Khi đeo, đôi giày sẽ phát ra hiệu ứng âm thanh lún phún và để lại một vệt chất nhờn trắng liên tục phía sau người chơi, tự động hóa một phần đáng kể việc tạo ra chất nhờn của bạn. Không giống như các trang bị giữa game, đôi giày này cung cấp các hệ số nhân chỉ số khổng lồ, đặc biệt hiệu quả với các tổ ong cấp cao, nhất là những tổ ong tập trung vào màu trắng hoặc hỗn hợp.
+
+| Chỉ số | Giá trị | Mô tả |
+| :--- | :--- | :--- |
+| **Chất nhờn** | +25% | Tăng lượng chất nhờn thu thập được từ tất cả các cánh đồng |
+| **Phấn hoa** | +20% | Tăng tốc độ thu thập phấn hoa tổng thể |
+| **Sức tấn công của ong** | +3 | Tăng sát thương tổng thể của ong đối với quái vật |
+| **Mật ong từ Token** | +50% | Nhân lượng mật ong nhận được từ các token |
+| **Tốc độ di chuyển** | +9 | Tăng đáng kể tốc độ di chuyển của người chơi |
+| **Sức nhảy** | +22 | Cho phép nhảy cao hơn để di chuyển dễ dàng hơn |
+| **Thu thập khi di chuyển** | +15 | Tăng bán kính thu thập trong khi di chuyển |
+| **Tỷ lệ chuyển đổi** | x2 | Gấp đôi tốc độ chuyển đổi tại tổ ong |
+
+Khi so sánh đôi giày này với các lựa chọn giữa game như Coconut Clogs, sự khác biệt về tiện ích là rất đáng kinh ngạc. Trong khi Coconut Clogs cung cấp tốc độ di chuyển khá và một nội tại duy nhất, Gummy Boots mang lại một bước nhảy vọt về chỉ số cơ bản, sức nhảy cao hơn và hai khả năng nội tại hoạt động đồng thời mà không yêu cầu kế thừa trang bị.
+
+| Tính năng | Gummy Boots | Coconut Clogs |
+| :--- | :--- | :--- |
+| **Chi phí mật ong** | 100 tỷ | 25 tỷ |
+| **Tăng cường chất nhờn** | +25% | Không có |
+| **Tăng cường phấn hoa** | +20% | +10% |
+| **Tốc độ di chuyển** | +9 | +5 |
+| **Nội tại** | Vệt chất nhờn, Tăng tốc dừa | Tăng tốc dừa |
+| **Tăng cường tấn công** | +3 | Không có |
+
+<Callout type="info" title="Lối vào hang">
+Để vào Hang Gấu Gummy, người chơi phải leo lên mô hình Ong Gummy gần Cổng 20 con ong và sử dụng một viên Gumdrop. Điều này sẽ đưa bạn trực tiếp vào khu vực cửa hàng bí mật nơi có thể mua Gummy Boots và Mặt nạ Gummy.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Công thức & Chi phí chế tạo Gummy Boots">
+
+Chế tạo Gummy Boots là một trong những nỗ lực tốn kém tài nguyên nhất trong trò chơi. Ban đầu, công thức thậm chí còn khắt khe hơn, yêu 999 Keo và 300 mỗi loại chiết xuất. Tuy nhiên, Onett sau đó đã cân bằng lại công thức để những người chơi cuối game dễ dàng đạt được hơn.
+
+Ngoài chi phí mật ong thô, bạn phải thu thập một loạt các vật liệu chế tạo quý hiếm và các lọ mật hoa chuyên dụng. Điều này đòi hỏi kế hoạch dài hạn, việc tiêu diệt boss hàng ngày nhất quán và sử dụng máy xay một cách chiến lược.
+
+| Nguyên liệu | Số lượng | Phương thức thu thập chính |
+| :--- | :--- | :--- |
+| **Mật ong** | 100,000,000,000 | Cày cuốc tích cực, tăng cường cánh đồng và tiêu diệt boss |
+| **Keo** | 500 | Máy phân phối keo, chế tạo bằng gumdrops/sữa ong chúa |
+| **Kim tuyến** | 250 | Chế tạo bằng bùa mặt trăng/đậu thần, trò chơi trí nhớ |
+| **Chiết xuất đỏ** | 250 | Chế tạo bằng dâu tây/sữa ong chúa, King Beetle |
+| **Chiết xuất xanh** | 250 | Chế tạo bằng việt quất/sữa ong chúa, nhiệm vụ Bucko |
+| **Lọ thỏa mãn** | 1 | Máy trồng cây ở cánh đồng Thông/Hoa hồng, thu hoạch mật hoa |
+| **Lọ động lực** | 1 | Máy trồng cây ở cánh đồng Nhện/Tre, thu hoạch mật hoa |
+
+Để hình dung về công thức này, việc chế tạo tất cả keo, kim tuyến và chiết xuất từ nguyên liệu thô đòi hỏi hàng ngàn nguyên liệu riêng lẻ, bao gồm hơn 16,000 sữa ong chúa và hàng trăm đậu thần. Nếu không có các vật phẩm rơi ra từ quái vật, trò chơi trí nhớ và phần thưởng nhiệm vụ, thời gian chế tạo thô trong máy xay sẽ mất hơn 100 giờ chơi tích cực liên tục.
+
+<Callout type="warning" title="Thời gian chế tạo">
+Đừng chế tạo tất cả nguyên liệu của bạn cùng một lúc. Hãy tận dụng hàng đợi máy xay hàng ngày và ưu tiên chế tạo Kim tuyến và Keo bất cứ khi nào bạn có nguyên liệu thô, vì đây là những nút thắt lớn nhất trong công thức.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách cày Gummy Boots: Từng bước một">
+
+Thu thập tài nguyên cho trang bị cuối game này đòi hỏi một thói quen hàng ngày có cấu trúc. Nếu bạn cố gắng cày mọi thứ cùng một lúc, bạn sẽ sớm thấy mình bị choáng ngợp bởi khối lượng vật liệu khổng lồ cần thiết. Hãy làm theo thói quen cày cuốc từng bước này để tối ưu hóa tiến trình của bạn.
+
+<Steps>
+  <Step num="1" title="Thu thập Keo hàng ngày">
+    Nhận Keo miễn phí từ Máy phân phối keo trong Khu vực 10 con ong hàng ngày. Lượng Keo bạn nhận được tỷ lệ thuận với cấp độ Huy hiệu Chất nhờn của bạn. Hãy tập trung nâng cấp Huy hiệu Chất nhờn sớm để tối đa hóa nguồn tài nguyên hàng ngày này.
+  </Step>
+  <Step num="2" title="Tối ưu hóa máy xay">
+    Giữ cho máy xay của bạn hoạt động liên tục. Ưu tiên chế tạo Kim tuyến bằng Bùa mặt trăng và Đậu thần, và chế tạo Chiết xuất Đỏ và Xanh bằng Việt quất, Dâu tây và Sữa ong chúa. Đừng bao giờ để máy xay nhàn rỗi.
+  </Step>
+  <Step num="3" title="Nuôi dưỡng mật hoa">
+    Đặt máy trồng cây ở các cánh đồng cụ thể để nuôi dưỡng Mật hoa Thỏa mãn và Động lực. Thu hoạch chúng vào lọ khi chúng đạt đến độ chín muồi hoàn toàn. Việc duy trì các loại mật hoa này cũng cung cấp các bùa lợi quý giá cho việc thu thập phấn hoa của bạn trong khi cày cuốc.
+  </Step>
+  <Step num="4" title="Lần mua cuối cùng">
+    Tích lũy 100 tỷ Mật ong thông qua các đợt tăng cường cánh đồng có phối hợp. Khi đã có đủ tất cả vật liệu, hãy vào Hang Gấu Gummy thông qua cổng dịch chuyển Ong Gummy và nhận đôi giày của bạn.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Thói quen hàng ngày">
+Đánh bại Cua Dừa (Coconut Crab), Ốc Sên Gốc Cây (Stump Snail) và Bọ Hung Chúa (King Beetle) ngay khi hết thời gian hồi chiêu. Những con boss này thường xuyên rơi ra Keo, Kim tuyến và Chiết xuất, giúp cắt giảm đáng kể thời gian chế tạo trong máy xay và tiết kiệm vé quý giá của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mở khóa các kỹ năng nội tại của Gummy Boots">
+
+Sức mạnh thực sự của Gummy Boots nằm ở hai khả năng nội tại độc đáo của chúng. Không giống như các loại giày cấp thấp hơn, các nội tại này hoạt động độc lập và cung cấp sự gia tăng khổng lồ cho cả tốc độ di chuyển và khả năng chuyển đổi tại cánh đồng.
+
+<CardGrid cols={2}>
+  <Card title="Nội tại Vệt chất nhờn">
+    - **Độ phủ hoa**: Tự động phủ chất nhờn lên 5 bông hoa xung quanh khi bạn đi bộ.
+    - **Hệ số nhân chất nhờn**: Hoạt động song song với Mặt nạ Gummy để tối đa hóa việc cày cuốc trên cánh đồng trắng.
+    - **Không tốn phí**: Nội tại hoạt động liên tục mà không tiêu tốn gumdrops.
+  </Card>
+  <Card title="Nội tại Tăng tốc dừa">
+    - **Kích hoạt**: Kích hoạt khi nhặt được một quả dừa rơi ra từ Bình chứa dừa (Coconut Canister).
+    - **Tăng tốc**: Cung cấp một cộng dồn Tăng tốc (Haste) và một đợt Tăng tốc dừa bùng nổ trong 2 giây.
+    - **Hệ số nhân chỉ số**: Cung cấp x1.5 Tốc độ di chuyển của ong và +10 Tốc độ di chuyển của người chơi.
+  </Card>
+</CardGrid>
+
+Nội tại Vệt chất nhờn ban đầu chỉ bao phủ một bông hoa duy nhất ngay bên dưới người chơi, nhưng Onett sau đó đã tăng sức mạnh để nó bao phủ năm bông hoa gần nhất, làm cho nó trở nên cực kỳ hiệu quả trong việc duy trì hệ số nhân chất nhờn cao trên toàn bộ cánh đồng. Trong khi đó, nội tại Tăng tốc dừa đảm bảo rằng những con ong của bạn di chuyển cực nhanh, cho phép chúng thu thập và chuyển đổi phấn hoa với tốc độ chưa từng thấy trong các đợt tăng cường tích cực.
+
+<Callout type="tip" title="Không yêu cầu kế thừa">
+Bạn không cần phải mua hoặc sở hữu Coconut Clogs để được hưởng lợi từ nội tại Tăng tốc dừa trên Gummy Boots. Đôi giày này vốn đã sở hữu cả hai nội tại, giúp bạn tiết kiệm tài nguyên cho các đôi giày giữa game nếu bạn chọn bỏ qua chúng.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hướng dẫn tiến trình: Gummy Boots so với Bùa sao tối thượng">
+
+Một cuộc tranh luận phổ biến giữa những người chơi cuối game là nên ưu tiên tiết kiệm 100 tỷ Mật ong cho Gummy Boots hay chi cho việc sở hữu Bùa sao tối thượng (SSA). Mặc dù đôi giày cung cấp các chỉ số đáng kinh ngạc, nhưng việc vội vàng mua chúng trước khi có SSA thường được coi là một cái bẫy tiến trình.
+
+Một SSA sẽ mở khóa các nội tại thay đổi trò chơi như Pop Star, Shower hoặc Gummy Star, những thứ hoàn toàn định nghĩa lại việc tạo ra mật ong của bạn. Khi bạn đã có một nội tại SSA hoạt động phù hợp với màu sắc tổ ong của mình, việc kiếm được 100 tỷ Mật ong sẽ trở thành vấn đề của một vài đợt tăng cường thành công thay vì hàng tuần cày cuốc chậm chạp.
+
+| Cột mốc | Trạng thái khuyến nghị | Tại sao nó quan trọng |
+| :--- | :--- | :--- |
+| **Mặt nạ Gummy** | Bắt buộc | Cần thiết để tối đa hóa giá trị của Vệt chất nhờn |
+| **Bình chứa dừa** | Rất khuyến khích | Cần thiết để tạo ra những quả dừa rơi cho Tăng tốc dừa |
+| **SSA (Bùa sao tối thượng)** | Khuyến nghị | Đẩy nhanh đáng kể quá trình cày 100 tỷ Mật ong |
+| **Tổ ong cấp 12+** | Khuyến nghị | Đảm bảo tiêu diệt quái vật và cày vật liệu hiệu quả |
+
+Trước khi bạn dành tất cả vật liệu và mật ong khó kiếm được của mình cho Hang Gấu Gummy, hãy đảm bảo tổ ong của bạn đã chuẩn bị đầy đủ để tận dụng đôi giày này một cách tối đa.
+
+<Checklist
+  id="gummy-boots-readiness"
+  title="Danh sách kiểm tra mức độ sẵn sàng cho Gummy Boots:"
+  items={[
+    "Nhận Mặt nạ Gummy để tối ưu hóa sự phối hợp chất nhờn",
+    "Mở khóa Bùa sao tối thượng (SSA) để tăng sản lượng mật ong",
+    "Đạt mức sản xuất hàng ngày ít nhất 10 tỷ mật ong",
+    "Thu thập ít nhất 400 Keo trước khi đổi Gumdrops",
+    "Sở hữu 1 Lọ thỏa mãn và 1 Lọ động lực từ máy trồng cây"
+  ]}
+/>
+
+<Callout type="info" title="Ưu tiên cuối game">
+Luôn ưu tiên Bùa sao tối thượng (SSA) của bạn trước. Sự gia tăng theo cấp số nhân trong việc tạo mật ong từ các nội tại SSA giúp việc cày cuốc tài nguyên cho Gummy Boots trở nên nhanh hơn và ít tẻ nhạt hơn nhiều.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Gummy boots trong Trình mô phỏng bầy ong có xứng đáng với mức giá 100 tỷ mật ong không?",
+    answer: "Có, hoàn toàn xứng đáng. Đây là đôi giày tốt nhất trong trò chơi, cung cấp tốc độ di chuyển vô đối, tăng cường chuyển đổi và hai nội tại mạnh mẽ (Vệt chất nhờn và Tăng tốc dừa) giúp cải thiện đáng kể việc cày cuốc cuối game."
+  },
+  {
+    question: "Tôi có cần sở hữu Coconut Clogs để có nội tại Tăng tốc dừa trên Gummy Boots không?",
+    answer: "Không. Không giống như các nội tại của mặt nạ yêu cầu sự kế thừa, Gummy Boots vốn đã sở hữu cả nội tại Vệt chất nhờn và Tăng tốc dừa, bất kể bạn có từng mua Coconut Clogs hay không."
+  },
+  {
+    question: "Cách nhanh nhất để cày Keo cho Gummy Boots là gì?",
+    answer: "Cách nhanh nhất là nhận từ Máy phân phối keo hàng ngày, đánh bại các boss như Cua Dừa và Ốc Sên Gốc Cây, hoàn thành nhiệm vụ từ Gấu Gummy và chế tạo Keo trong máy xay bằng cách sử dụng Gumdrops và Sữa ong chúa."
+  },
+  {
+    question: "Tôi có thể chế tạo Gummy Boots trước khi có Bùa sao tối thượng (SSA) không?",
+    answer: "Mặc dù về mặt vật lý là có thể, nhưng điều này rất không được khuyến khích. Việc có SSA trước sẽ mở khóa các nội tại tổ ong mạnh mẽ giúp việc thu thập 100 tỷ Mật ong cho đôi giày nhanh hơn gấp mười lần."
+  }
+]} />
+
+<Callout type="success" title="Mục tiêu cuối cùng">
+Mặc dù quá trình cày cuốc rất dài, Gummy Boots đại diện cho một trong những biểu tượng trạng thái và bước nhảy vọt về sức mạnh cuối cùng cho những người chơi cao cấp trong Trình mô phỏng bầy ong. Hãy kiên trì với việc tiêu diệt boss hàng ngày, giữ cho máy xay luôn hoạt động, và cuối cùng bạn sẽ gia nhập hàng ngũ những chiến binh Gummy tinh nhuệ!
+</Callout>
+
+</Section>

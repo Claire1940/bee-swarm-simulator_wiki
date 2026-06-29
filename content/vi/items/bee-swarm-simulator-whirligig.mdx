@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Box, Repeat, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Whirligig trong Bee Swarm Simulator: Hướng dẫn cày cuốc & Công thức chế tạo",
+  description: "Làm chủ cơ chế Whirligig trong Bee Swarm Simulator. Tìm hiểu cách cày nhanh qua Thử thách Gấu Robo, sử dụng để dịch chuyển và chế tạo Xúc xắc Cánh đồng.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Whirligig+Guide",
+  date: "2026-06-29",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, whirligig, cách kiếm whirligig, chế tạo field dice, thử thách gấu robo"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Tiện ích của Whirligig**: Dịch chuyển tức thời người chơi và đàn ong về tổ, đồng thời tăng tạm thời **Tốc độ Chuyển đổi (Convert Rate)**.
+- **Cách cày cuốc**: Chủ yếu nhận được thông qua **Thử thách Gấu Robo (Robo Bear Challenge)**, Thử thách Retro Swarm và các phần thưởng cụ thể từ Chồng Nhãn dán (Sticker Stack).
+- **Cốt lõi chế tạo**: Nguyên liệu thiết yếu để chế tạo **Xúc xắc Cánh đồng (Field Dice)** và **Xúc xắc Mịn (Smooth Dice)** trong Máy xay (Blender).
+- **Giới hạn kho đồ**: Dung lượng tiêu chuẩn tối đa là **100 đơn vị**, mặc dù phần thưởng nhiệm vụ có thể vượt qua giới hạn này.
+- **Sử dụng chiến thuật**: Tuyệt vời để thoát khỏi các khu vực nguy hiểm như Đường hầm Trắng (White Tunnel) hoặc đặt lại vị trí trong Thử thách Kiến (Ant Challenge).
+</Callout>
+
+<Section icon={Zap} title="Tìm hiểu về Whirligig trong Bee Swarm Simulator">
+
+**Whirligig** trong Bee Swarm Simulator là một vật phẩm tiện ích độc đáo được giới thiệu lần đầu trong bản cập nhật Beesmas 2021. Được mô phỏng theo hạt cây phong—thường được gọi là "máy bay trực thăng" do cách chúng xoay tròn khi rơi xuống—vật phẩm này phục vụ hai chức năng chính: tái định vị chiến thuật và tăng hiệu suất. Khi sử dụng, nó sẽ ngay lập tức đưa bạn và toàn bộ đàn ong trở về tổ đã nhận của mình.
+
+Ngoài việc di chuyển đơn thuần, Whirligig còn cung cấp một khoảng thời gian ngắn nhưng đáng kể giúp tăng **Tốc độ Chuyển đổi**. Điều này biến nó thành một công cụ vô giá cho những người chơi có túi đầy phấn hoa ở một cánh đồng xa xôi và muốn giảm thiểu thời gian chết. Thay vì đi bộ trở lại hoặc sử dụng Micro-Converter đắt đỏ hơn, Whirligig cung cấp một giải pháp kết hợp giữa di chuyển và tốc độ xử lý mật tại tổ.
+
+**Điểm nhấn Video:**
+- **Thu thập nhanh**: Các tuyến đường hiệu quả để thu thập Whirligig thông qua các thử thách.
+- **Phân tích cơ chế**: Cách dịch chuyển ảnh hưởng đến năng lượng của ong và quá trình chuyển đổi.
+- **Công thức Máy xay**: Hướng dẫn trực quan về cách sử dụng Whirligig để chế tạo xúc xắc nâng cao.
+
+<YouTubeEmbed videoId="ZruieUv-quM" title="Cách kiếm Whirligig nhanh trong Bee Swarm Simulator! HƯỚNG DẪN TỐT NHẤT" />
+
+| Tính năng | Chi tiết |
+|---------|--------|
+| **Hiệu ứng chính** | Dịch chuyển về Tổ + Tăng Tốc độ Chuyển đổi |
+| **Giới hạn kho đồ** | 100 Đơn vị (Giới hạn mềm) |
+| **Thời gian hồi** | Không còn thời gian hồi 5 phút (Đã cập nhật) |
+| **Kiểu dáng hình ảnh** | Hạt cây phong xoay tròn |
+| **Ngày ra mắt** | Beesmas 2021 |
+
+<Callout type="tip" title="Yêu cầu về Tổ">
+Bạn phải có một tổ ong đang hoạt động và đã nhận để sử dụng Whirligig. Cố gắng sử dụng mà không có tổ sẽ kích hoạt thông báo hệ thống: "Bạn phải nhận một tổ để sử dụng Whirligig."
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách kiếm Whirligig nhanh chóng">
+
+Việc duy trì nguồn cung cấp **Whirligig** ổn định đòi hỏi phải tham gia vào các thử thách kỹ thuật hơn của trò chơi. Không giống như các loại bánh kẹo hoặc trái cây cơ bản, bạn không thể đơn giản tìm thấy chúng rải rác trên cỏ ở Cánh đồng Khởi đầu (Starter Field). Bạn phải tương tác với các yếu tố robot và retro của trò chơi để duy trì đủ 100 đơn vị.
+
+<CardGrid cols={3}>
+  <Card title="Thử thách Gấu Robo">
+    - **Rơi phổ biến** từ các vòng đã hoàn thành.
+    - Các vòng cao hơn mang lại số lượng lớn hơn.
+    - Nguồn tốt nhất để cày cuốc ổn định.
+  </Card>
+  <Card title="Retro Swarm">
+    - Phần thưởng khi đạt được các mốc cụ thể.
+    - Có thể tiếp cận đối với người chơi ở giai đoạn giữa game.
+    - Nguồn phụ đáng tin cậy.
+  </Card>
+  <Card title="Chồng Nhãn dán">
+    - **Simple Mountain**: Thưởng 10 đơn vị.
+    - **Launching Rocket**: Thưởng 10 đơn vị.
+    - Phần thưởng một lần cho mỗi lần hoàn thành chồng nhãn dán.
+  </Card>
+</CardGrid>
+
+### Các nguồn rơi chính
+
+Bảng dưới đây phác thảo những cách hiệu quả nhất để cày Whirligig trong meta 2026 hiện tại. Lưu ý rằng trong khi một số phương pháp có thể lặp lại, những phương pháp khác gắn liền với các sự kiện theo mùa hoặc mua hàng một lần.
+
+| Phương pháp | Loại | Hiệu quả | Lưu ý |
+|--------|------|------------|-------|
+| **Thử thách Gấu Robo** | Lặp lại | Cao | Cách đáng tin cậy nhất để duy trì giới hạn 100. |
+| **Quái vật Robo Party** | Chiến đấu | Trung bình | Rơi từ kẻ địch máy móc trong các bữa tiệc. |
+| **Thử thách Retro Swarm** | Mini-game | Trung bình | Tốt cho người chơi tập trung vào phần thưởng retro. |
+| **Danh mục của Gấu Bee** | Mua hàng | Cao | Có sẵn trong các gói Frozen Forest & Winter Winds. |
+| **Mục tiêu Hoa Xanh** | Bí mật | Thấp | Bắn trúng mục tiêu gần Hang Gấu Cánh cứng (3 đơn vị). |
+
+<Callout type="warning" title="Quản lý kho đồ">
+Nếu kho đồ của bạn đã chứa 100 Whirligig, bất kỳ vật phẩm mới nào nhặt được từ mặt đất hoặc thử thách sẽ bị mất. Chỉ Whirligig nhận được thông qua **Nhiệm vụ** hoặc **Mã khuyến mãi (Code)** mới có thể vượt quá giới hạn này.
+</Callout>
+
+</Section>
+
+<Section icon={Box} title="Công thức chế tạo và Cách dùng trong Máy xay">
+
+**Whirligig** không chỉ là một vật phẩm tiện ích; nó còn là thành phần quan trọng để chế tạo cấp cao. Nếu bạn đang muốn điều chỉnh các đợt tăng cường cánh đồng (field boost) hoặc tối ưu hóa việc thu thập phấn hoa, bạn sẽ cần dùng Whirligig trong Máy xay (Blender).
+
+Hầu hết người chơi sử dụng Whirligig để chế tạo **Xúc xắc Cánh đồng (Field Dice)**, vốn rất cần thiết để quay lại các đợt tăng cường cánh đồng. Khi bạn tiến bộ, các Xúc xắc Cánh đồng này được tinh chế thêm thành **Xúc xắc Mịn (Smooth Dice)**, cung cấp các bùa lợi mạnh mẽ hơn nữa.
+
+### Yêu cầu trong Máy xay
+
+| Vật phẩm tạo thành | Số Whirligig cần thiết | Các nguyên liệu khác |
+|----------------|---------------------|-------------------|
+| **Xúc xắc Cánh đồng** | 1 | 1 Sáp mềm (Soft Wax), 1 Chiết xuất Đỏ, 1 Chiết xuất Xanh |
+| **Xúc xắc Mịn** | 3 | 3 Xúc xắc Cánh đồng, 3 Dầu (Oil), 3 Sáp mềm |
+
+<Steps>
+  <Step num="1" title="Thu thập nguyên liệu cơ bản">
+    Thu thập Whirligig từ Thử thách Gấu Robo và cày các chiết xuất Đỏ/Xanh từ các cánh đồng tương ứng hoặc chế tạo.
+  </Step>
+  <Step num="2" title="Chế tạo Xúc xắc Cánh đồng">
+    Sử dụng Máy xay để kết hợp 1 Whirligig với các chiết xuất và Sáp mềm. Đây là cách sử dụng Whirligig phổ biến nhất ở giai đoạn giữa game.
+  </Step>
+  <Step num="3" title="Nâng cấp lên Xúc xắc Mịn">
+    Khi bạn có dư Xúc xắc Cánh đồng, hãy kết hợp chúng với 3 Whirligig và Dầu để tạo ra Xúc xắc Mịn nhằm thao túng cánh đồng vượt trội.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo hiệu quả">
+Luôn giữ ít nhất 10 Whirligig trong kho đồ cho các trường hợp khẩn cấp (như thoát khỏi Đường hầm Trắng), và dồn phần còn lại vào việc chế tạo Xúc xắc Cánh đồng để tối đa hóa các đợt tăng cường cánh đồng của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến thuật nâng cao và Thông tin thú vị">
+
+**Whirligig** có một vài công dụng "ẩn" mà những người chơi có kinh nghiệm thường khai thác để tiết kiệm thời gian và tránh cái chết. Hiểu được các tương tác này có thể cải thiện đáng kể tỷ lệ sống sót của bạn trong các khu vực rủi ro cao.
+
+### Tái định vị chiến thuật
+
+Một trong những cách sử dụng phổ biến nhất của Whirligig là như một "Dây thoát hiểm". Ở những khu vực mà chuyển động của bạn bị hạn chế hoặc cái chết đang cận kề, việc dịch chuyển tức thời có thể cứu lấy mật ong và các bùa lợi của bạn.
+
+| Kịch bản | Tương tác của Whirligig | Lợi ích |
+|----------|-----------------------|---------|
+| **Đường hầm Trắng** | Dịch chuyển bạn ra khỏi đường hầm ngay lập tức. | Thoát khỏi Gấu Đường hầm mà không cần chiến đấu hoặc bị chết. |
+| **Thử thách Kiến** | Dịch chuyển bạn vào giữa Cánh đồng Kiến. | Đặt lại vị trí của bạn nếu bạn bị kiến dồn vào góc. |
+| **Trận chiến Gấu Tuyết** | Chỉ dịch chuyển ong nếu bạn bị hiệu ứng "Đóng băng". | Ong tiếp tục chuyển đổi mật trong khi bạn vẫn bị kẹt. |
+| **Giật lag (Lag)** | Có thể không dịch chuyển được người chơi, chỉ dịch chuyển ong. | Hữu ích để "gỡ kẹt" AI của ong trong khi máy chủ bị lag. |
+
+### Thông tin bên lề
+
+- **Cảm hứng**: Vật phẩm này dựa trên quả cánh (samara) của cây phong. Cơ chế xoay trong trò chơi mô phỏng cách những hạt giống này di chuyển quãng đường dài trong gió.
+- **Lịch sử thời gian hồi**: Trước cuối năm 2022, Whirligig có thời gian hồi 5 phút, khiến chúng kém khả thi hơn khi sử dụng thường xuyên. Điều này đã được loại bỏ để cải thiện luồng trò chơi.
+- **Đường hầm Trắng**: Ngoài việc đánh bại Gấu Đường hầm hoặc sử dụng tấm màu xám, Whirligig là một trong những cách duy nhất để thoát khỏi Đường hầm Trắng giữa chừng.
+
+<Callout type="info" title="Thay đổi trong Thử thách Kiến">
+Trong các phiên bản cũ của trò chơi, sử dụng Whirligig trong Thử thách Kiến sẽ dịch chuyển bạn đi nơi khác và kết thúc thử thách. Kể từ đó, nó đã được cập nhật để đưa bạn vào giữa cánh đồng, cho phép bạn tiếp tục cuộc chiến.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra Whirligig hàng ngày">
+
+Để đảm bảo bạn không bao giờ hết nguồn tài nguyên quan trọng này, hãy làm theo thói quen hàng ngày sau đây. Duy trì một lượng **Whirligig** ổn định là chìa khóa cho cả việc chế tạo và chuyển đổi mật hiệu quả.
+
+<Checklist
+  id="whirligig-routine"
+  title="Mục tiêu cày cuốc hàng ngày:"
+  items={[
+    "Hoàn thành ít nhất 3 lượt Thử thách Gấu Robo",
+    "Kiểm tra Danh mục của Gấu Bee để xem có gói Whirligig nào không",
+    "Quyên góp nhãn dán dư thừa vào Chồng Nhãn dán để lấy phần thưởng tiềm năng",
+    "Chế tạo ít nhất 5 Xúc xắc Cánh đồng để giữ kho đồ dưới giới hạn 100",
+    "Tiêu diệt quái vật Robo Party nếu có sự kiện đang diễn ra"
+  ]}
+/>
+
+<Callout type="warning" title="Đừng lãng phí vật phẩm rơi">
+Vì giới hạn là 100, hãy luôn kiểm tra kho đồ của bạn trước khi nhận phần thưởng Retro Swarm. Nếu bạn đang ở mức 95, hãy chế tạo một vài Xúc xắc Cánh đồng trước khi nhận phần thưởng 10 đơn vị để tránh mất 5 Whirligig.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp về Whirligig">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để sở hữu nhiều hơn 100 Whirligig trong Bee Swarm Simulator?",
+    answer: "Cách duy nhất để vượt quá giới hạn 100 đơn vị là nhận Whirligig thông qua Nhiệm vụ hoặc bằng cách nhập các Mã (Code) khuyến mãi. Các vật phẩm rơi thông thường từ quái vật hoặc thử thách sẽ không được thêm vào kho đồ khi bạn đã đạt mức 100."
+  },
+  {
+    question: "Whirligig có giúp tăng sản lượng mật ong của tôi không?",
+    answer: "Gián tiếp là có. Nó tăng Tốc độ Chuyển đổi tạm thời sau khi dịch chuyển bạn về tổ, cho phép bạn làm trống túi phấn hoa và quay lại cánh đồng nhanh hơn."
+  },
+  {
+    question: "Tôi có thể sử dụng Whirligig để thoát khỏi Cua Dừa (Coconut Crab) không?",
+    answer: "Có, sử dụng Whirligig sẽ ngay lập tức dịch chuyển bạn trở lại tổ, kết thúc cuộc chiến một cách hiệu quả nhưng cứu bạn khỏi cái chết tiềm ẩn và mất các bùa lợi."
+  },
+  {
+    question: "Cách sử dụng Whirligig tốt nhất là gì?",
+    answer: "Đối với hầu hết người chơi, cách sử dụng tốt nhất là chế tạo Xúc xắc Cánh đồng. Mặc dù việc dịch chuyển rất tiện lợi, nhưng khả năng quay lại các đợt tăng cường cánh đồng là điều cần thiết để cày phấn hoa cấp cao."
+  }
+]} />
+
+</Section>

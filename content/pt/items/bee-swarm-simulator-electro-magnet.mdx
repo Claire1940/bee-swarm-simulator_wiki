@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, ShoppingCart, ListChecks } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Eletroímã do Bee Swarm Simulator: Guia de Equipamento da Pro Shop e Farm",
+  description: "Domine o eletroímã do Bee Swarm Simulator com nosso guia de 2026. Aprenda estatísticas, localização da Pro Shop e dicas de otimização para farm de mel no início do jogo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/000?text=Electro+Magnet+Guide",
+  date: "2026-06-29",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "eletroímã do bee swarm simulator, pro shop, farm de mel, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ferramenta Principal**: O **eletroímã do bee swarm simulator** é um coletor de pólen de nível médio encontrado na Pro Shop.
+- **Custo de Aquisição**: Você pode comprar esta ferramenta por **300.000 de Mel**, tornando-a uma atualização vital em relação ao Ímã básico.
+- **Padrão Único**: É uma das duas únicas ferramentas que usa um padrão de coleta **Surround (Quadrado)**, cobrindo 9 flores de uma vez.
+- **Aumento de Eficiência**: Com uma taxa de coleta base de **72 pólen por segundo**, ela supera significativamente as ferramentas iniciais.
+- **Valor do Adesivo**: O adesivo do Eletroímã associado é um item colecionável usado para decoração de colmeia e trocas.
+</Callout>
+
+<Section icon={ShoppingCart} title="Adquirindo o Eletroímã">
+
+O **eletroímã do bee swarm simulator** serve como um marco significativo para os jogadores que estão saindo da fase inicial do jogo. Introduzido na atualização de 02/06/2018, ele representa a primeira ferramenta "elétrica" que os jogadores encontram, sinalizando uma mudança para equipamentos mais complexos. Para obtê-lo, você deve viajar até a **Pro Shop**, que está localizada na área após o portão de 10 abelhas.
+
+**Destaques do Vídeo:**
+- Passo a passo visual da localização da Pro Shop.
+- Demonstração do padrão de coleta quadrado do Eletroímã em vários campos.
+- Comparação da velocidade de coleta em relação ao Ímã padrão.
+
+<YouTubeEmbed videoId="Btk5QJxCSiQ" title="Bee Swarm Simulator Electro Magnet?!?" />
+
+Antes de ir para a loja, certifique-se de ter acumulado mel suficiente. Embora 300.000 de Mel possa parecer assustador para um jogador novato, é facilmente alcançável farmando nos campos Clover (Trevo) ou Mushroom (Cogumelo) com abelhas básicas.
+
+| Requisito | Valor | Localização |
+| :--- | :--- | :--- |
+| **Custo de Mel** | **300.000 de Mel** | Pro Shop |
+| **Portão de Abelhas** | 10 Abelhas Necessárias | Mountain Top Path |
+| **Ferramenta Anterior** | Ímã (Recomendado) | Noob Shop |
+
+<Callout type="tip" title="Dica de Pro">
+Não corra para a Pro Shop até ter pelo menos 10-12 abelhas. O tempo de viagem e o custo são melhor gerenciados quando você já tem uma pequena colmeia para sustentar sua produção de mel.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Estatísticas e Análise de Desempenho">
+
+O desempenho do **eletroímã do bee swarm simulator** é definido por seu padrão único "Surround". Ao contrário do Scooper ou Rake, que coletam em linhas ou arcos, o Eletroímã puxa pólen de uma grade quadrada 3x3 centrada no jogador. Isso o torna excepcionalmente eficaz em campos densos onde as flores estão muito próximas.
+
+A ferramenta coleta 4 de pólen de 9 flores a cada 0,5 segundos. Isso se traduz em uma taxa base que permite encher a mochila de forma constante sem precisar se mover tanto quanto você faria com ferramentas direcionais.
+
+| Categoria de Estatística | Detalhe | Valor |
+| :--- | :--- | :--- |
+| **Pólen/Flor** | Coleta Base | 4 |
+| **Alcance de Flores** | Total de Flores Atingidas | 9 |
+| **Velocidade de Coleta** | Intervalo em Segundos | 0,5s |
+| **Taxa Total** | Pólen Por Segundo | **72 PPS** |
+| **Tipo de Padrão** | Forma da Coleta | Surround/Quadrado |
+
+<CardGrid cols={2}>
+  <Card title="Eficiência em Flores Brancas">
+    - **Simples**: 4 Pólen
+    - **Dupla**: 8 Pólen
+    - **Tripla**: 12 Pólen
+    - **Estrela**: 20 Pólen
+  </Card>
+  <Card title="Neutralidade de Cor">
+    - **Campos Vermelhos**: 100% de Eficácia
+    - **Campos Azuis**: 100% de Eficácia
+    - **Campos Mistos**: Desempenho Ideal
+    - **Multiplicadores Especiais**: Nenhum
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Importante">
+O Eletroímã não possui buffs específicos de cor. Se você estiver farmando especificamente nos campos Strawberry ou Bamboo, ferramentas especializadas como a Scythe ou Bubble Wand podem eventualmente render melhores resultados assim que você especializar sua colmeia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparação: Ímã vs. Eletroímã">
+
+Entender o caminho de atualização é crucial para uma progressão eficiente. O **eletroímã do bee swarm simulator** é o sucessor direto do Ímã padrão. Embora compartilhem a mesma lógica de coleta quadrada, o Eletroímã melhora seu antecessor em todos os aspectos mensuráveis.
+
+Visualmente, o Eletroímã é amarelo e branco com faíscas elétricas visíveis, enquanto o Ímã original é vermelho e cinza. O Eletroímã também possui quatro pontas em vez de duas, permitindo um ciclo de coleta mais rápido.
+
+| Recurso | Ímã | Eletroímã |
+| :--- | :--- | :--- |
+| **Esquema de Cores** | Vermelho / Cinza | **Amarelo / Branco** |
+| **Efeitos Visuais** | Nenhum | **Faíscas Elétricas** |
+| **Velocidade de Coleta** | Mais Lenta | **0,5s (Rápida)** |
+| **Pontas** | 2 | **4** |
+| **Padrão** | Quadrado | **Quadrado** |
+
+<Steps>
+  <Step num="1" title="A Fase do Ímã">
+    Compre o Ímã básico na Noob Shop por 4.500 de Mel. Use-o para aprender o padrão de farm quadrado.
+  </Step>
+  <Step num="2" title="Acúmulo de Mel">
+    Farme nas áreas de 5 e 10 abelhas. Foque em completar as missões do Black Bear para obter recompensas massivas de mel.
+  </Step>
+  <Step num="3" title="A Atualização da Pro Shop">
+    Assim que atingir 300.000 de Mel, pule o Vacuum e vá direto para o Eletroímã para maximizar seu PPS (Pólen Por Segundo).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Nota de Eficiência">
+O Eletroímã é frequentemente considerado um investimento melhor do que o Vacuum para jogadores que preferem um estilo de farm "estacionário", pois o padrão quadrado cobre mais área sem exigir movimento constante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Otimizando Suas Rotas de Farm">
+
+Para tirar o máximo proveito do **eletroímã do bee swarm simulator**, você deve escolher campos que complementem sua área de coleta 3x3. Campos grandes e abertos com alta densidade de flores são onde esta ferramenta realmente brilha.
+
+**Campos Recomendados para o Eletroímã:**
+- **Clover Field**: A alta densidade de flores torna o quadrado 3x3 muito eficiente.
+- **Mushroom Field**: Ótimo para missões iniciais de pólen vermelho.
+- **Spider Field**: Se você conseguir desviar da Aranha, a densidade de flores aqui é excelente para padrões quadrados.
+- **Pineapple Patch**: Bom para coleta de pólen misto.
+
+| Tipo de Campo | Compatibilidade | Motivo |
+| :--- | :--- | :--- |
+| **Campos Pequenos** | Alta | Cabe facilmente em toda a largura do campo |
+| **Campos Grandes** | Média | Requer mais movimento entre as áreas |
+| **Campos Irregulares** | Baixa | O padrão quadrado pode atingir espaços vazios |
+
+<Checklist
+  id="electro-magnet-goals"
+  title="Lista de Verificação de Maestria do Eletroímã:"
+  items={[
+    "Comprar por 300.000 de Mel na Pro Shop",
+    "Equipar e testar o padrão 3x3 no Clover Field",
+    "Alcançar 1.000.000 de pólen total coletado com a ferramenta",
+    "Obter o Adesivo de Colmeia do Eletroímã",
+    "Atualizar para o Golden Rake assim que o Mel permitir"
+  ]}
+/>
+
+<Callout type="info" title="Informações sobre o Adesivo">
+O Eletroímã tem um adesivo associado usado na Impressora de Adesivos ou para trocas. Curiosamente, o ícone do adesivo não possui o cabo encontrado no modelo real da ferramenta!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Curiosidades e Fatos Ocultos">
+
+O **eletroímã do bee swarm simulator** é mais do que apenas uma ferramenta; é uma peça da história do jogo. Sendo uma das poucas ferramentas adicionadas em uma atualização de conteúdo específica (junho de 2018), ele preencheu uma lacuna na curva de progressão que anteriormente parecia muito íngreme.
+
+- **Mecânicas Únicas**: É a única ferramenta, além do Ímã, a usar o padrão "Surround".
+- **Histórico de Atualizações**: Foi adicionado junto com os Clippers e o Spark Staff para oferecer mais variedade na Pro Shop.
+- **Design Visual**: A eletricidade nas pontas é puramente cosmética e não causa dano a monstros nem concede buffs de abelhas "Elétricas".
+- **Mistério do Adesivo**: Como mencionado nas curiosidades, a versão em adesivo carece do cabo, tornando-se um detalhe visual único na coleção de adesivos.
+
+| Grupo de Ferramenta | Tipo de Padrão | Atualização Adicionada |
+| :--- | :--- | :--- |
+| **Eletroímã** | Surround | 02/06/2018 |
+| **Clippers** | Cruz | 02/06/2018 |
+| **Spark Staff** | Fluxo Triplo | 02/06/2018 |
+| **Petal Wand** | Feixe/Auto | Atualização Posterior |
+
+<Callout type="warning" title="Evite este Erro">
+Não confunda o Eletroímã com o Spark Staff. Embora ambos sejam "elétricos" e encontrados na Pro Shop, o Spark Staff custa 20.000.000 de Mel e funciona de forma muito diferente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e FAQ de Progressão">
+
+O **eletroímã do bee swarm simulator** é um degrau essencial para qualquer aspirante a profissional. Ao oferecer um padrão de coleta confiável e de alta velocidade por um preço razoável, ele faz a ponte entre o equipamento inicial e o equipamento de alto nível encontrado na Mountain Top Shop.
+
+<FAQ items={[
+  {
+    question: "Onde exatamente o eletroímã do bee swarm simulator está localizado?",
+    answer: "Ele está localizado na Pro Shop, que fica atrás do portão de 10 abelhas na área do Mountain Top. Você precisa passar pelas entradas dos HQs Vermelho e Azul para encontrá-la."
+  },
+  {
+    question: "O Eletroímã é melhor que o Golden Rake?",
+    answer: "Não, o Golden Rake é o próximo nível. O Golden Rake coleta mais pólen em uma área maior, mas custa 20.000.000 de Mel. O Eletroímã é a melhor ferramenta até que você possa pagar pelo Rake."
+  },
+  {
+    question: "O Eletroímã ajuda em missões específicas?",
+    answer: "É excelente para missões de 'Coletar Pólen' do Black Bear e Mother Bear porque seu padrão quadrado coleta todas as cores igualmente, ajudando você a terminar os requisitos gerais mais rápido."
+  },
+  {
+    question: "Posso conseguir o Eletroímã de graça?",
+    answer: "Não, ele deve ser comprado por 300.000 de Mel. No entanto, às vezes você pode encontrar o adesivo associado através de locais escondidos ou trocas."
+  }
+]} />
+
+</Section>

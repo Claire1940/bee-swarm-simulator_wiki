@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abelha Vetorial do Bee Swarm Simulator: Guia de Habilidades e Configuração de Colmeia Branca",
+  description: "Domine a Abelha Vetorial do Bee Swarm Simulator com nosso guia de 2026. Aprenda sobre Triangulate, Mark Surge e as melhores estratégias de Colmeia Branca para pólen máximo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/facc15/000?text=Vector+Bee+Guide",
+  date: "2026-06-29",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, abelha vetorial, vector bee, colmeia branca, guia de habilidades"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Abelha Vetorial (Vector Bee)**: Uma abelha Mítica essencial para composições de Colmeia Branca.
+- **Mecânica Principal**: Usa a habilidade **Triangulate** para coletar quantidades massivas de pólen em um campo geométrico.
+- **Melhor Estratégia**: Acumule várias Abelhas Vetoriais para acionar **Mark Surges** frequentes e estender a duração das Marcas.
+- **Dica Crítica**: Abelhas Vetoriais Superdotadas fornecem um bônus de +15% na Duração da Marca, o que é vital para o farm de alto nível.
+- **Escolha Principal**: Obrigatória para Colmeias Brancas, mas frequentemente substituída em composições especializadas de Colmeia Vermelha ou Azul.
+</Callout>
+
+<Section icon={Map} title="Entendendo a Mecânica da Abelha Vetorial">
+
+A **abelha vetorial (vector bee)** é uma abelha de nível Mítico que serve como a espinha dorsal do meta de Colmeia Branca. Ao contrário de muitas outras abelhas que se concentram na coleta direta, a Abelha Vetorial se destaca na manipulação de campo através de sua habilidade única de criar zonas de coleta geométrica. Embora uma Abelha Vetorial não superdotada seja considerada de nível médio entre as Míticas, seu verdadeiro potencial é desbloqueado quando ela se torna superdotada e é integrada a uma composição de colmeia específica.
+
+**Destaques do Vídeo:**
+- **Necessidade da Colmeia Branca**: Por que a Abelha Vetorial é o núcleo de qualquer build séria de Colmeia Branca.
+- **Análise de Habilidades**: Como o Triangulate e as Marcas de Pólen (Pollen Marks) interagem para impulsionar a coleta.
+- **Vantagens da Superdotada**: O impacto massivo da habilidade Mark Surge.
+- **Viabilidade em Colmeia Mista**: Por que a Abelha Vetorial pode não ser a melhor escolha para iniciantes ou colmeias mistas.
+
+<YouTubeEmbed videoId="_nZp9VnVaHA" title="O que a Abelha Vetorial faz? (Bee Swarm Simulator) Guia Tutorial" />
+
+No meta atual de 2026, a Abelha Vetorial continua sendo a principal fonte de coleta para jogadores que focam na Gummy Star e em buffs de pólen branco. Sua capacidade de criar triângulos no campo permite um farm estilo "lâmina de barbear", onde os jogadores podem limpar grandes seções do campo instantaneamente, posicionando-se estrategicamente entre a abelha e suas marcas.
+
+<Callout type="tip" title="Dica de Pro">
+Ao usar o Triangulate, tente se mover de forma a esticar o triângulo pela parte mais densa do campo. Quanto maior o triângulo, mais pólen você coleta!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades Principais e Estatísticas">
+
+A eficiência da Abelha Vetorial é determinada por sua capacidade de gerar e sustentar Marcas. Essas Marcas fornecem buffs localizados que, quando acumulados, transformam um campo comum em uma zona de farm de alto rendimento. Abaixo está um detalhamento detalhado das estatísticas base da Abelha Vetorial e suas principais habilidades ativas.
+
+| Estatística | Valor Base (Nível 1) | Descrição |
+| :--- | :--- | :--- |
+| **Coleta de Pólen** | 20 | Coletado a cada 4 segundos |
+| **Conversão de Mel** | 800 | Convertido a cada 4 segundos |
+| **Poder de Ataque** | 4 | Dano moderado para uma abelha Mítica |
+| **Velocidade** | 24 | Alta mobilidade para posicionamento de habilidades |
+| **Energia** | 40 | Reserva de energia padrão de Mítica |
+
+Além das estatísticas puras, o valor da Abelha Vetorial reside em seus dois tokens principais: **Pollen Mark** e **Triangulate**.
+
+### Pollen Mark (Marca de Pólen)
+Esta habilidade marca uma grande área aleatória no campo por 8 segundos. Enquanto estiver dentro da Marca, toda a coleta de pólen é aumentada em 50%. Este efeito pode acumular até três vezes, levando a um aumento massivo de 150% na eficiência da coleta. Para jogadores que utilizam a **abelha vetorial**, manter esses acúmulos é a diferença entre uma rodada medíocre e um farm recorde.
+
+### Triangulate (Triangular)
+O Triangulate desenha um triângulo entre o jogador e a abelha. Este campo geométrico coleta pólen de cada flor que toca. A quantidade coletada é significativamente maior do que a coleta padrão e escala com o nível da abelha e os multiplicadores de pólen branco da sua colmeia.
+
+<Callout type="warning" title="Alerta de Estratégia">
+O Triangulate é altamente dependente do posicionamento do jogador. Se você ficar parado, os triângulos serão pequenos e ineficientes. Mantenha-se sempre em movimento para maximizar a área de efeito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="O Poder da Abelha Vetorial Superdotada">
+
+Uma Abelha Vetorial Superdotada muda completamente o jogo. A transição de Mítica para Mítica Superdotada introduz a habilidade **Mark Surge** e um poderoso Bônus de Colmeia que beneficia todas as outras abelhas do seu inventário.
+
+| Recurso | Bônus de Superdotada | Efeito |
+| :--- | :--- | :--- |
+| **Bônus de Colmeia** | +15% Duração da Marca | Todas as Marcas no campo duram mais tempo |
+| **Habilidade Superdotada** | Mark Surge | Marcas coletam pólen e estendem a duração |
+| **Surto de Pólen** | 10% por nível | Marcas coletam pólen de todas as flores no raio |
+| **Conversão Instantânea** | Honey/Festive Surge | Converte instantaneamente pólen surgido em mel |
+| **Acertos Críticos** | Precise Surge | Surtos em Marcas Precisas sempre causam acertos críticos |
+
+A habilidade **Mark Surge** faz com que todas as marcas ativas coletem 10% de pólen por nível de todas as flores dentro de seu raio. Além disso, cada surto estende a duração da marca em um segundo, até cinco vezes. Isso cria um ciclo onde as marcas permanecem no campo indefinidamente se você tiver Abelhas Vetoriais suficientes ativando surtos.
+
+<CardGrid cols={3}>
+  <Card title="Sustentação de Marcas">
+    - **Bônus de 15% de Duração**
+    - Estende a vida da Marca via Surtos
+    - Essencial para acúmulos altos
+  </Card>
+  <Card title="Auto-Coleta">
+    - **10% de Pólen por Nível**
+    - Coleta passiva enquanto se move
+    - Sinergia com Gummy Star
+  </Card>
+  <Card title="Sinergia do Meta">
+    - **Críticos em Marcas Precisas**
+    - Conversão Instantânea de Mel
+    - Necessária para Colmeias Brancas
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Visão do Meta">
+Em uma Colmeia Branca dedicada, os jogadores costumam usar 10 ou mais Abelhas Vetoriais Superdotadas. Isso garante que o campo esteja constantemente coberto por Marcas que nunca expiram, levando a buffs de pólen de 150% infinitos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Otimizar o Desempenho da Abelha Vetorial">
+
+Ter apenas uma **abelha vetorial** não é suficiente; você deve saber como utilizar seus tokens de forma eficaz. Siga estes passos para dominar a "Dança do Triângulo" e maximizar seu mel por hora.
+
+<Steps>
+  <Step num="1" title="Posicionamento da Marca">
+    Entre no campo e espere a Abelha Vetorial soltar uma Pollen Mark. Posicione-se perto do centro da Marca para se preparar para a próxima fase.
+  </Step>
+  <Step num="2" title="Ativando o Triangulate">
+    Assim que uma Marca estiver ativa, observe a Abelha Vetorial voar para longe de você. Quando ela ativar o Triangulate, mova-se na direção oposta para esticar o triângulo pelo campo.
+  </Step>
+  <Step num="3" title="Acumulando Buffs">
+    Continue coletando tokens para acumular Pollen Marks até 3x. Use sua Gummy Mask ou Gummy Boots para adicionar multiplicadores de pólen branco durante esta janela de pico.
+  </Step>
+  <Step num="4" title="Gerenciando Mark Surges">
+    Se a sua Abelha Vetorial for superdotada, priorize a coleta de tokens de Mark Surge. Eles atualizarão suas marcas existentes, permitindo que você mantenha seu acúmulo de 3x sem resetar.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Requisito Importante">
+Para realmente se destacar com as Abelhas Vetoriais, você deve buscar a passiva **Gummy Star** em seu Supreme Star Amulet. A sinergia entre o foco em pólen branco da Abelha Vetorial e a geração de goma da Gummy Star é a base da Colmeia Branca de fim de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparações de Colmeia: Abelha Vetorial vs. Outras">
+
+A Abelha Vetorial é certa para o seu estágio atual no jogo? Embora seja uma potência no final do jogo, ela pode dificultar a progressão de jogadores no início ou meio do jogo que ainda não especializaram a cor de sua colmeia.
+
+| Tipo de Colmeia | Avaliação da Vetorial | Motivo |
+| :--- | :--- | :--- |
+| **Colmeia Branca** | ★★★★★ | Abelha principal; obrigatória para todas as builds |
+| **Colmeia Mista** | ★★★☆☆ | Boa para coleta, mas difícil de otimizar |
+| **Colmeia Azul** | ★★☆☆☆ | Geralmente substituída por abelhas Tadpole/Buoyant |
+| **Colmeia Vermelha** | ★★☆☆☆ | Substituída por abelhas Spicy/Precise |
+
+Como mostrado na tabela, a **abelha vetorial** é uma especialista. Se você é um jogador de colmeia mista, ter uma ou duas Abelhas Vetoriais é útil para missões gerais, mas você não deve investir pesadamente nelas até que esteja pronto para se comprometer com uma Colmeia Branca.
+
+<Checklist
+  id="vector-bee-check"
+  title="Você deve manter sua Abelha Vetorial?"
+  items={[
+    "Você planeja seguir uma build de Colmeia Branca?",
+    "Você tem uma Gummy Mask ou Gummy Star?",
+    "A Abelha Vetorial é Superdotada (pela Duração da Marca)?",
+    "Você tem pelo menos 3-5 outras abelhas geradoras de Marcas?",
+    "Você está tendo dificuldades com missões de Pólen Branco?"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "A Abelha Vetorial é boa se não for superdotada?",
+    answer: "Uma Abelha Vetorial não superdotada é decente para a coleta no início do jogo, mas carece da habilidade Mark Surge, que é necessária para o farm no final do jogo. É considerada uma das Míticas mais fracas até se tornar superdotada."
+  },
+  {
+    question: "De quantas Abelhas Vetoriais eu preciso para uma Colmeia Branca?",
+    answer: "A maioria das Colmeias Brancas de nível profissional utiliza entre 8 a 12 Abelhas Vetoriais Superdotadas para garantir 100% de tempo de atividade das Marcas e ativações frequentes de Triangulate."
+  },
+  {
+    question: "O Triangulate coleta goma (goo)?",
+    answer: "Sim, o Triangulate coleta todos os tipos de pólen e goma dentro de seus limites, tornando-o extremamente eficaz quando combinado com a Abelha Goma (Gummy Bee) e a Gummy Star."
+  },
+  {
+    question: "Por que minha Abelha Vetorial não está criando triângulos?",
+    answer: "O Triangulate requer que uma Marca esteja presente no campo. Se não houver Marcas de Pólen, Mel ou Precisas ativas, a Abelha Vetorial não pode ativar sua habilidade Triangulate."
+  }
+]} />
+
+</Section>

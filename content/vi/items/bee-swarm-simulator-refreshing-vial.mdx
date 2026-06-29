@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Lọ Làm Mới trong Bee Swarm Simulator: Hướng dẫn Cày cuốc & Chế tạo",
+  description: "Khám phá cách cày cuốc, chế tạo và sử dụng lọ làm mới trong Bee Swarm Simulator để tối ưu hóa việc tạo mật hoa và mở khóa trang bị cuối game vào năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Refreshing+Vial+Guide",
+  date: "2026-06-29",
+  author: "Đội ngũ Bee Swarm Simulator Wiki",
+  keywords: "bee swarm simulator, lọ làm mới, mật hoa làm mới, hướng dẫn, chế tạo"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Lọ làm mới (Refreshing vial)** trong Bee Swarm Simulator là một vật phẩm tiêu hao lưu trữ 12 giờ Mật hoa Làm mới để kích hoạt buff tức thì.
+- **Nhiệm vụ Gấu Dapper (Dapper Bear)** là nguồn cung cấp đáng tin cậy ở giai đoạn đầu, cụ thể là phần thưởng trong Nhiệm vụ 7 và Nhiệm vụ 14.
+- **Máy Ngưng tụ Mật hoa (Nectar Condenser)** là phương pháp chế tạo lặp lại chính, chuyển đổi giờ mật hoa đang hoạt động thành các lọ vật phẩm trong kho.
+- **Cánh đồng Dâu tây và Dừa** là những địa điểm hiệu quả nhất để thu thập mật hoa thô cần thiết cho việc chế tạo.
+- **Các công thức chế tạo cuối game** như Bình Thủy canh (Hydroponic Planter) yêu cầu hàng chục lọ, khiến việc cày cuốc liên tục trở nên thiết yếu.
+</Callout>
+
+<Section icon={Map} title="Tìm hiểu về các Lọ Mật hoa trong Bee Swarm Simulator">
+
+Quản lý các buff đang hoạt động là nền tảng để tối đa hóa sản lượng mật ong. **Lọ làm mới (refreshing vial)** là một vật phẩm tiêu hao chuyên dụng cho phép người chơi lưu trữ, vận chuyển và sử dụng Mật hoa Làm mới theo yêu cầu. Thay vì chỉ dựa vào việc thu hoạch bình trồng cây (planter), việc duy trì một lượng dự trữ các lọ này đảm bảo tổ ong của bạn duy trì hiệu suất cao nhất trong các phiên tăng tốc (boost) lớn.
+
+Sử dụng một lọ sẽ ngay lập tức ban tặng một khoảng thời gian nhất định của buff mật hoa tương ứng. Cơ chế này được các người chơi cấp cao đánh giá cao, những người thường điều phối nhiều buff cùng lúc để phá kỷ lục tạo mật ong.
+
+**Điểm nhấn Video:**
+- Phân tích chi tiết tất cả các loại mật hoa và các buff cụ thể trong trò chơi của chúng.
+- Số lượng nhiệm vụ chính xác từ Gấu Dapper tặng các lọ mật hoa khác nhau.
+- Trình diễn từng bước cách sử dụng Máy Ngưng tụ Mật hoa gần cửa hàng.
+- Mẹo nhận sticker để trao đổi lấy thêm lọ.
+
+<YouTubeEmbed videoId="121_at_iYZM" title="A guide on nectar vials! | roblox bee swarm simulator" />
+
+Các lọ không chỉ để tiêu thụ trực tiếp; chúng còn đóng vai trò là thành phần chế tạo quan trọng cho các trang bị cuối game được bán bởi Gấu Dapper và các nhà cung cấp khác. Hiểu cách xoay vòng các bình trồng cây và sử dụng máy ngưng tụ là một kỹ năng cơ bản cho người chơi từ giai đoạn giữa đến cuối game.
+
+| Loại Lọ | Phần thưởng Nhiệm vụ | Hiệu ứng Buff Chính |
+| --- | --- | --- |
+| Lọ An ủi (Comforting Vial) | Nhiệm vụ 6, 10, 14 | Sức chứa và Phấn hoa Xanh dương |
+| Lọ Thỏa mãn (Satisfying Vial) | Nhiệm vụ 5, 11, 15 | Mật ong tại Tổ và Phấn hoa Trắng |
+| Lọ Tiếp sức (Invigorating Vial) | Nhiệm vụ 9, 12 | Sức tấn công của Ong và Phấn hoa Đỏ |
+| Lọ Động lực (Motivating Vial) | Nhiệm vụ 8 | Tốc độ di chuyển và Phấn hoa của Người chơi |
+| Lọ Làm mới (Refreshing Vial) | Nhiệm vụ 7, 14 | Phấn hoa Đỏ/Xanh dương và Tỉ lệ Kỹ năng Ong |
+
+<Callout type="warning" title="Giới hạn Kho đồ">
+Người chơi chỉ có thể giữ tối đa 10 lọ cho mỗi loại mật hoa trong kho đồ cùng một lúc. Hãy đảm bảo sử dụng hoặc dùng chúng để chế tạo trước khi thu thập thêm từ nhiệm vụ hoặc máy ngưng tụ.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách nhận Lọ Làm mới">
+
+Việc sở hữu **lọ làm mới (refreshing vial)** yêu cầu sự kết hợp giữa hoàn thành nhiệm vụ, cày cuốc tích cực và chế tạo. Trong khi người chơi mới có thể dựa vào cốt truyện của Gấu Dapper để nhận được những lọ đầu tiên, tiến trình cuối game ổn định đòi hỏi một chiến lược có thể lặp lại.
+
+Ba phương pháp chính là hoàn thành các nhiệm vụ cụ thể của Gấu Dapper, sử dụng Máy Ngưng tụ Mật hoa đặt trong cửa hàng của Gấu Dapper, và trao đổi hoặc quyên góp sticker. Mỗi phương pháp phục vụ cho một giai đoạn tiến triển khác nhau của người chơi.
+
+| Phương thức | Độ khó | Tỉ lệ Sản lượng | Tốt nhất cho |
+| --- | --- | --- | --- |
+| Nhiệm vụ Gấu Dapper | Trung bình | Phần thưởng cố định | Tiến trình đầu game |
+| Máy Ngưng tụ Mật hoa | Dễ | 1 Lọ mỗi 12 Giờ | Cày cuốc hàng ngày ổn định |
+| Quyên góp Sticker Stack | Khó | 1 Lọ mỗi Sticker | Người sưu tầm cuối game |
+| Nhiệm vụ Sự kiện Beesmas | Trung bình | Theo mùa | Tăng tốc theo sự kiện |
+
+Chuỗi nhiệm vụ của Gấu Dapper đóng vai trò là phần giới thiệu về cơ chế này. Khi bạn tiến triển qua các nhiệm vụ của cô ấy, bạn sẽ nhận được nhiều lọ mật hoa khác nhau. Tuy nhiên, khi các nhiệm vụ này hoàn thành, bạn phải chuyển sang sử dụng Máy Ngưng tụ Mật hoa làm nguồn cung cấp lọ chính.
+
+<Callout type="success" title="Mẹo Trao đổi Sticker">
+Trao đổi các sticker trùng lặp với những người chơi khác là một cách tuyệt vời để có được Sticker Lọ Làm mới, sau đó có thể quyên góp cho Sticker Stack để nhận phần thưởng nhanh chóng.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cày cuốc Mật hoa Làm mới với Bình trồng cây">
+
+Để sử dụng Máy Ngưng tụ Mật hoa, trước tiên bạn phải tích lũy Mật hoa Làm mới. Loại mật hoa này được tạo ra bằng cách đặt các bình trồng cây (planter) vào các cánh đồng cụ thể. Tốc độ thu thập mật hoa phụ thuộc rất nhiều vào loại bình trồng cây được sử dụng và cánh đồng mà nó được đặt.
+
+Các cánh đồng chính tạo ra Mật hoa Làm mới là Dâu tây (Strawberry), Dừa (Coconut), Cỏ ba lá (Clover) và Hoa Xanh (Blue Flower). Sử dụng các bình trồng cây tương thích ở những vị trí này sẽ đẩy nhanh đáng kể quá trình cày cuốc của bạn.
+
+<CardGrid cols={3}>
+  <Card title="Bình Đất sét Đỏ">
+    - **Cánh đồng tốt nhất**: Dâu tây và Pepper Patch
+    - **Loại mật hoa**: Sản lượng Mật hoa Làm mới cao
+    - **Thưởng**: Cung cấp các thành phần chiết xuất đỏ
+  </Card>
+  <Card title="Bình Tacky">
+    - **Cánh đồng tốt nhất**: Cỏ ba lá và Hoa hướng dương
+    - **Loại mật hoa**: Sản lượng Mật hoa Làm mới trung bình
+    - **Thưởng**: Rẻ để mua ở giai đoạn đầu
+  </Card>
+  <Card title="Bình Thuốc trừ sâu">
+    - **Cánh đồng tốt nhất**: Nhện và Tre
+    - **Loại mật hoa**: Tổng sức chứa mật hoa cao
+    - **Thưởng**: Tuyệt vời để cày cuốc thụ động qua đêm
+  </Card>
+</CardGrid>
+
+Chọn đúng bình trồng cây cho đúng cánh đồng đảm bảo rằng bạn không lãng phí thời gian thu thập sai loại mật hoa. Ví dụ, đặt Bình Đất sét Xanh ở cánh đồng Dâu tây sẽ không mang lại kết quả tối ưu so với việc sử dụng Bình Đất sét Đỏ.
+
+| Cánh đồng | Bình trồng cây Khuyên dùng | Tốc độ Tăng trưởng Mật hoa | Vật phẩm Rơi chính |
+| --- | --- | --- | --- |
+| Dâu tây | Bình Đất sét Đỏ | Cao | Dâu tây, Chiết xuất Đỏ |
+| Dừa | Bình Dừa | Rất Cao | Dừa, Đồ uống Nhiệt đới |
+| Cỏ ba lá | Bình Tacky | Trung bình | Sticker Cỏ ba lá, Vé |
+| Hoa Xanh | Bình Đất sét Xanh | Trung bình | Việt quất, Chiết xuất Xanh |
+
+<Callout type="tip" title="Vòng xoay Bình trồng cây Tối ưu">
+Xoay vòng các bình trồng cây của bạn giữa cánh đồng Dâu tây và Dừa để tối đa hóa việc tạo Mật hoa Làm mới trong khi tránh làm cạn kiệt cánh đồng.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hướng dẫn từng bước sử dụng Máy Ngưng tụ Mật hoa">
+
+Máy Ngưng tụ Mật hoa là cỗ máy đáng tin cậy nhất để biến mật hoa thô thành các lọ có thể sử dụng. Nằm bên trong cửa hàng của Gấu Dapper, cỗ máy này yêu cầu một lượng mật hoa tích lũy đáng kể để hoạt động.
+
+Thực hiện theo các bước sau để ngưng tụ thành công mật hoa đã thu thập của bạn thành các lọ:
+
+<Steps>
+  <Step num="1" title="Tích lũy Mật hoa">
+    Thu hoạch ít nhất 12 giờ Mật hoa Làm mới từ các bình trồng cây của bạn. Bạn có thể theo dõi mức mật hoa hiện tại của mình trong menu hệ thống.
+  </Step>
+  <Step num="2" title="Gặp Gấu Dapper">
+    Di chuyển đến cửa hàng của Gấu Dapper nằm gần Cổng 30-Ong. Đảm bảo bạn có các ô trống trong kho đồ cho lọ mật hoa.
+  </Step>
+  <Step num="3" title="Tương tác với Máy Ngưng tụ">
+    Tiếp cận Máy Ngưng tụ Mật hoa và chọn tùy chọn Mật hoa Làm mới để bắt đầu quá trình ngưng tụ.
+  </Step>
+  <Step num="4" title="Nhận Lọ của bạn">
+    Xác nhận trao đổi 12 giờ mật hoa lấy 1 **lọ làm mới (refreshing vial)**. Vật phẩm sẽ được thêm trực tiếp vào kho đồ của bạn.
+  </Step>
+</Steps>
+
+Sử dụng máy ngưng tụ thường xuyên là chìa khóa để duy trì một kho dự trữ dồi dào. Nếu bạn sử dụng macro hoặc chơi tích cực trong các phiên dài, hãy tập thói quen ghé thăm máy ngưng tụ vào cuối mỗi phiên để chuyển đổi giờ mật hoa đang hoạt động của bạn trước khi chúng bị giảm dần.
+
+<Callout type="info" title="Hồi chiêu Máy Ngưng tụ">
+Máy Ngưng tụ Mật hoa không có thời gian hồi chiêu hàng ngày nghiêm ngặt, nhưng nó bị giới hạn bởi tốc độ bạn có thể cày đủ 12 giờ mật hoa cần thiết.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục tiêu Chế tạo và Tiến trình">
+
+Khi bạn đã đảm bảo được nguồn cung cấp Lọ Làm mới ổn định, bạn có thể sử dụng chúng để chế tạo các trang bị mạnh mẽ. Gấu Dapper cung cấp một số vật phẩm yêu cầu các lọ này như một phần của công thức chế tạo.
+
+Những vật phẩm này cung cấp các mức tăng cường khổng lồ cho tỉ lệ thu thập phấn hoa và chỉ số tổ ong của bạn, khiến chúng trở thành những cột mốc thiết yếu cho tiến trình cuối game.
+
+| Vật phẩm Chế tạo | Số Lọ yêu cầu | Nguyên liệu chính khác | Buff cung cấp |
+| --- | --- | --- | --- |
+| Bình Thủy canh | 50 Lọ Làm mới | 500 Chiết xuất Xanh, 5 Hạt đậu Thần | Tăng phấn hoa xanh dương thụ động |
+| Bình Cánh hoa | 50 Lọ Làm mới | 100 Chiết xuất Đỏ, 10 Thạch Sao | Thu hoạch cánh đồng tối thượng |
+| Thắt lưng Gấu Dapper | 15 Lọ Làm mới | 100 Keo, 50 Kim tuyến | Sức chứa và tăng thu thập của ong |
+
+Đặt ra các mục tiêu rõ ràng sẽ giúp bạn quản lý tài nguyên hiệu quả. Đừng dùng tất cả các lọ của bạn cho buff nếu bạn đang tích cực tiết kiệm cho một món trang bị đắt tiền như Thắt lưng Gấu Dapper.
+
+<Checklist
+  id="vial-progression"
+  title="Các cột mốc cày Lọ mật hoa:"
+  items={[
+    "Tích lũy 12 giờ Mật hoa Làm mới",
+    "Chế tạo Thắt lưng Gấu Dapper để tăng sức chứa",
+    "Tiết kiệm 50 Lọ Làm mới cho Bình Thủy canh",
+    "Duy trì một xấp dự phòng gồm 5 lọ cho các đợt boost khẩn cấp"
+  ]}
+/>
+
+<Callout type="warning" title="Ưu tiên Chế tạo">
+Hãy ưu tiên nâng cấp thắt lưng của bạn trước khi tiết kiệm lọ cho các bình trồng cây cấp cao, vì thắt lưng cung cấp các chỉ số tăng cường tức thì và phổ quát áp dụng cho tất cả các cánh đồng.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+Dưới đây là một số câu hỏi phổ biến nhất mà người chơi thường hỏi liên quan đến **lọ làm mới (refreshing vial)** và cách tối ưu hóa việc sử dụng nó.
+
+<FAQ items={[
+  {
+    question: "Cách nhanh nhất để nhận được lọ làm mới trong Bee Swarm Simulator là gì?",
+    answer: "Phương pháp lặp lại nhanh nhất là sử dụng Máy Ngưng tụ Mật hoa với 12 giờ Mật hoa Làm mới được thu hoạch từ Bình Đất sét Đỏ ở cánh đồng Dâu tây."
+  },
+  {
+    question: "Tôi có thể trao đổi Lọ Làm mới với người chơi khác không?",
+    answer: "Không, các lọ vật phẩm thực tế không thể trao đổi trực tiếp. Tuy nhiên, bạn có thể trao đổi Sticker Lọ Làm mới, loại sticker có thể được quyên góp cho Sticker Stack để nhận được một lọ."
+  },
+  {
+    question: "Buff Mật hoa Làm mới có cộng dồn với các loại mật hoa khác không?",
+    answer: "Có, bạn có thể kích hoạt nhiều loại buff mật hoa cùng lúc, mặc dù mỗi loại có bộ đếm thời gian và thời lượng tối đa riêng."
+  },
+  {
+    question: "Cánh đồng nào cho sản lượng Mật hoa Làm mới tốt nhất?",
+    answer: "Cánh đồng Dâu tây và Dừa cung cấp tỉ lệ sản lượng cao nhất cho Mật hoa Làm mới, đặc biệt là khi kết hợp với các bình trồng cây phù hợp như Bình Đất sét Đỏ hoặc Bình Dừa."
+  }
+]} />
+
+<Callout type="success" title="Luôn Tối ưu hóa">
+Luôn lập kế hoạch đặt bình trồng cây trước khi ngoại tuyến hoặc bắt đầu macro để đảm bảo bạn trở lại với một kho đầy mật hoa.
+</Callout>
+
+</Section>

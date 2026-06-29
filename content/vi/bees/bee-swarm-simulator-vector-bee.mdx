@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Vector Bee: Hướng dẫn Kỹ năng & Cách xây dựng White Hive",
+  description: "Làm chủ Vector Bee trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu về Triangulate, Mark Surge và các chiến lược White Hive tốt nhất để tối đa hóa phấn hoa.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/facc15/000?text=Vector+Bee+Guide",
+  date: "2026-06-29",
+  author: "Đội ngũ Wiki Trình mô phỏng bầy ong"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Bee Swarm Simulator Vector Bee**: Một loài ong Mythic thiết yếu cho các đội hình White Hive (Tổ ong trắng).
+- **Cơ chế cốt lõi**: Sử dụng kỹ năng **Triangulate** để thu thập lượng lớn phấn hoa trong một vùng hình học trên cánh đồng.
+- **Chiến lược tốt nhất**: Cộng dồn nhiều Vector Bee để kích hoạt **Mark Surge** thường xuyên và kéo dài thời gian tồn tại của các Mark (Dấu ấn).
+- **Mẹo quan trọng**: Vector Bee đột biến (Gifted) cung cấp thêm 15% thời gian Mark, điều này cực kỳ quan trọng cho việc farm ở cấp độ cao.
+- **Lựa chọn hàng đầu**: Bắt buộc phải có cho White Hive, nhưng thường được thay thế trong các đội hình chuyên biệt Red hoặc Blue Hive.
+</Callout>
+
+<Section icon={Map} title="Hiểu về cơ chế của Vector Bee">
+
+**Vector Bee trong Bee Swarm Simulator** là một loài ong cấp Mythic, đóng vai trò là xương sống của meta White Hive. Không giống như nhiều loài ong khác tập trung vào việc thu thập trực tiếp, Vector Bee vượt trội trong việc thao túng cánh đồng thông qua khả năng độc đáo là tạo ra các vùng thu thập hình học. Mặc dù một con Vector Bee chưa đột biến được coi là tầm trung trong số các loài Mythic, nhưng tiềm năng thực sự của nó chỉ được mở khóa khi nó được đột biến (gifted) và tích hợp vào một đội hình tổ ong cụ thể.
+
+**Điểm nhấn từ Video:**
+- **Sự cần thiết cho White Hive**: Tại sao Vector Bee là cốt lõi của bất kỳ đội hình White Hive nghiêm túc nào.
+- **Phân tích kỹ năng**: Cách Triangulate và Pollen Marks tương tác để tăng cường thu thập.
+- **Lợi thế của Gifted**: Tác động to lớn của kỹ năng Mark Surge.
+- **Khả năng sử dụng trong Mixed Hive**: Tại sao Vector Bee có thể không phải là lựa chọn tốt nhất cho người mới bắt đầu hoặc tổ ong hỗn hợp.
+
+<YouTubeEmbed videoId="_nZp9VnVaHA" title="Vector Bee làm được gì? (Bee Swarm Simulator) Hướng dẫn Tutorial" />
+
+Trong meta năm 2026 hiện tại, Vector Bee vẫn là nguồn thu thập chính cho những người chơi tập trung vào Gummy Star và các buff phấn hoa trắng. Khả năng tạo ra các hình tam giác trên cánh đồng cho phép phong cách farm "lưỡi dao cạo", nơi người chơi có thể dọn sạch các phần lớn của cánh đồng ngay lập tức bằng cách định vị bản thân một cách chiến lược giữa con ong và các dấu ấn của nó.
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Khi sử dụng Triangulate, hãy cố gắng di chuyển sao cho hình tam giác trải dài qua phần dày đặc nhất của cánh đồng. Hình tam giác càng lớn, bạn càng thu thập được nhiều phấn hoa!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kỹ năng cốt lõi và Chỉ số">
+
+Hiệu quả của Vector Bee được quyết định bởi khả năng tạo ra và duy trì các Mark. Những Mark này cung cấp các buff tại chỗ, khi được cộng dồn, sẽ biến một cánh đồng tiêu chuẩn thành một vùng farm năng suất cao. Dưới đây là bảng phân tích chi tiết các chỉ số cơ bản và kỹ năng kích hoạt chính của Vector Bee.
+
+| Chỉ số | Giá trị cơ bản (Cấp 1) | Mô tả |
+| :--- | :--- | :--- |
+| **Thu thập phấn hoa** | 20 | Thu thập mỗi 4 giây |
+| **Chuyển hóa mật ong** | 800 | Chuyển hóa mỗi 4 giây |
+| **Sức mạnh tấn công** | 4 | Sát thương trung bình đối với một con ong Mythic |
+| **Tốc độ** | 24 | Độ cơ động cao để đặt kỹ năng |
+| **Năng lượng** | 40 | Bể năng lượng Mythic tiêu chuẩn |
+
+Ngoài các chỉ số thô, giá trị của Vector Bee nằm ở hai token chính: **Pollen Mark** và **Triangulate**.
+
+### Pollen Mark (Dấu ấn phấn hoa)
+Kỹ năng này đánh dấu một khu vực ngẫu nhiên lớn trên cánh đồng trong 8 giây. Khi đứng bên trong Mark, tất cả việc thu thập phấn hoa sẽ tăng thêm 50%. Hiệu ứng này có thể cộng dồn tối đa ba lần, dẫn đến mức tăng khổng lồ 150% hiệu quả thu thập. Đối với người chơi sử dụng **Vector Bee**, việc duy trì các mức cộng dồn này là sự khác biệt giữa một lượt farm bình thường và một kỷ lục mới.
+
+### Triangulate (Tam giác hóa)
+Triangulate vẽ một hình tam giác giữa người chơi và con ong. Vùng hình học này thu thập phấn hoa từ mọi bông hoa mà nó chạm vào. Lượng thu thập được cao hơn đáng kể so với thu thập thông thường và tỷ lệ thuận với cấp độ của ong cũng như hệ số nhân phấn hoa trắng của tổ ong bạn.
+
+<Callout type="warning" title="Cảnh báo chiến thuật">
+Triangulate phụ thuộc rất nhiều vào vị trí của người chơi. Nếu bạn đứng yên, các hình tam giác sẽ nhỏ và kém hiệu quả. Hãy luôn di chuyển để tối đa hóa diện tích tác động.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sức mạnh của Gifted Vector Bee">
+
+Một con Gifted Vector Bee là một kẻ thay đổi cuộc chơi hoàn toàn. Sự chuyển đổi từ Mythic sang Gifted Mythic giới thiệu kỹ năng **Mark Surge** và một Hive Bonus mạnh mẽ có lợi cho mọi con ong khác trong danh sách của bạn.
+
+| Tính năng | Thưởng Gifted | Hiệu ứng |
+| :--- | :--- | :--- |
+| **Hive Bonus** | +15% Mark Duration | Tất cả các Mark trên cánh đồng tồn tại lâu hơn |
+| **Kỹ năng Gifted** | Mark Surge | Các Mark tự thu thập phấn hoa và kéo dài thời gian |
+| **Pollen Surge** | 10% mỗi cấp | Mark thu thập phấn hoa từ mọi bông hoa trong bán kính |
+| **Chuyển hóa tức thì** | Honey/Festive Surge | Chuyển hóa ngay lập tức phấn hoa từ Surge thành mật ong |
+| **Đòn chí mạng** | Precise Surge | Surging từ Precise Marks luôn gây đòn chí mạng |
+
+Kỹ năng **Mark Surge** khiến tất cả các dấu ấn đang hoạt động thu thập 10% phấn hoa mỗi cấp từ mọi bông hoa trong bán kính của chúng. Hơn nữa, mỗi lần surge sẽ kéo dài thời gian của dấu ấn thêm một giây, tối đa năm lần. Điều này tạo ra một vòng lặp nơi các dấu ấn ở lại trên cánh đồng vô thời hạn nếu bạn có đủ Vector Bee để kích hoạt surge.
+
+<CardGrid cols={3}>
+  <Card title="Duy trì Mark">
+    - **Thưởng 15% thời gian**
+    - Kéo dài tuổi thọ Mark qua Surge
+    - Thiết yếu để cộng dồn cao
+  </Card>
+  <Card title="Tự động thu thập">
+    - **10% phấn hoa mỗi cấp**
+    - Thu thập thụ động khi di chuyển
+    - Phối hợp tốt với Gummy Star
+  </Card>
+  <Card title="Phối hợp Meta">
+    - **Chí mạng từ Precise Mark**
+    - Chuyển hóa mật ong tức thì
+    - Yêu cầu bắt buộc cho White Hive
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Góc nhìn Meta">
+Trong một White Hive chuyên dụng, người chơi thường sử dụng 10 con Gifted Vector Bee trở lên. Điều này đảm bảo rằng cánh đồng luôn được bao phủ bởi các Mark không bao giờ hết hạn, dẫn đến các buff 150% phấn hoa vô hạn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách tối ưu hóa hiệu suất của Vector Bee">
+
+Chỉ sở hữu **Vector Bee** là chưa đủ; bạn phải biết cách sử dụng các token của nó một cách hiệu quả. Hãy làm theo các bước sau để làm chủ "Điệu nhảy Tam giác" và tối đa hóa lượng mật ong mỗi giờ.
+
+<Steps>
+  <Step num="1" title="Đặt Mark">
+    Vào cánh đồng và đợi Vector Bee thả Pollen Mark. Đứng gần trung tâm của Mark để chuẩn bị cho giai đoạn tiếp theo.
+  </Step>
+  <Step num="2" title="Kích hoạt Triangulate">
+    Khi một Mark đang hoạt động, hãy quan sát Vector Bee bay ra xa bạn. Khi nó kích hoạt Triangulate, hãy di chuyển theo hướng ngược lại để kéo căng hình tam giác ra khắp cánh đồng.
+  </Step>
+  <Step num="3" title="Cộng dồn Buff">
+    Tiếp tục thu thập các token để cộng dồn Pollen Mark lên đến 3x. Sử dụng Gummy Mask hoặc Gummy Boots để thêm hệ số nhân phấn hoa trắng trong cửa sổ đạt đỉnh này.
+  </Step>
+  <Step num="4" title="Quản lý Mark Surge">
+    Nếu Vector Bee của bạn đã đột biến, hãy ưu tiên thu thập các token Mark Surge. Những token này sẽ làm mới các dấu ấn hiện có của bạn, cho phép bạn duy trì mức cộng dồn 3x mà không bị mất.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Yêu cầu quan trọng">
+Để thực sự xuất sắc với Vector Bee, bạn nên nhắm tới chỉ số passive **Gummy Star** trên Supreme Star Amulet của mình. Sự phối hợp giữa khả năng tập trung phấn hoa trắng của Vector Bee và khả năng tạo chất dính (goo) của Gummy Star là nền tảng của White Hive cuối game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="So sánh tổ ong: Vector Bee và những loài khác">
+
+Vector Bee có phù hợp với giai đoạn hiện tại của bạn không? Mặc dù nó là một thế lực ở giai đoạn cuối game, nhưng nó có thể cản trở sự tiến bộ của người chơi ở giai đoạn đầu hoặc giữa game, những người chưa chuyên môn hóa màu sắc tổ ong của mình.
+
+| Loại tổ ong | Đánh giá Vector Bee | Lý do |
+| :--- | :--- | :--- |
+| **White Hive** | ★★★★★ | Ong cốt lõi; bắt buộc cho mọi đội hình |
+| **Mixed Hive** | ★★★☆☆ | Tốt cho việc thu thập nhưng khó tối ưu hóa |
+| **Blue Hive** | ★★☆☆☆ | Thường bị thay thế bởi Tadpole/Buoyant bee |
+| **Red Hive** | ★★☆☆☆ | Thường bị thay thế bởi Spicy/Precise bee |
+
+Như được hiển thị trong bảng, **Vector Bee** là một chuyên gia. Nếu bạn là người chơi tổ ong hỗn hợp (mixed hive), việc có một hoặc hai con Vector Bee sẽ giúp ích cho các nhiệm vụ chung, nhưng bạn không nên đầu tư quá nhiều vào chúng cho đến khi bạn sẵn sàng cam kết với White Hive.
+
+<Checklist
+  id="vector-bee-check"
+  title="Bạn có nên giữ Vector Bee của mình không?"
+  items={[
+    "Bạn có kế hoạch xây dựng đội hình White Hive không?",
+    "Bạn đã có Gummy Mask hoặc Gummy Star chưa?",
+    "Vector Bee đã được đột biến (Gifted) chưa (để lấy thời gian Mark)?",
+    "Bạn có ít nhất 3-5 loài ong tạo Mark khác không?",
+    "Bạn có đang gặp khó khăn với các nhiệm vụ Phấn hoa trắng không?"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Vector Bee có tốt không nếu chưa đột biến (gifted)?",
+    answer: "Một con Vector Bee chưa đột biến là khá ổn cho việc thu thập ở giai đoạn đầu game, nhưng nó thiếu kỹ năng Mark Surge cần thiết cho việc farm ở giai đoạn cuối game. Nó được coi là một trong những loài Mythic yếu hơn cho đến khi được đột biến."
+  },
+  {
+    question: "Tôi cần bao nhiêu Vector Bee cho một White Hive?",
+    answer: "Hầu hết các White Hive cấp độ chuyên nghiệp đều sử dụng từ 8 đến 12 con Gifted Vector Bee để đảm bảo thời gian duy trì Mark 100% và kích hoạt Triangulate thường xuyên."
+  },
+  {
+    question: "Triangulate có thu thập chất dính (goo) không?",
+    answer: "Có, Triangulate thu thập tất cả các loại phấn hoa và chất dính trong ranh giới của nó, khiến nó cực kỳ hiệu quả khi kết hợp với Gummy Bee và Gummy Star."
+  },
+  {
+    question: "Tại sao Vector Bee của tôi không tạo ra hình tam giác?",
+    answer: "Triangulate yêu cầu phải có một Mark hiện diện trên cánh đồng. Nếu không có Pollen, Honey hoặc Precise Mark nào đang hoạt động, Vector Bee không thể kích hoạt kỹ năng Triangulate."
+  }
+]} />
+
+</Section>
