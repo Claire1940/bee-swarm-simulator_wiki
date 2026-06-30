@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Néctar Revigorante do Bee Swarm Simulator: Guia de Cultivo e Locais",
+  description: "Domine o néctar revigorante do Bee Swarm Simulator com nosso guia de 2026. Aprenda os melhores campos, multiplicadores de plantadores e dicas de armazenamento para aumentar o Pólen Vermelho e o Ataque.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ef4444/fff?text=Invigorating+Nectar+Guide",
+  date: "2026-06-30",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, néctar revigorante, pólen vermelho, ataque de abelha, guia de plantadores"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Néctar Revigorante** fornece bônus massivos para **Pólen Vermelho**, **Ataque de Abelha** e **Chance Crítica**.
+- Os **Melhores Campos** para cultivo incluem o **Campo de Trevo** (Clover Field), **Campo de Cacto** (Cactus Field), **Topo da Montanha** (Mountain Top Field) e **Campo de Pimenta** (Pepper Field).
+- A **Escolha do Plantador** é crítica; use o **Plantador Tratado termicamente** ou o **Plantador de Pesticida** para rendimentos máximos.
+- O **Armazenamento** pode ser gerenciado através do **Pote de Néctar** na Zona das 30 Abelhas ou condensando 12 horas em um **Frasco de Néctar**.
+- **Estratégia Pro**: Mantenha um plantador cheio no campo para continuar colhendo néctar sem remover o plantador imediatamente.
+</Callout>
+
+<Section icon={Sparkles} title="A Essência do Néctar Revigorante no Bee Swarm Simulator">
+
+No complexo ecossistema do Bee Swarm Simulator, os néctares representam uma das mecânicas de progressão mais significativas do final do jogo. Entre as cinco variedades disponíveis, o **néctar revigorante** destaca-se como o principal bônus ofensivo e voltado para colmeias vermelhas (Red-hives). Introduzido na atualização de 26/12/2021, este tipo de néctar é essencial para jogadores que buscam maximizar seu dano contra criaturas e chefes como o Caranguejo de Coco ou o Caracol do Toco, enquanto aumentam simultaneamente a coleta de Pólen Vermelho.
+
+**Destaques do Vídeo:**
+- Locais detalhados para o cultivo de Néctar Revigorante em 2026.
+- Comparação de plantadores para iniciantes e avançados para rendimento de néctar.
+- O truque da "Fazenda Infinita": permanecer no campo com um plantador 100% crescido.
+- Como acessar a loja do Urso Dapper para equipamentos necessários.
+
+<YouTubeEmbed videoId="_3fbauPK0TA" title="COMO OBTER NÉCTAR REVIGORANTE (Bee Swarm Simulator)" />
+
+A força do bônus escala dinamicamente com base no tempo restante. Um jogador com 24 horas de néctar acumulado receberá porcentagens significativamente maiores do que alguém com apenas uma hora. Isso torna a fase de "acumulação" (stacking) vital para a otimização da colmeia de alto nível.
+
+| Tipo de Bônus | Valor Mínimo (0s) | Valor Máximo (24h) |
+| :--- | :--- | :--- |
+| **Pólen Vermelho** | x1.1 | **x1.5** |
+| **Ataque de Abelha** | x1.1 | **x1.25** |
+| **Chance Crítica** | +1% | **+5%** |
+
+<Callout type="success" title="Vantagem em Combate">
+O Néctar Revigorante é o único tipo de néctar que aumenta diretamente o **Ataque de Abelha**. Se você está se preparando para uma longa sessão de caça a insetos ou farm de Chefes, garantir que você tenha pelo menos 12 horas deste néctar é altamente recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Locais de Campo Ideais para Néctar Revigorante">
+
+Para obter o **néctar revigorante**, você deve colocar plantadores em campos específicos. Embora muitos campos forneçam néctar, apenas alguns selecionados são designados como fontes "Revigorantes". Cultivar no campo errado resultará em diferentes tipos de néctar, como Confortante ou Motivador, que podem não estar alinhados com sua build de colmeia vermelha ou requisitos de missão.
+
+Os seguintes campos são os únicos locais verificados onde os plantadores gerarão Néctar Revigorante:
+
+| Nome do Campo | Acessibilidade | Plantador Recomendado |
+| :--- | :--- | :--- |
+| **Campo de Trevo** | Início do Jogo (Qualquer) | Plantador de Papel / Plástico |
+| **Campo de Cacto** | Meio do Jogo (15 Abelhas) | Plantador Pegajoso / de Doces |
+| **Topo da Montanha** | Meio do Jogo (25 Abelhas) | Plantador de Argila Vermelha / Pesticida |
+| **Campo de Pimenta** | Fim do Jogo (35 Abelhas) | Plantador Tratado termicamente / da Fartura |
+
+<Callout type="info" title="O Glitch do Campo de Formigas">
+Onett anunciou anteriormente que o Campo de Formigas contém Néctar Revigorante. No entanto, devido a uma peculiaridade mecânica antiga, a colheita aqui frequentemente concede Néctar Confortante. É mais seguro manter-se nos campos de Pimenta ou Topo da Montanha para resultados consistentes.
+</Callout>
+
+Cada campo tem uma "taxa de gole" (sip rate) diferente, que determina a rapidez com que suas abelhas coletam néctar do plantador enquanto você está cultivando ativamente. Permanecer no campo enquanto o plantador cresce é a maneira mais eficiente de maximizar seu ganho de néctar por hora de jogo real.
+
+</Section>
+
+<Section icon={Shield} title="Melhores Plantadores para Rendimento Máximo">
+
+Nem todos os plantadores são criados iguais quando se trata do **néctar revigorante**. Certos plantadores possuem multiplicadores ocultos que aumentam a quantidade de néctar coletada quando colocados em seus campos "preferidos". Para o Néctar Revigorante, os plantadores com tema vermelho ou universais de alto nível funcionam melhor.
+
+<CardGrid cols={3}>
+  <Card title="Plantador Tratado termicamente">
+    - **Multiplicador de 1.2x** para Néctar Revigorante.
+    - Melhor usado no **Campo de Pimenta**.
+    - Fornece Extratos Vermelhos e Morangos bônus.
+  </Card>
+  <Card title="Plantador de Pesticida">
+    - **Multiplicador de 1.3x** para Néctar Revigorante.
+    - Alta capacidade para longas sessões AFK.
+    - Excelente para farm no **Topo da Montanha**.
+  </Card>
+  <Card title="Plantador da Fartura">
+    - **Multiplicador de 1.5x** para todos os tipos de néctar.
+    - A ferramenta definitiva de fim de jogo.
+    - Velocidade de crescimento e capacidade de néctar massivas.
+  </Card>
+</CardGrid>
+
+Além desses plantadores especializados, até mesmo as versões básicas possuem multiplicadores definidos que se aplicam em todos os campos. Entender essas estatísticas básicas ajuda os jogadores iniciantes a planejar sua progressão.
+
+| Tipo de Plantador | Multiplicador de Néctar | Melhor Caso de Uso Inicial |
+| :--- | :--- | :--- |
+| **Plantador de Papel** | x0.75 | Missões rápidas no Campo de Trevo |
+| **Plantador de Plástico** | x1.0 | Crescimento padrão no Campo de Cacto |
+| **Plantador de Ticket** | x2.0 | Acúmulo de néctar em alta velocidade |
+| **Plantador Festivo** | x3.0 | Ganho máximo de néctar instantâneo |
+
+<Callout type="warning" title="Fadiga do Plantador">
+Se você usar o mesmo plantador no mesmo campo repetidamente, sua eficácia diminuirá. Alterne seus plantadores entre o Topo da Montanha e o Campo de Cacto para manter altos rendimentos de néctar e evitar retornos decrescentes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Cultivo Passo a Passo">
+
+Para atingir o acúmulo máximo de 24 horas de **néctar revigorante**, você não pode simplesmente "plantar e esquecer". Você deve utilizar mecânicas específicas para garantir que suas abelhas estejam coletando néctar na taxa mais alta possível. Siga estes passos para otimizar sua rotina de cultivo.
+
+<Steps>
+  <Step num="1" title="Selecione o Campo Certo">
+    Escolha um campo com base no seu nível atual. Se você for um jogador de fim de jogo, o **Campo de Pimenta** é obrigatório devido à alta densidade de flores e sinergia com equipamentos de Colmeia Vermelha.
+  </Step>
+  <Step num="2" title="Equipe Abelhas de Bônus de Néctar">
+    Inclua **Abelhas Tímidas** (Shy Bees) em sua colmeia. Elas possuem a passiva **Amante de Néctar**, o que as torna duas vezes mais propensas a tomar um gole de néctar e coletar o dobro por gole.
+  </Step>
+  <Step num="3" title="Crescimento com Cultivo Ativo">
+    Permaneça no campo enquanto o plantador cresce. As abelhas tomam goles de néctar com mais frequência quando o jogador está coletando pólen por perto ativamente. Isso adiciona "Néctar Tomado" ao seu total, além do "Néctar Colhido".
+  </Step>
+  <Step num="4" title="O Truque do Crescimento 100%">
+    Assim que o plantador atingir 100%, não o colha imediatamente. Você pode ficar no campo e continuar a "tomar goles" do plantador totalmente crescido por períodos prolongados, cultivando néctar indefinidamente enquanto permanecer no servidor.
+  </Step>
+</Steps>
+
+<Checklist
+  id="nectar-prep-checklist"
+  title="Preparação para o Néctar Revigorante:"
+  items={[
+    "Verifique se o Samovar do Urso Dapper está disponível (apenas no Beesmas)",
+    "Garanta que pelo menos uma Abelha Tímida esteja na colmeia",
+    "Esvazie seu Pote de Néctar para abrir espaço para novos depósitos",
+    "Produza Extratos Vermelhos para aumentar a eficiência no Campo de Pimenta",
+    "Verifique a rotação dos plantadores para evitar a fadiga de rendimento"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Armazenamento e Gerenciamento de Néctar">
+
+Gerenciar seu **néctar revigorante** é tão importante quanto cultivá-lo. Como o néctar se esgota mesmo quando você está offline, você deve usar as ferramentas especializadas localizadas nas Zonas de 30 e 35 Abelhas para preservar seus bônus conquistados com esforço.
+
+O **Pote de Néctar**, localizado na Zona das 30 Abelhas, permite que você armazene seu néctar por um custo de 5 Tickets. Isso "congela" o néctar, impedindo que ele se esgote. No entanto, você deve retirar todo o néctar armazenado antes de poder depositar um tipo diferente.
+
+O **Condensador de Néctar**, encontrado na Zona das 35 Abelhas, é a maneira mais eficiente de gerenciar acúmulos de longo prazo. Ele permite converter 12 horas de qualquer néctar em um **Frasco de Néctar**.
+
+| Item/Objeto | Função | Custo / Requisito |
+| :--- | :--- | :--- |
+| **Frasco de Néctar** | Concede 1h 12m de Néctar | 12h de Néctar + Condensador |
+| **Pote de Néctar** | Armazena/Congela Néctar | 5 Tickets por depósito |
+| **Samovar do Urso Dapper** | Concede Néctar aleatório | Apenas Evento Beesmas |
+| **Frasco Refrescante** | Bônus instantâneo de Néctar | Recompensa de Missão / Crafting |
+
+<Callout type="tip" title="Estratégia de Frascos">
+Sempre condense seu néctar em Frascos se tiver mais de 18 horas. Isso permite que você "exploda" seus bônus de volta para 24 horas instantaneamente antes de uma grande sessão de boost ou uma luta difícil contra um chefe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor campo para o néctar revigorante no Bee Swarm Simulator?",
+    answer: "O Campo de Pimenta é amplamente considerado o melhor para jogadores de fim de jogo devido à sua alta densidade de flores e compatibilidade com o Plantador Tratado termicamente. Para jogadores de nível médio, o Topo da Montanha é a fonte mais confiável."
+  },
+  {
+    question: "O Néctar Revigorante ajuda colmeias azuis ou brancas?",
+    answer: "Embora forneça um aumento universal de Ataque de Abelha e Chance Crítica, o multiplicador de Pólen Vermelho beneficia especificamente as Colmeias Vermelhas. Colmeias azuis devem priorizar o Néctar Confortante, e colmeias brancas devem focar no Néctar Motivador."
+  },
+  {
+    question: "Como faço para meu néctar parar de desaparecer quando fico offline?",
+    answer: "Você deve armazenar seu néctar no Pote de Néctar localizado na Zona das 30 Abelhas. Se não for armazenado, ele continuará a diminuir a uma taxa padrão, mesmo que você não esteja no jogo."
+  },
+  {
+    question: "Posso obter Néctar Revigorante do Plantador de Plástico?",
+    answer: "Sim, qualquer plantador pode produzir Néctar Revigorante, desde que seja colocado em um campo apropriado, como Trevo, Cacto, Topo da Montanha ou Pimenta."
+  }
+]} />
+
+</Section>

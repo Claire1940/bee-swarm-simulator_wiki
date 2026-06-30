@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gummy Bear no Bee Swarm Simulator: Guia de Missões e do Esconderijo",
+  description: "Domine as mecânicas do Gummy Bear no Bee Swarm Simulator. Aprenda a acessar o Esconderijo do Gummy Bear, complete missões de Beesmas e obtenha equipamentos Gummy de elite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Gummy+Bear+Guide",
+  date: "2026-06-30",
+  author: "Equipe da Wiki do Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Gummy Bear no Bee Swarm Simulator**: Um NPC único localizado em um esconderijo secreto acessível através da Zona de 20 Abelhas.
+- **Acesso ao Esconderijo**: Requer o **Emblema Goo Hotshot** e 20 abelhas para entrar na zona.
+- **Mecânica de Sobrevivência**: Você deve possuir a **Gummy Mask, Gummy Boots ou Gummyballer** para falar com ele sem ser morto.
+- **Recompensa Principal**: Historicamente fornecia o **Gummy Bee Egg** e atualmente oferece missões de Beesmas de alto nível.
+- **Status de Combate**: Um dos poucos NPCs capazes de matar o jogador diretamente através do diálogo.
+</Callout>
+
+<Section icon={Map} title="Localizando e Acessando o Gummy Bear no Bee Swarm Simulator">
+
+O **Gummy Bear no Bee Swarm Simulator** é um dos NPCs mais misteriosos e perigosos do jogo. Ao contrário dos amigáveis Black Bear ou Mother Bear, o Gummy Bear reside em um esconderijo isolado e exige lealdade total ao "Império Gummy". Para sequer vê-lo, você deve primeiro navegar até a Zona de 20 Abelhas e encontrar a entrada oculta localizada atrás do modelo da Gummy Bee, perto da Tenda de Tickets (Ticket Tent).
+
+Acessar o esconderijo é um rito de passagem para jogadores do meio ao fim do jogo. Você não pode simplesmente entrar; o jogo verifica seu progresso através de emblemas e contagem de abelhas.
+
+| Requisito | Valor Necessário | Propósito |
+| :--- | :--- | :--- |
+| **Contagem de Abelhas** | 20 Abelhas | Para entrar na Zona de 20 Abelhas |
+| **Emblema de Goo** | Goo Hotshot ou superior | Para passar pela entrada do esconderijo |
+| **Equipamento Gummy** | Mask, Boots ou Gummyballer | Para falar com o Gummy Bear com segurança |
+| **Bolsa de Pólen** | Vazia (Recomendado) | Para evitar perder progresso se for morto |
+
+<CardGrid cols={3}>
+  <Card title="Emblema Goo Hotshot">
+    - **Requisito**: Coletar 100 milhões de Goo.
+    - **Benefício**: Concede acesso permanente à entrada do esconderijo secreto.
+    - **Foco**: Use Gumdrops e habilidades da Gummy Bee.
+  </Card>
+  <Card title="Zona de 20 Abelhas">
+    - **Localização**: Encontrada perto da Tenda de Tickets.
+    - **Entrada**: Requer 20 abelhas únicas em sua colmeia.
+    - **Recurso Chave**: Contém a estação de resgate do Gummy Bee Egg.
+  </Card>
+  <Card title="O Esconderijo Secreto">
+    - **Entrada**: Pule no modelo da Gummy Bee.
+    - **Atmosfera**: Ambiente translúcido em tons de rosa e azul-petróleo.
+    - **Perigo**: Alto risco de morte para jogadores despreparados.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dica Profissional para Exploradores">
+Se você quiser visitar o **Gummy Bear no Bee Swarm Simulator** apenas para ver o esconderijo sem possuir os equipamentos caros, certifique-se de esvaziar sua bolsa de pólen primeiro. Se ele te matar, você perderá todo o pólen atualmente em seu recipiente!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas do Esconderijo e Estratégias de Sobrevivência">
+
+Entrar no esconderijo do **Gummy Bear no Bee Swarm Simulator** é um encontro de alto risco. Se você se aproximar dele sem possuir pelo menos uma peça de seu equipamento especializado da loja, ele iniciará um diálogo que termina com a morte imediata do seu personagem. Esta é uma mecânica única onde um NPC atua como um perigo ambiental.
+
+**A Sequência do Diálogo de Morte:**
+1. "O que é mais doce que mel?"
+2. "Gumdrops gloriosas... elas são apenas o começo!"
+3. "Um universo agridoce, pegajoso e viscoso..."
+4. "Você não consegue ver também?"
+5. "O que foi, Gummy Bee? Eles não estão enxergando direito?"
+6. "VOCÊ ESTÁ SEMPRE CERTA! GOO-dbye, apicultor... HAH!"
+
+Após a última linha, o Gummy Bear usa o emote de apontar e teletransporta você de volta ao ponto de spawn, resetando o pólen da sua sessão atual.
+
+<Steps>
+  <Step num="1" title="Preparação">
+    Certifique-se de ter coletado pelo menos 100 milhões de Goo para ganhar o Emblema Hotshot. Se pretende falar com ele, economize para a Gummy Mask primeiro.
+  </Step>
+  <Step num="2" title="A Entrada">
+    Vá para a Tenda de Tickets na Zona de 20 Abelhas. Pule em cima da estátua da Gummy Bee para ser teletransportado para o Esconderijo Gummy.
+  </Step>
+  <Step num="3" title="Interação">
+    Se você tiver o equipamento, caminhe até ele para reivindicar as missões de Beesmas. Se não, mantenha distância ou use um Whirligig imediatamente para escapar.
+  </Step>
+  <Step num="4" title="Saída de Emergência">
+    Se você acionar o diálogo acidentalmente, use um Micro-Converter para salvar seu pólen ou um Whirligig **antes** que o diálogo termine.
+  </Step>
+</Steps>
+
+| Ferramenta de Sobrevivência | Eficaz? | Limitação |
+| :--- | :--- | :--- |
+| **Whirligig** | Sim | Deve ser usado antes do diálogo terminar |
+| **Micro-Converter** | Sim | Apenas salva o pólen; você ainda morre |
+| **Gummy Mask** | Sim | Segurança permanente para o diálogo |
+| **Gummy Boots** | Sim | Segurança permanente para o diálogo |
+| **Gummyballer** | Sim | Segurança permanente para o diálogo |
+
+<Callout type="warning" title="Aviso Crítico">
+Mesmo que você use um Whirligig para se teletransportar de volta para sua colmeia enquanto o diálogo está na tela, o script continuará. Assim que a última linha for "falada", você ainda morrerá na sua colmeia, a menos que o diálogo tenha sido fechado ou o teletransporte tenha ocorrido antes da execução final do script.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamentos Gummy de Elite e Requisitos da Loja">
+
+Para realmente se juntar ao "Exército Gummy" e interagir com o **Gummy Bear no Bee Swarm Simulator** como um aliado, você deve fabricar itens de sua loja secreta. Esses itens estão entre os mais poderosos do jogo, projetados especificamente para maximizar a coleta de Goo e o pólen de flores brancas.
+
+| Item | Benefício Principal | Ingredientes Chave |
+| :--- | :--- | :--- |
+| **Gummy Mask** | Habilidade Gummy Morph | 250 Glue, 100 Enzymes, 100 Oil |
+| **Gummy Boots** | Trilha de Goo Infinita | 500 Glue, 250 Glitter, 250 Blue/Red Extracts |
+| **Gummyballer** | Ferramenta Branca de Fim de Jogo | 1.000 Glue, 500 Caustic Wax, 100 Super Smoothies |
+
+**Por que a Gummy Mask é Essencial:**
+A Gummy Mask é geralmente a primeira "Máscara de Fim de Jogo" que os jogadores buscam. Ela fornece a passiva **Gummy Morph**, que ocasionalmente transforma você no próprio Gummy Bear, concedendo bônus massivos de coleta de Goo e fazendo com que todas as flores nas proximidades contem como cobertas por Goo.
+
+<Callout type="tip" title="Gestão de Recursos">
+O Glue é o recurso mais difícil de obter para os equipamentos Gummy. Em 2026, as melhores maneiras de farmar Glue são através do Glue Dispenser (diário), fabricação no Blender e derrotando o Stump Snail ou o Coconut Crab.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Missões de Beesmas: O Farol do Ano de Goo">
+
+Durante o evento anual de Beesmas, o **Gummy Bear no Bee Swarm Simulator** oferece uma das sequências de missões mais desafiadoras do jogo. Essas missões são projetadas para jogadores avançados e recompensam itens exclusivos como Mythic Eggs e o acesso ao Gummy Beacon.
+
+A missão de Beesmas de 2026, "Goo Year's Beacon" (Farol do Ano de Goo), requer quantidades massivas de Goo e coleções específicas de adesivos (stickers).
+
+<Checklist
+  id="beesmas-goals"
+  title="Requisitos do Farol do Ano de Goo:"
+  items={[
+    "Coletar 1 Trilhão de Goo de Flores Brancas",
+    "Usar 2.500 Gumdrops manualmente",
+    "Derrotar 2.000 Slimes no ambiente",
+    "Estourar 1 Puffshroom Lendário",
+    "Entregar um Adesivo de Gummyballer para o Gummy Bear",
+    "Completar 10 missões de Coletar Goo no Desafio do Robo Bear"
+  ]}
+/>
+
+| Categoria de Recompensa | Item | Quantidade |
+| :--- | :--- | :--- |
+| **Moeda** | Mel | 7,5 Trilhões |
+| **Ovos** | Mythic Egg | 1 |
+| **Materiais** | Glue | 50 |
+| **Raro** | Caustic Wax | 5 |
+| **Utilidade** | Acesso ao Gummy Beacon | Permanente |
+
+<Callout type="success" title="O Farol Gummy">
+Completar a missão de Beesmas concede acesso ao **Gummy Beacon**. Isso permite que você convoque o Gummy Bear para a montanha para um "Cerco Gummy" a cada 8 horas, bombardeando os campos com quantidades massivas de Goo para enormes ganhos de mel!
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Contexto Histórico: A Invasão Gummy">
+
+O **Gummy Bear no Bee Swarm Simulator** nem sempre foi um residente permanente. Ele apareceu pela primeira vez durante o evento **Invasão Gummy** em maio de 2018. Durante esse tempo, ele era um urso viajante que incumbia os jogadores de 15 missões de iniciação para se juntarem ao seu "Império Gummy".
+
+**Recompensas de Legado da Invasão:**
+- **Gummy Bee Egg**: A recompensa final por completar todas as 15 missões.
+- **Código Tapioca**: Um código secreto revelado durante a missão "Paz Através da Goo-nidade".
+- **Canhão Gummy**: Um objeto ambiental que o Gummy Bear usava para disparar Gumdrops nos campos.
+
+| Nome da Missão | Objetivo Chave | Recompensa |
+| :--- | :--- | :--- |
+| **Begin The Goo Invasion** | Coletar 500 Goo | 1 Ticket, 1 Gumdrop |
+| **Total Gummification** | Coletar 60.000 Goo | 1 Ticket, 5 Gumdrops |
+| **Candy Conquest** | Coletar 750.000 Goo | Gummy Bee Egg |
+
+<Callout type="info" title="Curiosidade: Ursos Flutuantes">
+O Gummy Bear é um dos dois únicos ursos no jogo que flutuam em vez de ficarem no chão (o outro sendo o Shadow Bear). Ele usa o Pacote de Animação de Levitação para manter sua aparência fantasmagórica e translúcida.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como posso falar com o Gummy Bear sem morrer?",
+    answer: "Você deve possuir a Gummy Mask, Gummy Boots ou o Gummyballer. Você não precisa estar usando-os, mas eles devem ter sido comprados e estar no seu inventário para que ele o reconheça como um 'Soldado Gummy'."
+  },
+  {
+    question: "Onde fica o Esconderijo do Gummy Bear?",
+    answer: "Vá para a Zona de 20 Abelhas e encontre a Tenda de Tickets. Pule na estátua da Gummy Bee localizada lá. Se você tiver o Emblema Goo Hotshot, será teletransportado para o esconderijo dele."
+  },
+  {
+    question: "Ainda posso obter o Gummy Bee Egg com o Gummy Bear?",
+    answer: "Não, a sequência de 15 missões fez parte do evento Invasão Gummy de 2018. Agora, você deve comprar a Gummy Bee no Esconderijo Gummy usando 2.500 Gumdrops na estação de resgate da Gummy Bee."
+  },
+  {
+    question: "Qual é o melhor campo para as missões do Gummy Bear?",
+    answer: "Como o Gummy Bear foca em Goo Branco, o Coconut Field, Spider Field e Pineapple Patch são geralmente os melhores locais para completar seus requisitos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Hướng dẫn về Mật hoa Tiếp sức (Invigorating Nectar) trong Bee Swarm Simulator: Cách canh tác & Vị trí",
+  description: "Làm chủ Mật hoa Tiếp sức trong Bee Swarm Simulator với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu các cánh đồng tốt nhất, hệ số nhân của chậu trồng và mẹo lưu trữ để tăng Phấn hoa Đỏ và Tấn công.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/ef4444/fff?text=Invigorating+Nectar+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "mật hoa tiếp sức, bee swarm simulator, hướng dẫn, canh tác, vị trí"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mật hoa Tiếp sức (Invigorating Nectar)** cung cấp các chỉ số tăng cường khổng lồ cho **Phấn hoa Đỏ**, **Tấn công của Ong** và **Tỷ lệ chí mạng**.
+- **Các cánh đồng tốt nhất** để canh tác bao gồm **Cánh đồng Cỏ ba lá (Clover Field)**, **Cánh đồng Xương rồng (Cactus Field)**, **Cánh đồng Đỉnh núi (Mountain Top Field)** và **Cánh đồng Ớt (Pepper Field)**.
+- **Lựa chọn chậu trồng** là rất quan trọng; hãy sử dụng **Chậu xử lý nhiệt (Heat-Treated Planter)** hoặc **Chậu thuốc trừ sâu (Pesticide Planter)** để đạt năng suất tối đa.
+- **Lưu trữ** có thể được quản lý thông qua **Hũ mật hoa (Nectar Pot)** trong Khu vực 30 Con ong hoặc bằng cách cô đặc 12 giờ thành một **Lọ mật hoa (Nectar Vial)**.
+- **Chiến lược chuyên nghiệp**: Giữ một chậu trồng đã đầy trong cánh đồng để tiếp tục thu hoạch mật hoa mà không cần lấy chậu ra ngay lập tức.
+</Callout>
+
+<Section icon={Sparkles} title="Bản chất của Mật hoa Tiếp sức trong Bee Swarm Simulator">
+
+Trong hệ sinh thái phức tạp của Bee Swarm Simulator, mật hoa đại diện cho một trong những cơ chế tiến triển quan trọng nhất ở giai đoạn cuối game. Trong số năm loại mật hoa hiện có, **mật hoa tiếp sức trong bee swarm simulator** nổi bật là loại tăng cường tấn công chính và dành cho tổ ong Đỏ. Được giới thiệu trong bản cập nhật ngày 26-12-2021, loại mật hoa này rất cần thiết cho những người chơi muốn tối đa hóa sát thương của họ đối với các quái vật và trùm như Cua Dừa hoặc Ốc Sên Gốc Cây, đồng thời tăng cường thu thập Phấn hoa Đỏ.
+
+**Điểm nổi bật trong video:**
+- Vị trí chi tiết để canh tác Mật hoa Tiếp sức năm 2026.
+- So sánh các chậu trồng từ người mới bắt đầu đến nâng cao về năng suất mật hoa.
+- Mẹo "Canh tác vô hạn": ở lại cánh đồng với chậu trồng đã đạt 100%.
+- Cách truy cập cửa hàng của Dapper Bear để lấy các thiết bị cần thiết.
+
+<YouTubeEmbed videoId="_3fbauPK0TA" title="CÁCH NHẬN MẬT HOA TIẾP SỨC (Bee Swarm Simulator)" />
+
+Sức mạnh của bùa lợi tăng giảm động dựa trên thời gian còn lại. Một người chơi với 24 giờ mật hoa tích lũy sẽ nhận được tỷ lệ phần trăm cao hơn đáng kể so với người chỉ có một giờ. Điều này làm cho giai đoạn "tích lũy" của lối chơi trở nên quan trọng đối với việc tối ưu hóa tổ ong cấp cao.
+
+| Loại bùa lợi | Giá trị tối thiểu (0s) | Giá trị tối đa (24h) |
+| :--- | :--- | :--- |
+| **Phấn hoa Đỏ** | x1.1 | **x1.5** |
+| **Tấn công của Ong** | x1.1 | **x1.25** |
+| **Tỷ lệ chí mạng** | +1% | **+5%** |
+
+<Callout type="success" title="Lợi thế chiến đấu">
+Mật hoa Tiếp sức là loại mật hoa duy nhất trực tiếp tăng **Tấn công của Ong**. Nếu bạn đang chuẩn bị cho một phiên chạy quái vật hoặc săn trùm dài hơi, việc đảm bảo bạn có ít nhất 12 giờ mật hoa này là rất được khuyến khích.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Vị trí cánh đồng tối ưu cho Mật hoa Tiếp sức">
+
+Để có được **mật hoa tiếp sức trong bee swarm simulator**, bạn phải đặt chậu trồng ở các cánh đồng cụ thể. Mặc dù nhiều cánh đồng cung cấp mật hoa, chỉ một số ít được chỉ định là nguồn "Tiếp sức". Canh tác sai cánh đồng sẽ dẫn đến các loại mật hoa khác nhau, chẳng hạn như An ủi hoặc Thúc đẩy, có thể không phù hợp với cấu hình tổ ong Đỏ hoặc yêu cầu nhiệm vụ hiện tại của bạn.
+
+Các cánh đồng sau đây là những vị trí đã được xác minh nơi chậu trồng sẽ tạo ra Mật hoa Tiếp sức:
+
+| Tên cánh đồng | Khả năng tiếp cận | Chậu trồng khuyến nghị |
+| :--- | :--- | :--- |
+| **Cánh đồng Cỏ ba lá** | Đầu game (Bất kỳ) | Chậu Giấy / Chậu Nhựa |
+| **Cánh đồng Xương rồng** | Giữa game (15 Ong) | Chậu Dính / Chậu Kẹo |
+| **Cánh đồng Đỉnh núi** | Giữa game (25 Ong) | Chậu Đất sét đỏ / Chậu Thuốc trừ sâu |
+| **Cánh đồng Ớt** | Cuối game (35 Ong) | Chậu Xử lý nhiệt / Chậu Plenty |
+
+<Callout type="info" title="Lỗi tại Cánh đồng Kiến">
+Onett trước đây đã thông báo rằng Cánh đồng Kiến có chứa Mật hoa Tiếp sức. Tuy nhiên, do một đặc điểm cơ chế tồn tại lâu đời, việc thu hoạch ở đây thường mang lại Mật hoa An ủi thay thế. An toàn hơn là nên gắn bó với Cánh đồng Ớt hoặc Đỉnh núi để có kết quả nhất quán.
+</Callout>
+
+Mỗi cánh đồng có một "tốc độ nhấm nháp" khác nhau, xác định tốc độ ong của bạn thu thập mật hoa từ chậu trồng trong khi bạn đang tích cực canh tác. Ở lại cánh đồng trong khi chậu trồng phát triển là cách hiệu quả nhất để tối đa hóa lượng mật hoa thu được mỗi giờ chơi thực tế.
+
+</Section>
+
+<Section icon={Shield} title="Các chậu trồng tốt nhất cho năng suất tối đa">
+
+Không phải tất cả các chậu trồng đều được tạo ra như nhau khi nói đến **mật hoa tiếp sức trong bee swarm simulator**. Một số chậu có hệ số nhân ẩn giúp tăng lượng mật hoa thu thập được khi đặt ở các cánh đồng "ưa thích" của chúng. Đối với Mật hoa Tiếp sức, các chậu trồng theo chủ đề Đỏ hoặc các chậu đa năng cấp cao hoạt động tốt nhất.
+
+<CardGrid cols={3}>
+  <Card title="Chậu Xử lý nhiệt">
+    - **Hệ số nhân 1.2x** cho Mật hoa Tiếp sức.
+    - Sử dụng tốt nhất trong **Cánh đồng Ớt**.
+    - Cung cấp thêm Chiết xuất Đỏ và Dâu tây.
+  </Card>
+  <Card title="Chậu Thuốc trừ sâu">
+    - **Hệ số nhân 1.3x** cho Mật hoa Tiếp sức.
+    - Sức chứa lớn cho các phiên AFK dài.
+    - Tuyệt vời cho việc canh tác tại **Đỉnh núi**.
+  </Card>
+  <Card title="Chậu Plenty">
+    - **Hệ số nhân 1.5x** cho tất cả các loại mật hoa.
+    - Công cụ cuối game tối thượng.
+    - Tốc độ phát triển và sức chứa mật hoa khổng lồ.
+  </Card>
+</CardGrid>
+
+Ngoài các chậu trồng chuyên dụng này, ngay cả các phiên bản cơ bản cũng có các hệ số nhân cố định áp dụng trên tất cả các cánh đồng. Hiểu được các chỉ số cơ bản này giúp người chơi đầu game lập kế hoạch tiến triển của họ.
+
+| Loại chậu | Hệ số nhân mật hoa | Trường hợp sử dụng đầu game tốt nhất |
+| :--- | :--- | :--- |
+| **Chậu Giấy** | x0.75 | Nhiệm vụ nhanh trong Cánh đồng Cỏ ba lá |
+| **Chậu Nhựa** | x1.0 | Phát triển tiêu chuẩn trong Cánh đồng Xương rồng |
+| **Chậu Vé** | x2.0 | Tích lũy mật hoa tốc độ cao |
+| **Chậu Lễ hội** | x3.0 | Mức tăng mật hoa tức thời tối đa |
+
+<Callout type="warning" title="Sự mệt mỏi của chậu trồng">
+Nếu bạn sử dụng cùng một chậu trồng trong cùng một cánh đồng nhiều lần, hiệu quả của nó sẽ giảm đi. Hãy luân chuyển chậu trồng của bạn giữa Đỉnh núi và Cánh đồng Xương rồng để duy trì năng suất mật hoa cao và tránh lợi nhuận giảm dần.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Chiến lược canh tác từng bước">
+
+Để đạt được mức tích lũy tối đa 24 giờ của **mật hoa tiếp sức trong bee swarm simulator**, bạn không thể chỉ "trồng rồi để đó". Bạn phải sử dụng các cơ chế cụ thể để đảm bảo ong của bạn đang nhấm nháp mật hoa với tốc độ cao nhất có thể. Hãy làm theo các bước này để tối ưu hóa quy trình canh tác của bạn.
+
+<Steps>
+  <Step num="1" title="Chọn cánh đồng phù hợp">
+    Chọn một cánh đồng dựa trên cấp độ hiện tại của bạn. Nếu bạn là người chơi cuối game, **Cánh đồng Ớt** là bắt buộc do mật độ hoa cao và sự phối hợp với trang bị tổ ong Đỏ.
+  </Step>
+  <Step num="2" title="Trang bị Ong tăng cường mật hoa">
+    Bao gồm **Ong Nhút nhát (Shy Bees)** trong tổ ong của bạn. Chúng sở hữu kỹ năng bị động **Người yêu mật hoa (Nectar Lover)**, khiến chúng có khả năng nhấm nháp mật hoa cao gấp đôi và thu thập gấp đôi mỗi lần nhấm nháp.
+  </Step>
+  <Step num="3" title="Phát triển canh tác chủ động">
+    Ở lại cánh đồng trong khi chậu trồng phát triển. Ong nhấm nháp mật hoa thường xuyên hơn khi người chơi đang tích cực thu thập phấn hoa gần đó. Điều này thêm "Mật hoa đã nhấm nháp" vào tổng số của bạn ngoài "Mật hoa đã thu hoạch".
+  </Step>
+  <Step num="4" title="Mẹo tăng trưởng 100%">
+    Khi chậu trồng đạt 100%, đừng thu hoạch nó ngay lập tức. Bạn có thể ở lại cánh đồng và tiếp tục "nhấm nháp" từ chậu trồng đã phát triển hoàn toàn trong thời gian dài, thực sự canh tác mật hoa vô thời hạn miễn là bạn vẫn ở trong máy chủ.
+  </Step>
+</Steps>
+
+<Checklist
+  id="nectar-prep-checklist"
+  title="Chuẩn bị Mật hoa Tiếp sức:"
+  items={[
+    "Kiểm tra xem Samovar của Dapper Bear có sẵn không (chỉ trong sự kiện Beesmas)",
+    "Đảm bảo có ít nhất một Ong Nhút nhát trong tổ ong",
+    "Làm trống Hũ mật hoa của bạn để nhường chỗ cho các khoản tiền gửi mới",
+    "Chế tạo Chiết xuất Đỏ để tăng hiệu quả Cánh đồng Ớt",
+    "Xác minh sự luân chuyển chậu trồng để tránh sự mệt mỏi về năng suất"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Lưu trữ và quản lý mật hoa">
+
+Việc quản lý **mật hoa tiếp sức trong bee swarm simulator** của bạn cũng quan trọng như việc canh tác nó. Vì mật hoa cạn kiệt ngay cả khi bạn ngoại tuyến, bạn phải sử dụng các công cụ chuyên dụng nằm trong Khu vực 30 và 35 Con ong để bảo quản các bùa lợi khó kiếm được của mình.
+
+**Hũ mật hoa (Nectar Pot)**, nằm trong Khu vực 30 Con ong, cho phép bạn lưu trữ mật hoa của mình với chi phí 5 Vé. Điều này "đóng băng" mật hoa, ngăn nó cạn kiệt. Tuy nhiên, bạn phải rút hết mật hoa đã lưu trữ trước khi có thể gửi một loại khác.
+
+**Bộ cô đặc mật hoa (Nectar Condenser)**, được tìm thấy trong Khu vực 35 Con ong, là cách hiệu quả nhất để quản lý các khoản tích lũy dài hạn. Nó cho phép bạn chuyển đổi 12 giờ của bất kỳ mật hoa nào thành một **Lọ mật hoa (Nectar Vial)**.
+
+| Vật phẩm/Đối tượng | Chức năng | Chi phí / Yêu cầu |
+| :--- | :--- | :--- |
+| **Lọ mật hoa** | Cung cấp 1h 12m Mật hoa | 12h Mật hoa + Bộ cô đặc |
+| **Hũ mật hoa** | Lưu trữ/Đóng băng Mật hoa | 5 Vé mỗi lần gửi |
+| **Samovar của Dapper Bear** | Cung cấp Mật hoa ngẫu nhiên | Chỉ sự kiện Beesmas |
+| **Lọ làm mới** | Tăng mật hoa tức thì | Phần thưởng nhiệm vụ / Chế tạo |
+
+<Callout type="tip" title="Chiến lược dùng Lọ">
+Luôn cô đặc mật hoa của bạn thành các Lọ nếu bạn có hơn 18 giờ. Điều này cho phép bạn "bùng nổ" các bùa lợi của mình trở lại 24 giờ ngay lập tức trước một phiên tăng cường lớn hoặc một trận chiến trùm khó khăn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Đâu là cánh đồng tốt nhất cho mật hoa tiếp sức trong bee swarm simulator?",
+    answer: "Cánh đồng Ớt được coi là tốt nhất cho người chơi cuối game do mật độ hoa cao và khả năng tương thích với Chậu Xử lý nhiệt. Đối với người chơi giữa game, Cánh đồng Đỉnh núi là nguồn đáng tin cậy nhất."
+  },
+  {
+    question: "Mật hoa Tiếp sức có giúp ích cho tổ ong xanh hoặc trắng không?",
+    answer: "Mặc dù nó cung cấp sự tăng cường Tấn công của Ong và Tỷ lệ chí mạng phổ quát, hệ số nhân Phấn hoa Đỏ đặc biệt mang lại lợi ích cho các tổ ong Đỏ. Các tổ ong Xanh nên ưu tiên Mật hoa An ủi, và các tổ ong Trắng nên tập trung vào Mật hoa Thúc đẩy."
+  },
+  {
+    question: "Làm thế nào để tôi ngăn mật hoa của mình biến mất khi tôi ngoại tuyến?",
+    answer: "Bạn phải lưu trữ mật hoa của mình trong Hũ mật hoa nằm trong Khu vực 30 Con ong. Nếu nó không được lưu trữ, nó sẽ tiếp tục cạn kiệt theo tốc độ tiêu chuẩn ngay cả khi bạn không ở trong trò chơi."
+  },
+  {
+    question: "Tôi có thể nhận Mật hoa Tiếp sức từ Chậu Nhựa không?",
+    answer: "Có, bất kỳ chậu trồng nào cũng có thể tạo ra Mật hoa Tiếp sức miễn là nó được đặt ở một cánh đồng thích hợp như Cỏ ba lá, Xương rồng, Đỉnh núi hoặc Ớt."
+  }
+]} />
+
+</Section>

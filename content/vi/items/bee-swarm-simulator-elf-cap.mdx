@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mũ Yêu Tinh (Elf Cap) Trong Bee Swarm Simulator: Hướng Dẫn Chỉ Số & Giá Trị Giao Dịch 2026",
+  description: "Hướng dẫn toàn diện về Mũ Yêu Tinh (Elf Cap) trong Bee Swarm Simulator, bao gồm tỷ lệ chỉ số ngẫu nhiên (RNG), đánh giá sao tiềm năng và chiến lược giao dịch năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/c2410c/fff?text=Elf+Cap+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mũ Yêu Tinh (Elf Cap)** trong Bee Swarm Simulator là một trang bị ong (beequip) Beesmas Cấp 3 hiện chỉ có thể sở hữu thông qua giao dịch vào năm 2026.
+- **Giới hạn trang bị** cho phép tối đa hai Mũ Yêu Tinh cho mỗi tổ ong, không yêu cầu màu ong cụ thể.
+- **Tỷ lệ chuyển đổi tại tổ (Convert Rate At Hive)** là chỉ số nổi bật nhất, giúp tăng đáng kể hiệu quả sản xuất mật ong trong quá trình chuyển đổi tại tổ.
+- **Các hàm RNG cũ** được sử dụng cho vật phẩm này, nghĩa là việc tạo chỉ số tuân theo các mô hình thiên lệch cũ so với các trang bị ong mới hơn.
+- **Giá Trị Giao Dịch** vẫn ở mức cao đối với các vật phẩm có tiềm năng 5 sao do tính khan hiếm và các phần thưởng tổ ong hữu ích của nó.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Mũ Yêu Tinh (Elf Cap) trong Bee Swarm Simulator">
+
+**Mũ Yêu Tinh (Elf Cap)** trong Bee Swarm Simulator là một trang bị ong (beequip) Cấp 3 chuyên dụng ban đầu được giới thiệu trong sự kiện lễ hội Beesmas. Được mô tả là một chiếc mũ đáng yêu có gắn chuông để giữ cho ong thợ luôn tỉnh táo, nó đóng vai trò là một vật phẩm tiện ích mạnh mẽ cho những người chơi muốn tối ưu hóa tỷ lệ chuyển đổi của mình. Tính đến giữa năm 2026, vật phẩm này được phân loại là không thể thu thập thông qua lối chơi thông thường, nghĩa là nó không còn rơi ra từ các quái vật như bọ rùa (ladybugs) hay xuất hiện trong Hộp Quà Ruby (Ruby Gift Box).
+
+Đối với những người chơi hiện đại, việc sở hữu Mũ Yêu Tinh đòi hỏi phải tham gia vào nền kinh tế giao dịch phức tạp. Hiểu rõ các cơ chế cơ bản của nó là điều cần thiết trước khi quyết định đổi các nhãn dán (stickers) hoặc phiếu đổi quà (vouchers) có giá trị cao. Chiếc mũ này không có yêu cầu về màu sắc, khiến nó trở thành một lựa chọn linh hoạt cho các đội hình tổ ong đỏ, xanh hoặc trắng.
+
+| Tính năng | Thông số kỹ thuật |
+| :--- | :--- |
+| **Cấp độ trang bị** | Cấp 3 |
+| **Giới hạn trang bị** | 2 |
+| **Yêu cầu màu sắc** | Không có |
+| **Cách sở hữu** | Chỉ qua giao dịch (2026) |
+| **Sự kiện chính** | Beesmas |
+
+<Callout type="warning" title="Cảnh báo giao dịch">
+Vì Mũ Yêu Tinh hiện không thể kiếm được bằng các phương pháp thông thường, hãy cẩn thận với mức giá bị thổi phồng trong trung tâm giao dịch. Luôn kiểm tra xếp hạng sao tiềm năng trước khi hoàn tất giao dịch, vì Mũ Yêu Tinh 0 sao kém hiệu quả hơn đáng kể so với phiên bản 5 sao.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Phân tích chỉ số và phạm vi tiềm năng">
+
+**Mũ Yêu Tinh (Elf Cap)** trong Bee Swarm Simulator phụ thuộc vào các hàm RNG cũ của trò chơi để tạo chỉ số. Điều này có nghĩa là khi vật phẩm được tạo ra ban đầu hoặc khi nó được quét sáp (waxed), các giá trị sẽ có xu hướng thiên lệch về các khoảng cụ thể. Các chỉ số quan trọng nhất đối với trang bị ong này là Lượng chuyển đổi (Convert Amount) và Tỷ lệ chuyển đổi tại tổ (Convert Rate at Hive).
+
+Bảng dưới đây phân tích chi tiết các phạm vi chỉ số cơ bản và các giá trị tối đa có thể đạt được sau khi áp dụng các nâng cấp như Sáp Ăn Mòn (Caustic Wax).
+
+| Loại chỉ số | Phạm vi cơ bản | Giới hạn nâng cấp tối đa | Tổng phạm vi tiềm năng |
+| :--- | :--- | :--- | :--- |
+| **+Lượng chuyển đổi** | +25 đến +50 | 20 | +25 đến +110 |
+| **+Tỷ lệ chuyển đổi tại tổ%** | +10% đến +20% | 20 | +10% đến +60% |
+| **Thưởng tổ ong: Tỷ lệ chuyển đổi%** | +1% đến +3% | 5 | +1% đến +13% |
+| **+Mật ong tại tổ%** | 0.01 đến 0.1 | 10 | 0% đến +20% |
+
+<Callout type="tip" title="Chiến lược tối ưu hóa">
+Nếu bạn đang tìm kiếm một chiếc Mũ Yêu Tinh cấp "Thần thánh" (God Tier), hãy ưu tiên Thưởng tổ ong cho Tỷ lệ chuyển đổi tại tổ. Chỉ số này mang lại hiệu ứng tăng ích (buff) toàn cục cho hiệu quả của tổ ong, giá trị hơn nhiều trong meta cuối game năm 2026 so với lượng chuyển đổi cố định.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Tập trung vào tiện ích">
+    - **Không khóa màu**: Có thể sử dụng cho bất kỳ con ong nào trong tổ.
+    - **Trang bị kép**: Sử dụng hai chiếc mũ sẽ tối đa hóa Thưởng tổ ong.
+    - **Tiếp cận Cấp 3**: Phù hợp cho những người chơi ở giai đoạn giữa game có khả năng giao dịch.
+  </Card>
+  <Card title="Thiên lệch chỉ số">
+    - **RNG cũ**: Các chỉ số thường tập trung gần các giá trị tối thiểu.
+    - **Tiêu chuẩn cao**: Các phiên bản 5 sao cực kỳ hiếm.
+    - **Rủi ro quét sáp**: Áp dụng sáp có thể thay đổi đáng kể giá trị.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Xác suất RNG và sao tiềm năng">
+
+Trong Bee Swarm Simulator, \"Tiềm năng\" của một trang bị ong được thể hiện bằng số sao (từ 0 đến 5). Đối với Mũ Yêu Tinh, việc đạt được xếp hạng sao cao là rất khó khăn do cơ chế RNG bị thiên lệch. Một chiếc Mũ Yêu Tinh 5 sao đại diện cho top 1% trong số tất cả các phiên bản được tạo ra của vật phẩm này.
+
+| Xếp hạng tiềm năng | Lượng chuyển đổi TB | Tỷ lệ chuyển đổi TB% | Thưởng tổ ong TB% |
+| :--- | :--- | :--- | :--- |
+| **0 Sao** | +31.24 | +12.5% | +1.5% |
+| **1 Sao** | +33.74 | +13.5% | +1.7% |
+| **2 Sao** | +36.24 | +14.5% | +1.9% |
+| **3 Sao** | +38.75 | +15.5% | +2.1% |
+| **4 Sao** | +41.25 | +16.5% | +2.3% |
+| **5 Sao** | +43.75 | +17.5% | +2.5% |
+
+<Callout type="success" title="Chỉ số cấp cao nhất">
+Một chiếc Mũ Yêu Tinh 5 sao có tỷ lệ gần 20% để nhận được Tỷ lệ chuyển đổi tại tổ tối đa +20% trong hệ thống, mặc dù trò chơi sẽ làm tròn các giá trị này trên giao diện người dùng. Vào năm 2026, những vật phẩm này được coi là \"Đồ sưu tầm\" và có giá trị cực kỳ cao trong các giao dịch.
+</Callout>
+
+Xác suất nhận được các phạm vi cụ thể không phải là tuyến tính. Ví dụ, chỉ có 0,02% cơ hội để một chiếc Mũ Yêu Tinh 0 sao có Lượng chuyển đổi cơ bản là +50. Hầu hết các vật phẩm sẽ rơi vào khoảng từ +25 đến +34.
+
+</Section>
+
+<Section icon={Swords} title="Cách nâng cấp và tối ưu hóa Mũ Yêu Tinh">
+
+Mặc dù bạn không thể sở hữu một chiếc **Mũ Yêu Tinh (Elf Cap)** mới từ việc nhặt vật phẩm rơi ra, bạn vẫn có thể sử dụng hệ thống Sáp (Wax) để cải thiện chiếc mũ hiện có. Sử dụng Sáp Mềm (Soft Wax), Sáp Cứng (Hard Wax) hoặc Sáp Ăn Mòn (Caustic Wax) có thể tăng chỉ số cho trang bị ong của bạn, nhưng nó cũng tiêu tốn các ô nâng cấp.
+
+<Steps>
+  <Step num="1" title="Đánh giá ban đầu">
+    Kiểm tra tiềm năng hiện tại và các ô nâng cấp còn lại. Nếu chiếc mũ còn 0 ô nâng cấp, nó không thể được cải thiện thêm nữa nếu không có các vật phẩm chuyên dụng cụ thể.
+  </Step>
+  <Step num="2" title="Quét Sáp Mềm (Soft Waxing)">
+    Sử dụng Sáp Mềm để cải thiện với ít rủi ro. Cách này tốt nhất cho các mũ 0-2 sao khi bạn muốn nâng nhẹ các chỉ số lên cao hơn mà không muốn mạo hiểm mất ô nâng cấp do sáp cấp cao thất bại.
+  </Step>
+  <Step num="3" title="Quét Sáp Cứng (Hard Waxing)">
+    Sáp Cứng mang lại cơ hội tốt hơn để tăng chỉ số đáng kể nhưng có tỷ lệ thất bại cao hơn. Hãy sử dụng loại sáp này cho các mũ 3 sao để đẩy chúng lên phạm vi 4 sao.
+  </Step>
+  <Step num="4" title="Sử dụng Sáp Ăn Mòn (Caustic Wax)">
+    Sáp Ăn Mòn là một lựa chọn đầy rủi ro nhưng phần thưởng lớn. Nó có thể tăng cực mạnh Tỷ lệ chuyển đổi tại tổ nhưng có nguy cơ phá hủy ô nâng cấp hoặc cho ra một chỉ số tầm thường.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cảnh báo quét sáp">
+Không bao giờ sử dụng Sáp Ăn Mòn trên Mũ Yêu Tinh 5 sao trừ khi bạn là người chơi ở giai đoạn cực kỳ cuối game và dư dả tài nguyên. Rủi ro làm \"hỏng\" một món đồ sưu tầm có giá trị cao là rất lớn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục tiêu giao dịch và danh sách kiểm tra năm 2026">
+
+Đối với những người chơi muốn hoàn thiện tổ ong của mình vào năm 2026, Mũ Yêu Tinh là một mục tiêu phụ nhưng quan trọng. Nó hoàn toàn phù hợp với các lối xây dựng (build) \"Mật ong trên mỗi phấn hoa\" (Honey Per Pollen), nơi tốc độ chuyển đổi của tổ ong là nút thắt cổ chai.
+
+<Checklist
+  id="elf-cap-goals"
+  title="Danh sách kiểm tra hoàn thành Mũ Yêu Tinh:"
+  items={[
+    "Sở hữu hai Mũ Yêu Tinh từ 4 sao trở lên thông qua giao dịch",
+    "Đảm bảo cả hai mũ đều có phần thưởng +Tỷ lệ chuyển đổi tại tổ%",
+    "Trang bị mũ cho những con ong có năng lượng cơ bản cao để duy trì quá trình chuyển đổi",
+    "Tối đa hóa các ô nâng cấp bằng cách sử dụng kết hợp Sáp Cứng và Sáp Ăn Mòn",
+    "Xác nhận Thưởng tổ ong đã hoạt động trong menu hồ sơ tổ ong"
+  ]}
+/>
+
+<Callout type="info" title="Trạng thái di sản">
+Là một vật phẩm di sản, giá trị của Mũ Yêu Tinh gắn liền với meta hiện tại. Nếu một bản cập nhật trong tương lai giới thiệu một trang bị ong Cấp 4 với các chỉ số tương tự, giá trị giao dịch của nó có thể giảm xuống. Hãy cập nhật các ghi chú bản vá năm 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có còn nhận được Mũ Yêu Tinh từ Bọ Rùa (Ladybugs) vào năm 2026 không?",
+    answer: "Không, Mũ Yêu Tinh đã bị xóa khỏi danh sách rơi đồ của Bọ Rùa và Hộp Quà Ruby. Hiện tại bạn không thể sở hữu nó thông qua lối chơi thông thường mà phải giao dịch để có được."
+  },
+  {
+    question: "Mũ Yêu Tinh trong Bee Swarm Simulator có tốt hơn Gạc Tuần Lộc (Reindeer Antlers) không?",
+    answer: "Điều đó phụ thuộc vào tổ ong của bạn. Gạc Tuần Lộc tốt hơn cho các hiệu ứng lễ hội, nhưng Mũ Yêu Tinh vượt trội hơn về tỷ lệ chuyển đổi thuần túy tại tổ, đặc biệt là nếu bạn có phiên bản nhiều sao."
+  },
+  {
+    question: "Tôi có thể trang bị bao nhiêu Mũ Yêu Tinh cùng một lúc?",
+    answer: "Giới hạn trang bị cho Mũ Yêu Tinh là hai. Bạn có thể đeo chúng cho bất kỳ hai con ong nào trong tổ của mình, bất kể màu sắc hay chủng loại của chúng."
+  },
+  {
+    question: "Chỉ số quan trọng nhất trên Mũ Yêu Tinh là gì?",
+    answer: "Tỷ lệ chuyển đổi tại tổ% (Convert Rate At Hive%) thường được coi là chỉ số quan trọng nhất, vì nó giúp tăng quy mô sản xuất mật ong của bạn trong giai đoạn chuyển đổi tại tổ."
+  }
+]} />
+
+</Section>

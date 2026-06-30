@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "bee swarm simulator gummy bear: Guía de Misiones y de la Guarida",
+  description: "Domina las mecánicas de gummy bear en bee swarm simulator. Aprende cómo acceder a la Guarida de Gummy Bear, completar misiones de Beesmas y obtener equipo Gummy de élite.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Gummy+Bear+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de bee swarm simulator",
+  keywords: "bee swarm simulator, gummy bear, guarida, misiones, beesmas, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **bee swarm simulator gummy bear**: Un NPC único ubicado en una guarida oculta accesible a través de la Zona de 20 Abejas.
+- **Acceso a la Guarida**: Requiere la **Insignia de As de la Melaza (Goo Hotshot)** y 20 abejas para entrar en la zona.
+- **Mecánica de Supervivencia**: Debes poseer la **Máscara Gummy, Botas Gummy o el Gummyballer** para hablar con él sin morir.
+- **Recompensa Clave**: Históricamente proporcionaba el **Huevo de Abeja Gummy** y actualmente ofrece misiones de Beesmas de alto nivel.
+- **Estado de Combate**: Uno de los pocos NPCs capaces de matar al jugador directamente a través del diálogo.
+</Callout>
+
+<Section icon={Map} title="Localización y Acceso al gummy bear de bee swarm simulator">
+
+El **gummy bear de bee swarm simulator** es uno de los NPCs más misteriosos y peligrosos del juego. A diferencia del amigable Black Bear o Mother Bear, Gummy Bear reside en una guarida apartada y exige lealtad total al "Imperio Gummy". Para siquiera verlo, primero debes dirigirte a la Zona de 20 Abejas y encontrar la entrada oculta ubicada detrás del modelo de la Abeja Gummy, cerca de la Carpa de Tickets.
+
+Acceder a la guarida es un rito de iniciación para los jugadores de mitad y final del juego. No puedes simplemente entrar caminando; el juego verifica tu progreso a través de insignias y tu conteo de abejas.
+
+| Requisito | Valor Necesario | Propósito |
+| :--- | :--- | :--- |
+| **Conteo de Abejas** | 20 Abejas | Para entrar en la Zona de 20 Abejas |
+| **Insignia de Goo** | As de la Melaza o superior | Para atravesar la entrada de la guarida |
+| **Equipo Gummy** | Máscara, Botas o Gummyballer | Para hablar con Gummy Bear de forma segura |
+| **Bolsa de Polen** | Vacía (Recomendado) | Para evitar perder progreso si mueres |
+
+<CardGrid cols={3}>
+  <Card title="Insignia de As de la Melaza">
+    - **Requisito**: Recolectar 100 millones de Goo.
+    - **Beneficio**: Otorga acceso permanente a la entrada oculta de la guarida.
+    - **Enfoque**: Usa Gominolas (Gumdrops) y habilidades de la Abeja Gummy.
+  </Card>
+  <Card title="Zona de 20 Abejas">
+    - **Ubicación**: Se encuentra cerca de la Carpa de Tickets.
+    - **Entrada**: Requiere 20 abejas únicas en tu colmena.
+    - **Característica**: Contiene la estación de reclamo del Huevo de Abeja Gummy.
+  </Card>
+  <Card title="La Guarida Oculta">
+    - **Entrada**: Salta sobre el modelo de la Abeja Gummy.
+    - **Ambiente**: Entorno translúcido en tonos rosa y verde azulado.
+    - **Peligro**: Alto riesgo de muerte para jugadores no preparados.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Consejo Pro para Exploradores">
+Si quieres visitar al **gummy bear de bee swarm simulator** solo para ver la guarida sin tener el costoso equipo, asegúrate de vaciar tu bolsa de polen primero. ¡Si te mata, perderás todo el polen que tengas en tu contenedor!
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de la Guarida y Estrategias de Supervivencia">
+
+Entrar en la guarida del **gummy bear de bee swarm simulator** es un encuentro de alto riesgo. Si te acercas a él sin poseer al menos una pieza de su equipo especializado de la tienda, iniciará un diálogo que termina con la muerte inmediata de tu personaje. Esta es una mecánica única donde un NPC actúa como un peligro ambiental.
+
+**La Secuencia del Diálogo de Muerte:**
+1. "¿Qué es más dulce que la miel?"
+2. "Gloriosas gominolas... ¡son solo el principio!"
+3. "Un universo agridulce, pegajoso y viscoso..."
+4. "¿No puedes verlo tú también?"
+5. "¿Qué ocurre, Abeja Gummy? ¿No están viendo con claridad?"
+6. "¡SIEMPRE TIENES RAZÓN! GOO-dbye (Adiós), apicultor... ¡JA!"
+
+Después de la última línea, Gummy Bear usa la emoción de señalar y te teletransporta de regreso al punto de aparición, reiniciando el polen de tu sesión actual.
+
+<Steps>
+  <Step num="1" title="Preparación">
+    Asegúrate de haber recolectado al menos 100 millones de Goo para obtener la insignia de As (Hotshot). Si planeas hablar con él, ahorra primero para la Máscara Gummy.
+  </Step>
+  <Step num="2" title="La Entrada">
+    Ve a la Carpa de Tickets en la Zona de 20 Abejas. Salta encima de la estatua de la Abeja Gummy para ser teletransportado a la Guarida Gummy.
+  </Step>
+  <Step num="3" title="Interacción">
+    Si tienes el equipo, acércate a él para reclamar misiones de Beesmas. Si no, mantente alejado o usa un Molinillo (Whirligig) inmediatamente para escapar.
+  </Step>
+  <Step num="4" title="Salida de Emergencia">
+    Si activas el diálogo por accidente, usa un Micro-Convertidor para salvar tu polen o un Molinillo **antes** de que el diálogo termine.
+  </Step>
+</Steps>
+
+| Herramienta de Supervivencia | ¿Efectiva? | Limitación |
+| :--- | :--- | :--- |
+| **Molinillo (Whirligig)** | Sí | Debe usarse antes de que termine el diálogo |
+| **Micro-Convertidor** | Sí | Solo salva el polen; aun así mueres |
+| **Máscara Gummy** | Sí | Seguridad permanente para el diálogo |
+| **Botas Gummy** | Sí | Seguridad permanente para el diálogo |
+| **Gummyballer** | Sí | Seguridad permanente para el diálogo |
+
+<Callout type="warning" title="Advertencia Crítica">
+Incluso si usas un Molinillo para teletransportarte a tu colmena mientras el diálogo está en pantalla, el script continuará. Una vez que se "pronuncie" la última línea, morirás en tu colmena a menos que el diálogo se cierre o el teletransporte ocurra antes de la ejecución final del script.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipo Gummy de Élite y Requisitos de la Tienda">
+
+Para unirte verdaderamente al "Ejército Gummy" e interactuar con el **gummy bear de bee swarm simulator** como aliado, debes fabricar objetos de su tienda secreta. Estos objetos se encuentran entre los más poderosos del juego, diseñados específicamente para maximizar la recolección de Goo y polen de flores blancas.
+
+| Objeto | Beneficio Principal | Ingredientes Clave |
+| :--- | :--- | :--- |
+| **Máscara Gummy** | Habilidad de Metamorfosis Gummy | 250 Pegamento, 100 Enzimas, 100 Aceite |
+| **Botas Gummy** | Rastro de Goo Infinito | 500 Pegamento, 250 Brillo, 250 Extractos Azul/Rojo |
+| **Gummyballer** | Herramienta Blanca de Final de Juego | 1,000 Pegamento, 500 Cera Cáustica, 100 Súper Batidos |
+
+**Por qué la Máscara Gummy es Esencial:**
+La Máscara Gummy suele ser la primera "Máscara de Final de Juego" a la que aspiran los jugadores. Proporciona la pasiva **Metamorfosis Gummy**, que ocasionalmente te convierte en un Gummy Bear, otorgando aumentos masivos en la recolección de Goo y haciendo que todas las flores cercanas cuenten como cubiertas de Goo.
+
+<Callout type="tip" title="Gestión de Recursos">
+El Pegamento (Glue) es el recurso más difícil de obtener para el equipo Gummy. En 2026, las mejores formas de farmear Pegamento son a través del Dispensador de Pegamento (diario), la fabricación en la Licuadora y derrotando al Caracol de Tocón o al Cangrejo de Coco.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Misiones de Beesmas: El Faro del Año de la Melaza">
+
+Durante el evento anual de Beesmas, el **gummy bear de bee swarm simulator** ofrece una de las cadenas de misiones más desafiantes del juego. Estas misiones están diseñadas para jugadores avanzados y recompensan con objetos exclusivos como Huevos Míticos y acceso al Faro Gummy (Gummy Beacon).
+
+La misión de Beesmas 2026, "Faro del Año de la Melaza", requiere cantidades masivas de Goo y colecciones específicas de calcomanías (stickers).
+
+<Checklist
+  id="beesmas-goals"
+  title="Requisitos del Faro del Año de la Melaza:"
+  items={[
+    "Recolectar 1 Trillón de Goo de flores blancas",
+    "Usar 2,500 Gominolas manualmente",
+    "Derrotar 2,000 Slimes en el entorno",
+    "Explotar 1 Puffshroom Legendario",
+    "Entregar una Calcomanía de Gummyballer a Gummy Bear",
+    "Completar 10 misiones de 'Recolectar Goo' en el Desafío de Robo Bear"
+  ]}
+/>
+
+| Categoría de Recompensa | Objeto | Cantidad |
+| :--- | :--- | :--- |
+| **Moneda** | Miel | 7.5 Trillones |
+| **Huevos** | Huevo Mítico | 1 |
+| **Materiales** | Pegamento | 50 |
+| **Raro** | Cera Cáustica | 5 |
+| **Utilidad** | Acceso al Faro Gummy | Permanente |
+
+<Callout type="success" title="El Faro Gummy">
+Completar la misión de Beesmas otorga acceso al **Faro Gummy**. ¡Esto te permite invocar a Gummy Bear a la montaña para un "Asedio Gummy" cada 8 horas, bombardeando los campos con cantidades masivas de Goo para obtener enormes ganancias de miel!
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Contexto Histórico: La Invasión Gummy">
+
+El **gummy bear de bee swarm simulator** no siempre fue un residente permanente. Apareció por primera vez durante el evento **Invasión Gummy** en mayo de 2018. Durante este tiempo, era un oso viajero que encargaba a los jugadores 15 misiones de iniciación para unirse a su "Imperio Gummy".
+
+**Recompensas Legadas de la Invasión:**
+- **Huevo de Abeja Gummy**: La recompensa definitiva por completar las 15 misiones.
+- **Código Tapioca**: Un código secreto revelado durante la misión "Paz a través de la Goo-nidad".
+- **Cañón Gummy**: Un objeto ambiental que Gummy Bear usaba para disparar Gominolas a los campos.
+
+| Nombre de la Misión | Objetivo Clave | Recompensa |
+| :--- | :--- | :--- |
+| **Comenzar la Invasión Gummy** | Recolectar 500 de Goo | 1 Ticket, 1 Gominola |
+| **Gomificación Total** | Recolectar 60,000 de Goo | 1 Ticket, 5 Gominolas |
+| **Conquista de Caramelos** | Recolectar 750,000 de Goo | Huevo de Abeja Gummy |
+
+<Callout type="info" title="Curiosidad: Osos Flotantes">
+Gummy Bear es uno de los dos únicos osos en el juego que flotan en lugar de estar parados en el suelo (el otro es Shadow Bear). Utiliza el Paquete de Animación de Levitación para mantener su apariencia fantasmal y translúcida.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo hablo con Gummy Bear sin morir?",
+    answer: "Debes poseer la Máscara Gummy, las Botas Gummy o el Gummyballer. No necesitas llevarlos puestos, pero deben estar comprados y en tu inventario para que él te reconozca como un 'Soldado Gummy'."
+  },
+  {
+    question: "¿Dónde se encuentra la Guarida de Gummy Bear?",
+    answer: "Ve a la Zona de 20 Abejas y busca la Carpa de Tickets. Salta sobre la estatua de la Abeja Gummy que se encuentra allí. Si tienes la Insignia de As de la Melaza, serás teletransportado a su guarida."
+  },
+  {
+    question: "¿Todavía puedo obtener el Huevo de Abeja Gummy de Gummy Bear?",
+    answer: "No, la secuencia de 15 misiones era parte del evento Invasión Gummy de 2018. Ahora, debes comprar la Abeja Gummy desde la Guarida Gummy usando 2,500 Gominolas en la estación de reclamo de la Abeja Gummy."
+  },
+  {
+    question: "¿Cuál es el mejor campo para las misiones de Gummy Bear?",
+    answer: "Dado que Gummy Bear se enfoca en el Goo Blanco, el Campo de Cocos (Coconut Field), el Campo de Arañas (Spider Field) y el Parche de Piñas (Pineapple Patch) son generalmente las mejores ubicaciones para completar sus requisitos."
+  }
+]} />
+
+</Section>

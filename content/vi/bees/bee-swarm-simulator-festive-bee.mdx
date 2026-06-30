@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Festive Bee trong Bee Swarm Simulator: Hướng dẫn về Quà tặng & Tổ ong 2026",
+  description: "Làm chủ Festive Bee trong Bee Swarm Simulator. Tìm hiểu cách sở hữu, tối ưu hóa quà tặng lễ hội và áp dụng vào chiến lược phát triển tổ ong của bạn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/991b1b/ffffff?text=Festive+Bee+Guide",
+  date: "2026-06-30",
+  author: "Đội ngũ Wiki Bee Swarm Simulator",
+  keywords: "bee swarm simulator, festive bee, hướng dẫn, tổ ong, quà tặng"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Giá trị cốt lõi**: **Festive Bee trong Bee Swarm Simulator** mang lại tiện ích tuyệt vời bằng cách tăng cường phấn hoa đỏ và cung cấp quà tặng.
+- **Cân bằng tổ ong**: Người chơi ở giai đoạn đầu và giữa game được hưởng lợi rất nhiều từ khả năng ổn định việc thu thập tài nguyên của nó.
+- **Chia sẻ quà tặng**: Khả năng đặc trưng của nó là rơi ra các mã thông báo quà tặng (gift token) mang lại lợi ích cho tất cả mọi người đang hoạt động trên máy chủ.
+- **Ưu tiên Bánh kẹo Sao (Star Treat)**: Biến chú ong này thành dạng Gifted sẽ mở khóa hệ số nhân phấn hoa đỏ vĩnh viễn và phần thưởng quà tặng được nâng cấp.
+- **Tăng cường chuyển đổi**: Khả năng Ký hiệu Mật ong (Honey Mark) tạo ra các vùng chuyển đổi tạm thời trực tiếp trên cánh đồng đang hoạt động.
+</Callout>
+
+<Section icon={Map} title="Cách sở hữu và Chỉ số cơ bản">
+
+Festive Bee là một Ong Sự kiện (Event Bee) độc đáo, đóng vai trò là nền tảng cho người chơi chuyển tiếp từ giai đoạn đầu game sang các lối xây dựng tổ ong chuyên biệt ở giữa game. Không giống như các loài ong thông thường yêu cầu sữa ong chúa (royal jelly) hoặc trứng, chú ong này phải được mua bằng vé (ticket) hoặc kiếm được trong các sự kiện mùa giải đặc biệt. Đối với hầu hết người chơi, tiết kiệm vé là con đường đáng tin cậy nhất để sở hữu đơn vị hỗ trợ có giá trị này.
+
+**Điểm nổi bật trong video:**
+- Đánh giá tiện ích tổng thể của Festive Bee trong các giai đoạn phát triển tổ ong khác nhau.
+- So sánh trực tiếp Festive Bee với các Ong Sự kiện mua bằng vé khác như Puppy Bee.
+- Giải thích lợi ích của việc biến chú ong này thành dạng Gifted để mở khóa hệ số nhân phần trăm phấn hoa đỏ.
+
+<YouTubeEmbed videoId="oM3TNyudxTQ" title="FESTIVE BEE có tốt không? Roblox Bee Swarm Simulator" />
+
+Để sở hữu chú ong này, bạn cần đến Lều Vé (Ticket Tent) nằm gần cánh đồng Đỉnh Núi (Mountain Top). Nó có giá 500 vé, cùng mức giá với Tabby Bee và Photon Bee. Mặc dù nó có thể không có sức mạnh chuyển đổi thô như Tabby Bee, nhưng các phần thưởng chơi mạng hợp tác và tiện ích trên cánh đồng của nó khiến nó trở thành một sự bổ sung rất đáng cân nhắc cho đội hình của bạn.
+
+| Chỉ số | Giá trị cơ bản | Mô tả |
+| :--- | :--- | :--- |
+| Năng lượng | 20 | Tổng thể lực trước khi cần ngủ |
+| Tốc độ | 16.5 | Tốc độ di chuyển trên các cánh đồng |
+| Tấn công | 1 | Sát thương cơ bản gây ra cho quái vật trên cánh đồng |
+| Thu thập | 10 | Phấn hoa thu thập được sau mỗi chu kỳ |
+| Chuyển đổi | 80 | Phấn hoa được chuyển đổi tại tổ |
+
+<Callout type="info" title="Quản lý vé">
+Hãy ưu tiên mua Tabby Bee và Photon Bee trước khi chi tiêu vé cho Festive Bee, vì chúng mang lại nhiều lợi ích tiến trình chơi đơn tức thì hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Khả năng và Nâng cấp Gifted">
+
+Hiểu cách kích hoạt và tận dụng các khả năng của Festive Bee là điều cần thiết để tối đa hóa tỷ lệ mật ong tạo ra mỗi giây của bạn. Chú ong này chuyên về duy trì cánh đồng và tăng sức mạnh (buff) hợp tác, tạo ra các mã thông báo (token) hỗ trợ cho cả bạn và đồng đội.
+
+Khả năng lớn đầu tiên là **Bom Đỏ (Red Bomb)**, giúp thu thập phấn hoa đỏ từ một cụm các khóm hoa xung quanh. Mặc dù điều này giúp dọn dẹp cánh đồng nhanh chóng, người chơi phải theo dõi dung lượng balo của mình, vì việc kích hoạt bom liên tục có thể làm đầy không gian chứa đồ nhanh hơn so với tốc độ chuyển đổi thông thường. Khả năng thứ hai là **Ký hiệu Mật ong (Honey Mark)**. Khả năng này tạo ra một vòng tròn màu vàng trên cánh đồng trong bảy giây. Đứng bên trong ký hiệu này sẽ cung cấp hai liên kết chuyển đổi và nhân tỷ lệ chuyển đổi của bạn lên 1,25 lần, cho phép bạn làm trống balo mà không cần quay lại tổ.
+
+Chiêu thức đặc trưng là **Quà tặng Lễ hội (Festive Gift)**. Khi được kích hoạt, chú ong sẽ thả một hộp quà mang lại phần thưởng cho mọi người chơi trên máy chủ. Chất lượng của những phần thưởng này tỷ lệ thuận với việc chú ong có phải là Gifted hay không và các sự kiện mùa giải có đang hoạt động hay không.
+
+| Khả năng | Kích hoạt | Hiệu ứng chính |
+| :--- | :--- | :--- |
+| Bom Đỏ | Ngẫu nhiên | Thu thập phấn hoa đỏ từ 13 khóm hoa lân cận |
+| Ký hiệu Mật ong | Ngẫu nhiên | Tạo ra vùng chuyển đổi với tỷ lệ x1,25 |
+| Quà tặng Lễ hội | Ngẫu nhiên | Rơi ra các mã thông báo chứa tài nguyên trên toàn máy chủ |
+
+Cho Festive Bee ăn một Bánh kẹo Sao (Star Treat) sẽ chuyển nó sang trạng thái Gifted. Việc mở khóa này cực kỳ có lợi cho các lối xây dựng thiên về màu đỏ (red-heavy), cung cấp hệ số nhân +15% Phấn hoa đỏ vĩnh viễn cho toàn bộ tổ ong của bạn. Ngoài ra, trạng thái Gifted sẽ nâng cấp kho vật phẩm của Quà tặng Lễ hội, tăng cơ hội nhận được các vật phẩm hiếm như kẹo dẻo (gumdrop), bánh kẹo (treat) và nguyên liệu chế tạo.
+
+<Callout type="success" title="Lợi ích của Gifted">
+Một chú Festive Bee dạng Gifted sẽ cải thiện đáng kể các máy chủ chơi mạng. Nếu nhiều người chơi cùng sở hữu Festive Bee dạng Gifted, tần suất xuất hiện quà tặng máy chủ cấp cao sẽ tăng lên đáng kể.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sự kết hợp và Chiến lược Tổ ong">
+
+Việc xác định vị trí của Festive Bee trong tổ ong của bạn phụ thuộc vào giai đoạn phát triển hiện tại và chuyên môn hóa màu sắc tổ ong mà bạn chọn. Mặc dù nó là một phần không thể thiếu đối với tổ ong hỗn hợp (mixed) và tổ ong đỏ (red), tổ ong xanh (blue) thường loại bỏ nó trong quá trình tối ưu hóa cuối game.
+
+<CardGrid cols={3}>
+  <Card title="Tổ ong Đầu game">
+    - **Chỉ số cân bằng**: Giúp duy trì tiến trình đồng đều trên tất cả các màu cánh đồng.
+    - **Tạo tài nguyên**: Cung cấp bánh kẹo và kẹo dẻo miễn phí để tiết kiệm vé.
+    - **Hỗ trợ máy chủ**: Hưởng lợi từ các đợt rơi quà của người chơi khác trong các sảnh công cộng.
+  </Card>
+  <Card title="Tổ ong Hỗn hợp Giữa game">
+    - **Liên kết chuyển đổi**: Giữ cho không gian balo luôn trống trong các phiên farm kéo dài.
+    - **Kết hợp bom**: Kết hợp tốt với các loài ong tạo bom đỏ và xanh khác.
+    - **Hiệu quả sử dụng vé**: Mang lại tiện ích cao so với mức giá 500 vé.
+  </Card>
+  <Card title="Tổ ong Đỏ Cuối game">
+    - **Hệ số nhân phấn hoa**: Phần thưởng +15% phấn hoa đỏ từ Gifted là cực kỳ thiết yếu.
+    - **Chuỗi bom**: Cung cấp các mã thông báo tăng cường đỏ (red boost token) để tối đa hóa sức chứa trên cánh đồng.
+    - **Chuyển đổi tức thì**: Hoạt động hiệu quả với các ký hiệu đỏ để thu được lượng mật ong tức thì khổng lồ.
+  </Card>
+</CardGrid>
+
+Đối với những người chơi vận hành Tổ ong Xanh chuyên biệt, Festive Bee thường bị thay thế ở giai đoạn cuối game. Tổ ong xanh phụ thuộc nhiều vào các chuỗi bom xanh và bong bóng (bubble bloat), khiến phần thưởng phấn hoa đỏ và bom đỏ phản tác dụng trong việc duy trì các mô hình cánh đồng sạch sẽ. Ngược lại, Tổ ong Đỏ phải giữ cho chú ong này hoạt động để duy trì tốc độ tạo mật ong cạnh tranh.
+
+| Loại tổ ong | Đánh giá sự kết hợp | Lý do chính |
+| :--- | :--- | :--- |
+| Tổ ong Đỏ | Xuất sắc | Tăng phấn hoa đỏ và kích hoạt các chuỗi bom đỏ |
+| Tổ ong Hỗn hợp | Tuyệt vời | Cung cấp các buff chuyển đổi và quà tặng cân bằng |
+| Tổ ong Xanh | Trung bình | Sự kết hợp thấp do chuyên môn hóa phấn hoa xanh |
+
+<Callout type="tip" title="Tối ưu hóa Tổ ong">
+Nếu bạn đang vận hành một tổ ong hỗn hợp, hãy giữ cho Festive Bee luôn hoạt động. Việc tạo ra các nguyên liệu chế tạo một cách thụ động từ Quà tặng Lễ hội sẽ bù đắp cho tổn thất nhỏ trong việc tối ưu hóa cánh đồng.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tối đa hóa sản lượng Quà tặng Lễ hội">
+
+Để tận dụng tối đa Festive Bee của bạn, bạn nên điều phối lối chơi của mình xoay quanh thời gian hồi chiêu của các khả năng và cơ chế trên toàn máy chủ. Hãy làm theo các bước sau để tối ưu hóa thiết lập của bạn.
+
+<Steps>
+  <Step num="1" title="Sở hữu và Định vị chú ong">
+    Đặt Festive Bee gần trung tâm sơ đồ tổ ong của bạn để giảm thiểu thời gian di chuyển cần thiết để nó tiếp cận bạn trên các cánh đồng.
+  </Step>
+  <Step num="2" title="Sử dụng Bánh kẹo Sao (Star Treat)">
+    Cho chú ong ăn một Bánh kẹo Sao để mở khóa trạng thái Gifted. Điều này sẽ nâng cấp vĩnh viễn bảng rơi quà, bổ sung các vật phẩm hiếm như kim tuyến (glitter) và thạch sao (star jelly).
+  </Step>
+  <Step num="3" title="Phối hợp với các thành viên trong máy chủ">
+    Chơi trong các máy chủ hoạt động tích cực cùng với những người dùng Festive Bee khác. Thời gian hồi quà chồng chéo lên nhau, cho phép người chơi thu thập quà liên tục để nhận các buff không ngừng nghỉ.
+  </Step>
+  <Step num="4" title="Tận dụng Ký hiệu Mật ong">
+    Luôn đứng bên trong các vòng tròn Ký hiệu Mật ong khi chúng xuất hiện trong lúc rơi quà để tối đa hóa tỷ lệ chuyển đổi tức thì của bạn trong khi thu thập vật phẩm.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cảnh báo dung lượng balo">
+Bom Đỏ có thể nhanh chóng làm đầy balo của bạn. Hãy chắc chắn rằng bạn đang đứng bên trong một Ký hiệu Mật ong hoặc sử dụng các bộ chuyển đổi siêu nhỏ (micro-converter) để tránh lãng phí phấn hoa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục tiêu Tiến trình và Thứ tự Ưu tiên">
+
+Khi lên kế hoạch chi tiêu vé, việc xếp hạng các Ong Sự kiện là rất quan trọng để đảm bảo bạn không bị đình trệ tiến trình của mình. Festive Bee rất có giá trị, nhưng nó nên được mua vào đúng thời điểm trong dòng thời gian phát triển của bạn.
+
+<Checklist
+  id="festive-bee-goals"
+  title="Các cột mốc tiến trình của Festive Bee:"
+  items={[
+    "Tích lũy 500 vé thông qua các nhiệm vụ và tiêu diệt quái vật",
+    "Mua Festive Bee từ Lều Vé",
+    "Biến chú ong thành Gifted bằng cách sử dụng Bánh kẹo Sao để mở khóa phần thưởng +15% Phấn hoa đỏ",
+    "Nâng cấp độ của chú ong để phù hợp với cấp độ trung bình của tổ giúp thu thập mã thông báo nhanh hơn"
+  ]}
+/>
+
+So với các lựa chọn khác, Puppy Bee thường được coi là có mức độ ưu tiên thấp hơn do nó chỉ tập trung vào phần thưởng liên kết bánh kẹo (treat bond). Festive Bee nằm ở vị trí thoải mái trong nhóm tầm trung, mang lại giá trị tức thì cho các tổ ong hỗn hợp.
+
+| Ong Sự kiện | Giá vé | Xếp hạng ưu tiên | Giai đoạn khuyến nghị |
+| :--- | :--- | :--- | :--- |
+| Tabby Bee | 500 | Thứ 1 | Đầu game |
+| Photon Bee | 500 | Thứ 2 | Đầu game |
+| Festive Bee | 500 | Thứ 3 | Giữa game |
+| Puppy Bee | 500 | Thứ 4 | Cuối game |
+
+<Callout type="info" title="Thời điểm sự kiện">
+Hãy chú ý đến các sự kiện mùa giải. Đôi khi, các Ong Sự kiện có thể kiếm được thông qua các chuỗi nhiệm vụ, giúp bạn tiết kiệm hàng trăm vé.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các câu hỏi thường gặp">
+
+Dưới đây là câu trả lời cho các câu hỏi phổ biến nhất liên quan đến thiết lập tổ ong và tối ưu hóa khả năng.
+
+<FAQ items={[
+  {
+    question: "Festive Bee trong Bee Swarm Simulator có đáng mua sớm không?",
+    answer: "Bạn rất nên mua nó sau khi đã sở hữu được Tabby Bee and Photon Bee. Hai chú ong này cung cấp các chỉ số chuyển đổi và thu thập phấn hoa vượt trội ở giai đoạn đầu game."
+  },
+  {
+    question: "Những vật phẩm nào có thể rơi ra từ Quà tặng Lễ hội?",
+    answer: "Quà tặng thông thường sẽ rơi ra mật ong, bánh kẹo và thỉnh thoảng là kẹo dẻo. Festive Bee dạng Gifted có thể rơi ra các vật phẩm hiếm như kim tuyến, chiết xuất đỏ (red extract) và thạch sao."
+  },
+  {
+    question: "Tổ ong xanh có nên giữ Festive Bee không?",
+    answer: "Nhìn chung, các tổ ong xanh sẽ loại bỏ nó ở giai đoạn cuối game để nhường chỗ cho các loài ong tạo màu xanh, vì khả năng bom đỏ có thể làm gián đoạn thiết lập cánh đồng xanh."
+  },
+  {
+    question: "Ký hiệu Mật ong mang lại lợi ích gì cho việc farm?",
+    answer: "Nó tạo ra một vùng cung cấp các liên kết chuyển đổi và tăng tỷ lệ chuyển đổi của bạn lên x1,25, cho phép bạn ở lại cánh đồng lâu hơn mà không cần quay lại tổ."
+  }
+]} />
+
+<Callout type="tip" title="Khuyến nghị cuối cùng">
+Đối với đại đa số người chơi, việc giữ một Festive Bee dạng Gifted trong tổ ong của bạn sẽ mang lại lợi ích lâu dài tuyệt vời thông qua việc tạo vật phẩm thụ động và sự hợp tác trên toàn máy chủ.
+</Callout>
+
+</Section>

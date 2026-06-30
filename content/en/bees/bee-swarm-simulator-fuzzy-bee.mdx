@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Fuzzy Bee: Stats, Abilities & Strategy Guide",
+  description: "Master the Fuzzy Bee in Bee Swarm Simulator. Learn about its unique pollination abilities, optimal field preferences, and how to maximize your honey production.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Fuzzy+Bee+Guide",
+  date: "2026-06-30",
+  author: "bee swarm simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Fuzzy Bee** is a powerful Mythic bee in Bee Swarm Simulator known for its unique pollination mechanics.
+- Its **Fuzzy Coat** passive allows it to pollinate flowers automatically, significantly boosting your yield.
+- It excels in **Dandelion Field** and **Pine Tree Forest** while struggling in the Pepper Patch.
+- Use **Fuzz Bombs** strategically to maintain high pollination coverage across your target fields.
+- Always aim to pair this bee with high-level gear to maximize its base pollen collection efficiency.
+</Callout>
+
+<Section icon={Target} title="Fuzzy Bee Overview and Stats">
+
+The Fuzzy Bee stands out as one of the most essential Mythic bees for late-game players. Unlike bees that focus purely on attack or direct honey collection, the Fuzzy Bee focuses on environmental manipulation to optimize your field output.
+
+<CardGrid cols={3}>
+  <Card title="Rarity">
+    Mythic
+  </Card>
+  <Card title="Color">
+    Colorless
+  </Card>
+  <Card title="Speed">
+    11.9
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+The Fuzzy Bee is the only bee capable of pollinating flowers without a Beequip, making it a cornerstone for players looking to upgrade flower tiers rapidly.
+</Callout>
+
+| Stat | Base Value | Notes |
+| --- | --- | --- |
+| Energy | 50 | Standard energy pool |
+| Attack | 3 | Not intended for combat |
+| Pollen | 100 | Collected in 6 seconds |
+| Honey | 40 | Produced in 6 seconds |
+
+</Section>
+
+<Section icon={Sparkles} title="Abilities and Mechanics">
+
+Understanding how to leverage the Fuzzy Bee's kit is vital for efficiency. Its abilities are designed to create a "haze" of pollination, turning standard flowers into high-yield targets.
+
+**Ability Breakdown:**
+
+| Ability | Effect |
+| --- | --- |
+| Fuzz Bombs | Spawns bombs that wander and pollinate flowers |
+| Buzz Bomb+ | Collects pollen from 29 surrounding flowers |
+| Pollen Haze | Gifted ability that pollinates 30 flowers/sec for 30s |
+| Fuzzy Coat | Passive that upgrades nearby flowers for faster growth |
+
+<Callout type="success" title="Efficiency Boost">
+When your Fuzzy Bee is gifted, the **Pollen Haze** ability becomes a game-changer. It automatically collects bomb tokens within the haze, creating a chain reaction of efficiency that keeps your backpack full.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Farming Strategy and Field Preferences">
+
+To get the most out of your Fuzzy Bee, you must place it in fields where it thrives. While it is versatile, its performance is significantly better in specific locations.
+
+**Field Affinity Table:**
+
+| Field | Preference |
+| --- | --- |
+| Dandelion Field | Favorite |
+| Pine Tree Forest | Favorite |
+| Pepper Patch | Dislike |
+
+<Steps>
+  <Step num="1" title="Positioning">
+    Place your Fuzzy Bee in a hive slot that allows it to benefit from your current pollen boosters.
+  </Step>
+  <Step num="2" title="Synchronization">
+    Time your other ability tokens to trigger alongside the Pollen Haze to maximize the collection multiplier.
+  </Step>
+  <Step num="3" title="Maintenance">
+    Ensure your Fuzzy Bee stays at a high level to scale its Fuzz Bomb multipliers effectively.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+Avoid using the Fuzzy Bee in the Pepper Patch, as its efficiency drops considerably compared to its favorite fields.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Development and Trivia">
+
+The Fuzzy Bee has a unique history in Bee Swarm Simulator. As the first Mythic bee introduced outside of the standard Beesmas event cycle, it carved its own path in the game's meta.
+
+**Historical Milestones:**
+
+| Milestone | Detail |
+| --- | --- |
+| Introduction Year | 2020 |
+| Mythic Status | First Mythic added post-launch |
+| Special Ability | First non-Event bee purchasable with Robux |
+
+<Checklist
+  id="fuzzy-bee-goals"
+  title="Fuzzy Bee Mastery Checklist:"
+  items={[
+    "Obtain a Fuzzy Bee via Royal Jelly or Eggs",
+    "Level up to at least level 12 for optimal stats",
+    "Gift the bee for the Pollen Haze ability",
+    "Equip relevant Beequips to further boost pollination"
+  ]}
+/>
+
+<Callout type="info" title="Trivia Fact">
+Fuzzy Bee's Fuzz Bombs can be popped by various tools, including the Petal Wand and even other players' abilities, making it a great team-play asset.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Fuzzy Bee worth the investment?",
+    answer: "Yes. In Bee Swarm Simulator, the Fuzzy Bee is essential for late-game honey production due to its ability to upgrade flower tiers."
+  },
+  {
+    question: "How do I get a Fuzzy Bee?",
+    answer: "You can obtain it by using Royal Jelly or hatching Mythic-capable eggs, though the probability is low."
+  },
+  {
+    question: "Does the Fuzzy Bee work in all fields?",
+    answer: "It works in all fields, but it is significantly more effective in the Dandelion Field and Pine Tree Forest."
+  },
+  {
+    question: "What is the best way to use Fuzz Bombs?",
+    answer: "Let them wander the field and trigger them using tools like the Petal Wand to maximize pollen collection."
+  }
+]} />
+
+</Section>

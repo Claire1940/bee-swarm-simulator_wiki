@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Abelha Felpuda (Fuzzy Bee) no Bee Swarm Simulator: Estatísticas, Habilidades e Guia de Estratégia",
+  description: "Domine a Abelha Felpuda (Fuzzy Bee) no Bee Swarm Simulator. Saiba mais sobre suas habilidades únicas de polinização, preferências de campo ideais e como maximizar sua produção de mel.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/4f46e5/fff?text=Fuzzy+Bee+Guide",
+  date: "2026-06-30",
+  author: "Equipe do Wiki de Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **Abelha Felpuda** (Fuzzy Bee) é uma poderosa abelha Mítica no Bee Swarm Simulator, conhecida por suas mecânicas de polinização únicas.
+- Sua passiva **Casaco Felpudo** (Fuzzy Coat) permite que ela polinize flores automaticamente, aumentando significativamente seu rendimento.
+- Ela se destaca no **Campo de Dente-de-Leão** (Dandelion Field) e na **Floresta de Pinheiros** (Pine Tree Forest), enquanto tem dificuldades no **Campo de Pimenta** (Pepper Patch).
+- Use as **Bombas Felpudas** (Fuzz Bombs) estrategicamente para manter uma alta cobertura de polinização nos campos desejados.
+- Sempre tente combinar esta abelha com equipamentos de alto nível para maximizar sua eficiência de coleta de pólen base.
+</Callout>
+
+<Section icon={Target} title="Visão Geral e Estatísticas da Abelha Felpuda">
+
+A Abelha Felpuda se destaca como uma das abelhas Míticas mais essenciais para jogadores no final do jogo (late-game). Ao contrário das abelhas que focam puramente em ataque ou coleta direta de mel, a Abelha Felpuda foca na manipulação ambiental para otimizar o rendimento do seu campo.
+
+<CardGrid cols={3}>
+  <Card title="Raridade">
+    Mítica
+  </Card>
+  <Card title="Cor">
+    Incolor
+  </Card>
+  <Card title="Velocidade">
+    11.9
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mestre">
+A Abelha Felpuda é a única abelha capaz de polinizar flores sem um Beequip, tornando-se fundamental para jogadores que desejam melhorar os níveis das flores rapidamente.
+</Callout>
+
+| Estatística | Valor Base | Notas |
+| --- | --- | --- |
+| Energia | 50 | Reserva de energia padrão |
+| Ataque | 3 | Não destinada ao combate |
+| Pólen | 100 | Coletado em 6 segundos |
+| Mel | 40 | Produzido em 6 segundos |
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades e Mecânicas">
+
+Entender como aproveitar o conjunto de habilidades da Abelha Felpuda é vital para a eficiência. Suas habilidades são projetadas para criar uma "névoa" de polinização, transformando flores comuns em alvos de alto rendimento.
+
+**Detalhamento das Habilidades:**
+
+| Habilidade | Efeito |
+| --- | --- |
+| Bombas Felpudas (Fuzz Bombs) | Gera bombas que flutuam e polinizam flores |
+| Bomba de Zumbido+ (Buzz Bomb+) | Coleta pólen de 29 flores ao redor |
+| Névoa de Pólen (Pollen Haze) | Habilidade de abelha Mutante (Gifted) que poliniza 30 flores/seg por 30s |
+| Casaco Felpudo (Fuzzy Coat) | Passiva que melhora as flores próximas para um crescimento mais rápido |
+
+<Callout type="success" title="Aumento de Eficiência">
+Quando sua Abelha Felpuda é Mutante (Gifted), a habilidade **Névoa de Pólen** (Pollen Haze) se torna um divisor de águas. Ela coleta automaticamente tokens de bomba dentro da névoa, criando uma reação em cadeia de eficiência que mantém sua mochila cheia.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégia de Farm e Preferências de Campo">
+
+Para obter o máximo de sua Abelha Felpuda, você deve colocá-la em campos onde ela prospere. Embora seja versátil, seu desempenho é significativamente melhor em locais específicos.
+
+**Tabela de Afinidade de Campo:**
+
+| Campo | Preferência |
+| --- | --- |
+| Campo de Dente-de-Leão (Dandelion Field) | Favorito |
+| Floresta de Pinheiros (Pine Tree Forest) | Favorito |
+| Campo de Pimenta (Pepper Patch) | Desgosta |
+
+<Steps>
+  <Step num="1" title="Posicionamento">
+    Coloque sua Abelha Felpuda em um slot de colmeia que permita que ela se beneficie de seus boosters de pólen atuais.
+  </Step>
+  <Step num="2" title="Sincronização">
+    Sincronize seus outros tokens de habilidade para serem ativados junto com a Névoa de Pólen para maximizar o multiplicador de coleta.
+  </Step>
+  <Step num="3" title="Manutenção">
+    Certifique-se de que sua Abelha Felpuda permaneça em um nível alto para dimensionar os multiplicadores de suas Bombas Felpudas de forma eficaz.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nota Importante">
+Evite usar a Abelha Felpuda no Campo de Pimenta (Pepper Patch), pois sua eficiência cai consideravelmente em comparação com seus campos favoritos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Desenvolvimento e Curiosidades">
+
+A Abelha Felpuda tem uma história única no Bee Swarm Simulator. Como a primeira abelha Mítica introduzida fora do ciclo padrão do evento de Natal (Beesmas), ela traçou seu próprio caminho no meta do jogo.
+
+**Marcos Históricos:**
+
+| Marco | Detalhe |
+| --- | --- |
+| Ano de Introdução | 2020 |
+| Status Mítico | Primeira Mítica adicionada após o lançamento |
+| Habilidade Especial | Primeira abelha não-Evento comprável com Robux |
+
+<Checklist
+  id="fuzzy-bee-goals"
+  title="Lista de Maestria da Abelha Felpuda:"
+  items={[
+    "Obtenha uma Abelha Felpuda usando Geleia Real ou Ovos",
+    "Suba o nível para pelo menos nível 12 para estatísticas ideais",
+    "Torne a abelha Mutante (Gifted) para obter a habilidade Névoa de Pólen",
+    "Equipe Beequips relevantes para aumentar ainda mais a polinização"
+  ]}
+/>
+
+<Callout type="info" title="Curiosidade">
+As Bombas Felpudas da Abelha Felpuda podem ser estouradas por várias ferramentas, incluindo a Varinha de Pétala (Petal Wand) e até mesmo habilidades de outros jogadores, tornando-a um excelente recurso para jogo em equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Vale a pena investir na Abelha Felpuda?",
+    answer: "Sim. No Bee Swarm Simulator, a Abelha Felpuda é essencial para a produção de mel no final do jogo devido à sua capacidade de melhorar os níveis das flores."
+  },
+  {
+    question: "Como obtenho uma Abelha Felpuda?",
+    answer: "Você pode obtê-la usando Geleia Real ou chocando ovos com chance de Mítica, embora a probabilidade seja baixa."
+  },
+  {
+    question: "A Abelha Felpuda funciona em todos os campos?",
+    answer: "Ela funciona em todos os campos, mas é significativamente mais eficaz no Campo de Dente-de-Leão e na Floresta de Pinheiros."
+  },
+  {
+    question: "Qual é a melhor maneira de usar as Bombas Felpudas?",
+    answer: "Deixe-as flutuar pelo campo e ative-as usando ferramentas como a Varinha de Pétala (Petal Wand) para maximizar a coleta de pólen."
+  }
+]} />
+
+</Section>
