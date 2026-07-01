@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Urso Panda no Bee Swarm Simulator: Guia de Missões e Recompensas",
+  description: "Domine a linha de missões do Urso Panda no Bee Swarm Simulator. Aprenda estratégias de combate, derrote criaturas, otimize o Desafio da Formiga e resgate recompensas de alto nível.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/ffffff?text=Panda+Bear+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki do Bee Swarm Simulator",
+  keywords: "bee swarm simulator, urso panda, missões, desafio da formiga, amuleto de formiga, combate"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Urso Panda** é o principal fornecedor de missões de combate, localizado ao lado da Floresta de Bambu.
+- **Foco em combate** é essencial, pois as missões exigem derrotar vários insetos hostis pelo mapa.
+- **O acesso ao Desafio da Formiga** é concedido pelo Urso Panda, fornecendo os cruciais Amuletos de Formiga.
+- **Biscoito Estelar** é a recompensa final por completar sua última grande missão.
+- **Abelha Viciosa** e Abelhas Raivosas são altamente recomendadas para acelerar a conclusão das missões.
+</Callout>
+
+<Section icon={Map} title="Localização e Visão Geral do Urso Panda">
+
+O Urso Panda é um personagem não jogável (NPC) crucial no Bee Swarm Simulator que guia os jogadores através das mecânicas de combate do jogo. Localizado logo ao lado da Floresta de Bambu e do Campo da Aranha, você deve passar pelo Portão de 10 Abelhas para alcançá-lo. Ao contrário de outros NPCs que focam principalmente na coleta de pólen, o Urso Panda desafia a força, defesa e capacidades ofensivas da sua colmeia, encarregando você de derrotar várias criaturas hostis.
+
+**Destaques do Vídeo:**
+- Demonstração da conclusão das missões sazonais de Beesmas do Urso Panda.
+- Dicas sobre como gerenciar a composição da colmeia para uma caça eficiente.
+- Localização das principais criaturas durante a linha de missões.
+- Passo a passo visual das recompensas de combate e sequência de diálogos.
+
+<YouTubeEmbed videoId="v-55SADz1MU" title="Completando a Missão de Beesmas do Urso Panda no Bee Swarm Simulator" />
+
+Interagir com o Urso Panda é essencial para qualquer jogador que queira transicionar do início para o meio do jogo. Suas missões incentivam você a explorar diferentes campos onde insetos hostis aparecem, ajudando você a entender os tempos de renascimento (respawn) e as mecânicas das criaturas. Além disso, ele guarda a entrada para o Desafio da Formiga, um minijogo que recompensa os jogadores com poderosos amuletos que aumentam atributos.
+
+| Recurso | Detalhes |
+| :--- | :--- |
+| Requisito de Portão | Portão de 10 Abelhas |
+| Localização | Ao lado da Floresta de Bambu e do Campo da Aranha |
+| Função Primária | Missões de Combate e Acesso ao Desafio da Formiga |
+| Recompensas Principais | Passes de Formiga, Biscoito Estelar, Buffs de Combate |
+
+<Callout type="info" title="Básico do Renascimento de Criaturas">
+Criaturas hostis só aparecem quando um jogador entra em seu campo específico. Se uma criatura não estiver presente, verifique seu cronômetro de renascimento ou certifique-se de estar diretamente no campo para ativar o surgimento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progressão de Missões e Estratégias de Combate">
+
+A linha de missões do Urso Panda no Bee Swarm Simulator consiste em 30 missões principais, além de missões de eventos sazonais, como as do Beesmas. Cada missão aumenta em dificuldade, exigindo que você derrote criaturas mais fortes em maiores quantidades. Para ter sucesso, você deve otimizar a composição da sua colmeia para maximizar o dano de ataque e as chances de acerto crítico.
+
+Para enfrentar esses desafios de forma eficiente, os jogadores devem categorizar sua abordagem com base no seu nível de progressão atual:
+
+<CardGrid cols={3}>
+  <Card title="Táticas de Início de Jogo">
+    - Foque em Joaninhas e Besouros
+    - Use abelhas de ataque básico como a Abelha Brava
+    - Mantenha suas abelhas no nível 5, pelo menos
+  </Card>
+  <Card title="Táticas de Meio de Jogo">
+    - Foque em Aranhas e Lobisomens
+    - Adicione Abelhas Raivosas e Abelhas Comandantes
+    - Suba o nível da sua colmeia para 8 ou 9
+  </Card>
+  <Card title="Táticas de Fim de Jogo">
+    - Derrote o Besouro Rei e o Caranguejo de Coco
+    - Utilize a Abelha Viciosa para espinhos
+    - Foque em nível de colmeia 12 ou superior
+  </Card>
+</CardGrid>
+
+Derrotar criaturas requer paciência e compreensão de seus ciclos de renascimento. Utilizar tokens gerados por suas abelhas, como tokens de Raiva (que aumentam o ataque das abelhas) e tokens de Foco (que aumentam a chance de acerto crítico), reduzirá significativamente o tempo necessário para completar essas missões.
+
+| Nome da Criatura | Localização | Tempo de Renascimento | Pontos de Vida |
+| :--- | :--- | :--- | :--- |
+| Joaninha | Cogumelo, Morango, Trevo | 5 Minutos | 30 |
+| Besouro Rinoceronte | Bambu, Flor Azul, Abacaxi | 5 Minutos | 40 |
+| Aranha | Campo da Aranha | 30 Minutos | 120 |
+| Lobisomem | Caverna do Lobisomem (perto da Abóbora) | 1 Hora | 300 |
+
+<Callout type="warning" title="Cuidado com sua Vida">
+Criaturas hostis causam dano direto ao seu personagem se tocarem em você. Mantenha distância e deixe suas abelhas lutarem, especialmente ao lidar com o Lobisomem ou formigas de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo para o Desafio da Formiga">
+
+Após completar as missões iniciais do Urso Panda, ele concede acesso ao Desafio da Formiga. Este desafio é um minijogo em estilo arena onde você deve derrotar ondas de formigas dentro de um limite de tempo estrito. Quanto maior sua pontuação, melhor será o Amuleto de Formiga que você receberá ao final da partida.
+
+<Steps>
+  <Step num="1" title="Obtenha Passes de Formiga">
+    Colete Passes de Formiga nas missões diárias repetíveis do Urso Panda, resgate-os no dispensador de passes ou compre-os usando Bilhetes.
+  </Step>
+  <Step num="2" title="Prepare sua Colmeia">
+    Antes de entrar, certifique-se de que suas abelhas estejam descansadas e que você tenha buffs de combate ativos, como Extrato Vermelho, Extrato Azul ou Ferroadas.
+  </Step>
+  <Step num="3" title="Esquive e Ataque">
+    Dentro da arena, mova-se constantemente para evitar as trilhas de fogo deixadas pelas Formigas de Fogo e os cortadores de grama gigantes que atravessam o campo.
+  </Step>
+  <Step num="4" title="Resgate seu Amuleto">
+    Assim que o tempo expirar ou seu personagem perder toda a vida, fale com o Urso Panda para resgatar seu novo Amuleto de Formiga, substituindo o antigo se os atributos forem superiores.
+  </Step>
+</Steps>
+
+Otimizar seu desempenho no Desafio da Formiga requer um equilíbrio entre coletar pólen para manter suas abelhas ativas e focar puramente em derrotar as ondas que chegam. O uso de uma Abelha Viciosa é altamente recomendado aqui, pois sua habilidade de espinho pode limpar grupos inteiros de formigas instantaneamente.
+
+| Nível do Amuleto | Pontuação Necessária | Principais Aumentos de Atributos |
+| :--- | :--- | :--- |
+| Bronze | 1 - 49 | Taxa de Conversão, Ataque de Abelha |
+| Prata | 50 - 99 | Chance Crítica, Pólen Vermelho/Azul |
+| Ouro | 100 - 149 | Velocidade do Jogador, Capacidade |
+| Diamante | 150 - 249 | Poder Crítico, Pólen Branco |
+| Supremo | 250+ | Todo Pólen, Pólen de Habilidade |
+
+<Callout type="tip" title="Gerenciamento de Ferroadas">
+Use Ferroadas durante o Desafio da Formiga apenas se estiver perto de alcançar um novo recorde ou mudar para um nível de amuleto superior. Economizar Ferroadas para capturar a Abelha Viciosa ou chefes selvagens é geralmente mais eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas e Marcos das Missões do Urso Panda">
+
+Completar missões para o Urso Panda recompensa você com recursos valiosos, incluindo Mel, Geleias Reais, Bilhetes e Passes de Formiga. O objetivo final da linha de missões é completar a "Missão Final do Urso Panda", que recompensa você com um cobiçado Biscoito Estelar. Este item é usado para transformar qualquer abelha em sua versão Dotada, desbloqueando poderosos bônus de colmeia.
+
+Para manter o ritmo, monitore sua progressão em relação a estes marcos principais:
+
+<Checklist
+  id="panda-bear-milestones"
+  title="Checklist de Progressão do Urso Panda:"
+  items={[
+    "Completar as primeiras 5 missões para desbloquear o Desafio da Formiga",
+    "Derrotar seu primeiro Lobisomem na Caverna do Lobisomem",
+    "Adquirir um Amuleto de Formiga de Prata na Arena de Formigas",
+    "Alcançar a Missão 30 e resgatar a recompensa do Biscoito Estelar"
+  ]}
+/>
+
+Lembre-se de que a dificuldade do combate aumenta rapidamente. Se você tiver dificuldade para derrotar as criaturas dentro dos limites de tempo ou antes que seu personagem morra, foque em subir o nível das suas abelhas usando guloseimas ou use mutações para poder de ataque extra.
+
+| Nome da Missão | Objetivo Primário | Recompensa Principal |
+| :--- | :--- | :--- |
+| Caçador de Insetos 1 | Derrotar 5 Joaninhas | 1 Passe de Formiga |
+| Matador de Aranhas | Derrotar 3 Aranhas | 1 Geleia Real |
+| Domador de Lobisomens | Derrotar 2 Lobisomens | 3 Passes de Formiga |
+| Missão Final do Panda | Derrotar 500 Criaturas | 1 Biscoito Estelar |
+
+<Callout type="success" title="Prioridade para Abelhas Dotadas">
+Quando você finalmente obtiver o Biscoito Estelar do Urso Panda, priorize usá-lo em Abelhas de Evento, como a Abelha Malhada (Tabby Bee) ou Abelha Fóton, pois elas não podem se tornar dotadas através de Geleias Reais normais ou guloseimas favoritas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde o Urso Panda está localizado no Bee Swarm Simulator?",
+    answer: "O Urso Panda está localizado atrás do Portão de 10 Abelhas, logo ao lado da Floresta de Bambu e da entrada do Campo da Aranha."
+  },
+  {
+    question: "Como consigo mais Passes de Formiga para o Desafio da Formiga?",
+    answer: "Você pode obter Passes de Formiga completando as missões repetíveis do Urso Panda, resgatando-os no dispensador gratuito perto de sua localização a cada 2 horas ou comprando-os com Bilhetes."
+  },
+  {
+    question: "Qual é a melhor recompensa da linha de missões do Urso Panda?",
+    answer: "A melhor recompensa é o Biscoito Estelar, que é concedido ao completar a 30ª e última missão do Urso Panda. Este item torna qualquer abelha Dotada."
+  },
+  {
+    question: "Como derroto o Lobisomem rapidamente para as missões do Urso Panda?",
+    answer: "Para derrotar o Lobisomem rapidamente, atraia-o para a borda da caverna para que suas abelhas possam atacá-lo continuamente e use uma Abelha Viciosa ou Abelhas Raivosas para aumentar o dano da sua colmeia."
+  }
+]} />
+
+<Callout type="info" title="Preparação Final">
+Antes de iniciar sua próxima missão de combate, certifique-se de que sua colmeia esteja bem alimentada e que você tenha coletado guloseimas suficientes para subir o nível dos seus atacantes mais fracos. Abelhas de nível superior erram menos ataques contra criaturas de nível alto.
+</Callout>
+
+</Section>

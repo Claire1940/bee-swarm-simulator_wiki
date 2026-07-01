@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bee Swarm Simulator Retro Swarm: Challenge Walkthrough & Strategy",
+  description: "Master the Bee Swarm Simulator Retro Swarm challenge with our expert guide. Learn optimal build orders, gear progression, and team tactics for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Retro+Swarm+Guide",
+  date: "2026-07-01",
+  author: "bee swarm simulator Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Bee Swarm Simulator Retro Swarm** requires precise resource management and strategic gear purchasing.
+- Prioritize **Classic Sword**, **Firebrand**, and **Alumina** to maximize your damage output during early waves.
+- Avoid purchasing extra bees too early; focus on **swords and food buffs** for better progression.
+- Coordinate with a **full team of four** to tackle higher-level waves effectively.
+- Use **bricks** to stall enemies and create defensive barriers while you farm or attack.
+</Callout>
+
+<Section icon={Map} title="Retro Swarm Fundamentals">
+
+The Retro Swarm challenge in Bee Swarm Simulator is a high-intensity mode that demands a departure from standard gameplay loops. Success hinges on your ability to balance mob clearing with efficient resource collection.
+
+**Video Highlights:**
+- Optimal early-game bee and gear acquisition strategy.
+- Advanced combat techniques for multi-mob clearing.
+- Detailed progression path for sword and food upgrades.
+
+<YouTubeEmbed videoId="PeyobZN-k3U" title="Retro Challenge Complete Guide Bee Swarm Simulator" />
+
+In this mode, your primary currency is bricks. Rather than focusing on honey production immediately, you must prioritize purchasing weapons that allow you to clear mobs faster, which in turn generates more bricks.
+
+<Callout type="tip" title="Strategic Movement">
+Always rotate your camera while swinging your sword. This allows you to hit multiple zombies or slimes simultaneously, significantly increasing your clear speed during dense waves.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Progression Path">
+
+Your weapon choice is the most critical factor in surviving the later stages of the Retro Swarm challenge. Follow this specific order to maintain your damage-to-wave ratio.
+
+| Item | Cost | Benefit |
+| :--- | :--- | :--- |
+| Classic Sword | Low | Essential for early-game mob clearing |
+| Firebrand | 300 Bricks | High damage, one-shots basic zombies |
+| Alumina | 1,500 Bricks | Massive damage, handles slimes efficiently |
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    Focus on purchasing your first three bees and the Classic Sword. Do not invest in more bees yet.
+  </Card>
+  <Card title="Mid Game">
+    Upgrade to the Firebrand. Use your downtime to break brick blooms and collect pollen.
+  </Card>
+  <Card title="Late Game">
+    Secure the Alumina sword. This allows you to one-shot almost everything up to round 9.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Efficiency Warning">
+Do not waste bricks on non-essential items early on. Saving for the Alumina is the fastest way to reach higher rounds.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wave Survival Strategy">
+
+Navigating waves requires a mix of aggressive combat and defensive positioning. Use the following steps to maximize your efficiency during active combat phases.
+
+<Steps>
+  <Step num="1" title="Initial Spawn Control">
+    Position yourself where mobs spawn to immediately start clearing them before they spread out.
+  </Step>
+  <Step num="2" title="Barrier Deployment">
+    Continuously place bricks to build walls, stalling enemies and protecting your team.
+  </Step>
+  <Step num="3" title="Buff Management">
+    Consume food items like Pizza and Cheeseburgers to gain critical attack and pollen buffs.
+  </Step>
+  <Step num="4" title="Final Push">
+    In rounds 15+, focus entirely on survival and wall placement while your team handles the primary damage.
+  </Step>
+</Steps>
+
+| Target Wave | Recommended Gear | Strategy Focus |
+| :--- | :--- | :--- |
+| 1-5 | Classic Sword | Rapid collection |
+| 6-10 | Firebrand | Aggressive clearing |
+| 11-15 | Alumina | Team coordination |
+| 16-20 | Trowel/Bees | Defensive stalling |
+
+</Section>
+
+<Section icon={Trophy} title="Essential Milestones">
+
+To ensure you are on track, refer to this checklist of goals for each run. Consistency is key to reaching the higher-tier rewards.
+
+<Checklist
+  id="retro-swarm-goals"
+  title="Run Progression Checklist:"
+  items={[
+    "Purchase initial 3 bees immediately",
+    "Acquire Firebrand before round 5",
+    "Secure Alumina sword by round 10",
+    "Complete the 4 food upgrades",
+    "Reach round 20 for marshmallow bees"
+  ]}
+/>
+
+<Callout type="success" title="Pro Strategy">
+If you possess a Supreme Star Amulet with the Saw Star passive, use it. It allows you to deal area-of-effect damage while simultaneously collecting bricks, which is invaluable in late-game rounds.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is it better to buy bees early in the Retro Swarm challenge?",
+    answer: "No. You should only buy your first three bees to start, then prioritize weapons like the Classic Sword, Firebrand, and Alumina before investing in more bees."
+  },
+  {
+    question: "What is the best way to use bricks?",
+    answer: "Use them to buy essential gear upgrades first. In between waves, use them to build defensive walls that stall mobs and make them easier to manage."
+  },
+  {
+    question: "How do I get the most out of the Alumina sword?",
+    answer: "The Alumina sword is most effective when the entire team uses it. Coordinating with teammates ensures that you can one-shot mobs collectively, making higher rounds much easier."
+  }
+]} />
+
+</Section>

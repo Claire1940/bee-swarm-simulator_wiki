@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gấu Trúc Panda Bear trong Bee Swarm Simulator: Hướng dẫn Nhiệm vụ & Phần thưởng",
+  description: "Chinh phục chuỗi nhiệm vụ Panda Bear trong Bee Swarm Simulator. Tìm hiểu các chiến thuật chiến đấu, tiêu diệt quái, tối ưu hóa Thử thách Kiến (Ant Challenge) và nhận các phần thưởng cao cấp.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e3a8a/ffffff?text=Panda+Bear+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Bee Swarm Simulator"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Panda Bear** là người giao nhiệm vụ chiến đấu chính, nằm ngay cạnh Rừng Tre (Bamboo Forest).
+- **Tập trung vào chiến đấu** là điều cần thiết, vì các nhiệm vụ yêu cầu bạn phải tiêu diệt nhiều loại côn trùng hung dữ khác nhau trên bản đồ.
+- Quyền tham gia **Thử thách Kiến (Ant Challenge)** được cấp bởi Panda Bear, mang lại các Bùa hộ mệnh Kiến (Ant Amulets) cực kỳ quan trọng.
+- **Bánh quy Ngôi sao (Star Treat)** là phần thưởng tối thượng khi hoàn thành nhiệm vụ lớn cuối cùng của ông ấy.
+- Bạn nên sử dụng **Ong Độc ác (Vicious Bee)** và Ong Thịnh nộ (Rage Bee) để tăng tốc độ hoàn thành nhiệm vụ.
+</Callout>
+
+<Section icon={Map} title="Vị trí và Tổng quan về Panda Bear">
+
+Panda Bear là một nhân vật không thể nhập vai (NPC) vô cùng quan trọng trong Bee Swarm Simulator (Trình mô phỏng bầy ong), người sẽ hướng dẫn người chơi qua các cơ chế chiến đấu của trò chơi. Nằm ngay cạnh Rừng Tre (Bamboo Forest) và Cánh đồng Nhện (Spider Field), bạn phải đi qua Cổng 10 Ong (10-Bee Gate) để gặp ông ấy. Không giống như những người giao nhiệm vụ khác chủ yếu tập trung vào việc thu thập phấn hoa, Panda Bear thử thách sức mạnh, khả năng phòng thủ và tấn công của tổ ong của bạn bằng cách yêu cầu bạn tiêu diệt nhiều loại quái vật hung dữ khác nhau.
+
+**Điểm nhấn trong Video:**
+- Trình diễn cách hoàn thành các nhiệm vụ Beesmas theo mùa của Panda Bear.
+- Mẹo quản lý đội hình tổ ong để săn quái hiệu quả.
+- Hiển thị vị trí của các quái vật chính trong chuỗi nhiệm vụ.
+- Hướng dẫn trực quan về phần thưởng chiến đấu và chuỗi đối thoại.
+
+<YouTubeEmbed videoId="v-55SADz1MU" title="Hoàn thành nhiệm vụ Beesmas của Panda Bear trong bản cập nhật Beesmas của Bee Swarm Simulator" />
+
+Tương tác với Panda Bear là điều cần thiết cho bất kỳ người chơi nào muốn chuyển đổi từ giai đoạn đầu game sang giữa game. Các nhiệm vụ của ông ấy khuyến khích bạn khám phá các cánh đồng khác nhau nơi quái vật hung dữ xuất hiện, giúp bạn hiểu rõ hơn về thời gian hồi sinh và cơ chế của quái vật. Ngoài ra, ông ấy còn canh giữ lối vào Thử thách Kiến (Ant Challenge), một trò chơi nhỏ mang lại cho người chơi những bùa hộ mệnh tăng chỉ số mạnh mẽ.
+
+| Tính năng | Chi tiết |
+| :--- | :--- |
+| Yêu cầu Cổng | Cổng 10 Ong (10 Bee Gate) |
+| Vị trí | Cạnh Rừng Tre (Bamboo Forest) và Cánh đồng Nhện (Spider Field) |
+| Chức năng chính | Nhiệm vụ chiến đấu và Lối vào Thử thách Kiến |
+| Phần thưởng chính | Vé Kiến (Ant Passes), Bánh quy Ngôi sao (Star Treat), Tăng chỉ số chiến đấu |
+
+<Callout type="info" title="Cơ bản về sự xuất hiện của Quái vật">
+Quái vật hung dữ chỉ xuất hiện khi người chơi bước vào cánh đồng cụ thể của chúng. Nếu không thấy quái vật, hãy kiểm tra thời gian hồi sinh của nó hoặc đảm bảo rằng bạn đang đứng trực tiếp trên cánh đồng để kích hoạt sự xuất hiện của chúng.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tiến trình Nhiệm vụ và Chiến thuật Chiến đấu">
+
+Chuỗi nhiệm vụ Panda Bear trong Bee Swarm Simulator gồm 30 nhiệm vụ chính, cùng với các nhiệm vụ sự kiện theo mùa như trong dịp Beesmas. Mỗi nhiệm vụ sẽ tăng dần độ khó, yêu cầu bạn phải tiêu diệt những quái vật mạnh hơn với số lượng lớn hơn. Để thành công, bạn phải tối ưu hóa đội hình tổ ong của mình nhằm tối đa hóa sát thương tấn công và tỷ lệ chí mạng.
+
+Để giải quyết những thử thách này một cách hiệu quả, người chơi nên phân loại cách tiếp cận dựa trên cấp độ tiến trình hiện tại của mình:
+
+<CardGrid cols={3}>
+  <Card title="Chiến thuật Đầu game">
+    - Tập trung vào Bọ rùa (Ladybugs) và Bọ cánh cứng (Beetles)
+    - Sử dụng các ong tấn công cơ bản như Ong Dũng cảm (Brave Bee)
+    - Giữ cấp độ của ong ở mức tối thiểu là cấp 5
+  </Card>
+  <Card title="Chiến thuật Giữa game">
+    - Nhắm vào Nhện (Spiders) và Người sói (Werewolves)
+    - Thêm Ong Thịnh nộ (Rage Bee) và Ong Chỉ huy (Commander Bee)
+    - Nâng cấp tổ ong lên cấp 8 hoặc 9
+  </Card>
+  <Card title="Chiến thuật Cuối game">
+    - Tiêu diệt Vua Bọ cánh cứng (King Beetle) và Cua Dừa (Coconut Crab)
+    - Sử dụng Ong Độc ác (Vicious Bee) để tạo gai
+    - Hướng tới cấp độ tổ ong từ 12 trở lên
+  </Card>
+</CardGrid>
+
+Tiêu diệt quái vật đòi hỏi sự kiên nhẫn và hiểu biết về chu kỳ hồi sinh của chúng. Việc tận dụng các mã thông báo (tokens) do ong của bạn tạo ra, chẳng hạn như mã Thịnh nộ (Rage tokens - giúp tăng tấn công của ong) và mã Tập trung (Focus tokens - giúp tăng tỷ lệ chí mạng), sẽ giảm đáng kể thời gian cần thiết để hoàn thành các nhiệm vụ này.
+
+| Tên Quái vật | Vị trí | Thời gian hồi sinh | Điểm máu (HP) |
+| :--- | :--- | :--- | :--- |
+| Bọ rùa (Ladybug) | Nấm (Mushroom), Dâu tây (Strawberry), Cỏ ba lá (Clover) | 5 Phút | 30 |
+| Bọ sừng tê (Rhino Beetle) | Tre (Bamboo), Hoa xanh (Blue Flower), Dứa (Pineapple) | 5 Phút | 40 |
+| Nhện (Spider) | Cánh đồng Nhện (Spider Field) | 30 Phút | 120 |
+| Người sói (Werewolf) | Hang Người sói (gần Bí ngô) | 1 Giờ | 300 |
+
+<Callout type="warning" title="Chú ý Thanh máu của bạn">
+Quái vật hung dữ sẽ gây sát thương trực tiếp lên nhân vật của bạn nếu chúng chạm vào bạn. Hãy giữ khoảng cách và để ong của bạn chiến đấu, đặc biệt là khi đối phó với Người sói hoặc kiến cấp cao.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn từng bước tham gia Thử thách Kiến">
+
+Sau khi hoàn thành các nhiệm vụ ban đầu của Panda Bear, ông ấy sẽ cấp cho bạn quyền tham gia Thử thách Kiến (Ant Challenge). Thử thách này là một trò chơi nhỏ kiểu đấu trường, nơi bạn phải tiêu diệt các làn sóng kiến trong một khoảng thời gian giới hạn nghiêm ngặt. Điểm số của bạn càng cao, bạn sẽ nhận được Bùa hộ mệnh Kiến (Ant Amulet) càng tốt khi kết thúc lượt chơi.
+
+<Steps>
+  <Step num="1" title="Nhận Vé Kiến (Ant Passes)">
+    Thu thập Vé Kiến từ các nhiệm vụ lặp lại hàng ngày của Panda Bear, nhận chúng từ máy phát vé miễn phí hoặc mua bằng Vé (Tickets).
+  </Step>
+  <Step num="2" title="Chuẩn bị Tổ ong của bạn">
+    Trước khi vào, hãy đảm bảo ong của bạn đã được nghỉ ngơi đầy đủ và bạn đã kích hoạt các bùa tăng sức mạnh chiến đấu như Chiết xuất Đỏ (Red Extract), Chiết xuất Xanh (Blue Extract) hoặc Ngòi ong (Stingers).
+  </Step>
+  <Step num="3" title="Né tránh và Tấn công">
+    Bên trong đấu trường, hãy di chuyển liên tục để tránh các vệt lửa do Kiến Lửa (Fire Ants) để lại và những chiếc máy cắt cỏ khổng lồ quét qua cánh đồng.
+  </Step>
+  <Step num="4" title="Nhận Bùa hộ mệnh của bạn">
+    Khi hết thời gian hoặc nhân vật của bạn hết máu, hãy nói chuyện với Panda Bear để nhận Bùa hộ mệnh Kiến mới của bạn, thay thế bùa cũ nếu các chỉ số vượt trội hơn.
+  </Step>
+</Steps>
+
+Tối ưu hóa hiệu suất của bạn trong Thử thách Kiến đòi hỏi sự cân bằng giữa việc thu thập phấn hoa để giữ cho ong của bạn hoạt động và chỉ tập trung vào việc tiêu diệt các đợt quái vật tràn vào. Sử dụng Ong Độc ác (Vicious Bee) được khuyến khích cao ở đây, vì kỹ năng tạo gai của nó có thể dọn sạch toàn bộ nhóm kiến ngay lập tức.
+
+| Bậc Bùa hộ mệnh | Điểm yêu cầu | Chỉ số tăng chính |
+| :--- | :--- | :--- |
+| Đồng (Bronze) | 1 - 49 | Tốc độ chuyển đổi, Tấn công của ong |
+| Bạc (Silver) | 50 - 99 | Tỷ lệ chí mạng, Phấn hoa Đỏ/Xanh |
+| Vàng (Gold) | 100 - 149 | Tốc độ di chuyển của người chơi, Sức chứa |
+| Kim cương (Diamond) | 150 - 249 | Sát thương chí mạng, Phấn hoa Trắng |
+| Tối thượng (Supreme) | 250+ | Tất cả phấn hoa, Phấn hoa từ kỹ năng |
+
+<Callout type="tip" title="Quản lý Ngòi ong (Stinger)">
+Chỉ sử dụng Ngòi ong trong Thử thách Kiến nếu bạn sắp đạt được điểm cao mới hoặc chuyển sang bậc bùa hộ mệnh cao hơn. Việc tiết kiệm Ngòi ong để bắt Ong Độc ác (Vicious Bee) hoặc tiêu diệt các boss hoang dã thường mang lại hiệu quả cao hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Phần thưởng và Cột mốc Nhiệm vụ Panda Bear">
+
+Hoàn thành các nhiệm vụ của Panda Bear sẽ thưởng cho bạn những tài nguyên quý giá, bao gồm Mật ong (Honey), Sữa ong chúa (Royal Jellies), Vé (Tickets) and Vé Kiến (Ant Passes). Mục tiêu cuối cùng của chuỗi nhiệm vụ là hoàn thành "Nhiệm vụ cuối cùng của Panda Bear", phần thưởng là một chiếc Bánh quy Ngôi sao (Star Treat) vô cùng quý giá. Vật phẩm này được sử dụng để biến bất kỳ chú ong nào thành phiên bản Được tặng (Gifted), mở khóa các chỉ số thưởng mạnh mẽ cho toàn bộ tổ ong.
+
+Để đi đúng hướng, hãy theo dõi tiến trình của bạn dựa trên các cột mốc quan trọng sau:
+
+<Checklist
+  id="panda-bear-milestones"
+  title="Danh sách kiểm tra tiến trình Panda Bear:"
+  items={[
+    "Hoàn thành 5 nhiệm vụ đầu tiên để mở khóa Thử thách Kiến",
+    "Tiêu diệt Người sói đầu tiên của bạn trong Hang Người sói",
+    "Nhận Bùa hộ mệnh Kiến Bạc từ Đấu trường Kiến",
+    "Đạt đến Nhiệm vụ 30 và nhận phần thưởng Bánh quy Ngôi sao"
+  ]}
+/>
+
+Hãy lưu ý rằng độ khó chiến đấu tăng lên rất nhanh. Nếu bạn thấy mình gặp khó khăn trong việc tiêu diệt quái vật trong giới hạn thời gian hoặc trước khi nhân vật của bạn bị hạ gục, hãy tập trung vào việc nâng cấp ong bằng cách sử dụng thức ăn (treats), hoặc đột biến chúng để có thêm sức mạnh tấn công.
+
+| Tên Nhiệm vụ | Mục tiêu chính | Phần thưởng lớn |
+| :--- | :--- | :--- |
+| Thợ săn bọ 1 (Bug Hunter 1) | Tiêu diệt 5 Bọ rùa | 1 Vé Kiến |
+| Sát thủ diệt Nhện (Spider Slayer) | Tiêu diệt 3 Nhện | 1 Sữa ong chúa |
+| Thợ săn Người sói (Werewolf Wrangler) | Tiêu diệt 2 Người sói | 3 Vé Kiến |
+| Nhiệm vụ cuối cùng của Panda | Tiêu diệt 500 Quái vật | 1 Bánh quy Ngôi sao |
+
+<Callout type="success" title="Thứ tự ưu tiên Ong Được tặng (Gifted Bee)">
+Khi bạn cuối cùng nhận được Bánh quy Ngôi sao từ Panda Bear, hãy ưu tiên sử dụng nó cho các Ong Sự kiện (Event Bees) như Ong Mèo (Tabby Bee) hoặc Ong Photon (Photon Bee), vì chúng không thể trở thành dạng Được tặng thông qua Sữa ong chúa thông thường hoặc thức ăn yêu thích.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Panda Bear nằm ở đâu trong Bee Swarm Simulator?",
+    answer: "Panda Bear nằm phía sau Cổng 10 Ong (10-Bee Gate), đứng ngay cạnh Rừng Tre (Bamboo Forest) và lối vào Cánh đồng Nhện (Spider Field)."
+  },
+  {
+    question: "Làm thế nào để lấy thêm Vé Kiến (Ant Passes) cho Thử thách Kiến?",
+    answer: "Bạn có thể nhận Vé Kiến bằng cách hoàn thành các nhiệm vụ lặp lại của Panda Bear, nhận từ máy phát miễn phí gần vị trí của ông ấy mỗi 2 giờ, hoặc mua bằng Vé (Tickets)."
+  },
+  {
+    question: "Phần thưởng tốt nhất từ chuỗi nhiệm vụ Panda Bear trong Bee Swarm Simulator là gì?",
+    answer: "Phần thưởng tốt nhất là Bánh quy Ngôi sao (Star Treat), được trao khi hoàn thành nhiệm vụ thứ 30 và cũng là nhiệm vụ cuối cùng của Panda Bear. Vật phẩm này giúp biến bất kỳ chú ong nào thành dạng Được tặng (Gifted)."
+  },
+  {
+    question: "Làm thế nào để tiêu diệt Người sói nhanh chóng cho các nhiệm vụ của Panda Bear?",
+    answer: "Để tiêu diệt Người sói nhanh chóng, hãy dụ nó ra rìa hang để ong của bạn có thể tấn công liên tục, và sử dụng Ong Độc ác (Vicious Bee) hoặc Ong Thịnh nộ (Rage Bees) để tăng sát thương đầu ra của tổ ong."
+  }
+]} />
+
+<Callout type="info" title="Chuẩn bị cuối cùng">
+Trước khi bắt đầu nhiệm vụ chiến đấu tiếp theo, hãy đảm bảo rằng tổ ong của bạn đã được cho ăn đầy đủ và bạn đã thu thập đủ thức ăn để nâng cấp những chú ong tấn công yếu nhất của mình. Ong cấp cao hơn sẽ ít bị trượt mục tiêu hơn khi đối đầu với quái vật cấp cao.
+</Callout>
+
+</Section>
